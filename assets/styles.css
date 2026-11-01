@@ -201,7 +201,7 @@
 .home-refresh .thumb-stay{background-image:url("https://images.unsplash.com/photo-1609137929473-680b60780d64?auto=format&fit=crop&w=900&q=78")}
 .home-refresh .thumb-transit{background-image:url("https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=900&q=78")}
 .home-refresh .thumb-luggage{background-image:url("https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=78")}
-.home-refresh .thumb-ktx{background-image:url("https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=900&q=78")}
+.home-refresh .thumb-ktx{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/KTX%20(Korea%20Train%20eXpress).jpg?width=1200")}.home-refresh .thumb-food{background:linear-gradient(135deg,#f4c98b,#c76c46)}.home-refresh .thumb-food .thumb-symbol{color:#6d2d20}.home-refresh .photo-credit{font-size:9px;line-height:1.5;color:var(--muted);margin:-8px 0 12px}.home-refresh .photo-credit a{color:inherit}
 .home-refresh .thumb-pass{background-image:url("https://images.unsplash.com/photo-1700277841882-d83a303048ea?auto=format&fit=crop&w=900&q=78")}
 .home-refresh .coming-card{overflow:hidden;border-radius:12px;box-shadow:0 8px 28px #172e3108;transition:transform .25s ease,box-shadow .25s ease}
 .home-refresh .coming-card:hover{box-shadow:0 18px 40px #172e3118;transform:translateY(-4px)}
