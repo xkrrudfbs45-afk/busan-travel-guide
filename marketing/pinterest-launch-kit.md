@@ -49,3 +49,20 @@ Purpose: Organic discovery. These are ready-to-publish pin drafts, not proof tha
 - The visual must match the destination article. Do not imply that an illustration is a documentary photograph.
 - Use the canonical page with UTM parameters as the pin destination; keep the UTM naming consistent.
 - Publishing these drafts still requires a user or authorized integration to post them to Pinterest.
+
+
+## Pin 6 — First-time Busan guide
+- Destination: https://go2busan.com/guides/busan-first-time-guide/?utm_source=pinterest&utm_medium=organic_social&utm_campaign=busan_guide&utm_content=first_time_guide
+- Pin title: First Time in Busan? Start With These 6 Travel Tips
+- Overlay text: FIRST TIME IN BUSAN?
+- Description: Planning your first Busan trip? Start with the right neighborhood, airport transfer, transit card, a flexible 3-day route and local food tips. Use this practical guide to make your arrival and itinerary easier.
+- Alt text: A travel-planning pin for first-time visitors to Busan, covering neighborhoods, transport, itinerary planning and local food.
+- Status: Draft — not published.
+
+## Pin 7 — Rainy-day Busan guide
+- Destination: https://go2busan.com/guides/busan-rainy-day-guide/?utm_source=pinterest&utm_medium=organic_social&utm_campaign=busan_guide&utm_content=rainy_day_guide
+- Pin title: What to Do in Busan When It Rains
+- Overlay text: RAINY DAY IN BUSAN
+- Description: Rain in the forecast? Keep your Busan plans flexible with indoor attractions, food stops, covered shopping areas and practical transport tips. Check opening hours and weather conditions before heading out.
+- Alt text: A rainy-day Busan travel guide with ideas for indoor activities, local food and flexible itinerary planning.
+- Status: Draft — not published.
