@@ -110,3 +110,57 @@
 @media(max-width:680px){.home-refresh .guide-thumb{height:126px}.home-refresh .guide-card-copy{padding:17px}.home-refresh .coming-card h3{font-size:18px}.home-refresh .guide-meta{font-size:8px!important}.home-refresh .coming-grid{grid-template-columns:1fr}.home-refresh .feature-content{padding:22px}}
 
 .home-refresh .thumb-pass{background:linear-gradient(135deg,#dbeafe,#a7f3d0)}
+
+
+/* Go2Busan visual upgrade: replace flat hero art with real Busan photography */
+.home-refresh .hero-art{
+  background-image:linear-gradient(180deg,#0f172a08 35%,#0f172a75 100%),url("https://images.unsplash.com/photo-1609137929473-680b60780d64?auto=format&fit=crop&w=1800&q=85");
+  background-size:cover;
+  background-position:center 53%;
+  min-height:420px;
+  border-radius:22px;
+  box-shadow:0 28px 70px #0f172a24;
+  transform:translateZ(0);
+}
+.home-refresh .hero-art>div:not(.art-label){display:none}
+.home-refresh .hero-art .art-label{
+  left:22px;bottom:21px;
+  padding:10px 13px;
+  border:1px solid #ffffff55;
+  border-radius:999px;
+  background:#0f172a55;
+  color:#fff;
+  font-size:9px;
+  letter-spacing:.15em;
+  backdrop-filter:blur(8px);
+}
+.home-refresh .hero{gap:clamp(35px,5vw,66px);padding-top:62px;padding-bottom:68px}
+.home-refresh .hero h1{font-size:clamp(43px,5vw,66px);line-height:1.04;letter-spacing:-.065em}
+.home-refresh .hero-intro{font-size:15px;max-width:430px}
+.home-refresh .brand{font-size:15px;letter-spacing:-.045em}
+.home-refresh .brand-mark{width:37px;height:37px;font-size:13px;letter-spacing:-.06em}
+.home-refresh .feature-image{
+  background-image:linear-gradient(180deg,#0f172a05 35%,#0f172a65 100%),url("https://images.unsplash.com/photo-1700277841882-d83a303048ea?auto=format&fit=crop&w=1400&q=80");
+  background-size:cover;background-position:center 55%;
+}
+.home-refresh .feature-image:after{background:linear-gradient(180deg,transparent 40%,#0f172a35)}
+.home-refresh .airport-sun,.home-refresh .airport-runway,.home-refresh .airport-terminal{display:none}
+.home-refresh .feature-tag{bottom:20px;left:20px}
+.home-refresh .trust-strip{background:#fff;border-color:#e2e8f0}
+.home-refresh .trust-icon{border-radius:12px;background:#eff6ff;border-color:#dbeafe}
+.home-refresh .section-heading{margin-bottom:27px}
+.home-refresh .section-heading h2{max-width:580px}
+.home-refresh .coming-card{box-shadow:0 8px 24px #0f172a06}
+.home-refresh .coming-card:hover{transform:translateY(-5px);box-shadow:0 18px 38px #0f172a12}
+.home-refresh .guide-thumb{isolation:isolate}
+.home-refresh .guide-thumb:before{width:210px;height:210px;right:-42px;bottom:-125px;background:#ffffff35;border-color:#ffffff65}
+.home-refresh .guide-thumb:after{width:130px;height:130px;right:28px;bottom:-82px;background:#ffffff35}
+.home-refresh .thumb-symbol{font-size:58px;text-shadow:0 8px 20px #1e3a8a14}
+.home-refresh .closing-band{background:linear-gradient(115deg,#10233f,#1d4ed8 72%,#3478ed)}
+@media(max-width:800px){
+  .home-refresh .hero-art{min-height:330px;height:330px}
+}
+@media(max-width:520px){
+  .home-refresh .hero-art{min-height:255px;height:255px;border-radius:17px}
+  .home-refresh .hero{padding-top:34px}
+}
