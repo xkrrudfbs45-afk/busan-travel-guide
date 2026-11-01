@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: busan-travel-guide
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeploy: true
