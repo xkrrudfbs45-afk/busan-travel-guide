@@ -65,5 +65,7 @@ These are directional allocations only. Reallocate effort based on measured resu
 
 ## First actions completed in this iteration
 - Added a focused airport-to-Haeundae route guide with a unique canonical URL, metadata, breadcrumb structured data, official transport reference, Pinterest share link, and contextual internal links.
-- Next code pass should add the new guide to the sitemap and homepage and link to it from the broader airport guide.
+- Added the new guide to the sitemap and homepage and cross-linked it from the broader airport-arrival guide.
+- Updated the homepage Twitter card to use a large-image preview.
+- The latest GitHub commit was deployed to Render and reported live.
 - Actual Pinterest account publishing and analytics configuration remain dependent on account access / valid tracking configuration.
