@@ -1,4 +1,4 @@
-# Busan, Made Easier — Early Traffic Copy Kit
+# Go2Busan — Early Traffic Copy Kit
 
 Use these as drafts, not as claims of personal experience. Do not post affiliate links in community spaces unless their current rules clearly allow it. The r/KoreaTravel community's published guidance prohibits self-promotion, so the Reddit draft below is intentionally useful on its own and contains no website link.
 
@@ -20,7 +20,7 @@ The official place to verify the train, station and current ticket rules is Kora
 
 What part of the Seoul–Busan trip did you find hardest to plan: booking, payment, station navigation or luggage?
 
-**Posting note:** Search the subreddit first to avoid duplicating a recent thread. Keep the post self-contained and answer follow-up questions genuinely. Do not add a link to Busan, Made Easier unless moderators explicitly permit it; do not pretend to be a traveler if you are posting as a site publisher.
+**Posting note:** Search the subreddit first to avoid duplicating a recent thread. Keep the post self-contained and answer follow-up questions genuinely. Do not add a link to Go2Busan unless moderators explicitly permit it; do not pretend to be a traveler if you are posting as a site publisher.
 
 ## 2. Pinterest Pin — KTX booking
 
@@ -29,7 +29,7 @@ What part of the Seoul–Busan trip did you find hardest to plan: booking, payme
 **Pin description:**
 Planning a trip from Seoul to Busan? Use this practical checklist to compare the official Korail booking site with third-party platforms, check the departure station printed on your ticket, prepare for boarding and plan for luggage. Ticket availability, sale windows and rules can change, so verify your travel date on Korail's official English site before booking.
 
-**Suggested destination URL:** https://busan-travel-guide-5rc0.onrender.com/guides/ktx-booking-guide/
+**Suggested destination URL:** https://go2busan.com/guides/ktx-booking-guide/
 
 **Suggested image overlay:** SEOUL → BUSAN / KTX BOOKING CHECKLIST
 
@@ -42,7 +42,7 @@ Planning a trip from Seoul to Busan? Use this practical checklist to compare the
 **Pin description:**
 Arriving at Busan Station before hotel check-in or leaving after checkout? Compare luggage storage with luggage delivery before you book. Check the exact branch, drop-off and collection hours, bag-size rules, delivery area and current price. Service availability and terms can vary, so confirm details with the operator and Busan City's visitor information before you rely on a specific location.
 
-**Suggested destination URL:** https://busan-travel-guide-5rc0.onrender.com/guides/zimcarry-busan-station/
+**Suggested destination URL:** https://go2busan.com/guides/zimcarry-busan-station/
 
 **Suggested image overlay:** BUSAN STATION / LUGGAGE STORAGE & DELIVERY
 
