@@ -66,3 +66,12 @@ Purpose: Organic discovery. These are ready-to-publish pin drafts, not proof tha
 - Description: Rain in the forecast? Keep your Busan plans flexible with indoor attractions, food stops, covered shopping areas and practical transport tips. Check opening hours and weather conditions before heading out.
 - Alt text: A rainy-day Busan travel guide with ideas for indoor activities, local food and flexible itinerary planning.
 - Status: Draft — not published.
+
+
+## Pin 8 — Where to eat in Busan by neighborhood
+- Destination: https://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=pinterest&utm_medium=organic_social&utm_campaign=busan_guide&utm_content=food_by_neighborhood
+- Pin title: Where to Eat in Busan: A Neighborhood Food Guide
+- Overlay text: EAT YOUR WAY AROUND BUSAN
+- Description: Planning food stops in Busan? Match pork soup, street snacks and market seafood with the neighborhood you are already exploring. This practical guide helps you plan meals without crossing the city all day. Check current hours, menus and prices before visiting.
+- Alt text: A Busan local-food planning guide organized by neighborhoods including Seomyeon, Nampo-dong, Jagalchi and Haeundae.
+- Status: Draft — not published.
