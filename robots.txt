@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://busan-travel-guide-5rc0.onrender.com/sitemap.xml
