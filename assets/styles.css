@@ -108,3 +108,5 @@
 .home-refresh .button-light{background:#fff;color:#1d4ed8}
 .home-refresh .text-link{color:#1d4ed8;border-color:#bfdbfe}
 @media(max-width:680px){.home-refresh .guide-thumb{height:126px}.home-refresh .guide-card-copy{padding:17px}.home-refresh .coming-card h3{font-size:18px}.home-refresh .guide-meta{font-size:8px!important}.home-refresh .coming-grid{grid-template-columns:1fr}.home-refresh .feature-content{padding:22px}}
+
+.home-refresh .thumb-pass{background:linear-gradient(135deg,#dbeafe,#a7f3d0)}
