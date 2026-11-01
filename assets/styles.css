@@ -416,3 +416,13 @@
 .footer-disclosure a{text-underline-offset:3px}
 .affiliate-disclosure{margin:20px 0;padding:16px 18px;border:1px solid var(--line);border-left:3px solid var(--teal);border-radius:10px;background:#fffdf8;color:var(--muted);font-size:14px;line-height:1.65}
 .affiliate-disclosure strong{color:var(--ink)}
+
+/* Homepage quick-answer section */
+.home-faq{padding:44px 0 48px}
+.home-faq>h2{margin:4px 0 22px;font-size:clamp(1.7rem,3vw,2.25rem);letter-spacing:-.03em}
+.home-faq-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.home-faq-grid>div{padding:20px;border:1px solid var(--line);border-radius:16px;background:var(--white)}
+.home-faq-grid h3{margin:0 0 10px;font-size:1.05rem;line-height:1.35}
+.home-faq-grid p{margin:0 0 14px;color:var(--muted);font-size:.94rem;line-height:1.65}
+.home-faq-grid a{font-weight:700;color:var(--teal-dark);text-underline-offset:3px}
+@media(max-width:760px){.home-faq-grid{grid-template-columns:1fr}.home-faq{padding:32px 0}}
