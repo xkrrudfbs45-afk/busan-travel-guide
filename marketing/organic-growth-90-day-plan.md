@@ -103,3 +103,23 @@ The following changes were committed to the site repository. They are implementa
 - Publish the seven Pinterest drafts first, then add the two new guides as separate pins. These remain drafts until manually published.
 - After 2–4 weeks of impressions, prioritize pages with high impressions but low CTR for title/description tests; prioritize pages with impressions but low average position for content depth and internal links.
 - Do not claim any visitor target has been reached without analytics data. GA4 remains disabled until a real Measurement ID is configured.
+
+
+## Local-positioning and content-cluster update — 2026-11-02
+
+### Implemented
+- Added `/guides/busan-neighborhood-food-guide/` as a neighborhood-led entry point for food searches.
+- Added a homepage card and a visible local-food FAQ with matching FAQPage structured data.
+- Added the new URL to the XML sitemap.
+- Linked the new guide from the local food, Jagalchi, accommodation, first-time visitor, rainy-day and three-day itinerary pages.
+- Updated relevant guide footers to reinforce the site's Busan-based local-food and neighborhood focus.
+
+### Why this cluster matters
+The aim is to connect informational searches (what to eat, where to eat, market pricing) with planning searches (where to stay, how to group sights, how to move around). This may improve discovery and onward navigation, but it is a hypothesis until Search Console and analytics data show results.
+
+### Measurement checklist
+1. After deployment, check the new URL with Search Console URL Inspection and request indexing.
+2. After 14 days, compare impressions, clicks, CTR and average position for the new page and the existing local-food/Jagalchi pages.
+3. After 28 days, identify queries with impressions but low CTR and revise titles/descriptions only where the page genuinely answers that intent.
+4. Track internal-link clicks and affiliate clicks separately; do not treat outbound clicks as visits or revenue.
+5. Do not claim visitor growth until reliable analytics data is available. GA4 remains inactive while the measurement ID is blank.
