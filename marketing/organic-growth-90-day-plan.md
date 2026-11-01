@@ -69,3 +69,37 @@ These are directional allocations only. Reallocate effort based on measured resu
 - Updated the homepage Twitter card to use a large-image preview.
 - The latest GitHub commit was deployed to Render and reported live.
 - Actual Pinterest account publishing and analytics configuration remain dependent on account access / valid tracking configuration.
+
+
+## Implementation log — November 2, 2026
+The following changes were committed to the site repository. They are implementation records, not claims of traffic gains; traffic impact must be measured after deployment and indexing.
+
+1. Published a new evergreen first-time visitor guide with links to accommodation, transit, airport, itinerary, food and pass guides.
+2. Published a rainy-day Busan guide built around flexible indoor planning and safe weather decisions.
+3. Added both new guide URLs to the XML sitemap with last-modified dates.
+4. Added a first-time visitor guide card to the homepage's main guide grid.
+5. Added a rainy-day guide card to the homepage's main guide grid.
+6. Changed the homepage topic tile to lead directly to the first-time visitor guide.
+7. Added visible homepage quick answers for trip length, accommodation area and airport transfer planning.
+8. Added FAQ structured data matching the visible homepage quick answers.
+9. Refined the homepage meta description around actual guide topics and planning intent.
+10. Aligned the homepage Open Graph title with the visible page title instead of using an overbroad “Ultimate” claim.
+11. Aligned homepage Open Graph and Twitter descriptions with the meta description.
+12. Added responsive styles for the homepage quick-answer section, including a one-column mobile layout.
+13. Changed the 3-day itinerary Twitter card to large-image format.
+14. Changed the accommodation guide Twitter card to large-image format.
+15. Changed the public transport guide Twitter card to large-image format.
+16. Changed the late-arrival airport guide Twitter card to large-image format.
+17. Changed the Visit Busan Pass guide Twitter card to large-image format.
+18. Changed the luggage storage guide Twitter card to large-image format.
+19. Changed the KTX booking guide Twitter card to large-image format.
+20. Changed the Zimcarry luggage guide Twitter card to large-image format.
+21. Changed the local food guide Twitter card to large-image format.
+22. Changed the Jagalchi Market guide Twitter card to large-image format.
+
+### Next actions to maximize organic traffic
+- Confirm the latest commit is deployed, then verify both new URLs return HTTP 200 and have self-referencing canonical URLs.
+- In Search Console, inspect both new URLs and request indexing; check sitemap processing and coverage after Google recrawls.
+- Publish the seven Pinterest drafts first, then add the two new guides as separate pins. These remain drafts until manually published.
+- After 2–4 weeks of impressions, prioritize pages with high impressions but low CTR for title/description tests; prioritize pages with impressions but low average position for content depth and internal links.
+- Do not claim any visitor target has been reached without analytics data. GA4 remains disabled until a real Measurement ID is configured.
