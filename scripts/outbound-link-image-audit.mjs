@@ -32,7 +32,7 @@ for (const file of htmlFiles) {
     const imgTag = coverBody.match(/<img\b[^>]*>/i);
     const src = imgTag ? attr(imgTag[0], "src") : "";
     const caption = (coverBody.match(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/i) || [])[1] || "";
-    if (/Wikimedia Commons/i.test(caption) && !/commons\.wikimedia\.org/i.test(src)) {
+    if (/Wikimedia Commons/i.test(caption) && !/(^|\/\/)(commons\.wikimedia\.org|upload\.wikimedia\.org\/wikipedia\/commons)\//i.test(src)) {
       add("WARN", file, "Cover caption credits Wikimedia Commons but the displayed image URL is not from Wikimedia Commons");
     }
     if (/Unsplash/i.test(caption) && !/images\.unsplash\.com/i.test(src)) {
@@ -44,7 +44,8 @@ for (const file of htmlFiles) {
       const normalize = (value) => {
         try {
           const url = new URL(value, "https://go2busan.com/");
-          return url.origin + url.pathname;
+          // assets/<name>-og.png is the raster social-preview export of assets/<name>.svg.
+          return url.origin + url.pathname.replace(/-og\.png$/i, ".svg");
         } catch { return value; }
       };
       if (normalize(src) !== normalize(ogImage)) {
@@ -69,9 +70,11 @@ for (const file of htmlFiles) {
     if (partner) partnerLinks.push({ file, partner, href, tag, html });
     if (attr(tag, "target").toLowerCase() === "_blank") {
       const rel = attr(tag, "rel").toLowerCase().split(/\s+/);
-      if (!rel.includes("noopener") || !rel.includes("noreferrer")) {
+      // noopener (or noreferrer, which implies it) closes the window.opener hole.
+      // noreferrer is not required: affiliate partners may use the referrer for attribution.
+      if (!rel.includes("noopener") && !rel.includes("noreferrer")) {
         externalBlankLinks.push({ file, href });
-        add("WARN", file, "External target=_blank link should include rel=\"noopener noreferrer\": " + href);
+        add("WARN", file, "External target=_blank link should include rel=\"noopener\": " + href);
       }
     }
   }
