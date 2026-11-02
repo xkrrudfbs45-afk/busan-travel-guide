@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title"><title id="title">Go2Busan icon</title><rect width="64" height="64" rx="15" fill="#fff"/><path d="M5 37L19 24 28 31 39 16 50 28 59 33" fill="none" stroke="#123f87" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 43Q15 36 26 43T48 43T60 42L55 50Q43 49 32 53T8 51Z" fill="#1684e8"/><path d="M4 53Q15 48 26 53T48 53T60 52" fill="none" stroke="#123f87" stroke-width="2.5" stroke-linecap="round"/><path d="M39 16V7M35 11H43" stroke="#123f87" stroke-width="3" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title id="title">Go2Busan</title>
+<rect width="64" height="64" rx="16" fill="#f8fbff"/>
+<path d="M8 37 Q20 29 32 37 T56 37" fill="none" stroke="#1684e8" stroke-width="5" stroke-linecap="round"/>
+<path d="M8 47 Q20 39 32 47 T56 47" fill="none" stroke="#80c9f5" stroke-width="4" stroke-linecap="round"/>
+<path d="M10 30 Q32 8 54 30" fill="none" stroke="#f97362" stroke-width="4" stroke-linecap="round"/>
+<path d="M10 30V36 M54 30V36 M18 25H46" fill="none" stroke="#f97362" stroke-width="3" stroke-linecap="round"/>
+<path d="M19 15 Q25 8 31 15 Q37 8 43 15" fill="none" stroke="#123f87" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
