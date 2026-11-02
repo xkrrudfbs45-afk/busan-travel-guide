@@ -6,7 +6,7 @@ import { join } from "node:path";
 
 const ROOT = process.cwd();
 const SKIP = new Set([".git", "node_modules", "public", "docs", "marketing", "scripts"]);
-const LABELS = { "日本語": "ja", "繁體中文": "zh-TW", "English": "en" };
+const LABELS = { "日本語": "ja", "繁體中文": "zh-TW", "English": "en", "EN": "en" };
 const HOME = { ja: "/ja/", "zh-TW": "/zh-tw/", en: "/" };
 
 function walk(dir, out = []) {
@@ -32,7 +32,7 @@ for (const file of walk(ROOT)) {
     const href = (tag.match(/href="([^"]+)"/) || [])[1];
     if (lang && href) alts[lang] = toPath(href);
   }
-  for (const m of html.matchAll(/<a[^>]*href="([^"]*)"[^>]*>(日本語|繁體中文|English)<\/a>/g)) {
+  for (const m of html.matchAll(/<a[^>]*href="([^"]*)"[^>]*>(日本語|繁體中文|English|EN)<\/a>/g)) {
     checked++;
     const target = toPath(m[1]);
     const lang = LABELS[m[2]];
