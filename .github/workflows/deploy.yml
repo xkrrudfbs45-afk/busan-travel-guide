@@ -1,0 +1,109 @@
+name: Deploy to Render
+
+# Standard production deploy path:
+# push to main -> "Technical SEO audit" (build + audits) succeeds -> this workflow
+# calls the Render Deploy Hook -> waits until https://go2busan.com/version.txt shows
+# the same commit -> smoke-tests key URLs.
+# Render's own Auto-Deploy should stay Off so this is the only deploy trigger.
+
+on:
+  workflow_run:
+    workflows: ["Technical SEO audit"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read # Required to verify a successful Technical SEO audit during workflow_dispatch.
+
+# One production deploy at a time; a queued run waits instead of cancelling a live deploy.
+concurrency:
+  group: production-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy main after CI
+    runs-on: ubuntu-latest
+    # Deploy only when the required CI run succeeded for a push to main
+    # (never for pull requests, scheduled audits or failed runs).
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push' &&
+       github.event.workflow_run.head_branch == 'main')
+    env:
+      SITE: https://go2busan.com
+      SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
+    steps:
+      - name: Require the deploy hook secret
+        env:
+          HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::error::Repository secret RENDER_DEPLOY_HOOK_URL is not set; nothing was deployed."
+            exit 1
+          fi
+
+      - name: Manual runs must target a commit with a green CI run
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ok=$(gh api "repos/${{ github.repository }}/actions/workflows/seo-audit.yml/runs?head_sha=$SHA&status=success" --jq '.total_count')
+          if [ "${ok:-0}" -lt 1 ]; then
+            echo "::error::No successful 'Technical SEO audit' run for $SHA; refusing to deploy."
+            exit 1
+          fi
+
+      - name: Skip if a newer main commit exists or this commit is already live
+        id: gate
+        run: |
+          latest=$(git ls-remote "https://github.com/${{ github.repository }}.git" refs/heads/main | cut -f1)
+          live=$(curl -fsS --max-time 20 "$SITE/version.txt?ts=$(date +%s)" 2>/dev/null | tr -d '[:space:]' || true)
+          echo "CI commit:   $SHA"
+          echo "main HEAD:   $latest"
+          echo "live commit: ${live:-unknown}"
+          if [ "$latest" != "$SHA" ]; then
+            echo "A newer commit is on main; its own CI run will deploy it."
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          elif [ "$live" = "$SHA" ]; then
+            echo "This commit is already live."
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger Render deploy
+        if: steps.gate.outputs.deploy == 'true'
+        env:
+          HOOK: ${{ secrets.RENDER_DEPLOY_HOOK_URL }}
+        run: |
+          code=$(curl -sS -o /dev/null -w '%{http_code}' -X POST --max-time 30 "$HOOK")
+          echo "Deploy hook HTTP status: $code"
+          case "$code" in 2??) ;; *) echo "::error::Render deploy hook returned $code"; exit 1 ;; esac
+
+      - name: Wait until the live site serves this commit
+        if: steps.gate.outputs.deploy == 'true'
+        run: |
+          for i in $(seq 1 40); do
+            live=$(curl -fsS --max-time 20 "$SITE/version.txt?ts=$(date +%s)" 2>/dev/null | tr -d '[:space:]' || true)
+            if [ "$live" = "$SHA" ]; then echo "Live commit matches $SHA"; exit 0; fi
+            echo "[$i/40] live=${live:-none}; waiting..."
+            sleep 15
+          done
+          echo "::error::Live site did not report $SHA within 10 minutes. Check Render > Deploys; roll back there if the site is broken."
+          exit 1
+
+      - name: Smoke-test production
+        if: steps.gate.outputs.deploy == 'true'
+        run: |
+          fail=0
+          check() { code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$SITE$1?ts=$(date +%s)"); [ "$code" = "$2" ] && echo "ok   $code $1" || { echo "FAIL $code $1 (expected $2)"; fail=1; }; }
+          for p in / /ja/ /zh-tw/ /guides/ /sitemap.xml /robots.txt /assets/js/analytics.js /privacy.html; do check "$p" 200; done
+          for p in /marketing/organic-growth-90-day-plan.md /README.md /render.yaml /docs/affiliate-cta-template.html; do check "$p" 404; done
+          urls=$(curl -fsS "$SITE/sitemap.xml?ts=$(date +%s)" | grep -o '<loc>[^<]*' | sed 's/<loc>//')
+          n=0; for u in $urls; do n=$((n+1)); code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$u"); [ "$code" = 200 ] || { echo "FAIL $code $u"; fail=1; }; done
+          echo "Sitemap URLs checked: $n"
+          exit $fail
