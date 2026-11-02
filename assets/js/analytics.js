@@ -1,63 +1,274 @@
 /**
- * Go2Busan analytics bootstrap
- *
- * Setup: replace the empty GA4_MEASUREMENT_ID with the real Measurement ID
- * from the Go2Busan GA4 web data stream (format: G-XXXXXXXXXX).
- * Tracking stays disabled while the value is empty or still a placeholder.
- *
- * If consent is legally required for your audience, connect this bootstrap to
- * a consent-management flow before enabling GA4. Do not put secrets here.
+ * Go2Busan privacy-first analytics.
+ * GA4 loads only after a visitor explicitly opts in.
  */
 (() => {
   'use strict';
 
-  const GA4_MEASUREMENT_ID = '';
+  const GA4_MEASUREMENT_ID = 'G-JCYV49BXQZ';
+  const CONSENT_KEY = 'go2busan_analytics_consent';
   const validMeasurementId = /^G-[A-Z0-9]{6,}$/i.test(GA4_MEASUREMENT_ID);
+  if (!validMeasurementId) return;
 
-  if (!validMeasurementId) {
-    // Deliberately fail closed: no GA request is made with a fake ID.
-    return;
+  let analyticsLoaded = false;
+  let analyticsEnabled = false;
+  let trackingHandlersRegistered = false;
+
+  const language = (document.documentElement.lang || 'en').toLowerCase();
+  const copy = language.startsWith('ja')
+    ? {
+        title: 'プライバシー設定',
+        body: 'サイトの改善に役立てるため、任意のアクセス解析を利用できます。許可しない場合もサイトは通常どおり利用できます。',
+        accept: '解析を許可',
+        reject: '許可しない',
+        privacy: 'プライバシーポリシー',
+        choices: '解析設定を変更',
+        disclosure: '提携リンクについて'
+      }
+    : (language.includes('zh-tw') || language.includes('zh-hant')
+      ? {
+          title: '隱私設定',
+          body: '您可以選擇允許網站使用分析，以協助改善本站。拒絕後仍可正常使用本站。',
+          accept: '允許分析',
+          reject: '拒絕',
+          privacy: '隱私權政策',
+          choices: '變更分析設定',
+          disclosure: '聯盟行銷揭露'
+        }
+      : {
+          title: 'Your privacy choices',
+          body: 'Optional analytics help us improve this travel guide. You can reject analytics and still use the site normally.',
+          accept: 'Allow analytics',
+          reject: 'Reject',
+          privacy: 'Privacy policy',
+          choices: 'Change analytics choices',
+          disclosure: 'Affiliate disclosure'
+        });
+
+  function saveChoice(value) {
+    try {
+      window.localStorage.setItem(CONSENT_KEY, value);
+    } catch (_) {
+      // The choice still applies for this page if storage is unavailable.
+    }
   }
 
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { window.dataLayer.push(arguments); }
-  window.gtag = window.gtag || gtag;
+  function clearAnalyticsCookies() {
+    const names = document.cookie.split(';')
+      .map((part) => part.trim().split('=')[0])
+      .filter((name) => /^(_ga($|_)|_gid$|_gat($|_)|_gcl_au$)/.test(name));
+    const domains = [null, window.location.hostname, 'go2busan.com', '.go2busan.com'];
+    const uniqueDomains = domains.filter((domain, index) => domains.indexOf(domain) === index);
+    names.forEach((name) => {
+      uniqueDomains.forEach((domain) => {
+        let cookie = name + '=; Max-Age=0; path=/; SameSite=Lax';
+        if (domain) cookie += '; domain=' + domain;
+        if (window.location.protocol === 'https:') cookie += '; Secure';
+        document.cookie = cookie;
+      });
+    });
+  }
 
-  const gaScript = document.createElement('script');
-  gaScript.async = true;
-  gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' +
-    encodeURIComponent(GA4_MEASUREMENT_ID);
-  document.head.appendChild(gaScript);
+  function gtagWrapper() {
+    const command = arguments[0];
+    if (command === 'event' && !analyticsEnabled) return;
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(arguments);
+  }
 
-  window.gtag('js', new Date());
-  window.gtag('config', GA4_MEASUREMENT_ID);
-
-  const classifyAffiliate = (href) => {
-    try {
-      const host = new URL(href, window.location.href).hostname.toLowerCase();
-      if (host === 'klook.com' || host.endsWith('.klook.com')) return 'klook';
-      if (host === 'agoda.com' || host.endsWith('.agoda.com')) return 'agoda';
-    } catch (_) {
-      return null;
+  function updateConsent(granted) {
+    analyticsEnabled = Boolean(granted);
+    window['ga-disable-' + GA4_MEASUREMENT_ID] = !analyticsEnabled;
+    if (analyticsLoaded && typeof window.gtag === 'function') {
+      window.gtag('consent', 'update', {
+        analytics_storage: analyticsEnabled ? 'granted' : 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+      });
     }
-    return null;
-  };
+    if (!analyticsEnabled) clearAnalyticsCookies();
+  }
+
+  function registerTrackingHandlers() {
+    if (trackingHandlersRegistered) return;
+    trackingHandlersRegistered = true;
+
+    document.addEventListener('click', (event) => {
+      if (!analyticsEnabled || typeof window.gtag !== 'function') return;
+      const target = event.target;
+      const link = target && target.closest ? target.closest('a[href]') : null;
+      if (!link) return;
+
+      let host = '';
+      try {
+        host = new URL(link.href, window.location.href).hostname.toLowerCase();
+      } catch (_) {
+        return;
+      }
+      let affiliatePartner = null;
+      if (host === 'klook.com' || host.endsWith('.klook.com')) affiliatePartner = 'klook';
+      if (host === 'agoda.com' || host.endsWith('.agoda.com')) affiliatePartner = 'agoda';
+      if (!affiliatePartner) return;
+
+      window.gtag('event', 'affiliate_click', {
+        affiliate_partner: affiliatePartner,
+        link_url: link.href,
+        link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100),
+        page_location: window.location.href
+      });
+    }, { capture: true });
+  }
+
+  function loadAnalytics() {
+    if (!validMeasurementId) return;
+    if (analyticsLoaded) {
+      updateConsent(true);
+      return;
+    }
+
+    analyticsLoaded = true;
+    updateConsent(true);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = gtagWrapper;
+    window.gtag('consent', 'default', {
+      analytics_storage: 'granted',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+
+    const gaScript = document.createElement('script');
+    gaScript.async = true;
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA4_MEASUREMENT_ID);
+    gaScript.onerror = () => {
+      analyticsLoaded = false;
+      analyticsEnabled = false;
+      window['ga-disable-' + GA4_MEASUREMENT_ID] = true;
+    };
+    document.head.appendChild(gaScript);
+
+    window.gtag('js', new Date());
+    window.gtag('config', GA4_MEASUREMENT_ID, {
+      anonymize_ip: true,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
+    registerTrackingHandlers();
+  }
+
+  function showConsentBanner() {
+    const existing = document.getElementById('analytics-consent-banner');
+    if (existing) existing.remove();
+
+    const banner = document.createElement('section');
+    banner.id = 'analytics-consent-banner';
+    banner.className = 'analytics-consent';
+    banner.setAttribute('role', 'region');
+    banner.setAttribute('aria-label', copy.title);
+
+    const copyWrap = document.createElement('div');
+    copyWrap.className = 'analytics-consent__copy';
+    const title = document.createElement('strong');
+    title.textContent = copy.title;
+    const body = document.createElement('p');
+    body.textContent = copy.body;
+    const privacy = document.createElement('a');
+    privacy.href = '/privacy.html';
+    privacy.textContent = copy.privacy;
+    copyWrap.append(title, body, privacy);
+
+    const actions = document.createElement('div');
+    actions.className = 'analytics-consent__actions';
+    const reject = document.createElement('button');
+    reject.type = 'button';
+    reject.dataset.analyticsChoice = 'reject';
+    reject.textContent = copy.reject;
+    const accept = document.createElement('button');
+    accept.type = 'button';
+    accept.dataset.analyticsChoice = 'accept';
+    accept.textContent = copy.accept;
+    actions.append(reject, accept);
+    banner.append(copyWrap, actions);
+
+    banner.addEventListener('click', (event) => {
+      const target = event.target;
+      const button = target && target.closest ? target.closest('button[data-analytics-choice]') : null;
+      if (!button) return;
+      const granted = button.dataset.analyticsChoice === 'accept';
+      saveChoice(granted ? 'granted' : 'denied');
+      if (granted) loadAnalytics();
+      else updateConsent(false);
+      banner.remove();
+    });
+
+    document.body.appendChild(banner);
+  }
+
+  function ensureFooterLinks() {
+    const footer = document.querySelector('.site-footer');
+    if (!footer) return;
+    let links = footer.querySelector('.footer-links');
+
+    if (!footer.querySelector('a[href="/disclosure.html"]')) {
+      const disclosure = document.createElement('a');
+      disclosure.href = '/disclosure.html';
+      disclosure.textContent = copy.disclosure;
+      if (links) {
+        links.appendChild(disclosure);
+      } else {
+        const paragraph = document.createElement('p');
+        paragraph.className = 'analytics-settings-link';
+        paragraph.appendChild(disclosure);
+        footer.appendChild(paragraph);
+      }
+    }
+
+    if (!footer.querySelector('[data-review-analytics-choices]')) {
+      const choices = document.createElement('a');
+      choices.href = '#analytics-settings';
+      choices.dataset.reviewAnalyticsChoices = '';
+      choices.textContent = copy.choices;
+      links = footer.querySelector('.footer-links');
+      if (links) {
+        links.appendChild(choices);
+      } else {
+        let paragraph = footer.querySelector('.analytics-settings-link');
+        if (!paragraph) {
+          paragraph = document.createElement('p');
+          paragraph.className = 'analytics-settings-link';
+          footer.appendChild(paragraph);
+        }
+        if (paragraph.childNodes.length) paragraph.appendChild(document.createTextNode(' · '));
+        paragraph.appendChild(choices);
+      }
+    }
+  }
 
   document.addEventListener('click', (event) => {
-    const link = event.target && event.target.closest
-      ? event.target.closest('a[href]')
-      : null;
+    const target = event.target;
+    const link = target && target.closest ? target.closest('[data-review-analytics-choices]') : null;
     if (!link) return;
+    event.preventDefault();
+    showConsentBanner();
+  });
 
-    const affiliatePartner = classifyAffiliate(link.href);
-    if (!affiliatePartner || typeof window.gtag !== 'function') return;
+  ensureFooterLinks();
 
-    window.gtag('event', 'affiliate_click', {
-      affiliate_partner: affiliatePartner,
-      link_url: link.href,
-      link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100),
-      page_location: window.location.href,
-      transport_type: 'beacon'
-    });
-  }, { capture: true });
+  let savedChoice = null;
+  try {
+    savedChoice = window.localStorage.getItem(CONSENT_KEY);
+  } catch (_) {
+    savedChoice = null;
+  }
+
+  if (savedChoice === 'granted') {
+    loadAnalytics();
+  } else if (savedChoice === 'denied') {
+    updateConsent(false);
+  } else if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', showConsentBanner, { once: true });
+  } else {
+    showConsentBanner();
+  }
 })();
