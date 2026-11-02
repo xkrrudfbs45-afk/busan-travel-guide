@@ -23,4 +23,6 @@ jobs:
         with:
           node-version: "20"
       - name: Run dependency-free audit
-        run: node scripts/seo-audit.mjs
+        run: |
+          node scripts/seo-audit.mjs
+          node scripts/sitemap-hreflang-audit.mjs
