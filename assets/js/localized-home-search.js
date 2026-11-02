@@ -55,6 +55,33 @@
       empty.className = 'site-search-results__empty';
       empty.textContent = copy.empty;
       results.appendChild(empty);
+
+      const fallbackKeys = ['first-trip', 'transit-card', 'luggage-storage', 'three-days'];
+      const fallback = fallbackKeys
+        .map((key) => cards.find((item) => item.url.includes(key)))
+        .filter(Boolean)
+        .slice(0, 3);
+      if (fallback.length) {
+        const fallbackHeading = document.createElement('p');
+        fallbackHeading.className = 'site-search-results__empty';
+        fallbackHeading.textContent = isJapanese ? 'おすすめのガイド' : '推薦指南';
+        const fallbackList = document.createElement('ul');
+        fallbackList.className = 'site-search-results__list site-search-results__suggestions';
+        fallback.forEach((item) => {
+          const row = document.createElement('li');
+          row.className = 'site-search-results__item';
+          const link = document.createElement('a');
+          link.className = 'site-search-results__link';
+          link.href = item.url;
+          const title = document.createElement('span');
+          title.className = 'site-search-results__title';
+          title.textContent = item.title;
+          link.appendChild(title);
+          row.appendChild(link);
+          fallbackList.appendChild(row);
+        });
+        results.append(fallbackHeading, fallbackList);
+      }
       return;
     }
 
