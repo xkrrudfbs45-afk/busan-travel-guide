@@ -42,4 +42,7 @@ for path in public/index.html public/ja/index.html public/zh-tw/index.html publi
   fi
 done
 
+# Publish the deployed commit so the deploy workflow can confirm what is live.
+printf '%s\n' "${RENDER_GIT_COMMIT:-$(git rev-parse HEAD 2>/dev/null || echo unknown)}" > public/version.txt
+
 echo "Public static build ready: internal docs excluded; EN/JA/zh-TW entry points verified."
