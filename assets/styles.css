@@ -439,7 +439,7 @@
 .home-refresh .trend-jagalchi{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Inside_Jagalchi_Fish_Market%2C_Busan.jpg/960px-Inside_Jagalchi_Fish_Market%2C_Busan.jpg")}
 .home-refresh .trend-songjeong{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Songjeong_Beach.jpg?width=1000")}
 .home-refresh .trend-hotel{background-image:url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80")}
-.home-refresh .trend-itinerary{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1000")}
+.home-refresh .trend-itinerary{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gamcheon_Culture_Village_in_Busan%2C_South_Korea.jpg?width=1000")}
 .home-refresh .trend-rainy{background-image:url("https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=900&q=80")}
 .home-refresh .trend-credit{position:absolute;z-index:2;left:8px;right:8px;bottom:6px;font-size:7px;line-height:1.25;color:#fff;text-shadow:0 1px 5px #0f172a;opacity:.92}
 .home-refresh .trend-image .trend-tag{z-index:3}
@@ -449,7 +449,7 @@
 
 /* Prevent legacy LCT imagery from being reused for unrelated cards. */
 .home-refresh .trend-stay{background-image:url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80")}
-.home-refresh .trend-busan{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1000")}
+.home-refresh .trend-busan{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Yeongdo-gu.jpg?width=1000")}
 .home-refresh .thumb-stay{background-image:url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80")}
 .home-refresh .thumb-pass{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1000")}
 
