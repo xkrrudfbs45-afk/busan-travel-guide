@@ -8,7 +8,12 @@
       "first time",
       "beginner",
       "itinerary",
-      "planning"
+      "planning",
+      "first-time visitor",
+      "first visit",
+      "beginner tips",
+      "where to begin",
+      "初次旅行"
     ]
   },
   {
@@ -22,7 +27,11 @@
       "gamcheon",
       "nampo",
       "gwangalli",
-      "haeundae"
+      "haeundae",
+      "what to see",
+      "must-see",
+      "sightseeing",
+      "tourist attractions"
     ]
   },
   {
@@ -34,7 +43,11 @@
       "three day",
       "itinerary",
       "schedule",
-      "route"
+      "route",
+      "3-day itinerary",
+      "72 hours",
+      "weekend trip",
+      "3 day trip"
     ]
   },
   {
@@ -46,7 +59,11 @@
       "accommodation",
       "lodging",
       "seomyeon",
-      "haeundae"
+      "haeundae",
+      "best area to stay",
+      "hotel area",
+      "neighborhood to stay",
+      "seomyeon vs haeundae"
     ]
   },
   {
@@ -58,7 +75,11 @@
       "resort",
       "accommodation",
       "osiria",
-      "family"
+      "family",
+      "family hotel",
+      "ocean view hotel",
+      "coastal resort",
+      "osiria hotel"
     ]
   },
   {
@@ -71,7 +92,12 @@
       "eat",
       "pork soup",
       "dwaeji gukbap",
-      "seafood"
+      "seafood",
+      "what to eat",
+      "local dishes",
+      "korean food",
+      "restaurants to try",
+      "food recommendations"
     ]
   },
   {
@@ -84,7 +110,11 @@
       "seomyeon",
       "nampo",
       "jagalchi",
-      "markets"
+      "markets",
+      "where to eat",
+      "restaurants by area",
+      "food map",
+      "dining"
     ]
   },
   {
@@ -132,7 +162,11 @@
       "bus",
       "metro",
       "subway",
-      "gimhae"
+      "gimhae",
+      "airport to city",
+      "airport transfer",
+      "how to get to haeundae",
+      "late flight"
     ]
   },
   {
@@ -144,7 +178,11 @@
       "late night",
       "transport",
       "arrival",
-      "taxi"
+      "taxi",
+      "midnight arrival",
+      "last train",
+      "late night flight",
+      "airport after midnight"
     ]
   },
   {
@@ -158,7 +196,11 @@
       "bus",
       "cashbee",
       "tmoney",
-      "交通"
+      "交通",
+      "wowpass",
+      "transportation card",
+      "bus fare",
+      "subway card"
     ]
   },
   {
@@ -170,7 +212,11 @@
       "seoul",
       "rail",
       "tickets",
-      "booking"
+      "booking",
+      "seoul to busan train",
+      "train tickets",
+      "railway booking",
+      "korail"
     ]
   },
   {
@@ -183,7 +229,11 @@
       "lockers",
       "storage",
       "station",
-      "airport"
+      "airport",
+      "left luggage",
+      "baggage lockers",
+      "store bags",
+      "luggage lockers"
     ]
   },
   {
@@ -196,7 +246,11 @@
       "market",
       "prices",
       "jagalchi",
-      "budget"
+      "budget",
+      "seafood prices",
+      "market scam prevention",
+      "hidden charges",
+      "fish market"
     ]
   },
   {
@@ -209,7 +263,11 @@
       "tickets",
       "sold out",
       "haeundae",
-      "booking"
+      "booking",
+      "sky capsule booking",
+      "beach train tickets",
+      "sold out tickets",
+      "reservation alternatives"
     ]
   },
   {
@@ -235,7 +293,11 @@
       "indoors",
       "weather",
       "museum",
-      "cafe"
+      "cafe",
+      "indoor activities",
+      "bad weather",
+      "rain plan",
+      "things to do indoors"
     ]
   },
   {
@@ -247,7 +309,11 @@
       "tickets",
       "attractions",
       "discount",
-      "activities"
+      "activities",
+      "tourist pass",
+      "attraction pass",
+      "discount pass",
+      "city pass"
     ]
   },
   {
@@ -259,7 +325,9 @@
       "shark",
       "north port",
       "busan now",
-      "news"
+      "news",
+      "viral busan story",
+      "busan local news"
     ]
   },
   {
