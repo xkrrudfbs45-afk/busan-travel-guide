@@ -593,3 +593,9 @@
   .home-refresh .header-actions .language-pill{padding:6px 6px;font-size:9px}
   .home-refresh .site-header nav{gap:14px}
 }
+
+
+/* Compact affiliate disclosure shown beside high-intent guide summaries. */
+.affiliate-note{margin:14px 0 0;padding-top:11px;border-top:1px solid #d9e5dc;color:#526765;font-size:12px;line-height:1.55}
+.affiliate-note a{color:#245b54;text-underline-offset:3px;font-weight:650}
+.affiliate-note a:focus-visible{outline:2px solid #245b54;outline-offset:3px;border-radius:2px}
