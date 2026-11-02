@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 100" role="img" aria-labelledby="title desc"><title id="title">Go2Busan</title><desc id="desc">Your Local Guide to Busan</desc><defs><linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1787e8"/><stop offset="1" stop-color="#0752b9"/></linearGradient></defs><g transform="translate(4 5)"><path d="M5 58Q25 38 44 54T84 52T119 53L100 66Q79 64 63 72T26 72Z" fill="#123f87"/><path d="M0 73Q23 61 46 73T91 73T132 72L113 83Q89 82 69 88T24 86Z" fill="url(#ocean)"/><path d="M7 60L27 40L43 50L57 33L73 46L89 29L106 48L124 55" fill="none" stroke="#123f87" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M57 33V17M51 22H63M54 17H60" stroke="#123f87" stroke-width="4" stroke-linecap="round"/><path d="M86 14q9-9 18 0q-9 11-18 0z" fill="#1684d9"/><path d="M111 22q7-8 14 0q-7 8-14 0z" fill="#1684d9"/></g><text x="151" y="52" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="-2" fill="#10265a">Go2<tspan fill="#1684e8">Busan</tspan></text><text x="154" y="79" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" letter-spacing=".1" fill="#64748b">Your Local Guide to Busan</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 100" role="img" aria-labelledby="title desc">
+<title id="title">Go2Busan</title><desc id="desc">A modern travel mark combining Busan's sea, bridge and a flying seagull. Your Local Guide to Busan.</desc>
+<defs><linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1684e8"/><stop offset="1" stop-color="#075fc1"/></linearGradient></defs>
+<g transform="translate(5 7)">
+  <path d="M4 62 C22 50 38 50 56 62 S90 74 112 59" fill="none" stroke="url(#sea)" stroke-width="8" stroke-linecap="round"/>
+  <path d="M3 77 C23 65 40 66 59 77 S91 88 116 74" fill="none" stroke="#80c9f5" stroke-width="6" stroke-linecap="round"/>
+  <path d="M16 52 L16 45 L31 45 L31 37 L47 37 L47 45 L63 45 L63 32 L79 32 L79 45 L94 45 L94 52" fill="#f97362" opacity=".95"/>
+  <path d="M9 52 Q54 10 101 52" fill="none" stroke="#f97362" stroke-width="4" stroke-linecap="round"/>
+  <path d="M9 52 L9 60 M101 52 L101 60" stroke="#f97362" stroke-width="3" stroke-linecap="round"/>
+  <path d="M26 19 Q36 7 46 19 Q56 7 66 19" fill="none" stroke="#123f87" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M83 13 Q90 6 97 13 Q90 21 83 13Z" fill="#1684e8"/>
+</g>
+<text x="145" y="52" font-family="Inter,Arial,sans-serif" font-size="42" font-weight="800" letter-spacing="-2" fill="#10265a">Go2<tspan fill="#1684e8">Busan</tspan></text>
+<text x="148" y="79" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="600" letter-spacing=".1" fill="#64748b">Your Local Guide to Busan</text>
+</svg>
