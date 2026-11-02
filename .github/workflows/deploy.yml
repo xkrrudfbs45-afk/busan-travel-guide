@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: read
+  actions: read # Required to verify a successful Technical SEO audit during workflow_dispatch.
 
 # One production deploy at a time; a queued run waits instead of cancelling a live deploy.
 concurrency:
