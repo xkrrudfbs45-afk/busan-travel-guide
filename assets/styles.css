@@ -539,3 +539,57 @@
 .analytics-consent__actions button[data-analytics-choice="accept"]{background:#176b65;border-color:#176b65;color:#fff}
 .analytics-consent__actions button:focus-visible{outline:3px solid #78b5f0;outline-offset:2px}
 @media(max-width:600px){.analytics-consent{left:10px;right:10px;bottom:10px;display:block;padding:16px}.analytics-consent__actions{margin-top:12px}.analytics-consent__actions button{flex:1}.analytics-consent__copy p{font-size:11px}}
+
+
+/* Mobile-first navigation: keep language switching visible and let topic links scroll rather than overflow the viewport. */
+@media(max-width:680px){
+  .home-refresh .nav-wrap{
+    width:calc(100% - 28px);
+    min-height:0;
+    padding:10px 0 8px;
+    flex-wrap:wrap;
+    gap:8px 12px;
+  }
+  .home-refresh .brand-lockup{
+    width:clamp(112px,38vw,150px);
+    max-width:calc(100% - 150px);
+  }
+  .home-refresh .header-actions{
+    margin-left:auto;
+    display:flex;
+    align-items:center;
+    gap:5px;
+    flex:none;
+  }
+  .home-refresh .header-actions .language-pill{
+    padding:7px 8px;
+    font-size:10px;
+  }
+  .home-refresh .header-actions .search-icon{
+    padding:7px;
+  }
+  .home-refresh .site-header nav{
+    order:3;
+    flex:1 0 100%;
+    width:100%;
+    min-width:0;
+    justify-content:flex-start;
+    gap:18px;
+    overflow-x:auto;
+    overscroll-behavior-x:contain;
+    scrollbar-width:none;
+    padding:0 0 3px;
+  }
+  .home-refresh .site-header nav::-webkit-scrollbar{display:none}
+  .home-refresh .site-header nav a{
+    flex:none;
+    padding:7px 0;
+    font-size:12px;
+  }
+  .home-refresh .site-header nav a:hover:after{bottom:1px}
+}
+@media(max-width:380px){
+  .home-refresh .brand-lockup{width:108px}
+  .home-refresh .header-actions .language-pill{padding:6px 6px;font-size:9px}
+  .home-refresh .site-header nav{gap:14px}
+}
