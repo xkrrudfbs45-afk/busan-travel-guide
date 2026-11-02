@@ -60,6 +60,7 @@
         { label: 'Three-Day Itinerary', url: '/guides/busan-three-days/' },
         { label: 'Where to Stay', url: '/guides/where-to-stay-busan/' },
         { label: 'Airport to Haeundae', url: '/guides/gimhae-airport-to-haeundae/' },
+        { label: 'Airport to Seomyeon', url: '/guides/gimhae-airport-to-seomyeon/' },
         { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' },
         { label: 'Public Transportation & Transit Cards', url: '/guides/busan-transit-card/' },
         { label: 'Visit Busan Pass Guide', url: '/guides/visit-busan-pass-guide/' }
