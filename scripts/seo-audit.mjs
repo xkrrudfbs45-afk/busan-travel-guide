@@ -15,7 +15,7 @@ function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
       if (!IGNORE_DIRS.has(entry.name)) walk(path.join(dir, entry.name));
-    } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".html")) {
+    } else if (entry.isFile() && entry.name.toLowerCase().endsWith(".html") && entry.name !== "404.html" && !entry.name.startsWith("google")) {
       htmlFiles.push(path.join(dir, entry.name));
     }
   }
@@ -45,9 +45,13 @@ const metaContent = (html, key, value) => {
   const m = html.match(re);
   return m ? attr(m[0], "content") : "";
 };
-const localTarget = (raw) => {
+const pageUrl = (file) => {
+  const pathname = "/" + rel(file).replace(/index\\.html$/, "");
+  return pathname || "/";
+};
+const localTarget = (raw, file) => {
   let u;
-  try { u = new URL(raw, "https://go2busan.com/"); } catch { return null; }
+  try { u = new URL(raw, "https://go2busan.com" + pageUrl(file)); } catch { return null; }
   if (u.origin !== "https://go2busan.com" || raw.startsWith("//")) return null;
   let pathname;
   try { pathname = decodeURIComponent(u.pathname); } catch { pathname = u.pathname; }
@@ -113,7 +117,7 @@ for (const file of htmlFiles) {
       add("WARN", file, `Image missing alt text: ${src || "(src missing)"}`);
     }
     if (src && !/^data:/i.test(src)) {
-      const absolute = new URL(src, "https://go2busan.com/").href;
+      const absolute = new URL(src, "https://go2busan.com" + pageUrl(file)).href;
       if (!imageUsage.has(absolute)) imageUsage.set(absolute, new Set());
       imageUsage.get(absolute).add(page);
     }
@@ -125,7 +129,7 @@ for (const file of htmlFiles) {
   for (const item of linkAttrs) {
     const raw = attr(item.tag, item.attr);
     if (!raw || raw.startsWith("#") || /^(mailto:|tel:|javascript:|data:)/i.test(raw)) continue;
-    const target = localTarget(raw);
+    const target = localTarget(raw, file);
     if (!target) continue;
     checkedLinks++;
     if (!fs.existsSync(target)) {
