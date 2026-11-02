@@ -111,6 +111,13 @@
     results.appendChild(list);
   }
 
+  document.querySelectorAll('[data-search-query]').forEach((button) => {
+    button.addEventListener('click', () => {
+      input.value = button.getAttribute('data-search-query') || '';
+      form.dispatchEvent(new Event('submit', { bubbles: true, cancelable: true }));
+    });
+  });
+
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const query = normalize(input.value);
