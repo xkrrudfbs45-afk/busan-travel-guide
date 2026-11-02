@@ -28,6 +28,42 @@ for (const block of blocks) {
   entries.push({ loc, alternates });
 }
 const urls = new Set(entries.map((entry) => entry.loc));
+
+const ignoredDirs = new Set([".git", "node_modules", "public", "docs", ".vercel"]);
+const htmlPages = [];
+function walkHtml(dir) {
+  for (const item of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (item.isDirectory()) {
+      if (!ignoredDirs.has(item.name)) walkHtml(path.join(dir, item.name));
+    } else if (item.isFile() && item.name.toLowerCase().endsWith(".html") && item.name !== "404.html" && !item.name.startsWith("google")) {
+      htmlPages.push(path.join(dir, item.name));
+    }
+  }
+}
+walkHtml(root);
+const expectedUrl = (page) => {
+  const relative = path.relative(root, page).split(path.sep).join("/");
+  if (relative === "index.html") return "https://go2busan.com/";
+  if (relative.endsWith("/index.html")) return "https://go2busan.com/" + relative.slice(0, -("index.html".length));
+  return "https://go2busan.com/" + relative;
+};
+const missingFromSitemap = [];
+for (const page of htmlPages) {
+  const html = fs.readFileSync(page, "utf8");
+  if (!/<link\\b(?=[^>]*\\brel\\s*=\\s*["']canonical["'])[^>]*>/i.test(html)) continue;
+  const url = expectedUrl(page);
+  if (!urls.has(url)) {
+    missingFromSitemap.push(url);
+    issues.push("Canonical HTML page is missing from sitemap.xml: " + url);
+  }
+}
+const robotsPath = path.join(root, "robots.txt");
+if (!fs.existsSync(robotsPath)) {
+  issues.push("robots.txt is missing");
+} else if (!/Sitemap:\\s*https:\\/\\/go2busan\\.com\\/sitemap\\.xml/i.test(fs.readFileSync(robotsPath, "utf8"))) {
+  issues.push("robots.txt does not declare https://go2busan.com/sitemap.xml");
+}
+
 const toFile = (url) => {
   let parsed;
   try { parsed = new URL(url); } catch { return null; }
@@ -62,6 +98,8 @@ for (const entry of entries) {
 console.log("Go2Busan sitemap/hreflang audit");
 console.log("Sitemap URL entries: " + entries.length);
 console.log("hreflang links: " + entries.reduce((sum, entry) => sum + entry.alternates.length, 0));
+console.log("Canonical HTML pages scanned: " + htmlPages.length);
+console.log("Canonical pages missing from sitemap: " + missingFromSitemap.length);
 console.log("Findings: " + issues.length);
 for (const issue of issues) console.log("[WARN] " + issue);
 if (process.env.GITHUB_STEP_SUMMARY) {
