@@ -77,7 +77,6 @@
       link.addEventListener('click', () => {
         if (typeof window.gtag === 'function') {
           window.gtag('event', 'search_result_click', {
-            search_term: query.slice(0, 100),
             result_title: item.title,
             result_url: item.url
           });
@@ -104,7 +103,7 @@
     render(matches, query);
     if (typeof window.gtag === 'function') {
       window.gtag('event', 'search', {
-        search_term: query.slice(0, 100),
+        search_query_length: query.length,
         results_count: matches.length
       });
     }
