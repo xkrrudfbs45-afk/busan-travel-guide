@@ -26,6 +26,32 @@ const add = (level, file, message) => findings.push({ level, file: path.relative
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, "utf8");
+  const cover = html.match(/<figure\b[^>]*class\s*=\s*["'][^"']*article-cover[^"']*["'][^>]*>([\s\S]*?)<\/figure>/i);
+  if (cover) {
+    const coverBody = cover[1];
+    const imgTag = coverBody.match(/<img\b[^>]*>/i);
+    const src = imgTag ? attr(imgTag[0], "src") : "";
+    const caption = (coverBody.match(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/i) || [])[1] || "";
+    if (/Wikimedia Commons/i.test(caption) && !/commons\.wikimedia\.org/i.test(src)) {
+      add("WARN", file, "Cover caption credits Wikimedia Commons but the displayed image URL is not from Wikimedia Commons");
+    }
+    if (/Unsplash/i.test(caption) && !/images\.unsplash\.com/i.test(src)) {
+      add("WARN", file, "Cover caption credits Unsplash but the displayed image URL is not from Unsplash");
+    }
+    const ogTag = html.match(/<meta\b(?=[^>]*\bproperty\s*=\s*["']og:image["'])[^>]*>/i);
+    const ogImage = ogTag ? attr(ogTag[0], "content") : "";
+    if (src && ogImage) {
+      const normalize = (value) => {
+        try {
+          const url = new URL(value, "https://go2busan.com/");
+          return url.origin + url.pathname;
+        } catch { return value; }
+      };
+      if (normalize(src) !== normalize(ogImage)) {
+        add("WARN", file, "Article cover and og:image use different image URLs; confirm they show the same relevant subject");
+      }
+    }
+  }
   for (const match of html.matchAll(/<a\b[^>]*>/gi)) {
     const tag = match[0];
     const href = attr(tag, "href");
