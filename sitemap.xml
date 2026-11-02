@@ -148,6 +148,24 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/pusan-national-university-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/pusan-national-university-food-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/pusan-national-university-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/pusan-national-university-food-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/pusan-national-university-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/pusan-national-university-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/pusan-national-university-food-guide/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/where-to-stay-busan/</loc>
