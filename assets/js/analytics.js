@@ -100,23 +100,38 @@
       const link = target && target.closest ? target.closest('a[href]') : null;
       if (!link) return;
 
-      let host = '';
+      let affiliateUrl;
       try {
-        host = new URL(link.href, window.location.href).hostname.toLowerCase();
+        affiliateUrl = new URL(link.href, window.location.href);
       } catch (_) {
         return;
       }
+      const host = affiliateUrl.hostname.toLowerCase();
       let affiliatePartner = null;
       if (host === 'klook.com' || host.endsWith('.klook.com')) affiliatePartner = 'klook';
       if (host === 'agoda.com' || host.endsWith('.agoda.com')) affiliatePartner = 'agoda';
       if (!affiliatePartner) return;
 
-      window.gtag('event', 'affiliate_click', {
+      const eventParams = {
         affiliate_partner: affiliatePartner,
         link_url: link.href,
         link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100),
         page_location: window.location.href
-      });
+      };
+
+      if (affiliatePartner === 'klook') {
+        const placement = affiliateUrl.searchParams.get('aff_adid');
+        if (placement && /^[0-9]{4,12}$/.test(placement)) eventParams.affiliate_placement = placement;
+        const destination = affiliateUrl.searchParams.get('k_site');
+        if (destination) {
+          try {
+            const locale = new URL(destination).pathname.split('/').filter(Boolean)[0];
+            if (['en-US', 'ja', 'zh-TW'].includes(locale)) eventParams.affiliate_destination_locale = locale;
+          } catch (_) { /* Ignore malformed destination URLs. */ }
+        }
+      }
+
+      window.gtag('event', 'affiliate_click', eventParams);
     }, { capture: true });
   }
 
