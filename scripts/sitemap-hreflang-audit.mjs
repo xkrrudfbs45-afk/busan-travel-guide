@@ -50,7 +50,7 @@ const expectedUrl = (page) => {
 const missingFromSitemap = [];
 for (const page of htmlPages) {
   const html = fs.readFileSync(page, "utf8");
-  if (!/<link\\b(?=[^>]*\\brel\\s*=\\s*["']canonical["'])[^>]*>/i.test(html)) continue;
+  if (!/<link\b(?=[^>]*\brel\s*=\s*["']canonical["'])[^>]*>/i.test(html)) continue;
   const url = expectedUrl(page);
   if (!urls.has(url)) {
     missingFromSitemap.push(url);
@@ -60,7 +60,7 @@ for (const page of htmlPages) {
 const robotsPath = path.join(root, "robots.txt");
 if (!fs.existsSync(robotsPath)) {
   issues.push("robots.txt is missing");
-} else if (!/Sitemap:\\s*https:\\/\\/go2busan\\.com\\/sitemap\\.xml/i.test(fs.readFileSync(robotsPath, "utf8"))) {
+} else if (!/Sitemap:\s*https:\/\/go2busan\.com\/sitemap\.xml/i.test(fs.readFileSync(robotsPath, "utf8"))) {
   issues.push("robots.txt does not declare https://go2busan.com/sitemap.xml");
 }
 
