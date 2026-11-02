@@ -60,7 +60,9 @@
         { label: 'Three-Day Itinerary', url: '/guides/busan-three-days/' },
         { label: 'Where to Stay', url: '/guides/where-to-stay-busan/' },
         { label: 'Airport to Haeundae', url: '/guides/gimhae-airport-to-haeundae/' },
-        { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' }
+        { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' },
+        { label: 'Public Transportation & Transit Cards', url: '/guides/busan-transit-card/' },
+        { label: 'Visit Busan Pass Guide', url: '/guides/visit-busan-pass-guide/' }
       ];
       const suggestionList = document.createElement('ul');
       suggestionList.className = 'site-search-results__list site-search-results__suggestions';
