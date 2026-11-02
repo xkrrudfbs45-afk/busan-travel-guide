@@ -11,6 +11,10 @@ on:
 permissions:
   contents: read
 
+env:
+  # Fail the job on audit ERROR findings so a red check blocks deployment.
+  SEO_AUDIT_STRICT: "1"
+
 jobs:
   seo-audit:
     name: Crawl local SEO hygiene
@@ -22,6 +26,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Build the public site (same script Render runs)
+        run: sh scripts/build-static.sh
       - name: Run dependency-free audit
         run: |
           node scripts/seo-audit.mjs
