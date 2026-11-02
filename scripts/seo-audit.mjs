@@ -79,12 +79,17 @@ for (const file of htmlFiles) {
     if (title.length > 65) add("WARN", file, `Title is ${title.length} characters; review SERP truncation`);
   }
 
+  const lang = (html.match(/<html\b[^>]*\blang\s*=\s*["']([^"']+)["']/i) || [])[1];
+  // CJK characters take roughly twice the SERP width of Latin characters, so the
+  // English 70–170 character range would flag almost every Japanese/Chinese page.
+  const cjk = /^(ja|zh)/i.test(lang || "");
+  const [descMin, descMax] = cjk ? [35, 110] : [70, 170];
   const description = metaContent(html, "name", "description");
   if (!description) {
     missingDescription++;
     add("ERROR", file, "Missing meta description");
-  } else if (description.length < 70 || description.length > 170) {
-    add("WARN", file, `Meta description length is ${description.length}; review clarity and truncation`);
+  } else if (description.length < descMin || description.length > descMax) {
+    add("WARN", file, `Meta description length is ${description.length} (expected ${descMin}–${descMax}${cjk ? " for CJK" : ""}); review clarity and truncation`);
   }
 
   const canonicalTag = html.match(/<link\b(?=[^>]*\brel\s*=\s*["']canonical["'])[^>]*>/i);
@@ -98,13 +103,16 @@ for (const file of htmlFiles) {
     else canonicals.set(canonical, page);
   }
 
-  const lang = (html.match(/<html\b[^>]*\blang\s*=\s*["']([^"']+)["']/i) || [])[1];
   if (!lang) add("WARN", file, "Missing html lang attribute");
 
   const ogImage = metaContent(html, "property", "og:image");
   const twitterImage = metaContent(html, "name", "twitter:image");
   const ogImageAlt = metaContent(html, "property", "og:image:alt");
   if (ogImage && !ogImageAlt) add("WARN", file, "Missing og:image:alt text");
+  // Facebook, X and KakaoTalk do not render SVG preview images.
+  for (const [name, url] of [["og:image", ogImage], ["twitter:image", twitterImage]]) {
+    if (url && /\.svg(\?|#|$)/i.test(url)) add("WARN", file, `${name} is an SVG; social platforms need PNG/JPEG/WebP: ${url}`);
+  }
   if (!ogImage || !twitterImage) {
     missingSocialImage++;
     add("WARN", file, "Missing og:image or twitter:image");
@@ -113,12 +121,15 @@ for (const file of htmlFiles) {
   for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
     const tag = match[0];
     const src = attr(tag, "src");
-    const alt = attr(tag, "alt");
-    if (!alt) {
+    // alt="" is the correct markup for decorative images (e.g. the logo mark next to
+    // visible "Go2Busan" text), so only a missing alt attribute is reported.
+    const hasAlt = /\balt\s*=/i.test(tag);
+    if (!hasAlt) {
       missingAlt++;
       add("WARN", file, `Image missing alt text: ${src || "(src missing)"}`);
     }
-    if (src && !/^data:/i.test(src)) {
+    const decorative = hasAlt && attr(tag, "alt").trim() === "";
+    if (src && !/^data:/i.test(src) && !decorative) {
       const absolute = new URL(src, "https://go2busan.com" + pageUrl(file)).href;
       if (!imageUsage.has(absolute)) imageUsage.set(absolute, new Set());
       imageUsage.get(absolute).add(page);
