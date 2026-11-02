@@ -479,6 +479,7 @@
 
 
 /* Accessible on-site guide search */
+.search-quick-links{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:12px;color:#fff;font-size:11px}.search-quick-links span{opacity:.9;margin-right:2px}.search-quick-links button{appearance:none;border:1px solid #ffffff70;border-radius:999px;background:#ffffff18;color:#fff;padding:6px 10px;font:inherit;cursor:pointer}.search-quick-links button:hover,.search-quick-links button:focus-visible{background:#fff;color:var(--teal-dark);outline-offset:2px}
 .site-search-results {
   margin-top: 12px;
   max-width: 620px;
