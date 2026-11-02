@@ -11,7 +11,7 @@
 (() => {
   'use strict';
 
-  const GA4_MEASUREMENT_ID = '';
+  const GA4_MEASUREMENT_ID = 'G-JCYV49BXQZ';
   const validMeasurementId = /^G-[A-Z0-9]{6,}$/i.test(GA4_MEASUREMENT_ID);
 
   if (!validMeasurementId) {
