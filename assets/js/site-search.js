@@ -55,6 +55,29 @@
       const empty = document.createElement('p');
       empty.className = 'site-search-results__empty';
       empty.textContent = 'Try a broader term such as “food”, “airport”, “hotel”, “beach” or “transport”.';
+      const suggestions = [
+        { label: 'Things to Do in Busan', url: '/guides/things-to-do-in-busan/' },
+        { label: 'Three-Day Itinerary', url: '/guides/busan-three-days/' },
+        { label: 'Where to Stay', url: '/guides/where-to-stay-busan/' },
+        { label: 'Airport to Haeundae', url: '/guides/gimhae-airport-to-haeundae/' },
+        { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' }
+      ];
+      const suggestionList = document.createElement('ul');
+      suggestionList.className = 'site-search-results__list site-search-results__suggestions';
+      suggestions.forEach((suggestion) => {
+        const row = document.createElement('li');
+        row.className = 'site-search-results__item';
+        const link = document.createElement('a');
+        link.className = 'site-search-results__link';
+        link.href = suggestion.url;
+        const title = document.createElement('span');
+        title.className = 'site-search-results__title';
+        title.textContent = suggestion.label;
+        link.appendChild(title);
+        row.appendChild(link);
+        suggestionList.appendChild(row);
+      });
+      results.appendChild(suggestionList);
       results.appendChild(empty);
       return;
     }
