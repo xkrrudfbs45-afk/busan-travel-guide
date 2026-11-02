@@ -51,7 +51,9 @@ for (const entry of entries) {
     const alternateFile = toFile(alternate.href);
     if (!alternateFile || !fs.existsSync(alternateFile)) issues.push("hreflang target has no local page: " + alternate.href);
     const targetEntry = entries.find((candidate) => candidate.loc === alternate.href);
-    if (targetEntry && !targetEntry.alternates.some((candidate) => candidate.hreflang.toLowerCase() === alternate.hreflang.toLowerCase() && candidate.href === entry.loc)) {
+    const sourcePath = new URL(entry.loc).pathname.toLowerCase();
+    const sourceLanguage = sourcePath.startsWith("/ja/") ? "ja" : (sourcePath.startsWith("/zh-tw/") ? "zh-tw" : "en");
+    if (targetEntry && !targetEntry.alternates.some((candidate) => candidate.hreflang.toLowerCase() === sourceLanguage && candidate.href === entry.loc)) {
       // x-default is a fallback, not a language code; don't require reciprocal x-default.
       if (alternate.hreflang.toLowerCase() !== "x-default") issues.push("hreflang is not reciprocal: " + entry.loc + " -> " + alternate.href + " (" + alternate.hreflang + ")");
     }
