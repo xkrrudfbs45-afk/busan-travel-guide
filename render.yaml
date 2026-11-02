@@ -2,6 +2,6 @@ services:
   - type: web
     name: busan-travel-guide
     runtime: static
-    buildCommand: ""
-    staticPublishPath: .
+    buildCommand: "sh scripts/build-static.sh"
+    staticPublishPath: public
     autoDeploy: true
