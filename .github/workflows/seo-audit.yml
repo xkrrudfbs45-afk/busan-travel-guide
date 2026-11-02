@@ -27,3 +27,4 @@ jobs:
           node scripts/seo-audit.mjs
           node scripts/sitemap-hreflang-audit.mjs
           node scripts/outbound-link-image-audit.mjs
+          node scripts/language-switch-audit.mjs
