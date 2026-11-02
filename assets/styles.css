@@ -462,3 +462,6 @@
 .trend-ktx{background-image:url("https://images.unsplash.com/photo-1474487548417-781cb71495f3?auto=format&fit=crop&w=900&q=80")}
 .trend-bukangi{background-image:url("/assets/bukangi-illustration.svg");background-size:contain;background-repeat:no-repeat;background-color:#eaf5fb;background-position:center}
 .trend-sky-capsule{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Sky_Capsule_train_at_Haeundae_Blueline_Park%2C_Busan.jpg?width=1000")}
+
+/* The airport-to-Haeundae guide is about rail transfers, not an airplane stock photo. */
+.trend-airport{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan-gimhae-light-rail-transit-21-Kaya-university-station-platform-20180331-173938.jpg?width=1000")}
