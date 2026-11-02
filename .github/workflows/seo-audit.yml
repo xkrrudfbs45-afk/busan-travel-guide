@@ -26,3 +26,4 @@ jobs:
         run: |
           node scripts/seo-audit.mjs
           node scripts/sitemap-hreflang-audit.mjs
+          node scripts/outbound-link-image-audit.mjs

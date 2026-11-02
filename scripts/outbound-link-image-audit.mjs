@@ -1,0 +1,98 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const htmlFiles = [];
+const ignored = new Set([".git", "node_modules", "public", "docs", ".vercel"]);
+function walk(dir) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.isDirectory()) {
+      if (!ignored.has(entry.name)) walk(path.join(dir, entry.name));
+    } else if (entry.isFile() && entry.name.endsWith(".html") && entry.name !== "404.html" && !entry.name.startsWith("google")) {
+      htmlFiles.push(path.join(dir, entry.name));
+    }
+  }
+}
+walk(root);
+const findings = [];
+const partnerLinks = [];
+const externalBlankLinks = [];
+const attr = (tag, name) => {
+  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const match = tag.match(new RegExp("\\b" + escaped + "\\s*=\\s*([\"'])(.*?)\\1", "i"));
+  return match ? match[2].replace(/&amp;/g, "&").trim() : "";
+};
+const add = (level, file, message) => findings.push({ level, file: path.relative(root, file).split(path.sep).join("/"), message });
+
+for (const file of htmlFiles) {
+  const html = fs.readFileSync(file, "utf8");
+  for (const match of html.matchAll(/<a\b[^>]*>/gi)) {
+    const tag = match[0];
+    const href = attr(tag, "href");
+    if (!href) continue;
+    let url;
+    try { url = new URL(href, "https://go2busan.com/"); } catch {
+      add("WARN", file, "Malformed anchor URL: " + href);
+      continue;
+    }
+    if (url.origin === "https://go2busan.com" || !/^https?:$/.test(url.protocol)) continue;
+    const host = url.hostname.toLowerCase();
+    const partner = host === "klook.com" || host.endsWith(".klook.com")
+      ? "Klook"
+      : (host === "agoda.com" || host.endsWith(".agoda.com") ? "Agoda" : "");
+    if (partner) partnerLinks.push({ file, partner, href, tag, html });
+    if (attr(tag, "target").toLowerCase() === "_blank") {
+      const rel = attr(tag, "rel").toLowerCase().split(/\s+/);
+      if (!rel.includes("noopener") || !rel.includes("noreferrer")) {
+        externalBlankLinks.push({ file, href });
+        add("WARN", file, "External target=_blank link should include rel=\"noopener noreferrer\": " + href);
+      }
+    }
+  }
+}
+
+const partnerPages = new Map();
+for (const link of partnerLinks) {
+  const key = link.file;
+  if (!partnerPages.has(key)) partnerPages.set(key, { partners: new Set(), hasDisclosure: /affiliate-note|affiliate disclosure|affiliate links|\bdisclosure\b/i.test(link.html) });
+  partnerPages.get(key).partners.add(link.partner);
+}
+for (const [file, info] of partnerPages) {
+  if (!info.hasDisclosure) add("WARN", file, "Contains Klook/Agoda links but no visible affiliate/disclosure wording was detected");
+}
+
+const cssFile = path.join(root, "assets", "styles.css");
+const cssImages = new Map();
+if (fs.existsSync(cssFile)) {
+  const css = fs.readFileSync(cssFile, "utf8");
+  for (const match of css.matchAll(/([^{}]+)\{[^{}]*?background(?:-image)?\s*:[^{}]*?url\((['"]?)(.*?)\2\)[^{}]*\}/gis)) {
+    const selector = match[1].trim().replace(/\s+/g, " ").slice(0, 120);
+    const url = match[3].trim();
+    if (!url || url.startsWith("data:")) continue;
+    if (!cssImages.has(url)) cssImages.set(url, []);
+    cssImages.get(url).push(selector);
+  }
+}
+const repeatedCssImages = [...cssImages.entries()].filter(([, selectors]) => selectors.length > 1);
+for (const [url, selectors] of repeatedCssImages) {
+  add("INFO", cssFile, "CSS background image reused by selectors (" + selectors.length + "): " + url + " | " + selectors.join("; "));
+}
+console.log("Go2Busan outbound-link and CSS-image audit");
+console.log("HTML pages scanned: " + htmlFiles.length);
+console.log("Klook/Agoda links found: " + partnerLinks.length + " across " + partnerPages.size + " pages");
+console.log("External target=_blank links missing safe rel attributes: " + externalBlankLinks.length);
+console.log("Repeated CSS background URLs: " + repeatedCssImages.length);
+console.log("Findings: " + findings.length);
+for (const item of findings) console.log("[" + item.level + "] " + item.file + ": " + item.message);
+if (process.env.GITHUB_STEP_SUMMARY) {
+  fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, [
+    "## Outbound links and CSS image audit",
+    "",
+    "- HTML pages scanned: **" + htmlFiles.length + "**",
+    "- Klook/Agoda links: **" + partnerLinks.length + "** across **" + partnerPages.size + "** pages",
+    "- External target=_blank links missing safe rel attributes: **" + externalBlankLinks.length + "**",
+    "- Repeated CSS background URLs: **" + repeatedCssImages.length + "**",
+    "",
+    ...findings.map((item) => "- [" + item.level + "] " + item.file + ": " + item.message)
+  ].join("\n") + "\n");
+}
