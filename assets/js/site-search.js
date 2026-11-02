@@ -54,7 +54,7 @@
     if (!items.length) {
       const empty = document.createElement('p');
       empty.className = 'site-search-results__empty';
-      empty.textContent = 'Try a broader term such as “food”, “airport”, “hotel”, “beach” or “transport”.';
+      empty.textContent = 'Try a broader term such as “food”, “airport”, “hotel”, “beach”, “winter” or “transport”.';
       const suggestions = [
         { label: 'Things to Do in Busan', url: '/guides/things-to-do-in-busan/' },
         { label: 'Three-Day Itinerary', url: '/guides/busan-three-days/' },
@@ -63,6 +63,7 @@
         { label: 'Airport to Seomyeon', url: '/guides/gimhae-airport-to-seomyeon/' },
         { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' },
         { label: 'Pusan National University Food Guide', url: '/guides/pusan-national-university-food-guide/' },
+        { label: 'Busan in Winter: Local Tips & What to Pack', url: '/guides/busan-winter-travel-guide/' },
         { label: 'Public Transportation & Transit Cards', url: '/guides/busan-transit-card/' },
         { label: 'Visit Busan Pass Guide', url: '/guides/visit-busan-pass-guide/' }
       ];
