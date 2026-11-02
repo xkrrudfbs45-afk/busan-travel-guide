@@ -77,8 +77,8 @@
         row.appendChild(link);
         suggestionList.appendChild(row);
       });
-      results.appendChild(suggestionList);
       results.appendChild(empty);
+      results.appendChild(suggestionList);
       return;
     }
 
