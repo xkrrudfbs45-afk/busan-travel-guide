@@ -103,6 +103,8 @@ for (const file of htmlFiles) {
 
   const ogImage = metaContent(html, "property", "og:image");
   const twitterImage = metaContent(html, "name", "twitter:image");
+  const ogImageAlt = metaContent(html, "property", "og:image:alt");
+  if (ogImage && !ogImageAlt) add("WARN", file, "Missing og:image:alt text");
   if (!ogImage || !twitterImage) {
     missingSocialImage++;
     add("WARN", file, "Missing og:image or twitter:image");
