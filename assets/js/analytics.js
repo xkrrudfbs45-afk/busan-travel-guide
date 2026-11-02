@@ -97,8 +97,30 @@
     document.addEventListener('click', (event) => {
       if (!analyticsEnabled || typeof window.gtag !== 'function') return;
       const target = event.target;
-      const link = target && target.closest ? target.closest('a[href]') : null;
+      if (!target || !target.closest) return;
+
+      const shortcut = target.closest('[data-search-query]');
+      if (shortcut) {
+        window.gtag('event', 'search_shortcut_click', {
+          search_query: (shortcut.getAttribute('data-search-query') || '').slice(0, 80),
+          page_location: window.location.href
+        });
+      }
+
+      const link = target.closest('a[href]');
       if (!link) return;
+
+      const guidePlacement = link.closest('.trend-card')
+        ? 'guide_card'
+        : (link.closest('.category-tile') ? 'category_tile' : '');
+      if (guidePlacement && link.pathname.startsWith('/guides/')) {
+        window.gtag('event', 'guide_navigation_click', {
+          guide_url: link.href,
+          guide_title: (link.querySelector('.trend-copy h3')?.innerText || link.innerText || '').trim().slice(0, 100),
+          placement: guidePlacement,
+          page_location: window.location.href
+        });
+      }
 
       let affiliateUrl;
       try {
