@@ -44,30 +44,57 @@
   function render(items, query) {
     results.replaceChildren();
     results.hidden = false;
+    const language = (document.documentElement.lang || 'en').toLowerCase();
+    const japanese = language.startsWith('ja');
+    const traditionalChinese = language.includes('zh-tw') || language.includes('zh-hant');
     const heading = document.createElement('h2');
     heading.className = 'site-search-results__heading';
     heading.textContent = items.length
-      ? 'Guide results (' + items.length + ')'
-      : 'No exact matches';
+      ? (japanese
+        ? 'ガイド検索結果（' + items.length + '件）'
+        : (traditionalChinese ? '指南搜尋結果（' + items.length + '）' : 'Guide results (' + items.length + ')'))
+      : (japanese ? '一致するガイドが見つかりません' : (traditionalChinese ? '找不到符合的指南' : 'No exact matches'));
     results.appendChild(heading);
 
     if (!items.length) {
       const empty = document.createElement('p');
       empty.className = 'site-search-results__empty';
-      empty.textContent = 'Try a broader term such as “food”, “airport”, “hotel”, “beach”, “winter” or “transport”.';
-      const suggestions = [
-        { label: 'Things to Do in Busan', url: '/guides/things-to-do-in-busan/' },
-        { label: 'Three-Day Itinerary', url: '/guides/busan-three-days/' },
-        { label: 'Where to Stay', url: '/guides/where-to-stay-busan/' },
-        { label: 'Airport to Haeundae', url: '/guides/gimhae-airport-to-haeundae/' },
-        { label: 'Airport to Seomyeon', url: '/guides/gimhae-airport-to-seomyeon/' },
-        { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' },
-        { label: 'Pusan National University Food Guide', url: '/guides/pusan-national-university-food-guide/' },
-        { label: 'Busan in Winter: Local Tips & What to Pack', url: '/guides/busan-winter-travel-guide/' },
-        { label: 'Busan with Kids: Family-Friendly Travel Guide', url: '/guides/busan-with-kids/' },
-        { label: 'Public Transportation & Transit Cards', url: '/guides/busan-transit-card/' },
-        { label: 'Visit Busan Pass Guide', url: '/guides/visit-busan-pass-guide/' }
-      ];
+      empty.textContent = japanese
+        ? '「観光」「空港」「ホテル」「グルメ」「交通カード」など、別のキーワードをお試しください。'
+        : (traditionalChinese
+          ? '試試「景點」「機場」「住宿」「美食」「交通卡」等其他關鍵字。'
+          : 'Try a broader term such as “food”, “airport”, “hotel”, “beach”, “winter” or “transport”.');
+      const suggestions = japanese
+        ? [
+            { label: '釜山の観光スポット', url: '/ja/guides/things-to-do-in-busan/' },
+            { label: '釜山3日間モデルコース', url: '/ja/guides/three-days/' },
+            { label: '初めての釜山旅行', url: '/ja/guides/first-trip/' },
+            { label: '金海空港から海雲台へ', url: '/ja/guides/airport-to-haeundae/' },
+            { label: '釜山の交通カード', url: '/ja/guides/transit-card/' },
+            { label: 'エリア別釜山グルメ', url: '/ja/guides/local-food-by-neighborhood/' },
+            { label: 'スパランドの利用ガイド', url: '/ja/guides/busan-spa-land-guide/' }
+          ]
+        : (traditionalChinese
+          ? [
+              { label: '釜山必去景點', url: '/zh-tw/guides/things-to-do-in-busan/' },
+              { label: '釜山三日行程', url: '/zh-tw/guides/three-days/' },
+              { label: '第一次到釜山旅遊', url: '/zh-tw/guides/first-trip/' },
+              { label: '金海機場到海雲台', url: '/zh-tw/guides/airport-to-haeundae/' },
+              { label: '釜山交通卡', url: '/zh-tw/guides/transit-card/' },
+              { label: '釜山在地美食', url: '/zh-tw/guides/local-food-by-neighborhood/' },
+              { label: 'Spa Land 使用指南', url: '/zh-tw/guides/busan-spa-land-guide/' }
+            ]
+          : [
+              { label: 'Things to Do in Busan', url: '/guides/things-to-do-in-busan/' },
+              { label: 'Three-Day Itinerary', url: '/guides/busan-three-days/' },
+              { label: 'Where to Stay', url: '/guides/where-to-stay-busan/' },
+              { label: 'Airport to Haeundae', url: '/guides/gimhae-airport-to-haeundae/' },
+              { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' },
+              { label: 'Pusan National University Food Guide', url: '/guides/pusan-national-university-food-guide/' },
+              { label: 'Busan Spa Land Guide', url: '/guides/busan-spa-land-guide/' },
+              { label: 'Public Transportation & Transit Cards', url: '/guides/busan-transit-card/' },
+              { label: 'Visit Busan Pass Guide', url: '/guides/visit-busan-pass-guide/' }
+            ]);
       const suggestionList = document.createElement('ul');
       suggestionList.className = 'site-search-results__list site-search-results__suggestions';
       suggestions.forEach((suggestion) => {
