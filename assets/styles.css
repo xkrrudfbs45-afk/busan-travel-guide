@@ -705,3 +705,7 @@
 
 .home-refresh .thumb-luggage,.home-refresh .trend-luggage{background-image:url("/assets/illustrations/busan-luggage-guide.svg");background-size:cover;background-position:center}
 .home-refresh .thumb-pass{background-image:url("/assets/illustrations/busan-pass-guide.svg");background-size:cover;background-position:center}
+
+.home-refresh .trend-local-food{background-image:url("/assets/illustrations/busan-local-food-overview.svg");background-size:cover;background-position:center}
+.home-refresh .trend-mountain-food{background-image:url("/assets/illustrations/busan-mountain-food-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-ktx,.home-refresh .thumb-ktx{background-image:url("/assets/illustrations/ktx-guide.svg");background-size:cover;background-position:center}
