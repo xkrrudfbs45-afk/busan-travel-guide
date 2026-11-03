@@ -5,6 +5,7 @@ import { readFileSync } from "node:fs";
 import { CALENDAR_MD, parseCalendar, localToUtc, checkPost, redact } from "./lib.mjs";
 import { buildSchedule, validateSchedule } from "./build-schedule.mjs";
 import { run } from "./publish.mjs";
+import { pathFor, guideUrl, checkLinkReply } from "./link-replies.mjs";
 
 const md = readFileSync(CALENDAR_MD, "utf8");
 
@@ -137,4 +138,41 @@ test("swapped tokens are refused: JP copy never goes to the US account", async (
   const s = await run({ now: new Date("2026-11-04T23:05:00Z"), schedule: approved(), log, env: ENV, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
   assert.equal(s.published.length, 0); assert.match(s.failed.join(), /belongs to @go2busan.us, expected @go2busan.jp/);
   assert.ok(!api.calls.some((c) => c.startsWith("POST")));
+});
+
+// ---- link replies ----
+function withReplies(s) {
+  for (const p of s.posts) { const path = pathFor(p); if (path) { const url = guideUrl(path, p.market, p.day); p.link_reply = { url, text: `guide 👇\n${url}` }; } }
+  return s;
+}
+
+test("link mapping: JP -> /ja/ pages, US -> English pages, all pages exist", () => {
+  const s = withReplies(buildSchedule(md, "2026-11-04"));
+  const withLink = s.posts.filter((p) => p.link_reply);
+  assert.ok(withLink.length >= 20);
+  for (const p of withLink) assert.deepEqual(checkLinkReply(p), [], p.id);
+  assert.match(s.posts.find((p) => p.id === "d08-jp-2").link_reply.url, /\/ja\/guides\/airport-to-haeundae\//);
+  assert.equal(s.posts.find((p) => p.id === "d08-jp-1").link_reply, undefined);
+  assert.match(s.posts.find((p) => p.id === "d01-us-1").link_reply.url, /utm_campaign=threads30_us&utm_content=day01/);
+});
+
+test("link reply is posted as a reply to the new thread, once", async () => {
+  const api = fakeApi(); const log = { posts: {} }; const sch = withReplies(approved()); const now = new Date("2026-11-04T23:05:00Z");
+  const bodies = []; const f = async (u, init = {}) => { if (init.body) bodies.push(String(init.body)); return api.fetchImpl(u, init); };
+  await run({ now, schedule: sch, log, env: ENV, fetchImpl: f, waitMs: 0, out: quiet });
+  const e = log.posts["d01-jp-1"];
+  assert.equal(e.status, "published"); assert.equal(e.reply_status, "done");
+  assert.ok(bodies.some((b) => b.includes("reply_to_id=" + e.thread_id)));
+  await run({ now, schedule: sch, log, env: ENV, fetchImpl: f, waitMs: 0, out: quiet });
+  assert.equal(bodies.filter((b) => b.includes("reply_to_id")).length, 1);
+});
+
+test("a failed reply never undoes or reposts the main post; retried next run", async () => {
+  let failReply = 1; const base = fakeApi(); const log = { posts: {} }; const sch = withReplies(approved()); const now = new Date("2026-11-04T23:05:00Z");
+  const f = async (u, init = {}) => { if (String(init.body || "").includes("reply_to_id") && failReply-- > 0) return { ok: false, status: 503, json: async () => ({ error: { message: "busy" } }) }; return base.fetchImpl(u, init); };
+  await run({ now, schedule: sch, log, env: ENV, fetchImpl: f, waitMs: 0, out: quiet });
+  assert.equal(log.posts["d01-jp-1"].status, "published"); assert.equal(log.posts["d01-jp-1"].reply_status, "retry_pending");
+  await run({ now: new Date("2026-11-04T23:20:00Z"), schedule: sch, log, env: ENV, fetchImpl: f, waitMs: 0, out: quiet });
+  assert.equal(log.posts["d01-jp-1"].reply_status, "done");
+  assert.equal(base.calls.filter((c) => c.includes("threads_publish")).length, 2); // 1 post + 1 reply
 });

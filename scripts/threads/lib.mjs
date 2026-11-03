@@ -18,6 +18,7 @@ export const MAX_TEXT = 500;           // Threads text post limit
 export const MAX_ATTEMPTS = 3;         // total publish attempts per post (across runs)
 export const LATE_WINDOW_MIN = 180;    // more than 3h late -> "missed", never auto-posted
 export const MAX_PER_LOCAL_DAY = 2;    // planned cadence per account
+export const REPLY_LATE_WINDOW_MIN = 360; // link reply must follow its post within 6h
 
 // ---------- calendar parsing ----------
 export function parseCalendar(md) {
@@ -132,6 +133,7 @@ export function makeClient({ token, fetchImpl = fetch, base = "https://graph.thr
     publish: (uid, creationId) => call("POST", `/${uid}/threads_publish`, { creation_id: creationId }),
     recent: (uid) => call("GET", `/${uid}/threads`, { fields: "id,text,timestamp,permalink", limit: "25" }),
     permalink: (mediaId) => call("GET", `/${mediaId}`, { fields: "id,permalink,timestamp" }),
+    replies: (mediaId) => call("GET", `/${mediaId}/replies`, { fields: "id,text" }),
     insights: (mediaId) => call("GET", `/${mediaId}/insights`, { metric: "views,likes,replies,reposts,quotes,shares" }),
   };
 }

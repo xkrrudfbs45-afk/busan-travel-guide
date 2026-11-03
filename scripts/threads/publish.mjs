@@ -14,7 +14,7 @@
 //  - Tokens come only from env and are redacted from every message.
 //
 // Usage: node scripts/threads/publish.mjs [--now ISO] [--log path] [--wait-ms 30000]
-import { ACCOUNTS, SCHEDULE_FILE, LOG_FILE, MAX_ATTEMPTS, LATE_WINDOW_MIN, MAX_PER_LOCAL_DAY,
+import { ACCOUNTS, SCHEDULE_FILE, LOG_FILE, MAX_ATTEMPTS, LATE_WINDOW_MIN, REPLY_LATE_WINDOW_MIN, MAX_PER_LOCAL_DAY,
   readJson, writeJson, makeClient, checkPost, redact } from "./lib.mjs";
 
 const norm = (t) => String(t || "").replace(/\s+/g, " ").trim();
@@ -24,7 +24,7 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
   save = () => {}, out = console.log } = {}) {
   const live = env.THREADS_LIVE === "true";
   log.posts ||= {};
-  const summary = { live, verified: [], published: [], missed: [], failed: [], waiting: [], dry_run: [], not_configured: [] };
+  const summary = { live, verified: [], published: [], replies: [], missed: [], failed: [], waiting: [], dry_run: [], not_configured: [] };
   const entry = (id) => (log.posts[id] ||= { status: "pending", attempts: 0 });
   const persist = () => save(log);
 
@@ -33,7 +33,9 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
       .filter((p) => p.market === market && p.status === "approved" && new Date(p.publish_at_utc) <= now)
       .filter((p) => !["published", "missed", "failed"].includes(log.posts[p.id]?.status))
       .sort((a, b) => a.publish_at_utc.localeCompare(b.publish_at_utc));
-    if (!due.length) continue;
+    const pendingReplies = schedule.posts.filter((p) => p.market === market && p.link_reply &&
+      log.posts[p.id]?.status === "published" && !["done", "failed", "missed"].includes(log.posts[p.id]?.reply_status));
+    if (!due.length && !pendingReplies.length) continue;
 
     const token = env[acc.tokenEnv];
     if (!token) { summary.not_configured.push(`${market}: ${acc.tokenEnv} not set (${due.length} due)`); continue; }
@@ -48,7 +50,42 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
     }
     summary.verified.push(`${market}: @${me.username}`);
 
+    // First reply with the guide link. Never blocks or alters the main post.
+    const postReply = async (p) => {
+      const e = entry(p.id); const lr = p.link_reply;
+      if (!e.thread_id) return;
+      if ((now - new Date(e.published_at || now)) / 60000 > REPLY_LATE_WINDOW_MIN) { e.reply_status = "missed"; persist(); summary.missed.push(`${p.id} (reply)`); return; }
+      if ((e.reply_attempts || 0) >= MAX_ATTEMPTS) { e.reply_status = "failed"; persist(); summary.failed.push(`${p.id}: reply max attempts`); return; }
+      try { const r = await fetchImpl(lr.url, { method: "GET", redirect: "follow" }); if (r.status !== 200) throw new Error(`HTTP ${r.status}`); }
+      catch (err) { e.reply_status = "failed"; e.reply_error = `link: ${redact(err.message)}`; persist(); summary.failed.push(`${p.id}: reply link check failed`); return; }
+      try {
+        const existing = await client.replies(e.thread_id).catch(() => ({ data: [] }));
+        const hit = (existing.data || []).find((r) => String(r.text || "").includes(lr.url));
+        if (hit) { Object.assign(e, { reply_status: "done", reply_id: hit.id, reply_recovered: true }); persist(); summary.replies.push(`${p.id} (already replied)`); return; }
+        e.reply_attempts = (e.reply_attempts || 0) + 1;
+        const fresh = e.reply_creation_id && (now - new Date(e.reply_container_created_at)) < 23 * 3600e3;
+        if (!fresh) {
+          const c = await client.createText(me.id, lr.text, { reply_to_id: e.thread_id });
+          Object.assign(e, { reply_status: "container_created", reply_creation_id: c.id, reply_container_created_at: now.toISOString() });
+          persist(); await sleep(waitMs);
+        }
+        const pub = await client.publish(me.id, e.reply_creation_id);
+        Object.assign(e, { reply_status: "done", reply_id: pub.id, reply_error: null }); persist();
+        summary.replies.push(`${p.id} -> reply ${pub.id}`);
+      } catch (err) {
+        e.reply_error = redact(err.message);
+        e.reply_status = err.retryable && e.reply_attempts < MAX_ATTEMPTS ? "retry_pending" : "failed";
+        persist(); summary.failed.push(`${p.id}: reply ${e.reply_error} (${e.reply_status})`);
+      }
+    };
+
+    if (pendingReplies.length) {
+      if (live) await postReply(pendingReplies[0]);
+      else summary.dry_run.push(`${pendingReplies[0].id} reply pending`);
+    }
+
     // Late posts become "missed" (owner decides later); then handle at most one post this run.
+    if (!due.length) continue;
     let p = null;
     for (const c of due) {
       const lateMin = (now - new Date(c.publish_at_utc)) / 60000;
@@ -73,7 +110,7 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
     }
     if (badLink) { summary.failed.push(`${p.id}: link check failed ${badLink}`); if (live) { Object.assign(entry(p.id), { status: "failed", last_error: `link: ${badLink}` }); persist(); } continue; }
 
-    if (!live) { summary.dry_run.push(`${p.id} @${acc.handle} ${p.local_date} ${p.local_time} ${acc.tz}`); continue; }
+    if (!live) { summary.dry_run.push(`${p.id} @${acc.handle} ${p.local_date} ${p.local_time} ${acc.tz}${p.link_reply ? " + link reply" : ""}`); continue; }
 
     const e = entry(p.id);
     if (e.attempts >= MAX_ATTEMPTS) { e.status = "failed"; persist(); summary.failed.push(`${p.id}: max attempts`); continue; }
@@ -95,13 +132,15 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
       }
       const pub = await client.publish(me.id, e.creation_id);
       const meta = await client.permalink(pub.id).catch(() => ({}));
-      Object.assign(e, { status: "published", thread_id: pub.id, permalink: meta.permalink || null, published_at: new Date().toISOString(), last_error: null });
+      Object.assign(e, { status: "published", thread_id: pub.id, permalink: meta.permalink || null, published_at: now.toISOString(), last_error: null });
       persist(); summary.published.push(`${p.id} -> ${meta.permalink || pub.id}`);
     } catch (err) {
       e.last_error = redact(err.message);
       e.status = err.retryable && e.attempts < MAX_ATTEMPTS ? "retry_pending" : "failed";
       persist(); summary.failed.push(`${p.id}: ${e.last_error} (${e.status}, attempt ${e.attempts}/${MAX_ATTEMPTS})`);
+      continue;
     }
+    if (p.link_reply && e.status === "published") { await sleep(waitMs); await postReply(p); }
   }
 
   out(JSON.stringify(summary, null, 2));
