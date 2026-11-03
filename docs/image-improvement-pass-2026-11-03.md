@@ -35,6 +35,9 @@ This change replaces generic stock-photo backgrounds on the shared homepage card
 - Korean temple food guide illustration
 - Luggage/storage guide illustration
 - Passes/attractions guide illustration
+- Separate local-food overview illustration
+- Geumjeongsanseong mountain-village food illustration
+- KTX high-speed rail illustration
 
 These are editorial illustrations, not documentary photographs of a specific business, room, meal, or current scene. The assets contain accessible SVG titles/descriptions, and their artwork is stored locally without third-party photo licensing dependencies.
 
@@ -45,6 +48,7 @@ These are editorial illustrations, not documentary photographs of a specific bus
 - Checked all local SVG paths referenced by CSS against the repository tree: no missing local SVG references found.
 - Reviewed the English, Japanese, and Traditional Chinese nakgopsae guide source files and inserted the illustration/caption.
 - Updated social image metadata on English, Japanese, and Traditional Chinese homepages.
+- Fixed the homepage food-image audit script so it inspects the exact matching card anchor instead of accidentally borrowing a later card's image class when the same URL appears in an earlier text-only section.
 
 ## Important remaining work
 
