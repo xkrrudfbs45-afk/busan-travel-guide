@@ -8,14 +8,14 @@ const homepages = [
   ["zh-tw/index.html", "zh-TW"]
 ];
 
-const requiredAnalyticsPatterns = [
-  [/\/\^\\\/\(\?:ja\\\/\|zh-tw\\\/\)\?guides\\\//, "localized guide path matcher"],
-  [/guide_locale:\s*guideLocale/, "guide locale event parameter"],
-  [/local_experience_card/, "local experience card placement"]
+const requiredAnalyticsChecks = [
+  [analytics.includes("const isGuidePath = /^") && analytics.includes("zh-tw") && analytics.includes("ja/"), "localized guide path matcher"],
+  [analytics.includes("guide_locale: guideLocale"), "guide locale event parameter"],
+  [analytics.includes("local_experience_card"), "local experience card placement"]
 ];
 
-for (const [pattern, label] of requiredAnalyticsPatterns) {
-  if (!pattern.test(analytics)) {
+for (const [passed, label] of requiredAnalyticsChecks) {
+  if (!passed) {
     throw new Error("Analytics navigation audit failed: missing " + label);
   }
 }
