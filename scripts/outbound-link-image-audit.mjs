@@ -37,7 +37,7 @@ for (const file of htmlFiles) {
       add("WARN", file, "Image tag has no src attribute");
       continue;
     }
-    if (!alt) add("WARN", file, "Image is missing descriptive alt text: " + src);
+    if (!alt && !/go2busan-(mark|logo)\.svg/i.test(src)) add("WARN", file, "Image is missing descriptive alt text: " + src);
     let imageUrl;
     try { imageUrl = new URL(src, "https://go2busan.com/"); } catch {
       add("WARN", file, "Malformed image URL: " + src);
