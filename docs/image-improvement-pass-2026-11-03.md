@@ -36,6 +36,7 @@ This change replaces generic stock-photo backgrounds on the shared homepage card
 - Luggage/storage guide illustration
 - Passes/attractions guide illustration
 - Separate local-food overview illustration
+- Dedicated dwaeji-gukbap (pork soup) illustration
 - Geumjeongsanseong mountain-village food illustration
 - KTX high-speed rail illustration
 
@@ -56,3 +57,12 @@ These are editorial illustrations, not documentary photographs of a specific bus
 This is a visual-safety improvement for homepage card backgrounds and the three nakgopsae guide pages. It is **not** a claim that every image embedded directly in every HTML article has been visually inspected or that every third-party image license across all 124 HTML pages has been verified. Direct `<img>` tags, article figures, and other page-specific remote assets still require a page-by-page source, subject, license, and attribution audit before being marked VERIFIED.
 
 Do not replace article photographs blindly: first verify whether they depict the exact place/food/hotel described. If an exact, permitted photo cannot be confirmed, use a topic-specific illustration or a text-led design. Avoid presenting these illustrations as photographs.
+
+
+## Follow-up: Japanese and Traditional Chinese repeated pork-soup imagery
+
+- The Japanese and Traditional Chinese homepages previously assigned the same generic `trend-food` CSS class to nine different food guides. This caused the cards to share one background image even when the guide topics were nakgopsae, milmyeon, eomuk, makgeolli, temple food, campus food, or pork soup.
+- Gave each of those nine cards its own topic-specific CSS class in both locales and mapped each class to a distinct local illustration.
+- Added a dedicated dwaeji-gukbap illustration and changed the Japanese and Traditional Chinese pork-soup-awards pages' Open Graph and Twitter preview images to that asset.
+- Removed outdated Wikimedia photo credits from cards that now use original illustrations.
+- Source-level validation: neither `images.unsplash.com` nor Wikimedia remote image URLs remain in `assets/styles.css`; all ten food cards inspected per locale now use distinct image classes. This verifies source configuration, not live production rendering.
