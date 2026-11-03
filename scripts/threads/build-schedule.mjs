@@ -7,6 +7,7 @@
 //   node scripts/threads/build-schedule.mjs --start 2026-11-05            # write schedule
 //   node scripts/threads/build-schedule.mjs --check                        # verify file matches calendar copy
 import { readFileSync } from "node:fs";
+import { checkLinkReply } from "./link-replies.mjs";
 import { ACCOUNTS, CALENDAR_MD, SCHEDULE_FILE, parseCalendar, localToUtc, addDays, checkPost, readJson, writeJson } from "./lib.mjs";
 
 const args = process.argv.slice(2);
@@ -48,6 +49,7 @@ export function validateSchedule(s, md) {
     if (!o) { errs.push(`${p.id}: not in calendar`); continue; }
     if (o.text !== p.text && !p.replacement) errs.push(`${p.id}: copy differs from calendar without a logged replacement`);
     if (ACCOUNTS[p.market].handle !== p.account) errs.push(`${p.id}: wrong account`);
+    errs.push(...checkLinkReply(p));
     if (p.status === "approved") {
       if (!p.approval?.approved_by || !p.approval?.approved_at) errs.push(`${p.id}: approved without approver`);
       if (p.verification.status === "blocked") errs.push(`${p.id}: approved but blocked (${p.verification.issues.join("; ")})`);

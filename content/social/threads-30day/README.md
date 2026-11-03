@@ -29,5 +29,8 @@ SNS automation only — separate from the website build and Render deploy.
 4. Merge `schedule.json` with approvals.
 5. Repository variable `THREADS_LIVE=true`. Until then every run is a dry run.
 
+## Link replies
+`link_reply` on a post = the publisher replies to its own new thread with the guide URL (needs `threads_manage_replies`). Mapping: `scripts/threads/link-replies.mjs`. Replies retry up to 3 times, never repost the main post, and are skipped if more than 6h late.
+
 ## Safety rules enforced in code
 Dry run by default · approved posts only · log + on-account dedupe · ≤1 post per account per run, ≤2 per local day · ≤3 attempts (network/5xx/429 only) reusing the same container · >3h late → `missed` · links fetched before posting · tokens redacted.
