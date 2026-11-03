@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t"><title id="t">Illustration of a steaming bowl of Busan soup</title>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e4c9"/><stop offset="1" stop-color="#f8f4e9"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bbdb4"/><stop offset="1" stop-color="#3f817d"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#s)"/><circle cx="1270" cy="180" r="74" fill="#e6a17d" opacity=".9"/><path d="M0 520 Q220 400 430 480 T860 450 T1260 430 T1600 490 V900 H0Z" fill="#a8b9a0"/>
+<path d="M0 610 Q260 500 520 590 T1040 560 T1600 590 V900 H0Z" fill="#6f9987"/>
+<rect x="0" y="640" width="1600" height="260" fill="#e9d9bd"/>
+<path d="M0 640 H1600" stroke="#c9b48f" stroke-width="6"/>
+<g stroke="#315b56" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M470 520 H1130 Q1120 760 800 770 Q480 760 470 520Z" fill="#f6eee0"/>
+<path d="M500 560 H1100" stroke-width="5" opacity=".5"/>
+<ellipse cx="800" cy="520" rx="330" ry="46" fill="#e7c48a"/>
+<path d="M620 800 H980" stroke-width="10"/></g>
+<g fill="#fff8e9" stroke="#315b56" stroke-width="5"><ellipse cx="700" cy="510" rx="60" ry="16"/><ellipse cx="860" cy="525" rx="70" ry="18"/></g>
+<circle cx="760" cy="505" r="12" fill="#6f9987"/><circle cx="900" cy="512" r="10" fill="#6f9987"/><circle cx="980" cy="500" r="9" fill="#df8065"/>
+<g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity=".85">
+<path d="M690 450 Q660 400 700 350 T690 250"/><path d="M800 440 Q770 380 815 330 T800 220"/><path d="M910 450 Q880 400 920 350 T910 260"/></g>
+<g stroke="#315b56" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M1150 380 L880 560" stroke="#8a5a3c" stroke-width="14"/><path d="M1190 400 L910 575" stroke="#8a5a3c" stroke-width="14"/></g></svg>

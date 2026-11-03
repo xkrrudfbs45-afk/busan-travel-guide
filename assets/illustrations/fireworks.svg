@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t"><title id="t">Illustration of fireworks over the sea at night</title>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#20434a"/><stop offset="1" stop-color="#173f3b"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bbdb4"/><stop offset="1" stop-color="#3f817d"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#s)"/><path d="M0 560 Q300 520 600 560 T1200 545 T1600 560 V900 H0Z" fill="#20434a"/>
+<rect x="0" y="600" width="1600" height="300" fill="#173f3b"/>
+<g stroke-linecap="round" stroke-width="9" fill="none">
+<g stroke="#e9c77d" transform="translate(470 270)"><path d="M0 0 L0 -120 M0 0 L85 -85 M0 0 L120 0 M0 0 L85 85 M0 0 L0 120 M0 0 L-85 85 M0 0 L-120 0 M0 0 L-85 -85"/></g>
+<g stroke="#df8065" transform="translate(1050 220)"><path d="M0 0 L0 -100 M0 0 L71 -71 M0 0 L100 0 M0 0 L71 71 M0 0 L0 100 M0 0 L-71 71 M0 0 L-100 0 M0 0 L-71 -71"/></g>
+<g stroke="#8bbdb4" transform="translate(800 360)"><path d="M0 0 L0 -70 M0 0 L50 -50 M0 0 L70 0 M0 0 L50 50 M0 0 L0 70 M0 0 L-50 50 M0 0 L-70 0 M0 0 L-50 -50"/></g></g>
+<g stroke="#d8e9d8" fill="none" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"><path d="M80 600 Q420 470 800 600 Q1180 470 1520 600"/><path d="M80 600 V640 M1520 600 V640"/>
+<path d="M240 560 V600 M400 528 V600 M560 540 V600 M1040 540 V600 M1200 528 V600 M1360 560 V600"/></g>
+<g fill="none" stroke="#e9c77d" stroke-width="5" opacity=".5"><path d="M300 720 H560 M900 760 H1240 M380 820 H700"/></g></svg>

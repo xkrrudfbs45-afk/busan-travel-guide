@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t"><title id="t">Illustration of a historic wooden house with a garden</title>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e4c9"/><stop offset="1" stop-color="#f8f4e9"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bbdb4"/><stop offset="1" stop-color="#3f817d"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#s)"/><circle cx="1270" cy="180" r="74" fill="#e6a17d" opacity=".9"/><path d="M0 520 Q220 400 430 480 T860 450 T1260 430 T1600 490 V900 H0Z" fill="#a8b9a0"/>
+<path d="M0 610 Q260 500 520 590 T1040 560 T1600 590 V900 H0Z" fill="#6f9987"/>
+<rect x="0" y="650" width="1600" height="250" fill="#a9c0a6"/>
+<g stroke="#315b56" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M430 650 V430 H1170 V650Z" fill="#f6eee0"/>
+<path d="M370 440 L800 250 L1230 440Z" fill="#477d7d"/><path d="M400 440 H1200" stroke-width="9"/>
+<g fill="#e9d9bd"><rect x="480" y="480" width="170" height="110"/><rect x="950" y="480" width="170" height="110"/></g>
+<path d="M565 480 V590 M480 535 H650 M1035 480 V590 M950 535 H1120" stroke-width="5"/>
+<rect x="730" y="500" width="140" height="150" fill="#8a5a3c"/></g>
+<g stroke="#315b56" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="#5e8b52"><circle cx="250" cy="600" r="80"/><circle cx="1350" cy="590" r="95"/><path d="M250 680 V720 M1350 685 V725"/></g>
+<g fill="#efc96d"><circle cx="300" cy="700" r="12"/><circle cx="1300" cy="705" r="12"/><circle cx="1400" cy="715" r="10"/></g>
+<path d="M700 720 Q800 690 900 720 Q800 750 700 720Z" fill="#e8f0e9" stroke="#315b56" stroke-width="5"/></svg>

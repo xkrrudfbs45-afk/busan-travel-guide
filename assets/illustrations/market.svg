@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t"><title id="t">Illustration of a seaside fish market stall</title>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e4c9"/><stop offset="1" stop-color="#f8f4e9"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bbdb4"/><stop offset="1" stop-color="#3f817d"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#s)"/><circle cx="1270" cy="180" r="74" fill="#e6a17d" opacity=".9"/><path d="M0 520 Q220 400 430 480 T860 450 T1260 430 T1600 490 V900 H0Z" fill="#a8b9a0"/>
+<path d="M0 610 Q260 500 520 590 T1040 560 T1600 590 V900 H0Z" fill="#6f9987"/><path d="M0 700 Q300 650 600 700 T1200 690 T1600 700 V900 H0Z" fill="url(#w)"/>
+<path d="M0 775 Q320 745 640 780 T1280 770 T1600 780" fill="none" stroke="#d8e9d8" stroke-width="5" opacity=".75"/>
+<g stroke="#315b56" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><rect x="360" y="380" width="880" height="330" fill="#f6eee0"/>
+<path d="M330 380 L410 250 H1190 L1270 380Z" fill="#df8065"/>
+<path d="M410 380 Q445 420 480 380 Q515 420 550 380 Q585 420 620 380 Q655 420 690 380 Q725 420 760 380 Q795 420 830 380 Q865 420 900 380 Q935 420 970 380 Q1005 420 1040 380 Q1075 420 1110 380 Q1145 420 1180 380" fill="#fff1d0"/>
+<rect x="420" y="560" width="760" height="70" fill="#8bbdb4"/>
+<rect x="400" y="630" width="800" height="80" fill="#e9d9bd"/></g>
+<g fill="#6faaa0" stroke="#315b56" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M480 590 Q540 545 610 590 Q540 635 480 590Z"/><path d="M610 590 l30 -25 v50z"/>
+<path d="M700 585 Q770 540 850 585 Q770 630 700 585Z" fill="#e6a17d"/><path d="M850 585 l32 -26 v52z" fill="#e6a17d"/>
+<path d="M940 592 Q1000 550 1070 592 Q1000 634 940 592Z"/><path d="M1070 592 l30 -24 v48z"/></g>
+<g fill="#315b56"><circle cx="505" cy="585" r="6"/><circle cx="728" cy="580" r="6"/><circle cx="965" cy="587" r="6"/></g></svg>

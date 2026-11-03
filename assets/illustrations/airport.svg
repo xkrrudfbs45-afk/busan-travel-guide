@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="t"><title id="t">Illustration of a plane flying over the coast</title>
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3e4c9"/><stop offset="1" stop-color="#f8f4e9"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8bbdb4"/><stop offset="1" stop-color="#3f817d"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#s)"/><circle cx="1270" cy="180" r="74" fill="#e6a17d" opacity=".9"/><path d="M0 520 Q220 400 430 480 T860 450 T1260 430 T1600 490 V900 H0Z" fill="#a8b9a0"/>
+<path d="M0 610 Q260 500 520 590 T1040 560 T1600 590 V900 H0Z" fill="#6f9987"/><path d="M0 700 Q300 650 600 700 T1200 690 T1600 700 V900 H0Z" fill="url(#w)"/>
+<path d="M0 775 Q320 745 640 780 T1280 770 T1600 780" fill="none" stroke="#d8e9d8" stroke-width="5" opacity=".75"/>
+<g fill="#ffffff" opacity=".85"><ellipse cx="330" cy="220" rx="120" ry="34"/><ellipse cx="420" cy="200" rx="80" ry="30"/><ellipse cx="1050" cy="300" rx="110" ry="30"/></g>
+<g stroke="#315b56" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="#f6eee0"><path d="M420 470 L1090 300 Q1180 280 1200 320 Q1205 350 1130 380 L470 520 Z"/>
+<path d="M760 400 L640 250 H710 L900 360Z"/><path d="M790 455 L760 590 H820 L910 430Z"/>
+<path d="M470 520 L420 470 L380 400 H430 L520 455Z"/></g>
+<g fill="#8bbdb4"><circle cx="1000" cy="345" r="11"/><circle cx="950" cy="358" r="11"/><circle cx="900" cy="371" r="11"/><circle cx="850" cy="384" r="11"/></g>
+<path d="M330 560 Q240 590 150 570" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity=".7"/></svg>
