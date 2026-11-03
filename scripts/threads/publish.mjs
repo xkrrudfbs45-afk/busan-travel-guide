@@ -24,7 +24,7 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
   save = () => {}, out = console.log } = {}) {
   const live = env.THREADS_LIVE === "true";
   log.posts ||= {};
-  const summary = { live, published: [], missed: [], failed: [], waiting: [], dry_run: [], not_configured: [] };
+  const summary = { live, verified: [], published: [], missed: [], failed: [], waiting: [], dry_run: [], not_configured: [] };
   const entry = (id) => (log.posts[id] ||= { status: "pending", attempts: 0 });
   const persist = () => save(log);
 
@@ -37,6 +37,16 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
 
     const token = env[acc.tokenEnv];
     if (!token) { summary.not_configured.push(`${market}: ${acc.tokenEnv} not set (${due.length} due)`); continue; }
+
+    // Guard: the token must belong to this market's account (prevents JP copy going to the US account).
+    const client = makeClient({ token, fetchImpl });
+    let me;
+    try { me = await client.me(); }
+    catch (err) { summary.failed.push(`${market}: token check failed (${redact(err.message)})`); continue; }
+    if (String(me.username).toLowerCase() !== acc.handle) {
+      summary.failed.push(`${market}: ${acc.tokenEnv} belongs to @${me.username}, expected @${acc.handle} — nothing posted`); continue;
+    }
+    summary.verified.push(`${market}: @${me.username}`);
 
     // Late posts become "missed" (owner decides later); then handle at most one post this run.
     let p = null;
@@ -67,9 +77,7 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
 
     const e = entry(p.id);
     if (e.attempts >= MAX_ATTEMPTS) { e.status = "failed"; persist(); summary.failed.push(`${p.id}: max attempts`); continue; }
-    const client = makeClient({ token, fetchImpl });
     try {
-      const me = await client.me();
       // Dedupe against what is actually on the account (covers crash-after-publish).
       const recent = await client.recent(me.id);
       const hit = (recent.data || []).find((r) => norm(r.text) === norm(p.text));

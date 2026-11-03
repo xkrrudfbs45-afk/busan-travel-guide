@@ -53,13 +53,13 @@ test("tokens are redacted", () => {
 });
 
 // ---- publisher with a fake Threads API ----
-function fakeApi({ failPublish = 0, recentTexts = [] } = {}) {
+function fakeApi({ failPublish = 0, recentTexts = [], users = { jp: "go2busan.jp", us: "go2busan.us" } } = {}) {
   const calls = []; let n = 0; let pubFails = failPublish;
   const fetchImpl = async (url, init = {}) => {
     const u = String(url); calls.push(`${init.method || "GET"} ${u.replace(/\?.*/, "")}`);
     const ok = (j) => ({ ok: true, status: 200, json: async () => j });
     if (!u.includes("graph.threads.net")) return ok({});
-    if (u.includes("/me")) return ok({ id: "U1", username: "x" });
+    if (u.includes("/me")) { const tok = String(init.headers?.Authorization || "").replace("Bearer ", ""); return ok({ id: "U1", username: users[tok] || "someone_else" }); }
     if (u.endsWith("/threads") && init.method === "POST") return ok({ id: `C${++n}` });
     if (u.includes("/threads?") || (u.endsWith("/threads") && !init.method)) return ok({ data: recentTexts.map((t, i) => ({ id: `R${i}`, text: t })) });
     if (u.includes("threads_publish")) {
@@ -80,11 +80,11 @@ function approved(start = "2026-11-05") {
 const quiet = () => {};
 const ENV = { THREADS_LIVE: "true", THREADS_JP_ACCESS_TOKEN: "jp", THREADS_US_ACCESS_TOKEN: "us" };
 
-test("dry run never publishes or writes log", async () => {
+test("dry run never publishes or writes log (only reads /me to verify the account)", async () => {
   const api = fakeApi(); const log = { posts: {} };
   const s = await run({ now: new Date("2026-11-04T23:05:00Z"), schedule: approved(), log, env: { THREADS_JP_ACCESS_TOKEN: "jp" }, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
-  assert.equal(s.live, false); assert.deepEqual(s.dry_run.length, 1);
-  assert.ok(!api.calls.some((c) => c.includes("graph.threads.net")));
+  assert.equal(s.live, false); assert.deepEqual(s.dry_run.length, 1); assert.deepEqual(s.verified, ["JP: @go2busan.jp"]);
+  assert.ok(api.calls.every((c) => !c.includes("graph.threads.net") || c.startsWith("GET") && c.endsWith("/me")));
   assert.deepEqual(log.posts, {});
 });
 
@@ -130,4 +130,11 @@ test("missing token in live mode is reported, nothing posted", async () => {
   const api = fakeApi(); const log = { posts: {} };
   const s = await run({ now: new Date("2026-11-04T23:05:00Z"), schedule: approved(), log, env: { THREADS_LIVE: "true" }, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
   assert.equal(s.not_configured.length, 1); assert.equal(s.published.length, 0);
+});
+
+test("swapped tokens are refused: JP copy never goes to the US account", async () => {
+  const api = fakeApi({ users: { jp: "go2busan.us", us: "go2busan.jp" } }); const log = { posts: {} };
+  const s = await run({ now: new Date("2026-11-04T23:05:00Z"), schedule: approved(), log, env: ENV, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
+  assert.equal(s.published.length, 0); assert.match(s.failed.join(), /belongs to @go2busan.us, expected @go2busan.jp/);
+  assert.ok(!api.calls.some((c) => c.startsWith("POST")));
 });
