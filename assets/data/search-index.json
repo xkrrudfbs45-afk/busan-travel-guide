@@ -1178,5 +1178,103 @@
       "山菜拌飯",
       "梵魚寺附近餐廳"
     ]
+  },
+  {
+    "title": "Busan Milmyeon: The Refugee History Behind a Local Noodle",
+    "url": "/guides/busan-milmyeon-history/",
+    "summary": "Explore how Korean War displacement, flour relief supplies and northern cold-noodle traditions shaped Busan milmyeon, with sources and careful context on origin stories.",
+    "tags": [
+      "Busan milmyeon",
+      "milmyeon history",
+      "Busan noodle history",
+      "Korean War refugees Busan",
+      "flour aid",
+      "Naeho Naengmyeon",
+      "Uam-dong",
+      "Busan food history",
+      "밀면",
+      "부산 밀면 유래",
+      "부산 향토음식"
+    ]
+  },
+  {
+    "title": "釜山ミルミョンの歴史｜避難民の暮らしから生まれた麺料理",
+    "url": "/ja/guides/busan-milmyeon-history/",
+    "summary": "朝鮮戦争期の避難、救援物資の小麦粉、北部の冷麺文化から釜山ミルミョンの成り立ちを紹介。",
+    "tags": [
+      "釜山 ミルミョン",
+      "ミルミョン 歴史",
+      "釜山 グルメ",
+      "朝鮮戦争 避難民",
+      "小麦粉 救援物資",
+      "ネホ冷麺",
+      "牛岩洞",
+      "釜山 食文化"
+    ]
+  },
+  {
+    "title": "釜山 밀면 的歷史：從避難生活走來的在地麵食",
+    "url": "/zh-tw/guides/busan-milmyeon-history/",
+    "summary": "從韓戰避難、救濟麵粉與北方冷麵文化，認識釜山 밀면 的形成背景與不同起源說法。",
+    "tags": [
+      "釜山美食",
+      "釜山 밀면",
+      "釜山冷麵",
+      "韓戰避難者",
+      "救濟麵粉",
+      "內湖冷麵",
+      "牛岩洞",
+      "釜山飲食歷史"
+    ]
+  },
+  {
+    "title": "Busan Eomuk: The Port-City History of Korean Fish Cake",
+    "url": "/guides/busan-eomuk-history/",
+    "summary": "Trace Busan eomuk from Japanese kamaboko influence and colonial-era market shops to postwar factories, refugee-era demand and modern fish-cake culture.",
+    "tags": [
+      "Busan eomuk",
+      "Busan fish cake",
+      "Busan fishcake history",
+      "Bupyeong Market",
+      "Bongnae Market",
+      "Choryang",
+      "Yeongdo",
+      "Busan food history",
+      "어묵",
+      "부산어묵 역사",
+      "부산 먹거리"
+    ]
+  },
+  {
+    "title": "釜山おでん（オムク）の歴史｜港町の市場から広がった魚の練り物",
+    "url": "/ja/guides/busan-eomuk-history/",
+    "summary": "日本のかまぼこの影響、植民地期の市場、解放後の工場、戦後の避難民と需要拡大を通して釜山オムクの歴史を紹介。",
+    "tags": [
+      "釜山 オムク",
+      "釜山おでん",
+      "オムク 歴史",
+      "富平市場",
+      "蓬莱市場",
+      "草梁",
+      "影島",
+      "釜山 食文化",
+      "韓国おでん"
+    ]
+  },
+  {
+    "title": "釜山魚板的歷史：港口城市的市場飲食文化",
+    "url": "/zh-tw/guides/busan-eomuk-history/",
+    "summary": "從日本魚漿製品的影響、殖民時期市場，到解放後工廠與韓戰避難人口，認識釜山魚板產業的歷史。",
+    "tags": [
+      "釜山魚板",
+      "釜山美食",
+      "魚板歷史",
+      "富平市場",
+      "蓬萊市場",
+      "草梁",
+      "影島",
+      "釜山飲食文化",
+      "韓國魚板"
+    ]
   }
 ]
