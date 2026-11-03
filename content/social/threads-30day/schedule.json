@@ -17,6 +17,14 @@
         "08:00",
         "18:00"
       ]
+    },
+    "TW": {
+      "handle": "go2busan.tw",
+      "tz": "Asia/Taipei",
+      "slots": [
+        "08:00",
+        "20:00"
+      ]
     }
   },
   "status_flow": [
@@ -3120,6 +3128,1551 @@
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
       "status": "approved"
+    },
+    {
+      "id": "d01-tw-1",
+      "day": 1,
+      "theme": "A local way to plan Busan",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-05",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-05T00:00:00.000Z",
+      "text": "釜山自由行的小建議：一天專心逛一個區域就好。少花時間在城市兩端來回移動，就有更多時間吃美食、看海、發現路邊的小驚喜。你去釜山最想做的是什麼？美食、看海、文化，還是逛街？",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day01",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day01"
+      }
+    },
+    {
+      "id": "d01-tw-2",
+      "day": 1,
+      "theme": "A local way to plan Busan",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-05",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-05T12:00:00.000Z",
+      "text": "排釜山行程前，先選出三個「一定要去」的地方，再圍繞它們安排其他景點，順便留一點空檔給臨時發現的咖啡廳、市場或海景。好的行程應該是旅行，而不是打卡清單。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d02-tw-1",
+      "day": 2,
+      "theme": "Choose your travel pace",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-06",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-06T00:00:00.000Z",
+      "text": "你是「全部都要看」派，還是「隨意走走、看到什麼算什麼」派？兩種玩法在釜山都可以。訣竅是把距離近的景點排在一起，再替自己保留一段沒有安排的時間。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d02-tw-2",
+      "day": 2,
+      "theme": "Choose your travel pace",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-06",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-06T12:00:00.000Z",
+      "text": "行程表只是起點，不是合約。依照抵達時間、體力、天氣和住宿位置調整釜山的安排吧。一個實際走得完的一天，比塞滿卻玩得很累的一天更值得。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d03-tw-1",
+      "day": 3,
+      "theme": "Local food discovery",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-07",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-07T00:00:00.000Z",
+      "text": "在釜山找美食，可以從「當天要逛的區域」開始想。不用為了每一餐特地跨區移動，選一家順路的店，再留一點空間給臨時想吃的小吃。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day03",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day03"
+      }
+    },
+    {
+      "id": "d03-tw-2",
+      "day": 3,
+      "theme": "Local food discovery",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-07",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-07T12:00:00.000Z",
+      "text": "出國前你會先把餐廳都查好，還是到當地再決定？去釜山的話，建議先列一份想吃的清單，再在每個要去的區域準備一兩個備案，彈性會比較大。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d04-tw-1",
+      "day": 4,
+      "theme": "Nampo and market walks",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-08",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-08T00:00:00.000Z",
+      "text": "要去南浦洞或札嘎其一帶嗎？把市場街道當成旅程的一部分，而不只是吃飯的地方。把附近的點排在一起，留時間慢慢逛、慢慢看。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day04",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day04"
+      }
+    },
+    {
+      "id": "d04-tw-2",
+      "day": 4,
+      "theme": "Nampo and market walks",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-08",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-08T12:00:00.000Z",
+      "text": "逛市場時，你最先注意到的是什麼？吃的、小店，還是當地人的日常節奏？釜山的市場區域，最適合放慢腳步，不用急著趕下一個點。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d05-tw-1",
+      "day": 5,
+      "theme": "Gwangalli and the waterfront",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-09",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-09T00:00:00.000Z",
+      "text": "在釜山的行程裡，留一段慢慢看海的時間吧。不是每一站都要安排活動，有時候風景本身就是行程。你比較想看海邊的日出，還是夜晚的城市燈光？",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day05",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day05"
+      }
+    },
+    {
+      "id": "d05-tw-2",
+      "day": 5,
+      "theme": "Gwangalli and the waterfront",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-09",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-09T12:00:00.000Z",
+      "text": "打算晚上去海邊走走嗎？出門前先想好晚餐、要看的景色，以及怎麼回到住宿的地方。事先把回程路線想清楚，到了現場才能安心放鬆。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d06-tw-1",
+      "day": 6,
+      "theme": "Rainy-day backup",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-10",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-10T00:00:00.000Z",
+      "text": "雨天備案可以救回一整天的釜山行程。先想好幾個室內去處、一個市場或一間咖啡廳，就不會因為一場雨而整天重排。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day06",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day06"
+      }
+    },
+    {
+      "id": "d06-tw-2",
+      "day": 6,
+      "theme": "Rainy-day backup",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-10",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-10T12:00:00.000Z",
+      "text": "排行程的小習慣：分成「晴天清單」和「雨天也能去的清單」，出發前看天氣預報再互換。保持彈性，比幾週前就想猜中天氣實在得多。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d07-tw-1",
+      "day": 7,
+      "theme": "A realistic three-day trip",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-11",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-11T00:00:00.000Z",
+      "text": "第一次去釜山，可以用「一天一種主題」來排：一天看海、一天逛市區、一天彈性安排。記得把交通時間也算進去，地圖上的點看起來近，不代表真的就在隔壁。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day07",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day07"
+      }
+    },
+    {
+      "id": "d07-tw-2",
+      "day": 7,
+      "theme": "A realistic three-day trip",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-11",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-11T12:00:00.000Z",
+      "text": "釜山三天兩夜不代表什麼都要去。把想去的地方放到地圖上，看看彼此距離，再刪掉會讓行程變得匆忙的點。你理想中的第三天是什麼樣子？",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d08-tw-1",
+      "day": 8,
+      "theme": "Transit planning",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-12",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-12T00:00:00.000Z",
+      "text": "抵達釜山前，先決定第一段交通：住在哪一區？帶著行李要怎麼過去？依抵達時間比較幾種路線，出發前也記得確認最新的票價與班次資訊。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08"
+      }
+    },
+    {
+      "id": "d08-tw-2",
+      "day": 8,
+      "theme": "Transit planning",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-12",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-12T12:00:00.000Z",
+      "text": "帶著行李或晚上才抵達時，最快的路線不一定最輕鬆。在釜山移動，除了看地圖上的時間，也比較一下轉乘次數、步行距離和抵達時間吧。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d09-tw-1",
+      "day": 9,
+      "theme": "Where to stay",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-13",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-13T00:00:00.000Z",
+      "text": "住宿地點會影響整趟釜山旅行。想多待海邊、多逛市區，還是兩者都要？依照你想過的日子來選，並確認住宿到必去景點的實際路線。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09"
+      }
+    },
+    {
+      "id": "d09-tw-2",
+      "day": 9,
+      "theme": "Where to stay",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-13",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-13T12:00:00.000Z",
+      "text": "訂飯店前，先把想去的地方標在地圖上。如果每天一出門都要跨區移動很久，可以考慮調整行程，或比較看看其他區域的住宿。位置選對，能省下不少時間和體力。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d10-tw-1",
+      "day": 10,
+      "theme": "Coastal walks",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-14",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-14T00:00:00.000Z",
+      "text": "沿著海岸散步，是提醒自己放慢腳步的好方式。選一個目的地就好，沿途留時間看風景、拍照或休息。不需要把每個漂亮的地方都變成限時打卡點。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d10-tw-2",
+      "day": 10,
+      "theme": "Coastal walks",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-14",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-14T12:00:00.000Z",
+      "text": "你喜歡哪種旅行節奏？照著清單一個一個去，還是不設限地慢慢走？在釜山，不妨在行程裡留一段空白，用自己的速度探索。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d11-tw-1",
+      "day": 11,
+      "theme": "Café breaks",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-15",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-15T00:00:00.000Z",
+      "text": "咖啡廳也可以是行程的一部分，而不是繞路。在兩個區域之間停下來喝杯咖啡、休息一下，比把每一分鐘都排滿更舒服。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d11-tw-2",
+      "day": 11,
+      "theme": "Café breaks",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-15",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-15T12:00:00.000Z",
+      "text": "你的旅行咖啡廳類型是哪一種？海景、好喝的咖啡、甜點，還是只要離下一站近、能坐下來休息就好？規劃旅行時，什麼樣的咖啡廳會讓你想收藏？",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d12-tw-1",
+      "day": 12,
+      "theme": "Photo spots without rushing",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-16",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-16T00:00:00.000Z",
+      "text": "如果拍照是旅行的重點，把距離近的拍照點排在一起，就有更多時間好好欣賞，而不是一直趕場。去拍照點之前，也記得確認開放狀況和當地規定。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d12-tw-2",
+      "day": 12,
+      "theme": "Photo spots without rushing",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-16",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-16T12:00:00.000Z",
+      "text": "旅行照片不一定都是知名景點。一頓飯、一塊路牌、海面上的光線，這些小細節最能讓人想起那趟旅行。你出國時最常拍的是什麼？",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d13-tw-1",
+      "day": 13,
+      "theme": "Markets and everyday life",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-17",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-17T00:00:00.000Z",
+      "text": "市場不只是吃東西和購物的地方，也是看見當地日常生活的窗口。在人多的走道上多留意身邊的人，想近拍攤商前先詢問，給自己一點時間慢慢觀察。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d13-tw-2",
+      "day": 13,
+      "theme": "Markets and everyday life",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-17",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-17T12:00:00.000Z",
+      "text": "逛市場時，你會先注意到食材、路邊小吃、店家陳列，還是整個街區的節奏？這些小觀察，常常會變成最難忘的旅行故事。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d14-tw-1",
+      "day": 14,
+      "theme": "Midpoint check-in",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-18",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-18T00:00:00.000Z",
+      "text": "釜山行程規劃進度確認：日期和住宿區域都決定了嗎？還是還在收集靈感？先抓出三個重點，再慢慢往外安排。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d14-tw-2",
+      "day": 14,
+      "theme": "Midpoint check-in",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-18",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-18T12:00:00.000Z",
+      "text": "接下來你最想看哪一類釜山資訊？在地美食、交通、住宿區域、海岸散步，還是雨天備案？留言告訴我們，之後的指南會更貼近你的需要。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d15-tw-1",
+      "day": 15,
+      "theme": "Make room for a flexible day",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-19",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-19T00:00:00.000Z",
+      "text": "在釜山行程裡留一段彈性時間吧。可以去朋友推薦的地方、累了就休息，天氣變了也能臨時換計畫。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d15-tw-2",
+      "day": 15,
+      "theme": "Make room for a flexible day",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-19",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-19T12:00:00.000Z",
+      "text": "行程改變不代表失敗。有時候讓人最難忘的一天，就是放慢腳步、聽從當地人的建議，或在喜歡的地方多待一會兒的那一天。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d16-tw-1",
+      "day": 16,
+      "theme": "Food preferences",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-20",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-20T00:00:00.000Z",
+      "text": "排釜山美食清單時，從自己真正喜歡的開始：海鮮、湯品、麵食、小吃，或是想嘗鮮的料理。行程應該配合你的胃口，而不是只跟著熱門清單走。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day16",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day16"
+      }
+    },
+    {
+      "id": "d16-tw-2",
+      "day": 16,
+      "theme": "Food preferences",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-20",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-20T12:00:00.000Z",
+      "text": "旅行時挑餐廳，你最在意什麼？在地特色、一直想吃的那道菜、不用排太久，還是離下一站近？安排美食沒有標準答案。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d17-tw-1",
+      "day": 17,
+      "theme": "Avoid overpacking the itinerary",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-21",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-21T00:00:00.000Z",
+      "text": "地圖看不出旅行的全部：上坡、轉乘、排隊，還有猶豫要吃什麼的時間，加起來其實不少。替釜山的每一天都留一點緩衝吧。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d17-tw-2",
+      "day": 17,
+      "theme": "Avoid overpacking the itinerary",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-21",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-21T12:00:00.000Z",
+      "text": "從行程中刪掉一些點，不代表錯過，而是讓你有更多時間享受選好的地方。如果覺得行程太滿，把必去的排出順序，其他的就當作有空再去。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d18-tw-1",
+      "day": 18,
+      "theme": "Neighborhood over checklist",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-22",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-22T00:00:00.000Z",
+      "text": "試著好好逛一個釜山的街區，而不是收集一堆距離很遠的景點。你可能會發現趕路時錯過的小店、巷弄或風景。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d18-tw-2",
+      "day": 18,
+      "theme": "Neighborhood over checklist",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-22",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-22T12:00:00.000Z",
+      "text": "你有沒有過這種經驗：無意間走進的地方，反而成了整趟旅行最難忘的回憶？景點之間的那段路，有時候和目的地一樣值得。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d19-tw-1",
+      "day": 19,
+      "theme": "Travel with different people",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-23",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-23T00:00:00.000Z",
+      "text": "一個人、和朋友，還是全家出遊？同行的人不同，適合的釜山行程也不一樣。依照每個人的必去清單、體力和休息需求來安排吧。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d19-tw-2",
+      "day": 19,
+      "theme": "Travel with different people",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-23",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-23T12:00:00.000Z",
+      "text": "多人出遊的小技巧：每個人各選一個「一定要」的體驗，再圍繞這些安排路線。這樣排出來的共同行程，大家都比較能接受。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d20-tw-1",
+      "day": 20,
+      "theme": "Travel etiquette",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-24",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-24T00:00:00.000Z",
+      "text": "旅行禮儀其實很簡單：拍照時不擋住人多的走道、想近拍別人前先詢問、遵守告示和工作人員的指示。互相尊重，讓當地的地方對每個人都更舒服。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d20-tw-2",
+      "day": 20,
+      "theme": "Travel etiquette",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-24",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-24T12:00:00.000Z",
+      "text": "去當地的小餐廳或市場時，多一點耐心、遵守店家規定，也記得大家正在過自己的日常生活。當一個體貼的旅客，也是好好旅行的一部分。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d21-tw-1",
+      "day": 21,
+      "theme": "What makes a trip memorable?",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-25",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-25T00:00:00.000Z",
+      "text": "難忘的旅行不一定來自最有名的景點。可能是一頓飯、一片安靜的海景，或是一段改變一天心情的對話。你希望在釜山遇見什麼樣的時刻？",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d21-tw-2",
+      "day": 21,
+      "theme": "What makes a trip memorable?",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-25",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-25T12:00:00.000Z",
+      "text": "回想一趟旅行時，你最常翻的是哪些照片？景點、食物、人，還是平凡的街景？那些小小的瞬間，往往最能說出旅行的故事。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d22-tw-1",
+      "day": 22,
+      "theme": "Seasonal planning",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-26",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-26T00:00:00.000Z",
+      "text": "釜山會隨著季節和天氣呈現不同的樣子。出發前記得看天氣預報，行程裡同時準備戶外計畫和室內備案，會比較安心。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/busan-winter-travel-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day22",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/busan-winter-travel-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day22"
+      }
+    },
+    {
+      "id": "d22-tw-2",
+      "day": 22,
+      "theme": "Seasonal planning",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-26",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-26T12:00:00.000Z",
+      "text": "出發前不只看氣溫，也想想會不會下雨、天黑的時間，還有景點之間的移動時間。幾個小小的確認，就能讓一天輕鬆不少。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d23-tw-1",
+      "day": 23,
+      "theme": "Build a personal shortlist",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-27",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-27T00:00:00.000Z",
+      "text": "收藏了太多釜山推薦？試著分成三份清單：必去、有空再去、下次再去。把看不完的靈感，整理成真的走得完的計畫。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d23-tw-2",
+      "day": 23,
+      "theme": "Build a personal shortlist",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-27",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-27T12:00:00.000Z",
+      "text": "把收藏的地點放進地圖，把距離近的排在一起，再決定每天適合去哪些。靈感很重要，但真正帶你出門的，是一份實用的口袋名單。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d24-tw-1",
+      "day": 24,
+      "theme": "Ask a useful question",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-28",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-28T00:00:00.000Z",
+      "text": "規劃釜山旅行時，你覺得最難的是哪一部分？選去哪裡、交通、找吃的，還是決定住哪裡？告訴我們你希望實用指南多寫哪些內容。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d24-tw-2",
+      "day": 24,
+      "theme": "Ask a useful question",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-28",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-28T12:00:00.000Z",
+      "text": "如果朋友第一次去釜山，你會給他哪一個行前建議？分享一下你出發前就希望自己早點知道的事。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d25-tw-1",
+      "day": 25,
+      "theme": "Travel budget habits",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-29",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-29T00:00:00.000Z",
+      "text": "實際的旅行預算不只有機票和住宿，也要留一些給餐費、交通、咖啡廳和旅途中的小額花費。依照自己的旅行方式決定優先順序。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d25-tw-2",
+      "day": 25,
+      "theme": "Travel budget habits",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-29",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-29T12:00:00.000Z",
+      "text": "安排旅行預算時，你會先決定哪一塊？住宿、美食、體驗，還是購物？先想清楚自己重視什麼，取捨時就容易多了。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d26-tw-1",
+      "day": 26,
+      "theme": "Language and preparation",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-30",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-30T00:00:00.000Z",
+      "text": "抵達釜山前，先把住宿地址和主要目的地存在手機裡。地名和地址準備好，找路或向別人求助時都會輕鬆很多。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d26-tw-2",
+      "day": 26,
+      "theme": "Language and preparation",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-30",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-30T12:00:00.000Z",
+      "text": "出國前不用把每一句韓文都學會。先把最需要的資訊存好：飯店地址、目的地名稱、訂位資料，可以的話也存一份離線也看得到的版本。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d27-tw-1",
+      "day": 27,
+      "theme": "Responsible local travel",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-01",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-01T00:00:00.000Z",
+      "text": "當地的街區不只是觀光的地方，也是居民的家。在住宅區降低音量、尊重私人空間、遵守告示。負責任的旅行，能讓你喜歡的在地樣貌保留下來。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d27-tw-2",
+      "day": 27,
+      "theme": "Responsible local travel",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-01",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-01T12:00:00.000Z",
+      "text": "支持在地小店，也包括當個體貼的客人：遵守店內規定、人多時多點耐心、離開前把共用空間收拾乾淨。小小的舉動都很重要。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d28-tw-1",
+      "day": 28,
+      "theme": "Revisit the plan",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-02",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-02T00:00:00.000Z",
+      "text": "確定釜山行程前，檢查一下有沒有哪一天移動太多。把相近的點排在一起、加入用餐時間、留一點緩衝。真正玩得開心的計畫，才是好計畫。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d28-tw-2",
+      "day": 28,
+      "theme": "Revisit the plan",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-02",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-02T12:00:00.000Z",
+      "text": "行程最後檢查：如果下雨或累了怎麼辦？在附近準備一個備案，也允許自己臨時改變計畫。保持彈性，本身就是準備的一部分。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d29-tw-1",
+      "day": 29,
+      "theme": "Invite community stories",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-03",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-03T00:00:00.000Z",
+      "text": "去過釜山嗎？有沒有哪個街區或時刻讓你想再去一次？如果正在計畫第一次去，也告訴我們你最好奇釜山的哪個地方。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d29-tw-2",
+      "day": 29,
+      "theme": "Invite community stories",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-03",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-03T12:00:00.000Z",
+      "text": "旅行前有哪件事讓你很慶幸自己有先準備？交通、住宿資料、想吃的店，或是其他事情？分享一個能幫助其他旅客的小撇步吧。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d30-tw-1",
+      "day": 30,
+      "theme": "Close the first month and learn",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-04",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-04T00:00:00.000Z",
+      "text": "這個月分享了不少釜山行程規劃的想法。接下來你想看哪一個主題的詳細介紹？在地美食、街區散步、交通、住宿區域，還是彈性行程？你的問題會幫助我們寫出更實用的指南。",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "d30-tw-2",
+      "day": 30,
+      "theme": "Close the first month and learn",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-12-04",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-12-04T12:00:00.000Z",
+      "text": "我們會繼續用在地的角度，分享實用的釜山旅行方式，不用把整個城市塞進一天。關於去釜山，你現在最想問的一個問題是什麼？",
+      "verification": {
+        "status": "evergreen",
+        "issues": [],
+        "flags": [],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "approval": {
+        "approved_by": "Tak",
+        "approved_at": "2026-11-03T23:43:44.952Z"
+      },
+      "status": "approved"
     }
-  ]
+  ],
+  "start_dates": {
+    "JP": "2026-11-04",
+    "US": "2026-11-04",
+    "TW": "2026-11-05"
+  }
 }
