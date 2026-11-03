@@ -60,6 +60,29 @@ for (const file of htmlFiles) {
       add("WARN", file, "External image host requires source, subject-match, and license review: " + host + " — " + src);
     }
   }
+  // Bukangi-specific checks prevent mismatched artwork and stale social previews.
+  if (/bukangi-soju/i.test(file)) {
+    const start = html.indexOf('<figure class="article-cover');
+    const end = start >= 0 ? html.indexOf("</figure>", start) : -1;
+    const coverHtml = start >= 0 && end >= 0 ? html.slice(start, end + 9) : "";
+    if (coverHtml && !coverHtml.includes("bukangi-soju-edition-illustration.svg")) {
+      add("WARN", file, "Bukangi soju article should use the bottle-specific editorial illustration");
+    }
+  }
+  if (/bukangi-busan-north-port-shark/i.test(file)) {
+    const start = html.indexOf('<figure class="article-cover');
+    const end = start >= 0 ? html.indexOf("</figure>", start) : -1;
+    const coverHtml = start >= 0 && end >= 0 ? html.slice(start, end + 9) : "";
+    if (coverHtml && !coverHtml.includes("bukangi-illustration.svg")) {
+      add("WARN", file, "Bukangi North Port story should use the canonical friendly mascot illustration");
+    }
+  }
+  if (/bukangi/i.test(file) && html.includes("bukangi-illustration-og.png")) {
+    add("WARN", file, "Stale Bukangi social-preview PNG reference remains; align metadata with current topic-matched artwork");
+  }
+  if (/bukangi/i.test(file) && !html.includes('name="twitter:image:alt"')) {
+    add("WARN", file, "Bukangi social image is missing twitter:image:alt");
+  }
   const cover = html.match(/<figure\b[^>]*class\s*=\s*["'][^"']*article-cover[^"']*["'][^>]*>([\s\S]*?)<\/figure>/i);
   if (cover) {
     const coverBody = cover[1];
