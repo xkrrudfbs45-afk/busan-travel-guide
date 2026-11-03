@@ -9,7 +9,7 @@ const homepages = [
 ];
 
 const requiredAnalyticsChecks = [
-  [analytics.includes("const isGuidePath = /^") && analytics.includes("zh-tw") && analytics.includes("ja/"), "localized guide path matcher"],
+  [analytics.includes("const isGuidePath = /^") && analytics.includes("zh-tw\\/") && analytics.includes("ja\\/") && analytics.includes("guides\\/"), "localized guide path matcher"],
   [analytics.includes("guide_locale: guideLocale"), "guide locale event parameter"],
   [analytics.includes("local_experience_card"), "local experience card placement"]
 ];
