@@ -607,3 +607,11 @@
 /* Homepage editorial photography: replace repeated decorative illustrations with distinct, subject-matched imagery. */
 .trend-dialect{background-image:url("https://images.unsplash.com/photo-1598059763116-742d9b4b99a1?auto=format&fit=crop&w=900&q=80");background-position:center 48%}
 .trend-local-culture-photo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Oldder_woman_selling_vegetables_and_more_things.jpg?width=1000");background-position:center 42%}
+
+/* Mobile overflow guards (360px audit, Nov 2026) */
+.footer-inner>*{min-width:0}
+.footer-links{flex-wrap:wrap;row-gap:10px}
+:not(.table-wrap)>table{display:block;max-width:100%;min-width:0;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.article-body :not(.table-wrap)>table{overflow-x:auto}
+.article-body p,.article-body li{overflow-wrap:anywhere}
+@media (max-width:480px){main img,main video,main iframe{max-width:100%;height:auto}.nav-wrap:has(>.header-actions){flex-wrap:wrap;row-gap:6px}.nav-wrap>.header-actions{display:flex;flex-wrap:wrap;gap:12px}}
