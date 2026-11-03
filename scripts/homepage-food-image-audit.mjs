@@ -3,7 +3,7 @@ import fs from "node:fs";
 const home = fs.readFileSync("index.html", "utf8");
 const css = fs.readFileSync("assets/styles.css", "utf8");
 
-const stylesheet = home.match(/<link rel="stylesheet" href="([^"]*styles\\.css[^"]*)"/)?.[1] ?? "";
+const stylesheet = home.match(/<link rel="stylesheet" href="([^"]*styles\.css[^"]*)"/)?.[1] ?? "";
 if (!/[?&]v=[^&]+/.test(stylesheet)) {
   throw new Error("Homepage stylesheet needs a version query so image fixes are not hidden by stale CSS cache.");
 }
