@@ -49,6 +49,7 @@ These are editorial illustrations, not documentary photographs of a specific bus
 - Reviewed the English, Japanese, and Traditional Chinese nakgopsae guide source files and inserted the illustration/caption.
 - Updated social image metadata on English, Japanese, and Traditional Chinese homepages.
 - Fixed the homepage food-image audit script so it inspects the exact matching card anchor instead of accidentally borrowing a later card's image class when the same URL appears in an earlier text-only section.
+- Extended the repository image audit to flag direct image tags with missing alt text, external hosts requiring manual approval, and Wikimedia images without visible source/license attribution. These are review flags, not automatic legal or visual verification.
 
 ## Important remaining work
 
