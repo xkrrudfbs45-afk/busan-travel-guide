@@ -77,3 +77,24 @@ The mascot and related story imagery received a separate topic-accuracy pass. Co
 21. Expanded `IMAGE_STANDARDS.md` with mascot/product-image rules and above-the-fold loading guidance.
 
 Validation note: the static-site build and image audit must run on the latest branch head before this batch is considered fully validated. SVG social previews are topic-accurate, but some social platforms have inconsistent SVG support; a future raster export should preserve the same artwork rather than revert to unrelated photography.
+
+
+## Additional site-wide image improvements (2026-11-04)
+
+1. Replaced the winter guide's October bridge photograph with an image that actually communicates a Busan winter travel theme.
+2. Added the same language-neutral winter scene to the Japanese winter guide.
+3. Added the same language-neutral winter scene to the Traditional Chinese winter guide.
+4. Updated winter-guide Open Graph image metadata to match the visible winter artwork.
+5. Updated winter-guide Twitter image metadata and localized image alt text.
+6. Aligned the English winter guide's Article structured-data image with its cover.
+7. Aligned Japanese and Traditional Chinese winter-guide structured-data images with their covers.
+8. Replaced the generic backpack photo on the English luggage-storage guide with a luggage-planning illustration.
+9. Added matching localized luggage-storage covers to the Japanese guide.
+10. Added matching localized luggage-storage covers to the Traditional Chinese guide.
+11. Aligned luggage-storage Open Graph, Twitter, and Article image metadata across all three languages.
+12. Updated the English luggage guide's Pinterest share media to the new matching illustration.
+13. Changed the winter homepage card to use a dedicated, language-neutral winter scene instead of a generic coastline.
+14. Changed the rainy-day homepage card to use rainy-day artwork instead of a generic coastline.
+15. Adjusted the image audit to treat the linked Go2Busan brand mark/logo as decorative when it correctly has an empty alt attribute, removing false-positive warnings without weakening alt checks for meaningful images.
+
+The winter image was not a winter photograph, so the replacement is explicitly labeled an illustration rather than presented as documentary evidence. The luggage artwork is also labeled as an illustration and does not imply a specific storage facility.
