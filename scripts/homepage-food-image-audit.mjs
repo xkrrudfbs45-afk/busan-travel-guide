@@ -30,7 +30,7 @@ for (const path of foodGuidePaths) {
   // earlier in a text-only section.
   const escaped = path.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&");
   const anchors = [...home.matchAll(/<a\\b[^>]*>[\\s\\S]*?<\\/a>/gi)];
-  const anchor = anchors.find((item) => new RegExp('\\\\bhref="' + escaped + '"').test(item[0]));
+  const anchor = anchors.find((item) => new RegExp('\\bhref="' + escaped + '"').test(item[0]) && /<div class="trend-image [^"]+"/i.test(item[0]));
   const match = anchor ? anchor[0].match(/<div class="trend-image ([^"]+)"/i) : null;
   if (!match) throw new Error("Homepage food guide card missing or has no image class inside its anchor: " + path);
   const classes = match[1].split(/\\s+/).filter(name => name.startsWith("trend-"));
