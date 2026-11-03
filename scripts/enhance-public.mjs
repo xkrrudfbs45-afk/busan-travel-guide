@@ -9,7 +9,8 @@
 //  5. preconnect hints for external image hosts the page actually uses
 //  6. Share previews: og:image / og:image:alt / twitter:card / twitter:image when missing
 //     (page's own first image -> English counterpart's og:image -> site default)
-//  7. sitemap <lastmod> from git history (skipped on shallow clones or when git is unavailable)
+//  7. Dates from git: sitemap <lastmod> and Article datePublished/dateModified (fetches full history on shallow
+//     clones such as Render; skipped if history is unavailable, so dates are never guessed)
 //  8. Offline support: link manifest.webmanifest and load assets/js/offline.js (registers /sw.js)
 // Usage: node scripts/enhance-public.mjs [publicDir=public]
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from "node:fs";
@@ -131,23 +132,64 @@ for (const f of files) {
   if (h !== before) { writeFileSync(f, h); bump("pages changed"); }
 }
 
-// 7. sitemap lastmod from git (real last change of each page's source file)
-const sm = join(PUB, "sitemap.xml");
-if (existsSync(sm)) {
-  let ok = false;
-  try { ok = execFileSync("git", ["rev-parse", "--is-shallow-repository"], { encoding: "utf8" }).trim() === "false"; } catch { ok = false; }
-  if (ok) {
-    let xml = readFileSync(sm, "utf8");
-    xml = xml.replace(/<url>\s*<loc>https:\/\/go2busan\.com([^<]*)<\/loc>(?!\s*<lastmod>)/g, (m, p) => {
-      const src = p.endsWith("/") ? `${p.slice(1)}index.html` : p.slice(1);
-      let d = "";
-      try { d = execFileSync("git", ["log", "-1", "--format=%cs", "--", src], { encoding: "utf8" }).trim(); } catch {}
+// 7. Dates from git history: sitemap <lastmod>, and datePublished/dateModified on Article JSON-LD.
+//    Render clones shallowly, so try to fetch full history first; if that fails, skip (never guess dates).
+function gitDates() {
+  const run = (args, opts = {}) => execFileSync("git", args, { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"], ...opts });
+  try {
+    if (run(["rev-parse", "--is-shallow-repository"]).trim() === "true") {
+      try { run(["fetch", "--unshallow", "--quiet"], { timeout: 90000 }); } catch {}
+      if (run(["rev-parse", "--is-shallow-repository"]).trim() === "true") {
+        try { run(["fetch", "--unshallow", "--quiet", "https://github.com/xkrrudfbs45-afk/busan-travel-guide.git", "main"], { timeout: 90000 }); } catch {}
+      }
+      if (run(["rev-parse", "--is-shallow-repository"]).trim() === "true") return null;
+    }
+    const log = run(["log", "--format=@%cs", "--name-only", "--no-renames"], { maxBuffer: 64 * 1024 * 1024 });
+    const first = {}, last = {};
+    let d = "";
+    for (const line of log.split("\n")) {
+      if (line.startsWith("@")) d = line.slice(1);
+      else if (line) { if (!last[line]) last[line] = d; first[line] = d; }
+    }
+    return { first, last };
+  } catch { return null; }
+}
+const dates = gitDates();
+const srcOf = (p) => (p.endsWith("/") ? `${p.slice(1)}index.html` : p.slice(1));
+if (!dates) bump("7 git dates skipped (no full history)");
+else {
+  const sm = join(PUB, "sitemap.xml");
+  if (existsSync(sm)) {
+    const xml = readFileSync(sm, "utf8").replace(/<url>\s*<loc>https:\/\/go2busan\.com([^<]*)<\/loc>(?!\s*<lastmod>)/g, (m, p) => {
+      const d = dates.last[srcOf(p)];
       if (!d) return m;
       bump("7 sitemap lastmod added");
       return `${m}<lastmod>${d}</lastmod>`;
     });
     writeFileSync(sm, xml);
-  } else bump("7 sitemap lastmod skipped (no full git history)");
+  }
+  for (const f of files) {
+    const src = srcOf(urlPath(f));
+    if (!dates.last[src]) continue;
+    let h = readFileSync(f, "utf8");
+    const before = h;
+    h = h.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g, (m, body) => {
+      let data; try { data = JSON.parse(body); } catch { return m; }
+      let changed = false;
+      const fill = (node) => {
+        if (!node || typeof node !== "object") return;
+        if (Array.isArray(node)) return node.forEach(fill);
+        if (node["@type"] === "Article") {
+          if (!node.datePublished) { node.datePublished = dates.first[src]; changed = true; }
+          if (!node.dateModified) { node.dateModified = dates.last[src]; changed = true; }
+        }
+        if (node["@graph"]) fill(node["@graph"]);
+      };
+      fill(data);
+      return changed ? `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, "\\u003c")}</script>` : m;
+    });
+    if (h !== before) { writeFileSync(f, h); bump("7 Article dates added"); }
+  }
 }
 
 console.log("enhance-public:", JSON.stringify(stats));
