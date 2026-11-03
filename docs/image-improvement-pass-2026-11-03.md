@@ -1,68 +1,33 @@
-# Image improvement pass — 2026-11-03
+# Go2Busan image audit and improvement pass
 
-## What changed in this branch
+## Editorial rule
 
-This change replaces generic stock-photo backgrounds on the shared homepage card system with original, locally stored SVG editorial illustrations. It also adds an illustrated nakgopsae cover to the English, Japanese, and Traditional Chinese guides.
+The goal is not to eliminate Unsplash, Wikimedia Commons, or other remote image hosts. The goal is to use an image that accurately represents the page/card topic, with a verified source, suitable reuse rights, and required attribution. A correctly licensed, topic-matched photograph is often preferable to a generic illustration.
 
-### Image handling
+## Changes in this branch
 
-- Removed all `images.unsplash.com` URLs from `assets/styles.css`.
-- Removed all Wikimedia Commons and upload.wikimedia.org URLs from CSS background-image declarations. CSS backgrounds do not provide reliable per-image attribution in the card UI; the replacement artwork is original and local.
-- Updated English, Japanese, and Traditional Chinese homepage social preview image metadata to use the original Busan coastline illustration.
-- Updated the English homepage visual credit to identify the artwork as an original illustration, not a photo.
-- Added a clearly captioned nakgopsae illustration to the three localized nakgopsae guides. Alt text and captions explicitly say it is an illustration, not a photograph.
-- Added responsive styling for article illustration figures.
+- Added original, locally stored SVG illustrations for subjects where a reliable, topic-matched photo was not retained in the implementation.
+- Split Japanese and Traditional Chinese homepage food-card classes so unrelated guides no longer inherit the same pork-soup image.
+- Added a dedicated pork-soup illustration for Japanese and Traditional Chinese pork-soup guide previews, with localized alt text that identifies it as an illustration.
+- Fixed the homepage food-image audit script to inspect the exact matching card anchor.
+- Extended the image audit to flag missing alt text, external image sources that need source/subject/license review, and Wikimedia covers lacking visible creator/source/license attribution.
+- Restored topic-matched Wikimedia photographs on English homepage cards for dwaeji-gukbap, Gimhae light rail, Busan subway, Haeundae Sky Capsule, Songdo Beach, Jagalchi Market, and Songjeong Beach. These cards already contain visible photo credits. These remote images are intentionally retained because the topic and credit match; remote hosting is not itself a defect.
 
-### Original illustration assets added
+## Editorial decisions
 
-- Busan coastline and city skyline
-- Nakgopsae ingredients/hot pot
-- Accommodation and hotel-selection guide
-- Transit/metro guide
-- Rainy-day planning
-- Local food overview
-- Market overview
-- Gimhae airport transfer
-- Campus-neighborhood food guide
-- Songdo Beach guide illustration
-- Songjeong Beach guide illustration
-- Jagalchi Market guide illustration
-- Haeundae Sky Capsule guide illustration
-- Winter in Busan guide illustration
-- Milmyeon guide illustration
-- Eomuk guide illustration
-- Makgeolli guide illustration
-- Korean temple food guide illustration
-- Luggage/storage guide illustration
-- Passes/attractions guide illustration
-- Separate local-food overview illustration
-- Dedicated dwaeji-gukbap (pork soup) illustration
-- Geumjeongsanseong mountain-village food illustration
-- KTX high-speed rail illustration
+- Keep real photographs when the pictured dish, place, transport mode, or attraction matches the content and reuse terms are verified.
+- Do not use a generic Busan skyline/beach image to imply a specific hotel room, restaurant dish, or named attraction.
+- Avoid repeating one food photo across unrelated food guides. Localized food cards may use distinct topic-specific illustrations until an accurate, licensed photograph is verified.
+- Do not use snow as the default visual for a typical Busan winter guide; snow is uncommon and can mislead visitors about usual conditions. Use a seasonally representative image or a clearly labeled illustration.
+- Do not present illustrations as photographs. Keep descriptive alt text and visible “Original illustration” labels where appropriate.
+- Preserve photographer names, source links, license labels, and share-alike obligations wherever required.
 
-These are editorial illustrations, not documentary photographs of a specific business, room, meal, or current scene. The assets contain accessible SVG titles/descriptions, and their artwork is stored locally without third-party photo licensing dependencies.
+## Audit coverage and limitations
 
-## Validation performed
+The source-level checks cover image tags and CSS background declarations across the repository when the audit script is run. They can identify missing alt text, repeated CSS URLs, mismatched cover/OG image URLs, and likely attribution gaps. They cannot determine visual subject accuracy from source code alone and do not automatically verify the current live crop or whether a remote URL still resolves.
 
-- Inspected the CSS after the change: zero Unsplash URLs remain.
-- Inspected the CSS after the change: zero Wikimedia Commons or upload.wikimedia.org URLs remain in CSS image declarations.
-- Checked all local SVG paths referenced by CSS against the repository tree: no missing local SVG references found.
-- Reviewed the English, Japanese, and Traditional Chinese nakgopsae guide source files and inserted the illustration/caption.
-- Updated social image metadata on English, Japanese, and Traditional Chinese homepages.
-- Fixed the homepage food-image audit script so it inspects the exact matching card anchor instead of accidentally borrowing a later card's image class when the same URL appears in an earlier text-only section.
-- Extended the repository image audit to flag direct image tags with missing alt text, external hosts requiring manual approval, and Wikimedia images without visible source/license attribution. These are review flags, not automatic legal or visual verification.
+This is an ongoing audit, not a claim that every image on all 124 HTML pages has already been visually verified. Remaining work is to review each page's actual rendered cover/card, check subject match and mobile crop, verify the original image page and license, and replace only the images that are misleading, irrelevant, duplicated without a good reason, broken, or inadequately credited.
 
-## Important remaining work
+## Verification note
 
-This is a visual-safety improvement for homepage card backgrounds and the three nakgopsae guide pages. It is **not** a claim that every image embedded directly in every HTML article has been visually inspected or that every third-party image license across all 124 HTML pages has been verified. Direct `<img>` tags, article figures, and other page-specific remote assets still require a page-by-page source, subject, license, and attribution audit before being marked VERIFIED.
-
-Do not replace article photographs blindly: first verify whether they depict the exact place/food/hotel described. If an exact, permitted photo cannot be confirmed, use a topic-specific illustration or a text-led design. Avoid presenting these illustrations as photographs.
-
-
-## Follow-up: Japanese and Traditional Chinese repeated pork-soup imagery
-
-- The Japanese and Traditional Chinese homepages previously assigned the same generic `trend-food` CSS class to nine different food guides. This caused the cards to share one background image even when the guide topics were nakgopsae, milmyeon, eomuk, makgeolli, temple food, campus food, or pork soup.
-- Gave each of those nine cards its own topic-specific CSS class in both locales and mapped each class to a distinct local illustration.
-- Added a dedicated dwaeji-gukbap illustration and changed the Japanese and Traditional Chinese pork-soup-awards pages' Open Graph and Twitter preview images to that asset.
-- Removed outdated Wikimedia photo credits from cards that now use original illustrations.
-- Source-level validation: neither `images.unsplash.com` nor Wikimedia remote image URLs remain in `assets/styles.css`; all ten food cards inspected per locale now use distinct image classes. This verifies source configuration, not live production rendering.
+The branch now intentionally contains both local illustrations and selected remote photographs. The presence of an Unsplash or Wikimedia URL is not considered a failure by itself. Each image must be judged against its specific content and attribution.
