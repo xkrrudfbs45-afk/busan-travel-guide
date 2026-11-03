@@ -48,3 +48,32 @@ The branch now intentionally contains both local illustrations and selected remo
 
 
 - Added a dedicated abalone-porridge illustration to the Gijang Kkeutjip guide. The caption explicitly states that it is an editorial illustration and does not depict the actual restaurant serving, avoiding a false claim about the venue's dish photography.
+
+
+## Bukangi image-quality pass (2026-11-04)
+
+The mascot and related story imagery received a separate topic-accuracy pass. Completed improvements:
+
+1. Replaced the angular, generic shark artwork with a friendlier blue Bukangi mascot, rounded shapes, a clearer expression, and a Busan/Gwangan Bridge setting.
+2. Kept one canonical mascot SVG path so old references resolve to the refreshed artwork.
+3. Created a separate bottle-themed illustration for the Bukangi soju-edition guide.
+4. Changed the homepage Busan Now feature to use the refreshed mascot art.
+5. Improved the homepage mascot alt text so it describes both the character and Busan setting.
+6. Added intrinsic dimensions and lazy decoding to the homepage feature image to reduce layout shifts.
+7. Changed the shared Japanese, Traditional Chinese, and English Bukangi soju card background to the bottle-specific illustration.
+8. Updated the English North Port shark article cover to the refreshed mascot illustration.
+9. Aligned the English North Port story's Open Graph and Twitter image URLs with its cover.
+10. Aligned the North Port story's Article structured-data image with the same subject.
+11. Replaced the generic mascot cover on the English soju guide with the bottle-specific illustration.
+12. Aligned the English soju guide's Open Graph, Twitter, and Article structured-data image URLs and descriptions with the bottle artwork.
+13. Added a localized Japanese soju article cover and a caption explicitly identifying it as an illustration.
+14. Aligned Japanese soju social metadata and Article structured data with the bottle illustration.
+15. Added a localized Traditional Chinese soju article cover and a caption explicitly identifying it as an illustration.
+16. Aligned Traditional Chinese soju social metadata and Article structured data with the bottle illustration.
+17. Added width/height, eager loading, and high fetch priority to above-the-fold mascot/soju article covers.
+18. Added localized `twitter:image:alt` text to the Bukangi story and all three soju guides.
+19. Updated the stylesheet cache key on the three localized homepages and affected story pages so visitors receive the new CSS.
+20. Added automated regression checks for the correct illustration on each Bukangi story type, stale social-image references, and missing social-image alt text.
+21. Expanded `IMAGE_STANDARDS.md` with mascot/product-image rules and above-the-fold loading guidance.
+
+Validation note: the static-site build and image audit must run on the latest branch head before this batch is considered fully validated. SVG social previews are topic-accurate, but some social platforms have inconsistent SVG support; a future raster export should preserve the same artwork rather than revert to unrelated photography.
