@@ -45,3 +45,6 @@ The branch now intentionally contains both local illustrations and selected remo
 - Added localized article covers, descriptive alt text, visible illustration captions, and matching social image metadata to the English, Japanese, and Traditional Chinese versions of those four guides.
 - Across both follow-up batches, 33 localized article pages now have topic-matched covers for 11 guide topics. These are explicitly labeled original illustrations, not photographs of specific restaurants or live events.
 - Raster social-preview exports remain an explicit next step. The current SVG preview metadata keeps the subject accurate but can be unsupported by some social platforms; do not silently replace it with an unrelated image.
+
+
+- Added a dedicated abalone-porridge illustration to the Gijang Kkeutjip guide. The caption explicitly states that it is an editorial illustration and does not depict the actual restaurant serving, avoiding a false claim about the venue's dish photography.
