@@ -1512,5 +1512,44 @@
       "住宿價格",
       "餐廳價格"
     ]
+  },
+  {
+    "title": "Busan Local Food Picks: Where to Eat Beyond the Usual List",
+    "url": "/guides/busan-local-food-picks/",
+    "summary": "A Busan-based local food guide to nakgopsae in Beomil-dong, 60-year gukbap, Busan's three famous milmyeon shops, curry chicken, old-school tongdak and market snacks.",
+    "tags": [
+      "local food",
+      "where to eat",
+      "nakgopsae",
+      "gukbap",
+      "milmyeon",
+      "market snacks"
+    ]
+  },
+  {
+    "title": "Busan Travel Budget: Food, Transport & Attractions",
+    "url": "/guides/busan-travel-budget/",
+    "summary": "Plan a Busan travel budget with local guidance on food, public transport, accommodation areas, attractions and where to save or spend.",
+    "tags": [
+      "budget",
+      "travel cost",
+      "money",
+      "prices",
+      "how much",
+      "save money"
+    ]
+  },
+  {
+    "title": "Gijang Kkeutjip: Abalone Porridge Worth Planning a Stop For",
+    "url": "/guides/gijang-kkeutjip-abalone-porridge/",
+    "summary": "A Busan local's recommendation for Gijang Kkeutjip Jukseong Main Branch: what to expect from its abalone porridge set, location, and practical visit tips.",
+    "tags": [
+      "gijang",
+      "abalone porridge",
+      "jeonbokjuk",
+      "breakfast",
+      "east coast",
+      "local food"
+    ]
   }
 ]
