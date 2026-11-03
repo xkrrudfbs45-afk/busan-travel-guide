@@ -630,3 +630,58 @@
 .home-refresh .trend-makgeolli{background-image:url("https://images.unsplash.com/photo-1513558161293-cdab0b502e7d?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
 .home-refresh .trend-mountain-food{background-image:url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
 .home-refresh .trend-temple-food{background-image:url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+
+
+/* Go2Busan image quality pass: remove generic stock photography from editorial cards.
+   These are original, explicitly illustrated assets—not photographs of specific businesses. */
+.home-refresh .hero-art{
+  background-image:url("/assets/illustrations/busan-coastline.svg");
+  background-size:cover;background-position:center;
+}
+.home-refresh .hero-art>.sun,
+.home-refresh .hero-art>.sea,
+.home-refresh .hero-art>.hill,
+.home-refresh .hero-art>.building,
+.home-refresh .hero-art>.bridge{display:none}
+.home-refresh .feature-image{
+  background-image:url("/assets/illustrations/busan-airport-transfer.svg");
+  background-size:cover;background-position:center;
+}
+.home-refresh .feature-image:before{display:none}
+.home-refresh .feature-image>.airport-sun,
+.home-refresh .feature-image>.airport-runway,
+.home-refresh .feature-image>.airport-terminal{display:none}
+.home-refresh .thumb-stay{background-image:url("/assets/illustrations/busan-stay-guide.svg");background-size:cover;background-position:center}
+.home-refresh .thumb-transit{background-image:url("/assets/illustrations/busan-transit-guide.svg");background-size:cover;background-position:center}
+.home-refresh .thumb-luggage{background-image:url("/assets/illustrations/busan-transit-guide.svg");background-size:cover;background-position:center}
+.home-refresh .thumb-ktx{background-image:url("/assets/illustrations/busan-transit-guide.svg");background-size:cover;background-position:center}
+.home-refresh .thumb-pass{background-image:url("/assets/illustrations/busan-coastline.svg");background-size:cover;background-position:center}
+.home-refresh .trend-food{background-image:url("/assets/illustrations/busan-food-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-local-food{background-image:url("/assets/illustrations/busan-food-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-market{background-image:url("/assets/illustrations/busan-market-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-jagalchi{background-image:url("/assets/illustrations/busan-market-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-airport{background-image:url("/assets/illustrations/busan-airport-transfer.svg");background-size:cover;background-position:center}
+.home-refresh .trend-stay,
+.home-refresh .trend-hotel{background-image:url("/assets/illustrations/busan-stay-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-itinerary,
+.home-refresh .trend-three-days,
+.home-refresh .trend-busan,
+.home-refresh .trend-songdo,
+.home-refresh .trend-songjeong{background-image:url("/assets/illustrations/busan-coastline.svg");background-size:cover;background-position:center}
+.home-refresh .trend-luggage,
+.home-refresh .trend-transit,
+.home-refresh .trend-ktx,
+.home-refresh .trend-sky-capsule{background-image:url("/assets/illustrations/busan-transit-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-rainy{background-image:url("/assets/illustrations/busan-rainy-day.svg");background-size:cover;background-position:center}
+.home-refresh .trend-dialect{background-image:url("/assets/busan-dialect-illustration.svg");background-size:cover;background-position:center}
+.home-refresh .trend-local-culture-photo{background-image:url("/assets/busan-local-culture-illustration.svg");background-size:cover;background-position:center}
+.home-refresh .trend-pnu-food{background-image:url("/assets/illustrations/busan-campus-food.svg");background-size:cover;background-position:center}
+.home-refresh .trend-nakgopsae{background-image:url("/assets/illustrations/nakgopsae-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-makgeolli,
+.home-refresh .trend-mountain-food,
+.home-refresh .trend-temple-food{background-image:url("/assets/illustrations/busan-food-guide.svg");background-size:cover;background-position:center}
+.home-refresh .home-hero-backdrop{
+  background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffdf 57%,#ffffff80 100%),url("/assets/illustrations/busan-coastline.svg");
+  background-size:cover;background-position:center;
+}
+.home-refresh .home-image-credit{font-size:10px;color:#64748b}
