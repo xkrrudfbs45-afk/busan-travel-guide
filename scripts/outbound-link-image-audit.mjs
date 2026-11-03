@@ -29,7 +29,7 @@ for (const file of htmlFiles) {
 
   // First-pass image policy checks. These checks flag candidates for human review;
   // they do not claim that a photo's subject or license has been visually verified.
-  for (const imageMatch of html.matchAll(/<img\\b[^>]*>/gi)) {
+  for (const imageMatch of html.matchAll(/<img\b[^>]*>/gi)) {
     const tag = imageMatch[0];
     const src = attr(tag, "src");
     const alt = attr(tag, "alt");
@@ -51,7 +51,7 @@ for (const file of htmlFiles) {
     const figure = startFigure >= 0 && endFigure >= 0
       ? html.slice(startFigure, endFigure + "</figure>".length)
       : "";
-    const caption = (figure.match(/<figcaption\\b[^>]*>([\\s\\S]*?)<\\/figcaption>/i) || [])[1] || "";
+    const caption = (figure.match(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/i) || [])[1] || "";
     if (isWikimedia) {
       if (!/Wikimedia Commons/i.test(caption) || !/(CC BY|CC BY-SA|Public domain|KOGL)/i.test(caption)) {
         add("WARN", file, "External Wikimedia image needs a visible creator/source and exact license attribution: " + src);
