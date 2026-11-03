@@ -64,6 +64,7 @@
         { label: 'Local Food Guide', url: '/guides/busan-local-food-guide/' },
         { label: 'Pusan National University Food Guide', url: '/guides/pusan-national-university-food-guide/' },
         { label: 'Busan in Winter: Local Tips & What to Pack', url: '/guides/busan-winter-travel-guide/' },
+        { label: 'Busan with Kids: Family-Friendly Travel Guide', url: '/guides/busan-with-kids/' },
         { label: 'Public Transportation & Transit Cards', url: '/guides/busan-transit-card/' },
         { label: 'Visit Busan Pass Guide', url: '/guides/visit-busan-pass-guide/' }
       ];
