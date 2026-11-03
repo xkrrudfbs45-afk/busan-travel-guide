@@ -101,7 +101,7 @@ jobs:
         run: |
           fail=0
           check() { code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$SITE$1?ts=$(date +%s)"); [ "$code" = "$2" ] && echo "ok   $code $1" || { echo "FAIL $code $1 (expected $2)"; fail=1; }; }
-          for p in / /ja/ /zh-tw/ /guides/ /sitemap.xml /robots.txt /assets/js/analytics.js /privacy.html; do check "$p" 200; done
+          for p in / /ja/ /zh-tw/ /guides/ /sitemap.xml /robots.txt /googlec9cefb1fa4149979.html /assets/js/analytics.js /privacy.html; do check "$p" 200; done
           for p in /marketing/organic-growth-90-day-plan.md /README.md /render.yaml /docs/affiliate-cta-template.html; do check "$p" 404; done
           urls=$(curl -fsS "$SITE/sitemap.xml?ts=$(date +%s)" | grep -o '<loc>[^<]*' | sed 's/<loc>//')
           n=0; for u in $urls; do n=$((n+1)); code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$u"); [ "$code" = 200 ] || { echo "FAIL $code $u"; fail=1; }; done
