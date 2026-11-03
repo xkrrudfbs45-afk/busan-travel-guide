@@ -739,3 +739,5 @@
 .home-refresh .trend-busan{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Yeongdo-gu.jpg?width=1000");}
 .home-refresh .trend-itinerary{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gamcheon_Culture_Village_in_Busan%2C_South_Korea.jpg?width=1000");}
 .home-refresh .trend-station-walk{background-image:url("/assets/illustrations/jagalchi-market-guide.svg");}
+
+.home-refresh .trend-pass{background-image:url("/assets/illustrations/busan-pass-guide.svg");background-size:cover;background-position:center}
