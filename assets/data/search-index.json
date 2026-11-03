@@ -1178,5 +1178,160 @@
       "山菜拌飯",
       "梵魚寺附近餐廳"
     ]
+  },
+  {
+    "title": "Busan Food Stories: The History Behind Local Dishes",
+    "url": "/guides/busan-food-stories/",
+    "summary": "Explore the history behind milmyeon, Busan eomuk, dwaeji-gukbap, Jobang nakji and traditional local food.",
+    "tags": [
+      "Busan food history",
+      "Busan local food",
+      "Busan food culture",
+      "Busan milmyeon history",
+      "Busan eomuk history",
+      "Busan pork soup history",
+      "Jobang nakji",
+      "Busan food stories"
+    ]
+  },
+  {
+    "title": "釜山の食文化史｜ミルミョン・オムク・テジクッパ",
+    "url": "/ja/guides/busan-food-stories/",
+    "summary": "ミルミョン、オムク、テジクッパを通して、植民地期の産業や朝鮮戦争、避難民の暮らしと釜山の食文化を紹介。",
+    "tags": [
+      "釜山 食文化 歴史",
+      "釜山 グルメ 歴史",
+      "ミルミョン 由来",
+      "釜山 オムク 歴史",
+      "テジクッパ 由来",
+      "釜山 ローカルフード"
+    ]
+  },
+  {
+    "title": "釜山飲食故事：小麥冷麵、魚板與豬肉湯飯",
+    "url": "/zh-tw/guides/busan-food-stories/",
+    "summary": "從小麥冷麵、魚板與豬肉湯飯的歷史，認識殖民時期產業、韓戰與避難者生活如何形塑釜山飲食。",
+    "tags": [
+      "釜山飲食歷史",
+      "釜山在地美食",
+      "釜山小麥冷麵由來",
+      "釜山魚板歷史",
+      "釜山豬肉湯飯歷史"
+    ]
+  },
+  {
+    "title": "Busan Milmyeon: The History of Refugee-Era Noodles",
+    "url": "/guides/busan-milmyeon-history/",
+    "summary": "Learn how northern noodle traditions, wartime flour supplies and Korean War refugees shaped Busan’s wheat-based cold noodles.",
+    "tags": [
+      "Busan milmyeon",
+      "milmyeon history",
+      "Busan cold noodles",
+      "Korean War food",
+      "refugee food Busan",
+      "Naeho Naengmyeon",
+      "Busan local food"
+    ]
+  },
+  {
+    "title": "釜山ミルミョンの歴史｜避難民の暮らしから生まれた麺",
+    "url": "/ja/guides/busan-milmyeon-history/",
+    "summary": "北部の麺文化、戦時中の小麦粉供給、朝鮮戦争の避難民の暮らしから釜山ミルミョンの歴史を紹介。",
+    "tags": [
+      "釜山 ミルミョン 歴史",
+      "ミルミョン 由来",
+      "釜山 冷麺",
+      "釜山 グルメ 歴史",
+      "ネホネンミョン"
+    ]
+  },
+  {
+    "title": "釜山小麥冷麵的歷史：避難時期的一碗麵",
+    "url": "/zh-tw/guides/busan-milmyeon-history/",
+    "summary": "從北方麵食傳統、戰時麵粉供應與韓戰避難者的生活，認識釜山小麥冷麵如何形成。",
+    "tags": [
+      "釜山小麥冷麵",
+      "밀면 歷史",
+      "釜山冷麵由來",
+      "韓戰飲食",
+      "釜山在地美食"
+    ]
+  },
+  {
+    "title": "Busan Eomuk: Fish Cake, Markets and Port-City History",
+    "url": "/guides/busan-eomuk-history/",
+    "summary": "Trace Busan fish cake from Japanese kamaboko influences and colonial-era shops to postwar factories and market snack culture.",
+    "tags": [
+      "Busan eomuk",
+      "Busan fish cake history",
+      "Korean fish cake",
+      "Bupyeong Market",
+      "Yeongdo food",
+      "Busan food history",
+      "Busan local food"
+    ]
+  },
+  {
+    "title": "釜山オムクの歴史｜市場と港町が育てた魚肉練り製品",
+    "url": "/ja/guides/busan-eomuk-history/",
+    "summary": "日本のかまぼこの影響、植民地期の店、解放後と朝鮮戦争期の生産拡大から釜山オムクの歴史をたどります。",
+    "tags": [
+      "釜山 オムク 歴史",
+      "韓国おでん 釜山",
+      "釜山 市場 グルメ",
+      "富平市場",
+      "影島 グルメ",
+      "釜山 食文化"
+    ]
+  },
+  {
+    "title": "釜山魚板的歷史：市場、港口與戰後飲食文化",
+    "url": "/zh-tw/guides/busan-eomuk-history/",
+    "summary": "從日本蒲鉾的影響、殖民時期店鋪，到解放後與韓戰期間的生產發展，認識釜山魚板的歷史。",
+    "tags": [
+      "釜山魚板歷史",
+      "韓國魚板",
+      "釜山市場美食",
+      "富平市場",
+      "影島美食",
+      "釜山飲食文化"
+    ]
+  },
+  {
+    "title": "Busan Dwaeji-gukbap: A Bowl Shaped by Refugee History",
+    "url": "/guides/busan-dwaeji-gukbap-history/",
+    "summary": "Explore the postwar history of Busan pork soup, its association with refugees and working-class meals, and why its exact origins remain debated.",
+    "tags": [
+      "Busan dwaeji gukbap",
+      "Busan pork soup history",
+      "Korean War food",
+      "refugee food Busan",
+      "Seomyeon pork soup",
+      "Busan local food"
+    ]
+  },
+  {
+    "title": "釜山テジクッパの歴史｜避難民の暮らしと庶民の一杯",
+    "url": "/ja/guides/busan-dwaeji-gukbap-history/",
+    "summary": "避難民と働く人々の食事に結びついた釜山テジクッパの戦後史を紹介し、起源に関する諸説も整理します。",
+    "tags": [
+      "釜山 テジクッパ 歴史",
+      "テジクッパ 由来",
+      "釜山 豚肉スープ",
+      "西面 グルメ",
+      "避難民 食文化"
+    ]
+  },
+  {
+    "title": "釜山豬肉湯飯的歷史：避難生活與庶民的一碗熱湯",
+    "url": "/zh-tw/guides/busan-dwaeji-gukbap-history/",
+    "summary": "從戰後避難者與勞動者的飲食，了解釜山豬肉湯飯的發展，以及起源故事為何不宜簡化成單一說法。",
+    "tags": [
+      "釜山豬肉湯飯歷史",
+      "釜山豬肉湯飯由來",
+      "西面美食",
+      "韓戰飲食",
+      "避難者飲食文化"
+    ]
   }
 ]
