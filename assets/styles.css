@@ -203,7 +203,7 @@
 .home-refresh .thumb-stay{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .thumb-transit{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .thumb-luggage{background-image:url("/assets/illustrations/busan-coastline.svg")}
-.home-refresh .thumb-ktx{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/KTX%20(Korea%20Train%20eXpress).jpg?width=1200")}.home-refresh .thumb-food{background:linear-gradient(135deg,#f4c98b,#c76c46)}.home-refresh .thumb-food .thumb-symbol{color:#6d2d20}.home-refresh .photo-credit{font-size:9px;line-height:1.5;color:var(--muted);margin:-8px 0 12px}.home-refresh .photo-credit a{color:inherit}
+.home-refresh .thumb-ktx{background-image:url("/assets/illustrations/busan-transit-guide.svg")}.home-refresh .thumb-food{background:linear-gradient(135deg,#f4c98b,#c76c46)}.home-refresh .thumb-food .thumb-symbol{color:#6d2d20}.home-refresh .photo-credit{font-size:9px;line-height:1.5;color:var(--muted);margin:-8px 0 12px}.home-refresh .photo-credit a{color:inherit}
 .home-refresh .thumb-pass{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .coming-card{overflow:hidden;border-radius:12px;box-shadow:0 8px 28px #172e3108;transition:transform .25s ease,box-shadow .25s ease}
 .home-refresh .coming-card:hover{box-shadow:0 18px 40px #172e3118;transform:translateY(-4px)}
