@@ -13,6 +13,7 @@ for (const file of pages) {
   const noindex = /<meta[^>]+name="robots"[^>]+noindex/i.test(h);
   for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch { f.push(`${rel}: invalid JSON-LD`); } }
   if (!/name="theme-color"/.test(h)) f.push(`${rel}: missing theme-color`);
+  if (!h.includes('rel="manifest"') || !h.includes("/assets/js/offline.js")) f.push(`${rel}: missing offline support (manifest/offline.js)`);
   const main = h.indexOf("<main");
   if (main !== -1) {
     const body = h.slice(main), h2 = body.indexOf("<h2");
@@ -28,6 +29,8 @@ for (const file of pages) {
   }
   if (/^(ja|zh-tw)\/guides\/[^/]+\/index\.html$/.test(rel) && h.includes('class="breadcrumbs"') && !h.includes("BreadcrumbList")) f.push(`${rel}: breadcrumb without BreadcrumbList`);
 }
+for (const need of ["sw.js", "manifest.webmanifest", "offline.html", "assets/js/offline.js"]) if (!existsSync(join(PUB, need))) f.push(`missing ${need} in build`);
+try { JSON.parse(readFileSync(join(PUB, "manifest.webmanifest"), "utf8")); } catch { f.push("manifest.webmanifest is not valid JSON"); }
 const sm = readFileSync(join(PUB, "sitemap.xml"), "utf8");
 if (!/^<\?xml/.test(sm.trim()) || !sm.includes("</urlset>")) f.push("sitemap.xml: not a urlset");
 for (const m of sm.matchAll(/<lastmod>([^<]*)<\/lastmod>/g)) if (!/^\d{4}-\d{2}-\d{2}$/.test(m[1])) f.push(`sitemap.xml: bad lastmod ${m[1]}`);

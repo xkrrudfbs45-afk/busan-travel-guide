@@ -1,0 +1,11 @@
+{
+  "name": "Go2Busan — Busan travel guide",
+  "short_name": "Go2Busan",
+  "description": "Practical Busan travel guides from a local perspective, in English, Japanese and Traditional Chinese.",
+  "start_url": "/?utm_source=pwa&utm_medium=homescreen",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#f8fafc",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -18,7 +18,7 @@ for dir in assets guides ja zh-tw; do
   cp -R "$dir" public/
 done
 
-for file in 404.html about.html disclosure.html favicon.svg googlec9cefb1fa4149979.html index.html privacy.html robots.txt sitemap.xml; do
+for file in 404.html about.html disclosure.html favicon.svg googlec9cefb1fa4149979.html index.html privacy.html robots.txt sitemap.xml manifest.webmanifest offline.html sw.js; do
   if [ ! -f "$file" ]; then
     echo "Required public file missing: $file" >&2
     exit 1
