@@ -3,11 +3,11 @@
 // Copy is never edited: Instagram hashtags are only split off the end of the caption.
 // Page choices (EN slug per day) and notes live here so changes are reviewable.
 // Usage: node scripts/build-social-calendar.mjs [--check]
-export const EN = {1:"busan-first-time-guide",2:"busan-dwaeji-gukbap-history",3:null,4:"busan-milmyeon-history",5:"busan-three-days",
+export const EN = {1:"busan-first-time-guide",2:"busan-dwaeji-gukbap-history",3:"ochoryang-historic-house",4:"busan-milmyeon-history",5:"busan-three-days",
  6:"busan-transit-card",7:"busan-neighborhood-food-guide",8:"jagalchi-market-no-surprise-bill",9:"things-to-do-in-busan",
  10:"busan-rainy-day-guide",11:"busan-local-culture",12:"busan-eomuk-history",13:"things-to-do-in-busan",14:"things-to-do-in-busan",
  15:"busan-travel-budget",16:"busan-neighborhood-food-guide",17:"things-to-do-in-busan",18:"things-to-do-in-busan",
- 19:"busan-street-dialect-guide",20:"busan-local-culture",21:"jagalchi-market-no-surprise-bill",22:null,23:"busan-local-culture",
+ 19:"busan-street-dialect-guide",20:"busan-local-culture",21:"jagalchi-market-no-surprise-bill",22:"ochoryang-historic-house",23:"busan-local-culture",
  24:"gimhae-airport-to-haeundae",25:"busan-luggage-storage",26:"ktx-booking-guide",27:"busan-first-time-guide",28:null,
  29:"busan-local-culture",30:"busan-first-time-guide"};
 export const NOTE = {2:"Label was \"Local food guide\"; linked to the dedicated dwaeji-gukbap page.",
@@ -23,8 +23,8 @@ export const NOTE = {2:"Label was \"Local food guide\"; linked to the dedicated 
  19:"Label was \"Local food guide\"; dialect guide covers useful local phrases.",
  23:"No coffee/garden guide; local culture hub is the closest. Content gap.",
  24:"Airport guides exist for Haeundae and Seomyeon; Haeundae has JA/ZH versions.",
- 3:"No Go2Busan page about OCHORYANG. Do not invent one; propose a page separately after checking Choryang/local-culture intent.",
- 22:"No Go2Busan page about OCHORYANG. Do not invent one; propose a page separately after checking Choryang/local-culture intent.",
+ 3:"Dedicated EN/JA/zh-TW OCHORYANG guide added; verify current visit details before publishing.",
+ 22:"Dedicated EN/JA/zh-TW OCHORYANG guide added; verify current visit details before publishing.",
  28:"Engagement post; CTA is the profile link, not a site page."};
 export const OCHO_NOTES = [
  "Describe OCHORYANG as a historic house with a garden and cultural programmes, not a walk-in cafe.",
@@ -65,7 +65,7 @@ export async function build(csvText, readPage) {
         const [cap, tags] = platform === "threads" ? [src, []] : splitTags(src);
         let path = null, exc = null;
         if (slug) { path = lang === "en" ? `/guides/${slug}/` : (a.ja || null); if (lang === "ja" && !path) exc = `No Japanese version of /guides/${slug}/ exists. Not falling back to English.`; }
-        else if (d === 3 || d === 22) exc = "needs_page: no OCHORYANG page on Go2Busan.";
+        else if (d === 3 || d === 22) exc = "OCHORYANG page should be linked only after verifying the page exists in the current build.";
         const dd = String(d).padStart(2, "0");
         const url = path ? `https://go2busan.com${path}?utm_source=${platform}&utm_medium=social&utm_campaign=${camp}&utm_content=day${dd}` : null;
         const fc = [r.Status.replace("Draft — ", "").trim()];
