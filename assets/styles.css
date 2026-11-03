@@ -685,3 +685,8 @@
   background-size:cover;background-position:center;
 }
 .home-refresh .home-image-credit{font-size:10px;color:#64748b}
+
+/* Editorial illustrations: make the artwork responsive and visibly distinguish it from photography. */
+.article-illustration{margin:0 0 28px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff7ed}
+.article-illustration img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.article-illustration figcaption{padding:9px 13px;font-size:11px;line-height:1.5;color:var(--muted);background:#fff}
