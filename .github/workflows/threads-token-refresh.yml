@@ -1,0 +1,47 @@
+name: Threads token refresh
+
+# Long-lived Threads tokens last 60 days and can be refreshed (GET /refresh_access_token).
+# Refreshing weekly keeps them alive. Writing the new token back into repository secrets needs a
+# fine-grained PAT with "Secrets: read and write" on this repo, stored as secret GH_SECRETS_PAT.
+# Without it this job only checks the tokens still work and fails loudly when they do not.
+# Token values are masked and never echoed.
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        account: [JP, US]
+    steps:
+      - name: Refresh ${{ matrix.account }} token
+        env:
+          TOKEN: ${{ matrix.account == 'JP' && secrets.THREADS_JP_ACCESS_TOKEN || secrets.THREADS_US_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_SECRETS_PAT }}
+          SECRET_NAME: THREADS_${{ matrix.account }}_ACCESS_TOKEN
+          REPO: ${{ github.repository }}
+        run: |
+          set -eu
+          if [ -z "${TOKEN:-}" ]; then echo "$SECRET_NAME not configured"; exit 1; fi
+          RESP=$(curl -sS -G "https://graph.threads.net/refresh_access_token" \
+            --data-urlencode "grant_type=th_refresh_token" --data-urlencode "access_token=$TOKEN")
+          NEW=$(printf '%s' "$RESP" | jq -r '.access_token // empty')
+          if [ -z "$NEW" ]; then
+            echo "Refresh failed: $(printf '%s' "$RESP" | jq -c '.error | {type, code, message}')"; exit 1
+          fi
+          echo "::add-mask::$NEW"
+          echo "Refreshed; expires_in=$(printf '%s' "$RESP" | jq -r '.expires_in') seconds"
+          if [ -n "${GH_TOKEN:-}" ]; then
+            printf '%s' "$NEW" | gh secret set "$SECRET_NAME" --repo "$REPO"
+            echo "Updated $SECRET_NAME"
+          else
+            echo "GH_SECRETS_PAT not set: existing token checked, secret not rotated."
+          fi

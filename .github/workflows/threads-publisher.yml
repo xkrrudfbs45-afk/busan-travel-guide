@@ -1,0 +1,66 @@
+name: Threads publisher (Go2Busan JP/US)
+
+# SNS automation only. Independent of the site build/deploy pipeline:
+# - reads the reviewed schedule from main (content/social/threads-30day/schedule.json)
+# - keeps its publish log on the `threads-state` branch, so log commits never trigger
+#   "Technical SEO audit" or "Deploy to Render".
+# Live posting happens only when the repository variable THREADS_LIVE is exactly "true".
+# Otherwise every run is a dry run that prints what would be posted.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # GitHub may start scheduled runs late; publish.mjs tolerates up to 3h.
+  workflow_dispatch:
+
+permissions:
+  contents: write   # push the publish log to the threads-state branch
+
+concurrency:
+  group: threads-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tests and schedule validation (blocks publishing on failure)
+        run: |
+          node --test scripts/threads/threads.test.mjs
+          node scripts/threads/build-schedule.mjs --check
+
+      - name: Check out publish log branch
+        run: |
+          if git ls-remote --exit-code --heads origin threads-state >/dev/null; then
+            git fetch --depth 1 origin threads-state
+            git worktree add state FETCH_HEAD
+          else
+            git worktree add --detach state
+            git -C state checkout --orphan threads-state
+            git -C state rm -rf --quiet . || true
+          fi
+
+      - name: Publish due posts
+        env:
+          THREADS_LIVE: ${{ vars.THREADS_LIVE }}
+          THREADS_JP_ACCESS_TOKEN: ${{ secrets.THREADS_JP_ACCESS_TOKEN }}
+          THREADS_US_ACCESS_TOKEN: ${{ secrets.THREADS_US_ACCESS_TOKEN }}
+        run: node scripts/threads/publish.mjs --log state/publish-log.json
+
+      - name: Save publish log
+        if: always() && vars.THREADS_LIVE == 'true'
+        run: |
+          cd state
+          [ -f publish-log.json ] || exit 0
+          git add publish-log.json
+          git diff --cached --quiet && exit 0
+          git -c user.name="go2busan-bot" -c user.email="actions@users.noreply.github.com" commit -q -m "Threads publish log $(date -u +%FT%TZ)"
+          git push -q origin HEAD:refs/heads/threads-state
