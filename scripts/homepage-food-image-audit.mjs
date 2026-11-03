@@ -3,6 +3,11 @@ import fs from "node:fs";
 const home = fs.readFileSync("index.html", "utf8");
 const css = fs.readFileSync("assets/styles.css", "utf8");
 
+const stylesheet = home.match(/<link rel="stylesheet" href="([^"]*styles\\.css[^"]*)"/)?.[1] ?? "";
+if (!/[?&]v=[^&]+/.test(stylesheet)) {
+  throw new Error("Homepage stylesheet needs a version query so image fixes are not hidden by stale CSS cache.");
+}
+
 // These are distinct editorial food/history articles shown together on the homepage.
 // If a card is added here, it must have its own topic-specific image class and URL.
 const foodGuidePaths = [
