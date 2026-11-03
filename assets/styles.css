@@ -458,7 +458,7 @@
 
 /* Topic-matched card imagery for localized homepages and specialty guides.
    Keep each card image aligned with the guide topic; do not reuse the pork-soup image as a generic fallback. */
-.trend-local-food{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Milmyeon_20200522_001.jpg?width=1000")}
+.trend-local-food{background-image:url("https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=82")}
 .trend-three-days{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gamcheon_Culture_Village_in_Busan%2C_South_Korea.jpg?width=1000")}
 .trend-transit{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg?width=1000")}
 .trend-ktx{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/KTX_in_Seoul.jpg?width=1200");background-position:center 48%}
