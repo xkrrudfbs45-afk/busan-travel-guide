@@ -3,14 +3,14 @@
 These rules apply to every new and existing article, homepage card, social preview, and localized guide.
 
 ## Core rule
-Choose the image for the exact subject of the page, not merely a generic image that looks attractive. A reader should be able to understand why the image belongs with the headline.
+Choose the image for the exact subject of the page, not merely a generic image that looks attractive. A reader should be able to understand why the image belongs with the headline. The host is not the deciding factor: Unsplash, Wikimedia Commons, official tourism archives, and other sources are all acceptable when the specific image matches the topic and its reuse terms and attribution are correct. Do not remove a good, relevant photo just because it is externally hosted.
 
 ## Image selection checklist
 - **Place-specific pages:** Prefer a real image of the named Busan place or attraction. Songdo Beach must show Songdo; Songjeong/Gijang pages should not default to Haeundae or LCT; Haeundae Sky Capsule pages should show the Sky Capsule or Blueline Park.
 - **Food pages:** Show the dish or market actually discussed. Dwaeji-gukbap pages should show pork soup; milmyeon pages should show milmyeon; Jagalchi Market pages should show the market or seafood stalls, not a generic plated shrimp/steak photo.
 - **Transport pages:** Use the relevant station, rail line, airport, ticket/card, or transport mode. Avoid unrelated city skylines.
 - **Weather pages:** Use an image that clearly communicates the weather or indoor activity.
-- **Avoid repetition:** Do not reuse one Haeundae/LCT photo across unrelated guides. Reuse an image only when it is genuinely relevant and the repetition serves the page.
+- **Avoid repetition:** Do not reuse one Haeundae/LCT photo across unrelated guides or repeat one food photo across unrelated dishes. Reuse an image only when it is genuinely relevant and the repetition serves the page.
 - **No false implication:** Illustrations must be identified as illustrations; do not present AI-generated or generic stock imagery as a real photograph of a named place or restaurant.
 - **Homepage cards:** Every card must use a subject-matched image. Do not inherit a default background that silently makes unrelated cards show the same photo.
 
