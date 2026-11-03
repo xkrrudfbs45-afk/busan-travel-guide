@@ -9,33 +9,35 @@ import { existsSync, readFileSync } from "node:fs";
 import { SCHEDULE_FILE, readJson, writeJson } from "./lib.mjs";
 
 const SITE = "https://go2busan.com";
-// post id (without market) -> [English path, Japanese path or null]
+// post id (without market) -> [English path, Japanese path, Traditional Chinese path] (null = no link)
 export const LINKS = {
-  "d01-1": ["/guides/busan-first-time-guide/", "/ja/guides/first-trip/"],
-  "d03-1": ["/guides/busan-neighborhood-food-guide/", "/ja/guides/local-food-by-neighborhood/"],
-  "d04-1": ["/guides/jagalchi-market-no-surprise-bill/", "/ja/guides/jagalchi-market/"],
-  "d05-1": ["/guides/things-to-do-in-busan/", "/ja/guides/things-to-do-in-busan/"],
-  "d06-1": ["/guides/busan-rainy-day-guide/", "/ja/guides/rainy-day/"],
-  "d07-1": ["/guides/busan-three-days/", "/ja/guides/three-days/"],
-  "d08-us-1": ["/guides/gimhae-airport-to-haeundae/", null],   // US post 1 is the airport/luggage post
-  "d08-jp-2": [null, "/ja/guides/airport-to-haeundae/"],       // JP post 2 is the airport post
-  "d09-1": ["/guides/where-to-stay-busan/", "/ja/guides/where-to-stay-busan/"],
-  "d13-1": ["/guides/busan-local-culture/", null],
-  "d16-1": ["/guides/busan-food-stories/", "/ja/guides/busan-food-stories/"],
-  "d22-1": ["/guides/busan-winter-travel-guide/", "/ja/guides/busan-winter-travel-guide/"],
-  "d25-1": ["/guides/busan-travel-budget/", null],
+  "d01-1": ["/guides/busan-first-time-guide/", "/ja/guides/first-trip/", "/zh-tw/guides/first-trip/"],
+  "d03-1": ["/guides/busan-neighborhood-food-guide/", "/ja/guides/local-food-by-neighborhood/", "/zh-tw/guides/local-food-by-neighborhood/"],
+  "d04-1": ["/guides/jagalchi-market-no-surprise-bill/", "/ja/guides/jagalchi-market/", "/zh-tw/guides/jagalchi-market/"],
+  "d05-1": ["/guides/things-to-do-in-busan/", "/ja/guides/things-to-do-in-busan/", "/zh-tw/guides/things-to-do-in-busan/"],
+  "d06-1": ["/guides/busan-rainy-day-guide/", "/ja/guides/rainy-day/", "/zh-tw/guides/rainy-day/"],
+  "d07-1": ["/guides/busan-three-days/", "/ja/guides/three-days/", "/zh-tw/guides/three-days/"],
+  "d08-us-1": ["/guides/gimhae-airport-to-haeundae/", null, null],   // US post 1 is the airport/luggage post
+  "d08-jp-2": [null, "/ja/guides/airport-to-haeundae/", null],
+  "d08-tw-1": [null, null, "/zh-tw/guides/airport-to-haeundae/"],   // TW post 1 is the arrival/luggage post,       // JP post 2 is the airport post
+  "d09-1": ["/guides/where-to-stay-busan/", "/ja/guides/where-to-stay-busan/", "/zh-tw/guides/where-to-stay-busan/"],
+  "d13-1": ["/guides/busan-local-culture/", null, null],
+  "d16-1": ["/guides/busan-food-stories/", "/ja/guides/busan-food-stories/", "/zh-tw/guides/busan-food-stories/"],
+  "d22-1": ["/guides/busan-winter-travel-guide/", "/ja/guides/busan-winter-travel-guide/", "/zh-tw/guides/busan-winter-travel-guide/"],
+  "d25-1": ["/guides/busan-travel-budget/", null, null],
 };
 
 const REPLY_TEXT = {
   US: (url) => `More detail in our local Busan guide 👇\n${url}`,
   JP: (url) => `詳しくはGo2Busanの釜山ガイドで👇\n${url}`,
+  TW: (url) => `更多細節請看 Go2Busan 釜山在地指南👇\n${url}`,
 };
 
 export function guideUrl(path, market, day) {
   const u = new URL(SITE + path);
   u.searchParams.set("utm_source", "threads");
   u.searchParams.set("utm_medium", "social");
-  u.searchParams.set("utm_campaign", market === "JP" ? "threads30_jp" : "threads30_us");
+  u.searchParams.set("utm_campaign", `threads30_${market.toLowerCase()}`);
   u.searchParams.set("utm_content", `day${String(day).padStart(2, "0")}`);
   return u.toString();
 }
@@ -43,7 +45,7 @@ export function guideUrl(path, market, day) {
 export function pathFor(p) {
   const [d, , slot] = p.id.split("-");                 // e.g. d08-us-1
   const pair = LINKS[p.id] || LINKS[`${d}-${slot}`];   // post-specific entry wins over the day/slot entry
-  return pair ? pair[p.market === "JP" ? 1 : 0] : null;
+  return pair ? pair[{ US: 0, JP: 1, TW: 2 }[p.market]] : null;
 }
 
 export function checkLinkReply(p, { root = ".", sitemap = "" } = {}) {
@@ -53,6 +55,7 @@ export function checkLinkReply(p, { root = ".", sitemap = "" } = {}) {
   if (u.origin !== SITE) errs.push(`${p.id}: link must be on ${SITE}`);
   if (p.market === "JP" && !u.pathname.startsWith("/ja/")) errs.push(`${p.id}: JP reply must link to a /ja/ page`);
   if (p.market === "US" && /^\/(ja|zh-tw)\//.test(u.pathname)) errs.push(`${p.id}: US reply must link to an English page`);
+  if (p.market === "TW" && !u.pathname.startsWith("/zh-tw/")) errs.push(`${p.id}: TW reply must link to a /zh-tw/ page`);
   if (!existsSync(`${root}${u.pathname}index.html`)) errs.push(`${p.id}: page missing in repo ${u.pathname}`);
   if (sitemap && !sitemap.includes(`${SITE}${u.pathname}`)) errs.push(`${p.id}: page not in sitemap ${u.pathname}`);
   if (!lr.text.includes(lr.url)) errs.push(`${p.id}: reply text must contain the url`);
@@ -76,6 +79,6 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const errs = s.posts.flatMap((p) => checkLinkReply(p, { sitemap }));
   if (errs.length) { console.error(errs.join("\n")); process.exit(1); }
   const n = (m) => s.posts.filter((p) => p.market === m && p.link_reply).length;
-  console.log(`link replies OK: JP ${n("JP")}, US ${n("US")}`);
+  console.log(`link replies OK: JP ${n("JP")}, US ${n("US")}, TW ${n("TW")}`);
   for (const p of s.posts.filter((x) => x.link_reply)) console.log(`  ${p.id}  ${new URL(p.link_reply.url).pathname}`);
 }

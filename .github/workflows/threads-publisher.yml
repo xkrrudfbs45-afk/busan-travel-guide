@@ -53,6 +53,7 @@ jobs:
           THREADS_LIVE: ${{ vars.THREADS_LIVE }}
           THREADS_JP_ACCESS_TOKEN: ${{ secrets.THREADS_JP_ACCESS_TOKEN }}
           THREADS_US_ACCESS_TOKEN: ${{ secrets.THREADS_US_ACCESS_TOKEN }}
+          THREADS_TW_ACCESS_TOKEN: ${{ secrets.THREADS_TW_ACCESS_TOKEN }}
         run: node scripts/threads/publish.mjs --log state/publish-log.json
 
       - name: Save publish log

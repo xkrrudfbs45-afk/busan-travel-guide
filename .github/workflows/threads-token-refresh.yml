@@ -20,17 +20,20 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        account: [JP, US]
+        account: [JP, US, TW]
     steps:
       - name: Refresh ${{ matrix.account }} token
         env:
-          TOKEN: ${{ matrix.account == 'JP' && secrets.THREADS_JP_ACCESS_TOKEN || secrets.THREADS_US_ACCESS_TOKEN }}
+          TOKEN: ${{ matrix.account == 'JP' && secrets.THREADS_JP_ACCESS_TOKEN || matrix.account == 'US' && secrets.THREADS_US_ACCESS_TOKEN || secrets.THREADS_TW_ACCESS_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_SECRETS_PAT }}
           SECRET_NAME: THREADS_${{ matrix.account }}_ACCESS_TOKEN
           REPO: ${{ github.repository }}
         run: |
           set -eu
-          if [ -z "${TOKEN:-}" ]; then echo "$SECRET_NAME not configured"; exit 1; fi
+          if [ -z "${TOKEN:-}" ]; then
+            if [ "${{ matrix.account }}" = "TW" ]; then echo "$SECRET_NAME not configured yet (Taiwan account pending) - skipped"; exit 0; fi
+            echo "$SECRET_NAME not configured"; exit 1
+          fi
           RESP=$(curl -sS -G "https://graph.threads.net/refresh_access_token" \
             --data-urlencode "grant_type=th_refresh_token" --data-urlencode "access_token=$TOKEN")
           NEW=$(printf '%s' "$RESP" | jq -r '.access_token // empty')
