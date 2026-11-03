@@ -1276,5 +1276,79 @@
       "釜山飲食文化",
       "韓國魚板"
     ]
+  },
+  {
+    "title": "Busan Food Stories: The History Behind Local Dishes",
+    "url": "/guides/busan-food-stories/",
+    "summary": "Explore the history behind milmyeon, Busan eomuk, dwaeji-gukbap, Jobang nakji and traditional local food.",
+    "tags": [
+      "Busan food history",
+      "Busan local food",
+      "Busan food culture",
+      "Busan milmyeon history",
+      "Busan eomuk history",
+      "Busan pork soup history",
+      "Jobang nakji"
+    ]
+  },
+  {
+    "title": "釜山の食文化史｜ミルミョン・オムク・テジクッパ",
+    "url": "/ja/guides/busan-food-stories/",
+    "summary": "ミルミョン、オムク、テジクッパを通して、植民地期の産業や朝鮮戦争、避難民の暮らしと釜山の食文化を紹介。",
+    "tags": [
+      "釜山 食文化 歴史",
+      "釜山 グルメ 歴史",
+      "ミルミョン 由来",
+      "釜山 オムク 歴史",
+      "テジクッパ 由来"
+    ]
+  },
+  {
+    "title": "釜山飲食故事：小麥冷麵、魚板與豬肉湯飯",
+    "url": "/zh-tw/guides/busan-food-stories/",
+    "summary": "從小麥冷麵、魚板與豬肉湯飯的歷史，認識殖民時期產業、韓戰與避難者生活如何形塑釜山飲食。",
+    "tags": [
+      "釜山飲食歷史",
+      "釜山在地美食",
+      "釜山小麥冷麵由來",
+      "釜山魚板歷史",
+      "釜山豬肉湯飯歷史"
+    ]
+  },
+  {
+    "title": "Busan Dwaeji-gukbap: A Bowl Shaped by Refugee History",
+    "url": "/guides/busan-dwaeji-gukbap-history/",
+    "summary": "Explore the postwar history of Busan pork soup, its association with refugees and working-class meals, and why its exact origins remain debated.",
+    "tags": [
+      "Busan dwaeji gukbap",
+      "Busan pork soup history",
+      "Korean War food",
+      "refugee food Busan",
+      "Seomyeon pork soup"
+    ]
+  },
+  {
+    "title": "釜山テジクッパの歴史｜避難民の暮らしと庶民の一杯",
+    "url": "/ja/guides/busan-dwaeji-gukbap-history/",
+    "summary": "避難民と働く人々の食事に結びついた釜山テジクッパの戦後史を紹介し、起源に関する諸説も整理します。",
+    "tags": [
+      "釜山 テジクッパ 歴史",
+      "テジクッパ 由来",
+      "釜山 豚肉スープ",
+      "西面 グルメ",
+      "避難民 食文化"
+    ]
+  },
+  {
+    "title": "釜山豬肉湯飯的歷史：避難生活與庶民的一碗熱湯",
+    "url": "/zh-tw/guides/busan-dwaeji-gukbap-history/",
+    "summary": "從戰後避難者與勞動者的飲食，了解釜山豬肉湯飯的發展，以及起源故事為何不宜簡化成單一說法。",
+    "tags": [
+      "釜山豬肉湯飯歷史",
+      "釜山豬肉湯飯由來",
+      "西面美食",
+      "韓戰飲食",
+      "避難者飲食文化"
+    ]
   }
 ]
