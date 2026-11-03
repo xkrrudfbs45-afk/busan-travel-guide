@@ -462,7 +462,7 @@
 .trend-three-days{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .trend-transit{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .trend-ktx{background-image:url("/assets/illustrations/busan-coastline.svg");background-position:center 48%}
-.trend-bukangi{background-image:url("/assets/bukangi-illustration.svg");background-size:contain;background-repeat:no-repeat;background-color:#eaf5fb;background-position:center}
+.trend-bukangi{background-image:url("/assets/bukangi-soju-edition-illustration.svg");background-size:cover;background-repeat:no-repeat;background-color:#eaf5fb;background-position:center}
 .trend-sky-capsule{background-image:url("/assets/illustrations/busan-coastline.svg")}
 
 /* The airport-to-Haeundae guide is about rail transfers, not an airplane stock photo. */
