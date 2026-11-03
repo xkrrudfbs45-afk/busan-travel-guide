@@ -33,6 +33,7 @@ jobs:
           node scripts/seo-audit.mjs
           node scripts/sitemap-hreflang-audit.mjs
           node scripts/outbound-link-image-audit.mjs
+          node scripts/build-social-calendar.mjs --check
           node scripts/social-content-audit.mjs
           node scripts/social-content-audit.mjs --self-test
           node scripts/language-switch-audit.mjs
