@@ -10,6 +10,7 @@
 //  6. Share previews: og:image / og:image:alt / twitter:card / twitter:image when missing
 //     (page's own first image -> English counterpart's og:image -> site default)
 //  7. sitemap <lastmod> from git history (skipped on shallow clones or when git is unavailable)
+//  8. Offline support: link manifest.webmanifest and load assets/js/offline.js (registers /sw.js)
 // Usage: node scripts/enhance-public.mjs [publicDir=public]
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join, relative } from "node:path";
@@ -100,6 +101,10 @@ for (const f of files) {
       bump("5 preconnect added");
     }
   }
+
+  // 8. Offline support: web app manifest + service worker registration on every page
+  if (!h.includes('rel="manifest"')) { h = insertHead(h, '<link rel="manifest" href="/manifest.webmanifest">'); bump("8 manifest linked"); }
+  if (!h.includes("/assets/js/offline.js") && h.includes("</body>")) { h = h.replace("</body>", '<script defer src="/assets/js/offline.js"></script></body>'); bump("8 offline script added"); }
 
   if (!noindex && /<meta property="og:title"/.test(h)) {
     if (!/<meta property="og:image"/.test(h)) {
