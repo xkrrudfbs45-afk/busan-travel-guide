@@ -618,3 +618,15 @@
 .all-guides h2{font-size:clamp(22px,3vw,28px);margin:0 0 12px}
 .all-guides-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 24px}
 .all-guides-list a{display:block;padding:6px 0;line-height:1.45;overflow-wrap:anywhere}
+
+
+/* Editorial card image uniqueness: each homepage food guide gets a topic-specific class and image.
+   Do not use .trend-food as a generic fallback for multiple cards. */
+.home-refresh .trend-pnu-food{background-image:url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+.home-refresh .trend-nakgopsae{background-image:url("https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+.home-refresh .trend-food-stories{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Jagalchi_Fish_Market%2C_Busan.jpg?width=1000");background-position:center 52%}
+.home-refresh .trend-milmyeon{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Milmyeon_20200522_001.jpg?width=1000");background-position:center 52%}
+.home-refresh .trend-eomuk{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Korean_fish_cake_eomuk.jpg?width=1000");background-position:center 52%}
+.home-refresh .trend-makgeolli{background-image:url("https://images.unsplash.com/photo-1513558161293-cdab0b502e7d?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+.home-refresh .trend-mountain-food{background-image:url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+.home-refresh .trend-temple-food{background-image:url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
