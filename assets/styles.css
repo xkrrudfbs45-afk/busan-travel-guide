@@ -731,3 +731,11 @@
 .home-refresh .trend-songdo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1000");}
 .home-refresh .trend-jagalchi{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Inside_Jagalchi_Fish_Market%2C_Busan.jpg/960px-Inside_Jagalchi_Fish_Market%2C_Busan.jpg");}
 .home-refresh .trend-songjeong{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Songjeong_Beach.jpg?width=1000");}
+
+
+/* Correct remaining homepage topic mappings discovered during the page audit. */
+.home-refresh .trend-hotel{background-image:url("/assets/illustrations/busan-stay-guide.svg");}
+.home-refresh .trend-luggage{background-image:url("/assets/illustrations/busan-luggage-guide.svg");}
+.home-refresh .trend-busan{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Yeongdo-gu.jpg?width=1000");}
+.home-refresh .trend-itinerary{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gamcheon_Culture_Village_in_Busan%2C_South_Korea.jpg?width=1000");}
+.home-refresh .trend-station-walk{background-image:url("/assets/illustrations/jagalchi-market-guide.svg");}
