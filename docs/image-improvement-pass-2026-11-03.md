@@ -10,7 +10,7 @@ The goal is not to eliminate Unsplash, Wikimedia Commons, or other remote image 
 - Split Japanese and Traditional Chinese homepage food-card classes so unrelated guides no longer inherit the same pork-soup image.
 - Added a dedicated pork-soup illustration for Japanese and Traditional Chinese pork-soup guide previews, with localized alt text that identifies it as an illustration.
 - Fixed the homepage food-image audit script to inspect the exact matching card anchor.
-- Extended the image audit to flag missing alt text, external image sources that need source/subject/license review, and Wikimedia covers lacking visible creator/source/license attribution.
+- Extended the image audit to flag missing alt text, external image sources that need source/subject/license review, Wikimedia covers lacking visible creator/source/license attribution, photo credits attached to SVG illustrations, and known homepage class mismatches such as winter cards using rainy-day imagery or Visit Busan Pass cards using Sky Capsule imagery.
 - Restored topic-matched Wikimedia photographs on English homepage cards for dwaeji-gukbap, Gimhae light rail, Busan subway, Haeundae Sky Capsule, Songdo Beach, Jagalchi Market, and Songjeong Beach. These cards already contain visible photo credits. These remote images are intentionally retained because the topic and credit match; remote hosting is not itself a defect.
 
 ## Editorial decisions
