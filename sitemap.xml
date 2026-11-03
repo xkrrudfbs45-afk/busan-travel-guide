@@ -365,5 +365,23 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-spa-land-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-spa-land-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/busan-spa-land-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-spa-land-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-spa-land-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-spa-land-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-spa-land-guide/" />
   </url>
 </urlset>
