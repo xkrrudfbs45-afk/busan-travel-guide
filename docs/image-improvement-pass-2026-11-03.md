@@ -38,3 +38,10 @@ The branch now intentionally contains both local illustrations and selected remo
 - Each new cover uses the relevant original Go2Busan illustration, descriptive localized alt text, intrinsic dimensions, lazy loading, and a visible caption identifying it as an illustration rather than a real restaurant/product photograph.
 - Added matching `og:image`, `og:image:alt`, and `twitter:image` metadata for these 21 localized article pages so social shares point to the same topic-specific artwork.
 - Remaining known limitation: these social images are SVG. Some social platforms do not reliably render SVG previews, and the existing audit will flag them for a future raster-export pass. Do not replace them with unrelated generic photography just to silence that warning; export topic-matched PNG/WebP versions or use a verified, properly licensed real photograph with accurate attribution.
+
+
+## Follow-up illustration coverage (2026-11-04, continued)
+- Added original, topic-specific SVG artwork for Dongnae pajeon, Gupo guksu, jaecheopguk, and the Busan Fireworks Festival (Gwangan Bridge and fireworks scene).
+- Added localized article covers, descriptive alt text, visible illustration captions, and matching social image metadata to the English, Japanese, and Traditional Chinese versions of those four guides.
+- Across both follow-up batches, 33 localized article pages now have topic-matched covers for 11 guide topics. These are explicitly labeled original illustrations, not photographs of specific restaurants or live events.
+- Raster social-preview exports remain an explicit next step. The current SVG preview metadata keeps the subject accurate but can be unsupported by some social platforms; do not silently replace it with an unrelated image.
