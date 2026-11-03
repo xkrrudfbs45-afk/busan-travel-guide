@@ -25,10 +25,15 @@ const foodGuidePaths = [
 
 const cards = [];
 for (const path of foodGuidePaths) {
-  const escaped = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const match = home.match(new RegExp('<a\\b(?=[^>]*href="' + escaped + '")[^>]*>[\\s\\S]*?<div class="trend-image ([^"]+)"'));
-  if (!match) throw new Error("Homepage food guide card missing or has no image class: " + path);
-  const classes = match[1].split(/\s+/).filter(name => name.startsWith("trend-"));
+  // Match the exact anchor block. A broad search through the rest of the homepage
+  // can accidentally borrow the next card's image class when the same URL appears
+  // earlier in a text-only section.
+  const escaped = path.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\\\$&");
+  const anchors = [...home.matchAll(/<a\\b[^>]*>[\\s\\S]*?<\\/a>/gi)];
+  const anchor = anchors.find((item) => new RegExp('\\\\bhref="' + escaped + '"').test(item[0]));
+  const match = anchor ? anchor[0].match(/<div class="trend-image ([^"]+)"/i) : null;
+  if (!match) throw new Error("Homepage food guide card missing or has no image class inside its anchor: " + path);
+  const classes = match[1].split(/\\s+/).filter(name => name.startsWith("trend-"));
   const imageUrls = [];
   for (const className of classes) {
     const selector = new RegExp(String.raw`\.${className}\s*\{[^}]*background-image\s*:\s*url\(["']?([^"')]+)`, "gs");
