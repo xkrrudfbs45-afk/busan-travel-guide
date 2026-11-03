@@ -114,13 +114,21 @@
       const link = target.closest('a[href]');
       if (!link) return;
 
-      const guidePlacement = link.closest('.trend-card')
-        ? 'guide_card'
-        : (link.closest('.category-tile') ? 'category_tile' : '');
-      if (guidePlacement && link.pathname.startsWith('/guides/')) {
+      const guidePlacement = link.closest('[data-local-experience-card]')
+        ? 'local_experience_card'
+        : (link.closest('.trend-card')
+          ? 'guide_card'
+          : (link.closest('.category-tile') ? 'category_tile' : ''));
+      const isGuidePath = /^\/(?:ja\/|zh-tw\/)?guides\//.test(new URL(link.href, window.location.href).pathname);
+      if (guidePlacement && isGuidePath) {
+        const guidePath = new URL(link.href, window.location.href).pathname;
+        const guideLocale = guidePath.startsWith('/ja/')
+          ? 'ja'
+          : (guidePath.startsWith('/zh-tw/') ? 'zh-TW' : 'en');
         window.gtag('event', 'guide_navigation_click', {
           guide_url: link.href,
           guide_title: (link.querySelector('.trend-copy h3')?.innerText || link.innerText || '').trim().slice(0, 100),
+          guide_locale: guideLocale,
           placement: guidePlacement,
           page_location: window.location.href
         });
