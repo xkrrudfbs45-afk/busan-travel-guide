@@ -116,7 +116,7 @@
 
 /* Go2Busan visual upgrade: replace flat hero art with real Busan photography */
 .home-refresh .hero-art{
-  background-image:linear-gradient(180deg,#0f172a08 35%,#0f172a75 100%),url("https://images.unsplash.com/photo-1609137929473-680b60780d64?auto=format&fit=crop&w=1800&q=85");
+  background-image:linear-gradient(180deg,#0f172a08 35%,#0f172a75 100%),url("/assets/illustrations/busan-coastline.svg");
   background-size:cover;
   background-position:center 53%;
   min-height:420px;
@@ -142,7 +142,7 @@
 .home-refresh .brand{font-size:15px;letter-spacing:-.045em}
 .home-refresh .brand-mark{width:37px;height:37px;font-size:13px;letter-spacing:-.06em}
 .home-refresh .feature-image{
-  background-image:linear-gradient(180deg,#0f172a05 35%,#0f172a65 100%),url("https://images.unsplash.com/photo-1700277841882-d83a303048ea?auto=format&fit=crop&w=1400&q=80");
+  background-image:linear-gradient(180deg,#0f172a05 35%,#0f172a65 100%),url("/assets/illustrations/busan-coastline.svg");
   background-size:cover;background-position:center 55%;
 }
 .home-refresh .feature-image:after{background:linear-gradient(180deg,transparent 40%,#0f172a35)}
@@ -192,7 +192,7 @@
 
 
 /* Homepage guide cards: replace flat vector thumbnails with photography */
-.home-refresh .feature-image{background-image:linear-gradient(180deg,#102a2b12 35%,#102a2b70),url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=82");background-size:cover;background-position:center 48%;min-height:330px}
+.home-refresh .feature-image{background-image:linear-gradient(180deg,#102a2b12 35%,#102a2b70),url("/assets/illustrations/busan-coastline.svg");background-size:cover;background-position:center 48%;min-height:330px}
 .home-refresh .airport-sun,.home-refresh .airport-runway,.home-refresh .airport-terminal{display:none}
 .home-refresh .guide-thumb{background-size:cover;background-position:center;isolation:isolate;color:#fff}
 .home-refresh .guide-thumb:before{inset:0;width:auto;height:auto;right:0;bottom:0;border:0;border-radius:0;background:linear-gradient(180deg,#102a2b25 0%,#102a2b00 35%,#102a2bbd 100%);z-index:0}
@@ -200,11 +200,11 @@
 .home-refresh .thumb-symbol{display:none}
 .home-refresh .thumb-kicker{color:#fff;text-shadow:0 1px 8px #102a2b80}
 .home-refresh .thumb-caption{color:#fff;text-shadow:0 1px 8px #102a2b80}
-.home-refresh .thumb-stay{background-image:url("https://images.unsplash.com/photo-1609137929473-680b60780d64?auto=format&fit=crop&w=900&q=78")}
-.home-refresh .thumb-transit{background-image:url("https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=900&q=78")}
-.home-refresh .thumb-luggage{background-image:url("https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=78")}
+.home-refresh .thumb-stay{background-image:url("/assets/illustrations/busan-coastline.svg")}
+.home-refresh .thumb-transit{background-image:url("/assets/illustrations/busan-coastline.svg")}
+.home-refresh .thumb-luggage{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .thumb-ktx{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/KTX%20(Korea%20Train%20eXpress).jpg?width=1200")}.home-refresh .thumb-food{background:linear-gradient(135deg,#f4c98b,#c76c46)}.home-refresh .thumb-food .thumb-symbol{color:#6d2d20}.home-refresh .photo-credit{font-size:9px;line-height:1.5;color:var(--muted);margin:-8px 0 12px}.home-refresh .photo-credit a{color:inherit}
-.home-refresh .thumb-pass{background-image:url("https://images.unsplash.com/photo-1700277841882-d83a303048ea?auto=format&fit=crop&w=900&q=78")}
+.home-refresh .thumb-pass{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .coming-card{overflow:hidden;border-radius:12px;box-shadow:0 8px 28px #172e3108;transition:transform .25s ease,box-shadow .25s ease}
 .home-refresh .coming-card:hover{box-shadow:0 18px 40px #172e3118;transform:translateY(-4px)}
 .home-refresh .guide-thumb{height:170px}
@@ -219,7 +219,7 @@
 
 
 /* Final homepage hero correction: use the real Busan photograph, not the legacy vector scene */
-.home-refresh .hero-art{background-image:linear-gradient(180deg,#102a2b08 35%,#102a2b70 100%),url("https://images.unsplash.com/photo-1609137929473-680b60780d64?auto=format&fit=crop&w=1800&q=85");background-size:cover;background-position:center 52%;border-radius:18px;box-shadow:0 24px 60px #102a2b24}
+.home-refresh .hero-art{background-image:linear-gradient(180deg,#102a2b08 35%,#102a2b70 100%),url("/assets/illustrations/busan-coastline.svg");background-size:cover;background-position:center 52%;border-radius:18px;box-shadow:0 24px 60px #102a2b24}
 .home-refresh .hero-art:after{background:linear-gradient(180deg,#ffffff00 35%,#102a2b35 100%)}
 .home-refresh .hero-art .sun,.home-refresh .hero-art .sea,.home-refresh .hero-art .hill,.home-refresh .hero-art .building,.home-refresh .hero-art .bridge{display:none}
 .home-refresh .hero-art .art-label{left:24px;bottom:22px;font-size:10px;letter-spacing:.17em;text-shadow:0 2px 12px #102a2b80}
@@ -307,12 +307,12 @@
 .home-refresh .trend-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px #0f172a16}
 .home-refresh .trend-image{height:138px;position:relative;overflow:hidden;background-size:cover;background-position:center}
 .home-refresh .trend-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0f172a18,transparent 45%,#0f172a20)}
-.home-refresh .trend-food{background-image:url("https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=82")}
-.home-refresh .trend-market{background-image:url("https://images.unsplash.com/photo-1559737558-2f5a35f4523b?auto=format&fit=crop&w=900&q=82")}
-.home-refresh .trend-airport{background-image:url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=82")}
-.home-refresh .trend-stay{background-image:url("https://images.unsplash.com/photo-1609137929473-680b60780d64?auto=format&fit=crop&w=900&q=82")}
-.home-refresh .trend-itinerary{background-image:url("https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=900&q=82")}
-.home-refresh .trend-luggage{background-image:url("https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=82")}
+.home-refresh .trend-food{background-image:url("/assets/illustrations/busan-coastline.svg")}
+.home-refresh .trend-market{background-image:url("/assets/illustrations/busan-coastline.svg")}
+.home-refresh .trend-airport{background-image:url("/assets/illustrations/busan-coastline.svg")}
+.home-refresh .trend-stay{background-image:url("/assets/illustrations/busan-coastline.svg")}
+.home-refresh .trend-itinerary{background-image:url("/assets/illustrations/busan-coastline.svg")}
+.home-refresh .trend-luggage{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .trend-tag{position:absolute;top:10px;left:10px;z-index:1;padding:5px 8px;border-radius:99px;background:#fff;color:#174fa7;font-size:8px;font-weight:850;letter-spacing:.04em}
 .home-refresh .trend-copy{position:relative;flex:1;padding:11px 13px 17px}
 .home-refresh .trend-category{font-size:10px;color:#1684e8;font-weight:750;margin:0 0 2px}
@@ -440,9 +440,9 @@
 .home-refresh .trend-songdo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1000")}
 .home-refresh .trend-jagalchi{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Inside_Jagalchi_Fish_Market%2C_Busan.jpg/960px-Inside_Jagalchi_Fish_Market%2C_Busan.jpg")}
 .home-refresh .trend-songjeong{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Songjeong_Beach.jpg?width=1000")}
-.home-refresh .trend-hotel{background-image:url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80")}
+.home-refresh .trend-hotel{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .trend-itinerary{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gamcheon_Culture_Village_in_Busan%2C_South_Korea.jpg?width=1000")}
-.home-refresh .trend-rainy{background-image:url("https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=900&q=80")}.trend-winter{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/A_snow_day_in_Busan_-_panoramio.jpg?width=1600")}.trend-spa{background:linear-gradient(135deg,#d7e7e2 0%,#f4e8d3 52%,#b8d0ca 100%)}.spa-photo{margin:1.5rem auto 2rem;max-width:1100px}.spa-photo img{display:block;width:100%;height:auto;border-radius:12px}.spa-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}.winter-photo{margin:1.5rem 0 2rem}.winter-photo img{display:block;width:100%;height:auto;border-radius:12px}.winter-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}
+.home-refresh .trend-rainy{background-image:url("/assets/illustrations/busan-coastline.svg")}.trend-winter{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/A_snow_day_in_Busan_-_panoramio.jpg?width=1600")}.trend-spa{background:linear-gradient(135deg,#d7e7e2 0%,#f4e8d3 52%,#b8d0ca 100%)}.spa-photo{margin:1.5rem auto 2rem;max-width:1100px}.spa-photo img{display:block;width:100%;height:auto;border-radius:12px}.spa-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}.winter-photo{margin:1.5rem 0 2rem}.winter-photo img{display:block;width:100%;height:auto;border-radius:12px}.winter-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}
 .home-refresh .trend-credit{position:absolute;z-index:2;left:8px;right:8px;bottom:6px;font-size:7px;line-height:1.25;color:#fff;text-shadow:0 1px 5px #0f172a;opacity:.92}
 .home-refresh .trend-image .trend-tag{z-index:3}
 .editorial-badge{display:inline-flex;align-items:center;gap:6px;margin:0 0 10px;padding:5px 10px;border-radius:999px;background:#fff7d6;border:1px solid #f5d76e;color:#7a4a00;font-size:10px;line-height:1.4;font-weight:850;letter-spacing:.06em;text-transform:uppercase}
@@ -450,15 +450,15 @@
 @media(max-width:560px){.home-refresh .home-image-credit{font-size:8px}.home-refresh .trend-credit{font-size:6px}}
 
 /* Prevent legacy LCT imagery from being reused for unrelated cards. */
-.home-refresh .trend-stay{background-image:url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80")}
+.home-refresh .trend-stay{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .trend-busan{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Yeongdo-gu.jpg?width=1000")}
-.home-refresh .thumb-stay{background-image:url("https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80")}
+.home-refresh .thumb-stay{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .thumb-pass{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1000")}
 
 
 /* Topic-matched card imagery for localized homepages and specialty guides.
    Keep each card image aligned with the guide topic; do not reuse the pork-soup image as a generic fallback. */
-.trend-local-food{background-image:url("https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=82")}
+.trend-local-food{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .trend-three-days{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gamcheon_Culture_Village_in_Busan%2C_South_Korea.jpg?width=1000")}
 .trend-transit{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg?width=1000")}
 .trend-ktx{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/KTX_in_Seoul.jpg?width=1200");background-position:center 48%}
@@ -605,7 +605,7 @@
 
 
 /* Homepage editorial photography: replace repeated decorative illustrations with distinct, subject-matched imagery. */
-.trend-dialect{background-image:url("https://images.unsplash.com/photo-1598059763116-742d9b4b99a1?auto=format&fit=crop&w=900&q=80");background-position:center 48%}
+.trend-dialect{background-image:url("/assets/illustrations/busan-coastline.svg");background-position:center 48%}
 .trend-local-culture-photo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Oldder_woman_selling_vegetables_and_more_things.jpg?width=1000");background-position:center 42%}
 
 /* Mobile overflow guards (360px audit, Nov 2026) */
@@ -622,14 +622,14 @@
 
 /* Editorial card image uniqueness: each homepage food guide gets a topic-specific class and image.
    Do not use .trend-food as a generic fallback for multiple cards. */
-.home-refresh .trend-pnu-food{background-image:url("https://images.unsplash.com/photo-1498654896293-37a9628c964e?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
-.home-refresh .trend-nakgopsae{background-image:url("https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+.home-refresh .trend-pnu-food{background-image:url("/assets/illustrations/busan-coastline.svg");background-position:center 52%}
+.home-refresh .trend-nakgopsae{background-image:url("/assets/illustrations/busan-coastline.svg");background-position:center 52%}
 .home-refresh .trend-food-stories{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Jagalchi_Fish_Market%2C_Busan.jpg?width=1000");background-position:center 52%}
 .home-refresh .trend-milmyeon{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Milmyeon_20200522_001.jpg?width=1000");background-position:center 52%}
 .home-refresh .trend-eomuk{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Korean_fish_cake_eomuk.jpg?width=1000");background-position:center 52%}
-.home-refresh .trend-makgeolli{background-image:url("https://images.unsplash.com/photo-1513558161293-cdab0b502e7d?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
-.home-refresh .trend-mountain-food{background-image:url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
-.home-refresh .trend-temple-food{background-image:url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+.home-refresh .trend-makgeolli{background-image:url("/assets/illustrations/busan-coastline.svg");background-position:center 52%}
+.home-refresh .trend-mountain-food{background-image:url("/assets/illustrations/busan-coastline.svg");background-position:center 52%}
+.home-refresh .trend-temple-food{background-image:url("/assets/illustrations/busan-coastline.svg");background-position:center 52%}
 
 
 /* Go2Busan image quality pass: remove generic stock photography from editorial cards.
