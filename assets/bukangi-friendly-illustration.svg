@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Bukangi, a friendly Busan shark mascot</title>
+<desc id="desc">A friendly rounded blue shark mascot swimming above blue waves with Gwangan Bridge and a simplified Busan waterfront in the background. Original illustration, not a real shark photograph.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#dff3ff"/><stop offset="1" stop-color="#f7fbff"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#70d4f2"/><stop offset="1" stop-color="#1679c8"/></linearGradient>
+ <linearGradient id="body" x2=".2" y2="1"><stop stop-color="#46b9f4"/><stop offset="1" stop-color="#1471bd"/></linearGradient>
+ <linearGradient id="belly" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dceef8"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#16466b" flood-opacity=".18"/></filter>
+</defs>
+<rect width="1200" height="675" rx="34" fill="url(#sky)"/>
+<circle cx="1010" cy="105" r="44" fill="#ffe6a0"/>
+<g fill="#ffffff" opacity=".82"><ellipse cx="170" cy="112" rx="72" ry="22"/><ellipse cx="210" cy="98" rx="42" ry="28"/><ellipse cx="254" cy="113" rx="55" ry="19"/></g>
+<path d="M0 345 95 315 175 337 275 288 370 330 465 285 570 333 680 300 775 334 870 286 970 324 1070 294 1200 330V455H0Z" fill="#9fc9d9" opacity=".55"/>
+<g fill="#7da9bd" opacity=".72"><rect x="90" y="260" width="55" height="155" rx="5"/><rect x="155" y="220" width="78" height="195" rx="5"/><rect x="244" y="285" width="53" height="130" rx="5"/><rect x="315" y="240" width="65" height="175" rx="5"/><rect x="390" y="275" width="90" height="140" rx="5"/><rect x="490" y="230" width="58" height="185" rx="5"/></g>
+<g stroke="#ffffff" stroke-width="4" opacity=".6"><path d="M166 247h55m-55 23h55m-55 23h55m-55 23h55M327 265h42m-42 24h42m-42 24h42"/></g>
+<path d="M0 430q90-25 180 0t180 0 180 0 180 0 180 0 180 0 120 0v245H0Z" fill="url(#sea)"/>
+<g fill="none" stroke="#d9f7ff" stroke-width="5" stroke-linecap="round" opacity=".8"><path d="M0 500q55-18 110 0t110 0 110 0 110 0 110 0 110 0 110 0 110 0 110 0 110 0 110 0"/><path d="M0 585q50-16 100 0t100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0 100 0"/></g>
+<!-- Gwangan Bridge silhouette -->
+<path d="M0 435H1200" stroke="#eefaff" stroke-width="8" opacity=".95"/>
+<path d="M115 435Q600 270 1085 435" fill="none" stroke="#eefaff" stroke-width="8"/>
+<path d="M115 435Q600 300 1085 435" fill="none" stroke="#f8fcff" stroke-width="3" opacity=".8"/>
+<g stroke="#f4fbff" stroke-width="5"><path d="M255 435V387M365 435V359M475 435V337M585 435V329M695 435V337M805 435V359M915 435V387"/></g>
+<g filter="url(#shadow)" transform="translate(120 26)">
+<!-- tail -->
+<path d="M730 324 838 250 820 348 868 413 755 392Z" fill="#1471bd" stroke="#10558e" stroke-width="7" stroke-linejoin="round"/>
+<!-- back fin -->
+<path d="M375 245 434 128 505 257Z" fill="#1780c8" stroke="#10558e" stroke-width="7" stroke-linejoin="round"/>
+<!-- body -->
+<path d="M212 354C218 272 302 220 416 219c122-2 229 40 292 119 40 51 45 107 11 154-43 60-140 87-266 84-137-3-233-57-241-142-2-27-1-54 0-80Z" fill="url(#body)" stroke="#10558e" stroke-width="8" stroke-linejoin="round"/>
+<!-- side fin -->
+<path d="M274 391c-58 3-93 41-100 90 48 11 93-2 130-39" fill="#258ed0" stroke="#10558e" stroke-width="7" stroke-linejoin="round"/>
+<!-- belly -->
+<path d="M244 377c58 20 115 28 185 28 96 0 178-21 251-58 34 47 39 91 9 128-41 51-130 76-232 72-113-4-190-44-211-102-8-21-9-44-2-68Z" fill="url(#belly)" stroke="#d0e8f5" stroke-width="4"/>
+<!-- face -->
+<ellipse cx="365" cy="333" rx="22" ry="28" fill="#ffffff"/><ellipse cx="367" cy="339" rx="10" ry="15" fill="#18354c"/>
+<ellipse cx="493" cy="330" rx="22" ry="28" fill="#ffffff"/><ellipse cx="495" cy="336" rx="10" ry="15" fill="#18354c"/>
+<circle cx="370" cy="334" r="4" fill="#ffffff"/><circle cx="498" cy="331" r="4" fill="#ffffff"/>
+<ellipse cx="319" cy="384" rx="24" ry="14" fill="#ff9eab" opacity=".72"/><ellipse cx="538" cy="382" rx="24" ry="14" fill="#ff9eab" opacity=".72"/>
+<!-- smile and gills -->
+<path d="M393 385q34 36 69 0" fill="none" stroke="#173c56" stroke-width="7" stroke-linecap="round"/>
+<path d="M580 404q-8 18-5 34m21-39q-8 18-5 34m21-39q-8 18-5 34" fill="none" stroke="#d0efff" stroke-width="5" stroke-linecap="round"/>
+<!-- little water-drop badge -->
+<path d="M434 250c-12 17-17 25-17 34a17 17 0 0 0 34 0c0-9-5-17-17-34Z" fill="#f8fcff" opacity=".95"/>
+</g>
+<g fill="#ffffff" opacity=".9"><path d="M150 530q35-28 70 0-35-8-70 0Z"/><path d="M960 550q38-30 76 0-38-8-76 0Z"/><path d="M830 605q26-20 52 0-26-6-52 0Z"/></g>
+</svg>
