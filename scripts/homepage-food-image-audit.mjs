@@ -26,7 +26,7 @@ for (const path of foodGuidePaths) {
   const classes = match[1].split(/\s+/).filter(name => name.startsWith("trend-"));
   const imageUrls = [];
   for (const className of classes) {
-    const selector = new RegExp("\\." + className + "\\s*\\{[^}]*background-image\\s*:\\s*url\\([\\"']?([^\\"')]+)", "gs");
+    const selector = new RegExp(String.raw`\.${className}\s*\{[^}]*background-image\s*:\s*url\(["']?([^"')]+)`, "gs");
     const cssMatches = [...css.matchAll(selector)];
     if (cssMatches.length) imageUrls.push(cssMatches[cssMatches.length - 1][1]);
   }
