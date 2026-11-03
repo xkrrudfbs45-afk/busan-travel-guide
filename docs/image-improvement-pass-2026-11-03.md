@@ -31,3 +31,10 @@ This is an ongoing audit, not a claim that every image on all 124 HTML pages has
 ## Verification note
 
 The branch now intentionally contains both local illustrations and selected remote photographs. The presence of an Unsplash or Wikimedia URL is not considered a failure by itself. Each image must be judged against its specific content and attribution.
+
+
+## Follow-up article-cover pass (2026-11-04)
+- Added a dedicated, topic-matched article cover to the English, Japanese, and Traditional Chinese versions of seven food/history guides: dwaeji-gukbap, eomuk, Busan food stories, milmyeon, Geumjeongsanseong makgeolli, Geumjeongsanseong village food, and Pusan National University neighborhood food.
+- Each new cover uses the relevant original Go2Busan illustration, descriptive localized alt text, intrinsic dimensions, lazy loading, and a visible caption identifying it as an illustration rather than a real restaurant/product photograph.
+- Added matching `og:image`, `og:image:alt`, and `twitter:image` metadata for these 21 localized article pages so social shares point to the same topic-specific artwork.
+- Remaining known limitation: these social images are SVG. Some social platforms do not reliably render SVG previews, and the existing audit will flag them for a future raster-export pass. Do not replace them with unrelated generic photography just to silence that warning; export topic-matched PNG/WebP versions or use a verified, properly licensed real photograph with accurate attribution.
