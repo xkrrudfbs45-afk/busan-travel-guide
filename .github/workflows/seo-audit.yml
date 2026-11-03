@@ -30,6 +30,7 @@ jobs:
         run: sh scripts/build-static.sh
       - name: Run dependency-free audit
         run: |
+          node scripts/public-quality-audit.mjs public
           node scripts/seo-audit.mjs
           node scripts/sitemap-hreflang-audit.mjs
           node scripts/outbound-link-image-audit.mjs
