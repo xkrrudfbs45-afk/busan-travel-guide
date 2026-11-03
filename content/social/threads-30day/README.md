@@ -9,6 +9,9 @@ SNS automation only — separate from the website build and Render deploy.
 | Slots | 08:00 / 20:00 Asia/Tokyo | 08:00 / 18:00 America/New_York (DST-aware) |
 | Token secret | `THREADS_JP_ACCESS_TOKEN` | `THREADS_US_ACCESS_TOKEN` |
 
+Taiwan (@go2busan.tw): copy in `marketing/threads-30-day-zh-tw-calendar.md` (Traditional Chinese), slots 08:00 / 20:00 Asia/Taipei, secret `THREADS_TW_ACCESS_TOKEN`, links only to `/zh-tw/` guides. It has its own launch date:
+`node scripts/threads/build-schedule.mjs --add-market TW --start YYYY-MM-DD && node scripts/threads/link-replies.mjs`, then approve with `approve.mjs --market TW`.
+
 ## Files
 - `schedule.json` — generated, reviewed in a PR. One record per post with UTC publish time, verification and approval. Created only when the launch date is agreed:
   `node scripts/threads/build-schedule.mjs --start YYYY-MM-DD`
