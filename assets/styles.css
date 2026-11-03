@@ -745,3 +745,6 @@
 /* Retain the accurate Busanhang Bridge photograph for the main Busan overview.
    The image is topic-matched and credited on all localized homepages. */
 .home-refresh .home-hero-backdrop{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1800");}
+
+/* Keep the broad neighborhood-food overview distinct from the multi-dish history card. */
+.home-refresh .trend-local-food{background-image:url("/assets/illustrations/busan-food-guide.svg");background-size:cover;background-position:center}
