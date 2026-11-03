@@ -15,6 +15,10 @@
   let trackingHandlersRegistered = false;
 
   const language = (document.documentElement.lang || 'en').toLowerCase();
+  const isJapanese = language.startsWith('ja');
+  const isTraditionalChinese = language.includes('zh-tw') || language.includes('zh-hant');
+  const privacyPath = isJapanese ? '/ja/privacy.html' : (isTraditionalChinese ? '/zh-tw/privacy.html' : '/privacy.html');
+  const disclosurePath = isJapanese ? '/ja/disclosure.html' : (isTraditionalChinese ? '/zh-tw/disclosure.html' : '/disclosure.html');
   const copy = language.startsWith('ja')
     ? {
         title: 'プライバシー設定',
@@ -211,7 +215,7 @@
     const body = document.createElement('p');
     body.textContent = copy.body;
     const privacy = document.createElement('a');
-    privacy.href = '/privacy.html';
+    privacy.href = privacyPath;
     privacy.textContent = copy.privacy;
     copyWrap.append(title, body, privacy);
 
@@ -247,9 +251,9 @@
     if (!footer) return;
     let links = footer.querySelector('.footer-links');
 
-    if (!footer.querySelector('a[href="/disclosure.html"]')) {
+    if (!footer.querySelector('a[href="' + disclosurePath + '"]')) {
       const disclosure = document.createElement('a');
-      disclosure.href = '/disclosure.html';
+      disclosure.href = disclosurePath;
       disclosure.textContent = copy.disclosure;
       if (links) {
         links.appendChild(disclosure);
