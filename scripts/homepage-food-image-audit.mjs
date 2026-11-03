@@ -23,12 +23,12 @@ for (const path of foodGuidePaths) {
   const escaped = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const match = home.match(new RegExp('<a\\b(?=[^>]*href="' + escaped + '")[^>]*>[\\s\\S]*?<div class="trend-image ([^"]+)"'));
   if (!match) throw new Error("Homepage food guide card missing or has no image class: " + path);
-  const classes = match[1].split(/\\s+/).filter(name => name.startsWith("trend-"));
+  const classes = match[1].split(/\s+/).filter(name => name.startsWith("trend-"));
   const imageUrls = [];
   for (const className of classes) {
-    const selector = new RegExp("(?:\\.home-refresh )?\\." + className + "\\s*\\{[^}]*background-image\\s*:\\s*url\\([\\"']?([^\\"')]+)", "s");
-    const cssMatch = css.match(selector);
-    if (cssMatch) imageUrls.push(cssMatch[1]);
+    const selector = new RegExp("\\." + className + "\\s*\\{[^}]*background-image\\s*:\\s*url\\([\\"']?([^\\"')]+)", "gs");
+    const cssMatches = [...css.matchAll(selector)];
+    if (cssMatches.length) imageUrls.push(cssMatches[cssMatches.length - 1][1]);
   }
   if (imageUrls.length === 0) throw new Error("No CSS background image found for " + path + " (" + classes.join(", ") + ")");
   const uniqueUrls = [...new Set(imageUrls)];
