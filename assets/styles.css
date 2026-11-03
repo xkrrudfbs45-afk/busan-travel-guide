@@ -709,3 +709,14 @@
 .home-refresh .trend-local-food{background-image:url("/assets/illustrations/busan-local-food-overview.svg");background-size:cover;background-position:center}
 .home-refresh .trend-mountain-food{background-image:url("/assets/illustrations/busan-mountain-food-guide.svg");background-size:cover;background-position:center}
 .home-refresh .trend-ktx,.home-refresh .thumb-ktx{background-image:url("/assets/illustrations/ktx-guide.svg");background-size:cover;background-position:center}
+
+/* Localized food cards must not all inherit the same generic soup image. */
+.home-refresh .trend-pnu-food{background-image:url("/assets/illustrations/busan-campus-food.svg");background-size:cover;background-position:center}
+.home-refresh .trend-nakgopsae{background-image:url("/assets/illustrations/nakgopsae-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-food-stories{background-image:url("/assets/illustrations/busan-local-food-overview.svg");background-size:cover;background-position:center}
+.home-refresh .trend-milmyeon{background-image:url("/assets/illustrations/busan-milmyeon-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-eomuk{background-image:url("/assets/illustrations/busan-eomuk-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-makgeolli{background-image:url("/assets/illustrations/busan-makgeolli-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-mountain-food{background-image:url("/assets/illustrations/busan-mountain-food-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-temple-food{background-image:url("/assets/illustrations/busan-temple-food-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-pork-soup{background-image:url("/assets/illustrations/busan-dwaeji-gukbap-guide.svg");background-size:cover;background-position:center}
