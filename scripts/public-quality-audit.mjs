@@ -11,7 +11,11 @@ for (const file of pages) {
   const rel = relative(PUB, file).replace(/\\/g, "/");
   const h = readFileSync(file, "utf8");
   const noindex = /<meta[^>]+name="robots"[^>]+noindex/i.test(h);
-  for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch { f.push(`${rel}: invalid JSON-LD`); } }
+  for (const m of h.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
+    let d; try { d = JSON.parse(m[1]); } catch { f.push(`${rel}: invalid JSON-LD`); continue; }
+    for (const k of ["datePublished", "dateModified"]) if (d && d[k] && !/^\d{4}-\d{2}-\d{2}/.test(d[k])) f.push(`${rel}: bad ${k} ${d[k]}`);
+    if (d && d.datePublished && d.dateModified && d.dateModified < d.datePublished) f.push(`${rel}: dateModified before datePublished`);
+  }
   if (!/name="theme-color"/.test(h)) f.push(`${rel}: missing theme-color`);
   if (!h.includes('rel="manifest"') || !h.includes("/assets/js/offline.js")) f.push(`${rel}: missing offline support (manifest/offline.js)`);
   const main = h.indexOf("<main");
