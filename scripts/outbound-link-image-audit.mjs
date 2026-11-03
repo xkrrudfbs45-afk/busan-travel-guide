@@ -140,6 +140,52 @@ const repeatedCssImages = [...cssImages.entries()].filter(([, selectors]) => sel
 for (const [url, selectors] of repeatedCssImages) {
   add("INFO", cssFile, "CSS background image reused by selectors (" + selectors.length + "): " + url + " | " + selectors.join("; "));
 }
+// Card-level topic and credit checks. These are targeted guardrails for known
+// misleading mappings; they do not replace visual review of every rendered image.
+const cssForCardAudit = fs.existsSync(cssFile)
+  ? fs.readFileSync(cssFile, "utf8").replace(/\/\*[\s\S]*?\*\//g, "")
+  : "";
+const cssRulesForCardAudit = [...cssForCardAudit.matchAll(/([^{}]+)\{([^{}]*)\}/g)].map((match) => ({
+  selectors: match[1].split(",").map((selector) => selector.trim().replace(/\s+/g, " ")),
+  body: match[2]
+}));
+function backgroundForClass(className) {
+  let resolved = "";
+  for (const rule of cssRulesForCardAudit) {
+    const matchesClass = rule.selectors.some((selector) =>
+      selector === "." + className || selector === ".home-refresh ." + className
+    );
+    if (!matchesClass) continue;
+    const image = rule.body.match(/background(?:-image)?\s*:[^;{}]*?url\((['"]?)(.*?)\1\)/i);
+    if (image) resolved = image[2].trim();
+  }
+  return resolved;
+}
+for (const file of htmlFiles) {
+  const html = fs.readFileSync(file, "utf8");
+  for (const cardMatch of html.matchAll(/<a\b[^>]*>[\s\S]*?<\/a>/gi)) {
+    const card = cardMatch[0];
+    if (!/class=["'][^"']*trend-card/i.test(card)) continue;
+    const href = attr(card.match(/<a\b[^>]*>/i)?.[0] || "", "href");
+    const imageTag = card.match(/<div\b[^>]*class=["'][^"']*trend-image[^"']*["'][^>]*>/i)?.[0] || "";
+    const classes = attr(imageTag, "class").split(/\s+/).filter((name) => name.startsWith("trend-"));
+    const credit = (card.match(/<span\b[^>]*class=["'][^"']*trend-credit[^"']*["'][^>]*>([\s\S]*?)<\/span>/i) || [])[1] || "";
+    const resolved = classes.map(backgroundForClass).filter(Boolean).at(-1) || "";
+    if (/\bPhoto\s*:/i.test(credit) && /\.svg(?:[?#]|$)/i.test(resolved)) {
+      add("WARN", file, "Homepage card credits a photograph but its CSS background is an SVG illustration: " + href + " — " + resolved);
+    }
+    if (/busan-winter-travel-guide/i.test(href) && classes.includes("trend-rainy")) {
+      add("WARN", file, "Winter guide card uses the rainy-day image class: " + href);
+    }
+    if (/visit-busan-pass-guide/i.test(href) && classes.includes("trend-sky-capsule")) {
+      add("WARN", file, "Visit Busan Pass card uses a Sky Capsule image that may imply an unverified inclusion: " + href);
+    }
+    if (/pork-soup-awards/i.test(href) && classes.includes("trend-food")) {
+      add("WARN", file, "Pork-soup card uses the generic food image class; use a dedicated pork-soup mapping: " + href);
+    }
+  }
+}
+
 console.log("Go2Busan outbound-link and CSS-image audit");
 console.log("HTML pages scanned: " + htmlFiles.length);
 console.log("Klook/Agoda links found: " + partnerLinks.length + " across " + partnerPages.size + " pages");
