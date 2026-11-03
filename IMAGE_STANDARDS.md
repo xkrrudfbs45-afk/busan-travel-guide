@@ -34,3 +34,12 @@ Choose the image for the exact subject of the page, not merely a generic image t
 - Use **LOCAL PICK** only for a clearly identified local restaurant, shop, experience, or editorial recommendation with a short reason for recommending it.
 - Use **LOCAL FAVORITES** for reader/local-vote roundups and **PRACTICAL GUIDE** or **OFFICIAL INFO** for factual service pages.
 - Do not label every general information article as a Local Pick. The label is a trust signal, not decoration.
+
+
+## Mascot and product-themed artwork
+- Use the friendly blue Bukangi mascot illustration for the North Port shark story and general Busan Now identity.
+- For content specifically about the Bukangi-themed Daesun soju edition, use the dedicated bottle-themed editorial illustration rather than the generic shark-and-waterfront image.
+- Never imply an editorial illustration is a photograph of the actual shark, a real sighting, or the exact retail bottle. Keep that distinction in localized alt text and visible captions.
+- Keep article cover, Open Graph image, Twitter image, and Article structured-data image aligned to the same subject. Add `twitter:image:alt` when a social image is provided.
+- Above-the-fold article covers should include intrinsic `width` and `height`, use eager loading with high fetch priority when they are the lead visual, and use lazy loading for lower-page or secondary images.
+- SVG social previews may not render on every platform. Prefer a topic-matched raster export when available; never fall back to an unrelated image just to get a raster preview.
