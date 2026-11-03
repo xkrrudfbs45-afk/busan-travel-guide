@@ -442,7 +442,7 @@
 .home-refresh .trend-songjeong{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .trend-hotel{background-image:url("/assets/illustrations/busan-coastline.svg")}
 .home-refresh .trend-itinerary{background-image:url("/assets/illustrations/busan-coastline.svg")}
-.home-refresh .trend-rainy{background-image:url("/assets/illustrations/busan-coastline.svg")}.trend-winter{background-image:url("/assets/illustrations/busan-coastline.svg")}.trend-spa{background:linear-gradient(135deg,#d7e7e2 0%,#f4e8d3 52%,#b8d0ca 100%)}.spa-photo{margin:1.5rem auto 2rem;max-width:1100px}.spa-photo img{display:block;width:100%;height:auto;border-radius:12px}.spa-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}.winter-photo{margin:1.5rem 0 2rem}.winter-photo img{display:block;width:100%;height:auto;border-radius:12px}.winter-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}
+.home-refresh .trend-rainy{background-image:url("/assets/illustrations/busan-rainy-day.svg")}.trend-winter{background-image:url("/assets/illustrations/busan-winter-scene.svg")}.trend-spa{background:linear-gradient(135deg,#d7e7e2 0%,#f4e8d3 52%,#b8d0ca 100%)}.spa-photo{margin:1.5rem auto 2rem;max-width:1100px}.spa-photo img{display:block;width:100%;height:auto;border-radius:12px}.spa-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}.winter-photo{margin:1.5rem 0 2rem}.winter-photo img{display:block;width:100%;height:auto;border-radius:12px}.winter-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}
 .home-refresh .trend-credit{position:absolute;z-index:2;left:8px;right:8px;bottom:6px;font-size:7px;line-height:1.25;color:#fff;text-shadow:0 1px 5px #0f172a;opacity:.92}
 .home-refresh .trend-image .trend-tag{z-index:3}
 .editorial-badge{display:inline-flex;align-items:center;gap:6px;margin:0 0 10px;padding:5px 10px;border-radius:999px;background:#fff7d6;border:1px solid #f5d76e;color:#7a4a00;font-size:10px;line-height:1.4;font-weight:850;letter-spacing:.06em;text-transform:uppercase}
@@ -697,7 +697,7 @@
 .home-refresh .trend-jagalchi,
 .home-refresh .trend-food-stories{background-image:url("/assets/illustrations/jagalchi-market-guide.svg");background-size:cover;background-position:center}
 .home-refresh .trend-sky-capsule{background-image:url("/assets/illustrations/haeundae-sky-capsule-guide.svg");background-size:cover;background-position:center}
-.home-refresh .trend-winter{background-image:url("/assets/illustrations/busan-winter-guide.svg");background-size:cover;background-position:center}
+.home-refresh .trend-winter{background-image:url("/assets/illustrations/busan-winter-scene.svg");background-size:cover;background-position:center}
 .home-refresh .trend-milmyeon{background-image:url("/assets/illustrations/busan-milmyeon-guide.svg");background-size:cover;background-position:center}
 .home-refresh .trend-eomuk{background-image:url("/assets/illustrations/busan-eomuk-guide.svg");background-size:cover;background-position:center}
 .home-refresh .trend-makgeolli{background-image:url("/assets/illustrations/busan-makgeolli-guide.svg");background-size:cover;background-position:center}
