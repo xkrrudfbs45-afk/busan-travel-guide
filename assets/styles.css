@@ -720,3 +720,14 @@
 .home-refresh .trend-mountain-food{background-image:url("/assets/illustrations/busan-mountain-food-guide.svg");background-size:cover;background-position:center}
 .home-refresh .trend-temple-food{background-image:url("/assets/illustrations/busan-temple-food-guide.svg");background-size:cover;background-position:center}
 .home-refresh .trend-pork-soup{background-image:url("/assets/illustrations/busan-dwaeji-gukbap-guide.svg");background-size:cover;background-position:center}
+
+/* Topic-matched documentary photos: keep these real Busan photographs where the
+   homepage card already carries matching Wikimedia creator/license credit.
+   Remote hosts are allowed; subject accuracy and correct attribution are the rule. */
+.home-refresh .trend-food{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Dwaeji-gukbap_1.jpg?width=1000");}
+.home-refresh .trend-airport{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan-gimhae-light-rail-transit-21-Kaya-university-station-platform-20180331-173938.jpg?width=1000");}
+.home-refresh .trend-transit{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg?width=1000");}
+.home-refresh .trend-sky-capsule{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Sky_Capsule_train_at_Haeundae_Blueline_Park%2C_Busan.jpg?width=1000");}
+.home-refresh .trend-songdo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1000");}
+.home-refresh .trend-jagalchi{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Inside_Jagalchi_Fish_Market%2C_Busan.jpg/960px-Inside_Jagalchi_Fish_Market%2C_Busan.jpg");}
+.home-refresh .trend-songjeong{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Songjeong_Beach.jpg?width=1000");}
