@@ -12,6 +12,8 @@
 //  7. Dates from git: sitemap <lastmod> and Article datePublished/dateModified (fetches full history on shallow
 //     clones such as Render; skipped if history is unavailable, so dates are never guessed)
 //  8. Offline support: link manifest.webmanifest and load assets/js/offline.js (registers /sw.js)
+//  9. tabindex="0" on .table-wrap so keyboard users can scroll wide tables
+// 10. Original category illustration (assets/illustrations/*.svg) for guides with no first-screen image
 // Usage: node scripts/enhance-public.mjs [publicDir=public]
 import { readFileSync, writeFileSync, readdirSync, statSync, existsSync } from "node:fs";
 import { join, relative } from "node:path";
@@ -20,6 +22,13 @@ import { execFileSync } from "node:child_process";
 const PUB = process.argv[2] || "public";
 const SITE = "https://go2busan.com";
 const HOSTS = ["commons.wikimedia.org", "upload.wikimedia.org", "images.unsplash.com"];
+const ILLUSTRATIONS = [
+  [/fireworks|festival/, "fireworks"], [/airport|gimhae|late-arrival/, "airport"], [/jagalchi|market/, "market"],
+  [/beomeosa|geumjeongsan|temple/, "mountain"], [/rain/, "rain"], [/where-to-stay|blueline|spa-land|hotel/, "stay"],
+  [/transit|ktx|luggage|zimcarry/, "transit"],
+  [/gukbap|milmyeon|eomuk|pajeon|guksu|jaecheop|food|nakgopsae|makgeolli|porridge|breakfast|pork|kkeutjip|soju/, "food"],
+  [/ochoryang|culture|dialect|traits|history/, "heritage"],
+];
 const stats = {};
 const bump = (k, n = 1) => { stats[k] = (stats[k] || 0) + n; };
 
@@ -53,6 +62,18 @@ for (const f of files) {
   const before = h;
   const path = urlPath(f);
   const noindex = /<meta[^>]+name="robots"[^>]+noindex/i.test(h);
+  // 10. Guides with no image before the first <h2> get an original category illustration under the title.
+  if (/^\/(?:ja\/|zh-tw\/)?guides\/[^/]+\/$/.test(path) && !noindex) {
+    const m0 = h.indexOf("<main"), firstH2 = h.indexOf("<h2", m0);
+    const top = m0 === -1 ? "" : h.slice(m0, firstH2 === -1 ? undefined : firstH2);
+    const hasImage = /<img\b(?![^>]*go2busan-(?:mark|logo))/.test(top);
+    const heroEnd = h.indexOf("</section>", h.indexOf('class="article-hero', m0));
+    if (!hasImage && heroEnd !== -1 && !h.includes("guide-illustration")) {
+      const art = ILLUSTRATIONS.find(([re]) => re.test(path))?.[1] || "plan";
+      h = h.slice(0, heroEnd) + `<figure class="guide-illustration"><img src="/assets/illustrations/${art}.svg" alt="" width="1600" height="900"></figure>` + h.slice(heroEnd);
+      bump("10 illustration added");
+    }
+  }
   const mainAt = h.indexOf("<main");
 
   if (mainAt !== -1) {
@@ -75,6 +96,13 @@ for (const f of files) {
       return t;
     });
     h = h.slice(0, mainAt) + body;
+  }
+
+  // 9. Keyboard access for horizontally scrollable tables (WCAG: scrollable region must be focusable)
+  if (/<div class="table-wrap">/.test(h)) {
+    const n = (h.match(/<div class="table-wrap">/g) || []).length;
+    h = h.replace(/<div class="table-wrap">/g, '<div class="table-wrap" tabindex="0">');
+    bump("9 table-wrap focusable", n);
   }
 
   if (!/name="theme-color"/.test(h) && /<meta name="viewport"[^>]*>/.test(h)) {
@@ -111,7 +139,7 @@ for (const f of files) {
     if (!/<meta property="og:image"/.test(h)) {
       let img = null, alt = "";
       const first = mainAt !== -1 ? (h.slice(h.indexOf("<main")).match(/<img\b(?![^>]*go2busan-(?:mark|logo))[^>]*>/) || [])[0] : null;
-      if (first && attr(first, "src")) { img = absolute(attr(first, "src")); alt = attr(first, "alt") || ""; }
+      if (first && attr(first, "src") && !/\.svg(\?|$)/i.test(attr(first, "src"))) { img = absolute(attr(first, "src")); alt = attr(first, "alt") || ""; }
       if (!img) {
         const en = (h.match(/hreflang="en" href="https:\/\/go2busan\.com([^"]+)"/) || [])[1];
         if (en && ogByPath[en]) ({ og: img, alt = "" } = ogByPath[en]);
