@@ -96,6 +96,21 @@ jobs:
           echo "::error::Live site did not report $SHA within 10 minutes. Check Render > Deploys; roll back there if the site is broken."
           exit 1
 
+      - name: Wait until cached entry pages match the new build
+        if: steps.gate.outputs.deploy == 'true'
+        run: |
+          # The CDN can keep a directory URL (e.g. /ja/) from the previous deploy for up to s-maxage.
+          # Compare each directory URL with its index.html (always fresh) until they match.
+          for p in / /ja/ /zh-tw/ /guides/; do
+            for i in $(seq 1 24); do
+              a=$(curl -fsS --max-time 20 "$SITE$p" | sha1sum | cut -d' ' -f1)
+              b=$(curl -fsS --max-time 20 "$SITE${p}index.html?ts=$(date +%s)" | sha1sum | cut -d' ' -f1)
+              if [ "$a" = "$b" ]; then echo "fresh $p"; break; fi
+              [ "$i" = 24 ] && { echo "::warning::$p still served from an older cache after 6 minutes"; break; }
+              sleep 15
+            done
+          done
+
       - name: Smoke-test production
         if: steps.gate.outputs.deploy == 'true'
         run: |
