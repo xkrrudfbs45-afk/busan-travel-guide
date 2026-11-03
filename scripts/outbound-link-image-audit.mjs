@@ -26,6 +26,40 @@ const add = (level, file, message) => findings.push({ level, file: path.relative
 
 for (const file of htmlFiles) {
   const html = fs.readFileSync(file, "utf8");
+
+  // First-pass image policy checks. These checks flag candidates for human review;
+  // they do not claim that a photo's subject or license has been visually verified.
+  for (const imageMatch of html.matchAll(/<img\\b[^>]*>/gi)) {
+    const tag = imageMatch[0];
+    const src = attr(tag, "src");
+    const alt = attr(tag, "alt");
+    if (!src) {
+      add("WARN", file, "Image tag has no src attribute");
+      continue;
+    }
+    if (!alt) add("WARN", file, "Image is missing descriptive alt text: " + src);
+    let imageUrl;
+    try { imageUrl = new URL(src, "https://go2busan.com/"); } catch {
+      add("WARN", file, "Malformed image URL: " + src);
+      continue;
+    }
+    if (imageUrl.origin === "https://go2busan.com") continue;
+    const host = imageUrl.hostname.toLowerCase();
+    const isWikimedia = host === "commons.wikimedia.org" || host === "upload.wikimedia.org";
+    const startFigure = html.lastIndexOf("<figure", imageMatch.index);
+    const endFigure = html.indexOf("</figure>", imageMatch.index);
+    const figure = startFigure >= 0 && endFigure >= 0
+      ? html.slice(startFigure, endFigure + "</figure>".length)
+      : "";
+    const caption = (figure.match(/<figcaption\\b[^>]*>([\\s\\S]*?)<\\/figcaption>/i) || [])[1] || "";
+    if (isWikimedia) {
+      if (!/Wikimedia Commons/i.test(caption) || !/(CC BY|CC BY-SA|Public domain|KOGL)/i.test(caption)) {
+        add("WARN", file, "External Wikimedia image needs a visible creator/source and exact license attribution: " + src);
+      }
+    } else {
+      add("WARN", file, "External image host requires source, subject-match, and license review: " + host + " — " + src);
+    }
+  }
   const cover = html.match(/<figure\b[^>]*class\s*=\s*["'][^"']*article-cover[^"']*["'][^>]*>([\s\S]*?)<\/figure>/i);
   if (cover) {
     const coverBody = cover[1];
