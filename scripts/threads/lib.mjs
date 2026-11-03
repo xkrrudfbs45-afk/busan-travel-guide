@@ -4,6 +4,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { dirname } from "node:path";
 
 export const CALENDAR_MD = "marketing/threads-30-day-ja-en-calendar.md";
+export const CALENDAR_TW_MD = "marketing/threads-30-day-zh-tw-calendar.md";
 export const SCHEDULE_FILE = "content/social/threads-30day/schedule.json";
 export const LOG_FILE = "content/social/threads-30day/publish-log.json";
 export const CHANGELOG_FILE = "content/social/threads-30day/CHANGELOG.md";
@@ -12,6 +13,7 @@ export const CHANGELOG_FILE = "content/social/threads-30day/CHANGELOG.md";
 export const ACCOUNTS = {
   JP: { handle: "go2busan.jp", language: "ja", tz: "Asia/Tokyo", slots: ["08:00", "20:00"], tokenEnv: "THREADS_JP_ACCESS_TOKEN" },
   US: { handle: "go2busan.us", language: "en", tz: "America/New_York", slots: ["08:00", "18:00"], tokenEnv: "THREADS_US_ACCESS_TOKEN" },
+  TW: { handle: "go2busan.tw", language: "zh-TW", tz: "Asia/Taipei", slots: ["08:00", "20:00"], tokenEnv: "THREADS_TW_ACCESS_TOKEN" },
 };
 
 export const MAX_TEXT = 500;           // Threads text post limit
@@ -29,10 +31,10 @@ export function parseCalendar(md) {
     const d = line.match(/^## Day (\d+) — (.+)$/);
     if (d) { flush(); day = Number(d[1]); theme = d[2].trim(); continue; }
     if (/^## /.test(line)) { flush(); day = null; continue; }          // protocol sections end the calendar
-    const p = line.match(/^### (Japan|USA) · Post (\d) \((\d\d:\d\d) (JST|ET)\)$/);
+    const p = line.match(/^### (Japan|USA|Taiwan) · Post (\d) \((\d\d:\d\d) (JST|ET|TST)\)$/);
     if (p && day) {
       flush();
-      const market = p[1] === "Japan" ? "JP" : "US";
+      const market = { Japan: "JP", USA: "US", Taiwan: "TW" }[p[1]];
       cur = { id: `d${String(day).padStart(2, "0")}-${market.toLowerCase()}-${p[2]}`, day, theme, market,
         slot: Number(p[2]), local_time: p[3], lines: [] };
       continue;
@@ -79,7 +81,7 @@ const TIME_SENSITIVE = [
   [/\b\d{1,2}:\d{2}\b|\d{1,2}時|\d{1,2}\s?(am|pm)\b/i, "clock time / opening hours"],
   [/\d+\s?(分|minutes?|mins?|hours?|時間)\b/i, "duration / travel time"],
   [/(20\d\d年|\b20\d\d\b|\d{1,2}月\d{1,2}日|\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.? \d{1,2}\b)/i, "specific date / event"],
-  [/(the best|最高の|No\.?\s?1|secret|穴場)/i, "superlative / unverifiable claim"],
+  [/(the best|最高の|No\.?\s?1|secret|穴場|最好吃|最棒|第一名|私房|祕境|秘境)/i, "superlative / unverifiable claim"],
 ];
 
 export function checkPost(p) {
@@ -88,6 +90,7 @@ export function checkPost(p) {
   if ([...p.text].length > MAX_TEXT) issues.push(`text over ${MAX_TEXT} chars (${[...p.text].length})`);
   if (p.market === "JP" && !/[\u3040-\u30ff\u4e00-\u9fff]/.test(p.text)) issues.push("JP post is not Japanese");
   if (p.market === "US" && /[\u3040-\u30ff]/.test(p.text)) issues.push("US post contains Japanese");
+  if (p.market === "TW" && (!/[\u4e00-\u9fff]/.test(p.text) || /[\u3040-\u30ff]/.test(p.text))) issues.push("TW post is not Traditional Chinese");
   for (const [re, label] of TIME_SENSITIVE) if (re.test(p.text)) flags.push(label);
   const urls = p.text.match(URL_RE) || [];
   if (urls.length) flags.push("contains URL (checked live before publish)");

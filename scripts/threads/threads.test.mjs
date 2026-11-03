@@ -3,7 +3,8 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { CALENDAR_MD, parseCalendar, localToUtc, checkPost, redact } from "./lib.mjs";
-import { buildSchedule, validateSchedule } from "./build-schedule.mjs";
+import { buildSchedule, validateSchedule, addMarket } from "./build-schedule.mjs";
+import { CALENDAR_TW_MD } from "./lib.mjs";
 import { run } from "./publish.mjs";
 import { pathFor, guideUrl, checkLinkReply } from "./link-replies.mjs";
 
@@ -74,7 +75,7 @@ function fakeApi({ failPublish = 0, recentTexts = [], users = { jp: "go2busan.jp
 
 function approved(start = "2026-11-05") {
   const s = buildSchedule(md, start);
-  for (const p of s.posts) { p.status = "approved"; p.approval = { approved_by: "test", approved_at: "2026-11-01T00:00:00Z" }; }
+  for (const p of s.posts) { if (p.verification.status !== "evergreen") continue; p.status = "approved"; p.approval = { approved_by: "test", approved_at: "2026-11-01T00:00:00Z" }; }
   return s;
 }
 
@@ -175,4 +176,39 @@ test("a failed reply never undoes or reposts the main post; retried next run", a
   await run({ now: new Date("2026-11-04T23:20:00Z"), schedule: sch, log, env: ENV, fetchImpl: f, waitMs: 0, out: quiet });
   assert.equal(log.posts["d01-jp-1"].reply_status, "done");
   assert.equal(base.calls.filter((c) => c.includes("threads_publish")).length, 2); // 1 post + 1 reply
+});
+
+// ---- Taiwan ----
+const twMd = readFileSync(CALENDAR_TW_MD, "utf8");
+const allMd = md + "\n" + twMd;
+
+test("Taiwan calendar: 60 Traditional Chinese posts, 2 per day, all pass checks", () => {
+  const tw = parseCalendar(twMd).filter((p) => p.market === "TW");
+  assert.equal(tw.length, 60);
+  for (let d = 1; d <= 30; d++) assert.equal(tw.filter((p) => p.day === d).length, 2, `day ${d}`);
+  for (const p of tw) { const c = checkPost(p); assert.deepEqual(c.issues, [], p.id); assert.deepEqual(c.flags, [], p.id); }
+});
+
+test("adding Taiwan keeps JP/US untouched, uses its own start date and Asia/Taipei", () => {
+  const s = approved("2026-11-04"); const before = JSON.stringify(s.posts);
+  addMarket(s, allMd, "TW", "2026-11-07");
+  assert.equal(JSON.stringify(s.posts.filter((p) => p.market !== "TW")), before);
+  const p = s.posts.find((x) => x.id === "d01-tw-1");
+  assert.equal(p.local_date, "2026-11-07"); assert.equal(p.publish_at_utc, "2026-11-07T00:00:00.000Z"); assert.equal(p.status, "draft");
+  assert.deepEqual(validateSchedule(s, allMd), []);
+  assert.throws(() => addMarket(s, allMd, "TW", "2026-11-08"), /already/);
+});
+
+test("Taiwan link replies go only to /zh-tw/ pages", () => {
+  const s = addMarket(buildSchedule(md, "2026-11-04", ["JP", "US"]), allMd, "TW", "2026-11-07"); withReplies(s);
+  const tw = s.posts.filter((p) => p.market === "TW" && p.link_reply);
+  assert.ok(tw.length >= 10);
+  for (const p of tw) { assert.match(p.link_reply.url, /go2busan\.com\/zh-tw\//); assert.deepEqual(checkLinkReply(p), [], p.id); }
+});
+
+test("Taiwan drafts never publish even with a token", async () => {
+  const api = fakeApi({ users: { jp: "go2busan.jp", us: "go2busan.us", tw: "go2busan.tw" } }); const log = { posts: {} };
+  const s = addMarket(approved("2026-11-04"), allMd, "TW", "2026-11-04");
+  await run({ now: new Date("2026-11-04T00:05:00Z"), schedule: s, log, env: { ...ENV, THREADS_TW_ACCESS_TOKEN: "tw" }, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
+  assert.equal(Object.keys(log.posts).filter((k) => k.includes("-tw-")).length, 0);
 });
