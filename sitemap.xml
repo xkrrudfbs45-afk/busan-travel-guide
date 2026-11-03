@@ -360,4 +360,7 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/transit-card/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-transit-card/" />
   </url>
+  <url>
+    <loc>https://go2busan.com/guides/busan-with-kids/</loc>
+  </url>
 </urlset>
