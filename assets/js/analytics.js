@@ -146,8 +146,22 @@
       if (host === 'agoda.com' || host.endsWith('.agoda.com')) affiliatePartner = 'agoda';
       if (!affiliatePartner) return;
 
+      const affiliatePlacementContext = link.closest('.pass-conversion-cta')
+        ? 'visit_busan_pass_conversion_panel'
+        : (link.closest('.partner-cta-grid')
+          ? 'partner_cta_grid'
+          : (link.closest('.callout')
+            ? 'article_callout'
+            : (link.closest('.article-end')
+              ? 'article_end'
+              : (link.closest('.article-aside')
+                ? 'article_sidebar'
+                : (link.closest('.article-hero')
+                  ? 'article_hero'
+                  : 'inline_content')))));
       const eventParams = {
         affiliate_partner: affiliatePartner,
+        affiliate_placement_context: affiliatePlacementContext,
         link_url: link.href,
         link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100),
         page_location: window.location.href
