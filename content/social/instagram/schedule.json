@@ -13,11 +13,62 @@
         "source_page": "https://commons.wikimedia.org/wiki/File:The_Busan_International_Fireworks_Festival.jpg"
       },
       "cards": [
-        { "tag": "2026 · 21ST EDITION", "headline": ["Busan Fireworks", "Festival"], "date_line": "Saturday · November 7" },
-        { "tag": "SAVE THE DATE", "headline": ["Nov 7"], "date_line": "Gwangalli, Busan", "sub": "Full local guide: go2busan.com" }
+        {
+          "tag": "2026 · 21ST EDITION",
+          "headline": [
+            "Busan Fireworks",
+            "Festival"
+          ],
+          "date_line": "Saturday · November 7"
+        },
+        {
+          "tag": "SAVE THE DATE",
+          "headline": [
+            "Nov 7"
+          ],
+          "date_line": "Gwangalli, Busan",
+          "sub": "Full local guide: go2busan.com"
+        }
       ],
       "caption": "Busan Fireworks Festival is this Saturday, Nov 7. 🎆\n\nSwipe for the date and where to watch. Our local guide covers viewing areas (Gwangalli, Igidae, Dongbaekseom), how to get home by subway, and how to avoid surprise charges. Link in bio: go2busan.com\n\nDetails can change, so check the official festival notices on the day.\n\nPhoto: Busan Metropolitan City / Wikimedia Commons (CC BY-SA 4.0)\n\n#BusanFireworks #BusanFireworksFestival #Busan #Gwangalli #KoreaTravel #VisitKorea #BusanTravel #TravelKorea #Gwangandaegyo #Go2Busan",
-      "verification": { "status": "needs_check", "note": "Date (Nov 7, 2026) confirmed on mcst.go.kr and the site guide; festival details may change." }
+      "verification": {
+        "status": "needs_check",
+        "note": "Date (Nov 7, 2026) confirmed on mcst.go.kr and the site guide; festival details may change."
+      }
+    },
+    {
+      "id": "ig-jp-fireworks-2026",
+      "account": "JP",
+      "status": "approved",
+      "publish_at_utc": "2026-11-05T11:00:00.000Z",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/The_Busan_International_Fireworks_Festival.jpg/1280px-The_Busan_International_Fireworks_Festival.jpg",
+        "credit": "Photo: Busan Metropolitan City / Wikimedia Commons · CC BY-SA 4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:The_Busan_International_Fireworks_Festival.jpg"
+      },
+      "cards": [
+        {
+          "tag": "2026 · 第21回",
+          "headline": [
+            "釜山",
+            "花火大会"
+          ],
+          "date_line": "11月7日（土）"
+        },
+        {
+          "tag": "保存版",
+          "headline": [
+            "11/7"
+          ],
+          "date_line": "広安里（クァンアンリ）",
+          "sub": "ローカルガイド: go2busan.com"
+        }
+      ],
+      "caption": "釜山花火大会は今週土曜、11月7日。🎆\n\n見どころスポット（広安里・二妓台・東柏島）、地下鉄での帰り方、ぼったくり対策までをローカル目線でまとめました。プロフィールのリンクからどうぞ: go2busan.com\n\n内容は変更される場合があります。当日の公式案内もご確認ください。\n\nPhoto: Busan Metropolitan City / Wikimedia Commons (CC BY-SA 4.0)\n\n#釜山花火大会 #釜山 #広安里 #韓国旅行 #釜山旅行 #韓国観光 #広安大橋 #海外旅行 #Busan #Go2Busan",
+      "verification": {
+        "status": "needs_check",
+        "note": "Date (Nov 7, 2026) confirmed on mcst.go.kr and the site guide; festival details may change."
+      }
     }
   ]
 }
