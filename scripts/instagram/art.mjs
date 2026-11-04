@@ -5,13 +5,20 @@ import { SCHEDULE_FILE, checkPost, redact } from "./lib.mjs";
 
 export const STYLE = "Flat editorial travel illustration, warm and modern, no text, no letters, no logos, no real people, no real landmarks, subject centered with space around it so it survives a wide crop. ";
 
-export async function generateArt(prompt, { key, fetchImpl = fetch }) {
-  const r = await fetchImpl("https://api.openai.com/v1/images/generations", {
-    method: "POST", headers: { authorization: `Bearer ${key}`, "content-type": "application/json" },
-    body: JSON.stringify({ model: "gpt-image-1", prompt: STYLE + prompt, size: "1024x1536", n: 1 }) });
-  const j = await r.json().catch(() => ({}));
-  if (!r.ok || !j.data?.[0]?.b64_json) throw new Error(redact(`OpenAI image ${r.status}: ${j.error?.message || "no image returned"}`));
-  return Buffer.from(j.data[0].b64_json, "base64");
+export const MODELS = ["gpt-image-2", "gpt-image-1.5", "gpt-image-1"];
+
+export async function generateArt(prompt, { key, fetchImpl = fetch, models = process.env.OPENAI_IMAGE_MODEL ? [process.env.OPENAI_IMAGE_MODEL, ...MODELS] : MODELS }) {
+  let last = "no model tried";
+  for (const model of models) {
+    const r = await fetchImpl("https://api.openai.com/v1/images/generations", {
+      method: "POST", headers: { authorization: `Bearer ${key}`, "content-type": "application/json" },
+      body: JSON.stringify({ model, prompt: STYLE + prompt, size: "1024x1536", n: 1 }) });
+    const j = await r.json().catch(() => ({}));
+    if (r.ok && j.data?.[0]?.b64_json) return Buffer.from(j.data[0].b64_json, "base64");
+    last = redact(`OpenAI image ${r.status} (${model}): ${j.error?.message || "no image returned"}`);
+    if (r.status !== 400 && r.status !== 403 && r.status !== 404) break;
+  }
+  throw new Error(last);
 }
 
 export function artTodo(schedule, artDir) {
