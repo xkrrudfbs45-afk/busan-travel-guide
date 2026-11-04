@@ -12,10 +12,18 @@ const post = { ...scheduledPost, verification: { ...scheduledPost.verification, 
 const verifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === post.id ? post : p) };
 const after = new Date(new Date(post.publish_at_utc).getTime() + 60000);
 
-test("unverified approved post is blocked from rendering and publishing", () => {
+test("unverified approved post is blocked from rendering and publishing", async () => {
   assert.ok(checkPost(scheduledPost).some((i) => /verification.status=verified/.test(i)));
   assert.equal(dueForRender(schedule, { posts: {} }, after).some((p) => p.id === scheduledPost.id), false);
   assert.equal(checkPost(post).length, 0);
+  const s = await run({
+    now: after, schedule, log: { posts: {} },
+    env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" },
+    baseUrl: "https://x",
+    mkClient: () => { throw new Error("unverified post must not call Instagram API"); }
+  });
+  assert.equal(s.published.length, 0);
+  assert.ok(s.failed.some((i) => /verification.status=verified/.test(i)));
 });
 test("missing photo credit is rejected", () => assert.ok(checkPost({ ...post, photo: { url: "x", credit: "" } }).length));
 test("card html always carries the credit line", () => assert.ok(cardHtml(post.cards[0], "data:,", post.photo.credit).includes("CC BY-SA 4.0")));
