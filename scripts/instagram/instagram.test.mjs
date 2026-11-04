@@ -14,7 +14,7 @@ const after = new Date(new Date(post.publish_at_utc).getTime() + 60000);
 
 test("unverified approved post is blocked from rendering and publishing", () => {
   assert.ok(checkPost(scheduledPost).some((i) => /verification.status=verified/.test(i)));
-  assert.equal(dueForRender(verifiedSchedule, { posts: {} }, after).some((p) => p.id === scheduledPost.id), false);
+  assert.equal(dueForRender(schedule, { posts: {} }, after).some((p) => p.id === scheduledPost.id), false);
   assert.equal(checkPost(post).length, 0);
 });
 test("missing photo credit is rejected", () => assert.ok(checkPost({ ...post, photo: { url: "x", credit: "" } }).length));
