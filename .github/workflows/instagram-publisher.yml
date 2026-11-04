@@ -34,6 +34,15 @@ jobs:
       - name: Tests (block publishing on failure)
         run: node --test scripts/instagram/instagram.test.mjs
 
+      - name: Check Instagram tokens (read-only, manual runs only)
+        if: github.event_name == 'workflow_dispatch'
+        continue-on-error: true
+        env:
+          INSTAGRAM_US_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_US_ACCESS_TOKEN }}
+          INSTAGRAM_JP_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_JP_ACCESS_TOKEN }}
+          INSTAGRAM_TW_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_TW_ACCESS_TOKEN }}
+        run: node scripts/instagram/token-check.mjs
+
       - name: Check out state branch
         run: |
           if git ls-remote --exit-code --heads origin instagram-state >/dev/null; then
