@@ -73,14 +73,49 @@ for (const [key, files] of usage) {
   else if (e.status === "needs_review") warns.push(`needs_review: ${key} (${files.size} files: ${where}) - ${e.note || ""}`);
 }
 
-// Pages that show a credit-required photo should name the author somewhere in the HTML.
-for (const [key, files] of usage) {
-  const e = byKey.get(key);
-  if (!e || !e.attribution_required || !e.author) continue;
-  for (const f of files) {
-    if (!f.endsWith(".html")) continue;
-    const html = fs.readFileSync(path.join(root, f), "utf8");
-    if (!html.includes(e.author.split(" (")[0])) warns.push(`credit missing: ${f} shows ${key} but never names "${e.author}"`);
+// 1) Article pages: a photo that is actually displayed (<img src>) must name its author and license.
+//    Photos used only in og:image / JSON-LD metadata are not displayed on the page and are not checked here.
+const shortLic = (e) => e.license.replace(/ 1\.0$/, "");
+for (const file of walk(root).filter((f) => f.endsWith(".html"))) {
+  const html = fs.readFileSync(file, "utf8");
+  const rel = path.relative(root, file).split(path.sep).join("/");
+  for (const fig of html.matchAll(/<figure\b[^>]*>([\s\S]*?)<\/figure>/gi)) {
+    const img = fig[1].match(/<img\b[^>]*\bsrc="([^"]+)"/i);
+    if (!img) continue;
+    const key = PATTERNS.map(([re, mk]) => { re.lastIndex = 0; const m = re.exec(img[1]); return m ? mk(m[1]) : null; }).find(Boolean);
+    const e = key && byKey.get(key);
+    if (!e || e.source !== "wikimedia") continue;
+    const cap = ((fig[1].match(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/i) || [])[1] || "").replace(/<[^>]+>/g, "");
+    if (e.attribution_required && (!cap.includes(e.author.split(" (")[0]) || !cap.includes(shortLic(e))))
+      errors.push(`${rel}: caption for ${key} must name "${e.author}" and "${shortLic(e)}"`);
+    if (!e.attribution_required && /CC BY/.test(cap)) errors.push(`${rel}: caption claims a CC BY license but ${key} is ${e.license}`);
+  }
+}
+
+// 2) Homepage cards (CSS background images): each card must carry the right credit for its effective image.
+const css = fs.readFileSync(path.join(root, "assets/styles.css"), "utf8");
+const effective = new Map(); // card class -> registry key (the last matching rule wins, as in the browser)
+for (const rule of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
+  const u = rule[2].match(/url\(["']?([^"')]+)/);
+  if (!u || !/background/.test(rule[2])) continue;
+  const key = PATTERNS.map(([re, mk]) => { re.lastIndex = 0; const m = re.exec(u[1]); return m ? mk(m[1]) : null; }).find(Boolean);
+  if (!key) continue;
+  for (const sel of rule[1].split(",")) {
+    const c = (sel.trim().split(/\s+/).pop() || "").match(/^\.((?:trend|thumb)-[a-z0-9-]+)$/);
+    if (c) effective.set(c[1], key);
+  }
+}
+for (const home of ["index.html", "ja/index.html", "zh-tw/index.html"]) {
+  const html = fs.readFileSync(path.join(root, home), "utf8");
+  for (const card of html.matchAll(/<div class="trend-image ([^"]*)">([\s\S]*?)<\/div>/g)) {
+    const cls = card[1].split(/\s+/).filter((c) => effective.has(c)).pop();
+    if (!cls) continue;
+    const e = byKey.get(effective.get(cls));
+    const credit = (card[2].match(/<span class="trend-credit">([^<]*)<\/span>/) || [])[1];
+    if (!e) continue;
+    if (e.source !== "wikimedia") { if (credit) errors.push(`${home}: card ${cls} shows a credit ("${credit}") but its photo is not a Wikimedia photo`); continue; }
+    if (e.attribution_required && !(credit && credit.includes(e.author.split(" (")[0]) && credit.includes(shortLic(e))))
+      errors.push(`${home}: card ${cls} needs credit "${e.author} / ${shortLic(e)}" (has: ${credit || "none"})`);
   }
 }
 
