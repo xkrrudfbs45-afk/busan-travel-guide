@@ -4,4 +4,4 @@ services:
     runtime: static
     buildCommand: "sh scripts/build-static.sh"
     staticPublishPath: public
-    autoDeploy: true
+    autoDeploy: false
