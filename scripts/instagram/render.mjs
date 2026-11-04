@@ -9,9 +9,9 @@ export function cardHtml(card, photoDataUri, credit) {
   const lines = (card.headline || []).map((l) => `<div>${esc(l)}</div>`).join("");
   const size = (card.headline || []).some((l) => l.length > 12) ? 92 : 150;
   return `<!doctype html><meta charset="utf-8"><style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Noto+Sans+JP:wght@500;700;800&display=swap');
 *{margin:0;box-sizing:border-box}
-body{width:1080px;height:1350px;position:relative;overflow:hidden;background:#070d24;font-family:Inter,'Helvetica Neue',Arial,sans-serif;color:#fff}
+body{width:1080px;height:1350px;position:relative;overflow:hidden;background:#070d24;font-family:Inter,'Noto Sans JP','Helvetica Neue',Arial,sans-serif;color:#fff}
 .photo{position:absolute;left:0;top:0;width:1080px;height:760px;background:url(${photoDataUri}) center/cover}
 .fade{position:absolute;left:0;top:0;width:1080px;height:760px;background:linear-gradient(180deg,rgba(7,13,36,.15) 0%,rgba(7,13,36,0) 40%,rgba(7,13,36,.85) 88%,#070d24 100%)}
 .bg{position:absolute;left:0;top:700px;width:1080px;height:650px;background:linear-gradient(180deg,#070d24,#12214f)}
