@@ -92,12 +92,16 @@ for (const file of htmlFiles) {
     add("WARN", file, `Meta description length is ${description.length} (expected ${descMin}–${descMax}${cjk ? " for CJK" : ""}); review clarity and truncation`);
   }
 
+  const robots = metaContent(html, "name", "robots").toLowerCase();
+  const noindex = /\bnoindex\b/.test(robots);
   const canonicalTag = html.match(/<link\b(?=[^>]*\brel\s*=\s*["']canonical["'])[^>]*>/i);
   const canonical = canonicalTag ? attr(canonicalTag[0], "href") : "";
-  if (!canonical) {
+  // Noindex utility pages (for example, the offline fallback) should not need a
+  // canonical URL: they are intentionally excluded from search indexing.
+  if (!canonical && !noindex) {
     missingCanonical++;
     add("ERROR", file, "Missing canonical URL");
-  } else {
+  } else if (canonical) {
     if (!canonical.startsWith("https://go2busan.com/")) add("WARN", file, "Canonical is not an absolute Go2Busan URL");
     if (canonicals.has(canonical)) add("WARN", file, `Duplicate canonical also used by ${canonicals.get(canonical)}`);
     else canonicals.set(canonical, page);
@@ -113,7 +117,8 @@ for (const file of htmlFiles) {
   for (const [name, url] of [["og:image", ogImage], ["twitter:image", twitterImage]]) {
     if (url && /\.svg(\?|#|$)/i.test(url)) add("WARN", file, `${name} is an SVG; social platforms need PNG/JPEG/WebP: ${url}`);
   }
-  if (!ogImage || !twitterImage) {
+  if ((!ogImage || !twitterImage) && !noindex) {
+    // Non-indexable utility pages are not intended as shareable landing pages.
     missingSocialImage++;
     add("WARN", file, "Missing og:image or twitter:image");
   }
