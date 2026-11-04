@@ -140,7 +140,7 @@
     event.preventDefault();
     const query = normalize(input.value);
     if (!query) return;
-    const terms = query.split(/\\s+/).filter(Boolean);
+    const terms = query.split(/\s+/).filter(Boolean);
     const allItems = await getIndex();
     const localePrefix = isJapanese ? '/ja/' : '/zh-tw/';
     const localizedItems = allItems.filter((item) => (item.url || '').startsWith(localePrefix));
