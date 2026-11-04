@@ -47,10 +47,16 @@ for (const f of files) {
   if (og) ogByPath[urlPath(f)] = { og, alt };
 }
 const siteDefault = ogByPath["/"];
+// Version local CSS and JavaScript URLs on every build so browsers cannot keep stale assets after deploy.
+const ASSET_VERSION = (process.env.RENDER_GIT_COMMIT || (() => {
+  try { return execFileSync("git", ["rev-parse", "--short=12", "HEAD"], { encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] }).trim(); }
+  catch { return "dev"; }
+})()).slice(0, 12);
 
 for (const f of files) {
   let h = readFileSync(f, "utf8");
   const before = h;
+  h = h.replace(/((?:href|src)=["'])(\/assets\/[^"']+?\.(?:css|js))(?:\?[^"']*)?(["'])/g, (_match, prefix, assetPath, suffix) => `${prefix}${assetPath}?v=${ASSET_VERSION}${suffix}`);
   const path = urlPath(f);
   const noindex = /<meta[^>]+name="robots"[^>]+noindex/i.test(h);
   const mainAt = h.indexOf("<main");
