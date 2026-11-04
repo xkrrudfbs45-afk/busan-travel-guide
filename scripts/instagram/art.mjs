@@ -21,7 +21,7 @@ export async function generateArt(prompt, { key, style = STYLE, fetchImpl = fetc
   throw new Error(last);
 }
 
-export const STYLE_PLACE = "Flat vector editorial travel illustration, clearly stylised and NOT photographic: simplified shapes, limited palette of deep navy, warm yellow, cream and soft blue, subtle grain. No text, no letters, no numbers, no logos, no signs, no people's faces, no map lines or route lines. Leave the lower 40% of the frame calm and dark so text can be placed there. ";
+export const STYLE_PLACE = "Flat vector editorial travel illustration, clearly stylised and NOT photographic: simplified shapes, limited palette of deep navy, warm yellow, cream and soft blue, subtle grain. No text, no letters, no numbers, no logos, no signs, no people's faces, no map lines or route lines. Setting: Busan, South Korea, a sea-facing port city; show the sea, coastline or harbour in the frame wherever it fits the scene. Any buildings must look like a modern East Asian coastal city (high-rise apartment blocks, low shopfronts); never European, Greek or Mediterranean architecture, no domes or churches. Leave the lower 40% of the frame calm and dark so text can be placed there. ";
 
 // Background files: one per card. Posts that share art.set (e.g. EN/JP/TW versions of one topic) share the same backgrounds.
 export const artFiles = (p) => p.art.prompts

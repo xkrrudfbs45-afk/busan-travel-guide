@@ -17,11 +17,11 @@ export function cardV2Html(card, { bgDataUri, lang, index, total, credit }) {
 body{width:1080px;height:1350px;position:relative;overflow:hidden;background:#101B3B;font-family:'${font}',Inter,'Noto Sans JP','Noto Sans TC','Noto Sans CJK TC','Noto Sans CJK JP',sans-serif;color:#fff}
 .bg{position:absolute;inset:0;background:url(${bgDataUri}) center/cover}
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(16,27,59,.55) 0%,rgba(16,27,59,0) 22%,rgba(16,27,59,.0) 38%,rgba(16,27,59,.9) 66%,#101B3B 86%)}
-.cat{position:absolute;left:${SAFE.x}px;top:${SAFE.top}px;color:#FFC94A;font-weight:700;font-size:28px;letter-spacing:${cjk ? 3 : 6}px}
-.pg{position:absolute;right:${SAFE.x}px;top:${SAFE.top}px;font-weight:700;font-size:28px;color:#F7F1E6}
+.cat{text-shadow:0 1px 10px rgba(16,27,59,.9);position:absolute;left:${SAFE.x}px;top:${SAFE.top}px;color:#FFC94A;font-weight:700;font-size:28px;letter-spacing:${cjk ? 3 : 6}px}
+.pg{text-shadow:0 1px 10px rgba(16,27,59,.9);position:absolute;right:${SAFE.x}px;top:${SAFE.top}px;font-weight:700;font-size:28px;color:#F7F1E6}
 .txt{position:absolute;left:${SAFE.x}px;right:${SAFE.x}px;bottom:200px}
-.title{font-weight:${WEIGHT[lang] || 800};font-size:${titleSize}px;line-height:1.1;overflow-wrap:anywhere;${cjk ? "line-break:strict;" : ""}}
-.body{font-weight:500;font-size:${cjk ? 40 : 42}px;line-height:1.4;margin-top:30px;color:#F7F1E6;max-width:900px}
+.title{text-wrap:balance;text-shadow:0 2px 18px rgba(16,27,59,.45);font-weight:${WEIGHT[lang] || 800};font-size:${titleSize}px;line-height:1.1;overflow-wrap:anywhere;${cjk ? "line-break:strict;" : ""}}
+.body{text-wrap:${cjk ? "balance" : "pretty"};font-weight:500;font-size:${cjk ? 40 : 42}px;line-height:1.4;margin-top:30px;color:#F7F1E6;max-width:900px}
 .cta{display:inline-block;margin-top:40px;background:#FFC94A;color:#101B3B;font-weight:800;font-size:${cjk ? 38 : 40}px;padding:20px 34px;border-radius:14px;line-height:1.25}
 .foot{position:absolute;left:${SAFE.x}px;right:${SAFE.x}px;bottom:${SAFE.bottom}px;height:44px}
 .ai{position:absolute;left:0;bottom:6px;font-weight:500;font-size:20px;color:#F7F1E6;opacity:.8;max-width:620px;white-space:nowrap}
