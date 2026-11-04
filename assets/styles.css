@@ -697,3 +697,8 @@
 
 /* Guide directory: scannable category shortcuts for long guide lists. */
 .guide-directory-jumps{display:flex;flex-wrap:wrap;gap:10px;margin:0 auto 28px;padding-top:4px;padding-bottom:4px}.guide-directory-jumps a{display:inline-flex;align-items:center;min-height:38px;padding:8px 13px;border:1px solid var(--line);border-radius:999px;background:#fff;color:var(--teal-dark);font-size:12px;font-weight:750;text-decoration:none;transition:background .18s,border-color .18s,transform .18s}.guide-directory-jumps a:hover{background:#eef4ef;border-color:#b9cbc3;transform:translateY(-1px)}.guide-directory-jumps a:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+
+
+/* Distinct homepage food card images for reliable auditing and cache refresh. */
+.home-refresh .trend-pork-soup{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Dwaeji-gukbap_1.jpg?width=1000");background-position:center 52%}
+.home-refresh .trend-neighborhood-food{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Milmyeon_20200522_001.jpg?width=1000");background-position:center 52%}
