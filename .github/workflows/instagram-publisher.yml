@@ -47,7 +47,16 @@ jobs:
 
       - name: Check whether cards need rendering
         id: plan
-        run: echo "count=$(node scripts/instagram/render.mjs --list)" >> "$GITHUB_OUTPUT"
+        run: |
+          a=$(node scripts/instagram/art.mjs --list)
+          r=$(node scripts/instagram/render.mjs --list)
+          echo "count=$((a + r))" >> "$GITHUB_OUTPUT"
+
+      - name: Generate AI illustrations (OpenAI)
+        if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/instagram/art.mjs --art state/art
 
       - name: Render cards
         if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
@@ -60,7 +69,7 @@ jobs:
         if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
         run: |
           cd state
-          git add cards
+          git add -A
           git diff --cached --quiet && exit 0
           git -c user.name="go2busan-bot" -c user.email="actions@users.noreply.github.com" commit -q -m "Instagram cards $(date -u +%FT%TZ)"
           git push -q origin HEAD:refs/heads/instagram-state
