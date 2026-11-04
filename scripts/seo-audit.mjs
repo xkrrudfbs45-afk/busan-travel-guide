@@ -94,7 +94,10 @@ for (const file of htmlFiles) {
 
   const canonicalTag = html.match(/<link\b(?=[^>]*\brel\s*=\s*["']canonical["'])[^>]*>/i);
   const canonical = canonicalTag ? attr(canonicalTag[0], "href") : "";
-  if (!canonical) {
+  const isNoindex = /<meta\b(?=[^>]*\bname\s*=\s*["']robots["'])(?=[^>]*\bnoindex\b)[^>]*>/i.test(html);
+  if (!canonical && isNoindex) {
+    // noindex utility pages (for example the offline fallback) do not need a canonical URL.
+  } else if (!canonical) {
     missingCanonical++;
     add("ERROR", file, "Missing canonical URL");
   } else {
