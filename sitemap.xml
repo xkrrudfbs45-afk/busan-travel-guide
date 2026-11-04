@@ -781,4 +781,25 @@
   <url><loc>https://go2busan.com/guides/busan-night-views-local-tips/</loc></url>
   <url><loc>https://go2busan.com/guides/haedong-yonggungsa-visit-tips/</loc></url>
   <url><loc>https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/</loc></url>
+  <url>
+    <loc>https://go2busan.com/guides/bts-busan-fan-travel-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bts-busan-fan-travel-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/bts-busan-fan-travel-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bts-busan-fan-travel-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/bts-busan-fan-travel-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bts-busan-fan-travel-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bts-busan-fan-travel-guide/" />
+  </url>
 </urlset>
