@@ -16,6 +16,17 @@
       "reply_container_created_at": "2026-11-03T23:26:01.583Z",
       "reply_id": "18169974301486640",
       "reply_error": null
+    },
+    "d01-jp-2": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-04T11:00:26.342Z",
+      "creation_id": "18008615423796884",
+      "container_created_at": "2026-11-04T11:00:26.342Z",
+      "thread_id": "18125325328899221",
+      "permalink": "https://www.threads.com/@go2busan.jp/post/DfUTMgKkVNx",
+      "published_at": "2026-11-04T11:00:26.342Z",
+      "last_error": null
     }
   }
 }
