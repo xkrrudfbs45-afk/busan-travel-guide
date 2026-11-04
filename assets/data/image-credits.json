@@ -13,7 +13,7 @@
       "modified": "resized/cropped by CSS or Special:FilePath only",
       "checked_on": "2026-11-04",
       "status": "verified",
-      "note": "CC0. Used on many pages; some captions wrongly say CC BY 4.0 (fix in PR-B). Repeated across unrelated guides."
+      "note": "CC0 (captions corrected 2026-11-04). Used on many pages; repetition across unrelated guides is a separate issue."
     },
     {
       "source": "wikimedia",
@@ -125,7 +125,7 @@
       "modified": "resized/cropped by CSS or Special:FilePath only",
       "checked_on": "2026-11-04",
       "status": "verified",
-      "note": "Verified 2026-11-04 via Commons API. Credit required."
+      "note": "Verified 2026-11-04 via Commons API. Only referenced by an unused CSS rule (.thumb-ktx); credit required if it is ever displayed."
     },
     {
       "source": "wikimedia",
@@ -153,7 +153,7 @@
       "modified": "resized/cropped by CSS or Special:FilePath only",
       "checked_on": "2026-11-04",
       "status": "verified",
-      "note": "Site captions wrongly credit VN.NguyenDucDuy / CC BY-SA 4.0 (fix in PR-B)."
+      "note": "Captions corrected 2026-11-04 to Weli'mi'nakwan / CC BY 2.0."
     },
     {
       "source": "wikimedia",
