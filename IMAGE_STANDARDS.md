@@ -34,3 +34,9 @@ Choose the image for the exact subject of the page, not merely a generic image t
 - Use **LOCAL PICK** only for a clearly identified local restaurant, shop, experience, or editorial recommendation with a short reason for recommending it.
 - Use **LOCAL FAVORITES** for reader/local-vote roundups and **PRACTICAL GUIDE** or **OFFICIAL INFO** for factual service pages.
 - Do not label every general information article as a Local Pick. The label is a trust signal, not decoration.
+
+## Image registry
+- Every external photo is listed in `assets/data/image-credits.json` with source URL, author, license, license link, commercial-use flag, checked date and status (`verified`, `needs_review`, `do_not_use`).
+- `node scripts/image-credit-audit.mjs` runs in CI. It fails on any image that is not registered, on incomplete `verified` entries, and (with `--strict`) on `do_not_use` images still in use. It warns about `needs_review` images and pages that show a credit-required photo without naming the author.
+- Add the registry entry in the same change that introduces a new image. Unsplash images are not approved for this site without owner sign-off.
+
