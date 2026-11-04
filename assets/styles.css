@@ -726,3 +726,21 @@
 .partner-cta-grid strong{font-size:16px;color:#172b3d}
 .partner-cta-grid small{font-size:11px;line-height:1.6;color:#6a7989}
 @media(max-width:640px){.neighborhood-planner{padding-top:38px;padding-bottom:42px}.neighborhood-planner-grid,.partner-cta-grid{grid-template-columns:1fr}.neighborhood-planner-grid details{padding-inline:15px}.partner-cta-grid>a{padding:17px}}
+
+/* Editable offline Korean address card */
+.offline-address-card{margin:28px 0;padding:22px;border:1px solid #cddbd6;border-radius:8px;background:#fff;box-shadow:0 8px 24px #172e4209}
+.offline-card-kicker{font-size:9px!important;letter-spacing:.14em;font-weight:850;color:#176b65;margin:0 0 6px!important}
+.offline-address-card h3{font-family:var(--serif);font-size:26px;margin:0 0 16px}
+.offline-address-card label{display:block;font-size:12px;font-weight:750;margin:13px 0 5px}
+.offline-address-card input,.offline-address-card textarea{display:block;width:100%;box-sizing:border-box;border:1px solid #cbd5d1;border-radius:4px;background:#fff;padding:11px 12px;font:inherit;font-size:14px;color:#172e31}
+.offline-address-card input:focus,.offline-address-card textarea:focus{outline:2px solid #176b65;outline-offset:2px}
+.offline-card-phrase{margin:18px 0!important;padding:14px;background:#edf3ed;border-left:3px solid #176b65;font-size:14px}
+.offline-card-button{border:0;border-radius:4px;padding:12px 16px;background:#176b65;color:#fff;font:inherit;font-size:12px;font-weight:800;cursor:pointer}
+.offline-card-button:hover{background:#104e4a}
+@media print{
+  body:has(.offline-address-card) *{visibility:hidden!important}
+  .offline-address-card,.offline-address-card *{visibility:visible!important}
+  .offline-address-card{position:absolute;left:0;top:0;width:100%;margin:0;border:2px solid #172e31;box-shadow:none;background:#fff}
+  .offline-address-card input,.offline-address-card textarea{border:1px solid #777;min-height:32px}
+  .offline-card-button,.offline-address-card .source-note{display:none!important}
+}
