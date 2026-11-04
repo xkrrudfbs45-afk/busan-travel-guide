@@ -7,23 +7,42 @@ import { run } from "./publish.mjs";
 import { cardHtml, dueForRender } from "./render.mjs";
 
 const schedule = JSON.parse(readFileSync("content/social/instagram/schedule.json", "utf8"));
-const post = schedule.posts[0];
+const scheduledPost = schedule.posts[0];
+const unverifiedApprovedPost = { ...scheduledPost, status: "approved" };
+const unverifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === scheduledPost.id ? unverifiedApprovedPost : p) };
+const post = { ...unverifiedApprovedPost, verification: { ...unverifiedApprovedPost.verification, status: "verified" } };
+const verifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === post.id ? post : p) };
 const after = new Date(new Date(post.publish_at_utc).getTime() + 60000);
 
-test("schedule post passes hard checks", () => assert.deepEqual(checkPost(post), []));
+test("schedule never labels an unverified post approved", () => {
+  assert.ok(schedule.posts.every((p) => p.status !== "approved" || p.verification?.status === "verified"));
+});
+test("unverified approved post is blocked from rendering and publishing", async () => {
+  assert.ok(checkPost(unverifiedApprovedPost).some((i) => /verification.status=verified/.test(i)));
+  assert.equal(dueForRender(unverifiedSchedule, { posts: {} }, after).some((p) => p.id === scheduledPost.id), false);
+  assert.equal(checkPost(post).length, 0);
+  const s = await run({
+    now: after, schedule: unverifiedSchedule, log: { posts: {} },
+    env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" },
+    baseUrl: "https://x",
+    mkClient: () => { throw new Error("unverified post must not call Instagram API"); }
+  });
+  assert.equal(s.published.length, 0);
+  assert.ok(s.failed.some((i) => /verification.status=verified/.test(i)));
+});
 test("missing photo credit is rejected", () => assert.ok(checkPost({ ...post, photo: { url: "x", credit: "" } }).length));
 test("card html always carries the credit line", () => assert.ok(cardHtml(post.cards[0], "data:,", post.photo.credit).includes("CC BY-SA 4.0")));
 test("render planned only for approved unpublished posts", () => {
-  assert.equal(dueForRender(schedule, { posts: {} }, after).filter((x) => x.id === post.id).length, 1);
-  assert.equal(dueForRender(schedule, { posts: { [post.id]: { status: "published" } } }, after).filter((x) => x.id === post.id).length, 0);
+  assert.equal(dueForRender(verifiedSchedule, { posts: {} }, after).filter((x) => x.id === post.id).length, 1);
+  assert.equal(dueForRender(verifiedSchedule, { posts: { [post.id]: { status: "published" } } }, after).filter((x) => x.id === post.id).length, 0);
 });
 test("dry run publishes nothing", async () => {
-  const s = await run({ now: after, schedule, log: { posts: {} }, env: { INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x" });
+  const s = await run({ now: after, schedule: verifiedSchedule, log: { posts: {} }, env: { INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x" });
   assert.equal(s.dry_run.length, 1); assert.equal(s.published.length, 0);
 });
 test("live: wrong account token is refused", async () => {
   const mk = () => ({ me: async () => ({ username: "someone.else", user_id: "1" }) });
-  const s = await run({ now: after, schedule, log: { posts: {} }, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk });
+  const s = await run({ now: after, schedule: verifiedSchedule, log: { posts: {} }, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk });
   assert.equal(s.published.length, 0); assert.match(s.failed[0], /expected @go2busan.us/);
 });
 test("live: publishes carousel in order and logs it", async () => {
@@ -37,7 +56,7 @@ test("live: publishes carousel in order and logs it", async () => {
   });
   const f = async () => ({ status: 200, headers: { get: () => "image/jpeg" } });
   const log = { posts: {} };
-  const s = await run({ now: after, schedule, log, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk, fetchImpl: f, waitMs: 0 });
+  const s = await run({ now: after, schedule: verifiedSchedule, log, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk, fetchImpl: f, waitMs: 0 });
   assert.equal(s.published.length, 1); assert.equal(log.posts[post.id].status, "published");
   assert.deepEqual(calls.map((c) => c[0]), ["child", "child", "carousel", "publish"]);
 });

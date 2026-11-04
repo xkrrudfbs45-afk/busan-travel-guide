@@ -20,6 +20,10 @@ export const redact = (s) => String(s ?? "").replace(/(access_token=)[^&\s"]+/gi
 export function checkPost(p) {
   const issues = [];
   if (!ACCOUNTS[p.account]) issues.push(`unknown account ${p.account}`);
+  // An approval flag alone is not enough: every post must pass a recorded fact-check before it can be rendered or published.
+  if (p.status === "approved" && p.verification?.status !== "verified") {
+    issues.push("approved post requires verification.status=verified");
+  }
   if (!p.cards?.length || p.cards.length > 10) issues.push("cards must be 1-10");
   if (p.art) {
     if (p.art.type !== "ai" || !p.art.prompt) issues.push("art needs type \"ai\" and a prompt");
