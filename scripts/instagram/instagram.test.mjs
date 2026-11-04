@@ -90,7 +90,9 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
   assert.equal(v2.length, 21);
   for (const p of v2) {
     assert.deepEqual(checkPost(p), [], p.id);
-    assert.equal(p.status, "draft");
+    // Only posts whose topic was fact-checked (verification.verified) may be approved; everything else stays a draft.
+    if (p.status === "approved") assert.equal(p.verification.status, "verified", `${p.id} approved without verification`);
+    else assert.equal(p.status, "draft", p.id);
     assert.ok(reg.topics[p.verification.register], `${p.id} register`);
   }
   const bySet = {};
