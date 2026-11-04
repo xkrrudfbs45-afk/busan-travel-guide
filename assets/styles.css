@@ -615,7 +615,7 @@
 .fireworks-breaking-image,.fireworks-breaking-shade{position:absolute;inset:0;width:100%;height:100%}
 .fireworks-breaking-image{z-index:-2;object-fit:cover;object-position:center 43%}
 .fireworks-breaking-shade{z-index:-1;background:linear-gradient(90deg,rgba(3,10,28,.94) 0%,rgba(3,10,28,.82) 35%,rgba(3,10,28,.35) 68%,rgba(3,10,28,.25) 100%),linear-gradient(0deg,rgba(3,10,28,.55),transparent 35%)}
-.fireworks-breaking-inner{width:min(1440px,calc(100% - 64px));margin:0 auto;padding:58px 0 52px;max-width:1440px}
+.fireworks-breaking-inner{width:min(1440px,calc(100% - 64px));margin:0 auto;padding:58px 330px 52px 0;max-width:1440px}
 .fireworks-breaking-kicker{display:flex;align-items:center;gap:10px;margin:0 0 18px;color:#fda4af;font-size:11px;font-weight:850;letter-spacing:.14em;text-transform:uppercase}
 .fireworks-breaking-kicker span{display:inline-block;padding:7px 11px;border-radius:999px;background:#e11d48;color:#fff;letter-spacing:.08em}
 .fireworks-breaking h2{max-width:780px;margin:0 0 17px;color:#fff;font-size:clamp(36px,5.2vw,68px);font-weight:850;line-height:1.02;letter-spacing:-.055em}
@@ -627,11 +627,12 @@
 .fireworks-breaking-date{color:#fff;font-size:12px;font-weight:800;letter-spacing:.09em}
 .fireworks-breaking-credit{margin:24px 0 0;color:#cbd5e1;font-size:10px;line-height:1.5}
 .fireworks-breaking-credit a{color:#e2e8f0;text-decoration:underline;text-underline-offset:3px}
-.fireworks-breaking-note{position:absolute;right:max(32px,calc((100vw - 1440px)/2));bottom:34px;display:flex;flex-direction:column;gap:9px;width:min(290px,26vw);padding:20px;border:1px solid #ffffff55;border-radius:15px;background:#07142fe8;box-shadow:0 16px 44px #0003;backdrop-filter:blur(12px)}
+.fireworks-breaking-note{position:absolute;right:max(32px,calc((100vw - 1440px)/2));top:50%;bottom:auto;transform:translateY(-50%);display:flex;flex-direction:column;gap:9px;width:min(290px,26vw);padding:20px;border:1px solid #ffffff55;border-radius:15px;background:#07142fe8;box-shadow:0 16px 44px #0003;backdrop-filter:blur(12px)}
 .fireworks-breaking-note strong{margin-bottom:2px;color:#facc15;font-size:13px}
 .fireworks-breaking-note span{position:relative;padding-left:17px;color:#f8fafc;font-size:11px;line-height:1.5}
 .fireworks-breaking-note span:before{content:"✓";position:absolute;left:0;color:#facc15;font-weight:900}
-@media(max-width:850px){.fireworks-breaking{min-height:420px}.fireworks-breaking-inner{width:calc(100% - 40px);padding:42px 0 38px}.fireworks-breaking-note{position:relative;right:auto;bottom:auto;width:auto;max-width:420px;margin:0 20px 26px;align-self:flex-end}.fireworks-breaking{align-items:flex-start;flex-direction:column}.fireworks-breaking-shade{background:linear-gradient(90deg,rgba(3,10,28,.92),rgba(3,10,28,.46)),linear-gradient(0deg,rgba(3,10,28,.82),transparent 60%)}}
+@media(max-width:850px){.fireworks-breaking{min-height:420px}.fireworks-breaking-inner{width:calc(100% - 40px);padding:42px 0 38px}.fireworks-breaking-note{position:relative;right:auto;top:auto;bottom:auto;transform:none;width:auto;max-width:420px;margin:0 20px 26px;align-self:flex-end}.fireworks-breaking{align-items:flex-start;flex-direction:column}.fireworks-breaking-shade{background:linear-gradient(90deg,rgba(3,10,28,.92),rgba(3,10,28,.46)),linear-gradient(0deg,rgba(3,10,28,.82),transparent 60%)}}
+@media(max-width:1100px) and (min-width:851px){.fireworks-breaking-inner{padding-right:310px}.fireworks-breaking h2{font-size:clamp(34px,4.5vw,54px)}.fireworks-breaking-deck{font-size:15px}}
 @media(max-width:560px){.fireworks-breaking{min-height:0}.fireworks-breaking-inner{width:calc(100% - 32px);padding:36px 0 24px}.fireworks-breaking h2{font-size:clamp(34px,10vw,48px)}.fireworks-breaking-deck{font-size:14px;line-height:1.55}.fireworks-breaking-actions{align-items:flex-start;flex-direction:column;gap:12px}.fireworks-breaking-cta{padding:13px 17px;font-size:13px}.fireworks-breaking-note{width:calc(100% - 32px);max-width:none;margin:0 16px 20px;padding:15px;gap:7px}.fireworks-breaking-credit{margin-top:18px}}
 
 /* Official festival merchandise callout inside the time-sensitive homepage feature */
