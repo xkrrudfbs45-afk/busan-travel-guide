@@ -112,7 +112,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-05T10:00:00.000Z",
       "art": {
         "type": "ai",
@@ -158,8 +158,16 @@
       "caption": "Going to the Busan Fireworks Festival on Saturday, Nov 7? Here's what to check first. 🎆\n\nThe official venues are Gwangalli Beach, Igidae and Dongbaekseom. Gwangan Bridge closes to traffic in both directions on festival day, and the official subway stop for Gwangalli is Line 2 Gwangalli Station, Exit 3.\n\nSave this so you can find it on the day. Details can change, so check the official festival and Busan City notices before you leave. Full local guide: link in our profile (go2busan.com).\n\nSources: Busan Metropolitan City, busanfireworks.com. Illustration: AI-generated.\n\n#BusanFireworks #BusanFireworksFestival #Busan #Gwangalli #KoreaTravel #BusanTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-fireworks-festival/",
       "verification": {
-        "status": "needs_check",
-        "register": "d01-fireworks"
+        "status": "verified",
+        "register": "d01-fireworks",
+        "checked_on": "2026-11-04",
+        "sources": [
+          "busanfireworks.com/content/location",
+          "busan.go.kr/eng/bsevents/1752782",
+          "hankookilbo.com 2026-11-02",
+          "ziksir.com 2026-11-02"
+        ],
+        "approved_by": "탁경륜 2026-11-04"
       }
     },
     {
@@ -167,7 +175,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-05T03:30:00.000Z",
       "art": {
         "type": "ai",
@@ -213,8 +221,16 @@
       "caption": "11月7日（土）の釜山花火大会に行くなら、まずここを確認。🎆\n\n公式会場は広安里ビーチ、二妓台、冬柏島です。当日は広安大橋が上下線とも通行止めになり、広安里の公式最寄りは地下鉄2号線の広安駅（3番出口）です。\n\n当日すぐ見返せるよう保存しておいてください。内容は変更されることがあるので、出発前に公式の最新情報を確認してください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\n出典：釜山広域市、busanfireworks.com　イラスト：AI生成\n\n#釜山花火大会 #釜山旅行 #釜山 #広安里 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/busan-fireworks-festival/",
       "verification": {
-        "status": "needs_check",
-        "register": "d01-fireworks"
+        "status": "verified",
+        "register": "d01-fireworks",
+        "checked_on": "2026-11-04",
+        "sources": [
+          "busanfireworks.com/content/location",
+          "busan.go.kr/eng/bsevents/1752782",
+          "hankookilbo.com 2026-11-02",
+          "ziksir.com 2026-11-02"
+        ],
+        "approved_by": "탁경륜 2026-11-04"
       }
     },
     {
@@ -222,7 +238,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-05T12:00:00.000Z",
       "art": {
         "type": "ai",
@@ -268,8 +284,16 @@
       "caption": "11月7日（六）要去釜山煙火節嗎？先確認這幾件事。🎆\n\n官方會場是廣安里海水浴場、二妓臺與冬柏島。活動當天廣安大橋雙向封閉，前往廣安里的官方建議地鐵站是2號線廣安站（3號出口）。\n\n先收藏起來，當天才找得到。資訊可能變動，出發前請查看官方與釜山市最新公告。完整當地攻略請點個人檔案連結（go2busan.com）。\n\n資料來源：釜山廣域市、busanfireworks.com　插畫：AI 生成\n\n#釜山煙火節 #釜山旅遊 #釜山 #廣安里 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/",
       "verification": {
-        "status": "needs_check",
-        "register": "d01-fireworks"
+        "status": "verified",
+        "register": "d01-fireworks",
+        "checked_on": "2026-11-04",
+        "sources": [
+          "busanfireworks.com/content/location",
+          "busan.go.kr/eng/bsevents/1752782",
+          "hankookilbo.com 2026-11-02",
+          "ziksir.com 2026-11-02"
+        ],
+        "approved_by": "탁경륜 2026-11-04"
       }
     },
     {
