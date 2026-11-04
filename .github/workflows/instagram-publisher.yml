@@ -63,7 +63,16 @@ jobs:
         run: |
           npm install --no-save --no-audit --no-fund playwright@1.49.1
           npx playwright install --with-deps chromium
-          node scripts/instagram/render.mjs --out state/cards
+          node scripts/instagram/render.mjs --out state/cards --png-out png-masters
+
+      - name: Keep PNG masters (1080x1350) as a downloadable artifact
+        if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: instagram-png-masters
+          path: png-masters
+          if-no-files-found: ignore
+          retention-days: 30
 
       - name: Push cards (public image URLs)
         if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
