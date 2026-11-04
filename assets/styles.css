@@ -701,4 +701,4 @@
 
 /* Distinct homepage food card images for reliable auditing and cache refresh. */
 .home-refresh .trend-pork-soup{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Dwaeji-gukbap_1.jpg?width=1000");background-position:center 52%}
-.home-refresh .trend-neighborhood-food{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Milmyeon_20200522_001.jpg?width=1000");background-position:center 52%}
+.home-refresh .trend-neighborhood-food{background-image:url("/assets/busan-local-food-illustration.svg");background-position:center 52%}
