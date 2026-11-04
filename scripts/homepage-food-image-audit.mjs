@@ -24,11 +24,16 @@ const foodGuidePaths = [
 ];
 
 const cards = [];
+const homepageAnchors = [...home.matchAll(/<a\\b[^>]*>[\\s\\S]*?<\\/a>/gi)].map((match) => match[0]);
+
 for (const path of foodGuidePaths) {
-  const escaped = path.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const match = home.match(new RegExp('<a\\b(?=[^>]*href="' + escaped + '")[^>]*>[\\s\\S]*?<div class="trend-image ([^"]+)"'));
+  // Match the image inside the exact card anchor. A plain href-to-image regex can
+  // accidentally cross </a> and borrow an unrelated card's image when earlier
+  // homepage discovery links point to the same guide.
+  const anchor = homepageAnchors.find((html) => (html.match(/\\bhref="([^"]+)"/i) || [])[1] === path);
+  const match = anchor?.match(/<div class="trend-image ([^"]+)"/);
   if (!match) throw new Error("Homepage food guide card missing or has no image class: " + path);
-  const classes = match[1].split(/\s+/).filter(name => name.startsWith("trend-"));
+  const classes = match[1].split(/\\s+/).filter(name => name.startsWith("trend-"));
   const imageUrls = [];
   for (const className of classes) {
     const selector = new RegExp(String.raw`\.${className}\s*\{[^}]*background-image\s*:\s*url\(["']?([^"')]+)`, "gs");
