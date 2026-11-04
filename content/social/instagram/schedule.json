@@ -116,14 +116,14 @@
       "publish_at_utc": "2026-11-05T10:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d01-fireworks",
+        "set": "d01-fireworks-v2",
         "stylized": true,
         "prompts": [
-          "Night illustration of a long double-deck suspension bridge over the sea with large colorful fireworks bursting above and tiny silhouettes of spectators on a beach",
+          "Night illustration of a long double-deck suspension bridge with two tall steel towers and rows of lights spanning a calm sea, large colorful fireworks bursting above, a modern Korean coastal city skyline with high-rise apartments in the distance",
           "Stylised coastline overview: a curved sandy beach, a rocky headland on one side and a small wooded island on the other, calm night sea under a crescent moon",
-          "Night street illustration with traffic cones, a road barrier and a smartphone showing an abstract notification icon without any text",
+          "Night street in a modern Korean coastal city with high-rise apartment blocks, traffic cones and a striped road barrier in the foreground and a smartphone showing an abstract bell notification icon, no text, no historic or European buildings",
           "Illustration of a subway station entrance glowing at night with a small group walking along a seaside promenade towards it",
-          "Calm deep navy night sky with a few small fireworks, a cream card shape with abstract yellow tick marks and no letters"
+          "Calm deep navy night sky over the sea with a few small golden fireworks, a simple yellow bookmark icon and three small golden tick marks, minimal composition, no buildings, no letters"
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -171,14 +171,14 @@
       "publish_at_utc": "2026-11-05T03:30:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d01-fireworks",
+        "set": "d01-fireworks-v2",
         "stylized": true,
         "prompts": [
-          "Night illustration of a long double-deck suspension bridge over the sea with large colorful fireworks bursting above and tiny silhouettes of spectators on a beach",
+          "Night illustration of a long double-deck suspension bridge with two tall steel towers and rows of lights spanning a calm sea, large colorful fireworks bursting above, a modern Korean coastal city skyline with high-rise apartments in the distance",
           "Stylised coastline overview: a curved sandy beach, a rocky headland on one side and a small wooded island on the other, calm night sea under a crescent moon",
-          "Night street illustration with traffic cones, a road barrier and a smartphone showing an abstract notification icon without any text",
+          "Night street in a modern Korean coastal city with high-rise apartment blocks, traffic cones and a striped road barrier in the foreground and a smartphone showing an abstract bell notification icon, no text, no historic or European buildings",
           "Illustration of a subway station entrance glowing at night with a small group walking along a seaside promenade towards it",
-          "Calm deep navy night sky with a few small fireworks, a cream card shape with abstract yellow tick marks and no letters"
+          "Calm deep navy night sky over the sea with a few small golden fireworks, a simple yellow bookmark icon and three small golden tick marks, minimal composition, no buildings, no letters"
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -200,7 +200,7 @@
         },
         {
           "cat": "帰り道",
-          "title": "帰りのルートを先に決める",
+          "title": "帰り道を先に決める",
           "body": "最寄りは地下鉄2号線の広安駅（3番出口）。混雑するので、帰りのルートを事前に確認しましょう。"
         },
         {
@@ -226,14 +226,14 @@
       "publish_at_utc": "2026-11-05T12:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d01-fireworks",
+        "set": "d01-fireworks-v2",
         "stylized": true,
         "prompts": [
-          "Night illustration of a long double-deck suspension bridge over the sea with large colorful fireworks bursting above and tiny silhouettes of spectators on a beach",
+          "Night illustration of a long double-deck suspension bridge with two tall steel towers and rows of lights spanning a calm sea, large colorful fireworks bursting above, a modern Korean coastal city skyline with high-rise apartments in the distance",
           "Stylised coastline overview: a curved sandy beach, a rocky headland on one side and a small wooded island on the other, calm night sea under a crescent moon",
-          "Night street illustration with traffic cones, a road barrier and a smartphone showing an abstract notification icon without any text",
+          "Night street in a modern Korean coastal city with high-rise apartment blocks, traffic cones and a striped road barrier in the foreground and a smartphone showing an abstract bell notification icon, no text, no historic or European buildings",
           "Illustration of a subway station entrance glowing at night with a small group walking along a seaside promenade towards it",
-          "Calm deep navy night sky with a few small fireworks, a cream card shape with abstract yellow tick marks and no letters"
+          "Calm deep navy night sky over the sea with a few small golden fireworks, a simple yellow bookmark icon and three small golden tick marks, minimal composition, no buildings, no letters"
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
