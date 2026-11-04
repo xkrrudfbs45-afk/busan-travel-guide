@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "checked_on": "2026-11-04",
+  "note": "Facts used in the 7-day Instagram test series. status 'checked' means read on the cited official page by Claude on checked_on; it does not replace user approval or day-of recheck.",
+  "topics": {
+    "d01-fireworks": {
+      "facts": [
+        "21st Busan Fireworks Festival: Saturday Nov 7, 2026",
+        "Official venue areas: Gwangalli Beach, Igidae and Dongbaekseom (Haeundae side)",
+        "Gwangan Bridge fully closed to traffic both directions on Nov 7 (upper deck from 15:30, lower deck from 18:30 until 24:00)",
+        "Official transport: Subway Line 2 Gwangalli Station, Exit 3 (busanfireworks.com/content/location)"
+      ],
+      "not_stated_anywhere_checked": [
+        "subway extended hours / last train changes",
+        "official free viewing zones",
+        "paid seat layout (image only)"
+      ],
+      "urls": [
+        "https://www.busan.go.kr/nbnews/1761578",
+        "https://www.busan.go.kr/eng/bsevents/1752782",
+        "https://www.busan.go.kr/kids/board/view.busan?boardId=BBS_0000015&dataSid=1327&menuCd=DOM_000001701009002000",
+        "https://busanfireworks.com/content/location",
+        "https://busanfireworks.com/content/traffic"
+      ],
+      "volatile": [
+        "traffic control hours",
+        "event programme",
+        "weather",
+        "ticket status"
+      ],
+      "recheck": "2026-11-06 and morning of 2026-11-07"
+    },
+    "d02-traffic": {
+      "facts": [
+        "Road control around Gwangalli: stage 1 begins 10:00 on Nov 7",
+        "From 18:00 Nov 7, 11 bus routes (9 regular, 2 village) through Gwangnam-ro are fully closed; detour via Suyeong-ro",
+        "Notice dated 2026-10-30 (Busan City, Tourism Content Division)"
+      ],
+      "urls": [
+        "https://www.busan.go.kr/nbnews/1761578"
+      ],
+      "volatile": [
+        "control stages and hours",
+        "bus routes"
+      ],
+      "recheck": "2026-11-06 and morning of 2026-11-07"
+    },
+    "d03-packing": {
+      "facts": [
+        "General preparation advice only; no dated or numeric claims"
+      ],
+      "urls": [],
+      "volatile": [
+        "weather"
+      ],
+      "recheck": "2026-11-07 morning (forecast)"
+    },
+    "d04-return": {
+      "facts": [
+        "General safety advice; Gwangalli Station Line 2 Exit 3 is the official subway stop per busanfireworks.com/content/location",
+        "No subway last-train extension was found in official sources; none is claimed"
+      ],
+      "urls": [
+        "https://busanfireworks.com/content/location"
+      ],
+      "volatile": [
+        "event status, safety notices, transport operation"
+      ],
+      "recheck": "immediately before posting on 2026-11-07"
+    },
+    "d05-first-day": {
+      "facts": [
+        "Itinerary advice only; links to the site's 3-day itinerary"
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-three-days/"
+      ],
+      "volatile": [],
+      "recheck": "2026-12-01"
+    },
+    "d06-airport": {
+      "facts": [
+        "Airport light rail to Sasang (Line 2) or Daejeo (Line 3) Station then transfer; described as best and cheapest option",
+        "Airport limousine to Haeundae New Town in about an hour",
+        "Taxi types: regular, deluxe, large; deluxe and large cost 50% more than regular",
+        "No fares are stated on the cited pages, so none are shown"
+      ],
+      "urls": [
+        "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000304011003000",
+        "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000"
+      ],
+      "volatile": [
+        "fares",
+        "limousine timetable"
+      ],
+      "recheck": "2026-12-01"
+    },
+    "d07-transit": {
+      "facts": [
+        "Metro runs 05:00-23:59; first/last trains vary by station",
+        "Hanaro Card is the official transit pass; Mybi, T-money, Cashbee, Gimhae-for-you also earn transfer discounts",
+        "Transfer discount within 30 minutes, up to twice per trip; tap when leaving bus/subway",
+        "Top-up at metro station machines, Donghae Line stations, convenience stores, Busan Bank branches"
+      ],
+      "urls": [
+        "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000"
+      ],
+      "volatile": [
+        "operating hours",
+        "card rules"
+      ],
+      "recheck": "2026-12-01"
+    }
+  }
+}

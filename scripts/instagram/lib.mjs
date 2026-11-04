@@ -1,3 +1,4 @@
+import { existsSync } from "node:fs";
 // Shared helpers for the Go2Busan Instagram carousel auto-publisher.
 // Secrets are read from env by the caller only; nothing here logs or stores tokens.
 export const SCHEDULE_FILE = "content/social/instagram/schedule.json";
@@ -26,9 +27,14 @@ export function checkPost(p) {
   }
   if (!p.cards?.length || p.cards.length > 10) issues.push("cards must be 1-10");
   if (p.art) {
-    if (p.art.type !== "ai" || !p.art.prompt) issues.push("art needs type \"ai\" and a prompt");
-    else if (BANNED_PLACE_WORDS.test(p.art.prompt)) issues.push("AI art prompt names a real place; use a real licensed photo for places");
+    const prompts = p.art.prompts || (p.art.prompt ? [p.art.prompt] : []);
+    if (p.art.type !== "ai" || !prompts.length) issues.push("art needs type \"ai\" and a prompt");
+    else if (p.art.prompts && p.art.prompts.length !== p.cards?.length) issues.push("art.prompts must have one prompt per card");
+    // Stylised, clearly labelled illustrations may depict real places; photoreal/unlabelled AI art may not.
+    else if (!p.art.stylized && prompts.some((x) => BANNED_PLACE_WORDS.test(x))) issues.push("AI art prompt names a real place; use a real licensed photo or set art.stylized with an illustration label");
+    if (p.art.stylized && !/illustration|イラスト|插畫/i.test(p.art.credit || "")) issues.push("stylized art credit must say \"illustration\"");
     if (!/AI/i.test(p.art.credit || "")) issues.push("AI art credit (\"AI-generated\") is required");
+    if (p.art.prompts && !p.art.set) issues.push("art.set (background set id) is required with art.prompts");
   } else {
     if (!p.photo?.url || !p.photo?.credit) issues.push("photo url and credit are required");
     if (!/CC BY|CC0|public domain|Unsplash|own/i.test(p.photo?.credit || "") && !p.photo?.own) issues.push("photo credit/licence missing");
@@ -37,6 +43,17 @@ export function checkPost(p) {
   if ((p.caption.match(/#\w+/g) || []).length > MAX_HASHTAGS) issues.push("too many hashtags");
   if (!p.art && p.photo?.credit && /CC BY/i.test(p.photo.credit) && !/Wikimedia|CC BY/i.test(p.caption)) issues.push("caption must carry the photo credit");
   if (!/^\d{4}-\d\d-\d\dT/.test(p.publish_at_utc || "")) issues.push("publish_at_utc invalid");
+  if (p.design === "v2") {
+    if (!["en", "ja", "zh-TW"].includes(p.lang)) issues.push("v2 post needs lang en|ja|zh-TW");
+    if (p.cards.length < 5 || p.cards.length > 6) issues.push("v2 carousel needs 5-6 cards");
+    const tags = (p.caption.match(/#[^\s#]+/g) || []).length;
+    if (tags < 3 || tags > 8) issues.push("v2 caption needs 3-8 hashtags");
+    if (!p.cards.at(-1)?.cta) issues.push("last card needs a CTA");
+    if (!/AI/i.test(p.caption)) issues.push("caption needs the AI-illustration disclosure");
+    const m = /^https:\/\/go2busan\.com(\/.*)$/.exec(p.guide_url || "");
+    if (!m) issues.push("guide_url must be a go2busan.com URL");
+    else if (!existsSync(`.${m[1]}index.html`)) issues.push(`guide_url page not found in repo: ${m[1]}`);
+  }
   return issues;
 }
 

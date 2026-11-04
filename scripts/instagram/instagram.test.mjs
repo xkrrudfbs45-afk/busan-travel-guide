@@ -6,7 +6,12 @@ import { checkPost } from "./lib.mjs";
 import { run } from "./publish.mjs";
 import { cardHtml, dueForRender } from "./render.mjs";
 
-const schedule = JSON.parse(readFileSync("content/social/instagram/schedule.json", "utf8"));
+const realSchedule = JSON.parse(readFileSync("content/social/instagram/schedule.json", "utf8"));
+// Synthetic real-photo post (the pipeline still supports photo cards; production posts now use AI illustrations).
+const photoPost = { id: "ig-test-photo", account: "US", status: "draft", publish_at_utc: "2026-11-05T23:00:00.000Z",
+  photo: { url: "https://upload.wikimedia.org/x.jpg", credit: "Photo: Busan Metropolitan City / Wikimedia Commons · CC BY-SA 4.0" },
+  cards: [{ tag: "T", headline: ["A"], date_line: "d" }, { tag: "T2", headline: ["B"], date_line: "e" }], caption: "Photo: Wikimedia Commons (CC BY-SA 4.0) #a #b #c", verification: { status: "needs_check" } };
+const schedule = { ...realSchedule, posts: [photoPost, ...realSchedule.posts] };
 const scheduledPost = schedule.posts[0];
 const unverifiedApprovedPost = { ...scheduledPost, status: "approved" };
 const unverifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === scheduledPost.id ? unverifiedApprovedPost : p) };
@@ -74,4 +79,32 @@ test("art generation: decodes image, reports API errors, skips existing files", 
   const bad = async () => ({ ok: false, status: 401, json: async () => ({ error: { message: "bad key" } }) });
   await assert.rejects(generateArt("x", { key: "k", fetchImpl: bad }), /401/);
   assert.equal(artTodo({ posts: [aiPost] }, "/nonexistent").length, 1);
+});
+
+// ---- 7-day series (v2) data checks ----
+import { readFileSync as rf } from "node:fs";
+test("v2 series posts are drafts, valid, share backgrounds per topic and have registered sources", () => {
+  const sched = realSchedule;
+  const reg = JSON.parse(rf("content/social/instagram/source-register.json", "utf8"));
+  const v2 = sched.posts.filter((p) => p.design === "v2");
+  assert.equal(v2.length, 21);
+  for (const p of v2) {
+    assert.deepEqual(checkPost(p), [], p.id);
+    assert.equal(p.status, "draft");
+    assert.ok(reg.topics[p.verification.register], `${p.id} register`);
+  }
+  const bySet = {};
+  for (const p of v2) (bySet[p.art.set] ??= []).push(p);
+  for (const [set, ps] of Object.entries(bySet)) {
+    assert.equal(ps.length, 3, set);
+    assert.equal(new Set(ps.map((p) => JSON.stringify(p.art.prompts))).size, 1, `${set} backgrounds identical across languages`);
+    assert.equal(new Set(ps.map((p) => p.art.prompts.join("|"))).size, 1);
+  }
+});
+
+test("art gate limits generation to listed sets", () => {
+  const all = artTodo(realSchedule, "/nonexistent", null).filter((t) => /^d\d\d-/.test(t.file)).length;
+  const one = artTodo(realSchedule, "/nonexistent", ["d01-fireworks"]).filter((t) => /^d\d\d-/.test(t.file));
+  assert.equal(all, 35);
+  assert.equal(one.length, 5);
 });
