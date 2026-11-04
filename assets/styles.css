@@ -655,3 +655,11 @@
 .fireworks-breaking-note span:before{content:"✓";position:absolute;left:0;color:#facc15;font-weight:900}
 @media(max-width:850px){.fireworks-breaking{min-height:420px}.fireworks-breaking-inner{width:calc(100% - 40px);padding:42px 0 38px}.fireworks-breaking-note{position:relative;right:auto;bottom:auto;width:auto;max-width:420px;margin:0 20px 26px;align-self:flex-end}.fireworks-breaking{align-items:flex-start;flex-direction:column}.fireworks-breaking-shade{background:linear-gradient(90deg,rgba(3,10,28,.92),rgba(3,10,28,.46)),linear-gradient(0deg,rgba(3,10,28,.82),transparent 60%)}}
 @media(max-width:560px){.fireworks-breaking{min-height:0}.fireworks-breaking-inner{width:calc(100% - 32px);padding:36px 0 24px}.fireworks-breaking h2{font-size:clamp(34px,10vw,48px)}.fireworks-breaking-deck{font-size:14px;line-height:1.55}.fireworks-breaking-actions{align-items:flex-start;flex-direction:column;gap:12px}.fireworks-breaking-cta{padding:13px 17px;font-size:13px}.fireworks-breaking-note{width:calc(100% - 32px);max-width:none;margin:0 16px 20px;padding:15px;gap:7px}.fireworks-breaking-credit{margin-top:18px}}
+
+/* Official festival merchandise callout inside the time-sensitive homepage feature */
+.fireworks-breaking-goods{width:min(340px,calc(100% - 32px));margin:0 32px 28px 0;padding:18px 20px;background:rgba(255,255,255,.96);color:#14213d;border:1px solid rgba(255,255,255,.55);border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.16);align-self:flex-end;flex-shrink:0}
+.fireworks-breaking-goods strong{display:block;font-size:17px;line-height:1.35;margin-bottom:8px;color:#14213d}
+.fireworks-breaking-goods p{margin:0 0 10px;font-size:12px;line-height:1.65;color:#344054}
+.fireworks-breaking-goods .fireworks-breaking-goods-note{font-size:11px;color:#5d6678}
+.fireworks-breaking-goods a{display:inline-flex;align-items:center;gap:6px;margin-top:2px;color:#123c7a;font-size:12px;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:760px){.fireworks-breaking-goods{width:calc(100% - 32px);margin:0 16px 20px;align-self:stretch;padding:16px}.fireworks-breaking-goods strong{font-size:16px}.fireworks-breaking-goods p{font-size:12px}}
