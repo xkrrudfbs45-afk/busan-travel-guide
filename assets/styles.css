@@ -444,7 +444,7 @@
 .trend-sky-capsule{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Sky_Capsule_train_at_Haeundae_Blueline_Park%2C_Busan.jpg?width=1000")}
 
 /* The airport-to-Haeundae guide is about rail transfers, not an airplane stock photo. */
-.trend-airport{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan-gimhae-light-rail-transit-21-Kaya-university-station-platform-20180331-173938.jpg?width=1000")}
+.trend-airport{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg/1280px-Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg")}
 
 /* Local affiliate CTA used by editorial guides */
 .local-cta{margin:2.5rem 0;padding:clamp(22px,4vw,34px);background:#eaf1e9;border:1px solid #d5e2d4;border-radius:8px}.local-cta h2{margin:.2rem 0 .7rem;font-family:var(--serif);font-size:clamp(25px,3vw,34px);line-height:1.15;font-weight:500}.local-cta>p:not(.eyebrow):not(.microcopy){color:#526765;max-width:650px}.local-cta .button{margin-top:.5rem}.local-cta .microcopy{max-width:700px;line-height:1.6}
