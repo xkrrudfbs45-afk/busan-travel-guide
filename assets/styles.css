@@ -630,3 +630,36 @@
 .home-refresh .trend-makgeolli{background-image:url("https://images.unsplash.com/photo-1513558161293-cdab0b502e7d?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
 .home-refresh .trend-mountain-food{background-image:url("https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
 .home-refresh .trend-temple-food{background-image:url("https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=82");background-position:center 52%}
+
+
+/* Time-sensitive Busan Now feature: 2026 fireworks festival */
+.fireworks-breaking{position:relative;isolation:isolate;display:flex;align-items:center;min-height:440px;overflow:hidden;background:#07142f;color:#fff}
+.fireworks-breaking-image,.fireworks-breaking-shade{position:absolute;inset:0;width:100%;height:100%}
+.fireworks-breaking-image{z-index:-2;object-fit:cover;object-position:center 43%}
+.fireworks-breaking-shade{z-index:-1;background:linear-gradient(90deg,rgba(3,10,28,.94) 0%,rgba(3,10,28,.82) 35%,rgba(3,10,28,.35) 68%,rgba(3,10,28,.25) 100%),linear-gradient(0deg,rgba(3,10,28,.55),transparent 35%)}
+.fireworks-breaking-inner{width:min(1440px,calc(100% - 64px));margin:0 auto;padding:58px 0 52px;max-width:1440px}
+.fireworks-breaking-kicker{display:flex;align-items:center;gap:10px;margin:0 0 18px;color:#fda4af;font-size:11px;font-weight:850;letter-spacing:.14em;text-transform:uppercase}
+.fireworks-breaking-kicker span{display:inline-block;padding:7px 11px;border-radius:999px;background:#e11d48;color:#fff;letter-spacing:.08em}
+.fireworks-breaking h2{max-width:780px;margin:0 0 17px;color:#fff;font-size:clamp(36px,5.2vw,68px);font-weight:850;line-height:1.02;letter-spacing:-.055em}
+.fireworks-breaking h2 em{color:#facc15;font-style:normal}
+.fireworks-breaking-deck{max-width:680px;margin:0 0 24px;color:#f1f5f9;font-size:clamp(15px,1.4vw,19px);line-height:1.65}
+.fireworks-breaking-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px}
+.fireworks-breaking-cta{display:inline-flex;align-items:center;gap:12px;padding:15px 22px;border-radius:999px;background:#facc15;color:#111827;text-decoration:none;font-size:14px;font-weight:850;box-shadow:0 10px 28px #0003;transition:transform .18s ease,background .18s ease}
+.fireworks-breaking-cta:hover{transform:translateY(-2px);background:#fde047}
+.fireworks-breaking-date{color:#fff;font-size:12px;font-weight:800;letter-spacing:.09em}
+.fireworks-breaking-credit{margin:24px 0 0;color:#cbd5e1;font-size:10px;line-height:1.5}
+.fireworks-breaking-credit a{color:#e2e8f0;text-decoration:underline;text-underline-offset:3px}
+.fireworks-breaking-note{position:absolute;right:max(32px,calc((100vw - 1440px)/2));bottom:34px;display:flex;flex-direction:column;gap:9px;width:min(290px,26vw);padding:20px;border:1px solid #ffffff55;border-radius:15px;background:#07142fe8;box-shadow:0 16px 44px #0003;backdrop-filter:blur(12px)}
+.fireworks-breaking-note strong{margin-bottom:2px;color:#facc15;font-size:13px}
+.fireworks-breaking-note span{position:relative;padding-left:17px;color:#f8fafc;font-size:11px;line-height:1.5}
+.fireworks-breaking-note span:before{content:"✓";position:absolute;left:0;color:#facc15;font-weight:900}
+@media(max-width:850px){.fireworks-breaking{min-height:420px}.fireworks-breaking-inner{width:calc(100% - 40px);padding:42px 0 38px}.fireworks-breaking-note{position:relative;right:auto;bottom:auto;width:auto;max-width:420px;margin:0 20px 26px;align-self:flex-end}.fireworks-breaking{align-items:flex-start;flex-direction:column}.fireworks-breaking-shade{background:linear-gradient(90deg,rgba(3,10,28,.92),rgba(3,10,28,.46)),linear-gradient(0deg,rgba(3,10,28,.82),transparent 60%)}}
+@media(max-width:560px){.fireworks-breaking{min-height:0}.fireworks-breaking-inner{width:calc(100% - 32px);padding:36px 0 24px}.fireworks-breaking h2{font-size:clamp(34px,10vw,48px)}.fireworks-breaking-deck{font-size:14px;line-height:1.55}.fireworks-breaking-actions{align-items:flex-start;flex-direction:column;gap:12px}.fireworks-breaking-cta{padding:13px 17px;font-size:13px}.fireworks-breaking-note{width:calc(100% - 32px);max-width:none;margin:0 16px 20px;padding:15px;gap:7px}.fireworks-breaking-credit{margin-top:18px}}
+
+/* Official festival merchandise callout inside the time-sensitive homepage feature */
+.fireworks-breaking-goods{width:min(340px,calc(100% - 32px));margin:0 32px 28px 0;padding:18px 20px;background:rgba(255,255,255,.96);color:#14213d;border:1px solid rgba(255,255,255,.55);border-radius:14px;box-shadow:0 12px 30px rgba(0,0,0,.16);align-self:flex-end;flex-shrink:0}
+.fireworks-breaking-goods strong{display:block;font-size:17px;line-height:1.35;margin-bottom:8px;color:#14213d}
+.fireworks-breaking-goods p{margin:0 0 10px;font-size:12px;line-height:1.65;color:#344054}
+.fireworks-breaking-goods .fireworks-breaking-goods-note{font-size:11px;color:#5d6678}
+.fireworks-breaking-goods a{display:inline-flex;align-items:center;gap:6px;margin-top:2px;color:#123c7a;font-size:12px;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:760px){.fireworks-breaking-goods{width:calc(100% - 32px);margin:0 16px 20px;align-self:stretch;padding:16px}.fireworks-breaking-goods strong{font-size:16px}.fireworks-breaking-goods p{font-size:12px}}
