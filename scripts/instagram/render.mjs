@@ -3,6 +3,8 @@
 import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { SCHEDULE_FILE, checkPost } from "./lib.mjs";
+import { cardV2Html, layoutProbe, langIssues, SAFE } from "./card-v2.mjs";
+import { artFiles } from "./art.mjs";
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -36,7 +38,7 @@ export async function fetchPhoto(url, fetchImpl = fetch) {
   return `data:image/jpeg;base64,${buf.toString("base64")}`;
 }
 
-export const specHash = (p) => createHash("sha1").update(JSON.stringify([p.cards, p.photo, p.art])).digest("hex").slice(0, 12);
+export const specHash = (p) => createHash("sha1").update(JSON.stringify([p.cards, p.photo, p.art, p.design, p.lang])).digest("hex").slice(0, 12);
 
 // Approved posts inside the horizon, plus drafts (so previews exist before approval).
 export function dueForRender(schedule, log, now, horizonH = 36) {
@@ -59,26 +61,47 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const schedule = JSON.parse(readFileSync(SCHEDULE_FILE, "utf8"));
   const log = existsSync(logPath) ? JSON.parse(readFileSync(logPath, "utf8")) : { posts: {} };
   const artDir = opt("--art") || "state/art";
+  const pngOut = opt("--png-out"); // PNG masters are large: kept as a workflow artifact, not committed
   const todo = dueForRender(schedule, log, new Date(), Number(opt("--horizon-h") ?? 36))
     .filter((p) => needsRender(p, outDir))
-    .filter((p) => !p.art || existsSync(`${artDir}/${p.id}.png`)); // AI art must be generated first
+    .filter((p) => !p.art || artFiles(p).every((f) => existsSync(`${artDir}/${f.file}`))); // AI art must be generated first
   if (args.includes("--list")) { console.log(todo.length); process.exit(0); }
   if (!todo.length) { console.log("Nothing to render."); process.exit(0); }
   const { chromium } = await import("playwright");
   const browser = await chromium.launch();
+  let qaFailed = 0;
   for (const p of todo) {
-    const photo = p.art ? `data:image/png;base64,${readFileSync(`${artDir}/${p.id}.png`).toString("base64")}` : await fetchPhoto(p.photo.url);
-    const credit = p.art ? p.art.credit : p.photo.credit;
     const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
     mkdirSync(`${outDir}/${p.id}`, { recursive: true });
-    for (let i = 0; i < p.cards.length; i++) {
-      await page.setContent(cardHtml(p.cards[i], photo, credit), { waitUntil: "networkidle" });
-      await page.evaluate(() => document.fonts.ready);
-      writeFileSync(`${outDir}/${p.id}/${String(i + 1).padStart(2, "0")}.jpg`, await page.screenshot({ type: "jpeg", quality: 92 }));
+    if (p.design === "v2") {
+      const files = artFiles(p);
+      const texts = p.cards.flatMap((c) => [c.title, c.body, c.cta, c.cat]).filter(Boolean).concat(p.caption);
+      const problems = langIssues(p.lang, texts).map((m) => `${p.id}: ${m}`);
+      for (let i = 0; i < p.cards.length; i++) {
+        const bg = `data:image/jpeg;base64,${readFileSync(`${artDir}/${files[i].file}`).toString("base64")}`;
+        await page.setContent(cardV2Html(p.cards[i], { bgDataUri: bg, lang: p.lang, index: i, total: p.cards.length, credit: p.art.credit }), { waitUntil: "networkidle" });
+        await page.evaluate(() => document.fonts.ready);
+        const bad = await page.evaluate(layoutProbe, { SAFE, isLast: i === p.cards.length - 1 });
+        bad.forEach((m) => problems.push(`${p.id} card ${i + 1}: ${m}`));
+        const n = String(i + 1).padStart(2, "0");
+        if (pngOut) { mkdirSync(`${pngOut}/${p.id}`, { recursive: true }); writeFileSync(`${pngOut}/${p.id}/${n}.png`, await page.screenshot({ type: "png" })); }
+        writeFileSync(`${outDir}/${p.id}/${n}.jpg`, await page.screenshot({ type: "jpeg", quality: 94 })); // Instagram accepts JPEG only
+      }
+      writeFileSync(`${outDir}/${p.id}/qa.json`, JSON.stringify({ ok: problems.length === 0, problems }, null, 1));
+      if (problems.length) { qaFailed++; problems.forEach((m) => console.log(`QA FAIL ${m}`)); }
+    } else {
+      const photo = p.art ? `data:image/jpeg;base64,${readFileSync(`${artDir}/${p.id}.jpg`).toString("base64")}` : await fetchPhoto(p.photo.url);
+      const credit = p.art ? p.art.credit : p.photo.credit;
+      for (let i = 0; i < p.cards.length; i++) {
+        await page.setContent(cardHtml(p.cards[i], photo, credit), { waitUntil: "networkidle" });
+        await page.evaluate(() => document.fonts.ready);
+        writeFileSync(`${outDir}/${p.id}/${String(i + 1).padStart(2, "0")}.jpg`, await page.screenshot({ type: "jpeg", quality: 92 }));
+      }
     }
     writeFileSync(`${outDir}/${p.id}/.hash`, specHash(p));
     await page.close();
     console.log(`rendered ${p.id}: ${p.cards.length} cards`);
   }
   await browser.close();
+  if (qaFailed) { console.log(`${qaFailed} post(s) failed layout QA (kept as draft previews).`); process.exit(0); }
 }
