@@ -1,1 +1,11 @@
-{ "sets": ["d01-fireworks-v2"] }
+{
+ "sets": [
+  "d01-fireworks-v2",
+  "d02-traffic",
+  "d03-packing",
+  "d04-return",
+  "d05-first-day",
+  "d06-airport",
+  "d07-transit"
+ ]
+}
