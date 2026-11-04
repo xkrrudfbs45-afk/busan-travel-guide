@@ -69,6 +69,111 @@
         "status": "needs_check",
         "note": "Date (Nov 7, 2026) confirmed on mcst.go.kr and the site guide; festival details may change."
       }
+    },
+    {
+      "id": "ig-us-2026-11-09-seafood",
+      "account": "US",
+      "status": "draft",
+      "publish_at_utc": "2026-11-09T23:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "prompt": "A seafood market stall: crushed ice with fresh fish and shellfish, small hand-written price tags, a kitchen scale, warm morning light.",
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "tag": "LOCAL FOOD · MARKET SMARTS",
+          "headline": [
+            "Before you order",
+            "seafood"
+          ],
+          "date_line": "Ask 3 things first"
+        },
+        {
+          "tag": "CHECK THE TOTAL",
+          "headline": [
+            "Price. Weight.",
+            "Extra fees."
+          ],
+          "date_line": "Agree before it is prepared",
+          "sub": "Table-setting and cooking fees can be separate"
+        }
+      ],
+      "caption": "Busan's seafood markets are worth visiting. Just agree on the details first. 🐟\n\nBefore anything is prepared, confirm the seafood and weight, the price, the preparation method, and any per-person table-setting or cooking fees. Ask for the total on a display or an order slip.\n\nFull local checklist and Korean phrases: link in bio (go2busan.com). Prices and fees vary by shop.\n\n#Busan #BusanTravel #KoreaTravel #VisitKorea #TravelKorea #Go2Busan #SeafoodMarket #KoreanFood #TravelTips #LocalGuide",
+      "verification": {
+        "status": "needs_check",
+        "note": "Content based on the site guide 'Jagalchi Market: How to Avoid Surprise Bills'. Illustration is generic (no real place)."
+      }
+    },
+    {
+      "id": "ig-us-2026-11-11-airport",
+      "account": "US",
+      "status": "draft",
+      "publish_at_utc": "2026-11-11T23:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "prompt": "A small suitcase and a transit card next to a folded paper city map and a train ticket, flat lay on a soft blue background.",
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "tag": "AIRPORT · ARRIVAL",
+          "headline": [
+            "Airport to",
+            "your hotel"
+          ],
+          "date_line": "Light rail + metro, or taxi?"
+        },
+        {
+          "tag": "QUICK ANSWER",
+          "headline": [
+            "Budget:",
+            "rail + metro"
+          ],
+          "date_line": "Heavy bags or late arrival: compare a taxi",
+          "sub": "Check live times for your landing"
+        }
+      ],
+      "caption": "Landing in Busan? Here is the simple version. ✈️\n\nOn a budget, compare the Gimhae light rail to Sasang, then Metro Line 2. With heavy luggage, a group or a late arrival, a taxi can be easier. Check the last train and bus times for your actual landing time.\n\nFull route guide: link in bio (go2busan.com). Routes, fares and hours can change.\n\n#Busan #BusanTravel #KoreaTravel #VisitKorea #TravelKorea #Go2Busan #GimhaeAirport #TravelTips #KoreaTransit",
+      "verification": {
+        "status": "needs_check",
+        "note": "Content based on the site guide 'Gimhae Airport to Haeundae'. Generic illustration."
+      }
+    },
+    {
+      "id": "ig-us-2026-11-13-eomuk",
+      "account": "US",
+      "status": "draft",
+      "publish_at_utc": "2026-11-13T23:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "prompt": "Skewered fish cakes in a steaming paper cup of broth, held in two hands, simple warm street-food scene.",
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "tag": "LOCAL FOOD HISTORY",
+          "headline": [
+            "Busan",
+            "Eomuk"
+          ],
+          "date_line": "More than a street snack"
+        },
+        {
+          "tag": "GOOD TO KNOW",
+          "headline": [
+            "A port-city",
+            "food story"
+          ],
+          "date_line": "A regional tradition, not one recipe",
+          "sub": "Fish, markets and small factories"
+        }
+      ],
+      "caption": "That fish cake skewer in a paper cup has a port-city story. 🍢\n\n'Busan eomuk' is a regional food and production tradition, not one single recipe or brand. Fish, busy markets and small workshops all shaped it. Our local guide covers the documented history with sources.\n\nLink in bio (go2busan.com).\n\n#Busan #BusanTravel #KoreaTravel #VisitKorea #TravelKorea #Go2Busan #Eomuk #KoreanStreetFood #FishCake #FoodHistory",
+      "verification": {
+        "status": "needs_check",
+        "note": "Content based on the site guide 'Busan Eomuk: The Port-City History of Korean Fish Cake'. Generic illustration."
+      }
     }
   ]
 }
