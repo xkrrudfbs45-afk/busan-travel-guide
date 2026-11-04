@@ -663,3 +663,29 @@
 .fireworks-breaking-goods .fireworks-breaking-goods-note{font-size:11px;color:#5d6678}
 .fireworks-breaking-goods a{display:inline-flex;align-items:center;gap:6px;margin-top:2px;color:#123c7a;font-size:12px;font-weight:800;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:760px){.fireworks-breaking-goods{width:calc(100% - 32px);margin:0 16px 20px;align-self:stretch;padding:16px}.fireworks-breaking-goods strong{font-size:16px}.fireworks-breaking-goods p{font-size:12px}}
+
+
+/* Editorial image relevance pass: prefer identifiable Busan locations and subjects over generic stock. */
+.home-refresh .home-hero-backdrop{
+  background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffd9 29%,#ffffff38 51%,#ffffff00 70%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1800");
+  background-position:center 54%;
+}
+.home-refresh .trend-hotel,
+.home-refresh .trend-stay{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Busan_City_Haeundae_Beach_KOGL_%2801%29.jpg");
+  background-position:center 54%;
+}
+.home-refresh .trend-market,
+.home-refresh .trend-jagalchi,
+.home-refresh .trend-food-stories{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Inside_Jagalchi_Fish_Market%2C_Busan.jpg/960px-Inside_Jagalchi_Fish_Market%2C_Busan.jpg");
+  background-position:center 48%;
+}
+.home-refresh .trend-food{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Dwaeji-gukbap_1.jpg?width=1000");
+  background-position:center 52%;
+}
+.home-refresh .trend-pnu-food{
+  background-image:url("https://images.unsplash.com/photo-1498654896293-37a9628c964e?auto=format&fit=crop&w=900&q=82");
+  background-position:center 52%;
+}
