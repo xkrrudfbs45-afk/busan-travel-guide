@@ -744,3 +744,19 @@
   .offline-address-card input,.offline-address-card textarea{border:1px solid #777;min-height:32px}
   .offline-card-button,.offline-address-card .source-note{display:none!important}
 }
+
+/* Contextual Visit Busan Pass conversion panel */
+.pass-conversion-cta{display:flex;align-items:center;justify-content:space-between;gap:28px;max-width:1120px;box-sizing:border-box;margin:40px auto;padding:26px 28px;border:1px solid #cddfe2;border-radius:12px;background:linear-gradient(120deg,#f0f8f7 0%,#f8fbfd 70%,#fff 100%)}
+.pass-cta-copy{max-width:700px}
+.pass-cta-kicker{font-size:10px!important;line-height:1.5!important;letter-spacing:.13em;font-weight:850;color:#176b65;margin:0 0 7px!important}
+.pass-cta-copy h2{font-size:clamp(21px,2.5vw,29px);line-height:1.2;letter-spacing:-.035em;color:#172e31;margin:0 0 10px}
+.pass-cta-copy>p:not(.pass-cta-kicker):not(.pass-cta-disclosure){font-size:13px;line-height:1.75;color:#50656b;margin:0 0 8px}
+.pass-cta-disclosure{font-size:11px!important;line-height:1.6!important;color:#6c7b80;margin:0!important}
+.pass-cta-actions{display:flex;flex:0 0 235px;flex-direction:column;gap:9px}
+.pass-cta-primary,.pass-cta-secondary{display:block;box-sizing:border-box;text-align:center;text-decoration:none!important;border-radius:6px;padding:12px 14px;font-size:12px;font-weight:800;line-height:1.45}
+.pass-cta-primary{background:#176b65;color:#fff!important;border:1px solid #176b65}
+.pass-cta-primary:hover{background:#104e4a;border-color:#104e4a}
+.pass-cta-secondary{background:#fff;color:#176b65!important;border:1px solid #b8d1ce}
+.pass-cta-secondary:hover{background:#edf6f4}
+@media(max-width:720px){.pass-conversion-cta{display:block;margin:28px 16px;padding:21px 18px}.pass-cta-actions{margin-top:17px;display:grid;grid-template-columns:1fr}.pass-cta-copy h2{font-size:23px}}
+@media(min-width:721px){.pass-conversion-cta{margin-left:auto;margin-right:auto;width:calc(100% - 48px)}}
