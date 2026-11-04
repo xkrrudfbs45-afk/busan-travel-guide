@@ -9,7 +9,7 @@ import { cardHtml, dueForRender } from "./render.mjs";
 const schedule = JSON.parse(readFileSync("content/social/instagram/schedule.json", "utf8"));
 const scheduledPost = schedule.posts[0];
 const post = { ...scheduledPost, verification: { ...scheduledPost.verification, status: "verified" } };
-const verifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === post.id ? post : p) };
+const verifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.status === "approved" ? { ...p, verification: { ...p.verification, status: "verified" } } : p) };
 const after = new Date(new Date(post.publish_at_utc).getTime() + 60000);
 
 test("unverified approved post is blocked from rendering and publishing", async () => {
@@ -51,7 +51,7 @@ test("live: publishes carousel in order and logs it", async () => {
   });
   const f = async () => ({ status: 200, headers: { get: () => "image/jpeg" } });
   const log = { posts: {} };
-  const s = await run({ now: after, schedule, log, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk, fetchImpl: f, waitMs: 0 });
+  const s = await run({ now: after, schedule: verifiedSchedule, log, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk, fetchImpl: f, waitMs: 0 });
   assert.equal(s.published.length, 1); assert.equal(log.posts[post.id].status, "published");
   assert.deepEqual(calls.map((c) => c[0]), ["child", "child", "carousel", "publish"]);
 });
