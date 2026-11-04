@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "note": "Instagram carousel schedule. A post publishes only when status is \"approved\" AND repository variable INSTAGRAM_LIVE is exactly \"true\". Otherwise every run is a dry run.",
+  "posts": [
+    {
+      "id": "ig-us-fireworks-2026",
+      "account": "US",
+      "status": "approved",
+      "publish_at_utc": "2026-11-05T23:00:00.000Z",
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/The_Busan_International_Fireworks_Festival.jpg/1280px-The_Busan_International_Fireworks_Festival.jpg",
+        "credit": "Photo: Busan Metropolitan City / Wikimedia Commons · CC BY-SA 4.0",
+        "source_page": "https://commons.wikimedia.org/wiki/File:The_Busan_International_Fireworks_Festival.jpg"
+      },
+      "cards": [
+        { "tag": "2026 · 21ST EDITION", "headline": ["Busan Fireworks", "Festival"], "date_line": "Saturday · November 7" },
+        { "tag": "SAVE THE DATE", "headline": ["Nov 7"], "date_line": "Gwangalli, Busan", "sub": "Full local guide: go2busan.com" }
+      ],
+      "caption": "Busan Fireworks Festival is this Saturday, Nov 7. 🎆\n\nSwipe for the date and where to watch. Our local guide covers viewing areas (Gwangalli, Igidae, Dongbaekseom), how to get home by subway, and how to avoid surprise charges. Link in bio: go2busan.com\n\nDetails can change, so check the official festival notices on the day.\n\nPhoto: Busan Metropolitan City / Wikimedia Commons (CC BY-SA 4.0)\n\n#BusanFireworks #BusanFireworksFestival #Busan #Gwangalli #KoreaTravel #VisitKorea #BusanTravel #TravelKorea #Gwangandaegyo #Go2Busan",
+      "verification": { "status": "needs_check", "note": "Date (Nov 7, 2026) confirmed on mcst.go.kr and the site guide; festival details may change." }
+    }
+  ]
+}
