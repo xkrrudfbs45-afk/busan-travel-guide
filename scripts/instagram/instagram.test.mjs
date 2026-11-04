@@ -8,16 +8,21 @@ import { cardHtml, dueForRender } from "./render.mjs";
 
 const schedule = JSON.parse(readFileSync("content/social/instagram/schedule.json", "utf8"));
 const scheduledPost = schedule.posts[0];
-const post = { ...scheduledPost, verification: { ...scheduledPost.verification, status: "verified" } };
-const verifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.status === "approved" ? { ...p, verification: { ...p.verification, status: "verified" } } : p) };
+const unverifiedApprovedPost = { ...scheduledPost, status: "approved" };
+const unverifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === scheduledPost.id ? unverifiedApprovedPost : p) };
+const post = { ...unverifiedApprovedPost, verification: { ...unverifiedApprovedPost.verification, status: "verified" } };
+const verifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === post.id ? post : p) };
 const after = new Date(new Date(post.publish_at_utc).getTime() + 60000);
 
+test("schedule never labels an unverified post approved", () => {
+  assert.ok(schedule.posts.every((p) => p.status !== "approved" || p.verification?.status === "verified"));
+});
 test("unverified approved post is blocked from rendering and publishing", async () => {
-  assert.ok(checkPost(scheduledPost).some((i) => /verification.status=verified/.test(i)));
-  assert.equal(dueForRender(schedule, { posts: {} }, after).some((p) => p.id === scheduledPost.id), false);
+  assert.ok(checkPost(unverifiedApprovedPost).some((i) => /verification.status=verified/.test(i)));
+  assert.equal(dueForRender(unverifiedSchedule, { posts: {} }, after).some((p) => p.id === scheduledPost.id), false);
   assert.equal(checkPost(post).length, 0);
   const s = await run({
-    now: after, schedule, log: { posts: {} },
+    now: after, schedule: unverifiedSchedule, log: { posts: {} },
     env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" },
     baseUrl: "https://x",
     mkClient: () => { throw new Error("unverified post must not call Instagram API"); }
