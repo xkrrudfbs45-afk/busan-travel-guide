@@ -1551,5 +1551,60 @@
       "east coast",
       "local food"
     ]
+  },
+  {
+    "title": "BTS Busan Travel Guide: Jimin, Jung Kook & ARMY Spots",
+    "url": "/guides/bts-busan-fan-travel-guide/",
+    "summary": "Plan a BTS-inspired Busan trip with fan murals, coastal views, local market food and practical route tips.",
+    "tags": [
+      "BTS Busan",
+      "BTS travel",
+      "ARMY",
+      "Jimin Busan",
+      "Jung Kook Busan",
+      "Jungkook Busan",
+      "K-pop attractions",
+      "BTS mural",
+      "Gamcheon Culture Village",
+      "Dadaepo Beach",
+      "Oryukdo Skywalk",
+      "Seodong Miro Market",
+      "ZM-ILLENNIAL",
+      "MAGNATE",
+      "Busan fan tour",
+      "BTS hometown",
+      "釜山 BTS",
+      "釜山 BTS 聖地"
+    ]
+  },
+  {
+    "title": "BTS釜山聖地巡りガイド",
+    "url": "/ja/guides/bts-busan-fan-travel-guide/",
+    "summary": "BTSゆかりの壁画、海辺の夕日、市場グルメを巡る釜山旅行ガイド。",
+    "tags": [
+      "BTS 釜山",
+      "釜山 聖地巡り",
+      "ジミン 釜山",
+      "ジョングク 釜山",
+      "甘川文化村",
+      "多大浦海水浴場",
+      "五六島スカイウォーク",
+      "西洞ミロ市場"
+    ]
+  },
+  {
+    "title": "BTS 釜山朝聖旅遊指南",
+    "url": "/zh-tw/guides/bts-busan-fan-travel-guide/",
+    "summary": "整理 BTS 相關壁畫、海邊夕陽、市場美食與釜山交通規劃。",
+    "tags": [
+      "BTS 釜山",
+      "釜山朝聖",
+      "Jimin 釜山",
+      "Jung Kook 釜山",
+      "甘川文化村",
+      "多大浦海水浴場",
+      "五六島天空步道",
+      "西洞迷路市場"
+    ]
   }
 ]
