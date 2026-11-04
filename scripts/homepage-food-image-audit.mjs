@@ -30,7 +30,7 @@ for (const path of foodGuidePaths) {
   // Match the image inside the exact card anchor. A plain href-to-image regex can
   // accidentally cross </a> and borrow an unrelated card's image when earlier
   // homepage discovery links point to the same guide.
-  const anchor = homepageAnchors.find((html) => (html.match(/\bhref="([^"]+)"/i) || [])[1] === path);
+  const anchor = homepageAnchors.find((html) => (html.match(/\bhref="([^"]+)"/i) || [])[1] === path && html.includes('class="trend-image '));
   const match = anchor?.match(/<div class="trend-image ([^"]+)"/);
   if (!match) throw new Error("Homepage food guide card missing or has no image class: " + path);
   const classes = match[1].split(/\s+/).filter(name => name.startsWith("trend-"));
