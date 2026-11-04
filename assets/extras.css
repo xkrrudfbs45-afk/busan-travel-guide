@@ -1,0 +1,23 @@
+/* Go2Busan shared enhancements (linked from every page by scripts/enhance-public-extras.mjs). */
+html{scroll-padding-top:84px;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+:where(a,button,summary,input,select,textarea,[tabindex]):focus-visible{outline:3px solid #2f6ecb;outline-offset:2px;border-radius:3px}
+.skip-link:focus{position:fixed;left:12px;top:12px;z-index:1000}
+.page-updated{margin:14px 0 0;font-size:13px;color:#647476}
+.page-updated time{font-weight:600}
+.footer-social{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin:14px 0 0;font-size:14px}
+.footer-social span{color:#9fb0c0}
+.footer-social a{color:#c2d0dc;text-decoration:underline;text-underline-offset:3px}
+.footer-social a:hover{color:#fff}
+@media (pointer:coarse){
+  .footer-links a,.footer-social a{display:inline-flex;align-items:center;min-height:44px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}
+@media print{
+  .site-header,.site-footer,.skip-link,#analytics-consent-banner,.analytics-consent,.partner-cta-grid,.pass-conversion-cta,.language-switch,#site-search{display:none!important}
+  body{background:#fff!important;color:#000!important}
+  .article-body a[href^="http"]::after{content:" (" attr(href) ")";font-size:.85em;word-break:break-all}
+  .article-body h2,.article-body h3{break-after:avoid}
+  .article-body table,.article-body figure,.callout{break-inside:avoid}
+}
