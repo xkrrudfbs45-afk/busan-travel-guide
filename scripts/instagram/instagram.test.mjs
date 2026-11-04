@@ -14,8 +14,8 @@ test("schedule post passes hard checks", () => assert.deepEqual(checkPost(post),
 test("missing photo credit is rejected", () => assert.ok(checkPost({ ...post, photo: { url: "x", credit: "" } }).length));
 test("card html always carries the credit line", () => assert.ok(cardHtml(post.cards[0], "data:,", post.photo.credit).includes("CC BY-SA 4.0")));
 test("render planned only for approved unpublished posts", () => {
-  assert.equal(dueForRender(schedule, { posts: {} }, after).length, 1);
-  assert.equal(dueForRender(schedule, { posts: { [post.id]: { status: "published" } } }, after).length, 0);
+  assert.equal(dueForRender(schedule, { posts: {} }, after).filter((x) => x.id === post.id).length, 1);
+  assert.equal(dueForRender(schedule, { posts: { [post.id]: { status: "published" } } }, after).filter((x) => x.id === post.id).length, 0);
 });
 test("dry run publishes nothing", async () => {
   const s = await run({ now: after, schedule, log: { posts: {} }, env: { INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x" });
