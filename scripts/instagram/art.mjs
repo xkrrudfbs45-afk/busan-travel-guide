@@ -28,11 +28,16 @@ export const artFiles = (p) => p.art.prompts
   ? p.art.prompts.map((prompt, i) => ({ file: `${p.art.set}-${String(i + 1).padStart(2, "0")}.jpg`, prompt, style: p.art.stylized ? STYLE_PLACE : STYLE }))
   : [{ file: `${p.id}.jpg`, prompt: p.art.prompt, style: STYLE }];
 
-export function artTodo(schedule, artDir) {
+// Optional gate file: {"sets": ["d01-fireworks"]} limits generation to those background sets (staged rollout, controls API spend).
+export const ART_GATE_FILE = "content/social/instagram/art-gate.json";
+const gate = () => (existsSync(ART_GATE_FILE) ? JSON.parse(readFileSync(ART_GATE_FILE, "utf8")).sets : null);
+
+export function artTodo(schedule, artDir, allowed = gate()) {
   const seen = new Set();
   const out = [];
   for (const p of schedule.posts) {
     if (!((p.status === "draft" || p.status === "approved") && p.art && checkPost(p).length === 0)) continue;
+    if (allowed && p.art.set && !allowed.includes(p.art.set)) continue;
     for (const f of artFiles(p)) if (!seen.has(f.file) && !existsSync(`${artDir}/${f.file}`)) { seen.add(f.file); out.push({ id: p.id, ...f }); }
   }
   return out;

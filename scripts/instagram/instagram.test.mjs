@@ -101,3 +101,10 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
     assert.equal(new Set(ps.map((p) => p.art.prompts.join("|"))).size, 1);
   }
 });
+
+test("art gate limits generation to listed sets", () => {
+  const all = artTodo(realSchedule, "/nonexistent", null).filter((t) => /^d\d\d-/.test(t.file)).length;
+  const one = artTodo(realSchedule, "/nonexistent", ["d01-fireworks"]).filter((t) => /^d\d\d-/.test(t.file));
+  assert.equal(all, 35);
+  assert.equal(one.length, 5);
+});
