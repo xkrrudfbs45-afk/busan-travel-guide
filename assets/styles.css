@@ -689,3 +689,30 @@
   background-image:url("https://images.unsplash.com/photo-1498654896293-37a9628c964e?auto=format&fit=crop&w=900&q=82");
   background-position:center 52%;
 }
+
+
+/* Correct mismatched food-card photography: every image should match the linked Busan topic. */
+.home-refresh .trend-local-food{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Inside_Jagalchi_Fish_Market%2C_Busan.jpg?width=1000");
+  background-position:center 48%;
+}
+.home-refresh .trend-pnu-food{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Korean_food_table.jpg?width=1000");
+  background-position:center 52%;
+}
+.home-refresh .trend-nakgopsae{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Nakji-bokkeum.jpg?width=1000");
+  background-position:center 52%;
+}
+.home-refresh .trend-makgeolli{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Makgeolli.jpg?width=1000");
+  background-position:center 52%;
+}
+.home-refresh .trend-mountain-food{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Korean_food_table.jpg?width=1000");
+  background-position:center 52%;
+}
+.home-refresh .trend-temple-food{
+  background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Korean_temple_cuisine.jpg?width=1000");
+  background-position:center 52%;
+}
