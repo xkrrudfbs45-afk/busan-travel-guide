@@ -56,7 +56,7 @@ const ASSET_VERSION = (process.env.RENDER_GIT_COMMIT || (() => {
 for (const f of files) {
   let h = readFileSync(f, "utf8");
   const before = h;
-  h = h.replace(/((?:href|src)=["\'])(\/assets\/[^"\']+?\\.(?:css|js))(?:\\?[^"\']*)?(["\'])/g, (_match, prefix, assetPath, suffix) => `${prefix}${assetPath}?v=${ASSET_VERSION}${suffix}`);
+  h = h.replace(/((?:href|src)=["'])(\/assets\/[^"']+?\.(?:css|js))(?:\?[^"']*)?(["'])/g, (_match, prefix, assetPath, suffix) => `${prefix}${assetPath}?v=${ASSET_VERSION}${suffix}`);
   const path = urlPath(f);
   const noindex = /<meta[^>]+name="robots"[^>]+noindex/i.test(h);
   const mainAt = h.indexOf("<main");
