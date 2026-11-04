@@ -28,7 +28,7 @@ for (const path of foodGuidePaths) {
   // Match a complete anchor by its exact href. A page-wide lookahead can
   // accidentally associate a later image with the wrong card after markup changes.
   const anchors = [...home.matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)];
-  const anchor = anchors.find(([, href]) => href === path);
+  const anchor = anchors.find(([, href, inner]) => href === path && /<div class="trend-image /.test(inner));
   if (!anchor) throw new Error("Homepage food guide card missing: " + path);
   const imageMatch = anchor[2].match(/<div class="trend-image ([^"]+)"/);
   if (!imageMatch) throw new Error("Homepage food guide card has no image class: " + path);
