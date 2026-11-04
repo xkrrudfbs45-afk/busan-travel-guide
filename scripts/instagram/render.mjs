@@ -1,6 +1,7 @@
 // Renders Instagram carousel cards (1080x1350 JPEG) from a real, licensed photo.
 // Runs in GitHub Actions: the photo is downloaded on the runner and the credit line is always drawn.
 import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { SCHEDULE_FILE, checkPost } from "./lib.mjs";
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -35,10 +36,19 @@ export async function fetchPhoto(url, fetchImpl = fetch) {
   return `data:image/jpeg;base64,${buf.toString("base64")}`;
 }
 
+export const specHash = (p) => createHash("sha1").update(JSON.stringify([p.cards, p.photo, p.art])).digest("hex").slice(0, 12);
+
+// Approved posts inside the horizon, plus drafts (so previews exist before approval).
 export function dueForRender(schedule, log, now, horizonH = 36) {
-  return schedule.posts.filter((p) => p.status === "approved" && log.posts?.[p.id]?.status !== "published" &&
-    log.posts?.[p.id]?.status !== "missed" && checkPost(p).length === 0 &&
-    new Date(p.publish_at_utc) - now < horizonH * 3600e3);
+  return schedule.posts.filter((p) => (p.status === "draft" || p.status === "approved") &&
+    !["published", "missed"].includes(log.posts?.[p.id]?.status) && checkPost(p).length === 0 &&
+    (p.status === "draft" || new Date(p.publish_at_utc) - now < horizonH * 3600e3));
+}
+
+// Skip posts whose cards are already rendered for the current spec.
+export function needsRender(p, outDir) {
+  const f = `${outDir}/${p.id}/.hash`;
+  return !(existsSync(f) && readFileSync(f, "utf8").trim() === specHash(p));
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -48,20 +58,25 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const logPath = opt("--log") || "state/publish-log.json";
   const schedule = JSON.parse(readFileSync(SCHEDULE_FILE, "utf8"));
   const log = existsSync(logPath) ? JSON.parse(readFileSync(logPath, "utf8")) : { posts: {} };
-  const todo = dueForRender(schedule, log, new Date(), Number(opt("--horizon-h") ?? 36));
+  const artDir = opt("--art") || "state/art";
+  const todo = dueForRender(schedule, log, new Date(), Number(opt("--horizon-h") ?? 36))
+    .filter((p) => needsRender(p, outDir))
+    .filter((p) => !p.art || existsSync(`${artDir}/${p.id}.png`)); // AI art must be generated first
   if (args.includes("--list")) { console.log(todo.length); process.exit(0); }
   if (!todo.length) { console.log("Nothing to render."); process.exit(0); }
   const { chromium } = await import("playwright");
   const browser = await chromium.launch();
   for (const p of todo) {
-    const photo = await fetchPhoto(p.photo.url);
+    const photo = p.art ? `data:image/png;base64,${readFileSync(`${artDir}/${p.id}.png`).toString("base64")}` : await fetchPhoto(p.photo.url);
+    const credit = p.art ? p.art.credit : p.photo.credit;
     const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
     mkdirSync(`${outDir}/${p.id}`, { recursive: true });
     for (let i = 0; i < p.cards.length; i++) {
-      await page.setContent(cardHtml(p.cards[i], photo, p.photo.credit), { waitUntil: "networkidle" });
+      await page.setContent(cardHtml(p.cards[i], photo, credit), { waitUntil: "networkidle" });
       await page.evaluate(() => document.fonts.ready);
       writeFileSync(`${outDir}/${p.id}/${String(i + 1).padStart(2, "0")}.jpg`, await page.screenshot({ type: "jpeg", quality: 92 }));
     }
+    writeFileSync(`${outDir}/${p.id}/.hash`, specHash(p));
     await page.close();
     console.log(`rendered ${p.id}: ${p.cards.length} cards`);
   }

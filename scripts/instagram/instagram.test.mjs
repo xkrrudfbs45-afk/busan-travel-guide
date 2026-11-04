@@ -41,3 +41,18 @@ test("live: publishes carousel in order and logs it", async () => {
   assert.equal(s.published.length, 1); assert.equal(log.posts[post.id].status, "published");
   assert.deepEqual(calls.map((c) => c[0]), ["child", "child", "carousel", "publish"]);
 });
+
+import { generateArt, artTodo } from "./art.mjs";
+const aiPost = { ...post, id: "ig-us-art-test", art: { type: "ai", prompt: "A bowl of fish cake soup on a table, steam rising", credit: "Illustration: AI-generated · Go2Busan" }, photo: undefined };
+test("AI art post passes; real place names in the prompt are refused", () => {
+  assert.deepEqual(checkPost(aiPost), []);
+  assert.ok(checkPost({ ...aiPost, art: { ...aiPost.art, prompt: "Gwangan Bridge at night" } }).some((i) => /real place/.test(i)));
+  assert.ok(checkPost({ ...aiPost, art: { ...aiPost.art, credit: "Go2Busan" } }).some((i) => /AI-generated/.test(i)));
+});
+test("art generation: decodes image, reports API errors, skips existing files", async () => {
+  const ok = async () => ({ ok: true, status: 200, json: async () => ({ data: [{ b64_json: Buffer.from("png").toString("base64") }] }) });
+  assert.equal((await generateArt("x", { key: "k", fetchImpl: ok })).toString(), "png");
+  const bad = async () => ({ ok: false, status: 401, json: async () => ({ error: { message: "bad key" } }) });
+  await assert.rejects(generateArt("x", { key: "k", fetchImpl: bad }), /401/);
+  assert.equal(artTodo({ posts: [aiPost] }, "/nonexistent").length, 1);
+});
