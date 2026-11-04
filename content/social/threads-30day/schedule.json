@@ -126,20 +126,34 @@
       "local_date": "2026-11-04",
       "local_time": "18:00",
       "tz": "America/New_York",
-      "publish_at_utc": "2026-11-04T23:00:00.000Z",
-      "text": "Before planning every hour in Busan, choose your top three must-dos. Build around those and leave a little room for an unexpected café, market, or sea view. A good itinerary should feel like a trip, not a checklist.",
+      "publish_at_utc": "2026-11-04T12:20:00.000Z",
+      "text": "Busan Fireworks Festival is this Saturday, Nov 7. 🎆\nThree viewing areas to know: Gwangalli Beach for the classic Gwangan Bridge view and the biggest crowd, Igidae for a more distant view across the bay, and Dongbaekseom for a Haeundae-side perspective.\nLocal tip: take the subway (Gwangan Station, Line 2, Exit 3 for Gwangalli) and don’t plan on parking near the beach. Pick a meeting point outside the densest area too.\nWhich would you choose: the atmosphere or the wider view?",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "specific date / event"
+        ],
+        "verified_by": "Claude (owner-directed, 2026-11-04)",
+        "verified_at": "2026-11-04T12:15:00.000Z",
+        "note": "Date Nov 7 2026 confirmed on Korean Ministry of Culture festival page (mcst.go.kr festivalView pSeq=11935) and the site guide updated 2026-11-03; no clock times or prices in copy"
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat request 2026-11-04)",
+        "at": "2026-11-04T12:15:00.000Z",
+        "reason": "Time-sensitive: Busan Fireworks Festival on 2026-11-07; pulled forward to publish now",
+        "original_text": "Before planning every hour in Busan, choose your top three must-dos. Build around those and leave a little room for an unexpected café, market, or sea view. A good itinerary should feel like a trip, not a checklist.",
+        "original_publish_at_utc": "2026-11-04T23:00:00.000Z"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=fireworks",
+        "text": "Where to watch, how to get there and what to check first 👇\nhttps://go2busan.com/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=fireworks"
+      }
     },
     {
       "id": "d02-jp-1",
@@ -151,20 +165,34 @@
       "local_date": "2026-11-05",
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
-      "publish_at_utc": "2026-11-04T23:00:00.000Z",
-      "text": "旅行は予定ぎっしり派？ それとも、気になる路地に入ったりカフェで休んだりする余白もほしい派？ 釜山は、行くエリアを絞ると自分らしいペースを作りやすい街です。",
+      "publish_at_utc": "2026-11-04T12:20:00.000Z",
+      "text": "釜山の花火祭りは今週土曜、11月7日です🎆\n見どころは3エリア。広安里ビーチは広安大橋を望む定番の景色で、雰囲気は抜群ですが人出も多めです。二妓台(イギデ)は湾の向こうから眺める少し離れた景色、冬柏島は海雲台側からの景色です。\n現地のコツは、地下鉄2号線の広安駅(3番出口)を使うこと。ビーチ周辺の駐車は想定しないほうが安全です。人混みの外で集合場所を決めておくのもおすすめです。\nあなたなら「雰囲気」と「広い眺め」、どちらを選びますか？",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "specific date / event"
+        ],
+        "verified_by": "Claude (owner-directed, 2026-11-04)",
+        "verified_at": "2026-11-04T12:15:00.000Z",
+        "note": "Date Nov 7 2026 confirmed on Korean Ministry of Culture festival page (mcst.go.kr festivalView pSeq=11935) and the site guide updated 2026-11-03; no clock times or prices in copy"
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat request 2026-11-04)",
+        "at": "2026-11-04T12:15:00.000Z",
+        "reason": "Time-sensitive: Busan Fireworks Festival on 2026-11-07; pulled forward to publish now",
+        "original_text": "旅行は予定ぎっしり派？ それとも、気になる路地に入ったりカフェで休んだりする余白もほしい派？ 釜山は、行くエリアを絞ると自分らしいペースを作りやすい街です。",
+        "original_publish_at_utc": "2026-11-04T23:00:00.000Z"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=fireworks",
+        "text": "花火祭りの見どころ・行き方・注意点はこちら👇\nhttps://go2busan.com/ja/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=fireworks"
+      }
     },
     {
       "id": "d02-jp-2",
@@ -3139,14 +3167,17 @@
       "local_date": "2026-11-05",
       "local_time": "08:00",
       "tz": "Asia/Taipei",
-      "publish_at_utc": "2026-11-05T00:00:00.000Z",
-      "text": "釜山自由行的小建議：一天專心逛一個區域就好。少花時間在城市兩端來回移動，就有更多時間吃美食、看海、發現路邊的小驚喜。你去釜山最想做的是什麼？美食、看海、文化，還是逛街？",
+      "publish_at_utc": "2026-11-04T12:20:00.000Z",
+      "text": "釜山煙火節就在這週六，11月7日！🎆\n先認識三個觀賞區：廣安里海灘有經典的廣安大橋景觀，氣氛熱鬧、人潮也多；二妓台能隔著海灣遠眺；冬柏島則是海雲台這一側的視角。\n在地小提醒：建議搭地鐵2號線到廣安站（3號出口），不要打算在海灘附近停車。也先跟同行的人約好人潮以外的集合點。\n你會選氣氛，還是更開闊的視野？",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "specific date / event"
+        ],
+        "verified_by": "Claude (owner-directed, 2026-11-04)",
+        "verified_at": "2026-11-04T12:15:00.000Z",
+        "note": "Date Nov 7 2026 confirmed on Korean Ministry of Culture festival page (mcst.go.kr festivalView pSeq=11935) and the site guide updated 2026-11-03; no clock times or prices in copy"
       },
       "approval": {
         "approved_by": "Tak",
@@ -3154,8 +3185,15 @@
       },
       "status": "approved",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day01",
-        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day01"
+        "url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=fireworks",
+        "text": "觀賞區、交通與注意事項請看 Go2Busan 指南👇\nhttps://go2busan.com/zh-tw/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=fireworks"
+      },
+      "replacement": {
+        "by": "Tak (chat request 2026-11-04)",
+        "at": "2026-11-04T12:15:00.000Z",
+        "reason": "Time-sensitive: Busan Fireworks Festival on 2026-11-07; pulled forward to publish now",
+        "original_text": "釜山自由行的小建議：一天專心逛一個區域就好。少花時間在城市兩端來回移動，就有更多時間吃美食、看海、發現路邊的小驚喜。你去釜山最想做的是什麼？美食、看海、文化，還是逛街？",
+        "original_publish_at_utc": "2026-11-05T00:00:00.000Z"
       }
     },
     {
