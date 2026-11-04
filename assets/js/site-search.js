@@ -157,7 +157,9 @@
     if (!query) return;
     const terms = query.split(/\s+/).filter(Boolean);
     const index = await getIndex();
-    const matches = index
+    // The shared index contains localized entries too; keep English results in English.
+    const englishIndex = index.filter((item) => !/^\/(?:ja|zh-tw)\//i.test(item.url || ''));
+    const matches = englishIndex
       .map((item) => ({ item, score: scoreItem(item, query, terms) }))
       .filter((entry) => entry.score > 0)
       .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))

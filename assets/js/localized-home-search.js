@@ -26,6 +26,20 @@
     .replace(/\s+/g, ' ')
     .trim();
 
+  let indexPromise;
+  const getIndex = () => {
+    if (!indexPromise) {
+      indexPromise = fetch('/assets/data/search-index.json', { credentials: 'same-origin' })
+        .then((response) => {
+          if (!response.ok) throw new Error('Search index unavailable');
+          return response.json();
+        })
+        .then((items) => Array.isArray(items) ? items : [])
+        .catch(() => []);
+    }
+    return indexPromise;
+  };
+
   const cards = Array.from(document.querySelectorAll('#guides .trend-card'))
     .map((anchor) => {
       const titleNode = anchor.querySelector('.trend-copy h3');
@@ -122,21 +136,31 @@
     });
   });
 
-  form.addEventListener('submit', (event) => {
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const query = normalize(input.value);
     if (!query) return;
-    const terms = query.split(' ').filter(Boolean);
-    const matches = cards
+    const terms = query.split(/\s+/).filter(Boolean);
+    const allItems = await getIndex();
+    const localePrefix = isJapanese ? '/ja/' : '/zh-tw/';
+    const localizedItems = allItems.filter((item) => (item.url || '').startsWith(localePrefix));
+    const sourceItems = localizedItems.length ? localizedItems : cards;
+    const matches = sourceItems
       .map((item) => {
-        const score = terms.reduce((total, term) => {
-          if (normalize(item.title).includes(term)) return total + 4;
-          if (item.text.includes(term)) return total + 1;
-          return total;
-        }, 0);
+        const title = normalize(item.title);
+        const summary = normalize(item.summary);
+        const tags = normalize((item.tags || []).join(' '));
+        const searchable = title + ' ' + summary + ' ' + tags;
+        let score = title === query ? 100 : (title.includes(query) ? 30 : 0);
+        for (const term of terms) {
+          if (title.includes(term)) score += 10;
+          if (tags.includes(term)) score += 5;
+          if (summary.includes(term)) score += 2;
+          if (!searchable.includes(term)) score = 0;
+        }
         return { item, score };
       })
-      .filter((entry) => entry.score > 0 && terms.every((term) => entry.item.text.includes(term)))
+      .filter((entry) => entry.score > 0)
       .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))
       .slice(0, 8)
       .map((entry) => entry.item);
