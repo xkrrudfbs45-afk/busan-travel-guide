@@ -1,0 +1,84 @@
+name: Instagram publisher (Go2Busan)
+
+# SNS automation only; independent of the site build/deploy.
+# - reads the reviewed schedule from main (content/social/instagram/schedule.json)
+# - renders 1080x1350 cards on the runner and stores them + the publish log on the
+#   `instagram-state` branch (public URLs required by the Instagram API).
+# Live posting happens only when repository variable INSTAGRAM_LIVE is exactly "true".
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-publisher
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tests (block publishing on failure)
+        run: node --test scripts/instagram/instagram.test.mjs
+
+      - name: Check out state branch
+        run: |
+          if git ls-remote --exit-code --heads origin instagram-state >/dev/null; then
+            git fetch --depth 1 origin instagram-state
+            git worktree add state FETCH_HEAD
+          else
+            git worktree add --detach state
+            git -C state checkout --orphan instagram-state
+            git -C state rm -rf --quiet . || true
+          fi
+
+      - name: Check whether cards need rendering
+        id: plan
+        run: echo "count=$(node scripts/instagram/render.mjs --list)" >> "$GITHUB_OUTPUT"
+
+      - name: Render cards
+        if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
+        run: |
+          npm install --no-save --no-audit --no-fund playwright@1.49.1
+          npx playwright install --with-deps chromium
+          node scripts/instagram/render.mjs --out state/cards
+
+      - name: Push cards (public image URLs)
+        if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
+        run: |
+          cd state
+          git add cards
+          git diff --cached --quiet && exit 0
+          git -c user.name="go2busan-bot" -c user.email="actions@users.noreply.github.com" commit -q -m "Instagram cards $(date -u +%FT%TZ)"
+          git push -q origin HEAD:refs/heads/instagram-state
+
+      - name: Publish due posts
+        env:
+          INSTAGRAM_LIVE: ${{ vars.INSTAGRAM_LIVE }}
+          INSTAGRAM_US_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_US_ACCESS_TOKEN }}
+          INSTAGRAM_JP_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_JP_ACCESS_TOKEN }}
+          INSTAGRAM_TW_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_TW_ACCESS_TOKEN }}
+        run: node scripts/instagram/publish.mjs --log state/publish-log.json
+
+      - name: Save publish log
+        if: always() && vars.INSTAGRAM_LIVE == 'true'
+        run: |
+          cd state
+          [ -f publish-log.json ] || exit 0
+          git add publish-log.json
+          git diff --cached --quiet && exit 0
+          git -c user.name="go2busan-bot" -c user.email="actions@users.noreply.github.com" commit -q -m "Instagram publish log $(date -u +%FT%TZ)"
+          git push -q origin HEAD:refs/heads/instagram-state
