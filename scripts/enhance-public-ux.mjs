@@ -19,9 +19,9 @@ const ASSET_VERSION = (process.env.RENDER_GIT_COMMIT || (() => {
 })()).slice(0, 12);
 
 const T = {
-  en: { keep: "Keep exploring", recent: "Recently updated guides", follow: "Follow Go2Busan for new guides", feed: "Go2Busan guides", rss: "Subscribe via feed", lang: "en", src: "Sources for this guide", srcNote: "Go2Busan's last update", srcWarn: "Prices, hours and timetables change. Confirm them at the source before you go.", srcBy: "Updated date is when Go2Busan last edited this page, not a guarantee that every detail was re-checked." },
-  ja: { keep: "あわせて読みたい", recent: "最近更新したガイド", follow: "新しいガイドはSNSでお知らせします", feed: "Go2Busan ガイド", rss: "フィードで購読", lang: "ja", src: "このガイドの参考ソース", srcNote: "Go2Busan最終更新", srcWarn: "料金・営業時間・時刻表は変更されます。出発前に各ソースで最新情報をご確認ください。", srcBy: "更新日はGo2Busanがこのページを最後に編集した日であり、すべての情報を再確認した日を意味するものではありません。" },
-  tw: { keep: "延伸閱讀", recent: "最近更新的指南", follow: "追蹤 Go2Busan 獲得新指南", feed: "Go2Busan 指南", rss: "訂閱摘要", lang: "zh-TW", src: "本指南的參考來源", srcNote: "Go2Busan 最後更新", srcWarn: "費用、營業時間與時刻表可能變動，出發前請至來源確認最新資訊。", srcBy: "更新日期為 Go2Busan 最後編輯此頁的日期，並不代表所有細節皆已重新確認。" },
+  en: { keep: "Keep exploring", recent: "Recently updated guides", follow: "Follow Go2Busan for new guides", feed: "Go2Busan guides", rss: "Subscribe via feed", lang: "en", src: "Sources for this guide", srcNote: "Go2Busan's last update", srcWarn: "Prices, hours and timetables change. Confirm them at the source before you go.", srcBy: "Updated date is when Go2Busan last edited this page, not a guarantee that every detail was re-checked.", help: "Need help in Busan?", h1330: "Korea Travel Hotline (Korea Tourism Organization): travel information and interpretation; English, Japanese and Chinese are listed as 24 hours. From overseas: +82-2-1330.", h112: "Police", h119: "Fire and ambulance", hSrc: "Source: Busan Metropolitan City. Check current service details before you rely on them." },
+  ja: { keep: "あわせて読みたい", recent: "最近更新したガイド", follow: "新しいガイドはSNSでお知らせします", feed: "Go2Busan ガイド", rss: "フィードで購読", lang: "ja", src: "このガイドの参考ソース", srcNote: "Go2Busan最終更新", srcWarn: "料金・営業時間・時刻表は変更されます。出発前に各ソースで最新情報をご確認ください。", srcBy: "更新日はGo2Busanがこのページを最後に編集した日であり、すべての情報を再確認した日を意味するものではありません。", help: "釜山で困ったときは", h1330: "韓国観光公社の観光案内電話。観光案内と通訳に対応し、英語・日本語・中国語は24時間と案内されています。海外からは +82-2-1330。", h112: "警察", h119: "消防・救急", hSrc: "出典：釜山広域市。利用前に最新の案内をご確認ください。" },
+  tw: { keep: "延伸閱讀", recent: "最近更新的指南", follow: "追蹤 Go2Busan 獲得新指南", feed: "Go2Busan 指南", rss: "訂閱摘要", lang: "zh-TW", src: "本指南的參考來源", srcNote: "Go2Busan 最後更新", srcWarn: "費用、營業時間與時刻表可能變動，出發前請至來源確認最新資訊。", srcBy: "更新日期為 Go2Busan 最後編輯此頁的日期，並不代表所有細節皆已重新確認。", help: "在釜山需要協助時", h1330: "韓國觀光公社旅遊諮詢熱線：提供旅遊資訊與口譯，英語、日語、中文標示為 24 小時服務。從海外撥打：+82-2-1330。", h112: "警察", h119: "消防與救護", hSrc: "資料來源：釜山廣域市。使用前請確認最新服務資訊。" },
 };
 const PREFIX = { en: "", ja: "/ja", tw: "/zh-tw" };
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -150,6 +150,27 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     }
     if (!noindex && !h.includes("/assets/js/ux.js") && h.includes("</body>")) {
       h = h.replace("</body>", `<script defer src="/assets/js/ux.js?v=${ASSET_VERSION}"></script></body>`); bump("4 ux.js linked");
+    }
+    if (!noindex && !h.includes("/assets/js/trip.js") && h.includes("</body>")) {
+      h = h.replace("</body>", `<script defer src="/assets/js/trip.js?v=${ASSET_VERSION}"></script></body>`); bump("8 trip.js linked");
+    }
+    // Explicit sizes for the site logo images (prevents layout shift).
+    h = h.replace(/<img src="\/assets\/go2busan-mark\.svg"(?![^>]*\bwidth=)/g, () => { bump("9 logo sizes"); return '<img src="/assets/go2busan-mark.svg" width="34" height="34"'; });
+    h = h.replace(/<img src="\/assets\/go2busan-logo\.svg"(?![^>]*\bwidth=)/g, () => { bump("9 logo sizes"); return '<img src="/assets/go2busan-logo.svg" width="216" height="40"'; });
+    // Lazy-load images after the first one on the page (first image may be the hero).
+    let imgN = 0;
+    h = h.replace(/<img\b[^>]*>/g, (tag) => { imgN++; if (imgN <= 2 || /\bloading=|fetchpriority=/.test(tag)) return tag; bump("9 lazy images"); return tag.replace("<img", '<img loading="lazy"'); });
+    // Responsive Wikimedia images: smaller files for phones (Special:FilePath supports ?width=).
+    h = h.replace(/<img\b(?![^>]*\bsrcset=)[^>]*\bsrc="(https:\/\/commons\.wikimedia\.org\/wiki\/Special:FilePath\/[^"?]+)\?width=(\d+)"[^>]*>/g, (tag, base, w) => {
+      const n = Number(w); if (!(n >= 1000)) return tag;
+      bump("9 responsive images");
+      return tag.replace("<img", `<img srcset="${base}?width=640 640w, ${base}?width=1000 1000w, ${base}?width=${n} ${n}w" sizes="(max-width: 800px) 100vw, 1000px"`);
+    });
+    // Help card on every guide.
+    if (isGuideUrl(url) && !noindex && !h.includes('class="shell help-card"') && h.includes('<section class="shell keep-exploring"')) {
+      const t = T[loc];
+      const card = `<section class="shell help-card" aria-labelledby="help-card-title"><h2 id="help-card-title">${t.help}</h2><ul><li><a href="tel:1330">1330</a> — ${t.h1330}</li><li><a href="tel:112">112</a> — ${t.h112}</li><li><a href="tel:119">119</a> — ${t.h119}</li></ul><p><a href="https://www.busan.go.kr/eng/bsnews01/1358416" target="_blank" rel="noopener noreferrer">${t.hSrc}</a></p></section>`;
+      h = h.replace('<section class="shell keep-exploring"', card + '<section class="shell keep-exploring"'); bump("10 help cards");
     }
     if (url === `${PREFIX[loc]}/` || (loc === "en" && url === "/")) {
       const dated = byLoc[loc].filter((g) => g.date).sort((a, b) => b.date.localeCompare(a.date) || a.url.localeCompare(b.url)).slice(0, 5);
