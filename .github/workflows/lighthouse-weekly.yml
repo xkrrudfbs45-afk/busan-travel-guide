@@ -21,10 +21,13 @@ jobs:
             https://go2busan.com/ja/
             https://go2busan.com/zh-tw/
             https://go2busan.com/guides/busan-three-days/
+            https://go2busan.com/guides/busan-neighborhood-food-guide/
+            https://go2busan.com/ja/guides/local-food-by-neighborhood/
+            https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/
             https://go2busan.com/ja/guides/three-days/
             https://go2busan.com/zh-tw/guides/three-days/
             https://go2busan.com/guides/busan-transit-card/
             https://go2busan.com/guides/visit-busan-pass-guide/
-          runs: 1
+          runs: 3
           uploadArtifacts: true
           temporaryPublicStorage: false
