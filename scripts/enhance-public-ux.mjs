@@ -92,6 +92,93 @@ function feedXml(loc, items) {
 
 const link = (g, withDate, loc) => `<li><a href="${g.url}">${esc(g.title)}</a>${withDate && g.date ? ` <time datetime="${g.date}">${esc(formatDate(g.date, loc))}</time>` : ""}</li>`;
 
+// ---------- Page quality pass (2026-11 batch) ----------
+const OG_LOCALE = { en: "en_US", ja: "ja_JP", tw: "zh_TW" };
+const DEFAULT_OG = "https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1600";
+const Q = {
+  en: { toc: "In this guide", newTab: "(opens in a new tab)" },
+  ja: { toc: "この記事の内容", newTab: "（新しいタブで開きます）" },
+  tw: { toc: "本篇內容", newTab: "（在新分頁開啟）" },
+};
+const SKIP_TOC_IDS = /^(guide-faq-title|related-guides|keep-exploring-title|help-card-title|source-box-title|pass-cta-title)$/;
+const slug = (s) => s.toLowerCase().normalize("NFKD").replace(/[^\x00-\x7f]/g, "").replace(/&[a-z]+;/g, " ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60);
+
+export function pageQuality(html, url, loc) {
+  let h = html;
+  const q = Q[loc];
+  const head = () => h.slice(0, h.indexOf("</head>"));
+  // a. og:locale (+ alternates when the page has language alternates).
+  if (h.includes("</head>") && !head().includes('property="og:locale"')) {
+    const alts = ["en", "ja", "tw"].filter((l) => l !== loc && head().includes(`hreflang="${l === "tw" ? "zh-TW" : l}"`));
+    h = h.replace("</head>", `<meta property="og:locale" content="${OG_LOCALE[loc]}">${alts.map((l) => `<meta property="og:locale:alternate" content="${OG_LOCALE[l]}">`).join("")}</head>`);
+    bump("14 og:locale");
+  }
+  // b. Share image for pages that have none.
+  if (h.includes("</head>") && !head().includes('property="og:image"')) {
+    h = h.replace("</head>", `<meta property="og:image" content="${DEFAULT_OG}"><meta name="twitter:image" content="${DEFAULT_OG}">${head().includes('name="twitter:card"') ? "" : '<meta name="twitter:card" content="summary_large_image">'}</head>`);
+    bump("14 default share image");
+  }
+  // c. Favicon where missing.
+  if (h.includes("</head>") && !/<link rel="icon"/.test(head())) { h = h.replace("</head>", '<link rel="icon" href="/favicon.svg" type="image/svg+xml"></head>'); bump("14 favicon"); }
+  // d. Warm up connections to Wikimedia when the page shows Wikimedia images.
+  if (/<img\b[^>]*src="https:\/\/(?:commons|upload)\.wikimedia\.org/.test(h) && !head().includes('rel="preconnect" href="https://upload.wikimedia.org"')) {
+    h = h.replace(/(<meta charset="utf-8">)/i, '$1<link rel="preconnect" href="https://commons.wikimedia.org"><link rel="preconnect" href="https://upload.wikimedia.org">');
+    bump("14 wikimedia preconnect");
+  }
+  // e. Lazy images decode off the main thread.
+  h = h.replace(/<img\b(?=[^>]*\bloading="lazy")(?![^>]*\bdecoding=)/g, () => { bump("14 decoding async"); return '<img decoding="async"'; });
+  // f. Article structured data: dateModified matches the visible date; image from og:image.
+  const vis = (h.match(/class="page-updated"[^>]*>[\s\S]*?<time datetime="(\d{4}-\d{2}-\d{2})"/) || [])[1];
+  const og = (head().match(/<meta property="og:image" content="([^"]+)"/) || [])[1];
+  h = h.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g, (m, json) => {
+    let d; try { d = JSON.parse(json); } catch { return m; }
+    if (!d || Array.isArray(d) || !["Article", "BlogPosting", "TravelGuide"].includes(d["@type"])) return m;
+    let changed = false;
+    if (vis && (!d.datePublished || String(d.datePublished).slice(0, 10) <= vis) && String(d.dateModified || "").slice(0, 10) !== vis) { d.dateModified = vis; changed = true; bump("14 dateModified synced"); }
+    if (!d.image && og) { d.image = og; changed = true; bump("14 article image"); }
+    return changed ? `<script type="application/ld+json">${JSON.stringify(d).replace(/</g, "\\u003c")}</script>` : m;
+  });
+  if (!isGuideUrl(url)) return h;
+  const start = h.indexOf('<article class="article-body"');
+  const end = start === -1 ? -1 : h.indexOf("</article>", start);
+  if (start === -1 || end === -1) return h;
+  let body = h.slice(start, end);
+  // g. Stable ids on article headings (enables section links and the contents list).
+  let n = 0;
+  body = body.replace(/<h2(?![^>]*\bid=)([^>]*)>([\s\S]*?)<\/h2>/g, (m, attrs, inner) => {
+    n++; let id = slug(unesc(inner)) || `section-${n}`;
+    if (/^\d/.test(id)) id = `s-${id}`;
+    let k = id, i = 2; while (h.includes(`id="${k}"`) || body.includes(`id="${k}"`)) k = `${id}-${i++}`;
+    bump("14 heading ids"); return `<h2 id="${k}"${attrs}>${inner}</h2>`;
+  });
+  // h. "In this guide" contents list for longer guides that have none.
+  const heads = [...body.matchAll(/<h2 id="([^"]+)"[^>]*>([\s\S]*?)<\/h2>/g)].filter((m) => !SKIP_TOC_IDS.test(m[1]));
+  const asideAt = h.indexOf('class="article-aside');
+  const aside = asideAt === -1 ? "" : h.slice(asideAt, h.indexOf("</aside>", asideAt) + 8);
+  const hasToc = body.includes("guide-toc") || /class="[^"]*aside-box[\s\S]*?href="#[^"]+"/.test(aside);
+  if (heads.length >= 4 && !hasToc) {
+    const items = heads.slice(0, 10).map((m) => `<li><a href="#${m[1]}">${esc(unesc(m[2]))}</a></li>`).join("");
+    const nav = `<nav class="guide-toc" aria-label="${q.toc}"><p class="guide-toc__title">${q.toc}</p><ol>${items}</ol></nav>`;
+    const first = body.indexOf(heads[0][0]);
+    body = body.slice(0, first) + nav + body.slice(first);
+    bump("14 contents lists");
+  }
+  // i. New-tab links in article text say so to screen readers (partner links keep their text for analytics).
+  body = body.replace(/(<a\b[^>]*target="_blank"[^>]*>)([\s\S]*?)(<\/a>)/g, (m, open, inner, close) => {
+    if (/klook|agoda/i.test(open) || inner.includes("g2b-sr")) return m;
+    bump("14 new-tab labels"); return `${open}${inner}<span class="g2b-sr"> ${q.newTab}</span>${close}`;
+  });
+  // j. Mark Korean phrases so screen readers and translation tools treat them as Korean.
+  body = body.replace(/>([^<>]*[\uac00-\ud7a3][^<>]*)</g, (m, text, off, all) => {
+    const tagStart = all.lastIndexOf("<", off);
+    const tag = all.slice(tagStart, off + 1);
+    if (/lang="ko"|^<(script|style|textarea|option)\b/i.test(tag)) return m;
+    const out = text.replace(/[\uac00-\ud7a3][\uac00-\ud7a3\s\d~·,.?!]*[\uac00-\ud7a3.?!]|[\uac00-\ud7a3]/g, (run) => { bump("14 korean lang spans"); return `<span lang="ko">${run}</span>`; });
+    return `>${out}<`;
+  });
+  return h.slice(0, start) + body + h.slice(end);
+}
+
 if (import.meta.url === `file://${process.argv[1]}`) {
   const files = walk(PUB);
   const guides = files.filter((f) => isGuideUrl(urlPath(f))).map(readGuide).filter(Boolean);
@@ -201,6 +288,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         bump("3 home recent blocks");
       }
     }
+    if (!noindex) h = pageQuality(h, url, loc);
     if (h !== before) writeFileSync(file, h);
   }
   // Light CSS minification of built stylesheets (comments, indentation, blank lines only).
