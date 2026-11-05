@@ -145,6 +145,24 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/gimhae-airport-to-seomyeon/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gimhae-airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gimhae-airport-to-seomyeon/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/airport-to-seomyeon/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gimhae-airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gimhae-airport-to-seomyeon/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/airport-to-seomyeon/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gimhae-airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/airport-to-seomyeon/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gimhae-airport-to-seomyeon/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/haeundae-blueline-park-sold-out/</loc>
@@ -168,6 +186,24 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/late-arrival-gimhae-airport/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/late-arrival/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/late-arrival/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/late-arrival/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/late-arrival/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/late-arrival/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/late-arrival/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/late-arrival/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/late-arrival/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/songdo-beach-local-breakfast/</loc>
