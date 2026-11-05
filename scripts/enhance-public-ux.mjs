@@ -100,7 +100,7 @@ const Q = {
   ja: { toc: "この記事の内容", newTab: "（新しいタブで開きます）" },
   tw: { toc: "本篇內容", newTab: "（在新分頁開啟）" },
 };
-const SKIP_TOC_IDS = /^(guide-faq-title|related-guides|keep-exploring-title|help-card-title|source-box-title|pass-cta-title)$/;
+const SKIP_TOC_IDS = /^(guide-faq-title|related-guides|keep-exploring-title|help-card-title|source-box-title|pass-cta-title|cta-.+)$/;
 const slug = (s) => s.toLowerCase().normalize("NFKD").replace(/[^\x00-\x7f]/g, "").replace(/&[a-z]+;/g, " ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60);
 
 export function pageQuality(html, url, loc) {
@@ -138,6 +138,16 @@ export function pageQuality(html, url, loc) {
     if (!d.image && og) { d.image = og; changed = true; bump("14 article image"); }
     return changed ? `<script type="application/ld+json">${JSON.stringify(d).replace(/</g, "\\u003c")}</script>` : m;
   });
+  // k. Directory pages: ItemList structured data mirroring the visible guide links.
+  if (/^\/(?:ja\/|zh-tw\/)?guides\/$/.test(url) && !h.includes('"@type":"ItemList"')) {
+    const dir = (h.match(/<section class="shell guide-directory"[\s\S]*?<\/section>\s*<\/section>/) || [""])[0];
+    const seen = new Set();
+    const items = [...dir.matchAll(/<li><a href="(\/(?:ja\/|zh-tw\/)?guides\/[^"#]+\/)">([\s\S]*?)<\/a>/g)].filter((m) => !seen.has(m[1]) && seen.add(m[1]));
+    if (items.length >= 5) {
+      const ld = { "@context": "https://schema.org", "@type": "ItemList", itemListElement: items.map((m, i) => ({ "@type": "ListItem", position: i + 1, url: SITE + m[1], name: unesc(m[2]) })) };
+      h = h.replace("</head>", `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script></head>`); bump("14 directory ItemList");
+    }
+  }
   if (!isGuideUrl(url)) return h;
   const start = h.indexOf('<article class="article-body"');
   const end = start === -1 ? -1 : h.indexOf("</article>", start);
@@ -265,9 +275,9 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     // Footer "Start planning" links (internal discovery on every page).
     if (!noindex && !h.includes('class="footer-plan"') && h.includes('<footer class="site-footer">')) {
       const FP = {
-        en: ["Start planning", [["/guides/busan-first-time-guide/", "First trip"], ["/guides/gimhae-airport-to-haeundae/", "Airport transfer"], ["/guides/where-to-stay-busan/", "Where to stay"], ["/guides/busan-three-days/", "3-day itinerary"], ["/guides/busan-transit-card/", "Transit card"], ["/guides/busan-local-food-guide/", "Local food"]]],
-        ja: ["旅の準備はここから", [["/ja/guides/first-trip/", "初めての釜山"], ["/ja/guides/airport-to-haeundae/", "空港から移動"], ["/ja/guides/where-to-stay-busan/", "宿泊エリア"], ["/ja/guides/three-days/", "3日間モデルコース"], ["/ja/guides/transit-card/", "交通カード"], ["/ja/guides/local-food-by-neighborhood/", "エリア別グルメ"]]],
-        tw: ["從這裡開始規劃", [["/zh-tw/guides/first-trip/", "第一次去釜山"], ["/zh-tw/guides/airport-to-haeundae/", "機場交通"], ["/zh-tw/guides/where-to-stay-busan/", "住宿區域"], ["/zh-tw/guides/three-days/", "三天行程"], ["/zh-tw/guides/transit-card/", "交通卡"], ["/zh-tw/guides/local-food-by-neighborhood/", "區域美食"]]],
+        en: ["Start planning", [["/guides/", "All guides"], ["/guides/busan-first-time-guide/", "First trip"], ["/guides/gimhae-airport-to-haeundae/", "Airport transfer"], ["/guides/where-to-stay-busan/", "Where to stay"], ["/guides/busan-three-days/", "3-day itinerary"], ["/guides/busan-transit-card/", "Transit card"], ["/guides/busan-local-food-guide/", "Local food"]]],
+        ja: ["旅の準備はここから", [["/ja/guides/", "ガイド一覧"], ["/ja/guides/first-trip/", "初めての釜山"], ["/ja/guides/airport-to-haeundae/", "空港から移動"], ["/ja/guides/where-to-stay-busan/", "宿泊エリア"], ["/ja/guides/three-days/", "3日間モデルコース"], ["/ja/guides/transit-card/", "交通カード"], ["/ja/guides/local-food-by-neighborhood/", "エリア別グルメ"]]],
+        tw: ["從這裡開始規劃", [["/zh-tw/guides/", "所有指南"], ["/zh-tw/guides/first-trip/", "第一次去釜山"], ["/zh-tw/guides/airport-to-haeundae/", "機場交通"], ["/zh-tw/guides/where-to-stay-busan/", "住宿區域"], ["/zh-tw/guides/three-days/", "三天行程"], ["/zh-tw/guides/transit-card/", "交通卡"], ["/zh-tw/guides/local-food-by-neighborhood/", "區域美食"]]],
       }[loc];
       const links = FP[1].filter(([u]) => u !== url).map(([u, t]) => `<a href="${u}">${t}</a>`).join("");
       h = h.replace('<footer class="site-footer">', `<footer class="site-footer"><nav class="shell footer-plan" aria-label="${FP[0]}"><strong>${FP[0]}</strong>${links}</nav>`);
