@@ -175,6 +175,17 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         h = h.replace("</head>", `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script></head>`); bump("11 FAQ schema from visible FAQ");
       }
     }
+    // Footer "Start planning" links (internal discovery on every page).
+    if (!noindex && !h.includes('class="footer-plan"') && h.includes('<footer class="site-footer">')) {
+      const FP = {
+        en: ["Start planning", [["/guides/busan-first-time-guide/", "First trip"], ["/guides/gimhae-airport-to-haeundae/", "Airport transfer"], ["/guides/where-to-stay-busan/", "Where to stay"], ["/guides/busan-three-days/", "3-day itinerary"], ["/guides/busan-transit-card/", "Transit card"], ["/guides/busan-local-food-guide/", "Local food"]]],
+        ja: ["旅の準備はここから", [["/ja/guides/first-trip/", "初めての釜山"], ["/ja/guides/airport-to-haeundae/", "空港から移動"], ["/ja/guides/where-to-stay-busan/", "宿泊エリア"], ["/ja/guides/three-days/", "3日間モデルコース"], ["/ja/guides/transit-card/", "交通カード"], ["/ja/guides/local-food-by-neighborhood/", "エリア別グルメ"]]],
+        tw: ["從這裡開始規劃", [["/zh-tw/guides/first-trip/", "第一次去釜山"], ["/zh-tw/guides/airport-to-haeundae/", "機場交通"], ["/zh-tw/guides/where-to-stay-busan/", "住宿區域"], ["/zh-tw/guides/three-days/", "三天行程"], ["/zh-tw/guides/transit-card/", "交通卡"], ["/zh-tw/guides/local-food-by-neighborhood/", "區域美食"]]],
+      }[loc];
+      const links = FP[1].filter(([u]) => u !== url).map(([u, t]) => `<a href="${u}">${t}</a>`).join("");
+      h = h.replace('<footer class="site-footer">', `<footer class="site-footer"><nav class="shell footer-plan" aria-label="${FP[0]}"><strong>${FP[0]}</strong>${links}</nav>`);
+      bump("13 footer plan links");
+    }
     // Help card on every guide.
     if (isGuideUrl(url) && !noindex && !h.includes('class="shell help-card"') && h.includes('<section class="shell keep-exploring"')) {
       const t = T[loc];
