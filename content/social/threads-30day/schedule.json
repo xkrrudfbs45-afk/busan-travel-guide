@@ -1622,14 +1622,15 @@
         "flags": [
           "superlative / unverifiable claim"
         ],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Tak (chat approval 2026-11-05)",
+        "verified_at": "2026-11-05T12:40:00.000Z",
+        "note": "'the best' is used as a subjective travel reflection, not a factual ranking of a business; owner accepted the wording as-is"
       },
       "approval": {
-        "approved_by": null,
-        "approved_at": null
+        "approved_by": "Tak (chat approval 2026-11-05)",
+        "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "draft"
+      "status": "approved"
     },
     {
       "id": "d16-jp-1",
@@ -1932,14 +1933,15 @@
         "flags": [
           "superlative / unverifiable claim"
         ],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Tak (chat approval 2026-11-05)",
+        "verified_at": "2026-11-05T12:40:00.000Z",
+        "note": "'the best' is used as a subjective travel reflection, not a factual ranking of a business; owner accepted the wording as-is"
       },
       "approval": {
-        "approved_by": null,
-        "approved_at": null
+        "approved_by": "Tak (chat approval 2026-11-05)",
+        "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "draft"
+      "status": "approved"
     },
     {
       "id": "d19-jp-1",
@@ -2009,14 +2011,15 @@
         "flags": [
           "superlative / unverifiable claim"
         ],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Tak (chat approval 2026-11-05)",
+        "verified_at": "2026-11-05T12:40:00.000Z",
+        "note": "'the best' is used as a subjective travel reflection, not a factual ranking of a business; owner accepted the wording as-is"
       },
       "approval": {
-        "approved_by": null,
-        "approved_at": null
+        "approved_by": "Tak (chat approval 2026-11-05)",
+        "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "draft"
+      "status": "approved"
     },
     {
       "id": "d19-us-2",
@@ -2923,14 +2926,15 @@
         "flags": [
           "superlative / unverifiable claim"
         ],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Tak (chat approval 2026-11-05)",
+        "verified_at": "2026-11-05T12:40:00.000Z",
+        "note": "'the best' is used as a subjective travel reflection, not a factual ranking of a business; owner accepted the wording as-is"
       },
       "approval": {
-        "approved_by": null,
-        "approved_at": null
+        "approved_by": "Tak (chat approval 2026-11-05)",
+        "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "draft"
+      "status": "approved"
     },
     {
       "id": "d28-us-2",
