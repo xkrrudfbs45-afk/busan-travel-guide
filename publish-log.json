@@ -106,6 +106,17 @@
       "permalink": "https://www.threads.com/@go2busan.jp/post/DfW9nwAkXrL",
       "published_at": "2026-11-05T11:49:38.481Z",
       "last_error": null
+    },
+    "d01-tw-2": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-05T12:54:05.809Z",
+      "creation_id": "18073596248504979",
+      "container_created_at": "2026-11-05T12:54:05.809Z",
+      "thread_id": "17882399184549086",
+      "permalink": "https://www.threads.com/@go2busan.tw/post/DfXE_1YEaXm",
+      "published_at": "2026-11-05T12:54:05.809Z",
+      "last_error": null
     }
   }
 }
