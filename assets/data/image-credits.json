@@ -236,8 +236,8 @@
       "attribution_required": true,
       "modified": "resized/cropped by CSS or Special:FilePath only",
       "checked_on": "2026-11-04",
-      "status": "needs_review",
-      "note": "Busan location not stated on Commons; identifiable person. Verify before keeping."
+      "status": "do_not_use",
+      "note": "Removed because Commons does not establish the Busan location and the image includes an identifiable person; do not reintroduce."
     },
     {
       "source": "unsplash",
@@ -249,8 +249,8 @@
       "commercial_use": null,
       "attribution_required": false,
       "checked_on": "2026-11-04",
-      "status": "needs_review",
-      "note": "Luggage guides: backpack product photo, weak topic match."
+      "status": "do_not_use",
+      "note": "Removed from public pages because it was generic or weakly matched to the Busan-specific topic; do not reintroduce."
     },
     {
       "source": "unsplash",
@@ -262,8 +262,8 @@
       "commercial_use": null,
       "attribution_required": false,
       "checked_on": "2026-11-04",
-      "status": "needs_review",
-      "note": "Rainy-day guides: rainy city of unknown location."
+      "status": "do_not_use",
+      "note": "Removed from public pages because it was generic or weakly matched to the Busan-specific topic; do not reintroduce."
     },
     {
       "source": "unsplash",
@@ -275,8 +275,8 @@
       "commercial_use": null,
       "attribution_required": false,
       "checked_on": "2026-11-04",
-      "status": "needs_review",
-      "note": "Late-arrival airport guide and home airport card: aircraft wing, weak topic match."
+      "status": "do_not_use",
+      "note": "Removed from public pages because it was generic or weakly matched to the Busan-specific topic; do not reintroduce."
     },
     {
       "source": "unsplash",
@@ -288,8 +288,8 @@
       "commercial_use": null,
       "attribution_required": false,
       "checked_on": "2026-11-04",
-      "status": "needs_review",
-      "note": "Dialect card: street stall of unknown location."
+      "status": "do_not_use",
+      "note": "Removed from public pages because it was generic or weakly matched to the Busan-specific topic; do not reintroduce."
     },
     {
       "source": "wikimedia",
@@ -416,6 +416,62 @@
       "checked_on": "2026-11-05",
       "status": "verified",
       "note": "Port of Yeongdo-gu photographed from Jagalchi Observation Deck. Appropriate for the homepage coastal/coffee discovery card; not a photo of a coffee shop."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_Central_Bus_Terminal_Locker.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Central_Bus_Terminal_Locker.jpg",
+      "author": "hyolee2",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-05",
+      "status": "verified",
+      "note": "Coin lockers at Busan Central Bus Terminal, photographed 14 February 2014. Use as an illustrative example of luggage lockers in Busan; do not imply these are Busan Station or Zimcarry lockers."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_city_office_Korea_20090222.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_city_office_Korea_20090222.jpg",
+      "author": "LERK",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-05",
+      "status": "verified",
+      "note": "Busan City Hall photographed on a rainy day, 22 February 2009. Appropriate as a Busan rainy-weather visual; not a current weather photo."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Nampo-dong_Busy_Street.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nampo-dong_Busy_Street.JPG",
+      "author": "Ken Eckert",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-05",
+      "status": "verified",
+      "note": "Main street in Nampo-dong, Busan, photographed 9 May 2010. Used as a real Busan street-life visual for the dialect/local language card, not as a claim about a specific market."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_street.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_street.jpg",
+      "author": "Wkjekf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-05",
+      "status": "verified",
+      "note": "Gamcheon Culture Village in Busan on 35mm film, photographed 14 February 2024. Used for the local culture card; not a portrait or claim about an individual resident."
     }
   ]
 }
