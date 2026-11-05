@@ -9,6 +9,24 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/" />
   </url>
   <url>
     <loc>https://go2busan.com/about.html</loc>
