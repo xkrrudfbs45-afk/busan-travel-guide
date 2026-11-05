@@ -5,9 +5,9 @@
   const lang = (doc.documentElement.lang || 'en').toLowerCase();
   const loc = lang.startsWith('ja') ? 'ja' : (lang.includes('zh') ? 'tw' : 'en');
   const L = {
-    en: { share: 'Share', copy: 'Copy link', copied: 'Link copied', top: 'Back to top', section: 'Copy link to this section', jump: 'Jump to a section', suggest: 'This guide is also available in English.', suggestBtn: 'Read in English', close: 'Close', cont: 'Continue reading', search: 'Search guides', ko: 'Copy Korean', koDone: 'Korean copied', show: 'Show large' },
-    ja: { share: '共有', copy: 'リンクをコピー', copied: 'リンクをコピーしました', top: 'ページの先頭へ', section: 'このセクションのリンクをコピー', jump: 'セクションへ移動', suggest: 'この記事は日本語でも読めます。', suggestBtn: '日本語で読む', close: '閉じる', cont: '続きを読む', search: 'ガイドを検索', ko: '韓国語をコピー', koDone: '韓国語をコピーしました', show: '大きく表示' },
-    tw: { share: '分享', copy: '複製連結', copied: '已複製連結', top: '回到頁首', section: '複製此段落連結', jump: '跳到段落', suggest: '這篇文章也有繁體中文版。', suggestBtn: '閱讀繁體中文版', close: '關閉', cont: '繼續閱讀', search: '搜尋指南', ko: '複製韓文', koDone: '已複製韓文', show: '放大顯示' },
+    en: { share: 'Share', copy: 'Copy link', copied: 'Link copied', top: 'Back to top', section: 'Copy link to this section', jump: 'Jump to a section', suggest: 'This guide is also available in English.', suggestBtn: 'Read in English', close: 'Close', cont: 'Continue reading', search: 'Search guides', ko: 'Copy Korean', koDone: 'Korean copied', show: 'Show large', fbQ: 'Was this guide helpful?', fbYes: 'Yes', fbNo: 'Not really', fbThanks: 'Thanks — your feedback helps us improve this guide.' },
+    ja: { share: '共有', copy: 'リンクをコピー', copied: 'リンクをコピーしました', top: 'ページの先頭へ', section: 'このセクションのリンクをコピー', jump: 'セクションへ移動', suggest: 'この記事は日本語でも読めます。', suggestBtn: '日本語で読む', close: '閉じる', cont: '続きを読む', search: 'ガイドを検索', ko: '韓国語をコピー', koDone: '韓国語をコピーしました', show: '大きく表示', fbQ: 'このガイドは役に立ちましたか？', fbYes: 'はい', fbNo: 'いまひとつ', fbThanks: 'ありがとうございます。ガイドの改善に役立てます。' },
+    tw: { share: '分享', copy: '複製連結', copied: '已複製連結', top: '回到頁首', section: '複製此段落連結', jump: '跳到段落', suggest: '這篇文章也有繁體中文版。', suggestBtn: '閱讀繁體中文版', close: '關閉', cont: '繼續閱讀', search: '搜尋指南', ko: '複製韓文', koDone: '已複製韓文', show: '放大顯示', fbQ: '這篇指南對你有幫助嗎？', fbYes: '有幫助', fbNo: '還不夠', fbThanks: '謝謝你的回饋，我們會用來改善指南。' },
   }[loc];
   const send = (name, params) => {
     if (typeof window.gtag !== 'function') return;
@@ -224,7 +224,41 @@
     });
   }
 
-  const run = () => { phraseCards(); shareBar(); progressAndTop(); headingAnchors(); jumpMenu(); languageSuggestion(); continueReading(); clickEvents(); searchShortcut(); };
+  // 9. "Was this guide helpful?" — one tap, stored on this device, sent only through gtag (after analytics consent).
+  function feedback() {
+    if (!isGuide || !article || doc.querySelector('.g2b-feedback')) return;
+    const key = 'g2b-fb:' + location.pathname;
+    const box = el('section', { class: 'shell g2b-feedback', 'aria-label': L.fbQ });
+    const msg = el('p', { class: 'g2b-feedback__q' }, L.fbQ);
+    const done = () => { box.textContent = ''; box.appendChild(el('p', { class: 'g2b-feedback__q', role: 'status' }, L.fbThanks)); };
+    if (store.get(key)) return;
+    const row = el('div', { class: 'g2b-feedback__row' });
+    [['yes', L.fbYes], ['no', L.fbNo]].forEach(([v, label]) => {
+      const b = el('button', { type: 'button', class: 'g2b-btn' }, label);
+      b.addEventListener('click', () => { store.set(key, v); send('guide_feedback', { feedback_value: v, guide_path: location.pathname }); done(); });
+      row.appendChild(b);
+    });
+    box.append(msg, row);
+    const anchor = doc.querySelector('.help-card') || doc.querySelector('.keep-exploring') || doc.querySelector('.site-footer');
+    if (anchor) anchor.insertAdjacentElement('beforebegin', box);
+  }
+
+  // 10. Highlight the current section in the "In this guide" list while reading.
+  function tocSpy() {
+    const links = [...doc.querySelectorAll('.guide-toc a[href^="#"], .article-aside .aside-box a[href^="#"]')];
+    if (links.length < 2 || !('IntersectionObserver' in window)) return;
+    const byId = new Map(links.map((a) => [decodeURIComponent(a.getAttribute('href').slice(1)), a]));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        links.forEach((a) => a.removeAttribute('aria-current'));
+        const a = byId.get(e.target.id); if (a) a.setAttribute('aria-current', 'true');
+      });
+    }, { rootMargin: '0px 0px -70% 0px' });
+    byId.forEach((_, id) => { const h = doc.getElementById(id); if (h) io.observe(h); });
+  }
+
+  const run = () => { phraseCards(); shareBar(); progressAndTop(); headingAnchors(); jumpMenu(); languageSuggestion(); continueReading(); clickEvents(); searchShortcut(); feedback(); tocSpy(); };
   if (doc.readyState === 'loading') doc.addEventListener('DOMContentLoaded', run, { once: true });
   else run();
 })();

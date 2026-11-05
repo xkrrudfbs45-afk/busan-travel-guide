@@ -7,9 +7,9 @@
   const loc = lang.startsWith('ja') ? 'ja' : (lang.includes('zh') ? 'tw' : 'en');
   const PREFIX = { en: '', ja: '/ja', tw: '/zh-tw' }[loc];
   const T = {
-    en: { search: 'Search', placeholder: 'Search guides, places, food…', close: 'Close', none: 'No matching guide yet. Try a place or dish name.', saved: 'Saved', save: 'Save guide', unsave: 'Saved ✓', savedTitle: 'Your saved guides', savedEmpty: 'Tap “Save guide” on any guide to keep it here for your trip. Saved on this device only.', remove: 'Remove', home: 'Home', guides: 'Guides', swipe: 'Swipe to see more →', savedToast: 'Saved to your trip list', removedToast: 'Removed from your trip list', recent: 'Recently viewed', popular: 'Start with these', copyList: 'Copy list to share', copied: 'List copied' },
-    ja: { search: '検索', placeholder: 'ガイド・場所・料理を検索…', close: '閉じる', none: '該当するガイドがありません。地名や料理名で試してください。', saved: '保存済み', save: 'ガイドを保存', unsave: '保存済み ✓', savedTitle: '保存したガイド', savedEmpty: '各ガイドの「ガイドを保存」を押すと、ここに一覧表示されます（この端末のみに保存）。', remove: '削除', home: 'ホーム', guides: 'ガイド', swipe: '横にスクロールできます →', savedToast: '旅行リストに保存しました', removedToast: '旅行リストから削除しました', recent: '最近見たガイド', popular: 'まずはこちら', copyList: 'リストをコピーして共有', copied: 'リストをコピーしました' },
-    tw: { search: '搜尋', placeholder: '搜尋指南、地點、美食…', close: '關閉', none: '找不到相符的指南，試試地名或料理名稱。', saved: '已收藏', save: '收藏指南', unsave: '已收藏 ✓', savedTitle: '我收藏的指南', savedEmpty: '在任何指南按「收藏指南」，就會出現在這裡（只儲存在這台裝置）。', remove: '移除', home: '首頁', guides: '指南', swipe: '可左右滑動查看 →', savedToast: '已加入旅行清單', removedToast: '已從旅行清單移除', recent: '最近瀏覽', popular: '先從這些開始', copyList: '複製清單分享', copied: '已複製清單' },
+    en: { search: 'Search', placeholder: 'Search guides, places, food…', close: 'Close', none: 'No matching guide yet. Try a place or dish name.', saved: 'Saved', save: 'Save guide', unsave: 'Saved ✓', savedTitle: 'Your saved guides', savedEmpty: 'Tap “Save guide” on any guide to keep it here for your trip. Saved on this device only.', remove: 'Remove', home: 'Home', guides: 'Guides', swipe: 'Swipe to see more →', savedToast: 'Saved to your trip list', removedToast: 'Removed from your trip list', recent: 'Recently viewed', popular: 'Start with these', copyList: 'Copy list to share', copied: 'List copied', printList: 'Print or save as PDF' },
+    ja: { search: '検索', placeholder: 'ガイド・場所・料理を検索…', close: '閉じる', none: '該当するガイドがありません。地名や料理名で試してください。', saved: '保存済み', save: 'ガイドを保存', unsave: '保存済み ✓', savedTitle: '保存したガイド', savedEmpty: '各ガイドの「ガイドを保存」を押すと、ここに一覧表示されます（この端末のみに保存）。', remove: '削除', home: 'ホーム', guides: 'ガイド', swipe: '横にスクロールできます →', savedToast: '旅行リストに保存しました', removedToast: '旅行リストから削除しました', recent: '最近見たガイド', popular: 'まずはこちら', copyList: 'リストをコピーして共有', copied: 'リストをコピーしました', printList: '印刷・PDFで保存' },
+    tw: { search: '搜尋', placeholder: '搜尋指南、地點、美食…', close: '關閉', none: '找不到相符的指南，試試地名或料理名稱。', saved: '已收藏', save: '收藏指南', unsave: '已收藏 ✓', savedTitle: '我收藏的指南', savedEmpty: '在任何指南按「收藏指南」，就會出現在這裡（只儲存在這台裝置）。', remove: '移除', home: '首頁', guides: '指南', swipe: '可左右滑動查看 →', savedToast: '已加入旅行清單', removedToast: '已從旅行清單移除', recent: '最近瀏覽', popular: '先從這些開始', copyList: '複製清單分享', copied: '已複製清單', printList: '列印或存成 PDF' },
   }[loc];
   const send = (name, params) => { if (typeof window.gtag === 'function') window.gtag('event', name, Object.assign({ guide_locale: loc === 'tw' ? 'zh-TW' : loc }, params || {})); };
   const el = (tag, attrs, text) => { const n = doc.createElement(tag); Object.entries(attrs || {}).forEach(([k, v]) => n.setAttribute(k, v)); if (text) n.textContent = text; return n; };
@@ -54,15 +54,28 @@
     ja: ['/ja/guides/first-trip/', '/ja/guides/airport-to-haeundae/', '/ja/guides/where-to-stay-busan/', '/ja/guides/three-days/', '/ja/guides/transit-card/'],
     tw: ['/zh-tw/guides/first-trip/', '/zh-tw/guides/airport-to-haeundae/', '/zh-tw/guides/where-to-stay-busan/', '/zh-tw/guides/three-days/', '/zh-tw/guides/transit-card/'],
   };
+  // Highlight matched words in a result title without using innerHTML.
+  function mark(text, terms) {
+    const s = el('strong'); if (!terms.length) { s.textContent = text; return s; }
+    const lower = text.toLowerCase(); let i = 0;
+    while (i < text.length) {
+      let best = -1, len = 0;
+      for (const tm of terms) { const j = lower.indexOf(tm, i); if (j !== -1 && (best === -1 || j < best)) { best = j; len = tm.length; } }
+      if (best === -1) { s.appendChild(doc.createTextNode(text.slice(i))); break; }
+      if (best > i) s.appendChild(doc.createTextNode(text.slice(i, best)));
+      s.appendChild(el('mark', {}, text.slice(best, best + len))); i = best + len;
+    }
+    return s;
+  }
   let dialog;
   function openSearch() {
     if (!dialog) {
       dialog = el('div', { class: 'g2b-search', role: 'dialog', 'aria-modal': 'true', 'aria-label': T.search, hidden: '' });
       const box = el('div', { class: 'g2b-search__box' });
       const form = el('form', { class: 'g2b-search__form', role: 'search' });
-      const input = el('input', { type: 'search', class: 'g2b-search__input', placeholder: T.placeholder, 'aria-label': T.placeholder, autocomplete: 'off', enterkeyhint: 'search' });
+      const input = el('input', { type: 'search', class: 'g2b-search__input', placeholder: T.placeholder, 'aria-label': T.placeholder, autocomplete: 'off', enterkeyhint: 'search', 'aria-controls': 'g2b-search-list' });
       const close = el('button', { type: 'button', class: 'g2b-search__close', 'aria-label': T.close }, '×');
-      const list = el('ul', { class: 'g2b-search__results', 'aria-live': 'polite' });
+      const list = el('ul', { class: 'g2b-search__results', 'aria-live': 'polite', id: 'g2b-search-list' });
       form.append(input, close); box.append(form, list); dialog.appendChild(box); doc.body.appendChild(dialog);
       const render = async () => {
         const items = await getIndex(); const q = input.value; list.textContent = '';
@@ -73,11 +86,31 @@
           list.appendChild(el('li', { class: 'g2b-search__label' }, T.popular));
         } else found = search(items, q);
         if (!found.length) { list.appendChild(el('li', { class: 'g2b-search__none' }, T.none)); return; }
-        for (const it of found) {
-          const li = el('li'); const a = el('a', { href: it.url }); a.appendChild(el('strong', {}, it.title));
+        const terms = norm(q).split(' ').filter((x) => x.length > 1);
+        const add = (it) => {
+          const li = el('li'); const a = el('a', { href: it.url, id: 'g2b-r' + list.children.length }); a.appendChild(mark(it.title, terms));
           if (it.summary) a.appendChild(el('span', {}, it.summary)); li.appendChild(a); list.appendChild(li);
+        };
+        found.forEach(add);
+        if (!norm(q)) {
+          const rec = recent.get().filter((x) => inLocale(x.url) && !found.some((f) => f.url === x.url)).slice(0, 3);
+          if (rec.length) { list.appendChild(el('li', { class: 'g2b-search__label' }, T.recent)); rec.forEach(add); }
         }
+        active = -1; input.removeAttribute('aria-activedescendant');
       };
+      let active = -1;
+      const move = (d) => {
+        const links = [...list.querySelectorAll('a')]; if (!links.length) return;
+        links.forEach((x) => x.classList.remove('is-active'));
+        active = (active + d + links.length) % links.length;
+        links[active].classList.add('is-active'); links[active].scrollIntoView({ block: 'nearest' });
+        input.setAttribute('aria-activedescendant', links[active].id);
+      };
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') { e.preventDefault(); move(1); }
+        else if (e.key === 'ArrowUp') { e.preventDefault(); move(-1); }
+        else if (e.key === 'Enter' && active >= 0) { const a = list.querySelectorAll('a')[active]; if (a) { e.preventDefault(); location.href = a.href; } }
+      });
       let t; input.addEventListener('input', () => { clearTimeout(t); t = setTimeout(render, 120); });
       form.addEventListener('submit', (e) => { e.preventDefault(); const a = list.querySelector('a'); if (a) location.href = a.href; });
       close.addEventListener('click', closeSearch);
@@ -138,7 +171,7 @@
     const items = store.get().filter((x) => inLocale(x.url));
     if (!items.length) list.appendChild(el('li', { class: 'g2b-search__none' }, T.savedEmpty));
     for (const it of items) {
-      const li = el('li', { class: 'g2b-saved__item' }); const a = el('a', { href: it.url }); a.appendChild(el('strong', {}, it.title)); li.appendChild(a);
+      const li = el('li', { class: 'g2b-saved__item' }); const a = el('a', { href: it.url }); a.appendChild(el('strong', {}, it.title)); a.appendChild(el('span', { class: 'g2b-print-url' }, location.origin + it.url)); li.appendChild(a);
       const rm = el('button', { type: 'button', class: 'g2b-saved__rm', 'aria-label': `${T.remove}: ${it.title}` }, '×');
       rm.addEventListener('click', () => { store.set(store.get().filter((x) => x.url !== it.url)); li.remove(); updateBadge(); if (!list.children.length) list.appendChild(el('li', { class: 'g2b-search__none' }, T.savedEmpty)); });
       li.appendChild(rm); list.appendChild(li);
@@ -149,7 +182,13 @@
         const text = store.get().filter((x) => inLocale(x.url)).map((x) => `${x.title}\n${location.origin}${x.url}`).join('\n\n');
         try { await navigator.clipboard.writeText(text); toast(T.copied); } catch (_) { /* clipboard blocked */ }
       });
-      li.appendChild(cp); list.appendChild(li);
+      const pr = el('button', { type: 'button', class: 'g2b-btn' }, T.printList);
+      pr.addEventListener('click', () => {
+        doc.documentElement.classList.add('g2b-print-saved');
+        const off = () => { doc.documentElement.classList.remove('g2b-print-saved'); window.removeEventListener('afterprint', off); };
+        window.addEventListener('afterprint', off); send('saved_list_print'); window.print(); setTimeout(off, 1500);
+      });
+      li.appendChild(cp); li.appendChild(pr); list.appendChild(li);
     }
     const rec = recent.get().filter((x) => inLocale(x.url) && x.url !== currentGuide().url && !items.some((i) => i.url === x.url)).slice(0, 5);
     if (rec.length) {
@@ -176,6 +215,7 @@
     ];
     for (const [tag, attrs, label, svg] of items) {
       const n = el(tag, Object.assign({ class: 'g2b-bar__item' }, attrs)); n.innerHTML = svg; n.appendChild(el('span', {}, label));
+      if ((attrs.href === PREFIX + '/' && isHome) || (attrs.href === PREFIX + '/guides/' && /^\/(?:ja\/|zh-tw\/)?guides\/?$/.test(path))) n.setAttribute('aria-current', 'page');
       if (attrs['data-act'] === 'saved') { const badge = el('span', { class: 'g2b-bar__badge', hidden: '' }); n.appendChild(badge); }
       bar.appendChild(n);
     }
@@ -200,6 +240,15 @@
 
   // ---------- Guide directory: jump chips ----------
   function directoryChips() {
+    const jumps = doc.querySelector('.guide-directory-jumps');
+    if (jumps) {
+      jumps.querySelectorAll('a[href^="#"]').forEach((a) => {
+        if (a.querySelector('.g2b-count')) return;
+        const s = doc.getElementById(decodeURIComponent(a.getAttribute('href').slice(1))); const n = s ? s.querySelectorAll('li').length : 0;
+        if (n) a.appendChild(el('span', { class: 'g2b-count' }, String(n)));
+      });
+      return;
+    }
     if (!/^\/guides\/?$/.test(path)) return;
     const secs = [...doc.querySelectorAll('section.guide-directory-section[id]')];
     const first = secs[0]; if (secs.length < 3 || doc.querySelector('.g2b-dir-chips')) return;
