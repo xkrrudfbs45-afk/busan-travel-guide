@@ -1040,3 +1040,46 @@
 .seasonal-discovery-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
 .seasonal-discovery-links a{display:inline-flex;align-items:center;padding:10px 14px;border:1px solid #cfc6b9;border-radius:99px;text-decoration:none;font-size:13px;font-weight:700;color:#302b25;background:#fff}
 @media(max-width:600px){.seasonal-discovery{margin-left:16px;margin-right:16px}.seasonal-discovery-links{display:grid;grid-template-columns:1fr}.seasonal-discovery-links a{justify-content:center}}
+
+
+/* Make the neighborhood planner's map actions easy to spot and tap on mobile. */
+.neighborhood-planner-grid details>a.neighborhood-map-link{
+  display:inline-flex;
+  align-items:center;
+  min-height:38px;
+  margin:10px 8px 0 0;
+  padding:7px 11px;
+  border:1px solid #c8dcf4;
+  border-radius:999px;
+  background:#eff6ff;
+  color:#174f91;
+  font-size:11px;
+  font-weight:800;
+  text-decoration:none;
+}
+.neighborhood-planner-grid details>a.neighborhood-map-link:hover,
+.neighborhood-planner-grid details>a.neighborhood-map-link:focus-visible{
+  background:#dcecff;
+  border-color:#78a9e5;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
+@media(max-width:640px){
+  .neighborhood-planner-grid details>a.neighborhood-map-link{
+    min-height:44px;
+    padding:9px 13px;
+    font-size:12px;
+  }
+}
+
+
+/* Neighborhood food guide: clear map actions after each area tip. */
+.neighborhood-map-action{margin:10px 0 22px}
+.neighborhood-map-action a{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;padding:9px 14px;border:1px solid #c8dcf4;
+  border-radius:999px;background:#eff6ff;color:#174f91;
+  font-size:13px;font-weight:800;text-decoration:none;
+}
+.neighborhood-map-action a:hover,
+.neighborhood-map-action a:focus-visible{background:#dcecff;border-color:#78a9e5;text-decoration:underline;text-underline-offset:3px}
