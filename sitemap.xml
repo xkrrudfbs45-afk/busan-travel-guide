@@ -813,9 +813,49 @@
     <loc>https://go2busan.com/guides/busan-local-food-etiquette-tips/</loc>
   </url>
   <url><loc>https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/</loc></url>
-  <url><loc>https://go2busan.com/guides/taejongdae-danubi-train-tips/</loc></url>
+  <url>
+    <loc>https://go2busan.com/guides/taejongdae-danubi-train-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/taejongdae/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/taejongdae/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/taejongdae/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/taejongdae/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/taejongdae/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/taejongdae/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/taejongdae/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/taejongdae/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
+  </url>
   <url><loc>https://go2busan.com/guides/busan-night-views-local-tips/</loc></url>
-  <url><loc>https://go2busan.com/guides/haedong-yonggungsa-visit-tips/</loc></url>
+  <url>
+    <loc>https://go2busan.com/guides/haedong-yonggungsa-visit-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haedong-yonggungsa/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haedong-yonggungsa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/haedong-yonggungsa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haedong-yonggungsa/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haedong-yonggungsa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/haedong-yonggungsa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haedong-yonggungsa/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haedong-yonggungsa/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
+  </url>
   <url><loc>https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/</loc></url>
   <url><loc>https://go2busan.com/guides/busan-fireworks-festival-fair-price-stays/</loc></url>
   <url><loc>https://go2busan.com/ja/guides/busan-fireworks-festival-fair-price-stays/</loc></url>
