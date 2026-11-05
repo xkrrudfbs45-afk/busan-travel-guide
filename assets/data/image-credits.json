@@ -374,6 +374,48 @@
       "checked_on": "2026-11-04",
       "status": "verified",
       "note": "Verified airport departure hall in Busan. Visible attribution links to the file page and CC BY-SA 4.0 license."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Pojangmacha_in_Haeundae,_Busan.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pojangmacha_in_Haeundae,_Busan.jpg",
+      "author": "Busan Metropolitan City",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-05",
+      "status": "verified",
+      "note": "Official photograph of a pojangmacha at Haeundae Beach, Busan; source and KOGL Type 1 confirmed on Wikimedia Commons. Credit Busan Metropolitan City."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Bukmun_of_Dongnae_eupseong_in_2018.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bukmun_of_Dongnae_eupseong_in_2018.jpg",
+      "author": "Garam",
+      "license": "Attribution",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Bukmun_of_Dongnae_eupseong_in_2018.jpg",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-05",
+      "status": "needs_review",
+      "note": "Commons file page permits commercial use with attribution, but warns the license is incompatible with South Korean newspaper and Facebook licensing terms. Current use is limited to Go2Busan website pages; do not reuse for newspaper or Facebook content without contacting the photographer."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Port_of_Yeongdo-gu_in_Busan.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Port_of_Yeongdo-gu_in_Busan.jpg",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-05",
+      "status": "verified",
+      "note": "Port of Yeongdo-gu photographed from Jagalchi Observation Deck. Appropriate for the homepage coastal/coffee discovery card; not a photo of a coffee shop."
     }
   ]
 }
