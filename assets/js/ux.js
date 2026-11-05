@@ -5,9 +5,9 @@
   const lang = (doc.documentElement.lang || 'en').toLowerCase();
   const loc = lang.startsWith('ja') ? 'ja' : (lang.includes('zh') ? 'tw' : 'en');
   const L = {
-    en: { share: 'Share', copy: 'Copy link', copied: 'Link copied', top: 'Back to top', section: 'Copy link to this section', jump: 'Jump to a section', suggest: 'This guide is also available in English.', suggestBtn: 'Read in English', close: 'Close', cont: 'Continue reading', search: 'Search guides' },
-    ja: { share: '共有', copy: 'リンクをコピー', copied: 'リンクをコピーしました', top: 'ページの先頭へ', section: 'このセクションのリンクをコピー', jump: 'セクションへ移動', suggest: 'この記事は日本語でも読めます。', suggestBtn: '日本語で読む', close: '閉じる', cont: '続きを読む', search: 'ガイドを検索' },
-    tw: { share: '分享', copy: '複製連結', copied: '已複製連結', top: '回到頁首', section: '複製此段落連結', jump: '跳到段落', suggest: '這篇文章也有繁體中文版。', suggestBtn: '閱讀繁體中文版', close: '關閉', cont: '繼續閱讀', search: '搜尋指南' },
+    en: { share: 'Share', copy: 'Copy link', copied: 'Link copied', top: 'Back to top', section: 'Copy link to this section', jump: 'Jump to a section', suggest: 'This guide is also available in English.', suggestBtn: 'Read in English', close: 'Close', cont: 'Continue reading', search: 'Search guides', ko: 'Copy Korean', koDone: 'Korean copied', show: 'Show large' },
+    ja: { share: '共有', copy: 'リンクをコピー', copied: 'リンクをコピーしました', top: 'ページの先頭へ', section: 'このセクションのリンクをコピー', jump: 'セクションへ移動', suggest: 'この記事は日本語でも読めます。', suggestBtn: '日本語で読む', close: '閉じる', cont: '続きを読む', search: 'ガイドを検索', ko: '韓国語をコピー', koDone: '韓国語をコピーしました', show: '大きく表示' },
+    tw: { share: '分享', copy: '複製連結', copied: '已複製連結', top: '回到頁首', section: '複製此段落連結', jump: '跳到段落', suggest: '這篇文章也有繁體中文版。', suggestBtn: '閱讀繁體中文版', close: '關閉', cont: '繼續閱讀', search: '搜尋指南', ko: '複製韓文', koDone: '已複製韓文', show: '放大顯示' },
   }[loc];
   const send = (name, params) => {
     if (typeof window.gtag !== 'function') return;
@@ -202,7 +202,29 @@
     });
   }
 
-  const run = () => { shareBar(); progressAndTop(); headingAnchors(); jumpMenu(); languageSuggestion(); continueReading(); clickEvents(); searchShortcut(); };
+
+  // 8. Korean phrase cards: copy / enlarge buttons next to Korean sentences that already sit in the page.
+  function phraseCards() {
+    if (!article) return;
+    article.querySelectorAll('.callout > p, .phrase-card').forEach((p) => {
+      const strong = p.querySelector(':scope > strong');
+      if (!strong || p.querySelector('.g2b-phrase-actions')) return;
+      const ko = strong.textContent.trim();
+      if (!/[\uAC00-\uD7A3]/.test(ko) || ko.length > 80) return;
+      const bar = el('span', { class: 'g2b-phrase-actions' });
+      const c = el('button', { type: 'button', class: 'g2b-btn g2b-phrase-btn' }, L.ko);
+      c.addEventListener('click', async () => { if (await copy(ko)) say(L.koDone); });
+      const b = el('button', { type: 'button', class: 'g2b-btn g2b-phrase-btn' }, L.show);
+      b.addEventListener('click', () => {
+        const on = strong.classList.toggle('g2b-phrase-large');
+        b.setAttribute('aria-pressed', on ? 'true' : 'false');
+      });
+      bar.append(c, b);
+      p.appendChild(bar);
+    });
+  }
+
+  const run = () => { phraseCards(); shareBar(); progressAndTop(); headingAnchors(); jumpMenu(); languageSuggestion(); continueReading(); clickEvents(); searchShortcut(); };
   if (doc.readyState === 'loading') doc.addEventListener('DOMContentLoaded', run, { once: true });
   else run();
 })();
