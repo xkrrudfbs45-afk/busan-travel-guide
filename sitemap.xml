@@ -805,4 +805,25 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bts-in-busan/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bts-in-busan/" />
   </url>
+  <url>
+    <loc>https://go2busan.com/guides/dongnae-hot-spring-half-day/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/dongnae-hot-spring-half-day/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/dongnae-hot-spring-half-day/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/dongnae-hot-spring-half-day/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
+  </url>
 </urlset>
