@@ -365,3 +365,124 @@ Do not promise reach or audience size on behalf of Go2Busan. Present it accurate
 ### Proposed decision framework
 
 Do not choose a market based only on total population or a media kit's headline audience. Score each market monthly using: (a) qualified sessions to localized guides, (b) engaged-session rate, (c) guide-to-guide navigation, (d) outbound affiliate clicks, (e) Search Console non-brand impressions/clicks, and (f) cost per qualified session if paid promotion is tested. Keep Taiwan and Japan separate in reporting.
+
+
+## 12. Approved operating direction — US-first, combined positioning, organic acquisition
+
+**Decision supplied by the site owner**
+- First market: United States (English).
+- Positioning: combined — practical independent-trip planning + locally informed food, neighborhoods and attractions.
+- Initial marketing budget: organic only. No paid ads, paid listings, sponsored placements or paid creator campaigns are authorized.
+
+### Positioning statement
+
+**Go2Busan is an independent, locally informed guide that helps English-speaking travelers plan a better first trip to Busan — from getting around and choosing where to stay to finding neighborhood food and experiences beyond the obvious tourist stops.**
+
+Use "locally informed" as a promise of useful local context, not as a blanket claim that every recommendation has been personally visited. On each page, distinguish direct first-hand knowledge, desk research, official facts and operator-confirmed details. Never fabricate first-hand visits or reviews.
+
+### US audience: prioritize intent, not broad reach
+
+Primary audience for the first 30 days:
+1. US-based first-time Korea visitors who are adding Busan to a Seoul trip.
+2. Independent travelers planning 2–4 days in Busan and needing logistics, neighborhood choice and realistic routing.
+3. English-speaking K-pop/BTS fans considering Busan as a destination, with a practical itinerary rather than a fan-only list.
+4. Food- and culture-led travelers interested in markets, local dishes and neighborhood exploration.
+
+Do not assume these segments are equally large. Use actual English Search Console queries, social clicks and consented GA4 sessions to compare them once data accumulates.
+
+### Content priority: build a connected English journey
+
+Work on existing English pages first. Do not create duplicate URLs if an equivalent guide exists.
+
+| Priority | Existing content / candidate cluster | User problem solved | Required improvement |
+|---|---|---|---|
+| P0 | First-time Busan guide | "Is Busan worth adding to my Korea trip, and what should I know first?" | Make it the English hub; connect arrival, neighborhoods, transit, food and itinerary guides. |
+| P0 | Gimhae Airport to Haeundae / city | "How do I get from the airport to my hotel?" | Compare practical options with current official sources; clearly label costs and journey-time source/date. |
+| P0 | Where to stay in Busan | "Which area fits my trip?" | Compare Seomyeon, Haeundae, Nampo and other relevant areas by traveler needs, not generic rankings. |
+| P0 | 3-day Busan itinerary | "How do I organize 2–3 days without wasting time crossing the city?" | Group by geography; include map links and rainy-day alternatives. |
+| P1 | Neighborhood food guide / Jagalchi | "What should I eat and how do I order?" | Explain dishes, market etiquette, price uncertainty and how to avoid unsupported restaurant claims. |
+| P1 | BTS / Busan fan itinerary | "Which Busan places have documented BTS connections, and how do I combine them with the city?" | Use official tourism sources, separate documented member connections from fan-created speculation, verify current business names/access, and add nearby non-BTS stops. |
+| P1 | Transit card and getting around | "How do I pay and navigate local transport?" | Explain current card use and transfers with dated official references; avoid outdated fares. |
+| P2 | Winter / rainy-day Busan | "What can I do if the weather is cold or wet?" | Refresh seasonally and mark the last verified date. |
+
+### BTS content: use as a discovery doorway, not the whole brand
+
+The Korea Tourism Organization published a 2026 Busan BTS guide identifying recommended fan-related places, including Busan Citizens Park, Busan Museum of Art, Gwangandaegyo Bridge, Mandeok-dong and other locations. It also notes that the former café Magnate is currently named ZM-ILLENNIAL. Treat this as a research lead, not a substitute for checking current opening status, access rules and the accuracy of each claimed connection.
+
+Official starting sources:
+- https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&page=1&sContsTtl=&sort=regDt&vcontsId=1589997
+- https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=177342
+- https://www.busan.go.kr/eng/bsnews01/1733280
+
+Do not promote the June 2026 BTS THE CITY welcome center as an active attraction: the official notice states that it ran June 5–21, 2026. Event-specific content must be dated and archived or updated after the event ends.
+
+### 30-day organic execution calendar
+
+**Week 1 — Fix the conversion path**
+- Review the English first-time guide on a mobile viewport.
+- Ensure the page visibly links to airport access, where to stay, 3-day itinerary, transit and food guides.
+- Check the top 5 English landing pages for broken links, outdated claims, missing last-verified dates and unclear next steps.
+- Audit US Instagram/Threads bio destinations and UTM conventions; do not change live profiles without owner approval.
+- Prepare one useful English post explaining a practical Busan planning problem, not a generic site advertisement.
+
+**Week 2 — Publish useful trip-planning content**
+- Refresh the English airport guide and where-to-stay comparison.
+- Publish two short-form posts: one airport/logistics tip and one neighborhood/food tip.
+- Each social post must answer one concrete question and point to the matching English page only after destination verification.
+- Create a one-page editorial source log for factual claims, prices, schedules and business details.
+
+**Week 3 — Earn relevant attention**
+- Identify 10 English-language Korea travel writers, newsletters, podcasts or community discussions with a genuine Busan relevance.
+- Contribute useful answers where rules permit; do not insert Go2Busan links in communities that prohibit self-promotion.
+- Prepare one original pitch: a practical "Busan beyond Seoul" itinerary with transparent sourcing and neighborhood-level detail.
+- Ask for editorial consideration, not a guaranteed backlink. Do not mass-email.
+
+**Week 4 — Measure and choose**
+- Export Search Console page/query data and compare with the baseline.
+- Review UTM-tagged social sessions where analytics consent allows measurement.
+- Compare landing-page engagement, next-guide clicks and affiliate outbound clicks.
+- Decide which one of the four audience segments deserves the next month of content.
+
+### Weekly minimum cadence (organic-only)
+
+- 1 substantial existing-guide refresh or genuinely new, non-duplicative article.
+- 2 short-form English social posts derived from that guide.
+- 3 thoughtful community contributions where rules allow; no link unless expressly permitted and genuinely useful.
+- 2 personalized editorial/creator outreach messages per week, only after checking relevance and contact policy.
+- 1 weekly review of factual accuracy and live destination URLs.
+
+This is a capacity target, not permission to publish unverified material or contact anyone automatically.
+
+### US organic acquisition channels and guardrails
+
+1. Reddit Korea-travel discussions: answer the question fully; do not use the community as a link-drop channel. Check current subreddit rules each time.
+2. YouTube Shorts / Instagram Reels: show a concrete route, dish, neighborhood comparison or travel-planning tip; caption must match the linked guide.
+3. English-language Korea travel newsletters and independent publishers: pitch a specific useful story or expert contribution; disclose any relationship.
+4. Travel creator collaborations: begin with mutual editorial value and permission-based content use; no paid creator work under the current budget decision.
+5. Search: strengthen the English hub and internal links before expanding into many thin keyword pages.
+
+### Measurement: baseline first, targets second
+
+Record a baseline before setting numerical growth promises:
+- Search Console: US-country clicks/impressions, English queries, page CTR and positions.
+- GA4 (consent-limited): US sessions, source/medium/campaign, landing page, engaged sessions and next-page navigation.
+- Social: US profile visits, post reach, link clicks and saves, reported separately from website sessions.
+- Affiliate: outbound clicks by page and campaign; do not confuse clicks with bookings or revenue.
+
+At day 30, assess direction and data quality. Do not claim growth from impressions alone. If US traffic remains too small for meaningful comparisons, continue the same organic test for another 30 days rather than declaring the market unsuccessful.
+
+### Owner approval required before external actions
+
+- Sending editorial pitches or partnership emails.
+- Publishing or commenting from brand accounts.
+- Changing live Instagram/Threads bios or queued post destinations.
+- Accepting hosted stays, free meals, affiliate terms or sponsored content.
+- Any paid placement, even if a publisher offers a low-cost package.
+
+## 13. Questions for the next strategy review
+
+1. Which first-time visitor problem should Go2Busan own: arrival logistics, choosing a neighborhood, or planning a realistic 3-day route?
+2. What evidence can the operator personally stand behind as local knowledge, and what should be labelled desk-researched?
+3. Is the BTS guide a permanent evergreen entry point, or should it be a seasonal campaign tied to official events and new releases?
+4. Which US-facing channel can be maintained consistently without reducing guide quality: Instagram/Threads, YouTube Shorts, Reddit participation, or editorial outreach?
+5. What is the minimum acceptable evidence before a restaurant, attraction, fare, opening hour or route is published?
