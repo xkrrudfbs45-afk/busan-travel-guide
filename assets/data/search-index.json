@@ -120,7 +120,7 @@
   {
     "title": "Where to Eat by Neighborhood",
     "url": "/guides/busan-neighborhood-food-guide/",
-    "summary": "Match local dishes and food stops with the neighborhood you are exploring.",
+    "summary": "Find what to eat near your Busan itinerary: Seomyeon pork soup, Nampo market snacks, Jagalchi seafood, Haeundae food stalls, Dongnae pajeon and PNU local picks.",
     "tags": [
       "food",
       "restaurants",
@@ -131,7 +131,18 @@
       "where to eat",
       "restaurants by area",
       "food map",
-      "dining"
+      "dining",
+      "Seomyeon food",
+      "Seomyeon restaurants",
+      "Seomyeon pork soup",
+      "Nampo food",
+      "Jagalchi seafood",
+      "Haeundae food",
+      "Dongnae pajeon",
+      "Pusan National University food",
+      "Busan food by area",
+      "釜山美食地圖",
+      "釜山各區美食"
     ]
   },
   {
@@ -1694,6 +1705,27 @@
       "釜山 BTS 聖地",
       "防弾少年団 釜山",
       "釜山旅行"
+    ]
+  },
+  {
+    "title": "Where to Eat in Haeundae, Busan",
+    "url": "/guides/haeundae-food-guide/",
+    "summary": "Plan Haeundae meals by area: traditional market snacks, seaside seafood stalls, Haeridan-gil cafés and Korean BBQ.",
+    "tags": [
+      "Haeundae food",
+      "where to eat in Haeundae",
+      "Haeundae restaurants",
+      "Haeundae Market food",
+      "Haeundae Traditional Market",
+      "Haeundae seafood",
+      "Haeundae Food Stall Town",
+      "Haeridan-gil cafes",
+      "Haeridan-gil restaurants",
+      "Palpal Yangdaechang",
+      "Haeundae Korean BBQ",
+      "해운대 맛집",
+      "해운대 시장 먹거리",
+      "해리단길 카페"
     ]
   }
 ]
