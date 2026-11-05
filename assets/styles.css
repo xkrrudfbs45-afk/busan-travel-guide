@@ -823,3 +823,11 @@
     align-self:flex-end;
   }
 }
+
+
+/* BTS guide map links: clear, thumb-friendly controls on mobile. */
+.place-map-action{margin:10px 0 18px!important}
+.place-map-link{display:inline-flex;align-items:center;justify-content:center;min-height:42px;box-sizing:border-box;padding:9px 13px;border:1px solid #b8d1ce;border-radius:6px;background:#f4faf8;color:#176b65!important;font-size:12px;font-weight:800;line-height:1.35;text-decoration:none!important}
+.place-map-link:hover{background:#e7f3ef;border-color:#176b65}
+.place-map-link:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+@media(max-width:700px){.place-map-action{margin:8px 0 16px!important}.place-map-link{width:100%;min-height:46px;padding:11px 14px;font-size:13px}}
