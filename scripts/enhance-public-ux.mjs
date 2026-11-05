@@ -19,9 +19,9 @@ const ASSET_VERSION = (process.env.RENDER_GIT_COMMIT || (() => {
 })()).slice(0, 12);
 
 const T = {
-  en: { keep: "Keep exploring", recent: "Recently updated guides", follow: "Follow Go2Busan for new guides", feed: "Go2Busan guides", rss: "Subscribe via feed", lang: "en" },
-  ja: { keep: "あわせて読みたい", recent: "最近更新したガイド", follow: "新しいガイドはSNSでお知らせします", feed: "Go2Busan ガイド", rss: "フィードで購読", lang: "ja" },
-  tw: { keep: "延伸閱讀", recent: "最近更新的指南", follow: "追蹤 Go2Busan 獲得新指南", feed: "Go2Busan 指南", rss: "訂閱摘要", lang: "zh-TW" },
+  en: { keep: "Keep exploring", recent: "Recently updated guides", follow: "Follow Go2Busan for new guides", feed: "Go2Busan guides", rss: "Subscribe via feed", lang: "en", src: "Sources for this guide", srcNote: "Go2Busan's last update", srcWarn: "Prices, hours and timetables change. Confirm them at the source before you go.", srcBy: "Updated date is when Go2Busan last edited this page, not a guarantee that every detail was re-checked." },
+  ja: { keep: "あわせて読みたい", recent: "最近更新したガイド", follow: "新しいガイドはSNSでお知らせします", feed: "Go2Busan ガイド", rss: "フィードで購読", lang: "ja", src: "このガイドの参考ソース", srcNote: "Go2Busan最終更新", srcWarn: "料金・営業時間・時刻表は変更されます。出発前に各ソースで最新情報をご確認ください。", srcBy: "更新日はGo2Busanがこのページを最後に編集した日であり、すべての情報を再確認した日を意味するものではありません。" },
+  tw: { keep: "延伸閱讀", recent: "最近更新的指南", follow: "追蹤 Go2Busan 獲得新指南", feed: "Go2Busan 指南", rss: "訂閱摘要", lang: "zh-TW", src: "本指南的參考來源", srcNote: "Go2Busan 最後更新", srcWarn: "費用、營業時間與時刻表可能變動，出發前請至來源確認最新資訊。", srcBy: "更新日期為 Go2Busan 最後編輯此頁的日期，並不代表所有細節皆已重新確認。" },
 };
 const PREFIX = { en: "", ja: "/ja", tw: "/zh-tw" };
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -117,6 +117,22 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         const t = T[loc];
         const block = `<section class="shell keep-exploring" aria-labelledby="keep-exploring-title"><h2 id="keep-exploring-title">${t.keep}</h2><ul>${rel.map((r) => link(r, false, loc)).join("")}</ul>${social ? `<p class="keep-follow">${t.follow}: ${social}</p>` : ""}</section>`;
         h = h.replace("</main>", block + "</main>"); bump("1 related blocks");
+      }
+      if (!h.includes('class="shell source-box"') && h.includes("</main>")) {
+        const body = (h.match(/<article class="article-body"[\s\S]*?<\/article>/) || [""])[0];
+        const seen = new Set(); const items = [];
+        for (const m of body.matchAll(/<a [^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/g)) {
+          const u = m[1].replace(/&amp;/g, "&");
+          if (/go2busan\.com|klook|agoda|instagram|threads|creativecommons|wikimedia|wikipedia|zimcarry\.net\/reserve|google\.com|naver\.|yanolja|seantour|c1\.co\.kr/i.test(u) || seen.has(u)) continue;
+          const label = unesc(m[2]); if (!label || label.length > 90) continue;
+          seen.add(u); items.push(`<li><a href="${esc(u)}" rel="noopener noreferrer" target="_blank">${esc(label)}</a></li>`);
+        }
+        if (items.length >= 2 && g.date) {
+          const t = T[loc];
+          const box = `<section class="shell source-box" aria-labelledby="source-box-title"><h2 id="source-box-title">${t.src}</h2><ul>${items.slice(0, 6).join("")}</ul><p>${t.srcNote}: <time datetime="${g.date}">${esc(formatDate(g.date, loc))}</time>. ${t.srcWarn}</p><p class="source-box__note">${t.srcBy}</p></section>`;
+          h = h.replace('<section class="shell keep-exploring"', box + '<section class="shell keep-exploring"'); if (!h.includes("source-box")) h = h.replace("</main>", box + "</main>");
+          bump("5 source boxes");
+        }
       }
       writeFileSync(g.file, h);
     }
