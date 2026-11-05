@@ -763,3 +763,63 @@
 
 /* Shared localized visitor-planning components (EN / JA / zh-TW) */
 .local-scorecard{margin:24px auto;padding:22px;background:#fff;border:1px solid var(--line);border-radius:5px}.local-scorecard-heading{display:flex;align-items:center;justify-content:space-between;gap:15px}.local-scorecard-heading .eyebrow{margin-bottom:5px}.local-scorecard-heading h2,.local-tip-panel h2{font-family:var(--serif);font-weight:500;font-size:25px;line-height:1.2;margin:0 0 14px}.verification-badge{display:inline-flex;padding:6px 9px;border:1px solid #c8d9cf;border-radius:99px;color:var(--teal);font-size:10px;font-weight:750}.local-scorecard-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:15px}.local-scorecard-grid>div{padding:12px;background:#f5f6f0;border-radius:4px;min-width:0}.scorecard-label,.local-scorecard-grid strong,.local-scorecard-grid small{display:block}.scorecard-label{font-size:10px;color:var(--muted);margin-bottom:5px}.local-scorecard-grid strong{font-size:13px;line-height:1.35}.local-scorecard-grid small{font-size:10px;line-height:1.5;color:var(--muted);margin-top:6px}.scorecard-note{font-size:11px!important;color:var(--muted);margin:13px 0 0!important}.guide-jump-nav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding-top:6px;padding-bottom:18px}.guide-jump-nav span{font-size:9px;letter-spacing:.08em;color:var(--muted);font-weight:800}.guide-jump-nav a{font-size:11px;text-decoration:none;border:1px solid var(--line);border-radius:99px;padding:7px 10px;background:#fff}.local-tip-panel{margin:28px 0;padding:22px;background:#f4e9dd;border-left:4px solid var(--coral)}.local-tip-panel .eyebrow{color:#8a4b36;margin-bottom:8px}.local-tip-panel h2{margin-bottom:10px}.local-tip-panel p:last-child{margin-bottom:0}@media(max-width:700px){.local-scorecard-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.local-scorecard-heading{align-items:flex-start;flex-direction:column}.guide-jump-nav{gap:7px}}
+
+
+/* 2026-11-05 homepage desktop overlap fix:
+   Keep the festival story in its own content column and stack both side panels
+   in a reserved right rail. On smaller screens, return them to normal flow. */
+@media (min-width:851px){
+  .fireworks-breaking{
+    display:block;
+    min-height:650px;
+    box-sizing:border-box;
+  }
+  .fireworks-breaking-inner{
+    box-sizing:border-box;
+    width:min(1440px,calc(100% - 64px));
+    max-width:1440px;
+    margin:0 auto;
+    padding:58px 370px 52px 0;
+  }
+  .fireworks-breaking-note{
+    top:26px;
+    right:max(32px,calc((100vw - 1440px)/2));
+    bottom:auto;
+    transform:none;
+    box-sizing:border-box;
+    width:300px;
+  }
+  .fireworks-breaking-goods{
+    position:absolute;
+    right:max(32px,calc((100vw - 1440px)/2));
+    bottom:24px;
+    box-sizing:border-box;
+    width:300px;
+    max-width:calc((100vw - 64px)/2);
+    margin:0;
+    align-self:auto;
+  }
+}
+@media (min-width:851px) and (max-width:1100px){
+  .fireworks-breaking{min-height:700px}
+  .fireworks-breaking-inner{padding-right:330px}
+  .fireworks-breaking-note,.fireworks-breaking-goods{width:270px}
+  .fireworks-breaking h2{font-size:clamp(34px,4.2vw,48px)}
+}
+@media (min-width:801px) and (max-width:1100px){
+  .home-refresh .nav-wrap{gap:14px}
+  .home-refresh .site-header nav{gap:12px;flex-wrap:wrap;justify-content:center}
+  .home-refresh .site-header nav a{font-size:11px;white-space:nowrap}
+  .home-refresh .header-actions{gap:6px}
+}
+@media (max-width:850px){
+  .fireworks-breaking-goods{
+    position:relative;
+    right:auto;
+    bottom:auto;
+    width:auto;
+    max-width:420px;
+    margin:0 20px 20px;
+    align-self:flex-end;
+  }
+}
