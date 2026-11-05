@@ -301,7 +301,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-06T10:00:00.000Z",
       "art": {
         "type": "ai",
@@ -347,8 +347,13 @@
       "caption": "Fireworks night in Busan means road closures around Gwangalli. 🚌\n\nOn Nov 7, road control starts at 10:00 and expands in phases. From 18:00, 11 bus routes through Gwangnam-ro are fully closed, with a detour via Suyeong-ro. Streets and stations near the venue will be crowded, so leave extra time.\n\nSave this and check Busan City's official traffic notice before you leave. Full local guide: link in our profile (go2busan.com).\n\nSource: Busan Metropolitan City (notice dated Oct 30, 2026). Illustration: AI-generated.\n\n#BusanFireworks #Busan #Gwangalli #KoreaTravel #BusanTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-fireworks-festival/",
       "verification": {
-        "status": "needs_check",
-        "register": "d02-traffic"
+        "status": "verified",
+        "register": "d02-traffic",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "busan.go.kr/nbnews/1761578 (notice dated 2026-10-30)"
+        ],
+        "approved_by": "탁경륜 2026-11-05"
       }
     },
     {
@@ -356,7 +361,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-06T03:30:00.000Z",
       "art": {
         "type": "ai",
@@ -402,8 +407,13 @@
       "caption": "釜山の花火大会の夜は、広安里周辺で交通規制があります。🚌\n\n11月7日は10時から規制が始まり、段階的に広がります。18時からは広南路を通る11系統のバスが全面通行止めとなり、水営路に迂回します。会場周辺の道路や駅は混雑するので、時間に余裕をもって出発してください。\n\n保存して、出発前に釜山市の公式交通規制案内を確認しましょう。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\n出典：釜山広域市（2026年10月30日付の案内）　イラスト：AI生成\n\n#釜山花火大会 #釜山旅行 #釜山 #広安里 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/busan-fireworks-festival/",
       "verification": {
-        "status": "needs_check",
-        "register": "d02-traffic"
+        "status": "verified",
+        "register": "d02-traffic",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "busan.go.kr/nbnews/1761578 (notice dated 2026-10-30)"
+        ],
+        "approved_by": "탁경륜 2026-11-05"
       }
     },
     {
@@ -411,7 +421,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-06T12:00:00.000Z",
       "art": {
         "type": "ai",
@@ -457,8 +467,13 @@
       "caption": "釜山煙火節當晚，廣安里周邊會有交通管制。🚌\n\n11月7日上午10點起開始管制，並分階段擴大。18點起，行經廣南路的11條公車路線全面封閉，改道水營路。會場周邊道路與車站會很擁擠，請預留充足時間。\n\n先收藏起來，出發前再查看釜山市官方交通管制公告。完整當地攻略請點個人檔案連結（go2busan.com）。\n\n資料來源：釜山廣域市（2026年10月30日公告）　插畫：AI 生成\n\n#釜山煙火節 #釜山旅遊 #釜山 #廣安里 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/",
       "verification": {
-        "status": "needs_check",
-        "register": "d02-traffic"
+        "status": "verified",
+        "register": "d02-traffic",
+        "checked_on": "2026-11-05",
+        "sources": [
+          "busan.go.kr/nbnews/1761578 (notice dated 2026-10-30)"
+        ],
+        "approved_by": "탁경륜 2026-11-05"
       }
     },
     {
