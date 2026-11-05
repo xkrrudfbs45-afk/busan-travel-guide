@@ -129,8 +129,6 @@ alter table public.community_reports enable row level security;
 -- Profiles are visible to signed-in community members; members may edit only their own display fields.
 create policy "Profiles readable by authenticated users"
 on public.community_profiles for select to authenticated using (true);
-create policy "Members insert their own profile"
-on public.community_profiles for insert to authenticated with check (auth.uid() = id);
 create policy "Members update their own profile"
 on public.community_profiles for update to authenticated
 using (auth.uid() = id) with check (auth.uid() = id);
@@ -198,7 +196,8 @@ revoke all on public.community_answers from anon;
 revoke all on public.community_votes from anon;
 revoke all on public.community_reports from anon;
 grant select on public.community_questions, public.community_answers to anon;
-grant select, insert, update on public.community_profiles to authenticated;
+grant select on public.community_profiles to authenticated;
+grant update (display_name, preferred_language) on public.community_profiles to authenticated;
 grant select, insert, delete on public.community_questions to authenticated;
 grant select, insert, delete on public.community_answers to authenticated;
 grant select, insert, delete on public.community_votes to authenticated;
