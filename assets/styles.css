@@ -179,7 +179,7 @@
 
 
 /* Homepage guide cards: replace flat vector thumbnails with photography */
-.home-refresh .feature-image{background-image:linear-gradient(180deg,#102a2b12 35%,#102a2b70),url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1400&q=82");background-size:cover;background-position:center 48%;min-height:330px}
+.home-refresh .feature-image{background-image:linear-gradient(180deg,#102a2b12 35%,#102a2b70),url("https://commons.wikimedia.org/wiki/Special:FilePath/Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg?width=1600");background-size:cover;background-position:center 48%;min-height:330px}
 .home-refresh .airport-sun,.home-refresh .airport-runway,.home-refresh .airport-terminal{display:none}
 .home-refresh .guide-thumb{background-size:cover;background-position:center;isolation:isolate;color:#fff}
 .home-refresh .guide-thumb:before{inset:0;width:auto;height:auto;right:0;bottom:0;border:0;border-radius:0;background:linear-gradient(180deg,#102a2b25 0%,#102a2b00 35%,#102a2bbd 100%);z-index:0}
@@ -187,7 +187,7 @@
 .home-refresh .thumb-symbol{display:none}
 .home-refresh .thumb-kicker{color:#fff;text-shadow:0 1px 8px #102a2b80}
 .home-refresh .thumb-caption{color:#fff;text-shadow:0 1px 8px #102a2b80}
-.home-refresh .thumb-luggage{background-image:url("https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=78")}
+.home-refresh .thumb-luggage{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Central_Bus_Terminal_Locker.jpg?width=1600")}
 .home-refresh .thumb-ktx{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/KTX%20(Korea%20Train%20eXpress).jpg?width=1200")}.home-refresh .thumb-food{background:linear-gradient(135deg,#f4c98b,#c76c46)}.home-refresh .thumb-food .thumb-symbol{color:#6d2d20}.home-refresh .photo-credit{font-size:9px;line-height:1.5;color:var(--muted);margin:-8px 0 12px}.home-refresh .photo-credit a{color:inherit}
 .home-refresh .coming-card{overflow:hidden;border-radius:12px;box-shadow:0 8px 28px #172e3108;transition:transform .25s ease,box-shadow .25s ease}
 .home-refresh .coming-card:hover{box-shadow:0 18px 40px #172e3118;transform:translateY(-4px)}
