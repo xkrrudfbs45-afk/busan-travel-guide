@@ -7,9 +7,9 @@
   const loc = lang.startsWith('ja') ? 'ja' : (lang.includes('zh') ? 'tw' : 'en');
   const PREFIX = { en: '', ja: '/ja', tw: '/zh-tw' }[loc];
   const T = {
-    en: { search: 'Search', placeholder: 'Search guides, places, food…', close: 'Close', none: 'No matching guide yet. Try a place or dish name.', saved: 'Saved', save: 'Save guide', unsave: 'Saved ✓', savedTitle: 'Your saved guides', savedEmpty: 'Tap “Save guide” on any guide to keep it here for your trip. Saved on this device only.', remove: 'Remove', home: 'Home', guides: 'Guides', swipe: 'Swipe to see more →', savedToast: 'Saved to your trip list', removedToast: 'Removed from your trip list' },
-    ja: { search: '検索', placeholder: 'ガイド・場所・料理を検索…', close: '閉じる', none: '該当するガイドがありません。地名や料理名で試してください。', saved: '保存済み', save: 'ガイドを保存', unsave: '保存済み ✓', savedTitle: '保存したガイド', savedEmpty: '各ガイドの「ガイドを保存」を押すと、ここに一覧表示されます（この端末のみに保存）。', remove: '削除', home: 'ホーム', guides: 'ガイド', swipe: '横にスクロールできます →', savedToast: '旅行リストに保存しました', removedToast: '旅行リストから削除しました' },
-    tw: { search: '搜尋', placeholder: '搜尋指南、地點、美食…', close: '關閉', none: '找不到相符的指南，試試地名或料理名稱。', saved: '已收藏', save: '收藏指南', unsave: '已收藏 ✓', savedTitle: '我收藏的指南', savedEmpty: '在任何指南按「收藏指南」，就會出現在這裡（只儲存在這台裝置）。', remove: '移除', home: '首頁', guides: '指南', swipe: '可左右滑動查看 →', savedToast: '已加入旅行清單', removedToast: '已從旅行清單移除' },
+    en: { search: 'Search', placeholder: 'Search guides, places, food…', close: 'Close', none: 'No matching guide yet. Try a place or dish name.', saved: 'Saved', save: 'Save guide', unsave: 'Saved ✓', savedTitle: 'Your saved guides', savedEmpty: 'Tap “Save guide” on any guide to keep it here for your trip. Saved on this device only.', remove: 'Remove', home: 'Home', guides: 'Guides', swipe: 'Swipe to see more →', savedToast: 'Saved to your trip list', removedToast: 'Removed from your trip list', recent: 'Recently viewed', copyList: 'Copy list to share', copied: 'List copied' },
+    ja: { search: '検索', placeholder: 'ガイド・場所・料理を検索…', close: '閉じる', none: '該当するガイドがありません。地名や料理名で試してください。', saved: '保存済み', save: 'ガイドを保存', unsave: '保存済み ✓', savedTitle: '保存したガイド', savedEmpty: '各ガイドの「ガイドを保存」を押すと、ここに一覧表示されます（この端末のみに保存）。', remove: '削除', home: 'ホーム', guides: 'ガイド', swipe: '横にスクロールできます →', savedToast: '旅行リストに保存しました', removedToast: '旅行リストから削除しました', recent: '最近見たガイド', copyList: 'リストをコピーして共有', copied: 'リストをコピーしました' },
+    tw: { search: '搜尋', placeholder: '搜尋指南、地點、美食…', close: '關閉', none: '找不到相符的指南，試試地名或料理名稱。', saved: '已收藏', save: '收藏指南', unsave: '已收藏 ✓', savedTitle: '我收藏的指南', savedEmpty: '在任何指南按「收藏指南」，就會出現在這裡（只儲存在這台裝置）。', remove: '移除', home: '首頁', guides: '指南', swipe: '可左右滑動查看 →', savedToast: '已加入旅行清單', removedToast: '已從旅行清單移除', recent: '最近瀏覽', copyList: '複製清單分享', copied: '已複製清單' },
   }[loc];
   const send = (name, params) => { if (typeof window.gtag === 'function') window.gtag('event', name, Object.assign({ guide_locale: loc === 'tw' ? 'zh-TW' : loc }, params || {})); };
   const el = (tag, attrs, text) => { const n = doc.createElement(tag); Object.entries(attrs || {}).forEach(([k, v]) => n.setAttribute(k, v)); if (text) n.textContent = text; return n; };
@@ -20,6 +20,11 @@
   const store = {
     get() { try { const v = JSON.parse(window.localStorage.getItem(KEY) || '[]'); return Array.isArray(v) ? v : []; } catch (_) { return []; } },
     set(v) { try { window.localStorage.setItem(KEY, JSON.stringify(v.slice(0, 60))); } catch (_) { /* storage blocked */ } },
+  };
+  const RKEY = 'g2b-recent-guides-v1';
+  const recent = {
+    get() { try { const v = JSON.parse(window.localStorage.getItem(RKEY) || '[]'); return Array.isArray(v) ? v : []; } catch (_) { return []; } },
+    push(g) { try { const v = recent.get().filter((x) => x.url !== g.url); v.unshift({ url: g.url, title: g.title }); window.localStorage.setItem(RKEY, JSON.stringify(v.slice(0, 8))); } catch (_) { /* blocked */ } },
   };
   let toastEl;
   const toast = (msg) => {
@@ -82,8 +87,11 @@
     const b = el('button', { type: 'button', class: 'g2b-search-btn', 'aria-label': T.search });
     b.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>';
     b.addEventListener('click', openSearch);
+    const sv = el('button', { type: 'button', class: 'g2b-search-btn g2b-saved-btn', 'aria-label': T.saved });
+    sv.innerHTML = '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="g2b-bar__badge" hidden></span>';
+    sv.addEventListener('click', openSaved);
     const pills = wrap.lastElementChild;
-    if (pills && pills.tagName === 'DIV' && pills.querySelector('.language-pill')) pills.insertBefore(b, pills.firstChild); else wrap.insertBefore(b, pills);
+    if (pills && pills.tagName === 'DIV' && pills.querySelector('.language-pill')) { pills.insertBefore(sv, pills.firstChild); pills.insertBefore(b, pills.firstChild); } else { wrap.insertBefore(b, pills); wrap.insertBefore(sv, pills); }
   }
 
   // ---------- Saved guides ----------
@@ -125,6 +133,19 @@
       const rm = el('button', { type: 'button', class: 'g2b-saved__rm', 'aria-label': `${T.remove}: ${it.title}` }, '×');
       rm.addEventListener('click', () => { store.set(store.get().filter((x) => x.url !== it.url)); li.remove(); updateBadge(); if (!list.children.length) list.appendChild(el('li', { class: 'g2b-search__none' }, T.savedEmpty)); });
       li.appendChild(rm); list.appendChild(li);
+    }
+    if (items.length) {
+      const li = el('li', { class: 'g2b-saved__actions' }); const cp = el('button', { type: 'button', class: 'g2b-btn' }, T.copyList);
+      cp.addEventListener('click', async () => {
+        const text = store.get().filter((x) => inLocale(x.url)).map((x) => `${x.title}\n${location.origin}${x.url}`).join('\n\n');
+        try { await navigator.clipboard.writeText(text); toast(T.copied); } catch (_) { /* clipboard blocked */ }
+      });
+      li.appendChild(cp); list.appendChild(li);
+    }
+    const rec = recent.get().filter((x) => inLocale(x.url) && x.url !== currentGuide().url && !items.some((i) => i.url === x.url)).slice(0, 5);
+    if (rec.length) {
+      list.appendChild(el('li', { class: 'g2b-saved__sub' }, T.recent));
+      for (const it of rec) { const li = el('li'); const a = el('a', { href: it.url }); a.appendChild(el('strong', {}, it.title)); li.appendChild(a); list.appendChild(li); }
     }
     drawer.hidden = false; doc.documentElement.classList.add('g2b-lock'); drawer.querySelector('button').focus();
   }
@@ -178,6 +199,14 @@
     first.insertAdjacentElement('beforebegin', nav);
   }
 
-  const run = () => { headerSearchButton(); saveButton(); quickBar(); tableHints(); directoryChips(); };
+  function shortcuts() {
+    if (isHome) return;
+    doc.addEventListener('keydown', (e) => {
+      if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey) return;
+      const t = e.target; if (t && (/^(input|textarea|select)$/i.test(t.tagName) || t.isContentEditable)) return;
+      e.preventDefault(); openSearch();
+    });
+  }
+  const run = () => { if (isGuide) recent.push(currentGuide()); shortcuts(); headerSearchButton(); saveButton(); quickBar(); tableHints(); directoryChips(); };
   if (doc.readyState === 'loading') doc.addEventListener('DOMContentLoaded', run, { once: true }); else run();
 })();

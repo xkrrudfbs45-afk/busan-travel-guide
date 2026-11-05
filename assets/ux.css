@@ -100,3 +100,8 @@ h2:hover .g2b-anchor,.g2b-anchor:focus-visible{opacity:.6}
 .home-refresh .footer-plan{color:#dbe4ee}
 body:not(.home-refresh) .footer-social span{color:#5b6b6d}
 body:not(.home-refresh) .footer-social a{color:#24433f}
+.g2b-saved-btn{position:relative}
+.g2b-saved-btn .g2b-bar__badge{position:absolute;top:4px;right:2px;min-width:16px;height:16px;padding:0 4px;border-radius:8px;background:#df8065;color:#fff;font-size:10px;line-height:16px;text-align:center}
+.g2b-saved-btn .g2b-bar__badge[hidden]{display:none}
+.g2b-saved__actions{padding:12px 0;border-top:1px solid #edf1f0}
+.g2b-saved__sub{padding:14px 6px 6px;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#5b6b6d;border-top:0!important}
