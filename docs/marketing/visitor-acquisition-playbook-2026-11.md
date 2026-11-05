@@ -220,3 +220,82 @@ These are measurement targets, not claims about current performance:
 - Trackable social landing sessions increase week over week where consented GA4 data is available.
 - Search Console page/query baseline captured once sufficient data exists; no CTR edits without a measurable sample.
 - Affiliate click events are reviewed by source landing page and partner, without altering existing event definitions.
+
+
+## 7. Relevant external outreach targets (researched 2026-11-05)
+
+**Important distinction:** These are potential editorial/partnership contacts, not confirmed backlink opportunities. No organization has agreed to link to Go2Busan. Do not ask for a link as the sole purpose of contact; offer a genuinely useful resource, correction, or collaboration idea and accept "no".
+
+| Priority | Organization / channel | Verified public purpose | Why it is relevant | Recommended approach | Link outcome |
+|---|---|---|---|---|---|
+| A | Tourism Busan — https://tourismbusan.com/contact | Its contact page explicitly invites questions, corrections, partnership inquiries and thoughtful recommendations. | A locally focused travel-information project can offer corrections, practical visitor questions, and multilingual usability feedback. | Send a concise editorial introduction and offer one specific useful resource or correction. Ask whether there is an appropriate editorial/partner listing, without demanding a backlink. | Possible editorial mention; not guaranteed. |
+| A | Korea Tourism Organization — VisitKorea Partners — https://korean.visitkorea.or.kr/partners/partners_main.do | Official partner portal offers promotion applications and partnership/proposal applications. | A route to formal tourism-content collaboration if Go2Busan meets eligibility requirements. | Read eligibility and account requirements first. Apply only if an individual publisher/website is eligible; do not misrepresent the site as a registered tourism business. | Listing/promotion may be possible subject to approval and eligibility. |
+| B | Busan Tourism Association — https://bta.or.kr/ | Lists tourism businesses, member information and association contact details. | Useful for building a real local operator relationship network and verifying business facts. | Contact the association to ask whether it has a media/resource directory or collaboration channel for independent multilingual publishers. Do not assume membership is open to publishers. | Unconfirmed; relationship-building first. |
+| B | Busan City English Media Hub / Daily Busan — https://www.busan.go.kr/eng | City English news and media resources; recent coverage describes Visit Busan Mate, a foreign-resident tourism concierge pilot. | Relevant to the site's multilingual audience and local-information mission. | Pitch a clearly newsworthy, independently useful local visitor resource or offer corrections; follow the newsroom's submission process if available. | Editorial coverage is not assured; no direct backlink request. |
+| B | Visit Busan / Busan Tourism Organization — https://www.visitbusan.net/ and https://bto.or.kr/ | Official destination information and tourism organization. | Potential authoritative source for fact-checking and future collaboration. | Use official materials as sources. Contact through published official channels only when proposing a concrete contribution or reporting a factual correction. | No public general link-submission route confirmed in this review. |
+| C | Busan Tourism Center — https://busantourism.co.kr/pages/contact | A private tour provider with public contact details and an English-facing site. | Potential source-checking / visitor FAQ exchange, if independently useful to both audiences. | Approach only with a specific editorial collaboration idea; clearly label any commercial relationship and affiliate links. | No backlink opportunity confirmed. |
+
+### Outreach order and guardrails
+
+1. Start with Tourism Busan because its contact page expressly invites partnership inquiries and thoughtful recommendations.
+2. Check VisitKorea Partners eligibility before registering or applying. Its listed promotion services do not mean every independent website qualifies.
+3. Ask the Busan Tourism Association about appropriate publisher/media collaboration channels; do not mass-email member businesses.
+4. Treat city newsroom coverage as editorial, not a link-building transaction.
+5. Approach private tour operators only where the content is genuinely relevant and any commercial relationship can be disclosed.
+6. Do not offer reciprocal links, payment for followed links, fabricated reviews, or bulk directory submissions.
+
+### Outreach email draft — Tourism Busan
+
+**Subject:** Multilingual visitor information resource for independent Busan travelers
+
+Hello Tourism Busan team,
+
+I help operate Go2Busan, an independent travel-information website for international visitors to Busan, currently publishing practical guides in English, Japanese and Traditional Chinese.
+
+Our focus is on useful trip-planning information: getting around the city, choosing areas to stay, understanding local markets, and finding experiences beyond a short list of headline attractions. We are working to make the information clearer and more useful for visitors who plan independently.
+
+I noticed that your contact page welcomes editorial corrections, partnership inquiries and thoughtful recommendations. I would be glad to share specific visitor questions we are seeing, report any factual issues we identify in public tourism information, or discuss a small multilingual content collaboration if there is a suitable channel.
+
+Website: https://go2busan.com/
+
+If another team handles editorial or partnership proposals, could you point me to the appropriate contact?
+
+Thank you,
+Go2Busan Editorial Team
+
+**Use note:** This is a draft only. The operator should review the sender identity, relationship description and contact route before sending. No message has been sent.
+
+### Outreach email draft — Busan Tourism Association
+
+**Subject:** Inquiry about media and multilingual visitor-information collaboration
+
+Hello Busan Tourism Association team,
+
+I help operate Go2Busan, an independent website preparing practical Busan travel guides for English-, Japanese- and Traditional Chinese-speaking visitors.
+
+I found the Association's public tourism-business directory and would like to ask whether the Association has a media/resource directory, independent publisher network, or suitable channel for sharing useful multilingual visitor information.
+
+We are not asking for a listing or link without review. Our aim is to understand whether there is an appropriate way to contribute accurate visitor-facing information and connect with local tourism businesses where it benefits travelers.
+
+Website: https://go2busan.com/
+
+Thank you for your guidance,
+Go2Busan Editorial Team
+
+**Use note:** Draft only; no message has been sent. Confirm the Association's current contact details and eligibility before sending.
+
+## 8. Social schedule issue log — no URLs changed
+
+| Finding | Evidence in repository | Risk | Action taken |
+|---|---|---|---|
+| Instagram Day 06 airport guide is the same English URL in US, JP and TW draft records. | `content/social/instagram/schedule.json`, records `ig-d06-airport-en`, `ig-d06-airport-ja`, `ig-d06-airport-zh-tw`. | Japanese and Traditional Chinese visitors may land on English content. | Logged as a manual review item. No schedule URL was changed because the operator explicitly prohibited URL changes without approval. |
+| Several Instagram records remain `draft` and `needs_check`. | Same schedule file; includes Day 03–07 records and additional US-only food posts. | Unverified facts or mismatched destination could be published if drafts are approved without review. | Keep them unapproved until copy, facts and destination are checked. |
+| Threads link replies have language-specific URLs for the sampled JP/TW/US Day 01–09, Day 16 and Day 22 posts. | `content/social/threads-30day/schedule.json`. | A URL's existence and live destination were not exhaustively checked for every scheduled post. | Retain existing UTM conventions; verify the actual destination before each publishing batch. |
+
+### Operator checklist for the Instagram Day 06 issue
+
+- Open the existing Japanese and Traditional Chinese airport-to-Haeundae guide from the site's language navigation.
+- Confirm whether those localized pages are complete and current.
+- If they exist and the operator approves the correction, update only the two scheduled Instagram destination URLs in a separate, reviewable change.
+- If localized pages do not exist or are incomplete, keep the current draft unpublished and use a different already-localized guide; do not send users to a misleading or unfinished page.
+- Re-check the automation's scheduled payload after any approved change. Do not assume editing the source JSON updates already queued platform posts.
