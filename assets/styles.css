@@ -291,8 +291,8 @@
 .home-refresh .trend-image{height:138px;position:relative;overflow:hidden;background-size:cover;background-position:center}
 .home-refresh .trend-image:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0f172a18,transparent 45%,#0f172a20)}
 .home-refresh .trend-market{background-image:url("/assets/busan-local-culture-illustration.svg")}
-.home-refresh .trend-airport{background-image:url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=82")}
-.home-refresh .trend-luggage{background-image:url("https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=900&q=82")}
+.home-refresh .trend-airport{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg?width=1600")}
+.home-refresh .trend-luggage{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_Central_Bus_Terminal_Locker.jpg?width=1600")}
 .home-refresh .trend-tag{position:absolute;top:10px;left:10px;z-index:1;padding:5px 8px;border-radius:99px;background:#fff;color:#174fa7;font-size:8px;font-weight:850;letter-spacing:.04em}
 .home-refresh .trend-copy{position:relative;flex:1;padding:11px 13px 17px}
 .home-refresh .trend-category{font-size:10px;color:#1684e8;font-weight:750;margin:0 0 2px}
@@ -422,7 +422,7 @@
 .home-refresh .trend-songjeong{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Songjeong_Beach.jpg?width=1000")}
 .home-refresh .trend-hotel{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Paradise_Hotel_Busan.JPG?width=1000")}
 .home-refresh .trend-itinerary{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gamcheon_Culture_Village_in_Busan%2C_South_Korea.jpg?width=1000")}
-.home-refresh .trend-rainy{background-image:url("https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=900&q=80")}.trend-winter{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/A_snow_day_in_Busan_-_panoramio.jpg?width=1600")}.trend-spa{background:linear-gradient(135deg,#d7e7e2 0%,#f4e8d3 52%,#b8d0ca 100%)}.spa-photo{margin:1.5rem auto 2rem;max-width:1100px}.spa-photo img{display:block;width:100%;height:auto;border-radius:12px}.spa-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}.winter-photo{margin:1.5rem 0 2rem}.winter-photo img{display:block;width:100%;height:auto;border-radius:12px}.winter-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}
+.home-refresh .trend-rainy{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_city_office_Korea_20090222.jpg?width=1600")}.trend-winter{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/A_snow_day_in_Busan_-_panoramio.jpg?width=1600")}.trend-spa{background:linear-gradient(135deg,#d7e7e2 0%,#f4e8d3 52%,#b8d0ca 100%)}.spa-photo{margin:1.5rem auto 2rem;max-width:1100px}.spa-photo img{display:block;width:100%;height:auto;border-radius:12px}.spa-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}.winter-photo{margin:1.5rem 0 2rem}.winter-photo img{display:block;width:100%;height:auto;border-radius:12px}.winter-photo figcaption{margin-top:.5rem;font-size:.82rem;line-height:1.5;color:var(--muted,#64748b)}
 .home-refresh .trend-credit{position:absolute;z-index:2;left:8px;right:8px;bottom:6px;font-size:7px;line-height:1.25;color:#fff;text-shadow:0 1px 5px #0f172a;opacity:.92}
 .home-refresh .trend-image .trend-tag{z-index:3}
 .editorial-badge{display:inline-flex;align-items:center;gap:6px;margin:0 0 10px;padding:5px 10px;border-radius:999px;background:#fff7d6;border:1px solid #f5d76e;color:#7a4a00;font-size:10px;line-height:1.4;font-weight:850;letter-spacing:.06em;text-transform:uppercase}
@@ -583,8 +583,8 @@
 
 
 /* Homepage editorial photography: replace repeated decorative illustrations with distinct, subject-matched imagery. */
-.trend-dialect{background-image:url("https://images.unsplash.com/photo-1598059763116-742d9b4b99a1?auto=format&fit=crop&w=900&q=80");background-position:center 48%}
-.trend-local-culture-photo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Oldder_woman_selling_vegetables_and_more_things.jpg?width=1000");background-position:center 42%}
+.trend-dialect{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Nampo-dong_Busy_Street.JPG?width=1200");background-position:center 48%}
+.trend-local-culture-photo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_street.jpg?width=1200");background-position:center 42%}
 
 /* Mobile overflow guards (360px audit, Nov 2026) */
 .footer-inner>*{min-width:0}
