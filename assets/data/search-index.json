@@ -1793,5 +1793,47 @@
       "다누비",
       "영도"
     ]
+  },
+  {
+    "title": "初めての釜山旅行でありがちな5つの失敗と、地元目線のコツ",
+    "url": "/ja/guides/travel-mistakes/",
+    "summary": "海雲台ブルーラインパーク、スパランド、海鮮市場、荷物の移動、夜景スポットで初めての旅行者がつまずきやすい点と、事前にできる対策をまとめました。",
+    "tags": [
+      "first trip",
+      "mistakes",
+      "tips"
+    ]
+  },
+  {
+    "title": "第一次去釜山常犯的5個錯誤，以及在地人的建議",
+    "url": "/zh-tw/guides/travel-mistakes/",
+    "summary": "整理第一次去釜山容易在海雲臺藍線公園、Spa Land、海鮮市場、行李移動與夜景景點踩雷的地方，以及出發前可以先做的準備。",
+    "tags": [
+      "first trip",
+      "mistakes",
+      "tips"
+    ]
+  },
+  {
+    "title": "釜山グルメの地元流ガイド：テジクッパと海鮮の注文マナー",
+    "url": "/ja/guides/food-etiquette/",
+    "summary": "釜山の食事で役立つ実用ガイド。テジクッパの味の調え方、ひとりでの注文、チャガルチ市場で価格を確認する方法、広安里での夕食の計画を紹介します。",
+    "tags": [
+      "food",
+      "etiquette",
+      "restaurant",
+      "ordering"
+    ]
+  },
+  {
+    "title": "釜山美食在地指南：豬肉湯飯與海鮮點餐禮儀",
+    "url": "/zh-tw/guides/food-etiquette/",
+    "summary": "釜山用餐實用指南：豬肉湯飯怎麼調味、一個人怎麼點餐、在札嘎其市場如何確認價格，以及廣安里晚餐怎麼安排。",
+    "tags": [
+      "food",
+      "etiquette",
+      "restaurant",
+      "ordering"
+    ]
   }
 ]
