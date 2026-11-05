@@ -1733,5 +1733,65 @@
       "서면",
       "사상"
     ]
+  },
+  {
+    "title": "海東龍宮寺の訪問ガイド",
+    "url": "/ja/guides/haedong-yonggungsa/",
+    "summary": "時間帯と混雑、階段や足元、機張への行き帰り、参拝マナー。",
+    "tags": [
+      "海東龍宮寺",
+      "ヘドンヨングンサ",
+      "機張",
+      "寺",
+      "混雑",
+      "Haedong Yonggungsa",
+      "해동용궁사",
+      "기장"
+    ]
+  },
+  {
+    "title": "太宗台とダヌビ列車",
+    "url": "/ja/guides/taejongdae/",
+    "summary": "ダヌビ列車の確認方法、坂道と徒歩、路線バス、近くの海辺スポット。",
+    "tags": [
+      "太宗台",
+      "テジョンデ",
+      "ダヌビ列車",
+      "影島",
+      "Taejongdae",
+      "Danubi",
+      "태종대",
+      "다누비",
+      "영도"
+    ]
+  },
+  {
+    "title": "海東龍宮寺參訪指南",
+    "url": "/zh-tw/guides/haedong-yonggungsa/",
+    "summary": "時段與人潮、階梯與路面、往返機張與參拜禮儀。",
+    "tags": [
+      "海東龍宮寺",
+      "機張",
+      "寺廟",
+      "人潮",
+      "Haedong Yonggungsa",
+      "해동용궁사",
+      "기장"
+    ]
+  },
+  {
+    "title": "太宗臺與 Danubi 列車",
+    "url": "/zh-tw/guides/taejongdae/",
+    "summary": "Danubi 列車確認方式、坡道與步行、公車與附近海岸景點。",
+    "tags": [
+      "太宗臺",
+      "太宗台",
+      "Danubi",
+      "影島",
+      "Taejongdae",
+      "태종대",
+      "다누비",
+      "영도"
+    ]
   }
 ]
