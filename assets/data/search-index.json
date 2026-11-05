@@ -1850,5 +1850,36 @@
       "restaurant",
       "ordering"
     ]
+  },
+  {
+    "title": "All Busan travel guides",
+    "url": "/guides/",
+    "summary": "Browse every Go2Busan guide by topic: trip planning, transport, where to stay, attractions, local food and culture.",
+    "tags": [
+      "all guides",
+      "directory",
+      "guide list",
+      "categories"
+    ]
+  },
+  {
+    "title": "釜山旅行ガイド一覧",
+    "url": "/ja/guides/",
+    "summary": "旅の計画、交通、宿泊エリア、観光、グルメ、ローカル文化のテーマ別にすべてのガイドを探せます。",
+    "tags": [
+      "ガイド一覧",
+      "すべてのガイド",
+      "カテゴリー"
+    ]
+  },
+  {
+    "title": "釜山旅遊指南總覽",
+    "url": "/zh-tw/guides/",
+    "summary": "依行程規劃、交通、住宿、景點、美食與在地文化分類，瀏覽所有 Go2Busan 指南。",
+    "tags": [
+      "指南總覽",
+      "所有指南",
+      "分類"
+    ]
   }
 ]
