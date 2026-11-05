@@ -58,6 +58,7 @@ h2:hover .g2b-anchor,.g2b-anchor:focus-visible{opacity:.6}
 .g2b-search__results strong{display:block;font-size:15px}
 .g2b-search__results span{display:block;font-size:13px;color:#5b6b6d;margin-top:2px;line-height:1.45}
 .g2b-search__none{padding:14px 6px;color:#5b6b6d;font-size:14px}
+.g2b-search__label{padding:10px 6px 4px;color:#5b6b6d;font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase}
 .g2b-saved__head{display:flex;justify-content:space-between;align-items:center;gap:8px}
 .g2b-saved__head h2{margin:0;font-size:18px}
 .g2b-saved__item{display:flex;align-items:center;gap:6px}
