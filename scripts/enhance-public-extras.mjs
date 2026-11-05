@@ -105,14 +105,29 @@ export function enhanceExtras(html, ctx) {
     return `${a}${r}${c}`;
   });
 
+  // 0. localized guide pages: point "travel guides" links at the localized directory page
+  if (loc !== "en") {
+    const p = loc === "ja" ? "/ja" : "/zh-tw";
+    const before = h;
+    h = h.split(`href="${p}/#guides"`).join(`href="${p}/guides/"`).split(`"${SITE}${p}/#guides"`).join(`"${SITE}${p}/guides/"`);
+    if (h !== before) bump("0 localized directory links");
+  }
+
   // 1. visible last-updated date
   if (isGuide && dates?.last[src] && !h.includes('class="page-updated"')) {
     const heroEnd = h.indexOf("</section>", h.indexOf('class="article-hero'));
+    const d = dates.last[src];
+    const line = `<p class="page-updated">${LABEL[loc].updated}: <time datetime="${d}">${formatDate(d, loc)}</time></p>`;
     if (h.includes('class="article-hero') && heroEnd !== -1) {
-      const d = dates.last[src];
-      const line = `<p class="page-updated">${LABEL[loc].updated}: <time datetime="${d}">${formatDate(d, loc)}</time></p>`;
       h = h.slice(0, heroEnd) + line + h.slice(heroEnd);
       bump("1 last-updated date added");
+    } else {
+      // Pages built on another template: place the date right after the main heading.
+      const h1End = h.indexOf("</h1>", h.indexOf("<main"));
+      if (h1End !== -1) {
+        h = h.slice(0, h1End + 5) + line + h.slice(h1End + 5);
+        bump("1 last-updated date added (after h1)");
+      }
     }
   }
 
