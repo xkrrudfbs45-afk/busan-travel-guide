@@ -486,3 +486,13 @@ At day 30, assess direction and data quality. Do not claim growth from impressio
 3. Is the BTS guide a permanent evergreen entry point, or should it be a seasonal campaign tied to official events and new releases?
 4. Which US-facing channel can be maintained consistently without reducing guide quality: Instagram/Threads, YouTube Shorts, Reddit participation, or editorial outreach?
 5. What is the minimum acceptable evidence before a restaurant, attraction, fare, opening hour or route is published?
+
+
+### US-specific entry-information freshness requirement
+
+- The Korean Embassy in the United States and the official K-ETA site state that the temporary K-ETA exemption for eligible nationalities, including U.S. citizens, runs through **December 31, 2026 (KST)**.
+- Do not state that U.S. travelers will definitely need K-ETA from January 1, 2027 unless a new official notice confirms the post-2026 rule. The currently verified notice establishes the exemption period only through December 31, 2026.
+- Any US-facing entry guide must show a last-verified date, link to the official K-ETA portal and US Embassy notice, distinguish passport nationality from residence, and instruct readers to confirm their individual eligibility through the official process.
+- Official references:
+  - https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&esntlPnotiMtYn=Y&locale=EN
+  - https://overseas.mofa.go.kr/us-en/brd/m_4500/view.do?seq=761106
