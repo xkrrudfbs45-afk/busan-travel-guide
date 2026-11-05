@@ -808,9 +808,45 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-travel-mistakes-local-hacks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-travel-mistakes-local-hacks/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/travel-mistakes/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/travel-mistakes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-travel-mistakes-local-hacks/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/travel-mistakes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-travel-mistakes-local-hacks/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/travel-mistakes/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/travel-mistakes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-travel-mistakes-local-hacks/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/travel-mistakes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-travel-mistakes-local-hacks/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/travel-mistakes/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/travel-mistakes/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-travel-mistakes-local-hacks/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-local-food-etiquette-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-food-etiquette-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/food-etiquette/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/food-etiquette/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-food-etiquette-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/food-etiquette/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-food-etiquette-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/food-etiquette/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/food-etiquette/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-food-etiquette-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/food-etiquette/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-food-etiquette-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/food-etiquette/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/food-etiquette/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-food-etiquette-tips/" />
   </url>
   <url><loc>https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/</loc></url>
   <url>
