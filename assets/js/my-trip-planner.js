@@ -47,7 +47,7 @@
       empty.textContent = 'Your saved neighborhoods will appear here.';
       list.appendChild(empty);
       mapLink.textContent = 'Choose at least one area to build your map route';
-      mapLink.href = 'https://www.google.com/maps';
+      mapLink.href = '#my-trip-title';
       mapLink.setAttribute('aria-disabled', 'true');
       return;
     }
@@ -70,10 +70,20 @@
       list.appendChild(item);
     });
 
-    const params = new URLSearchParams({ api: '1', origin: 'Busan, South Korea', destination: stops[stops.length - 1] + ', Busan, South Korea' });
-    if (stops.length > 1) params.set('waypoints', stops.slice(0, -1).map((name) => name + ', Busan, South Korea').join('|'));
-    mapLink.href = 'https://www.google.com/maps/dir/?' + params.toString();
-    mapLink.textContent = stops.length === 1 ? 'Open this area in Google Maps ↗' : 'Open my ' + stops.length + '-area route in Google Maps ↗';
+    if (stops.length === 1) {
+      const params = new URLSearchParams({ api: '1', query: stops[0] + ', Busan, South Korea' });
+      mapLink.href = 'https://www.google.com/maps/search/?' + params.toString();
+      mapLink.textContent = 'Open this area in Google Maps ↗';
+    } else {
+      const params = new URLSearchParams({
+        api: '1',
+        origin: stops[0] + ', Busan, South Korea',
+        destination: stops[stops.length - 1] + ', Busan, South Korea'
+      });
+      if (stops.length > 2) params.set('waypoints', stops.slice(1, -1).map((name) => name + ', Busan, South Korea').join('|'));
+      mapLink.href = 'https://www.google.com/maps/dir/?' + params.toString();
+      mapLink.textContent = 'Open my ' + stops.length + '-area route in Google Maps ↗';
+    }
     mapLink.setAttribute('aria-disabled', 'false');
   }
 
