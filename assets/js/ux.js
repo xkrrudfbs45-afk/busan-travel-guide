@@ -258,7 +258,27 @@
     byId.forEach((_, id) => { const h = doc.getElementById(id); if (h) io.observe(h); });
   }
 
-  const run = () => { phraseCards(); shareBar(); progressAndTop(); headingAnchors(); jumpMenu(); languageSuggestion(); continueReading(); clickEvents(); searchShortcut(); feedback(); tocSpy(); };
+  // 11. Partner-link impressions: one event per page per partner block when it scrolls into view (CTR baseline per page).
+  function partnerViews() {
+    if (!('IntersectionObserver' in window)) return;
+    const links = [...doc.querySelectorAll('a[href*="affiliate.klook.com"], a[href*="agoda.com"]')];
+    if (!links.length) return;
+    const seen = new Set();
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (!e.isIntersecting) return;
+        const a = e.target; io.unobserve(a);
+        const partner = /agoda/.test(a.href) ? 'agoda' : 'klook';
+        const box = a.closest('section[aria-labelledby], .pass-conversion-cta, aside, .callout');
+        const where = (box && (box.getAttribute('aria-labelledby') || box.className) || 'inline').toString().slice(0, 60);
+        const key = partner + '|' + where; if (seen.has(key)) return; seen.add(key);
+        send('affiliate_cta_view', { affiliate_partner: partner, cta_location: where });
+      });
+    }, { threshold: 0.6 });
+    links.forEach((a) => io.observe(a));
+  }
+
+  const run = () => { phraseCards(); shareBar(); progressAndTop(); headingAnchors(); jumpMenu(); languageSuggestion(); continueReading(); clickEvents(); searchShortcut(); feedback(); tocSpy(); partnerViews(); };
   if (doc.readyState === 'loading') doc.addEventListener('DOMContentLoaded', run, { once: true });
   else run();
 })();

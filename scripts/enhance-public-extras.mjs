@@ -106,8 +106,8 @@ export function enhanceExtras(html, ctx) {
   });
 
   // 0. localized guide pages: point "travel guides" links at the localized directory page
-  if (loc !== "en") {
-    const p = loc === "ja" ? "/ja" : "/zh-tw";
+  {
+    const p = loc === "ja" ? "/ja" : loc === "tw" ? "/zh-tw" : "";
     const before = h;
     h = h.split(`href="${p}/#guides"`).join(`href="${p}/guides/"`).split(`"${SITE}${p}/#guides"`).join(`"${SITE}${p}/guides/"`);
     if (h !== before) bump("0 localized directory links");
