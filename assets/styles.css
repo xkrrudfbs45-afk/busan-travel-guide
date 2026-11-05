@@ -913,7 +913,133 @@
   .home-refresh .home-hero h1{font-size:clamp(38px,10.2vw,42px)}
   .home-refresh .home-hero-inner{padding-top:24px;padding-bottom:22px}
   .home-refresh .search-quick-links button{padding-inline:11px;font-size:11px}
+/* 2026-11-05 mobile usability pass: compact navigation, first-screen focus,
+   readable category cards and a single-column guide layout. */
+@media (max-width:850px){
+  .home-refresh .nav-wrap{
+    min-height:0;
+    width:calc(100% - 28px);
+    padding:10px 0 8px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:8px 12px;
+  }
+  .home-refresh .brand-lockup{flex:1 1 auto;min-width:0}
+  .home-refresh .brand-lockup img{display:block;max-width:154px;height:auto}
+  .home-refresh .header-actions{flex:0 0 auto;gap:6px}
+  .home-refresh .header-actions .language-pill{padding:8px 9px;font-size:10px}
+  .home-refresh .site-header nav{
+    order:3;
+    flex:1 0 100%;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    gap:7px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding:3px 0 5px;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .home-refresh .site-header nav::-webkit-scrollbar{display:none}
+  .home-refresh .site-header nav a{
+    flex:0 0 auto;
+    display:inline-flex;
+    align-items:center;
+    min-height:36px;
+    padding:7px 10px;
+    border:1px solid #e1e9f1;
+    border-radius:999px;
+    background:#fff;
+    font-size:11px;
+    white-space:nowrap;
+  }
+  .home-refresh .home-content{
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+    gap:18px;
+    width:calc(100% - 32px);
+  }
+  .home-refresh .home-content-main{min-width:0;width:100%}
+  .home-refresh .trip-planner{width:100%;box-sizing:border-box}
+  .home-refresh .search-quick-links{
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding:2px 0 7px;
+    margin-right:-2px;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .home-refresh .search-quick-links::-webkit-scrollbar{display:none}
+  .home-refresh .search-quick-links span{flex:0 0 auto}
+  .home-refresh .search-quick-links button{flex:0 0 auto;min-height:36px;white-space:nowrap}
 }
+@media(max-width:560px){
+  .home-refresh .site-header nav a{font-size:11px}
+  .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:0}
+  .home-refresh .home-hero-inner{padding-top:27px;padding-bottom:22px}
+  .home-refresh .home-hero-copy{width:100%}
+  .home-refresh .home-hero h1{font-size:clamp(37px,10.5vw,44px);line-height:1.02}
+  .home-refresh .home-hero .hero-intro{max-width:34ch;font-size:13px;line-height:1.55}
+  .home-refresh .site-search{height:50px;width:100%;box-sizing:border-box}
+  .home-refresh .site-search button{flex:0 0 40px;min-width:40px;min-height:40px}
+  .home-refresh .search-quick-links{margin-top:10px}
+  .home-refresh .category-strip{
+    width:calc(100% - 32px);
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:9px;
+    margin-bottom:22px;
+  }
+  .home-refresh .category-tile{
+    min-height:66px;
+    box-sizing:border-box;
+    padding:10px 9px;
+    gap:8px;
+  }
+  .home-refresh .category-icon{width:30px;height:30px;font-size:16px}
+  .home-refresh .category-tile strong{font-size:11px;line-height:1.25}
+  .home-refresh .category-tile small{font-size:9px;line-height:1.35}
+  .home-refresh .category-tile>b{font-size:13px}
+  .home-refresh .home-content{width:calc(100% - 32px);padding-bottom:30px}
+  .home-refresh .section-heading{align-items:flex-start;gap:8px}
+  .home-refresh .section-heading h2{font-size:24px;line-height:1.15}
+  .home-refresh .guide-heading-actions{display:flex;flex-direction:column;align-items:flex-end;gap:5px}
+  .home-refresh .view-all{font-size:10px}
+  .home-refresh .trending-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  .home-refresh .trend-card{min-width:0}
+  .home-refresh .trend-image{height:108px}
+  .home-refresh .trend-copy{padding:10px 9px 14px}
+  .home-refresh .trend-copy h3{font-size:12px;line-height:1.35}
+  .home-refresh .trend-copy>p:not(.trend-category){font-size:10px;line-height:1.45}
+  .home-refresh .trend-category{font-size:8px}
+  .home-refresh .fireworks-breaking-note{display:none}
+  .home-refresh .fireworks-breaking-goods{margin:0 16px 18px;width:calc(100% - 32px);box-sizing:border-box}
+  .home-refresh .fireworks-breaking-inner{padding-top:30px;padding-bottom:20px}
+}
+@media(max-width:370px){
+  .home-refresh .header-actions .language-pill{padding:7px 7px;font-size:9px}
+  .home-refresh .brand-lockup img{max-width:132px}
+  .home-refresh .category-tile{gap:6px;padding:9px 7px}
+  .home-refresh .category-icon{width:27px;height:27px}
+  .home-refresh .trend-image{height:96px}
+}
+/* BTS guide map links: clear, thumb-friendly controls on mobile. */
+.place-map-action{margin:10px 0 18px!important}
+.place-map-link{display:inline-flex;align-items:center;justify-content:center;min-height:42px;box-sizing:border-box;padding:9px 13px;border:1px solid #b8d1ce;border-radius:6px;background:#f4faf8;color:#176b65!important;font-size:12px;font-weight:800;line-height:1.35;text-decoration:none!important}
+.place-map-link:hover{background:#e7f3ef;border-color:#176b65}
+.place-map-link:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+@media(max-width:700px){.place-map-action{margin:8px 0 16px!important}.place-map-link{width:100%;min-height:46px;padding:11px 14px;font-size:13px}}
+/* Homepage seasonal fallback after the 2026 Busan Fireworks Festival. */
+.seasonal-discovery[hidden]{display:none!important}
+.seasonal-discovery{display:block;margin-top:28px;margin-bottom:28px;padding:clamp(24px,5vw,52px);border-radius:20px;background:#f2eee7;color:#24231f}
+.seasonal-discovery .eyebrow{font-size:10px;letter-spacing:.14em;font-weight:800;color:#8a4b36;margin:0 0 10px}
+.seasonal-discovery h2{max-width:720px;font-size:clamp(28px,4vw,46px);line-height:1.08;margin:0 0 14px}
+.seasonal-discovery p:not(.eyebrow){max-width:650px;color:#5f5a52;line-height:1.65}
+.seasonal-discovery-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.seasonal-discovery-links a{display:inline-flex;align-items:center;padding:10px 14px;border:1px solid #cfc6b9;border-radius:99px;text-decoration:none;font-size:13px;font-weight:700;color:#302b25;background:#fff}
+@media(max-width:600px){.seasonal-discovery{margin-left:16px;margin-right:16px}.seasonal-discovery-links{display:grid;grid-template-columns:1fr}.seasonal-discovery-links a{justify-content:center}}
 
 
 /* Make the neighborhood planner's map actions easy to spot and tap on mobile. */
