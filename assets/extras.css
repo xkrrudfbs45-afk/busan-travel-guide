@@ -10,7 +10,7 @@ html{scroll-padding-top:84px;-webkit-text-size-adjust:100%;text-size-adjust:100%
 .footer-social a:hover{color:#fff}
 @media (pointer:coarse){
   .footer-links a,.footer-social a{display:inline-flex;align-items:center;min-height:44px}
-  .brand,.site-header nav a,.language-pill,.search-quick-links button,.analytics-consent__actions button,.g2b-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box}
+  .brand,.site-header nav a,.language-pill,.search-quick-links button,.home-refresh .search-quick-links button,.analytics-consent__actions button,.g2b-btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box}
   .brand{justify-content:flex-start}
   .site-search button{min-width:44px;min-height:44px}
   .guide-faq summary,details > summary{min-height:44px;box-sizing:border-box}
