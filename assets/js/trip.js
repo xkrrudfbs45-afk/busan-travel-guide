@@ -170,7 +170,7 @@
     const icon = (d) => `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">${d}</svg>`;
     const items = [
       ['a', { href: PREFIX + '/' }, T.home, icon('<path d="M4 11 12 4l8 7v9h-5v-6H9v6H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>')],
-      ['a', { href: loc === 'en' ? '/guides/' : PREFIX + '/#guides' }, T.guides, icon('<path d="M5 4h10l4 4v12H5z M9 12h6 M9 16h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>')],
+      ['a', { href: PREFIX + '/guides/' }, T.guides, icon('<path d="M5 4h10l4 4v12H5z M9 12h6 M9 16h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>')],
       ['button', { type: 'button', 'data-act': 'search' }, T.search, icon('<circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>')],
       ['button', { type: 'button', 'data-act': 'saved' }, T.saved, icon('<path d="M6 3h12v18l-6-4-6 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>')],
     ];
