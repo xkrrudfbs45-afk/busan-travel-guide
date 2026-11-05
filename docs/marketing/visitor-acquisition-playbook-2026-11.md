@@ -299,3 +299,69 @@ Go2Busan Editorial Team
 - If they exist and the operator approves the correction, update only the two scheduled Instagram destination URLs in a separate, reviewable change.
 - If localized pages do not exist or are incomplete, keep the current draft unpublished and use a different already-localized guide; do not send users to a misleading or unfinished page.
 - Re-check the automation's scheduled payload after any approved change. Do not assume editing the source JSON updates already queued platform posts.
+
+
+## 9. Additional market-specific partnership prospects (reviewed 2026-11-05)
+
+These are **editorial/marketing prospects**, not confirmed backlinks. Audience claims below are copied from each publisher's own media information and are not independently audited.
+
+| Priority | Prospect | Market fit and verified public information | Recommended pitch | Guardrail |
+|---|---|---|---|---|
+| A | Funliday — https://www.funliday.com/kr/press | Taiwan-based travel-planning publisher with Traditional Chinese and Japanese editorial lines; its media kit describes readers in Taiwan, Japan, Hong Kong and Korea and explicitly invites press releases, venue/product experiences, interviews and press trips. | Offer a concise, original Busan winter itinerary package or a local-expert Q&A with clearly sourced practical details. Ask about editorial consideration or a small pilot, not a guaranteed link. | Its media kit also describes commercial campaign inventory. Clarify whether the proposal is editorial, paid, or a hosted experience; disclose any material benefit and do not assume free coverage. |
+| B | FUN KOREA — https://funkoreatrip.com/zh-TW/group/advertising.php | Traditional Chinese-facing Korea travel site with a public advertising inquiry form. | Consider only if a measurable Taiwan-market campaign becomes affordable; ask for audience geography, placements, minimum spend and reporting before discussing. | Paid advertising, not earned editorial coverage. No spend approved. |
+| B | Korea Beyond Seoul — https://www.koreabeyondseoul.com/advertising.html?lang=en | Publishes Korea destination guides and explicitly invites content/collaboration proposals; offers paid featured listings and sponsored guides. | Explore a narrowly scoped cross-promotion or original Busan contribution only if audience overlap and commercial terms make sense. | Competitor/adjacent publisher; a paid placement is not an earned backlink. Do not buy links for SEO. |
+| C | LIVE JAPAN — https://livejapan.com/en/about/ | Its about page lists writer recruitment and editorial/advertising/partnership inquiries. | Check whether its contributor requirements accept overseas city experts; pitch a specific original Busan story only if relevant. | Its writer call is oriented to people with extensive knowledge and experience in inbound tourism; eligibility is not confirmed. |
+| C | Next Japan Guide — https://nextjapanguide.com/en/media-contribution | Invites original photos/videos and article ideas, with creator attribution and website/social attribution described. | Only pitch original visual material or a first-hand Busan story that fits its editorial remit. | It seeks Japan-focused content; Busan coverage fit is uncertain. Do not send generic promotional material. |
+
+### Recommended first contact: Funliday
+
+Funliday is the strongest initial Taiwan/Japan prospect identified in this review because its own media kit explicitly describes both language markets and accepts press/experience/interview inquiries. Its published audience and performance figures are publisher-supplied claims, not independent validation. A low-cost first step is an editorial inquiry asking whether they consider independently produced Busan local guides or expert contributions.
+
+Suggested English subject: **Busan local guide contribution for Taiwanese and Japanese independent travelers**
+
+Suggested Traditional Chinese subject: **釜山在地旅遊內容合作／專題提案**
+
+Suggested Japanese subject: **釜山のローカル旅行情報に関する記事企画のご相談**
+
+Do not promise reach or audience size on behalf of Go2Busan. Present it accurately as an early-stage independent multilingual Busan guide.
+
+## 10. Winter content plan: publish only verified facts
+
+### Confirmed planning baseline
+
+- Haeundae-gu's 2026 annual event calendar lists the 13th Haeundae Light Festival from 2026-11-29 to 2027-01-18 at Gunam-ro and Haeundae Beach. The annual calendar does not establish the current edition's lighting hours, admission details or full program. Recheck the festival's current official notice before publishing those specifics.
+- The 12th edition's 18:00–23:00 lighting hours and free admission belong to the 2025–26 edition only. Never copy them into the 13th edition without a current official source.
+- Jung-gu's official tourism page describes Gwangbok-ro Winter Light Tree Festival as a recurring December-to-January event around Gwangbok-ro and Gwangbokjungang-ro. It does not establish the 2026–27 edition's confirmed dates or operating details.
+- Do not present third-party event aggregators as official confirmation. Use them only as leads for further verification.
+
+### Existing-page enhancement brief (no new URL required)
+
+1. Haeundae winter evening guide: distinguish confirmed festival dates from details awaiting official notice; add a simple route context (Haeundae Beach ↔ Gunam-ro) only after checking the map and pedestrian access.
+2. Nampo-dong / Gwangbok-ro winter guide: explain the area's relationship to BIFF Square, Gukje Market and Jagalchi as a walkable old-downtown cluster, but verify walking routes and opening hours before giving exact times.
+3. Rainy/cold-day guide: add indoor alternatives by neighborhood, with current opening days and admission checked against venue operators.
+4. Winter packing guide: focus on wind exposure near beaches, layered clothing and footwear; avoid exact temperature promises without climate data.
+5. Three-day itinerary: create a winter variant using existing localized pages, but do not publish an event-specific itinerary until official schedules are confirmed.
+
+### Content structure for every seasonal guide
+
+- Last verified date, visible near the top.
+- Exact official event dates and venue, with official source link.
+- Clearly separated confirmed facts / details not yet announced.
+- How to reach the area, with current official transit source and no unsupported travel-time claims.
+- Nearby alternatives for bad weather or crowding.
+- Mobile-first map or route link, checked on a phone-sized viewport.
+- Localized destination URL for EN / JA / ZH-TW; never send users to an English page from a non-English social account without an explicit reason.
+
+## 11. Decisions to discuss before spending or scaling
+
+1. **Market priority:** Should the next 30 days prioritize Taiwan (Traditional Chinese), Japan, or split effort evenly? Funliday offers a plausible channel for both, but Go2Busan's own conversion data is not yet sufficient to choose confidently.
+2. **Positioning:** Choose between (a) practical independent-trip planner, (b) local food and neighborhood guide, or (c) a combined "Busan locals' practical guide". Recommended working position: (c), with trip-planning utility as the product promise and local knowledge as the differentiator.
+3. **Editorial proof:** Decide what "local-operated" means operationally. Identify which pages are based on direct local knowledge, which are desk-researched, and which include operator/official facts. Do not imply first-hand visits where none occurred.
+4. **Commercial model:** Decide whether to accept paid promotion or hosted experiences. If yes, require clear labels and editorial independence; if no, keep outreach strictly editorial.
+5. **Success metric:** For the first 30 days, prioritize qualified sessions and engaged guide visits by market over follower counts. Record profile visits, outbound clicks, landing-page language, engaged sessions and affiliate clicks separately.
+6. **Budget ceiling:** Set a maximum monthly spend for ads, creator placements or paid listings before evaluating proposals. No paid activity is authorized by this document.
+7. **Content capacity:** Choose a sustainable cadence (for example, two genuinely useful guides/posts per week) rather than maximizing scheduled post count at the expense of verification and translation quality.
+
+### Proposed decision framework
+
+Do not choose a market based only on total population or a media kit's headline audience. Score each market monthly using: (a) qualified sessions to localized guides, (b) engaged-session rate, (c) guide-to-guide navigation, (d) outbound affiliate clicks, (e) Search Console non-brand impressions/clicks, and (f) cost per qualified session if paid promotion is tested. Keep Taiwan and Japan separate in reporting.
