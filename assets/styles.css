@@ -823,3 +823,14 @@
     align-self:flex-end;
   }
 }
+
+
+/* Homepage seasonal fallback after the 2026 Busan Fireworks Festival. */
+.seasonal-discovery[hidden]{display:none!important}
+.seasonal-discovery{display:block;margin-top:28px;margin-bottom:28px;padding:clamp(24px,5vw,52px);border-radius:20px;background:#f2eee7;color:#24231f}
+.seasonal-discovery .eyebrow{font-size:10px;letter-spacing:.14em;font-weight:800;color:#8a4b36;margin:0 0 10px}
+.seasonal-discovery h2{max-width:720px;font-size:clamp(28px,4vw,46px);line-height:1.08;margin:0 0 14px}
+.seasonal-discovery p:not(.eyebrow){max-width:650px;color:#5f5a52;line-height:1.65}
+.seasonal-discovery-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.seasonal-discovery-links a{display:inline-flex;align-items:center;padding:10px 14px;border:1px solid #cfc6b9;border-radius:99px;text-decoration:none;font-size:13px;font-weight:700;color:#302b25;background:#fff}
+@media(max-width:600px){.seasonal-discovery{margin-left:16px;margin-right:16px}.seasonal-discovery-links{display:grid;grid-template-columns:1fr}.seasonal-discovery-links a{justify-content:center}}
