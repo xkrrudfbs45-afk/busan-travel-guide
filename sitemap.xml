@@ -785,4 +785,25 @@
   <url><loc>https://go2busan.com/ja/guides/busan-fireworks-festival-fair-price-stays/</loc></url>
   <url><loc>https://go2busan.com/zh-tw/guides/busan-fireworks-festival-fair-price-stays/</loc></url>
   <url><loc>https://go2busan.com/guides/bts-in-busan/</loc></url>
+  <url>
+    <loc>https://go2busan.com/guides/bts-in-busan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bts-in-busan/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/bts-in-busan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bts-in-busan/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/bts-in-busan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bts-in-busan/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bts-in-busan/" />
+  </url>
 </urlset>
