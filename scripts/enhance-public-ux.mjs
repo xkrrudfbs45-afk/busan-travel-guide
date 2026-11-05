@@ -166,6 +166,15 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       bump("9 responsive images");
       return tag.replace("<img", `<img srcset="${base}?width=640 640w, ${base}?width=1000 1000w, ${base}?width=${n} ${n}w" sizes="(max-width: 800px) 100vw, 1000px"`);
     });
+    // FAQPage structured data from a visible FAQ section, only when the page has none.
+    if (isGuideUrl(url) && !noindex && !/"@type"\s*:\s*"FAQPage"/.test(h)) {
+      const sec = (h.match(/<section class="guide-faq"[\s\S]*?<\/section>/) || [""])[0];
+      const qa = [...sec.matchAll(/<details>\s*<summary>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/g)].map((m) => [unesc(m[1]), unesc(m[2])]).filter(([q, a]) => q && a);
+      if (qa.length >= 2) {
+        const ld = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: qa.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
+        h = h.replace("</head>", `<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, "\\u003c")}</script></head>`); bump("11 FAQ schema from visible FAQ");
+      }
+    }
     // Help card on every guide.
     if (isGuideUrl(url) && !noindex && !h.includes('class="shell help-card"') && h.includes('<section class="shell keep-exploring"')) {
       const t = T[loc];
@@ -182,6 +191,15 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       }
     }
     if (h !== before) writeFileSync(file, h);
+  }
+  // Light CSS minification of built stylesheets (comments, indentation, blank lines only).
+  for (const name of ["styles.css", "extras.css", "ux.css"]) {
+    const f = join(PUB, "assets", name);
+    try {
+      const css = readFileSync(f, "utf8");
+      const min = css.replace(/\/\*[\s\S]*?\*\//g, "").replace(/\n\s*/g, "\n").replace(/\n{2,}/g, "\n").replace(/\s*([{};])\s*\n/g, "$1").trim() + "\n";
+      if (min.length < css.length) { writeFileSync(f, min); bump(`12 css bytes saved ${name}`, css.length - min.length); }
+    } catch (_) { /* optional */ }
   }
   console.log("enhance-public-ux:", JSON.stringify(stats));
 }
