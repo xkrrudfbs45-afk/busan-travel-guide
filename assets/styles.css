@@ -829,3 +829,88 @@
 .guide-jump-nav a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;box-sizing:border-box;padding:9px 12px}
 #stay,#transport,#itinerary,#bookings,#arrival,#food,#area-haeundae,#area-gwangalli,#area-nampo,#area-busan-station,#neighborhood-comparison,#before-you-go,#day-one,#day-two,#day-three,#transport-planning{scroll-margin-top:92px}
 @media(max-width:680px){.guide-jump-nav{padding-left:16px;padding-right:16px;gap:7px}.guide-jump-nav a{min-height:44px;padding:9px 11px;font-size:12px}}
+
+
+/* Mobile homepage hero: restore photo clarity and make quick links readable. */
+@media(max-width:760px){
+  .home-refresh .home-hero-backdrop{
+    background-image:
+      linear-gradient(90deg,rgba(255,255,255,.94) 0%,rgba(255,255,255,.84) 43%,rgba(255,255,255,.42) 76%,rgba(255,255,255,.18) 100%),
+      url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1400");
+    background-size:cover;
+    background-position:60% center;
+  }
+  .home-refresh .home-hero-copy{
+    width:100%;
+    max-width:560px;
+    padding:4px 0 8px;
+  }
+  .home-refresh .home-hero h1,
+  .home-refresh .home-hero .hero-intro,
+  .home-refresh .hero-script{
+    text-shadow:0 1px 0 rgba(255,255,255,.35);
+  }
+  .home-refresh .home-hero .hero-intro{
+    color:#173657;
+    font-size:14px;
+    line-height:1.48;
+    font-weight:650;
+  }
+  .home-refresh .search-quick-links{
+    gap:8px;
+    margin-top:14px;
+    color:#173657;
+    font-size:12px;
+  }
+  .home-refresh .search-quick-links span{
+    flex-basis:100%;
+    margin:0 0 1px;
+    color:#173657;
+    font-weight:750;
+    opacity:1;
+  }
+  .home-refresh .search-quick-links button{
+    min-height:38px;
+    padding:8px 13px;
+    border:1px solid rgba(28,66,111,.24);
+    background:rgba(255,255,255,.92);
+    color:#173657;
+    font-size:12px;
+    font-weight:650;
+    line-height:1.2;
+    box-shadow:0 2px 8px rgba(18,48,83,.10);
+    backdrop-filter:blur(5px);
+  }
+  .home-refresh .search-quick-links button:hover,
+  .home-refresh .search-quick-links button:focus-visible{
+    background:#eaf3ff;
+    color:#0d4f9a;
+    border-color:#6ba8ed;
+  }
+  .home-refresh .site-search{
+    width:100%;
+    min-height:56px;
+    height:56px;
+    gap:8px;
+    padding-left:15px;
+    box-shadow:0 6px 20px rgba(18,48,83,.16);
+  }
+  .home-refresh .site-search input{
+    min-width:0;
+    font-size:14px;
+  }
+  .home-refresh .site-search button{
+    width:42px;
+    height:42px;
+  }
+  .home-refresh .home-image-credit{
+    color:#344b66;
+    font-size:10px;
+    text-shadow:0 1px 2px rgba(255,255,255,.8);
+  }
+}
+@media(max-width:420px){
+  .home-refresh .home-hero h1{font-size:clamp(38px,10.2vw,42px)}
+  .home-refresh .home-hero-inner{padding-top:24px;padding-bottom:22px}
+  .home-refresh .search-quick-links button{padding-inline:11px;font-size:11px}
+}
