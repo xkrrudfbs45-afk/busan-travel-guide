@@ -93,3 +93,10 @@ h2:hover .g2b-anchor,.g2b-anchor:focus-visible{opacity:.6}
 .g2b-dir-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
 .g2b-dir-chips a{display:inline-flex;align-items:center;min-height:44px;padding:0 14px;border:1px solid #cfdad8;border-radius:999px;background:#fff;color:#1d3a36;text-decoration:none;font-size:14px;font-weight:650}
 .g2b-dir-chips a:hover{border-color:#176b65}
+.footer-plan{display:flex;flex-wrap:wrap;align-items:center;gap:6px 16px;padding:18px 0 14px;border-bottom:1px solid rgba(127,127,127,.25);font-size:14px}
+.footer-plan strong{width:100%;font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.8}
+.footer-plan a{color:inherit;text-decoration:underline;text-underline-offset:3px;display:inline-flex;align-items:center;min-height:44px}
+@media (max-width:420px){.site-header nav a[href$="about.html"]{display:none}.site-header nav a{white-space:nowrap}}
+.home-refresh .footer-plan{color:#dbe4ee}
+body:not(.home-refresh) .footer-social span{color:#5b6b6d}
+body:not(.home-refresh) .footer-social a{color:#24433f}
