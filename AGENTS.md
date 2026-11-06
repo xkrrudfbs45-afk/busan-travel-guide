@@ -43,3 +43,8 @@ Before creating or changing travel content, read `CONTENT_GUIDELINES.md` and fol
 - #219, #220, #221 and #224 all appended to `assets/styles.css` and conflicted (combined in #232).
 - #126 added a fourth homepage card and failed the analytics audit. #226 made the 390px homepage search chips white-on-white.
 - #191 and #174 created URLs that duplicated `/guides/bts-in-busan/` and `/guides/busan-travel-mistakes-local-hacks/`.
+
+
+## Shared AI project workspace (mandatory)
+
+Before starting product, SEO, content, or engineering work, read `docs/ai-workspace/README.md`, `STRATEGY.md`, `BACKLOG.md`, `STATUS.md`, and `HANDOFF.md`. Check the current GitHub PR and issue state rather than relying on stale status notes. Follow the role boundaries and release approval rules documented there. After meaningful work, update `STATUS.md` and `HANDOFF.md`; record material product or policy changes in `DECISIONS.md`. Do not put credentials, personal data, or confidential commercial information in this public repository.
