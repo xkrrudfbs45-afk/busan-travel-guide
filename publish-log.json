@@ -49,6 +49,16 @@
       "permalink": "https://www.instagram.com/p/DfZZYcwlkze/",
       "published_at": "2026-11-06T10:30:24.547Z",
       "last_error": null
+    },
+    "ig-d02-traffic-zh-tw": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-06T12:38:32.824Z",
+      "creation_id": "18111791314946342",
+      "media_id": "18119837450046327",
+      "permalink": "https://www.instagram.com/p/DfZoC44FYcx/",
+      "published_at": "2026-11-06T12:38:32.824Z",
+      "last_error": null
     }
   }
 }
