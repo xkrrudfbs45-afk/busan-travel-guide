@@ -53,6 +53,6 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 - Paused the recurring Go2Busan weekly automation at the owner's request.
 - Added an explicit owner-invocation / immediate-stop gate to `CLAUDE.md` on the #297 branch. Do not mention or trigger Claude unless the owner explicitly requests it for a specific task.
-- Updated EN/JA/zh-TW social and structured descriptions so the six-place guide consistently includes Gaya Park pork soup.
+- Updated EN/JA/zh-TW social and structured descriptions and all three search-index entries so the six-place guide consistently includes Gaya Park pork soup.
 - Latest known build result: `sh scripts/build-static.sh` passed in Claude's report. Technical SEO audit workflow is `action_required`; no successful CI audit result is confirmed. 360/390px remains unverified.
 - PR #297 remains open; do not merge or deploy without owner approval.
