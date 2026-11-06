@@ -31,3 +31,15 @@ Record material product, editorial, technical, and commercial decisions here. Ad
 
 - **Decision:** Use focused branches and pull requests; do not merge or deploy without explicit project-owner approval.
 - **Rationale:** Protect the live travel site and existing search equity.
+
+## 2026-11-06 — Claude GitHub automation scope
+
+- **Decision:** Claude may be triggered from GitHub only by the repository owner (`@claude` in an issue, comment or PR review). It works on a `claude/` branch and opens a PR; it never merges, pushes to `main` or deploys.
+- **Rationale:** Merging to `main` triggers the Render production deploy, so a human approval gate must stay in front of it.
+- **Condition:** Main branch protection (PR required, "Technical SEO audit" required) is the enforcement layer; workflow tool limits are a second layer, not a substitute.
+
+## 2026-11-06 — Neighborhood hubs
+
+- **Decision:** Build neighborhood hubs as routing pages that summarize an area and link to the existing detailed guides, instead of new pages that repeat stay, food or airport content.
+- **Rationale:** Avoid duplicate search intent with `where-to-stay-busan`, the food guides and the airport guides.
+- **Condition:** Start with Haeundae and Seomyeon (EN). Add Nampo and Gwangalli, and JA/TW versions, after the first two are reviewed.

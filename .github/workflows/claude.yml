@@ -1,0 +1,67 @@
+name: Claude Code (on request)
+
+# Runs Claude Code when the repository owner writes "@claude" in an issue,
+# an issue comment, a PR comment or a PR review.
+# Safety model (see docs/ai-workspace/CLAUDE_AUTOMATION.md):
+# - Claude works only on its own branch (claude/...) and may open a pull request.
+# - It cannot merge, push to main or force-push; main must also be protected in
+#   GitHub Settings -> Branches so no automation can update it directly.
+# - Production deploys only after a human merges to main (deploy.yml).
+
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+  issues:
+    types: [opened, assigned]
+  pull_request_review:
+    types: [submitted]
+
+concurrency:
+  group: claude-${{ github.event.issue.number || github.event.pull_request.number }}
+  cancel-in-progress: false
+
+jobs:
+  claude:
+    # Only the repository owner can start a run (bots are blocked by the action by default).
+    if: |
+      github.event.sender.login == github.repository_owner && (
+        (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
+        (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
+        (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
+        (github.event_name == 'issues' && (contains(github.event.issue.body, '@claude') || contains(github.event.issue.title, '@claude')))
+      )
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run Claude Code
+        uses: anthropics/claude-code-action@v1
+        with:
+          # Claude Pro/Max subscription token from `claude setup-token`.
+          # To use an API key instead, replace this line with:
+          #   anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          base_branch: main
+          branch_prefix: claude/
+          claude_args: |
+            --max-turns 60
+            --allowedTools "Bash(git add:*),Bash(git commit:*),Bash(git push:*),Bash(sh scripts/build-static.sh),Bash(node scripts/:*),Bash(node --check:*),Bash(python3:*),Bash(npm ci),Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(gh pr create:*),Bash(gh pr view:*),Bash(gh pr list:*),Bash(gh pr checks:*),Bash(gh issue view:*)"
+            --disallowedTools "Bash(gh pr merge:*),Bash(gh api:*),Bash(git push origin main:*),Bash(git push origin HEAD:main:*),Bash(git push --force:*),Bash(git push -f:*),Bash(git checkout main:*),Bash(git merge:*),Bash(git rebase:*),Bash(curl:*)"
+            --append-system-prompt "You work on the Go2Busan repository. Before any change, read CLAUDE.md, AGENTS.md, CONTENT_GUIDELINES.md and docs/ai-workspace/ (README, STRATEGY, BACKLOG, STATUS, HANDOFF). Work only on your own claude/ branch and finish by opening a focused pull request against main. Never merge, never push to main, never trigger a deploy. Run sh scripts/build-static.sh and the audits listed in .github/workflows/seo-audit.yml before opening the PR, and report which checks passed. Never invent prices, opening hours, schedules or firsthand visits. Update docs/ai-workspace/STATUS.md and HANDOFF.md in the same PR. Reply in Korean when the request is written in Korean."
