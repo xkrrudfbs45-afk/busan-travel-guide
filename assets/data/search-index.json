@@ -1101,6 +1101,32 @@
     ]
   },
   {
+    "title": "海雲台エリアガイド",
+    "url": "/ja/guides/haeundae-neighborhood-guide/",
+    "summary": "海雲台の行き方、宿の選び方、食事、周辺スポットと冬のイベント。",
+    "tags": [
+      "海雲台",
+      "海雲台 ホテル",
+      "海雲台 行き方",
+      "釜山 ビーチ",
+      "エリアガイド",
+      "haeundae"
+    ]
+  },
+  {
+    "title": "西面エリアガイド",
+    "url": "/ja/guides/seomyeon-neighborhood-guide/",
+    "summary": "西面の行き方、宿の選び方、食事、地下鉄で行ける日帰りプラン。",
+    "tags": [
+      "西面",
+      "西面 ホテル",
+      "西面 グルメ",
+      "釜山 中心",
+      "エリアガイド",
+      "seomyeon"
+    ]
+  },
+  {
     "title": "釜山の松亭・機張で泊まるなら？海辺の宿泊エリアガイド",
     "url": "/ja/guides/where-to-stay-songjeong-gijang/",
     "summary": "松亭のビーチ滞在と機張・オシリアのリゾートや家族旅行向け宿泊を比較。",
@@ -1128,6 +1154,32 @@
       "南浦住宿",
       "住宿區域",
       "訂房"
+    ]
+  },
+  {
+    "title": "海雲台區域指南",
+    "url": "/zh-tw/guides/haeundae-neighborhood-guide/",
+    "summary": "海雲台交通、住宿選擇、美食、周邊景點與冬季活動。",
+    "tags": [
+      "海雲台",
+      "海雲台 住宿",
+      "海雲台 交通",
+      "釜山 海灘",
+      "區域指南",
+      "haeundae"
+    ]
+  },
+  {
+    "title": "西面區域指南",
+    "url": "/zh-tw/guides/seomyeon-neighborhood-guide/",
+    "summary": "西面交通、住宿選擇、美食與搭地鐵的一日行程。",
+    "tags": [
+      "西面",
+      "西面 住宿",
+      "西面 美食",
+      "釜山 市中心",
+      "區域指南",
+      "seomyeon"
     ]
   },
   {
