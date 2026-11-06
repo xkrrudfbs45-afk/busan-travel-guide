@@ -29,7 +29,7 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 
 ## Waiting on the owner
 
-- Claude Code action (#276, merged): install the Claude GitHub App, add `CLAUDE_CODE_OAUTH_TOKEN` (or `ANTHROPIC_API_KEY`), protect `main`. Until then `@claude` does nothing.
+- Claude Code action: enabled on 2026-11-06 (GitHub App installed, CLAUDE_CODE_OAUTH_TOKEN set, main ruleset active).
 - Live map (#278, merged): Maps Embed API key restricted to go2busan.com, set as `GOOGLE_MAPS_EMBED_KEY` in Render.
 
 ## Status categories
