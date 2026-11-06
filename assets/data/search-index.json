@@ -1127,6 +1127,33 @@
     ]
   },
   {
+    "title": "南浦洞エリアガイド",
+    "url": "/ja/guides/nampo-neighborhood-guide/",
+    "summary": "チャガルチ市場、BIFF広場の屋台、旧市街と地下鉄1号線での行き方。",
+    "tags": [
+      "南浦洞",
+      "南浦",
+      "チャガルチ",
+      "BIFF広場",
+      "旧市街",
+      "エリアガイド",
+      "nampo"
+    ]
+  },
+  {
+    "title": "広安里エリアガイド",
+    "url": "/ja/guides/gwangalli-neighborhood-guide/",
+    "summary": "広安里ビーチ、広安大橋の夜景、宿の選び方と土曜日のドローンショー。",
+    "tags": [
+      "広安里",
+      "広安大橋",
+      "広安里 ホテル",
+      "ドローンショー",
+      "エリアガイド",
+      "gwangalli"
+    ]
+  },
+  {
     "title": "釜山の松亭・機張で泊まるなら？海辺の宿泊エリアガイド",
     "url": "/ja/guides/where-to-stay-songjeong-gijang/",
     "summary": "松亭のビーチ滞在と機張・オシリアのリゾートや家族旅行向け宿泊を比較。",
@@ -1180,6 +1207,33 @@
       "釜山 市中心",
       "區域指南",
       "seomyeon"
+    ]
+  },
+  {
+    "title": "南浦洞區域指南",
+    "url": "/zh-tw/guides/nampo-neighborhood-guide/",
+    "summary": "札嘎其市場、BIFF 廣場小吃、老城區與搭 1 號線的交通方式。",
+    "tags": [
+      "南浦洞",
+      "南浦",
+      "札嘎其",
+      "BIFF廣場",
+      "老城區",
+      "區域指南",
+      "nampo"
+    ]
+  },
+  {
+    "title": "廣安里區域指南",
+    "url": "/zh-tw/guides/gwangalli-neighborhood-guide/",
+    "summary": "廣安里海灘、廣安大橋夜景、住宿選擇與星期六無人機表演。",
+    "tags": [
+      "廣安里",
+      "廣安大橋",
+      "廣安里 住宿",
+      "無人機表演",
+      "區域指南",
+      "gwangalli"
     ]
   },
   {
