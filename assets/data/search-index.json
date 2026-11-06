@@ -1931,5 +1931,39 @@
       "西面",
       "서면"
     ]
+  },
+  {
+    "title": "Nampo-dong Neighborhood Guide",
+    "url": "/guides/nampo-neighborhood-guide/",
+    "summary": "Markets, street food, the old downtown and how to get there on Metro Line 1.",
+    "tags": [
+      "nampo",
+      "nampo-dong",
+      "old downtown",
+      "jagalchi",
+      "kkangtong",
+      "biff square",
+      "jung-gu",
+      "neighborhood",
+      "南浦洞",
+      "남포동"
+    ]
+  },
+  {
+    "title": "Gwangalli Neighborhood Guide",
+    "url": "/guides/gwangalli-neighborhood-guide/",
+    "summary": "Beach, Gwangan Bridge views, where to stay and the Saturday drone show.",
+    "tags": [
+      "gwangalli",
+      "gwangalli beach",
+      "gwangan bridge",
+      "where to stay gwangalli",
+      "drone show",
+      "suyeong",
+      "neighborhood",
+      "廣安里",
+      "広安里",
+      "광안리"
+    ]
   }
 ]
