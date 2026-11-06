@@ -270,9 +270,45 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/haeundae-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/haeundae-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-neighborhood-guide/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/seomyeon-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/seomyeon-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/seomyeon-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/seomyeon-neighborhood-guide/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/where-to-stay-songjeong-gijang/</loc>
