@@ -2,6 +2,12 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
+## Addendum — PR #297 count fixes (2026-11-06, Claude)
+
+- Completed: JA title/og/twitter/headline set to 6選; search-index JA/zh-TW entries updated to 6 and Gaya Park pork soup; JA/zh-TW meta descriptions updated.
+- Verification: text-search only. Build, 11 audits and 360/390px overflow were NOT run by Claude; check the PR's GitHub Actions. Deployment not verified.
+- Approval needed: owner review and merge decision; native review of JA/zh-TW wording.
+
 ## Current handoff — 2026-11-06 (Claude, after deploy 197b438)
 
 ### Completed
