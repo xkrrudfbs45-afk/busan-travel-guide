@@ -29,6 +29,16 @@
       "permalink": "https://www.instagram.com/p/DfXDjakEVWS/",
       "published_at": "2026-11-05T12:41:11.888Z",
       "last_error": null
+    },
+    "ig-d02-traffic-ja": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-06T03:34:25.151Z",
+      "creation_id": "18155087653516320",
+      "media_id": "18041805188844474",
+      "permalink": "https://www.instagram.com/p/DfYpx4xgHwm/",
+      "published_at": "2026-11-06T03:34:25.151Z",
+      "last_error": null
     }
   }
 }
