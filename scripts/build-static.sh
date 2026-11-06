@@ -47,6 +47,9 @@ node scripts/enhance-public.mjs public
 node scripts/enhance-public-extras.mjs public
 node scripts/enhance-public-ux.mjs public
 
+# Optional: add the referrer-restricted Google Maps Embed key from the environment.
+node scripts/inject-maps-key.mjs public
+
 # Publish the deployed commit so the deploy workflow can confirm what is live.
 printf '%s\n' "${RENDER_GIT_COMMIT:-$(git rev-parse HEAD 2>/dev/null || echo unknown)}" > public/version.txt
 

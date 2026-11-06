@@ -148,6 +148,9 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-three-days/" />
   </url>
   <url>
+    <loc>https://go2busan.com/guides/busan-map/</loc>
+  </url>
+  <url>
     <loc>https://go2busan.com/guides/busan-transit-card/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-transit-card/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/transit-card/" />
