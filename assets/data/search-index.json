@@ -1881,5 +1881,24 @@
       "所有指南",
       "分類"
     ]
+  },
+  {
+    "title": "Busan Map: Local Food, Markets and Sights",
+    "url": "/guides/busan-map/",
+    "summary": "A curated map of places from Go2Busan guides, with area filters and Google Maps directions.",
+    "tags": [
+      "map",
+      "busan map",
+      "google maps",
+      "directions",
+      "where to eat map",
+      "restaurants map",
+      "markets",
+      "sights",
+      "neighborhoods",
+      "地図",
+      "地圖",
+      "지도"
+    ]
   }
 ]
