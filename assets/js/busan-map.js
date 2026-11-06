@@ -19,6 +19,14 @@
   var places = Array.prototype.slice.call(document.querySelectorAll('.g2b-place'));
   var frame = null;
   var BUSAN = '35.1379,129.0756';
+  /* Visible strings and Google's map language follow the page language; English is the default. */
+  var pageLang = (document.documentElement.getAttribute('lang') || 'en').toLowerCase();
+  var T = { lang: 'en', unavailable: 'The interactive map is not available right now. Every place below still opens in Google Maps.', one: ' place', many: ' places' };
+  if (pageLang.indexOf('ja') === 0) {
+    T = { lang: 'ja', unavailable: 'インタラクティブマップは現在ご利用いただけません。下の各場所はGoogleマップで開けます。', one: '件', many: '件' };
+  } else if (pageLang.indexOf('zh') === 0) {
+    T = { lang: 'zh-TW', unavailable: '互動地圖目前無法使用，下方每個地點仍可在 Google 地圖開啟。', one: ' 個地點', many: ' 個地點' };
+  }
 
   function track(name, params) {
     try {
@@ -31,7 +39,7 @@
   function embedUrl(query) {
     var base = 'https://www.google.com/maps/embed/v1/';
     if (!query) return base + 'view?key=' + encodeURIComponent(key) + '&center=' + BUSAN + '&zoom=11';
-    return base + 'place?key=' + encodeURIComponent(key) + '&q=' + encodeURIComponent(query) + '&language=en&region=KR';
+    return base + 'place?key=' + encodeURIComponent(key) + '&q=' + encodeURIComponent(query) + '&language=' + T.lang + '&region=KR';
   }
 
   function loadMap(query, label) {
@@ -62,7 +70,7 @@
       track('map_load', { map_source: 'button' });
     });
   } else {
-    status.textContent = 'The interactive map is not available right now. Every place below still opens in Google Maps.';
+    status.textContent = T.unavailable;
   }
 
   places.forEach(function (p) {
@@ -98,7 +106,7 @@
       p.hidden = !ok;
       if (ok) n++;
     });
-    count.textContent = n + (n === 1 ? ' place' : ' places');
+    count.textContent = n + (n === 1 ? T.one : T.many);
     empty.hidden = n !== 0;
   }
 
