@@ -2,24 +2,27 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
-## Current handoff — 2026-11-06 (Claude, main `197b438`)
+## Current handoff — 2026-11-06 (Claude, main `884c559`)
 
 ### Completed
-- Live (owner approved): #274, #276, #278, #280, #281 — EN hubs, curated map (link fallback), Claude Code action, JA/TW Haeundae/Seomyeon hubs.
-- Open, CI green, awaiting owner: #282 (JA/TW Nampo/Gwangalli hubs), #286 (Claude action tool limits), #290 (homepage links to hubs/map), #291 (Klook CTAs on the four hubs).
-- `@claude` first run (issue #285) created a branch but no PR because build and audit commands were blocked; #286 fixes this.
+- On main (owner approved): #274, #276, #278, #280, #281, #282, #290. `884c559` is the #290 merge (homepages link to hubs and map); Render deploy of `884c559` reported by the owner, not re-verified this session.
+- Open: #286 and #291 (CI green, mergeable), #293 (this docs PR), #294 (JA/TW map, CI green but conflicting), plus #283, #277, #275, #269, #263, #266 (mergeability unknown when checked). #296 closed.
 
 ### Verification
-- Build and all audits pass on each open PR; 360/390/1280 checks done for new pages. Live production checked for #274–#281 content. GA4 events are still unverified live.
+- Docs-only PR. This run could not fetch or update the branch to `origin/main` (git fetch/checkout were not permitted), so the branch base is behind main; its docs replace main's older STATUS/HANDOFF. See the PR comment for build and audit results.
+
+### Open issues / blockers
+- #294 conflicts with main; needs rebase.
+- GA4 events unverified live; Maps key not set.
 
 ### Approval / setup needed from the owner
-1. Merge #282, #286, #290, #291 (merge = production deploy).
+1. Merge decisions for #286, #291 (merge = production deploy).
 2. Maps Embed API key → Render `GOOGLE_MAPS_EMBED_KEY` (`MAPS_EMBED.md`).
-3. Decide #269, #263, #266 (Codex), #275, #277, #283.
+3. Decide #294, #269, #263, #266, #275, #277, #283.
 4. GA4 Viewer access for Claude's browser account.
 
 ### Recommended next action
-- Claude: after #282 merges, link JA/TW Nampo/Gwangalli hubs from the JA/TW homepages; request Search Console indexing (quota resumes 11/7); then JA/TW map and re-based versions of #263/#266/#269 on current main.
+- Claude: confirm live `version.txt` = `884c559`; rebase #294 if asked; request Search Console indexing for JA/TW hubs (quota ~10/day).
 
 ## Handoff template
 
