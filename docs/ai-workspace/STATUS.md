@@ -63,3 +63,12 @@ Use one of:
 | Affiliate measurement | Blocked | Owner | Code done (#268/#270); GA4 Viewer access needed to verify live events |
 
 Update this table after each meaningful work session. Include PR numbers, commit SHAs, test results, and blockers where known.
+
+
+## Owner-controlled execution and PR #297 follow-up — 2026-11-07 (ChatGPT)
+
+- **Automation paused:** the recurring Go2Busan weekly review is disabled at the owner's request. No new Claude runs will be triggered unless the owner explicitly asks for Claude on a specific task.
+- **Claude guardrail:** added a project-owner execution gate to `CLAUDE.md` on the PR #297 branch. It requires explicit task-specific invocation and immediate stop on owner instruction; no self-triggering or scheduled Claude work.
+- **PR #297 metadata consistency:** EN/JA/zh-TW meta descriptions, Open Graph descriptions, Twitter descriptions where present, and Article descriptions now identify Gaya Park pork soup as part of the six-place guide.
+- **Verification:** Claude's latest report says `sh scripts/build-static.sh` passed. The Technical SEO audit workflow for commit `2d880ca` is `action_required` (no completed audit result available). 360px/390px overflow remains unverified. This follow-up text-only metadata change has not yet had a fresh build.
+- **Release state:** PR #297 remains open and unmerged. Production deployment has not been requested or performed.
