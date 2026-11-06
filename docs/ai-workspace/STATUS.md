@@ -1,6 +1,6 @@
 # Go2Busan Project Status
 
-_Last updated: 2026-11-06 — Claude (after #271)_
+_Last updated: 2026-11-06 — Claude (after #274, #276, #278)_
 
 This file is an operational snapshot, not a substitute for checking GitHub and production at the start of each task.
 
@@ -15,7 +15,7 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 
 ## Verified state (2026-11-06, Claude)
 
-- **main:** `a5fd4da` (#271 workspace docs). Earlier this week #264, #265, #267, #268 and #270 were merged and live-verified on go2busan.com.
+- **main / production:** `3ca1965`. Owner approved and Claude merged #274, #278 and #276 on 2026-11-06; Render deploy succeeded and `go2busan.com/version.txt` shows `3ca1965`. Live checks: `/guides/busan-map/` (28 places, link fallback because no Maps key yet), Haeundae and Seomyeon hubs, `/guides/` directory and sitemap entries.
 - **PR #269 (Codex):** GitHub reports no conflicts and all checks passing; a trial merge onto current main also passes all 11 audits. The earlier "unmergeable" note is stale. Before merging: update the branch (its base `cbc813d` is behind main), and resolve one duplicate-intent risk — the new `/guides/busan-station-late-arrival/` overlaps the existing directory entry "Late-Night Arrival at Busan Station" (`ktx-booking-guide/#late-night-arrival`). Owner decision.
 - **Other Codex PRs:** #263 conflicts with #266; #266 is a draft. Owner decision.
 - **Technical SEO:** sitemap has lastmod for every URL; robots.txt OK; every guide is within 2 clicks of home; built-page mobile overflow at 360/390 = 0. Main gap is index coverage (site age/authority), not structure.
@@ -25,9 +25,12 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 
 ## Open PRs from Claude (not merged)
 
-- **#274** — Haeundae and Seomyeon neighborhood hubs (EN). Audits pass; 360/390/1280 checked.
-- **#278** — curated Busan map `/guides/busan-map/` (issue #273): 28 places from existing guides, filters, Google Maps directions links, click-to-load Maps Embed. Works without a key (list + links); live map needs `GOOGLE_MAPS_EMBED_KEY` in Render. Audits pass; 360/390/1280 checked.
-- **#276** (this PR) — `.github/workflows/claude.yml` + `CLAUDE_AUTOMATION.md`. Needs owner setup before it can run (see HANDOFF).
+- **Nampo-dong and Gwangalli hubs** (this PR) — completes the four neighborhood hubs (G2B-009); map deep links `?area=` from hubs; audits pass; 360/390/1280 checked.
+
+## Waiting on the owner
+
+- Claude Code action (#276, merged): install the Claude GitHub App, add `CLAUDE_CODE_OAUTH_TOKEN` (or `ANTHROPIC_API_KEY`), protect `main`. Until then `@claude` does nothing.
+- Live map (#278, merged): Maps Embed API key restricted to go2busan.com, set as `GOOGLE_MAPS_EMBED_KEY` in Render.
 
 ## Status categories
 
@@ -47,9 +50,9 @@ Use one of:
 | PR #269 validation | Ready for review | Owner | Mergeable, audits pass; update branch + resolve late-arrival duplicate first |
 | Technical SEO audit | Done | Claude | No structural blockers; keep daily indexing requests |
 | Taiwan content plan | Not started | ChatGPT + Claude | Inspect existing Traditional Chinese pages first |
-| Four neighborhood hubs | In progress | Claude | #274 Haeundae + Seomyeon; Nampo + Gwangalli next |
-| Claude GitHub automation | Blocked | Owner | Install Claude GitHub App, add secret, protect main |
-| Busan map MVP (#273) | Ready for review | Owner | #278; needs restricted Maps Embed key in Render for the live map |
+| Four neighborhood hubs | Ready for review | Claude | Haeundae + Seomyeon live (#274); Nampo + Gwangalli in open PR |
+| Claude GitHub automation | Blocked | Owner | #276 merged; Install Claude GitHub App, add secret, protect main |
+| Busan map MVP (#273) | Done (link fallback) | Owner | #278 live; interactive map needs Maps Embed key in Render |
 | Affiliate measurement | Blocked | Owner | Code done (#268/#270); GA4 Viewer access needed to verify live events |
 
 Update this table after each meaningful work session. Include PR numbers, commit SHAs, test results, and blockers where known.
