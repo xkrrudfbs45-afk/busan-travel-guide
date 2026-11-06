@@ -118,4 +118,15 @@
   }
   bind('data-filter-area', function (v) { area = v; });
   bind('data-filter-cat', function (v) { cat = v; });
+
+  /* Deep links such as /guides/busan-map/?area=nampo from the neighborhood hubs */
+  try {
+    var qs = new URLSearchParams(window.location.search);
+    ['area', 'cat'].forEach(function (k) {
+      var v = qs.get(k);
+      if (!v || !/^[a-z]+$/.test(v)) return;
+      var b = document.querySelector('[data-filter-' + k + '="' + v + '"]');
+      if (b) b.click();
+    });
+  } catch (e) { /* older browsers: show all places */ }
 })();
