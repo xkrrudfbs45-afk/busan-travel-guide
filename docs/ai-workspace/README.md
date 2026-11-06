@@ -51,3 +51,4 @@ These agents do not communicate with each other automatically. Each must read th
 - [DECISIONS.md](DECISIONS.md) — decision log.
 - [STATUS.md](STATUS.md) — current known project state and verification needs.
 - [HANDOFF.md](HANDOFF.md) — current next actions and contributor handoff format.
+- [CLAUDE_AUTOMATION.md](CLAUDE_AUTOMATION.md) — calling Claude from GitHub issues/PRs, one-time setup and safety limits.
