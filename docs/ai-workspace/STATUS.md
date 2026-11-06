@@ -26,7 +26,8 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 ## Open PRs from Claude (not merged)
 
 - **#274** — Haeundae and Seomyeon neighborhood hubs (EN). Audits pass; 360/390/1280 checked.
-- **Claude Code action PR** — `.github/workflows/claude.yml` + `CLAUDE_AUTOMATION.md`. Needs owner setup before it can run (see HANDOFF).
+- **#278** — curated Busan map `/guides/busan-map/` (issue #273): 28 places from existing guides, filters, Google Maps directions links, click-to-load Maps Embed. Works without a key (list + links); live map needs `GOOGLE_MAPS_EMBED_KEY` in Render. Audits pass; 360/390/1280 checked.
+- **#276** (this PR) — `.github/workflows/claude.yml` + `CLAUDE_AUTOMATION.md`. Needs owner setup before it can run (see HANDOFF).
 
 ## Status categories
 
@@ -48,6 +49,7 @@ Use one of:
 | Taiwan content plan | Not started | ChatGPT + Claude | Inspect existing Traditional Chinese pages first |
 | Four neighborhood hubs | In progress | Claude | #274 Haeundae + Seomyeon; Nampo + Gwangalli next |
 | Claude GitHub automation | Blocked | Owner | Install Claude GitHub App, add secret, protect main |
+| Busan map MVP (#273) | Ready for review | Owner | #278; needs restricted Maps Embed key in Render for the live map |
 | Affiliate measurement | Blocked | Owner | Code done (#268/#270); GA4 Viewer access needed to verify live events |
 
 Update this table after each meaningful work session. Include PR numbers, commit SHAs, test results, and blockers where known.
