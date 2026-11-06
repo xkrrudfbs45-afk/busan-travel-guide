@@ -52,7 +52,9 @@
 
   function embedUrl(query) {
     var base = 'https://www.google.com/maps/embed/v1/';
-    if (!query) return base + 'view?key=' + encodeURIComponent(key) + '&center=' + BUSAN + '&zoom=11';
+    if (!query) return base + 'view?key=' + encodeURIComponent(key) + '&center=' + BUSAN + '&zoom=11' +
+      '&language=' + encodeURIComponent(language.indexOf('ja') === 0 ? 'ja' : (language.indexOf('zh-tw') === 0 || language.indexOf('zh-hant') === 0 ? 'zh-TW' : 'en')) +
+      '&region=KR';
     return base + 'place?key=' + encodeURIComponent(key) + '&q=' + encodeURIComponent(query) +
       '&language=' + encodeURIComponent(language.indexOf('ja') === 0 ? 'ja' : (language.indexOf('zh-tw') === 0 || language.indexOf('zh-hant') === 0 ? 'zh-TW' : 'en')) +
       '&region=KR';
