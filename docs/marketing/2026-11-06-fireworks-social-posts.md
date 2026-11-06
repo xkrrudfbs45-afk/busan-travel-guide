@@ -46,3 +46,40 @@ Going to the Busan Fireworks Festival on Saturday, November 7? Road closures beg
 - If using a real photograph, use only a registered KOGL 1–4 or Wikimedia CC BY / CC BY-SA / public-domain asset with author and licence credit.
 - If using AI-generated artwork, label the visual “Illustration (AI-generated)”; never present it as an actual event photograph.
 - Keep exact times large and readable on mobile. Avoid fitting every road name on one slide; send readers to the full guide.
+
+
+## Instagram carousel: Gwangalli Drone Light Show (evergreen winter version)
+
+1. **Cover:** Gwangalli Drone Light Show — what to know before you go.
+2. **Winter schedule:** Saturdays at 7:00 p.m. and 9:00 p.m. (October–February).
+3. **Summer schedule:** Saturdays at 8:00 p.m. and 10:00 p.m. (March–September).
+4. **Show basics:** Free admission at Gwangalli Beach; each performance lasts about 12 minutes.
+5. **Weather check:** Rain, strong winds, typhoons or communication issues can delay or cancel a show, sometimes on the day.
+6. **November 7 exception:** No show on Nov 7, 2026 because of the Busan Fireworks Festival. The official notice listed Nov 14 as the next scheduled performance.
+7. **CTA:** Check the official notice before leaving. Save this guide and read Go2Busan’s full local tips.
+
+Caption: The Gwangalli M Drone Light Show is a free Saturday-night highlight in Busan. In winter (October–February), the regular schedule is 7 PM and 9 PM; in summer (March–September), it is 8 PM and 10 PM. Each show lasts about 12 minutes, but weather and technical conditions can change the schedule. Always check the official notice before you go. The Nov 7, 2026 performances were cancelled for the Busan Fireworks Festival; the official notice listed Nov 14 as scheduled to proceed.
+
+Official schedule: https://www.busan.go.kr/eng/bsevents/1713160
+Official Nov 7 cancellation notice: https://www.gwangallimdrone.co.kr/notice-en/notice-of-cancellation-gwangalli-m-drone-light-show-on-november-7
+Full guide: https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/
+
+## Instagram carousel: Milmyeon 101 — a Busan local food ritual
+
+1. **Cover:** First time eating milmyeon in Busan? Start here.
+2. **What is it?** Chilled wheat noodles shaped by Busan’s post-war food history.
+3. **Two styles:** Mul-milmyeon comes in cold broth; bibim-milmyeon is mixed with a spicy-sweet sauce.
+4. **The warm kettle:** Many shops serve a separate warm broth in a table kettle. Sip a little while waiting for your noodles; not every restaurant serves it.
+5. **Season to taste:** Add mustard or vinegar gradually if they are provided. Try a bite before adjusting.
+6. **Scissors?** You do not have to cut the noodles immediately. Taste them first; cutting is a personal preference.
+7. **CTA:** Save this for your next Busan meal. Read the full milmyeon story on Go2Busan.
+
+Caption: Milmyeon is more than a cold noodle dish — it carries a piece of Busan’s history. Try the warm broth if your restaurant serves it, choose mul or bibim, and add mustard or vinegar a little at a time. Every shop has its own style, so follow the restaurant’s guidance and enjoy it your way.
+
+Full guide: https://go2busan.com/guides/busan-milmyeon-history/
+
+## Visual direction for these two carousels
+
+- Use the user’s own milmyeon photographs for the food carousel when available; a warm-broth kettle and a bowl of mul-milmyeon are the priority shots.
+- For the drone show, use an appropriately licensed real event photograph or a clearly labelled AI-assisted illustration. Do not present generated drone formations as actual footage.
+- Keep slide copy short, use high contrast, and put detailed caveats and official links in the caption or linked guide.
