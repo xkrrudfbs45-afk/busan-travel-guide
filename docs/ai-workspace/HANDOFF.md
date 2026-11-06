@@ -2,24 +2,24 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
-## Current handoff — 2026-11-06 (Claude, after deploy 3ca1965)
+## Current handoff — 2026-11-06 (Claude, main `197b438`)
 
 ### Completed
-- Merged with owner approval and deployed: #274 (Haeundae/Seomyeon hubs), #278 (curated Busan map), #276 (Claude Code action + workspace docs). Production `version.txt` = `3ca1965`.
-- Open PR: Nampo-dong and Gwangalli hubs, plus hub ↔ map links (`/guides/busan-map/?area=nampo` etc.).
+- Live (owner approved): #274, #276, #278, #280, #281 — EN hubs, curated map (link fallback), Claude Code action, JA/TW Haeundae/Seomyeon hubs.
+- Open, CI green, awaiting owner: #282 (JA/TW Nampo/Gwangalli hubs), #286 (Claude action tool limits), #290 (homepage links to hubs/map), #291 (Klook CTAs on the four hubs).
+- `@claude` first run (issue #285) created a branch but no PR because build and audit commands were blocked; #286 fixes this.
 
 ### Verification
-- Build and all 11 audits pass. Mobile overflow at 360/390 on 161 built pages: 0. New hubs at 360/390/1280: no overflow, TOC and cover present. Map deep link `?area=nampo` shows 6 places.
+- Build and all audits pass on each open PR; 360/390/1280 checks done for new pages. Live production checked for #274–#281 content. GA4 events are still unverified live.
 
 ### Approval / setup needed from the owner
-1. Review and merge the Nampo/Gwangalli hub PR (merge = production deploy).
-2. Claude action: GitHub App, `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`, main branch protection (`CLAUDE_AUTOMATION.md`).
-3. Live map: Maps Embed API key restricted to go2busan.com → Render `GOOGLE_MAPS_EMBED_KEY` (`MAPS_EMBED.md`).
-4. Decide #269, #263, #266 (Codex) and #275, #277.
-5. GA4 Viewer access for Claude's browser account.
+1. Merge #282, #286, #290, #291 (merge = production deploy).
+2. Maps Embed API key → Render `GOOGLE_MAPS_EMBED_KEY` (`MAPS_EMBED.md`).
+3. Decide #269, #263, #266 (Codex), #275, #277, #283.
+4. GA4 Viewer access for Claude's browser account.
 
 ### Recommended next action
-- Claude: request Search Console indexing for the map and four hubs; then JA/TW versions of the hubs and map.
+- Claude: after #282 merges, link JA/TW Nampo/Gwangalli hubs from the JA/TW homepages; request Search Console indexing (quota resumes 11/7); then JA/TW map and re-based versions of #263/#266/#269 on current main.
 
 ## Handoff template
 
