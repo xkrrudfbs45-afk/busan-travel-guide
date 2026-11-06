@@ -15,7 +15,7 @@ Road closures start early:
 - 18:30 — Gwangan Bridge lower deck, both directions
 - 19:30 — parts of Gwangan-ro and Namcheonbadaro
 
-Busan City says subway services will be increased and the last-train time extended by 25 minutes for the festival. Check the station and direction you need before travelling; do not assume every route has the same final departure.
+Busan Metro says Lines 1–3 will run 212 additional train services. Headways are planned at 4.5–6 minutes from 4–7 PM and 3–5 minutes from 8–10 PM. Crowded stations may control entry in stages, from the station entrance to ticket gates and then platforms. A blanket last-train extension has not been confirmed in the published special-service report, so check the exact station and direction.
 
 Also: the Gwangalli M Drone Light Show is cancelled on Nov 7 because of the fireworks festival. The next show is scheduled for Nov 14.
 
@@ -34,7 +34,7 @@ Full local guide: https://go2busan.com/guides/busan-fireworks-festival/
 
 ## Caption
 
-Going to the Busan Fireworks Festival on Saturday, November 7? Road closures begin at 10 AM and expand throughout the day. Gwangnam-ro bus routes are suspended from 6 PM, and both decks of Gwangan Bridge close in stages. Busan City says subway services will be increased and the last-train time extended by 25 minutes, but check your exact station and direction before you travel. The Gwangalli Drone Light Show is cancelled on November 7. Save this post and check the official notices before setting out.
+Going to the Busan Fireworks Festival on Saturday, November 7? Road closures begin at 10 AM and expand throughout the day. Gwangnam-ro bus routes are suspended from 6 PM, and both decks of Gwangan Bridge close in stages. Busan Metro plans 212 additional train services on Lines 1–3, with shorter headways before and after the show. Crowded stations may control entry in stages. The published report does not confirm a blanket last-train extension, so check your exact station and direction before you travel. The Gwangalli Drone Light Show is cancelled on November 7. Save this post and check the official notices before setting out.
 
 ## Hashtags
 
