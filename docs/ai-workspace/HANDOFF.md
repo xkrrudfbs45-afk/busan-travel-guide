@@ -5,7 +5,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 ## Addendum — PR #297 count fixes (2026-11-06, Claude)
 
 - Completed: JA title/og/twitter/headline set to 6選; search-index JA/zh-TW entries updated to 6 and Gaya Park pork soup; JA/zh-TW meta descriptions updated.
-- Verification: text-search only. Build, 11 audits and 360/390px overflow were NOT run by Claude; check the PR's GitHub Actions. Deployment not verified.
+- Verification: Claude reports `sh scripts/build-static.sh` passed. The 11 audits did not complete; the Technical SEO audit workflow is `action_required`, with no completed result available. 360/390px overflow remains unverified. Deployment not verified.
 - Approval needed: owner review and merge decision; native review of JA/zh-TW wording.
 
 ## Current handoff — 2026-11-06 (Claude, after deploy 197b438)
@@ -47,3 +47,12 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Approval needed
 - [Any merge, deployment, spend, partner, or policy decision]
+
+
+## Owner-controlled execution — 2026-11-07 (ChatGPT)
+
+- Paused the recurring Go2Busan weekly automation at the owner's request.
+- Added an explicit owner-invocation / immediate-stop gate to `CLAUDE.md` on the #297 branch. Do not mention or trigger Claude unless the owner explicitly requests it for a specific task.
+- Updated EN/JA/zh-TW social and structured descriptions so the six-place guide consistently includes Gaya Park pork soup.
+- Latest known build result: `sh scripts/build-static.sh` passed in Claude's report. Technical SEO audit workflow is `action_required`; no successful CI audit result is confirmed. 360/390px remains unverified.
+- PR #297 remains open; do not merge or deploy without owner approval.
