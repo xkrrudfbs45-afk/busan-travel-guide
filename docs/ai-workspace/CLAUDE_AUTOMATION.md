@@ -44,11 +44,9 @@ Good requests are small and tied to a backlog item, for example:
   - run the build and the `seo-audit.yml` audits before opening a PR;
   - update STATUS.md and HANDOFF.md.
 
-## Not verified yet
+## First run (2026-11-06, issue #285)
 
-The first real run still has to confirm three things:
-- the OAuth token is accepted;
-- `gh pr create` works with the app token;
-- the allowed-tool list is enough to run the build and audits.
-
-If a run fails, open the Actions log for "Claude Code (on request)" and adjust `claude_args` in a small PR.
+- Setup done: Claude GitHub App installed on this repo, `CLAUDE_CODE_OAUTH_TOKEN` secret set, `Protect main` ruleset active (PR required, check "Crawl local SEO hygiene" required, no force-push or deletion).
+- Verified: the owner's `@claude` issue triggered the workflow; the OAuth token was accepted; Claude read the repo rules, edited only the requested file and pushed `claude/issue-285-…`. Comments by `claude[bot]` were skipped, as intended (owner-only trigger). Nothing was merged.
+- Not working in that run: the build and audits were refused by the tool allowlist, and Claude posted a "Create PR" link instead of opening the PR.
+- Fix in this change: allow `sh scripts/…` and `node scripts/…` in both permission syntaxes, plus read-only `ls`/`cat`/`grep` and `rm -rf public`; tell Claude to run each audit as a separate command and to open the PR with `gh pr create`. Re-check on the next request.
