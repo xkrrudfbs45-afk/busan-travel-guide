@@ -8,6 +8,28 @@
   var root = document.querySelector('[data-map-panel]');
   if (!root) return;
 
+  var language = (document.documentElement.lang || 'en').toLowerCase();
+  var mapCopy = language.indexOf('ja') === 0
+    ? {
+        frameTitle: '選択した釜山の場所のGoogleマップ',
+        unavailable: '現在、インタラクティブマップを利用できません。各スポットのリンクからGoogleマップを開けます。',
+        busan: '釜山',
+        placeSuffix: 'か所'
+      }
+    : (language.indexOf('zh-tw') === 0 || language.indexOf('zh-hant') === 0
+      ? {
+          frameTitle: '所選釜山地點的 Google 地圖',
+          unavailable: '互動地圖目前無法使用。您仍可透過下方各地點連結開啟 Google 地圖。',
+          busan: '釜山',
+          placeSuffix: ' 個地點'
+        }
+      : {
+          frameTitle: 'Google Map of the selected Busan place',
+          unavailable: 'The interactive map is not available right now. Every place below still opens in Google Maps.',
+          busan: 'Busan',
+          placeSuffix: ' places'
+        });
+
   var meta = document.querySelector('meta[name="g2b-maps-embed-key"]');
   var key = meta ? (meta.getAttribute('content') || '').trim() : '';
   var hasKey = /^AIza[0-9A-Za-z_-]{35}$/.test(key);
@@ -31,7 +53,9 @@
   function embedUrl(query) {
     var base = 'https://www.google.com/maps/embed/v1/';
     if (!query) return base + 'view?key=' + encodeURIComponent(key) + '&center=' + BUSAN + '&zoom=11';
-    return base + 'place?key=' + encodeURIComponent(key) + '&q=' + encodeURIComponent(query) + '&language=en&region=KR';
+    return base + 'place?key=' + encodeURIComponent(key) + '&q=' + encodeURIComponent(query) +
+      '&language=' + encodeURIComponent(language.indexOf('ja') === 0 ? 'ja' : (language.indexOf('zh-tw') === 0 || language.indexOf('zh-hant') === 0 ? 'zh-TW' : 'en')) +
+      '&region=KR';
   }
 
   function loadMap(query, label) {
@@ -39,7 +63,7 @@
     if (!frame) {
       frame = document.createElement('iframe');
       frame.className = 'g2b-map-frame';
-      frame.title = 'Google Map of the selected Busan place';
+      frame.title = mapCopy.frameTitle;
       frame.loading = 'lazy';
       frame.referrerPolicy = 'no-referrer-when-downgrade';
       frame.setAttribute('allowfullscreen', '');
@@ -51,23 +75,24 @@
       });
     }
     frame.src = embedUrl(query);
-    current.textContent = label || 'Busan';
+    current.textContent = label || mapCopy.busan;
     return true;
   }
 
   if (hasKey) {
     loadBtn.hidden = false;
     loadBtn.addEventListener('click', function () {
-      loadMap('', 'Busan');
+      loadMap('', mapCopy.busan);
       track('map_load', { map_source: 'button' });
     });
   } else {
-    status.textContent = 'The interactive map is not available right now. Every place below still opens in Google Maps.';
+    status.textContent = mapCopy.unavailable;
   }
 
   places.forEach(function (p) {
     var show = p.querySelector('[data-map-show]');
-    var name = p.querySelector('h3').firstChild.textContent.trim();
+    var heading = p.querySelector('h3');
+    var name = heading ? heading.firstChild.textContent.trim() : '';
     if (show) {
       show.addEventListener('click', function () {
         if (!loadMap(p.getAttribute('data-query'), name)) return;
@@ -98,7 +123,10 @@
       p.hidden = !ok;
       if (ok) n++;
     });
-    count.textContent = n + (n === 1 ? ' place' : ' places');
+    count.textContent = n + (language.indexOf('ja') === 0 ? mapCopy.placeSuffix :
+      (language.indexOf('zh-tw') === 0 || language.indexOf('zh-hant') === 0
+        ? mapCopy.placeSuffix
+        : (n === 1 ? ' place' : mapCopy.placeSuffix)));
     empty.hidden = n !== 0;
   }
 
