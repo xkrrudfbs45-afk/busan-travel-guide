@@ -312,9 +312,45 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/nampo-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/nampo-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/nampo-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/nampo-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/nampo-neighborhood-guide/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/gwangalli-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gwangalli-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gwangalli-neighborhood-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gwangalli-neighborhood-guide/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/where-to-stay-songjeong-gijang/</loc>
