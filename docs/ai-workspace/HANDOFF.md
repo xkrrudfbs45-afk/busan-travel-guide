@@ -1,44 +1,51 @@
 # Go2Busan Contributor Handoff
 
-Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
+_Updated: 2026-11-06 — reconciled to main `197b438`_
 
-## Current handoff — 2026-11-06 (Claude, after deploy 3ca1965)
+## Current production baseline
 
-### Completed
-- Merged with owner approval and deployed: #274 (Haeundae/Seomyeon hubs), #278 (curated Busan map), #276 (Claude Code action + workspace docs). Production `version.txt` = `3ca1965`.
-- Open PR: Nampo-dong and Gwangalli hubs, plus hub ↔ map links (`/guides/busan-map/?area=nampo` etc.).
+- Owner-approved deployment report: `go2busan.com/version.txt = 197b438`.
+- GitHub `main` HEAD independently resolves to `197b43861bf4bdbd07e5c40fee8d28ab3b215486`.
+- Deployed: #274, #276, #278, #280, #281.
+- English neighborhood hubs: Haeundae, Seomyeon, Nampo-dong, Gwangalli.
+- Japanese + Traditional Chinese: Haeundae and Seomyeon live; Nampo-dong and Gwangalli await #282 owner approval.
+- English curated map: 28 places, area/type filters and Google Maps directions. It is currently in list/link fallback mode until the owner configures the Maps Embed key in Render.
 
-### Verification
-- Build and all 11 audits pass. Mobile overflow at 360/390 on 161 built pages: 0. New hubs at 360/390/1280: no overflow, TOC and cover present. Map deep link `?area=nampo` shows 6 places.
+## Open PRs / owner decisions
 
-### Approval / setup needed from the owner
-1. Review and merge the Nampo/Gwangalli hub PR (merge = production deploy).
-2. Claude action: GitHub App, `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`, main branch protection (`CLAUDE_AUTOMATION.md`).
-3. Live map: Maps Embed API key restricted to go2busan.com → Render `GOOGLE_MAPS_EMBED_KEY` (`MAPS_EMBED.md`).
-4. Decide #269, #263, #266 (Codex) and #275, #277.
-5. GA4 Viewer access for Claude's browser account.
+1. **#282 — merge approval required.** CI + 11 audits pass per Claude; completes all four hubs in EN/JA/TW. JA/TW native-speaker review is still outstanding.
+2. **#275 — owner direct merge only.** Documentation PR is clean, but it appends an obsolete handoff block. Remove duplicate old handoff content after merge or fix the PR first.
+3. **#277 — owner direct merge only.** JA/TW navigation PR is clean and audit-passing per report.
+4. **#263 / #266 / #269 — do not merge as-is.** All conflict with current main. Rebuild only unique, still-useful material on current main. Avoid duplicate Nampo content and avoid a second Busan Station late-arrival page that overlaps the existing KTX guide section.
 
-### Recommended next action
-- Claude: request Search Console indexing for the map and four hubs; then JA/TW versions of the hubs and map.
+## Verification
 
-## Handoff template
+- Claude reports build + all 11 repository audits passing.
+- 169 built pages: zero horizontal overflow at 360px and 390px.
+- New hubs checked at 360px, 390px and 1280px; internal links returned 200.
+- Not verified yet: JA/TW native-speaker review; live Google Maps embed; GA4 live event collection.
 
-### Date and contributor
-[YYYY-MM-DD — name/agent]
+## Search Console
 
-### Completed
-- [Specific changes and links]
+- 2026-11-06 requests submitted for 7 priority guides, map, Haeundae, Seomyeon and Nampo.
+- Daily quota reached. Queue Gwangalli and remaining JA/TW hub URLs for the next available quota.
+- Most core pages remain "Discovered – currently not indexed". Continue measured requests and monitor actual status; do not equate request submission with indexation.
 
-### Verification
-- [Commands/tests and outcomes]
-- [Visual checks and viewport sizes]
-- [PR number and commit SHA]
+## Owner setup still required
 
-### Open issues / blockers
-- [Issue, impact, owner]
+- Claude Action: install Claude GitHub App, add `CLAUDE_CODE_OAUTH_TOKEN` or `ANTHROPIC_API_KEY`, protect `main`. Workflow must remain owner-invoked, create PRs from `claude/*` branches, and never merge or push to main.
+- Maps Embed API key: restrict HTTP referrers to Go2Busan and configure Render `GOOGLE_MAPS_EMBED_KEY`.
+- GA4 Viewer access for live event checks.
+- Agoda partner approval.
 
-### Recommended next action
-- [One clear next step]
+## Next active work — Claude
 
-### Approval needed
-- [Any merge, deployment, spend, partner, or policy decision]
+1. Wait for owner decision on #282; do not merge.
+2. Prepare a focused PR for JA/TW map pages using the existing 28-place dataset, translated filters/labels/metadata and reciprocal hreflang/sitemap/search-index entries.
+3. Rebuild useful unique content from #263/#266/#269 on current main; keep #266's firsthand editorial distinctions; avoid duplicate Busan Station intent.
+4. Improve neighborhood hub booking CTAs only where contextually relevant, with transparent affiliate disclosure and unchanged analytics event contracts.
+5. Complete queued Search Console requests when quota resets; report submitted URLs separately from indexed URLs.
+
+## Approval boundary
+
+No merge, production deploy, paid API usage, partner application, or external spend without explicit owner approval.
