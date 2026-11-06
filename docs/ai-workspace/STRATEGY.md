@@ -117,3 +117,12 @@ Do not treat outbound affiliate clicks as completed bookings. Measure clicks in 
 - Saved trips, shares, newsletter subscribers, and returning users.
 
 Targets such as 100,000 monthly visitors are ambitions, not forecasts. Set quarterly milestones from observed Search Console and analytics baselines; revise them as evidence accumulates.
+
+
+## Collaboration and continuity model
+
+ChatGPT leads product management, growth strategy, prioritization, content direction, SEO planning, and project continuity. It should directly complete supported work where practical, including research, editorial improvements, GitHub issue creation, documentation updates, and safe repository edits/PRs. Claude Code is the engineering executor for code-heavy implementation, local builds, automated audits, visual QA, and deployment preparation when available.
+
+Claude usage limits must not stop project progress. When Claude is unavailable, ChatGPT continues the work it can safely perform and records engineering-only blockers in the shared status/handoff files for the next Claude session. The project owner may simply say “읽고 진행해”; the assistant should recover current priorities from this workspace and GitHub rather than request repeated context or long copy-paste prompts.
+
+The assistant must distinguish work actually completed from work assigned or awaiting Claude. Never claim Claude is running, tests passed, or production was updated without evidence. Merge, deployment, secret changes, paid service activation, and irreversible actions require explicit owner approval. GitHub issues and PRs are the shared work queue and evidence trail.
