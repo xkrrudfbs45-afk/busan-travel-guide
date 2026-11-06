@@ -1,10 +1,13 @@
-# Generates Japanese and Traditional Chinese versions of the Haeundae and Seomyeon hubs.
+# Generates Japanese and Traditional Chinese versions of the Haeundae, Seomyeon, Nampo-dong and Gwangalli hubs.
 # Run from the repo root: python3 scripts/generate-neighborhood-hubs-i18n.py
 import json, html, os
 B = 'https://go2busan.com'
 e = lambda s: html.escape(s, quote=True)
 OG_SEOMYEON = 'https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1600'
 HAEUNDAE_IMG = 'https://commons.wikimedia.org/wiki/Special:FilePath/Haeundae_District_and_Beach.jpg?width=1600'
+IMAGES = {'haeundae': HAEUNDAE_IMG,
+          'nampo': 'https://commons.wikimedia.org/wiki/Special:FilePath/Nampo-dong_Busy_Street.JPG?width=1600',
+          'gwangalli': 'https://commons.wikimedia.org/wiki/Special:FilePath/Gwangan_Bridge1.jpg?width=1600'}
 LICENSE = '<a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license noopener" target="_blank">CC BY-SA 4.0</a>'
 
 UI = {
@@ -47,7 +50,7 @@ H[('ja', 'haeundae')] = dict(
 <h2 id="half-day">海雲台で過ごす半日モデル</h2>
 <ol><li>朝：ビーチと冬柏島周辺の海沿いの散歩道を歩く。</li>
 <li>昼：ビーチ近くで食事。メニューと合計金額を先に確認。</li>
-<li>夕方：海辺のカフェ、または土曜日なら広安里へ。</li></ol>
+<li>夕方：海辺のカフェ、または土曜日なら<a href="/ja/guides/gwangalli-neighborhood-guide/">広安里</a>へ。</li></ol>
 <p>移動時間を見込み、風や雨の日のために屋内の予備プランを1つ用意しておきましょう。</p>''',
  faq=[('初めての釜山なら海雲台と西面のどちらがいい？', 'ビーチ中心の旅なら海雲台、市内のあちこちを回るなら中心にある西面が便利です。片方に泊まり、もう片方へ日帰りで行く人も多くいます。'),
       ('釜山駅から海雲台へはどう行く？', '地下鉄1号線で西面へ行き、2号線（萇山方面）に乗り換え、ホテルに近い駅で降ります。')],
@@ -75,9 +78,9 @@ H[('ja', 'seomyeon')] = dict(
 <li>釜山の定番料理の背景：<a href="/ja/guides/busan-dwaeji-gukbap-history/">テジクッパ</a>と<a href="/ja/guides/busan-milmyeon-history/">ミルミョン</a>。</li>
 <li>注文の前に<a href="/ja/guides/food-etiquette/">食事のマナー</a>も確認しておくと安心です。</li></ul>
 <h2 id="day-plans">西面から行きやすい日帰りプラン</h2>
-<ul><li><strong>1号線で南へ：</strong><a href="/ja/guides/jagalchi-market/">チャガルチ市場</a>と南浦洞、または<a href="/ja/guides/busan-station-local-walk/">釜山駅から南浦への散歩ルート</a>。</li>
+<ul><li><strong>1号線で南へ：</strong><a href="/ja/guides/jagalchi-market/">チャガルチ市場</a>と<a href="/ja/guides/nampo-neighborhood-guide/">南浦洞</a>、または<a href="/ja/guides/busan-station-local-walk/">釜山駅から南浦への散歩ルート</a>。</li>
 <li><strong>1号線で北へ：</strong><a href="/ja/guides/dongnae-hot-spring-half-day/">東莱温泉の半日コース</a>や<a href="/ja/guides/beomeosa-food-guide/">梵魚寺周辺</a>。</li>
-<li><strong>2号線で東へ：</strong><a href="/ja/guides/haeundae-neighborhood-guide/">海雲台</a>と広安里。</li></ul>
+<li><strong>2号線で東へ：</strong><a href="/ja/guides/haeundae-neighborhood-guide/">海雲台</a>と<a href="/ja/guides/gwangalli-neighborhood-guide/">広安里</a>。</li></ul>
 <p>帰りの経路と終電を確認しておきましょう。<a href="/ja/guides/three-days/">3日間モデルコース</a>ではエリアごとにまとめています。</p>''',
  faq=[('初めての釜山旅行で西面に泊まるのはいい？', '市内のあちこちを回るなら便利です。地下鉄1号線と2号線が交わるので、南浦洞にも海雲台にも乗り換えなしで行けます。'),
       ('金海空港から西面へはどう行く？', 'ライトレールで沙上へ行き、地下鉄2号線で西面へ向かうのが一般的です。荷物が多い場合や到着が遅い場合はタクシーやリムジンバスも比較しましょう。')],
@@ -113,7 +116,7 @@ H[('zh-tw', 'haeundae')] = dict(
 <h2 id="half-day">海雲台半日行程</h2>
 <ol><li>上午：走海灘與冬柏島周邊的海岸步道。</li>
 <li>中午：在海灘附近用餐，先確認菜單與總金額。</li>
-<li>傍晚：海邊咖啡廳；如果是星期六，也可以去廣安里。</li></ol>
+<li>傍晚：海邊咖啡廳；如果是星期六，也可以去<a href="/zh-tw/guides/gwangalli-neighborhood-guide/">廣安里</a>。</li></ol>
 <p>記得預留移動時間，並準備一個風雨天的室內備案。</p>''',
  faq=[('第一次去釜山，住海雲台還是西面好？', '以海灘為主選海雲台；行程分散在市區各處，則位置居中的西面比較方便。很多人住其中一區，再到另一區玩一天。'),
       ('從釜山站怎麼去海雲台？', '搭地鐵 1 號線到西面，轉乘 2 號線（往萇山方向），在離飯店最近的車站下車。')],
@@ -141,13 +144,145 @@ H[('zh-tw', 'seomyeon')] = dict(
 <li>釜山代表料理的故事：<a href="/zh-tw/guides/busan-dwaeji-gukbap-history/">豬肉湯飯</a>與<a href="/zh-tw/guides/busan-milmyeon-history/">小麥冷麵</a>。</li>
 <li>點餐前可以先看<a href="/zh-tw/guides/food-etiquette/">用餐禮儀</a>。</li></ul>
 <h2 id="day-plans">從西面出發的一日行程</h2>
-<ul><li><strong>搭 1 號線往南：</strong><a href="/zh-tw/guides/jagalchi-market/">札嘎其市場</a>與南浦洞，或<a href="/zh-tw/guides/busan-station-local-walk/">釜山站到南浦的散步路線</a>。</li>
+<ul><li><strong>搭 1 號線往南：</strong><a href="/zh-tw/guides/jagalchi-market/">札嘎其市場</a>與<a href="/zh-tw/guides/nampo-neighborhood-guide/">南浦洞</a>，或<a href="/zh-tw/guides/busan-station-local-walk/">釜山站到南浦的散步路線</a>。</li>
 <li><strong>搭 1 號線往北：</strong><a href="/zh-tw/guides/dongnae-hot-spring-half-day/">東萊溫泉半日遊</a>或<a href="/zh-tw/guides/beomeosa-food-guide/">梵魚寺周邊</a>。</li>
-<li><strong>搭 2 號線往東：</strong><a href="/zh-tw/guides/haeundae-neighborhood-guide/">海雲台</a>與廣安里。</li></ul>
+<li><strong>搭 2 號線往東：</strong><a href="/zh-tw/guides/haeundae-neighborhood-guide/">海雲台</a>與<a href="/zh-tw/guides/gwangalli-neighborhood-guide/">廣安里</a>。</li></ul>
 <p>記得確認回程路線和末班車。<a href="/zh-tw/guides/three-days/">三天行程</a>依區域整理了這些地點。</p>''',
  faq=[('第一次去釜山住西面好嗎？', '如果行程分散在市區各處，西面很方便。它是地鐵 1 號線與 2 號線的交會點，到南浦洞和海雲台都不用轉車。'),
       ('從金海機場怎麼去西面？', '常見路線是搭輕軌到沙上，再轉地鐵 2 號線到西面。行李多或深夜抵達時，也可以比較計程車或機場巴士。')],
  related=[('/zh-tw/guides/where-to-stay-busan/', '釜山住宿區域指南'), ('/zh-tw/guides/three-days/', '釜山三天行程'), ('/zh-tw/guides/haeundae-neighborhood-guide/', '海雲台區域指南')])
+
+
+LICENSE_SA = LICENSE
+H[('ja', 'nampo')] = dict(
+ crumb='南浦洞', title='南浦洞エリアガイド：市場・屋台グルメ・宿',
+ desc='釜山の旧市街・南浦洞を地元目線で整理。チャガルチ市場やBIFF広場の屋台、地下鉄1号線での行き方、宿の選び方、半日モデルコースまで、詳しいガイドへの入口をまとめました。',
+ eyebrow='エリアガイド・旧市街', h1='南浦洞エリアガイド：市場、屋台グルメ、旧市街',
+ deck='南浦洞は市場や商店街、港がまとまった釜山の旧市街です。このページでエリア全体を把握し、各スポットの詳しいガイドへ進んでください。',
+ img_alt='釜山・南浦洞のにぎやかな商店街', credit=f'写真：Ken Eckert / Wikimedia Commons、{LICENSE_SA}',
+ summary=['市場、屋台の軽食、商店街、釜山の旧市街を楽しみたい人に向いています。', '南浦駅とチャガルチ駅は地下鉄1号線。釜山駅から短時間で行けます。', '東側のビーチからは遠いので、海雲台よりも影島や松島、甘川と組み合わせるのがおすすめです。'],
+ body='''<h2 id="who-is-it-for">南浦洞はどんな人に向いている？</h2>
+<p>ビーチよりも市場や屋台グルメ、古い街並みを楽しみたいなら南浦洞が合います。釜山駅に着いてから最初に立ち寄りやすいエリアでもあります。</p>
+<p>多くの旅行者は<a href="/ja/guides/seomyeon-neighborhood-guide/">西面</a>に泊まり、1号線で南浦洞へ来ます。南浦や釜山駅周辺に泊まる場合の考え方は<a href="/ja/guides/where-to-stay-busan/#area-nampo">宿泊エリアガイド</a>で紹介しています。</p>
+<h2 id="getting-there">行き方とエリア内の移動</h2>
+<ul><li><strong>釜山駅（KTX）から：</strong>地下鉄1号線で南浦駅・チャガルチ駅へ。時間があり荷物が軽ければ<a href="/ja/guides/busan-station-local-walk/">釜山駅から南浦への散歩ルート</a>もおすすめです。</li>
+<li><strong>金海空港から：</strong>ライトレールで沙上へ行き、2号線で西面、さらに1号線で南へ向かうのが一般的です。荷物が多い場合や到着が遅い場合は<a href="/ja/guides/late-arrival/">深夜到着ガイド</a>でタクシーと比較してください。</li>
+<li><strong>エリア内の移動：</strong>歩いて回れますが、路地には坂もあります。<a href="/ja/guides/transit-card/">交通カード</a>で地下鉄とバスに乗れます。</li></ul>
+<h2 id="eat">食事</h2>
+<ul><li><a href="/ja/guides/jagalchi-market/">チャガルチ市場</a>：海鮮は注文前に種類・重さ・価格・調理代を確認。</li>
+<li><a href="/ja/guides/local-food-by-neighborhood/#section-2">BIFF広場の屋台軽食</a>：シアッホットクやオムクなど。</li>
+<li>釜山のオムクの背景は<a href="/ja/guides/busan-eomuk-history/">釜山オムクの歴史</a>へ。</li>
+<li>富平カントン市場の夜市は英語ガイド（<a href="/guides/kkangtong-market-food-guide/" hreflang="en">Kkangtong Market Food Guide</a>）で紹介しています。</li></ul>
+<h2 id="see-and-do">周辺の見どころ</h2>
+<ul><li>影島の<a href="/ja/guides/taejongdae/">太宗台</a>：ダヌビ列車で回る海沿いの公園。</li>
+<li>西側の松島：<a href="/ja/guides/local-food-by-neighborhood/#section-daegu-tang">海辺の散歩と朝のテグタン</a>。</li>
+<li><a href="/ja/guides/three-days/">3日間モデルコース</a>：甘川文化村と松島を組み合わせた日。</li></ul>
+<h2 id="half-day">南浦洞で過ごす半日モデル</h2>
+<ol><li>朝：釜山駅から草梁を歩く、または1号線で南浦へ。</li>
+<li>昼：価格を確認してからチャガルチ市場で食事。</li>
+<li>午後：BIFF広場の屋台と商店街。</li>
+<li>夜：カントン市場の夜市。当日の営業時間は現地で確認。</li></ol>
+<p>坂や人混みを考えて時間に余裕を持ち、雨の日のために屋内の予備スポットを1つ用意しておきましょう。</p>''',
+ faq=[('釜山駅から南浦洞へはどう行く？', '地下鉄1号線で南浦駅またはチャガルチ駅へ向かいます。時間があり荷物が軽ければ、草梁を通って歩くこともできます。'),
+      ('南浦洞に泊まるのはいい？', '市場や旧市街を中心に回る人に向いています。市内を広く回るなら西面、ビーチ中心なら海雲台や広安里も比較しましょう。')],
+ related=[('/ja/guides/where-to-stay-busan/', '釜山の宿泊エリアガイド'), ('/ja/guides/seomyeon-neighborhood-guide/', '西面エリアガイド'), ('/ja/guides/jagalchi-market/', 'チャガルチ市場ガイド')])
+
+H[('ja', 'gwangalli')] = dict(
+ crumb='広安里', title='広安里エリアガイド：ビーチ・夜景・宿',
+ desc='釜山・広安里ビーチを地元目線で整理。地下鉄2号線での行き方、宿の選び方、広安大橋の夜景、土曜日のドローンショーや花火祭りの注意点まで、詳しいガイドへの入口をまとめました。',
+ eyebrow='エリアガイド・水営', h1='広安里エリアガイド：ビーチ、広安大橋の夜景、宿泊',
+ deck='広安里は広安大橋を正面に望むビーチで、西面と海雲台の間にあります。このページでエリア全体を把握し、各テーマの詳しいガイドへ進んでください。',
+ img_alt='上空から見た広安大橋と釜山の街並み', credit='写真：Glabb / Wikimedia Commons、パブリックドメイン',
+ summary=['ビーチ沿いのカフェや飲食店、夜の雰囲気、広安大橋の眺めを楽しみたい人に向いています。', 'ビーチへは地下鉄2号線の広安駅・金蓮山駅が一般的です。', '夜はにぎやかで、すべての観光ルートの中心にあるわけではありません。'],
+ body='''<h2 id="who-is-it-for">広安里を拠点にするべき？</h2>
+<p>ビーチのそばに泊まり、カフェや飲食店、橋の眺めを近くで楽しみたい人、夜のにぎやかな海辺が好きな人に向いています。</p>
+<p>落ち着いたリゾートの雰囲気なら<a href="/ja/guides/haeundae-neighborhood-guide/">海雲台</a>、市内を広く回るなら<a href="/ja/guides/seomyeon-neighborhood-guide/">西面</a>も比較してください。<a href="/ja/guides/where-to-stay-busan/#area-gwangalli">宿泊エリアガイド</a>で3エリアを比べています。</p>
+<h2 id="getting-there">行き方とエリア内の移動</h2>
+<ul><li><strong>地下鉄：</strong>2号線が西面と海雲台の間を走っています。ビーチへは広安駅・金蓮山駅が一般的です。出口からホテルまでの徒歩ルートも確認しましょう。</li>
+<li><strong>金海空港から：</strong>ライトレールで沙上へ行き、2号線に乗り換えます。経路とタクシーの比較は<a href="/ja/guides/airport-to-haeundae/">金海空港から海雲台へ</a>が参考になります。</li>
+<li><strong>移動全般：</strong><a href="/ja/guides/transit-card/">交通カードガイド</a>をご覧ください。</li></ul>
+<h2 id="where-to-stay">宿泊エリアの選び方</h2>
+<p>「広安里」を広い意味で使う宿もあります。ビーチと駅までの徒歩ルート、橋が見たいなら部屋の向き、騒音についての最近の口コミを確認しましょう。</p>
+<p>花火祭りの時期は、釜山市が公表した<a href="/ja/guides/busan-fireworks-festival-fair-price-stays/">適正価格の宿34軒</a>も参考にしてください。</p>
+<h2 id="events">イベントと夜景</h2>
+<ul><li>広安里ドローンショー：土曜日に定期的に行われるイベントです。上演時間は季節で変わり、天候により遅延・中止になることがあります。当日の発表を確認してください。</li>
+<li><a href="/ja/guides/busan-fireworks-festival/">釜山花火祭り</a>：観覧場所、交通、料金トラブル対策。</li></ul>
+<h2 id="nearby">周辺</h2>
+<ul><li>2号線で数駅東の<a href="/ja/guides/haeundae-neighborhood-guide/">海雲台</a>。</li>
+<li>寒い日や雨の日は<a href="/ja/guides/busan-spa-land-guide/">新世界センタムシティのスパランド</a>。</li></ul>
+<h2 id="half-day">広安里で過ごす半日モデル</h2>
+<ol><li>夕方前：ビーチを歩き、橋の見えるカフェを選ぶ。</li>
+<li>夕食：ビーチ近くで。座る前にメニューと価格を確認。</li>
+<li>夜：橋のライトアップ。土曜日で予定があればドローンショー。</li></ol>
+<p>ショーの終了と同時に駅や道路が混むので、帰り方を先に決めておきましょう。</p>''',
+ faq=[('広安里と海雲台、泊まるならどっち？', '広安里は広安大橋が見える、にぎやかで都会的な海辺。海雲台はリゾート感が強めです。どちらも地下鉄2号線沿いです。'),
+      ('広安里のドローンショーはいつ？', '土曜日に定期的に行われますが、上演時間は季節で変わり、天候で遅延・中止になることがあります。当日の最新情報を確認してください。')],
+ related=[('/ja/guides/where-to-stay-busan/', '釜山の宿泊エリアガイド'), ('/ja/guides/haeundae-neighborhood-guide/', '海雲台エリアガイド'), ('/ja/guides/busan-fireworks-festival/', '釜山花火祭りガイド')])
+
+H[('zh-tw', 'nampo')] = dict(
+ crumb='南浦洞', title='南浦洞區域指南：市場、街頭小吃與住宿',
+ desc='用在地視角整理釜山老城區南浦洞：札嘎其市場、BIFF 廣場小吃、搭地鐵 1 號線怎麼去、住宿怎麼選與半日行程，並連到各主題的詳細指南。',
+ eyebrow='區域指南・老城區', h1='南浦洞區域指南：市場、街頭小吃與老城區',
+ deck='南浦洞是釜山的老城區，市場、商店街和港口都集中在附近。先用這一頁掌握整個區域，再打開各景點的詳細指南。',
+ img_alt='釜山南浦洞熱鬧的商店街', credit=f'照片：Ken Eckert / Wikimedia Commons，{LICENSE_SA}',
+ summary=['適合想逛市場、吃街頭小吃、走商店街和釜山老城區的人。', '南浦站與札嘎其站在地鐵 1 號線，從釜山站很快就到。', '離東邊的海灘較遠，比起海雲台，更適合和影島、松島、甘川一起安排。'],
+ body='''<h2 id="who-is-it-for">南浦洞適合什麼樣的旅人？</h2>
+<p>比起海灘，更想逛市場、吃小吃、看老街區的人，很適合南浦洞。這裡也是抵達釜山站後方便先去的一區。</p>
+<p>很多旅客住在<a href="/zh-tw/guides/seomyeon-neighborhood-guide/">西面</a>，再搭 1 號線過來。住南浦或釜山站周邊的考量，請看<a href="/zh-tw/guides/where-to-stay-busan/#area-nampo">住宿區域指南</a>。</p>
+<h2 id="getting-there">交通方式與區內移動</h2>
+<ul><li><strong>從釜山站（KTX）：</strong>搭地鐵 1 號線到南浦站或札嘎其站。時間充裕、行李輕便的話，也可以走<a href="/zh-tw/guides/busan-station-local-walk/">釜山站到南浦的散步路線</a>。</li>
+<li><strong>從金海機場：</strong>常見路線是搭輕軌到沙上，轉 2 號線到西面，再轉 1 號線往南。行李多或深夜抵達時，請看<a href="/zh-tw/guides/late-arrival/">深夜抵達指南</a>比較計程車。</li>
+<li><strong>區內移動：</strong>可以步行逛，但巷弄有些坡道。<a href="/zh-tw/guides/transit-card/">交通卡</a>可搭地鐵和公車。</li></ul>
+<h2 id="eat">吃什麼</h2>
+<ul><li><a href="/zh-tw/guides/jagalchi-market/">札嘎其市場</a>：點海鮮前先確認種類、重量、價格與料理費。</li>
+<li><a href="/zh-tw/guides/local-food-by-neighborhood/#section-2">BIFF 廣場小吃</a>：堅果糖餅、魚板等。</li>
+<li>釜山魚板的由來請看<a href="/zh-tw/guides/busan-eomuk-history/">釜山魚板的故事</a>。</li>
+<li>富平罐頭市場夜市目前只有英文指南（<a href="/guides/kkangtong-market-food-guide/" hreflang="en">Kkangtong Market Food Guide</a>）。</li></ul>
+<h2 id="see-and-do">周邊景點</h2>
+<ul><li>影島的<a href="/zh-tw/guides/taejongdae/">太宗台</a>：搭 Danubi 列車遊覽的海岸公園。</li>
+<li>西邊的松島：<a href="/zh-tw/guides/local-food-by-neighborhood/#section-daegu-tang">海邊散步與早餐鱈魚湯</a>。</li>
+<li><a href="/zh-tw/guides/three-days/">三天行程</a>：甘川文化村與松島的安排方式。</li></ul>
+<h2 id="half-day">南浦洞半日行程</h2>
+<ol><li>上午：從釜山站經草梁散步，或搭 1 號線到南浦。</li>
+<li>中午：確認價格後，在札嘎其市場用餐。</li>
+<li>下午：BIFF 廣場小吃與商店街。</li>
+<li>晚上：罐頭市場夜市，當天營業時間請現場確認。</li></ol>
+<p>預留爬坡和人潮的時間，並準備一個雨天的室內備案。</p>''',
+ faq=[('從釜山站怎麼去南浦洞？', '搭地鐵 1 號線到南浦站或札嘎其站。時間充裕、行李輕便的話，也可以經草梁步行過去。'),
+      ('住南浦洞好嗎？', '適合以市場和老城區為主的行程。若要跑遍市區可比較西面；以海灘為主則比較海雲台或廣安里。')],
+ related=[('/zh-tw/guides/where-to-stay-busan/', '釜山住宿區域指南'), ('/zh-tw/guides/seomyeon-neighborhood-guide/', '西面區域指南'), ('/zh-tw/guides/jagalchi-market/', '札嘎其市場指南')])
+
+H[('zh-tw', 'gwangalli')] = dict(
+ crumb='廣安里', title='廣安里區域指南：海灘、夜景與住宿',
+ desc='用在地視角整理釜山廣安里海灘：搭地鐵 2 號線怎麼去、住宿怎麼選、廣安大橋夜景、星期六無人機表演與煙火節注意事項，並連到各主題的詳細指南。',
+ eyebrow='區域指南・水營', h1='廣安里區域指南：海灘、廣安大橋夜景與住宿',
+ deck='廣安里是正對廣安大橋的海灘，位於西面和海雲台之間。先用這一頁掌握整個區域，再依需求打開各主題的詳細指南。',
+ img_alt='從空中看廣安大橋與釜山市景', credit='照片：Glabb / Wikimedia Commons，公有領域',
+ summary=['適合想在海邊咖啡廳、餐廳和夜晚氣氛中欣賞廣安大橋的人。', '到海灘一般搭地鐵 2 號線，在廣安站或金蓮山站下車。', '晚上較熱鬧，也不是每條觀光路線的中心。'],
+ body='''<h2 id="who-is-it-for">適合住廣安里嗎？</h2>
+<p>想住在海灘旁、附近就有咖啡廳和餐廳、還能看到大橋，而且喜歡熱鬧海濱夜晚的人，很適合廣安里。</p>
+<p>想要安靜的度假感可以比較<a href="/zh-tw/guides/haeundae-neighborhood-guide/">海雲台</a>；行程分散在市區各處則比較<a href="/zh-tw/guides/seomyeon-neighborhood-guide/">西面</a>。<a href="/zh-tw/guides/where-to-stay-busan/#area-gwangalli">住宿區域指南</a>有三區的比較。</p>
+<h2 id="getting-there">交通方式與區內移動</h2>
+<ul><li><strong>地鐵：</strong>2 號線行經西面與海雲台之間，到海灘一般在廣安站或金蓮山站下車。也請確認從出口走到飯店的路線。</li>
+<li><strong>從金海機場：</strong>搭輕軌到沙上，轉乘 2 號線。路線與計程車的比較可參考<a href="/zh-tw/guides/airport-to-haeundae/">金海機場到海雲台</a>。</li>
+<li><strong>交通總覽：</strong>請看<a href="/zh-tw/guides/transit-card/">交通卡指南</a>。</li></ul>
+<h2 id="where-to-stay">住宿怎麼選</h2>
+<p>有些住宿會廣義地使用「廣安里」。請確認走到海灘與車站的路線、想看大橋時的房間方向，以及近期關於噪音的評論。</p>
+<p>煙火節期間，可參考釜山市公布的<a href="/zh-tw/guides/busan-fireworks-festival-fair-price-stays/">34 間合理價格住宿</a>。</p>
+<h2 id="events">活動與夜景</h2>
+<ul><li>廣安里無人機表演：星期六定期舉行，演出時間依季節不同，也可能因天候延遲或取消。請確認當天公告。</li>
+<li><a href="/zh-tw/guides/busan-fireworks-festival/">釜山煙火節</a>：觀賞地點、交通與防踩雷提醒。</li></ul>
+<h2 id="nearby">周邊</h2>
+<ul><li>搭 2 號線往東幾站就是<a href="/zh-tw/guides/haeundae-neighborhood-guide/">海雲台</a>。</li>
+<li>冷天或雨天可以去<a href="/zh-tw/guides/busan-spa-land-guide/">新世界百貨 Centum City 的 Spa Land</a>。</li></ul>
+<h2 id="half-day">廣安里半日行程</h2>
+<ol><li>傍晚前：沿海灘散步，挑一間看得到大橋的咖啡廳。</li>
+<li>晚餐：在海灘附近用餐，坐下前先確認菜單與價格。</li>
+<li>晚上：欣賞大橋燈光；星期六若有安排，可看無人機表演。</li></ol>
+<p>表演結束時車站和道路會同時湧入人潮，記得先想好回程方式。</p>''',
+ faq=[('廣安里和海雲台，住哪裡比較好？', '廣安里能看到廣安大橋，海濱較熱鬧、都市感強；海雲台的度假感較重。兩區都在地鐵 2 號線上。'),
+      ('廣安里無人機表演是什麼時候？', '星期六定期舉行，但演出時間依季節不同，也可能因天候延遲或取消。請確認當天最新資訊。')],
+ related=[('/zh-tw/guides/where-to-stay-busan/', '釜山住宿區域指南'), ('/zh-tw/guides/haeundae-neighborhood-guide/', '海雲台區域指南'), ('/zh-tw/guides/busan-fireworks-festival/', '釜山煙火節指南')])
 
 
 def alt_links(slug):
@@ -159,7 +294,7 @@ for (loc, area), h in H.items():
     u = UI[loc]
     slug = f'{area}-neighborhood-guide'
     url = f'{B}/{loc}/guides/{slug}/'
-    img = HAEUNDAE_IMG if area == 'haeundae' else None
+    img = IMAGES.get(area)
     og = img or OG_SEOMYEON
     ogalt = h['img_alt'] or ('影島から見た釜山港大橋' if loc == 'ja' else '從影島看釜山港大橋')
     art = {"@context": "https://schema.org", "@type": "Article", "@id": url + "#article", "headline": h['h1'], "description": h['desc'], "image": og,
