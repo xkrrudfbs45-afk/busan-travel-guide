@@ -1921,5 +1921,45 @@
       "團體旅遊",
       "釜山景點"
     ]
+  },
+  {
+    "title": "Arriving at Busan Station After 9 PM: How to Reach Your Hotel",
+    "url": "/guides/busan-station-late-arrival/",
+    "summary": "Compare the subway, bus 1003 and taxis after a late KTX arrival; check exact last-train and live bus information before leaving.",
+    "tags": [
+      "Busan Station late arrival",
+      "Busan Station to Haeundae at night",
+      "late KTX Busan",
+      "last train Busan",
+      "bus 1003",
+      "Busan taxi",
+      "night transport",
+      "釜山駅 夜",
+      "Busan Station hotel transfer"
+    ]
+  },
+  {
+    "title": "夜21時以降に釜山駅へ到着：ホテルまでの行き方",
+    "url": "/ja/guides/busan-station-late-arrival/",
+    "summary": "夜遅く釜山駅に到着したときの地下鉄、1003番バス、タクシーの選び方と終電確認方法。",
+    "tags": [
+      "釜山駅 深夜",
+      "釜山駅 海雲台 夜",
+      "KTX 夜 到着",
+      "終電",
+      "1003番バス"
+    ]
+  },
+  {
+    "title": "晚上9點後抵達釜山站：如何前往飯店",
+    "url": "/zh-tw/guides/busan-station-late-arrival/",
+    "summary": "整理釜山站深夜抵達後搭乘地鐵、1003公車或計程車的方式，並說明末班車與即時公車資訊查詢。",
+    "tags": [
+      "釜山站 深夜",
+      "釜山站 海雲台 夜間交通",
+      "KTX 晚上抵達",
+      "末班車",
+      "1003公車"
+    ]
   }
 ]
