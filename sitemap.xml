@@ -266,6 +266,12 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/where-to-stay-busan/" />
   </url>
   <url>
+    <loc>https://go2busan.com/guides/haeundae-neighborhood-guide/</loc>
+  </url>
+  <url>
+    <loc>https://go2busan.com/guides/seomyeon-neighborhood-guide/</loc>
+  </url>
+  <url>
     <loc>https://go2busan.com/guides/where-to-stay-songjeong-gijang/</loc>
 
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/where-to-stay-songjeong-gijang/" />

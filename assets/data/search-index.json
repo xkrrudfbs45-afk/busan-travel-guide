@@ -1881,5 +1881,36 @@
       "所有指南",
       "分類"
     ]
+  },
+  {
+    "title": "Haeundae Neighborhood Guide",
+    "url": "/guides/haeundae-neighborhood-guide/",
+    "summary": "Beach, food, stays, transport and a half-day plan for Haeundae.",
+    "tags": [
+      "haeundae",
+      "haeundae beach",
+      "where to stay haeundae",
+      "haeundae food",
+      "haeundae guide",
+      "neighborhood",
+      "beach",
+      "海雲台",
+      "해운대"
+    ]
+  },
+  {
+    "title": "Seomyeon Neighborhood Guide",
+    "url": "/guides/seomyeon-neighborhood-guide/",
+    "summary": "Food, stays, subway connections and a half-day plan for Seomyeon.",
+    "tags": [
+      "seomyeon",
+      "seomyeon food",
+      "where to stay seomyeon",
+      "seomyeon guide",
+      "neighborhood",
+      "downtown busan",
+      "西面",
+      "서면"
+    ]
   }
 ]
