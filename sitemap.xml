@@ -961,4 +961,25 @@
 
   <url><loc>https://go2busan.com/guides/kkangtong-market-food-guide/</loc></url>
   <url><loc>https://go2busan.com/guides/kkangtong-market-bath-shopping/</loc></url>
+  <url>
+    <loc>https://go2busan.com/guides/gamcheon-culture-village-visiting-rules/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gamcheon-culture-village-visiting-rules/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/gamcheon-culture-village-visiting-rules/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gamcheon-culture-village-visiting-rules/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/gamcheon-culture-village-visiting-rules/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gamcheon-culture-village-visiting-rules/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gamcheon-culture-village-visiting-rules/" />
+  </url>
 </urlset>
