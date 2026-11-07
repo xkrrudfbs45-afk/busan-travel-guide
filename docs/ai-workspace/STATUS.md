@@ -72,3 +72,12 @@ Update this table after each meaningful work session. Include PR numbers, commit
 - **PR #297 metadata consistency:** EN/JA/zh-TW meta descriptions, Open Graph descriptions, Twitter descriptions where present, Article descriptions, and all three language search-index entries now identify Gaya Park pork soup as part of the six-place guide.
 - **Verification:** Claude's latest report says `sh scripts/build-static.sh` passed. The Technical SEO audit workflow for commit `2d880ca` is `action_required` (no completed audit result available). 360px/390px overflow remains unverified. This follow-up text-only metadata change has not yet had a fresh build.
 - **Release state:** PR #297 remains open and unmerged. Production deployment has not been requested or performed.
+
+
+## PR #297 mobile navigation follow-up — 2026-11-07 (ChatGPT)
+
+- Updated EN/JA/zh-TW Pusan National University food guide deck copy to describe all six food choices, including Gaya Park pork soup.
+- Completed JA and zh-TW quick-jump navigation: added links to New Charcoal Tongdak and Hoho Chicken House; confirmed each quick-jump fragment points to an existing section ID. EN quick-jump already covered all six.
+- Added a mobile-only horizontally scrollable quick-jump row (<=680px) with non-shrinking links and scroll snapping to avoid a tall wrapped navigation block.
+- Latest PR head: `d981226a176dacb398ff162f1a58640133e918af`. Technical SEO audit passed on earlier head `8887e94`; no CI status checks or fresh workflow run are currently reported for the latest head. 360px/390px visual viewport testing and fresh build remain unverified.
+- PR #297 remains open, unmerged and undeployed. No production change made.
