@@ -1083,3 +1083,25 @@
 }
 .neighborhood-map-action a:hover,
 .neighborhood-map-action a:focus-visible{background:#dcecff;border-color:#78a9e5;text-decoration:underline;text-underline-offset:3px}
+
+
+/* Mobile article navigation: keep the full quick-jump list reachable without wrapping into a tall block. */
+@media (max-width: 680px) {
+  .guide-jump-nav {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    padding-bottom: 14px;
+    scroll-snap-type: x proximity;
+  }
+  .guide-jump-nav > span,
+  .guide-jump-nav > a {
+    flex: 0 0 auto;
+  }
+  .guide-jump-nav > a {
+    scroll-snap-align: start;
+  }
+}
