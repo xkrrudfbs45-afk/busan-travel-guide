@@ -56,3 +56,16 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Updated EN/JA/zh-TW social and structured descriptions and all three search-index entries so the six-place guide consistently includes Gaya Park pork soup.
 - Latest known build result: `sh scripts/build-static.sh` passed in Claude's report. Technical SEO audit workflow is `action_required`; no successful CI audit result is confirmed. 360/390px remains unverified.
 - PR #297 remains open; do not merge or deploy without owner approval.
+
+
+## Current handoff — 2026-11-07 (ChatGPT, PR #297 mobile navigation)
+
+### Completed in branch `chatgpt/jangjeon-gayapark-gukbap`
+- EN/JA/zh-TW intro decks now reflect the six included recommendations, including Gaya Park pork soup.
+- JA and zh-TW quick-jump menus now include all six restaurant sections; each fragment target was checked against an existing section ID.
+- Added a <=680px horizontal-scroll treatment for article quick-jump links to keep navigation compact on mobile.
+
+### Verification and release boundary
+- Technical SEO audit success is confirmed for prior head `8887e94c54f2ae1fc3fbe699a40a17250fc86f89` only.
+- Latest head is `d981226a176dacb398ff162f1a58640133e918af`; no CI checks are currently reported for this head. Fresh build and 360px/390px viewport/overflow checks remain unverified.
+- PR #297 is open. Do not merge or deploy without explicit owner approval.
