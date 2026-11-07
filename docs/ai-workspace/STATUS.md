@@ -81,3 +81,23 @@ Update this table after each meaningful work session. Include PR numbers, commit
 - Added a mobile-only horizontally scrollable quick-jump row (<=680px) with non-shrinking links and scroll snapping to avoid a tall wrapped navigation block.
 - Latest PR head: `d981226a176dacb398ff162f1a58640133e918af`. Technical SEO audit passed on earlier head `8887e94`; no CI status checks or fresh workflow run are currently reported for the latest head. 360px/390px visual viewport testing and fresh build remain unverified.
 - PR #297 remains open, unmerged and undeployed. No production change made.
+
+
+## Search visibility check + Nampo food SEO update — 2026-11-07
+
+### Visibility evidence
+- The latest available Search Console figures previously shared by the owner (Nov 3) showed 0 impressions and 0 clicks for the last 28 days while data processing was still underway. No newer Search Console report is connected/available in this session; do not claim an upward trend.
+- Public search queries for `site:go2busan.com` did not return a clear Go2Busan result in the sampled web search. This is a discovery spot-check, not a definitive Google index report.
+- Render HTTP request metrics for Oct 8–Nov 7 returned no data points; they cannot be used as traffic evidence.
+- Repository sitemap contains 167 URLs; all hreflang targets referenced in the sitemap resolve to a URL present in the same sitemap (0 broken targets). 26 URL entries have no hreflang alternates, generally single-language content or localized-only pages; review individually before changing.
+
+### Nampo content changes on this PR branch
+- Expanded EN/JA/zh-TW Nampo neighborhood guide food sections with three relevant local tips: Nampo Jjukkumi, the BIFF Square Nampo branch of 18beon Wandangjip, and Kkangtong Golmok Halmae Yubu Jeongol Main Store.
+- Added Google Maps search links and translated long-tail search tags in `assets/data/search-index.json`.
+- Avoids publishing opening hours/prices. The yubu-jeongol restaurant is described as a local tip with a reminder to check current service; no claim that the editor visited it.
+- Validated the three page language attributes, presence of the three restaurant names in all versions, no broken in-page anchors, and JSON parsing of the 131-record search index.
+
+### Release / validation
+- PR #297 remains open and unmerged. Latest head at this note: `52969674e03a053c9c6fc6dfcdd898d0b4443104`; mergeable true at last check.
+- No CI status checks are currently reported for the latest head. Earlier Technical SEO audit success applies only to the earlier commit `8887e94...`; it is not a fresh pass for these changes.
+- No merge or production deployment performed.
