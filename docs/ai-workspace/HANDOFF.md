@@ -69,3 +69,13 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Technical SEO audit success is confirmed for prior head `8887e94c54f2ae1fc3fbe699a40a17250fc86f89` only.
 - Latest head is `d981226a176dacb398ff162f1a58640133e918af`; no CI checks are currently reported for this head. Fresh build and 360px/390px viewport/overflow checks remain unverified.
 - PR #297 is open. Do not merge or deploy without explicit owner approval.
+
+
+## Handoff update — 2026-11-07: search visibility + Nampo food
+
+- Do not report that search impressions are increasing. The owner's latest shared Search Console report (Nov 3) had 0 clicks/0 impressions for 28 days and still showed data processing. No newer GSC data is available in the current session.
+- Render HTTP request metrics for the last 30 days returned an empty series. Public `site:go2busan.com` search spot-check did not return a clear domain result; this does not prove deindexing.
+- Sitemap audit: 167 URLs, zero hreflang links pointing to a URL absent from the sitemap; 26 entries lack alternates and should be reviewed based on whether translations exist.
+- PR #297 branch adds Nampo Jjukkumi, 18beon Wandangjip (BIFF Square branch) and Kkangtong Golmok Halmae Yubu Jeongol Main Store to EN/JA/zh-TW Nampo neighborhood guides; Google Maps links and translated search-index tags added. No hours/prices asserted.
+- Basic validation passed for language attributes, restaurant name presence, in-page anchors and JSON syntax. Fresh build/mobile/CI verification still pending.
+- Latest known PR head `52969674e03a053c9c6fc6dfcdd898d0b4443104`; PR open, unmerged. Do not merge/deploy without explicit owner approval.
