@@ -27,7 +27,7 @@ export const LINKS = {
   "d07-1": ["/guides/busan-three-days/", "/ja/guides/three-days/", "/zh-tw/guides/three-days/"],
   "d08-us-1": ["/guides/gimhae-airport-to-haeundae/", null, null],   // US post 1 is the airport/luggage post
   "d08-jp-2": [null, "/ja/guides/airport-to-haeundae/", null],
-  "d08-tw-1": [null, null, "/zh-tw/guides/airport-to-haeundae/"],   // TW post 1 is the arrival/luggage post,       // JP post 2 is the airport post
+  // TW post 1 now points to the transit-card guide; JP post 2 remains the airport post.
   "d09-1": ["/guides/where-to-stay-busan/", "/ja/guides/where-to-stay-busan/", "/zh-tw/guides/where-to-stay-busan/"],
   "d13-1": ["/guides/busan-local-culture/", null, null],
   "d16-1": ["/guides/busan-food-stories/", "/ja/guides/busan-food-stories/", "/zh-tw/guides/busan-food-stories/"],
