@@ -1,6 +1,6 @@
 # Go2Busan Contributor Handoff
 
-_Updated: 2026-11-06 — reconciled to main `197b438`_
+_Updated: 2026-11-10 — reconciled to main `5a705ead`_
 
 ## Current production baseline
 
@@ -49,3 +49,21 @@ _Updated: 2026-11-06 — reconciled to main `197b438`_
 ## Approval boundary
 
 No merge, production deploy, paid API usage, partner application, or external spend without explicit owner approval.
+
+
+## Current handoff — 2026-11-10
+
+### Verified repository state
+- `main` HEAD: `5a705ead6f736bf648c583df14f968b76064a3bc` (merged #302). Do not describe the Nov 6 `197b438` baseline as current production without a fresh production version check.
+- Main EN and JA homepages still contain the expired Nov 7 fireworks campaign. The #306 branch has been updated to replace those panels with a Japanese winter-events summary and an English winter guide feature; the EN and JA social preview images no longer point to the old fireworks photo.
+- Latest #306 branch commits from this work: `694ff1a82a240c9cb731f91368b1f619456051b2` and `8d4b39b8e889681c34317dfef39fd05b3a2793a8`. Static string checks pass for removal of old campaign/date/image and presence of the winter guide link. Automated CI/browser/mobile QA remains outstanding.
+
+### Next execution order
+1. Review #306 CI and full SEO/build checks after the latest commits; manually check EN/JA/TW homepages at 360px, 390px and desktop before asking for owner approval.
+2. Reconcile #303 with #306: keep the EN homepage's current winter feature and preserve the Traditional Chinese autumn feature; avoid an older branch overwriting the newer seasonal homepage.
+3. Reconcile #304/#305 social schedules and drafts, especially Nov 12–18 timing and publisher state. No live publisher settings or secrets changed.
+4. Review #294 JA/TW map QA; then inspect #301/#300/#298/#297 for content correctness and duplication.
+5. Only after the above, salvage older #263/#266/#269 content where it adds unique value.
+
+### Owner approval required
+- No merge or production deployment. No live social publishing, workflow cadence change, token/secret change, or paid API spend.
