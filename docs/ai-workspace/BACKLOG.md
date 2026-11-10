@@ -96,3 +96,9 @@ Do not merge PRs merely because a draft is complete. Require current-main compat
 - #304: Instagram 6 approved / 18 draft; Threads 138 approved / 42 draft.
 - #305: Instagram 21 approved / 3 cancelled; Threads 178 approved / 2 cancelled.
 - Treat #305 merge as potentially publication-enabling when LIVE variables are true. Reconcile it with #304 and verify explicit owner approval for every scheduled post before merge.
+
+
+### Corrected social queue status — 2026-11-10
+- The Nov 7 fireworks Threads post `d01-us-2` was already published Nov 4; the Threads publish log confirms success. It is not a pending stale post.
+- Threads state log: 18 published, zero failed. Instagram state log: 6 published, zero failed.
+- #305 branch upcoming queue: 21 approved/verified Instagram posts and 2 cancelled legacy drafts; 144 future approved Threads posts. #304 changes 42 upcoming Threads posts and resets them to draft. Keep both PRs unreconciled until post-by-post comparison and owner approval.
