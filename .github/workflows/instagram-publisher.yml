@@ -5,10 +5,13 @@ name: Instagram publisher (Go2Busan)
 # - renders 1080x1350 cards on the runner and stores them + the publish log on the
 #   `instagram-state` branch (public URLs required by the Instagram API).
 # Live posting happens only when repository variable INSTAGRAM_LIVE is exactly "true".
+#
+# Scheduled checks: 09:00 and 21:00 Korea Standard Time (UTC 00:00 and 12:00).
+# The six-hour late window in scripts/instagram/lib.mjs safely covers this cadence.
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 0,12 * * *"
   workflow_dispatch:
 
 permissions:
