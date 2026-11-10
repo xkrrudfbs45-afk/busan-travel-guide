@@ -106,7 +106,7 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
 
 test("art gate limits generation to listed sets", () => {
   const all = artTodo(realSchedule, "/nonexistent", null).filter((t) => /^d\d\d-/.test(t.file)).length;
-  const one = artTodo(realSchedule, "/nonexistent", ["d01-fireworks-v2"]).filter((t) => /^d\d\d-/.test(t.file));
+  const one = artTodo(realSchedule, "/nonexistent", ["d01-airport-v2"]).filter((t) => /^d\d\d-/.test(t.file));
   assert.equal(all, 35);
   assert.equal(one.length, 5);
 });
