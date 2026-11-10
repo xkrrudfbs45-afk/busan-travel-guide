@@ -11,3 +11,10 @@ Published copy is never edited retroactively.
   - JP d02-jp-1 (was 2026-11-05 08:00 JST, planning tip) → fireworks, now
   - US d01-us-2 (was 2026-11-04 18:00 ET, "top three must-dos") → fireworks, now
   - TW d01-tw-1 (was 2026-11-05 08:00 Taipei, first-trip tip + first-trip link) → fireworks, now; this also moves the TW account's first post forward to tonight
+
+
+## 2026-11-10 — Refresh Days 8–14 for JP, US and Taiwan
+- Replaced 42 unpublished posts (7 days × 2 posts × 3 markets) with practical copy on bus QR payments, accommodation areas, Yeongdo, Jeonpo, autumn foliage, Jagalchi Market and Busan souvenirs.
+- Reset all 42 changed posts to `draft`; cleared approval metadata. No published post was edited.
+- Updated localized guide-link replies for Day 8 transit cards and Day 13 Jagalchi Market.
+- Bus QR fare copy was checked against Busan Metropolitan City’s official notice; it remains a draft and requires owner approval before publishing.
