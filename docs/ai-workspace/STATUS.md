@@ -69,3 +69,10 @@ _Last updated: 2026-11-10 — live GitHub reconciliation_
 - #304 and #305 both revise Instagram/Threads calendars and drafts. Reconcile schedule windows, post states and source registers before merging either; do not activate or change publisher workflows, secrets, tokens or LIVE settings.
 - Other current content PRs: #301 Busan Station luggage/accessibility; #300 Dongnae pajeon fact-check; #298 Spa Land heading order; #297 PNU Gaya Park recommendation. #294 adds JA/TW map pages. #269/#266/#263 remain older content branches and require conflict/duplication review before any merge.
 - **Approval boundary:** no merge, production deploy, live publishing, workflow schedule change, secret/token change, or paid spend without explicit owner approval.
+
+
+### Additional audit — localized previews and social approval states
+
+- #303 branch now uses the evergreen Busanhang Bridge homepage image for both EN and zh-TW social previews (latest commits `0d9951b`, `5d276ed`); the autumn feature and localized guide content remain intact.
+- Static checks on the updated #303/#306 branches confirm the expired fireworks image reference is absent from EN, JA and zh-TW homepages in the relevant branches. This is branch-level verification only; main remains unchanged until owner-approved merge/deploy.
+- Social schedule comparison: main currently has 6 approved + 18 draft Instagram posts; 180 approved Threads posts. PR #304 branch has 6 approved + 18 draft Instagram and 138 approved + 42 draft Threads. PR #305 branch has 21 approved + 3 cancelled Instagram and 178 approved + 2 cancelled Threads. Because these PRs touch the same schedule files and #305 contains many approved posts, merging it could make content eligible for existing publisher workflows if LIVE variables are enabled. Treat #305 as a publication approval decision, not a routine content-only merge. No schedule, LIVE variable, workflow cadence, token or secret was changed in this work.
