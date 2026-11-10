@@ -1,6 +1,6 @@
 # Go2Busan Growth Backlog
 
-_Last updated: 2026-11-06_
+_Last updated: 2026-11-10_
 
 This is a prioritized portfolio, not authorization to implement everything at once. Before starting an item, inspect the current codebase and open PRs to determine whether it is already complete or partially implemented.
 
@@ -25,6 +25,16 @@ This is a prioritized portfolio, not authorization to implement everything at on
 | G2B-008 | Taiwan-focused food, shopping, stay, itinerary content plan | Market-fit editorial roadmap | Keyword/intent map and content briefs |
 | G2B-009 | Haeundae, Seomyeon, Nampo-dong, Gwangalli hub audit/build | Neighborhood-led discovery | Four useful hubs or documented existing equivalents |
 | G2B-010 | Strengthen editorial/local trust signals | Credible local expertise | About/editorial standards/firsthand labels |
+
+## P0 — Current release and trust fixes
+
+| ID | Task | Expected outcome | Acceptance evidence |
+|---|---|---|---|
+| G2B-021 | Reconcile social schedule against publish logs | No expired approved slots can be posted late; no false claim of publication | Zero expired approved slots without matching logs; manual account-history check before reuse |
+| G2B-022 | Separate first-hand visits, local tips and directory facts | Transparent local editorial trust | Each food entry labels provenance and links its factual source |
+| G2B-023 | Verify volatile restaurant details | Reduce wasted trips from stale hours/phones/prices | Official or current listing linked; conflicts disclosed; day-of caveat |
+| G2B-024 | Original restaurant photography and rights | Stronger food discovery without copyright risk | Owner-supplied or licensed finished-dish images with attribution and responsive sizes |
+| G2B-025 | SNS approval and LIVE release gate | Prevent accidental account posting on merge | Owner review of schedule diff and confirmation of LIVE state before merge |
 
 ## P1 — Days 31–90
 
