@@ -12,6 +12,14 @@ const SITE = "https://go2busan.com";
 // post id (without market) -> [English path, Japanese path, Traditional Chinese path] (null = no link)
 export const LINKS = {
   "d01-1": ["/guides/busan-first-time-guide/", "/ja/guides/first-trip/", "/zh-tw/guides/first-trip/"],
+  "d06-tw-2": [null, null, "/zh-tw/guides/jagalchi-market/"],
+  "d07-tw-2": [null, null, "/zh-tw/guides/airport-to-haeundae/"],
+  "d08-tw-1": [null, null, "/zh-tw/guides/transit-card/"],
+  "d08-tw-2": [null, null, "/zh-tw/guides/haeundae-neighborhood-guide/"],
+  "d09-tw-2": [null, null, "/zh-tw/guides/local-food-by-neighborhood/"],
+  "d10-tw-1": [null, null, "/zh-tw/guides/gwangalli-neighborhood-guide/"],
+  "d10-tw-2": [null, null, "/zh-tw/guides/nampo-neighborhood-guide/"],
+  "d11-tw-1": [null, null, "/zh-tw/guides/busan-eomuk-history/"],
   "d03-1": ["/guides/busan-neighborhood-food-guide/", "/ja/guides/local-food-by-neighborhood/", "/zh-tw/guides/local-food-by-neighborhood/"],
   "d04-1": ["/guides/jagalchi-market-no-surprise-bill/", "/ja/guides/jagalchi-market/", "/zh-tw/guides/jagalchi-market/"],
   "d05-1": ["/guides/things-to-do-in-busan/", "/ja/guides/things-to-do-in-busan/", "/zh-tw/guides/things-to-do-in-busan/"],
