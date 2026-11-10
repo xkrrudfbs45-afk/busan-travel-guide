@@ -6,10 +6,14 @@ name: Threads publisher (Go2Busan JP/US)
 #   "Technical SEO audit" or "Deploy to Render".
 # Live posting happens only when the repository variable THREADS_LIVE is exactly "true".
 # Otherwise every run is a dry run that prints what would be posted.
+#
+# Scheduled checks: 09:00 and 21:00 Korea Standard Time (UTC 00:00 and 12:00).
+# Local JP/TW/US post slots are about one hour before each check; the existing 3h
+# late window accommodates normal GitHub Actions scheduling delays without backlog bursts.
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # GitHub may start scheduled runs late; publish.mjs tolerates up to 3h.
+    - cron: "0 0,12 * * *"   # 09:00 and 21:00 KST
   workflow_dispatch:
 
 permissions:
