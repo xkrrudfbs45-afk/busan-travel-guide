@@ -78,3 +78,11 @@ No merge, production deploy, paid API usage, partner application, or external sp
 
 ### Social release gate
 - Compare #304 and #305 schedule JSON record-by-record before merge. Verify copy, language-specific destination URLs, scheduled times, verification status and approval provenance. Do not infer approval from a PR description. The existing publisher workflows and LIVE variables govern actual publication.
+
+
+### Social publication log reconciliation — 2026-11-10
+
+- Correction to the earlier review note: the dated US Threads post `d01-us-2` about the Nov 7 Busan Fireworks Festival was **published on Nov 4 at 12:28:35 UTC**, with its localized link reply recorded as done. It is not an unpublished scheduled item. Do not edit already-published copy; the publish log confirms success and no error.
+- The Threads `threads-state` log contains 18 published records and no failed records at this check. The #305 branch has 144 future approved Threads entries; #304 changes 42 upcoming posts and resets them to draft. Compare the exact changed records before choosing which copy to keep.
+- The Instagram `instagram-state` log contains 6 published records and no failures. On #305, 21 future posts are approved/verified and 2 superseded drafts are cancelled; the next series is scheduled Nov 12–18. This is branch data, not a claim that #305 has been merged or that all posts have already published.
+- Keep #304/#305 separate until their content and schedule differences are reviewed. Do not merge either automatically: merge could affect the publisher's eligible queue when LIVE is enabled.
