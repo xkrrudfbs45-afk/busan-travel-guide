@@ -89,3 +89,10 @@ Every item must have a named user problem, acceptance criteria, source/verificat
 | P1 | Content depth and original imagery | Existing neighborhood/food guides; image standards require place- and dish-specific images | Prioritize real Busan photos and image relevance over adding more generic guides |
 
 Do not merge PRs merely because a draft is complete. Require current-main compatibility, green automated checks, manual mobile/desktop review, factual-source review and explicit owner approval.
+
+
+### Social publication safeguard — 2026-11-10
+- Main schedule: Instagram 6 approved / 18 draft; Threads 180 approved.
+- #304: Instagram 6 approved / 18 draft; Threads 138 approved / 42 draft.
+- #305: Instagram 21 approved / 3 cancelled; Threads 178 approved / 2 cancelled.
+- Treat #305 merge as potentially publication-enabling when LIVE variables are true. Reconcile it with #304 and verify explicit owner approval for every scheduled post before merge.
