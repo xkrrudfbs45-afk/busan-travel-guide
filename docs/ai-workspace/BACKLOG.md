@@ -1,6 +1,6 @@
 # Go2Busan Growth Backlog
 
-_Last updated: 2026-11-06 — reconciled after deployment `197b438`_
+_Last updated: 2026-11-10 — refreshed after main `5a705ead`_
 
 This is a prioritized portfolio, not authorization to implement everything at once. Inspect current main and open PRs before starting any item.
 
@@ -75,3 +75,17 @@ Every item must have a named user problem, acceptance criteria, source/verificat
 - No merge or deployment without explicit owner approval.
 - No paid API usage or external spend without explicit owner approval.
 - Never present unvisited/recommended-by-others venues as firsthand visits.
+
+
+## Live priorities — 2026-11-10
+
+| Priority | Work | Current evidence | Next action |
+|---|---|---|---|
+| P0 | Remove expired Nov 7 homepage campaign from all locales | EN/JA still stale on main; #306 branch now corrects EN/JA; #303 carries zh-TW seasonal homepage work | Reconcile #303/#306, complete responsive and SEO QA, then request owner approval |
+| P0 | Protect social publishing quality | #304 and #305 both modify Instagram/Threads calendars and drafts | Diff both PRs, reconcile schedule and post states; preserve publisher cadence and LIVE settings |
+| P0 | Validate new winter and regional guides | #306 adds winter lights, Homigot sunrise, day trips and Seoul–Busan transport | Verify all source links, date caveats, directory/sitemap/hreflang, mobile and CI |
+| P1 | Improve local food credibility | #297 PNU Gaya Park, #300 Dongnae pajeon, #301 luggage/accessibility updates | Review source accuracy and visitor usefulness; do not invent hours/prices or firsthand claims |
+| P1 | Multilingual map coverage | #294 JA/TW map pages open | Validate translated controls, map links, sitemap/hreflang and 360/390/desktop |
+| P1 | Content depth and original imagery | Existing neighborhood/food guides; image standards require place- and dish-specific images | Prioritize real Busan photos and image relevance over adding more generic guides |
+
+Do not merge PRs merely because a draft is complete. Require current-main compatibility, green automated checks, manual mobile/desktop review, factual-source review and explicit owner approval.
