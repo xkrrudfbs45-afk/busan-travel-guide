@@ -5,7 +5,7 @@
     {
       "id": "ig-us-2026-11-09-seafood",
       "account": "US",
-      "status": "draft",
+      "status": "cancelled",
       "publish_at_utc": "2026-11-09T23:00:00.000Z",
       "art": {
         "type": "ai",
@@ -40,7 +40,7 @@
     {
       "id": "ig-us-2026-11-11-airport",
       "account": "US",
-      "status": "draft",
+      "status": "cancelled",
       "publish_at_utc": "2026-11-11T23:00:00.000Z",
       "art": {
         "type": "ai",
@@ -75,7 +75,7 @@
     {
       "id": "ig-us-2026-11-13-eomuk",
       "account": "US",
-      "status": "draft",
+      "status": "cancelled",
       "publish_at_utc": "2026-11-13T23:00:00.000Z",
       "art": {
         "type": "ai",
@@ -108,1197 +108,1302 @@
       }
     },
     {
-      "id": "ig-d01-fireworks-en",
+      "id": "ig-d01-airport-en",
       "account": "US",
       "lang": "en",
       "design": "v2",
       "status": "approved",
-      "publish_at_utc": "2026-11-05T10:00:00.000Z",
+      "publish_at_utc": "2026-11-12T00:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d01-fireworks-v2",
+        "set": "d01-airport-v2",
         "stylized": true,
         "prompts": [
-          "Night illustration of a long double-deck suspension bridge with two tall steel towers and rows of lights spanning a calm sea, large colorful fireworks bursting above, a modern Korean coastal city skyline with high-rise apartments in the distance",
-          "Stylised coastline overview: a curved sandy beach, a rocky headland on one side and a small wooded island on the other, calm night sea under a crescent moon",
-          "Night street in a modern Korean coastal city with high-rise apartment blocks, traffic cones and a striped road barrier in the foreground and a smartphone showing an abstract bell notification icon, no text, no historic or European buildings",
-          "Illustration of a subway station entrance glowing at night with a small group walking along a seaside promenade towards it",
-          "Calm deep navy night sky over the sea with a few small golden fireworks, a simple yellow bookmark icon and three small golden tick marks, minimal composition, no buildings, no letters"
-        ],
-        "credit": "Illustration: AI-generated · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "BUSAN FIREWORKS",
-          "title": "Busan Fireworks Festival",
-          "body": "Saturday, Nov 7 · Plan before you go"
-        },
-        {
-          "cat": "KNOW THE AREA",
-          "title": "Know the event area",
-          "body": "Official venues: Gwangalli Beach, Igidae and Dongbaekseom."
-        },
-        {
-          "cat": "ROAD CLOSURES",
-          "title": "Check road closures",
-          "body": "Gwangan Bridge closes to traffic in both directions on Nov 7. Check the latest official notice before you leave."
-        },
-        {
-          "cat": "GETTING HOME",
-          "title": "Plan your way home",
-          "body": "Gwangalli Station (Line 2, Exit 3) is the official subway stop. Expect crowds and check your return route first."
-        },
-        {
-          "cat": "SAVE THIS",
-          "title": "Save this before festival day",
-          "body": "Details can change. Check official updates.",
-          "cta": "Save · Full guide via profile link"
-        }
-      ],
-      "caption": "Going to the Busan Fireworks Festival on Saturday, Nov 7? Here's what to check first. 🎆\n\nThe official venues are Gwangalli Beach, Igidae and Dongbaekseom. Gwangan Bridge closes to traffic in both directions on festival day, and the official subway stop for Gwangalli is Line 2 Gwangalli Station, Exit 3.\n\nSave this so you can find it on the day. Details can change, so check the official festival and Busan City notices before you leave. Full local guide: link in our profile (go2busan.com).\n\nSources: Busan Metropolitan City, busanfireworks.com. Illustration: AI-generated.\n\n#BusanFireworks #BusanFireworksFestival #Busan #Gwangalli #KoreaTravel #BusanTravel #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "verified",
-        "register": "d01-fireworks",
-        "checked_on": "2026-11-04",
-        "sources": [
-          "busanfireworks.com/content/location",
-          "busan.go.kr/eng/bsevents/1752782",
-          "hankookilbo.com 2026-11-02",
-          "ziksir.com 2026-11-02"
-        ],
-        "approved_by": "탁경륜 2026-11-04"
-      }
-    },
-    {
-      "id": "ig-d01-fireworks-ja",
-      "account": "JP",
-      "lang": "ja",
-      "design": "v2",
-      "status": "approved",
-      "publish_at_utc": "2026-11-05T03:30:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d01-fireworks-v2",
-        "stylized": true,
-        "prompts": [
-          "Night illustration of a long double-deck suspension bridge with two tall steel towers and rows of lights spanning a calm sea, large colorful fireworks bursting above, a modern Korean coastal city skyline with high-rise apartments in the distance",
-          "Stylised coastline overview: a curved sandy beach, a rocky headland on one side and a small wooded island on the other, calm night sea under a crescent moon",
-          "Night street in a modern Korean coastal city with high-rise apartment blocks, traffic cones and a striped road barrier in the foreground and a smartphone showing an abstract bell notification icon, no text, no historic or European buildings",
-          "Illustration of a subway station entrance glowing at night with a small group walking along a seaside promenade towards it",
-          "Calm deep navy night sky over the sea with a few small golden fireworks, a simple yellow bookmark icon and three small golden tick marks, minimal composition, no buildings, no letters"
-        ],
-        "credit": "イラスト：AI生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "釜山花火大会",
-          "title": "釜山花火大会",
-          "body": "11月7日（土）· 行く前にチェック"
-        },
-        {
-          "cat": "開催エリア",
-          "title": "開催エリアを確認",
-          "body": "公式会場は広安里ビーチ、二妓台、冬柏島です。"
-        },
-        {
-          "cat": "交通規制",
-          "title": "交通規制に注意",
-          "body": "11月7日は広安大橋が上下線とも通行止めになります。出発前に最新の公式案内を確認してください。"
-        },
-        {
-          "cat": "帰り道",
-          "title": "帰り道を先に決める",
-          "body": "最寄りは地下鉄2号線の広安駅（3番出口）。混雑するので、帰りのルートを事前に確認しましょう。"
-        },
-        {
-          "cat": "保存",
-          "title": "開催前に保存しておこう",
-          "body": "内容は変更されることがあります。公式の最新情報を確認してください。",
-          "cta": "保存して、プロフィールのリンクへ"
-        }
-      ],
-      "caption": "11月7日（土）の釜山花火大会に行くなら、まずここを確認。🎆\n\n公式会場は広安里ビーチ、二妓台、冬柏島です。当日は広安大橋が上下線とも通行止めになり、広安里の公式最寄りは地下鉄2号線の広安駅（3番出口）です。\n\n当日すぐ見返せるよう保存しておいてください。内容は変更されることがあるので、出発前に公式の最新情報を確認してください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\n出典：釜山広域市、busanfireworks.com　イラスト：AI生成\n\n#釜山花火大会 #釜山旅行 #釜山 #広安里 #韓国旅行 #Go2Busan",
-      "guide_url": "https://go2busan.com/ja/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "verified",
-        "register": "d01-fireworks",
-        "checked_on": "2026-11-04",
-        "sources": [
-          "busanfireworks.com/content/location",
-          "busan.go.kr/eng/bsevents/1752782",
-          "hankookilbo.com 2026-11-02",
-          "ziksir.com 2026-11-02"
-        ],
-        "approved_by": "탁경륜 2026-11-04"
-      }
-    },
-    {
-      "id": "ig-d01-fireworks-zh-tw",
-      "account": "TW",
-      "lang": "zh-TW",
-      "design": "v2",
-      "status": "approved",
-      "publish_at_utc": "2026-11-05T12:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d01-fireworks-v2",
-        "stylized": true,
-        "prompts": [
-          "Night illustration of a long double-deck suspension bridge with two tall steel towers and rows of lights spanning a calm sea, large colorful fireworks bursting above, a modern Korean coastal city skyline with high-rise apartments in the distance",
-          "Stylised coastline overview: a curved sandy beach, a rocky headland on one side and a small wooded island on the other, calm night sea under a crescent moon",
-          "Night street in a modern Korean coastal city with high-rise apartment blocks, traffic cones and a striped road barrier in the foreground and a smartphone showing an abstract bell notification icon, no text, no historic or European buildings",
-          "Illustration of a subway station entrance glowing at night with a small group walking along a seaside promenade towards it",
-          "Calm deep navy night sky over the sea with a few small golden fireworks, a simple yellow bookmark icon and three small golden tick marks, minimal composition, no buildings, no letters"
-        ],
-        "credit": "插畫：AI 生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "釜山煙火節",
-          "title": "釜山煙火節",
-          "body": "11月7日（六）· 出發前先規劃"
-        },
-        {
-          "cat": "活動範圍",
-          "title": "先確認活動範圍",
-          "body": "官方會場為廣安里海水浴場、二妓臺與冬柏島。"
-        },
-        {
-          "cat": "交通管制",
-          "title": "留意交通管制",
-          "body": "11月7日廣安大橋雙向封閉。出發前請查看最新官方公告。"
-        },
-        {
-          "cat": "回程規劃",
-          "title": "先規劃回程路線",
-          "body": "官方建議搭地鐵2號線廣安站（3號出口）。人潮擁擠，請先確認回程路線。"
-        },
-        {
-          "cat": "收藏",
-          "title": "活動前先收藏",
-          "body": "資訊可能變動，請以官方最新公告為準。",
-          "cta": "收藏 · 完整攻略請點個人檔案連結"
-        }
-      ],
-      "caption": "11月7日（六）要去釜山煙火節嗎？先確認這幾件事。🎆\n\n官方會場是廣安里海水浴場、二妓臺與冬柏島。活動當天廣安大橋雙向封閉，前往廣安里的官方建議地鐵站是2號線廣安站（3號出口）。\n\n先收藏起來，當天才找得到。資訊可能變動，出發前請查看官方與釜山市最新公告。完整當地攻略請點個人檔案連結（go2busan.com）。\n\n資料來源：釜山廣域市、busanfireworks.com　插畫：AI 生成\n\n#釜山煙火節 #釜山旅遊 #釜山 #廣安里 #韓國旅遊 #Go2Busan",
-      "guide_url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "verified",
-        "register": "d01-fireworks",
-        "checked_on": "2026-11-04",
-        "sources": [
-          "busanfireworks.com/content/location",
-          "busan.go.kr/eng/bsevents/1752782",
-          "hankookilbo.com 2026-11-02",
-          "ziksir.com 2026-11-02"
-        ],
-        "approved_by": "탁경륜 2026-11-04"
-      }
-    },
-    {
-      "id": "ig-d02-traffic-en",
-      "account": "US",
-      "lang": "en",
-      "design": "v2",
-      "status": "approved",
-      "publish_at_utc": "2026-11-06T10:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d02-traffic",
-        "stylized": true,
-        "prompts": [
-          "Illustration of a traveler looking at a smartphone with an abstract route icon at a seaside crossroads at dusk",
-          "Illustration of a road with a series of barriers and traffic cones being set up in stages along a coastal avenue at dusk",
-          "Illustration of several buses taking a detour arrow-shaped road away from a closed avenue at dusk, no numbers or text",
-          "Illustration of an hourglass and a clock-like shape next to a crowded street and a train station entrance at night, no numbers",
-          "Calm deep navy background with a cream notice card shape with abstract lines and a yellow bookmark, no letters"
-        ],
-        "credit": "Illustration: AI-generated · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "ROUTE CHECK",
-          "title": "Fireworks Day: Check Your Route",
-          "body": "Saturday, Nov 7"
-        },
-        {
-          "cat": "ROAD CLOSURES",
-          "title": "Closures happen in phases",
-          "body": "Road control around Gwangalli starts at 10:00 on Nov 7 and expands through the evening."
-        },
-        {
-          "cat": "BUS DETOURS",
-          "title": "Buses detour from 6 PM",
-          "body": "From 18:00, 11 bus routes through Gwangnam-ro are fully closed. The detour is Suyeong-ro."
-        },
-        {
-          "cat": "PLAN AHEAD",
-          "title": "Leave room for delays",
-          "body": "Streets and stations near the venue get crowded. Give yourself extra time."
-        },
-        {
-          "cat": "SAVE THIS",
-          "title": "Save the notice before you leave",
-          "body": "Check Busan City's official traffic notice on the day.",
-          "cta": "Save · Full guide via profile link"
-        }
-      ],
-      "caption": "Fireworks night in Busan means road closures around Gwangalli. 🚌\n\nOn Nov 7, road control starts at 10:00 and expands in phases. From 18:00, 11 bus routes through Gwangnam-ro are fully closed, with a detour via Suyeong-ro. Streets and stations near the venue will be crowded, so leave extra time.\n\nSave this and check Busan City's official traffic notice before you leave. Full local guide: link in our profile (go2busan.com).\n\nSource: Busan Metropolitan City (notice dated Oct 30, 2026). Illustration: AI-generated.\n\n#BusanFireworks #Busan #Gwangalli #KoreaTravel #BusanTravel #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "verified",
-        "register": "d02-traffic",
-        "checked_on": "2026-11-05",
-        "sources": [
-          "busan.go.kr/nbnews/1761578 (notice dated 2026-10-30)"
-        ],
-        "approved_by": "탁경륜 2026-11-05"
-      }
-    },
-    {
-      "id": "ig-d02-traffic-ja",
-      "account": "JP",
-      "lang": "ja",
-      "design": "v2",
-      "status": "approved",
-      "publish_at_utc": "2026-11-06T03:30:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d02-traffic",
-        "stylized": true,
-        "prompts": [
-          "Illustration of a traveler looking at a smartphone with an abstract route icon at a seaside crossroads at dusk",
-          "Illustration of a road with a series of barriers and traffic cones being set up in stages along a coastal avenue at dusk",
-          "Illustration of several buses taking a detour arrow-shaped road away from a closed avenue at dusk, no numbers or text",
-          "Illustration of an hourglass and a clock-like shape next to a crowded street and a train station entrance at night, no numbers",
-          "Calm deep navy background with a cream notice card shape with abstract lines and a yellow bookmark, no letters"
-        ],
-        "credit": "イラスト：AI生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "ルート確認",
-          "title": "花火大会当日のルート確認",
-          "body": "11月7日（土）"
-        },
-        {
-          "cat": "交通規制",
-          "title": "規制は段階的に始まります",
-          "body": "広安里周辺の道路規制は11月7日の10時に始まり、夕方にかけて広がります。"
-        },
-        {
-          "cat": "バス迂回",
-          "title": "18時からバスが迂回",
-          "body": "18時から広南路を通る11系統のバスが全面通行止めになります。迂回路は水営路です。"
-        },
-        {
-          "cat": "余裕をもって",
-          "title": "遅れを見込んで移動",
-          "body": "会場周辺の道路や駅は混雑します。時間に余裕をもって出発しましょう。"
-        },
-        {
-          "cat": "保存",
-          "title": "出発前に公式案内を保存",
-          "body": "当日は釜山市の公式交通規制案内を確認してください。",
-          "cta": "保存して、プロフィールのリンクへ"
-        }
-      ],
-      "caption": "釜山の花火大会の夜は、広安里周辺で交通規制があります。🚌\n\n11月7日は10時から規制が始まり、段階的に広がります。18時からは広南路を通る11系統のバスが全面通行止めとなり、水営路に迂回します。会場周辺の道路や駅は混雑するので、時間に余裕をもって出発してください。\n\n保存して、出発前に釜山市の公式交通規制案内を確認しましょう。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\n出典：釜山広域市（2026年10月30日付の案内）　イラスト：AI生成\n\n#釜山花火大会 #釜山旅行 #釜山 #広安里 #韓国旅行 #Go2Busan",
-      "guide_url": "https://go2busan.com/ja/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "verified",
-        "register": "d02-traffic",
-        "checked_on": "2026-11-05",
-        "sources": [
-          "busan.go.kr/nbnews/1761578 (notice dated 2026-10-30)"
-        ],
-        "approved_by": "탁경륜 2026-11-05"
-      }
-    },
-    {
-      "id": "ig-d02-traffic-zh-tw",
-      "account": "TW",
-      "lang": "zh-TW",
-      "design": "v2",
-      "status": "approved",
-      "publish_at_utc": "2026-11-06T12:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d02-traffic",
-        "stylized": true,
-        "prompts": [
-          "Illustration of a traveler looking at a smartphone with an abstract route icon at a seaside crossroads at dusk",
-          "Illustration of a road with a series of barriers and traffic cones being set up in stages along a coastal avenue at dusk",
-          "Illustration of several buses taking a detour arrow-shaped road away from a closed avenue at dusk, no numbers or text",
-          "Illustration of an hourglass and a clock-like shape next to a crowded street and a train station entrance at night, no numbers",
-          "Calm deep navy background with a cream notice card shape with abstract lines and a yellow bookmark, no letters"
-        ],
-        "credit": "插畫：AI 生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "路線確認",
-          "title": "煙火節當天先確認路線",
-          "body": "11月7日（六）"
-        },
-        {
-          "cat": "交通管制",
-          "title": "管制會分階段進行",
-          "body": "廣安里周邊道路管制11月7日上午10點開始，傍晚逐步擴大。"
-        },
-        {
-          "cat": "公車改道",
-          "title": "18點起公車改道",
-          "body": "18點起，行經廣南路的11條公車路線全面封閉，改道水營路。"
-        },
-        {
-          "cat": "預留時間",
-          "title": "預留延誤的時間",
-          "body": "會場周邊道路與車站會很擁擠，請提早出門。"
-        },
-        {
-          "cat": "收藏",
-          "title": "出發前先收藏公告",
-          "body": "當天請查看釜山市官方交通管制公告。",
-          "cta": "收藏 · 完整攻略請點個人檔案連結"
-        }
-      ],
-      "caption": "釜山煙火節當晚，廣安里周邊會有交通管制。🚌\n\n11月7日上午10點起開始管制，並分階段擴大。18點起，行經廣南路的11條公車路線全面封閉，改道水營路。會場周邊道路與車站會很擁擠，請預留充足時間。\n\n先收藏起來，出發前再查看釜山市官方交通管制公告。完整當地攻略請點個人檔案連結（go2busan.com）。\n\n資料來源：釜山廣域市（2026年10月30日公告）　插畫：AI 生成\n\n#釜山煙火節 #釜山旅遊 #釜山 #廣安里 #韓國旅遊 #Go2Busan",
-      "guide_url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "verified",
-        "register": "d02-traffic",
-        "checked_on": "2026-11-05",
-        "sources": [
-          "busan.go.kr/nbnews/1761578 (notice dated 2026-10-30)"
-        ],
-        "approved_by": "탁경륜 2026-11-05"
-      }
-    },
-    {
-      "id": "ig-d03-packing-en",
-      "account": "US",
-      "lang": "en",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-07T02:30:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d03-packing",
-        "stylized": true,
-        "prompts": [
-          "Neatly arranged flat-lay illustration of a backpack, a warm jacket, a scarf and a smartphone on a navy surface",
-          "Illustration of a person in a warm coat standing by a calm night sea with a gentle wind blowing the scarf",
-          "Illustration of a smartphone connected to a power bank with a lightning bolt symbol, no text",
-          "Illustration of two small friends' silhouettes waving to each other across a crowd with a glowing marker point above a meeting spot",
-          "Calm deep navy background with a cream checklist card shape with abstract yellow tick marks and no letters"
-        ],
-        "credit": "Illustration: AI-generated · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "FESTIVAL CHECKLIST",
-          "title": "Going to the Fireworks Festival?",
-          "body": "Pack for the waterfront."
-        },
-        {
-          "cat": "DRESS FOR THE SEA",
-          "title": "Dress for the waterfront",
-          "body": "Nights by the sea can feel colder. Check the forecast before you leave."
-        },
-        {
-          "cat": "POWER UP",
-          "title": "Charge your phone",
-          "body": "Bring a power bank, and save your route home before the crowds arrive."
-        },
-        {
-          "cat": "MEET UP",
-          "title": "Agree on a meeting point",
-          "body": "Phone signal can be slow in a crowd. Pick a spot and a backup plan."
-        },
-        {
-          "cat": "SAVE THIS",
-          "title": "Save your festival checklist",
-          "body": "Check official updates before you go.",
-          "cta": "Save · Full guide via profile link"
-        }
-      ],
-      "caption": "Heading to the fireworks tonight? A quick pre-festival checklist. 🎆\n\nDress for the waterfront, charge your phone and bring a power bank, save your route home before the crowds arrive, and agree on a meeting point and a backup plan with your group.\n\nSave this, and check official festival updates before you go. Full local guide: link in our profile (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanFireworks #Busan #KoreaTravel #BusanTravel #TravelTips #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d03-packing"
-      }
-    },
-    {
-      "id": "ig-d03-packing-ja",
-      "account": "JP",
-      "lang": "ja",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-07T00:30:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d03-packing",
-        "stylized": true,
-        "prompts": [
-          "Neatly arranged flat-lay illustration of a backpack, a warm jacket, a scarf and a smartphone on a navy surface",
-          "Illustration of a person in a warm coat standing by a calm night sea with a gentle wind blowing the scarf",
-          "Illustration of a smartphone connected to a power bank with a lightning bolt symbol, no text",
-          "Illustration of two small friends' silhouettes waving to each other across a crowd with a glowing marker point above a meeting spot",
-          "Calm deep navy background with a cream checklist card shape with abstract yellow tick marks and no letters"
-        ],
-        "credit": "イラスト：AI生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "持ち物チェック",
-          "title": "花火大会に行くなら",
-          "body": "海辺の夜に備えましょう。"
-        },
-        {
-          "cat": "防寒",
-          "title": "海辺は防寒を",
-          "body": "夜の海辺は冷え込むことがあります。出かける前に天気予報を確認しましょう。"
-        },
-        {
-          "cat": "充電",
-          "title": "スマホを充電",
-          "body": "モバイルバッテリーを持ち、混雑する前に帰りのルートを保存しておきましょう。"
-        },
-        {
-          "cat": "待ち合わせ",
-          "title": "待ち合わせ場所を決める",
-          "body": "人混みでは電波が遅くなることがあります。集合場所と予備の場所を決めておきましょう。"
-        },
-        {
-          "cat": "保存",
-          "title": "持ち物リストを保存",
-          "body": "行く前に公式の最新情報を確認してください。",
-          "cta": "保存して、プロフィールのリンクへ"
-        }
-      ],
-      "caption": "今夜の花火大会に行く人へ、直前チェックリスト。🎆\n\n海辺に合わせた服装で、スマホを充電しモバイルバッテリーを持参。混雑する前に帰りのルートを保存し、仲間と集合場所と予備の場所を決めておきましょう。\n\n保存して、出かける前に公式の最新情報を確認してください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山花火大会 #釜山旅行 #釜山 #韓国旅行 #旅の持ち物 #Go2Busan",
-      "guide_url": "https://go2busan.com/ja/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d03-packing"
-      }
-    },
-    {
-      "id": "ig-d03-packing-zh-tw",
-      "account": "TW",
-      "lang": "zh-TW",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-07T01:30:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d03-packing",
-        "stylized": true,
-        "prompts": [
-          "Neatly arranged flat-lay illustration of a backpack, a warm jacket, a scarf and a smartphone on a navy surface",
-          "Illustration of a person in a warm coat standing by a calm night sea with a gentle wind blowing the scarf",
-          "Illustration of a smartphone connected to a power bank with a lightning bolt symbol, no text",
-          "Illustration of two small friends' silhouettes waving to each other across a crowd with a glowing marker point above a meeting spot",
-          "Calm deep navy background with a cream checklist card shape with abstract yellow tick marks and no letters"
-        ],
-        "credit": "插畫：AI 生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "出發檢查表",
-          "title": "要去看煙火節嗎？",
-          "body": "為海邊的夜晚做好準備。"
-        },
-        {
-          "cat": "保暖",
-          "title": "為海邊保暖",
-          "body": "海邊夜晚可能更冷。出發前請先查天氣預報。"
-        },
-        {
-          "cat": "充電",
-          "title": "手機先充飽電",
-          "body": "帶著行動電源，並在人潮湧入前存好回程路線。"
-        },
-        {
-          "cat": "集合點",
-          "title": "先約好集合地點",
-          "body": "人多時訊號可能變慢。先決定集合點和備用地點。"
-        },
-        {
-          "cat": "收藏",
-          "title": "收藏你的煙火節清單",
-          "body": "出發前請查看官方最新公告。",
-          "cta": "收藏 · 完整攻略請點個人檔案連結"
-        }
-      ],
-      "caption": "今晚要去看煙火嗎？出發前的快速檢查表。🎆\n\n穿著要適合海邊、手機充飽電並帶行動電源、在人潮湧入前存好回程路線，並和同伴約好集合地點與備用地點。\n\n先收藏起來，出發前再查看官方最新公告。完整當地攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山煙火節 #釜山旅遊 #釜山 #韓國旅遊 #旅行準備 #Go2Busan",
-      "guide_url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d03-packing"
-      }
-    },
-    {
-      "id": "ig-d04-return-en",
-      "account": "US",
-      "lang": "en",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-07T07:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d04-return",
-        "stylized": true,
-        "prompts": [
-          "Night seaside illustration with a calm crowd and a distant fireworks glow, shown from behind as simple silhouettes",
-          "Illustration of a friendly event staff silhouette with a glowing baton guiding a calm crowd, no text",
-          "Illustration of a small group of friends holding hands as a chain walking together at night",
-          "Illustration of a subway entrance at night with a wave-shaped queue of silhouettes and a clock-like shape, no numbers",
-          "Calm deep navy background with a cream checklist card shape with abstract yellow tick marks and no letters"
-        ],
-        "credit": "Illustration: AI-generated · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "TONIGHT",
-          "title": "Tonight: Plan Your Return",
-          "body": "Busan Fireworks Festival"
-        },
-        {
-          "cat": "FOLLOW STAFF",
-          "title": "Follow staff guidance",
-          "body": "Listen to on-site staff and official safety announcements."
-        },
-        {
-          "cat": "STAY TOGETHER",
-          "title": "Keep your group together",
-          "body": "Agree how to reconnect if you get separated."
-        },
-        {
-          "cat": "HEADING HOME",
-          "title": "Check transport before you leave",
-          "body": "Check your station and last train before the show. Expect crowds at Gwangalli Station."
-        },
-        {
-          "cat": "SAVE THIS",
-          "title": "Save this checklist",
-          "body": "Check official updates before you go.",
-          "cta": "Save · Full guide via profile link"
-        }
-      ],
-      "caption": "Fireworks night in Busan: plan your way home before the show starts. 🌙\n\nFollow on-site staff and official safety announcements, keep your group together, and check your station and last train in advance. Gwangalli Station is expected to be crowded.\n\nSave this checklist. Always check the latest official festival notices before you go. Full local guide: link in our profile (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanFireworks #Busan #Gwangalli #KoreaTravel #BusanTravel #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d04-return"
-      }
-    },
-    {
-      "id": "ig-d04-return-ja",
-      "account": "JP",
-      "lang": "ja",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-07T05:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d04-return",
-        "stylized": true,
-        "prompts": [
-          "Night seaside illustration with a calm crowd and a distant fireworks glow, shown from behind as simple silhouettes",
-          "Illustration of a friendly event staff silhouette with a glowing baton guiding a calm crowd, no text",
-          "Illustration of a small group of friends holding hands as a chain walking together at night",
-          "Illustration of a subway entrance at night with a wave-shaped queue of silhouettes and a clock-like shape, no numbers",
-          "Calm deep navy background with a cream checklist card shape with abstract yellow tick marks and no letters"
-        ],
-        "credit": "イラスト：AI生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "今夜",
-          "title": "今夜は帰りも計画的に",
-          "body": "釜山花火大会"
-        },
-        {
-          "cat": "スタッフの指示",
-          "title": "スタッフの案内に従う",
-          "body": "現場のスタッフと公式の安全案内に従いましょう。"
-        },
-        {
-          "cat": "はぐれない",
-          "title": "グループで行動",
-          "body": "はぐれたときの合流方法を決めておきましょう。"
-        },
-        {
-          "cat": "帰り道",
-          "title": "出発前に交通を確認",
-          "body": "開演前に最寄り駅と終電を確認しましょう。広安駅は混雑が予想されます。"
-        },
-        {
-          "cat": "保存",
-          "title": "このチェックリストを保存",
-          "body": "行く前に公式の最新情報を確認してください。",
-          "cta": "保存して、プロフィールのリンクへ"
-        }
-      ],
-      "caption": "釜山の花火大会の夜は、始まる前に帰り道を決めておきましょう。🌙\n\n現場のスタッフと公式の安全案内に従い、グループで行動し、最寄り駅と終電を事前に確認してください。広安駅は混雑が予想されます。\n\nこのチェックリストを保存して、行く前に必ず公式の最新情報を確認してください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山花火大会 #釜山旅行 #釜山 #広安里 #韓国旅行 #Go2Busan",
-      "guide_url": "https://go2busan.com/ja/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d04-return"
-      }
-    },
-    {
-      "id": "ig-d04-return-zh-tw",
-      "account": "TW",
-      "lang": "zh-TW",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-07T06:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d04-return",
-        "stylized": true,
-        "prompts": [
-          "Night seaside illustration with a calm crowd and a distant fireworks glow, shown from behind as simple silhouettes",
-          "Illustration of a friendly event staff silhouette with a glowing baton guiding a calm crowd, no text",
-          "Illustration of a small group of friends holding hands as a chain walking together at night",
-          "Illustration of a subway entrance at night with a wave-shaped queue of silhouettes and a clock-like shape, no numbers",
-          "Calm deep navy background with a cream checklist card shape with abstract yellow tick marks and no letters"
-        ],
-        "credit": "插畫：AI 生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "今晚",
-          "title": "今晚也要規劃好回程",
-          "body": "釜山煙火節"
-        },
-        {
-          "cat": "聽從指示",
-          "title": "聽從工作人員指引",
-          "body": "請遵守現場工作人員與官方安全廣播。"
-        },
-        {
-          "cat": "不要走散",
-          "title": "同伴一起行動",
-          "body": "先約好走散時如何會合。"
-        },
-        {
-          "cat": "回程",
-          "title": "出發前先確認交通",
-          "body": "開始前先確認你的車站與末班車。廣安站預期會很擁擠。"
-        },
-        {
-          "cat": "收藏",
-          "title": "收藏這份檢查表",
-          "body": "出發前請查看官方最新公告。",
-          "cta": "收藏 · 完整攻略請點個人檔案連結"
-        }
-      ],
-      "caption": "釜山煙火節當晚，開始前就先規劃好回程。🌙\n\n請聽從現場工作人員與官方安全廣播，同伴一起行動，並提前確認車站與末班車。廣安站預期會很擁擠。\n\n先收藏這份檢查表，出發前務必查看官方最新公告。完整當地攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山煙火節 #釜山旅遊 #釜山 #廣安里 #韓國旅遊 #Go2Busan",
-      "guide_url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d04-return"
-      }
-    },
-    {
-      "id": "ig-d05-first-day-en",
-      "account": "US",
-      "lang": "en",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-08T10:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d05-first-day",
-        "stylized": true,
-        "prompts": [
-          "Illustration of a traveler with a suitcase stepping out of a station into a bright seaside city in the morning",
-          "Illustration of a hotel building and a short walking path to a nearby cafe and a seaside promenade",
-          "Illustration of one calm coastal neighborhood with a beach, small shops and a hillside, in warm light",
-          "Illustration of a relaxed table with local dishes and a tea cup beside a seaside bench",
-          "Calm deep navy background with a cream notebook card shape with abstract yellow route lines and no letters"
-        ],
-        "credit": "Illustration: AI-generated · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "FIRST DAY",
-          "title": "Your First Day in Busan",
-          "body": "Keep it simple."
-        },
-        {
-          "cat": "START NEARBY",
-          "title": "Start near your hotel",
-          "body": "Pick your first stop based on where you are staying."
-        },
-        {
-          "cat": "ONE AREA",
-          "title": "Choose one main neighborhood",
-          "body": "One area is enough on day one. Skip the sprint."
-        },
-        {
-          "cat": "FOOD & REST",
-          "title": "Leave time for food and rest",
-          "body": "Plan meals and breaks along with travel time."
-        },
-        {
-          "cat": "SAVE THIS",
-          "title": "Build your own Busan itinerary",
-          "body": "See how a 3-day plan fits together.",
-          "cta": "Save · Full guide via profile link"
-        }
-      ],
-      "caption": "Landing in Busan? Keep your first day simple. 🌊\n\nStart near your hotel, pick one main neighborhood, and leave time for food and rest along with travel time.\n\nSave this for your trip. Our 3-day itinerary shows how the days fit together: link in our profile (go2busan.com).\n\nIllustration: AI-generated.\n\n#Busan #BusanTravel #KoreaTravel #BusanItinerary #TravelTips #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/busan-three-days/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d05-first-day"
-      }
-    },
-    {
-      "id": "ig-d05-first-day-ja",
-      "account": "JP",
-      "lang": "ja",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-08T03:30:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d05-first-day",
-        "stylized": true,
-        "prompts": [
-          "Illustration of a traveler with a suitcase stepping out of a station into a bright seaside city in the morning",
-          "Illustration of a hotel building and a short walking path to a nearby cafe and a seaside promenade",
-          "Illustration of one calm coastal neighborhood with a beach, small shops and a hillside, in warm light",
-          "Illustration of a relaxed table with local dishes and a tea cup beside a seaside bench",
-          "Calm deep navy background with a cream notebook card shape with abstract yellow route lines and no letters"
-        ],
-        "credit": "イラスト：AI生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "初日",
-          "title": "釜山の初日",
-          "body": "シンプルにいこう。"
-        },
-        {
-          "cat": "近くから",
-          "title": "ホテルの近くから始める",
-          "body": "泊まる場所を基準に、最初の目的地を決めましょう。"
-        },
-        {
-          "cat": "1エリア",
-          "title": "メインは1エリアだけ",
-          "body": "初日は1つのエリアで十分です。詰め込みすぎないで。"
-        },
-        {
-          "cat": "食事と休憩",
-          "title": "食事と休憩の時間を",
-          "body": "移動時間に合わせて、食事と休憩も計画しましょう。"
-        },
-        {
-          "cat": "保存",
-          "title": "自分だけの釜山プランを",
-          "body": "3日間プランの組み立て方を見てみよう。",
-          "cta": "保存して、プロフィールのリンクへ"
-        }
-      ],
-      "caption": "釜山に着いたら、初日はシンプルに。🌊\n\nホテルの近くから始め、メインは1エリアに絞って、移動時間とあわせて食事と休憩の時間も確保しましょう。\n\n旅行前に保存してください。3日間プランの組み立て方はプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山 #釜山旅行 #韓国旅行 #釜山モデルコース #旅のコツ #Go2Busan",
-      "guide_url": "https://go2busan.com/ja/guides/three-days/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d05-first-day"
-      }
-    },
-    {
-      "id": "ig-d05-first-day-zh-tw",
-      "account": "TW",
-      "lang": "zh-TW",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-08T12:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d05-first-day",
-        "stylized": true,
-        "prompts": [
-          "Illustration of a traveler with a suitcase stepping out of a station into a bright seaside city in the morning",
-          "Illustration of a hotel building and a short walking path to a nearby cafe and a seaside promenade",
-          "Illustration of one calm coastal neighborhood with a beach, small shops and a hillside, in warm light",
-          "Illustration of a relaxed table with local dishes and a tea cup beside a seaside bench",
-          "Calm deep navy background with a cream notebook card shape with abstract yellow route lines and no letters"
-        ],
-        "credit": "插畫：AI 生成 · Go2Busan"
-      },
-      "cards": [
-        {
-          "cat": "第一天",
-          "title": "釜山第一天",
-          "body": "簡單就好。"
-        },
-        {
-          "cat": "從住處附近開始",
-          "title": "從住宿附近開始",
-          "body": "依照住宿位置，決定第一個景點。"
-        },
-        {
-          "cat": "鎖定一區",
-          "title": "只選一個主要區域",
-          "body": "第一天一個區域就夠了，不要趕行程。"
-        },
-        {
-          "cat": "吃飯休息",
-          "title": "留時間吃飯與休息",
-          "body": "規劃行程時，把用餐與休息時間一起算進去。"
-        },
-        {
-          "cat": "收藏",
-          "title": "規劃專屬的釜山行程",
-          "body": "看看3天行程怎麼安排。",
-          "cta": "收藏 · 完整攻略請點個人檔案連結"
-        }
-      ],
-      "caption": "抵達釜山了嗎？第一天簡單就好。🌊\n\n從住宿附近開始，只選一個主要區域，並把用餐與休息時間和移動時間一起規劃。\n\n先收藏起來。3天行程怎麼安排，請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山 #釜山旅遊 #韓國旅遊 #釜山行程 #旅行小技巧 #Go2Busan",
-      "guide_url": "https://go2busan.com/zh-tw/guides/three-days/",
-      "verification": {
-        "status": "needs_check",
-        "register": "d05-first-day"
-      }
-    },
-    {
-      "id": "ig-d06-airport-en",
-      "account": "US",
-      "lang": "en",
-      "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-09T10:00:00.000Z",
-      "art": {
-        "type": "ai",
-        "set": "d06-airport",
-        "stylized": true,
-        "prompts": [
-          "Illustration of an airport arrival hall exit with a traveler and a suitcase, with three different transport icons glowing ahead",
-          "Illustration of a small light rail train arriving at an elevated station with a subway entrance beside it, no text",
-          "Illustration of a large comfortable airport coach bus on a highway with suitcases being loaded, no text",
-          "Illustration of a taxi waiting at a curb with a suitcase beside it, daytime",
-          "Calm deep navy background with a cream hotel card shape and a yellow location pin, no letters"
+          "Editorial illustration of an airport arrival hall with a traveler and suitcase, three simple transport symbols ahead, no text",
+          "Editorial illustration of a small light rail train arriving at an elevated station beside a metro entrance, no text",
+          "Editorial illustration of an airport coach bus with luggage being loaded, no logos or text",
+          "Editorial illustration of a taxi waiting at a curb beside a traveler with suitcases, no text",
+          "Minimal navy background with a cream checklist card and a yellow location pin, no letters"
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
       "cards": [
         {
           "cat": "AIRPORT ARRIVAL",
-          "title": "From Gimhae Airport to Busan",
-          "body": "Three ways to get into the city."
+          "title": "Gimhae Airport to Busan",
+          "body": "Choose by your hotel area and arrival time."
         },
         {
           "cat": "OPTION 1",
           "title": "Light rail + metro",
-          "body": "Ride the airport light rail to Sasang (Line 2) or Daejeo (Line 3) Station, then transfer."
+          "body": "Transfer at Sasang for Line 2 or Daejeo for Line 3."
         },
         {
           "cat": "OPTION 2",
           "title": "Airport limousine",
-          "body": "Runs to Haeundae New Town in about an hour. No transfers with luggage."
+          "body": "Route 1 has separate Jangsan and Gijang timetables."
         },
         {
           "cat": "OPTION 3",
           "title": "Taxi",
-          "body": "Regular, deluxe and large taxis are available. Deluxe and large cost about 50% more."
+          "body": "A simpler option with heavy bags or a group; fares vary."
         },
         {
           "cat": "SAVE THIS",
-          "title": "Choose by your hotel location",
-          "body": "Check your hotel's area before you decide.",
+          "title": "Check the exact destination",
+          "body": "Confirm your stop and timetable before boarding.",
           "cta": "Save · Full guide via profile link"
         }
       ],
-      "caption": "Landing at Gimhae Airport? There are three simple ways into Busan. ✈️\n\n1) Airport light rail to Sasang (Line 2) or Daejeo (Line 3) Station, then transfer to the metro. 2) The airport limousine to Haeundae New Town in about an hour, with no transfers. 3) A regular, deluxe or large taxi (deluxe and large cost about 50% more).\n\nPick based on your hotel's area, and save this for your arrival day. Full airport guide: link in our profile (go2busan.com).\n\nSource: Visit Busan (visitbusan.net). Illustration: AI-generated.\n\n#GimhaeAirport #Busan #BusanTravel #KoreaTravel #AirportTransfer #Go2Busan",
+      "caption": "Landing at Gimhae Airport? Choose your route by the hotel address—not just the district name. ✈️\n\nThe light rail connects with Metro Line 2 at Sasang and Line 3 at Daejeo. Airport Limousine 1 toward Haeundae/Gijang has separate Jangsan and Gijang timetables, so check the final stop before boarding. A taxi can be easier with heavy luggage or a group.\n\nFull arrival guide: link in our profile. Source: Busan Metropolitan City and Korea Airports Corporation. Illustration: AI-generated.\n\n#GimhaeAirport #BusanTravel #KoreaTravel #AirportTransfer #Go2Busan",
       "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
       "verification": {
-        "status": "needs_check",
-        "register": "d06-airport"
+        "status": "verified",
+        "register": "d01-airport",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.busan.go.kr/eng/bsnews01/1714674",
+          "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?CONTENTS_NO=3&MENU_ID=110"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
       }
     },
     {
-      "id": "ig-d06-airport-ja",
+      "id": "ig-d01-airport-ja",
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-09T03:30:00.000Z",
+      "status": "approved",
+      "publish_at_utc": "2026-11-12T00:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d06-airport",
+        "set": "d01-airport-v2",
         "stylized": true,
         "prompts": [
-          "Illustration of an airport arrival hall exit with a traveler and a suitcase, with three different transport icons glowing ahead",
-          "Illustration of a small light rail train arriving at an elevated station with a subway entrance beside it, no text",
-          "Illustration of a large comfortable airport coach bus on a highway with suitcases being loaded, no text",
-          "Illustration of a taxi waiting at a curb with a suitcase beside it, daytime",
-          "Calm deep navy background with a cream hotel card shape and a yellow location pin, no letters"
+          "Editorial illustration of an airport arrival hall with a traveler and suitcase, three simple transport symbols ahead, no text",
+          "Editorial illustration of a small light rail train arriving at an elevated station beside a metro entrance, no text",
+          "Editorial illustration of an airport coach bus with luggage being loaded, no logos or text",
+          "Editorial illustration of a taxi waiting at a curb beside a traveler with suitcases, no text",
+          "Minimal navy background with a cream checklist card and a yellow location pin, no letters"
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
       "cards": [
         {
-          "cat": "空港から",
+          "cat": "空港アクセス",
           "title": "金海空港から釜山市内へ",
-          "body": "市内への行き方は3つ。"
+          "body": "ホテルの場所と到着時刻で選びましょう。"
         },
         {
           "cat": "方法1",
           "title": "軽電鉄＋地下鉄",
-          "body": "空港の軽電鉄で沙上駅（2号線）か大渚駅（3号線）まで行き、地下鉄に乗り換えます。"
+          "body": "沙上駅で2号線、大渚駅で3号線に乗り換え。"
         },
         {
           "cat": "方法2",
-          "title": "空港リムジンバス",
-          "body": "海雲台ニュータウンまで約1時間。荷物があっても乗り換え不要です。"
+          "title": "空港リムジン",
+          "body": "海雲台・機張方面は長山行きと機張行きで時刻表が別です。"
         },
         {
           "cat": "方法3",
           "title": "タクシー",
-          "body": "一般、模範、大型の3種類があります。模範と大型は約50%高くなります。"
+          "body": "荷物が多いときや複数人なら便利。料金は状況で変わります。"
         },
         {
           "cat": "保存",
-          "title": "宿のエリアで選ぼう",
-          "body": "決める前に、宿のあるエリアを確認しましょう。",
-          "cta": "保存して、プロフィールのリンクへ"
+          "title": "行き先を確認して乗車",
+          "body": "停留所と時刻表を確認してから乗りましょう。",
+          "cta": "保存 · プロフィールのリンクから詳しいガイドへ"
         }
       ],
-      "caption": "金海空港に着いたら、釜山市内へは3つの行き方があります。✈️\n\n1）空港の軽電鉄で沙上駅（2号線）か大渚駅（3号線）まで行き、地下鉄に乗り換え。2）空港リムジンバスで海雲台ニュータウンまで約1時間、乗り換えなし。3）タクシー（一般・模範・大型。模範と大型は約50%高）。\n\n宿のエリアで選び、到着日に備えて保存しておきましょう。空港ガイド（英語）はプロフィールのリンクから（go2busan.com）。\n\n出典：Visit Busan（visitbusan.net）　イラスト：AI生成\n\n#金海空港 #釜山 #釜山旅行 #韓国旅行 #空港アクセス #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
+      "caption": "金海空港に着いたら、ホテルの住所に合わせて移動手段を選びましょう。✈️\n\n軽電鉄は沙上駅で地下鉄2号線、大渚駅で3号線に接続します。海雲台・機張方面の空港リムジン1号は、長山行きと機張行きで時刻表が異なります。乗る前に行き先と停留所を確認してください。\n\n空港アクセスガイドはプロフィールのリンクから。出典：釜山広域市、韓国空港公社。イラスト：AI生成。\n\n#金海空港 #釜山旅行 #韓国旅行 #空港アクセス #Go2Busan",
+      "guide_url": "https://go2busan.com/ja/guides/airport-to-haeundae/",
       "verification": {
-        "status": "needs_check",
-        "register": "d06-airport"
+        "status": "verified",
+        "register": "d01-airport",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.busan.go.kr/eng/bsnews01/1714674",
+          "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?CONTENTS_NO=3&MENU_ID=110"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
       }
     },
     {
-      "id": "ig-d06-airport-zh-tw",
+      "id": "ig-d01-airport-zh-tw",
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-09T12:00:00.000Z",
+      "status": "approved",
+      "publish_at_utc": "2026-11-12T00:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d06-airport",
+        "set": "d01-airport-v2",
         "stylized": true,
         "prompts": [
-          "Illustration of an airport arrival hall exit with a traveler and a suitcase, with three different transport icons glowing ahead",
-          "Illustration of a small light rail train arriving at an elevated station with a subway entrance beside it, no text",
-          "Illustration of a large comfortable airport coach bus on a highway with suitcases being loaded, no text",
-          "Illustration of a taxi waiting at a curb with a suitcase beside it, daytime",
-          "Calm deep navy background with a cream hotel card shape and a yellow location pin, no letters"
+          "Editorial illustration of an airport arrival hall with a traveler and suitcase, three simple transport symbols ahead, no text",
+          "Editorial illustration of a small light rail train arriving at an elevated station beside a metro entrance, no text",
+          "Editorial illustration of an airport coach bus with luggage being loaded, no logos or text",
+          "Editorial illustration of a taxi waiting at a curb beside a traveler with suitcases, no text",
+          "Minimal navy background with a cream checklist card and a yellow location pin, no letters"
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
       "cards": [
         {
-          "cat": "機場抵達",
-          "title": "從金海機場到釜山市區",
-          "body": "進市區有三種方式。"
+          "cat": "機場交通",
+          "title": "金海機場到釜山市區",
+          "body": "依住宿地點與抵達時間選擇。"
         },
         {
           "cat": "方式1",
           "title": "輕軌＋地鐵",
-          "body": "搭機場輕軌到沙上站（2號線）或大渚站（3號線），再轉乘地鐵。"
+          "body": "沙上站可轉乘2號線，大渚站可轉乘3號線。"
         },
         {
           "cat": "方式2",
           "title": "機場利木津巴士",
-          "body": "約1小時抵達海雲台新市區。帶著行李也不用轉乘。"
+          "body": "海雲台／機張方向分為長山與機張兩種時刻表。"
         },
         {
           "cat": "方式3",
           "title": "計程車",
-          "body": "有一般、模範與大型三種。模範與大型約貴50%。"
+          "body": "行李多或多人同行時較方便，車資依路況而異。"
         },
         {
-          "cat": "收藏",
-          "title": "依住宿位置選擇",
-          "body": "決定前，先確認住宿所在區域。",
+          "cat": "先收藏",
+          "title": "確認終點再上車",
+          "body": "搭車前先核對停靠站與班次。",
           "cta": "收藏 · 完整攻略請點個人檔案連結"
         }
       ],
-      "caption": "降落金海機場後，進釜山市區有三種簡單的方式。✈️\n\n1）搭機場輕軌到沙上站（2號線）或大渚站（3號線），再轉乘地鐵。2）搭機場利木津巴士，約1小時抵達海雲台新市區，不用轉乘。3）搭計程車（一般、模範、大型；模範與大型約貴50%）。\n\n依住宿位置選擇，並先收藏起來備用。機場完整攻略（英文）請點個人檔案連結（go2busan.com）。\n\n資料來源：Visit Busan（visitbusan.net）　插畫：AI 生成\n\n#金海機場 #釜山 #釜山旅遊 #韓國旅遊 #機場交通 #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
+      "caption": "抵達金海機場後，先依飯店地址選擇交通方式。✈️\n\n機場輕軌可在沙上站轉乘地鐵2號線，在大渚站轉乘3號線。海雲台／機張方向的機場利木津1號線又分為長山與機張兩種時刻表，上車前務必確認終點與停靠站。行李多或多人同行，也可以比較計程車。\n\n完整機場交通攻略請點個人檔案連結。資料來源：釜山廣域市、韓國機場公社。插畫：AI 生成。\n\n#金海機場 #釜山旅遊 #韓國旅遊 #機場交通 #Go2Busan",
+      "guide_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/",
       "verification": {
-        "status": "needs_check",
-        "register": "d06-airport"
+        "status": "verified",
+        "register": "d01-airport",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.busan.go.kr/eng/bsnews01/1714674",
+          "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?CONTENTS_NO=3&MENU_ID=110"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
       }
     },
     {
-      "id": "ig-d07-transit-en",
+      "id": "ig-d02-jagalchi-en",
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-10T10:00:00.000Z",
+      "status": "approved",
+      "publish_at_utc": "2026-11-13T12:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d07-transit",
+        "set": "d02-jagalchi-v2",
         "stylized": true,
         "prompts": [
-          "Illustration of a bright subway platform with a train arriving and a traveler checking a route on a smartphone, no text",
-          "Illustration of a clock-like shape beside a subway tunnel entrance at night with a sleeping city skyline, no numbers",
-          "Illustration of a transit card tapping a card reader at a subway gate with a soft glow, no text",
-          "Illustration of two connected arrows between a bus and a subway train with a small timer shape, no numbers",
-          "Calm deep navy background with a cream card shape and a yellow bookmark, no letters"
+          "Editorial illustration of a lively seafood market counter with fish and shellfish on ice, no identifiable shop signs",
+          "Editorial illustration of a vendor weighing seafood on a digital scale, no numbers or readable text",
+          "Editorial illustration of a simple seafood menu with abstract price lines and a hand pointing to an item, no readable text",
+          "Editorial illustration of a dining table with seafood dishes and separate small service-fee icons, no text",
+          "Minimal navy background with a cream receipt card and yellow check marks, no letters"
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
       "cards": [
         {
-          "cat": "TRANSPORT BASICS",
-          "title": "Busan Transport Made Simple",
-          "body": "Subway, bus and cards."
+          "cat": "LOCAL FOOD",
+          "title": "Jagalchi seafood market",
+          "body": "Enjoy the market with clear pricing."
         },
         {
-          "cat": "SUBWAY HOURS",
-          "title": "Know the metro hours",
-          "body": "The metro runs 05:00 to 23:59. First and last trains vary by station."
+          "cat": "NAME & UNIT",
+          "title": "Know what you are buying",
+          "body": "Confirm the seafood type and whether the price is per kg, fish, plate or set."
         },
         {
-          "cat": "PAYMENT",
-          "title": "Use a transit card",
-          "body": "Transit cards such as Hanaro and T-money earn transfer discounts. Top up at stations or convenience stores."
+          "cat": "WEIGHT & TOTAL",
+          "title": "Check the seafood price",
+          "body": "Confirm the charged weight and total before agreeing."
         },
         {
-          "cat": "TRANSFERS",
-          "title": "Transfer within 30 minutes",
-          "body": "A discount applies up to twice per trip. Tap your card when you exit."
+          "cat": "EXTRA FEES",
+          "title": "Ask what is separate",
+          "body": "Preparation and per-person table-setting fees may be additional."
         },
         {
-          "cat": "SAVE THIS",
-          "title": "Save this transport guide",
-          "body": "Your transit card guide is in our profile link.",
+          "cat": "BEFORE PREPARATION",
+          "title": "Agree on the full amount",
+          "body": "Ask for the total before anything is prepared.",
           "cta": "Save · Full guide via profile link"
         }
       ],
-      "caption": "Busan transport, simplified. 🚇\n\nThe metro runs from 05:00 to 23:59, and first and last trains vary by station. A transit card (Hanaro, T-money and others) earns transfer discounts: within 30 minutes, up to twice per trip. Tap your card when you exit, and top up at stations or convenience stores.\n\nSave this for your trip. Our transit card guide: link in our profile (go2busan.com).\n\nSource: Visit Busan (visitbusan.net). Illustration: AI-generated.\n\n#BusanSubway #Busan #BusanTravel #KoreaTravel #TravelTips #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/busan-transit-card/",
+      "caption": "Jagalchi is a classic Busan seafood stop—but don't ask only, “How much?” 🐟\n\nConfirm the seafood type, pricing unit, charged weight and seafood total. Ask whether preparation or per-person table-setting fees are separate, then agree on the full amount before anything is prepared. Charges vary by shop.\n\nOur guide includes useful Korean phrases. Source: Visit Busan and Korea Tourism Organization. Illustration: AI-generated.\n\n#JagalchiMarket #BusanFood #BusanTravel #KoreaTravel #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/",
       "verification": {
-        "status": "needs_check",
-        "register": "d07-transit"
+        "status": "verified",
+        "register": "d02-jagalchi",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.visitbusan.net/index.do?contentsSid=22&lang_cd=en&uc_seq=412",
+          "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=69318"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
       }
     },
     {
-      "id": "ig-d07-transit-ja",
+      "id": "ig-d02-jagalchi-ja",
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-10T03:30:00.000Z",
+      "status": "approved",
+      "publish_at_utc": "2026-11-13T12:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d07-transit",
+        "set": "d02-jagalchi-v2",
         "stylized": true,
         "prompts": [
-          "Illustration of a bright subway platform with a train arriving and a traveler checking a route on a smartphone, no text",
-          "Illustration of a clock-like shape beside a subway tunnel entrance at night with a sleeping city skyline, no numbers",
-          "Illustration of a transit card tapping a card reader at a subway gate with a soft glow, no text",
-          "Illustration of two connected arrows between a bus and a subway train with a small timer shape, no numbers",
-          "Calm deep navy background with a cream card shape and a yellow bookmark, no letters"
+          "Editorial illustration of a lively seafood market counter with fish and shellfish on ice, no identifiable shop signs",
+          "Editorial illustration of a vendor weighing seafood on a digital scale, no numbers or readable text",
+          "Editorial illustration of a simple seafood menu with abstract price lines and a hand pointing to an item, no readable text",
+          "Editorial illustration of a dining table with seafood dishes and separate small service-fee icons, no text",
+          "Minimal navy background with a cream receipt card and yellow check marks, no letters"
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "市場グルメ",
+          "title": "チャガルチ市場の海鮮",
+          "body": "料金を確認して楽しみましょう。"
+        },
+        {
+          "cat": "魚種と単位",
+          "title": "何を買うか確認",
+          "body": "魚種と、kg・一匹・一皿・セットのどれで計算するかを確認。"
+        },
+        {
+          "cat": "重さと合計",
+          "title": "海鮮の合計金額",
+          "body": "計算に使う重量と合計を注文前に確認。"
+        },
+        {
+          "cat": "追加料金",
+          "title": "別料金を確認",
+          "body": "下処理・調理費や一人あたりの席料が別の場合があります。"
+        },
+        {
+          "cat": "調理前に",
+          "title": "総額を確認してから",
+          "body": "調理が始まる前に、すべての料金を確認しましょう。",
+          "cta": "保存 · プロフィールのリンクから詳しいガイドへ"
+        }
+      ],
+      "caption": "チャガルチ市場で海鮮を楽しむなら、「いくらですか？」だけで終わらせないのがコツ。🐟\n\n魚種、価格の単位、計算に使う重量、海鮮の合計金額を確認しましょう。下処理・調理費や一人あたりの席料が別かどうかも聞き、調理前に総額を決めておくと安心です。料金は店ごとに異なります。\n\n便利な韓国語フレーズはプロフィールのガイドへ。出典：Visit Busan、韓国観光公社。イラスト：AI生成。\n\n#チャガルチ市場 #釜山グルメ #釜山旅行 #韓国旅行 #Go2Busan",
+      "guide_url": "https://go2busan.com/ja/guides/jagalchi-market/",
+      "verification": {
+        "status": "verified",
+        "register": "d02-jagalchi",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.visitbusan.net/index.do?contentsSid=22&lang_cd=en&uc_seq=412",
+          "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=69318"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d02-jagalchi-zh-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-13T12:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d02-jagalchi-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a lively seafood market counter with fish and shellfish on ice, no identifiable shop signs",
+          "Editorial illustration of a vendor weighing seafood on a digital scale, no numbers or readable text",
+          "Editorial illustration of a simple seafood menu with abstract price lines and a hand pointing to an item, no readable text",
+          "Editorial illustration of a dining table with seafood dishes and separate small service-fee icons, no text",
+          "Minimal navy background with a cream receipt card and yellow check marks, no letters"
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "在地美食",
+          "title": "札嘎其市場海鮮",
+          "body": "先確認費用，再安心享用。"
+        },
+        {
+          "cat": "魚種與單位",
+          "title": "確認買的是什麼",
+          "body": "先問魚種，以及按公斤、單隻、單盤或套餐計價。"
+        },
+        {
+          "cat": "重量與總價",
+          "title": "確認海鮮費用",
+          "body": "下單前確認計價重量與海鮮總額。"
+        },
+        {
+          "cat": "額外費用",
+          "title": "問清楚哪些另計",
+          "body": "處理／料理費與每人桌菜費可能另外收取。"
+        },
+        {
+          "cat": "料理前確認",
+          "title": "先談好完整金額",
+          "body": "開始處理前，先確認所有費用。",
+          "cta": "收藏 · 完整攻略請點個人檔案連結"
+        }
+      ],
+      "caption": "到札嘎其市場吃海鮮，別只問「多少錢」！🐟\n\n先確認魚種、計價單位、秤重方式與海鮮總額，再問處理／料理費、每人桌菜費是否另計。不同店家的收費方式不一樣，最重要的是在開始處理前先確認完整金額。\n\n完整攻略附有實用韓語句子。資料來源：Visit Busan、韓國觀光公社。插畫：AI 生成。\n\n#札嘎其市場 #釜山美食 #釜山旅遊 #韓國旅遊 #Go2Busan",
+      "guide_url": "https://go2busan.com/zh-tw/guides/jagalchi-market/",
+      "verification": {
+        "status": "verified",
+        "register": "d02-jagalchi",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.visitbusan.net/index.do?contentsSid=22&lang_cd=en&uc_seq=412",
+          "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=69318"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d03-transit-en",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-14T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d03-transit-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a clean metro platform with a train arriving and a traveler checking a route, no station names",
+          "Editorial illustration of a transit card being tapped at a fare gate, no logos or text",
+          "Editorial illustration of a bus and metro train connected by two simple arrows, no numbers",
+          "Editorial illustration of a passenger tapping a card reader while exiting a bus, no text",
+          "Minimal navy background with a cream transit card shape and a yellow bookmark, no letters"
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "GETTING AROUND",
+          "title": "Busan transit card",
+          "body": "A little preparation makes transfers easier."
+        },
+        {
+          "cat": "TAP IN & OUT",
+          "title": "Use your card each time",
+          "body": "Tap when boarding and when leaving the bus or metro."
+        },
+        {
+          "cat": "TRANSFER WINDOW",
+          "title": "Know the transfer rule",
+          "body": "Eligible transfers within 30 minutes can receive a discount."
+        },
+        {
+          "cat": "PLAN YOUR STATION",
+          "title": "Check first and last trains",
+          "body": "Times vary by station, so check your actual stop."
+        },
+        {
+          "cat": "TOP UP",
+          "title": "Keep your card ready",
+          "body": "Top up at station machines or convenience stores.",
+          "cta": "Save · Full guide via profile link"
+        }
+      ],
+      "caption": "Getting around Busan is easier when you understand the transit-card basics. 🚇\n\nTap when boarding and when leaving. Busan's transfer discount applies to eligible transfers made within 30 minutes, with up to two transfers in one trip. First and last train times vary by station, so check the timetable for your actual stop.\n\nFull transit guide: link in our profile. Source: Busan Transportation Corporation and Busan City. Illustration: AI-generated.\n\n#BusanTransit #BusanSubway #KoreaTravel #BusanTravel #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-transit-card/",
+      "verification": {
+        "status": "verified",
+        "register": "d03-transit",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=10060401",
+          "https://www.busan.go.kr/eng/public-transportation"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d03-transit-ja",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-14T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d03-transit-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a clean metro platform with a train arriving and a traveler checking a route, no station names",
+          "Editorial illustration of a transit card being tapped at a fare gate, no logos or text",
+          "Editorial illustration of a bus and metro train connected by two simple arrows, no numbers",
+          "Editorial illustration of a passenger tapping a card reader while exiting a bus, no text",
+          "Minimal navy background with a cream transit card shape and a yellow bookmark, no letters"
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
       "cards": [
         {
           "cat": "交通の基本",
-          "title": "釜山の交通をシンプルに",
-          "body": "地下鉄、バス、交通カード。"
+          "title": "釜山の交通カード",
+          "body": "乗り換えの基本を知っておくと便利。"
         },
         {
-          "cat": "地下鉄の時間",
-          "title": "地下鉄の運行時間",
-          "body": "地下鉄は5時から23時59分まで。始発と終電は駅によって異なります。"
+          "cat": "乗るとき・降りるとき",
+          "title": "乗降時にタッチ",
+          "body": "バスや地下鉄では乗車時と降車時にタッチ。"
         },
         {
-          "cat": "支払い",
-          "title": "交通カードを使う",
-          "body": "ハナロやT-moneyなどの交通カードなら乗り換え割引があります。チャージは駅やコンビニで。"
+          "cat": "乗り換え時間",
+          "title": "割引の条件を確認",
+          "body": "対象の交通機関へ30分以内に乗り換えると割引があります。"
         },
         {
-          "cat": "乗り換え",
-          "title": "30分以内の乗り換え",
-          "body": "割引は1回の移動で2回まで。降りるときにカードをタッチしてください。"
+          "cat": "駅ごとの時刻",
+          "title": "始発・終電を確認",
+          "body": "駅によって異なるため、利用駅の時刻表を確認。"
         },
         {
-          "cat": "保存",
-          "title": "交通ガイドを保存",
-          "body": "交通カードのガイドはプロフィールのリンクから。",
-          "cta": "保存して、プロフィールのリンクへ"
+          "cat": "チャージ",
+          "title": "残高を準備",
+          "body": "駅の券売機やコンビニなどでチャージできます。",
+          "cta": "保存 · プロフィールのリンクから詳しいガイドへ"
         }
       ],
-      "caption": "釜山の交通を、シンプルに。🚇\n\n地下鉄は5時から23時59分まで、始発と終電は駅によって異なります。交通カード（ハナロ、T-moneyなど）なら、30分以内・1回の移動で2回まで乗り換え割引があります。降りるときにカードをタッチし、チャージは駅やコンビニで。\n\n旅行前に保存してください。交通カードのガイドはプロフィールのリンクから（go2busan.com）。\n\n出典：Visit Busan（visitbusan.net）　イラスト：AI生成\n\n#釜山地下鉄 #釜山 #釜山旅行 #韓国旅行 #旅のコツ #Go2Busan",
+      "caption": "交通カードの基本を知っておくと、釜山の移動がスムーズになります。🚇\n\nバスや地下鉄は乗るとき・降りるときにタッチ。対象の交通機関へ30分以内に乗り換えると割引が適用され、1回の移動で最大2回まで乗り換えできます。始発・終電は駅ごとに異なるので、利用駅の時刻表を確認しましょう。\n\n交通カードのガイドはプロフィールのリンクから。出典：釜山交通公社、釜山広域市。イラスト：AI生成。\n\n#釜山交通 #釜山地下鉄 #釜山旅行 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/transit-card/",
       "verification": {
-        "status": "needs_check",
-        "register": "d07-transit"
+        "status": "verified",
+        "register": "d03-transit",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=10060401",
+          "https://www.busan.go.kr/eng/public-transportation"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
       }
     },
     {
-      "id": "ig-d07-transit-zh-tw",
+      "id": "ig-d03-transit-zh-tw",
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
-      "publish_at_utc": "2026-11-10T12:00:00.000Z",
+      "status": "approved",
+      "publish_at_utc": "2026-11-14T00:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "d07-transit",
+        "set": "d03-transit-v2",
         "stylized": true,
         "prompts": [
-          "Illustration of a bright subway platform with a train arriving and a traveler checking a route on a smartphone, no text",
-          "Illustration of a clock-like shape beside a subway tunnel entrance at night with a sleeping city skyline, no numbers",
-          "Illustration of a transit card tapping a card reader at a subway gate with a soft glow, no text",
-          "Illustration of two connected arrows between a bus and a subway train with a small timer shape, no numbers",
-          "Calm deep navy background with a cream card shape and a yellow bookmark, no letters"
+          "Editorial illustration of a clean metro platform with a train arriving and a traveler checking a route, no station names",
+          "Editorial illustration of a transit card being tapped at a fare gate, no logos or text",
+          "Editorial illustration of a bus and metro train connected by two simple arrows, no numbers",
+          "Editorial illustration of a passenger tapping a card reader while exiting a bus, no text",
+          "Minimal navy background with a cream transit card shape and a yellow bookmark, no letters"
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
       "cards": [
         {
-          "cat": "交通基本",
-          "title": "釜山交通這樣搭",
-          "body": "地鐵、公車與交通卡。"
+          "cat": "交通攻略",
+          "title": "釜山交通卡",
+          "body": "先了解轉乘規則，移動更順暢。"
         },
         {
-          "cat": "地鐵時間",
-          "title": "先知道地鐵營運時間",
-          "body": "地鐵營運時間為5點至23點59分，各站首末班車時間不同。"
+          "cat": "上下車刷卡",
+          "title": "上車與下車都要感應",
+          "body": "搭公車或地鐵時，記得上下車都刷卡。"
         },
         {
-          "cat": "付款方式",
-          "title": "使用交通卡",
-          "body": "Hanaro、T-money等交通卡可享轉乘優惠。可在車站或便利商店儲值。"
+          "cat": "轉乘時間",
+          "title": "留意優惠條件",
+          "body": "符合規定的交通工具在30分鐘內轉乘可享優惠。"
         },
         {
-          "cat": "轉乘",
-          "title": "30分鐘內轉乘",
-          "body": "每趟行程最多優惠2次。下車時請刷卡。"
+          "cat": "確認車站時刻",
+          "title": "先查首末班車",
+          "body": "各站時間不同，請查詢實際搭乘車站。"
         },
         {
-          "cat": "收藏",
-          "title": "收藏這份交通攻略",
-          "body": "交通卡攻略請點個人檔案連結。",
+          "cat": "儲值",
+          "title": "保持卡片有餘額",
+          "body": "可在車站售票機或便利商店等地儲值。",
           "cta": "收藏 · 完整攻略請點個人檔案連結"
         }
       ],
-      "caption": "釜山交通，一次搞懂。🚇\n\n地鐵營運時間為5點至23點59分，各站首末班車時間不同。使用交通卡（Hanaro、T-money等）可享轉乘優惠：30分鐘內、每趟最多2次。下車時請刷卡，可在車站或便利商店儲值。\n\n先收藏起來。交通卡攻略請點個人檔案連結（go2busan.com）。\n\n資料來源：Visit Busan（visitbusan.net）　插畫：AI 生成\n\n#釜山地鐵 #釜山 #釜山旅遊 #韓國旅遊 #旅行小技巧 #Go2Busan",
+      "caption": "在釜山搭車，先搞懂交通卡的基本規則就很方便。🚇\n\n搭公車或地鐵時記得上下車都刷卡。符合規定的交通工具在30分鐘內轉乘可享優惠，每趟行程最多可轉乘2次。各站首末班車時間不同，出發前請查詢實際搭乘車站的時刻表。\n\n交通卡完整攻略請點個人檔案連結。資料來源：釜山交通公社、釜山廣域市。插畫：AI 生成。\n\n#釜山交通 #釜山地鐵 #釜山旅遊 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/transit-card/",
       "verification": {
-        "status": "needs_check",
-        "register": "d07-transit"
+        "status": "verified",
+        "register": "d03-transit",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=10060401",
+          "https://www.busan.go.kr/eng/public-transportation"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d04-skycapsule-en",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-15T12:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d04-skycapsule-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a small colorful elevated capsule train moving beside a calm coastline, no identifiable landmark",
+          "Editorial illustration of a weekly calendar with one highlighted morning square, no numbers or text",
+          "Editorial illustration of a ticket counter with a small first-come queue icon, no logos",
+          "Editorial illustration of a one-way coastal rail capsule and a separate regular train, no labels",
+          "Minimal navy background with a cream ticket card and yellow bookmark, no letters"
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BOOKING TIP",
+          "title": "Sky Capsule sold out?",
+          "body": "Check the official booking page before changing your plan."
+        },
+        {
+          "cat": "TICKET RELEASE",
+          "title": "Know the weekly opening",
+          "body": "Tickets for the week four weeks ahead open Tuesday at 07:00 KST."
+        },
+        {
+          "cat": "SAME-DAY TICKETS",
+          "title": "Do not rely on walk-up sales",
+          "body": "Only a small number may be available, first-come, and can sell out early."
+        },
+        {
+          "cat": "THE ROUTE",
+          "title": "Mipo ↔ Cheongsapo",
+          "body": "The one-way ride covers about 2 km and takes around 30 minutes."
+        },
+        {
+          "cat": "READ THE TICKET",
+          "title": "Entry window, not exact departure",
+          "body": "Check direction, entry window and cancellation terms.",
+          "cta": "Save · Full guide via profile link"
+        }
+      ],
+      "caption": "Want to ride the Haeundae Sky Capsule? Book before you build the whole day around it. 🚝\n\nThe official site opens tickets every Tuesday at 07:00 KST for one week four weeks ahead. A small number of same-day tickets may be sold at the station, first-come, and can sell out early. The one-way Mipo–Cheongsapo ride is about 2 km and takes around 30 minutes; your booking time is an entry window, not a guaranteed departure.\n\nCheck the official booking page and our sold-out guide. Source: Haeundae Blueline Park. Illustration: AI-generated.\n\n#SkyCapsule #Haeundae #BusanTravel #KoreaTravel #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/haeundae-blueline-park-sold-out/",
+      "verification": {
+        "status": "verified",
+        "register": "d04-skycapsule",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.bluelinepark.com/eng/booking.do",
+          "https://www.bluelinepark.com/eng/skyCapsuleCourse.do",
+          "https://www.bluelinepark.com/eng/information.do",
+          "https://www.bluelinepark.com/eng/faqList.do",
+          "https://www.bluelinepark.com/eng/skyCapsuleTime.do"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d04-skycapsule-ja",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-15T12:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d04-skycapsule-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a small colorful elevated capsule train moving beside a calm coastline, no identifiable landmark",
+          "Editorial illustration of a weekly calendar with one highlighted morning square, no numbers or text",
+          "Editorial illustration of a ticket counter with a small first-come queue icon, no logos",
+          "Editorial illustration of a one-way coastal rail capsule and a separate regular train, no labels",
+          "Minimal navy background with a cream ticket card and yellow bookmark, no letters"
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "予約のコツ",
+          "title": "海雲台スカイカプセル",
+          "body": "予定を決める前に公式予約を確認。"
+        },
+        {
+          "cat": "販売開始",
+          "title": "週ごとの発売日",
+          "body": "4週間先の1週間分は、毎週火曜7時（韓国時間）に発売。"
+        },
+        {
+          "cat": "当日券",
+          "title": "現地販売に頼りすぎない",
+          "body": "少数の当日券が先着順で販売されますが、早く売り切れることがあります。"
+        },
+        {
+          "cat": "運行区間",
+          "title": "ミポ ↔ 青沙浦",
+          "body": "片道約2km、所要時間は約30分です。"
+        },
+        {
+          "cat": "予約内容を確認",
+          "title": "時間枠は入場時間",
+          "body": "方向、入場時間枠、キャンセル条件を確認しましょう。",
+          "cta": "保存 · プロフィールのリンクから詳しいガイドへ"
+        }
+      ],
+      "caption": "海雲台のスカイカプセルに乗りたいなら、1日の予定を決める前に予約状況を確認しましょう。🚝\n\n公式サイトでは、4週間先の1週間分のチケットが毎週火曜7時（韓国時間）に発売されます。当日券は少数の先着販売で、早く売り切れることも。ミポ〜青沙浦は片道約2km、約30分です。予約時間は出発時刻ではなく入場時間枠なので注意してください。\n\n公式予約と売り切れ時のヒントはプロフィールのガイドへ。出典：海雲台ブルーラインパーク。イラスト：AI生成。\n\n#スカイカプセル #海雲台 #釜山旅行 #韓国旅行 #Go2Busan",
+      "guide_url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/",
+      "verification": {
+        "status": "verified",
+        "register": "d04-skycapsule",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.bluelinepark.com/eng/booking.do",
+          "https://www.bluelinepark.com/eng/skyCapsuleCourse.do",
+          "https://www.bluelinepark.com/eng/information.do",
+          "https://www.bluelinepark.com/eng/faqList.do",
+          "https://www.bluelinepark.com/eng/skyCapsuleTime.do"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d04-skycapsule-zh-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-15T12:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d04-skycapsule-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a small colorful elevated capsule train moving beside a calm coastline, no identifiable landmark",
+          "Editorial illustration of a weekly calendar with one highlighted morning square, no numbers or text",
+          "Editorial illustration of a ticket counter with a small first-come queue icon, no logos",
+          "Editorial illustration of a one-way coastal rail capsule and a separate regular train, no labels",
+          "Minimal navy background with a cream ticket card and yellow bookmark, no letters"
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "預約提醒",
+          "title": "海雲台天空膠囊列車",
+          "body": "安排整天行程前，先查官方預約。"
+        },
+        {
+          "cat": "開放預約",
+          "title": "每週開放時段",
+          "body": "每週二韓國時間上午7點，開放四週後那一週的票券。"
+        },
+        {
+          "cat": "現場票",
+          "title": "不要把現場購票當保證",
+          "body": "現場可能有少量當日票，採先到先買，也可能提早售完。"
+        },
+        {
+          "cat": "搭乘路線",
+          "title": "尾浦 ↔ 青沙浦",
+          "body": "單程約2公里，車程約30分鐘。"
+        },
+        {
+          "cat": "看清票券",
+          "title": "預約時間是入場時段",
+          "body": "確認方向、入場時段與取消規定。",
+          "cta": "收藏 · 完整攻略請點個人檔案連結"
+        }
+      ],
+      "caption": "想搭海雲台天空膠囊列車，建議先確認預約，再安排當天行程。🚝\n\n官方網站每週二韓國時間上午7點，開放四週後那一週的票券。現場可能有少量當日票，採先到先買，也可能提早售完。尾浦到青沙浦單程約2公里、車程約30分鐘；預約時間是入場時段，不代表列車一定在該時刻出發。\n\n預約前請確認搭乘方向、入場時段與取消規定。資料來源：海雲台藍線公園。插畫：AI 生成。\n\n#天空膠囊列車 #海雲台 #釜山旅遊 #韓國旅遊 #Go2Busan",
+      "guide_url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/",
+      "verification": {
+        "status": "verified",
+        "register": "d04-skycapsule",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://www.bluelinepark.com/eng/booking.do",
+          "https://www.bluelinepark.com/eng/skyCapsuleCourse.do",
+          "https://www.bluelinepark.com/eng/information.do",
+          "https://www.bluelinepark.com/eng/faqList.do",
+          "https://www.bluelinepark.com/eng/skyCapsuleTime.do"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d05-threedays-en",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-16T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d05-three-days-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a folded city map with three highlighted neighborhood circles, no names or text",
+          "Editorial illustration of a seaside promenade with a beach and gentle waves, no recognizable landmark",
+          "Editorial illustration of a lively urban shopping street with small restaurants, no signs or logos",
+          "Editorial illustration of a quiet neighborhood lane with trees and a cafe, no text",
+          "Minimal navy background with a cream itinerary card and three yellow check marks, no letters"
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "TRIP PLANNING",
+          "title": "Three days in Busan",
+          "body": "A realistic plan beats a packed checklist."
+        },
+        {
+          "cat": "DAY 1",
+          "title": "Start with one area",
+          "body": "Choose a neighborhood that fits your arrival time and hotel."
+        },
+        {
+          "cat": "DAY 2",
+          "title": "Give the coast a day",
+          "body": "Group nearby coastal stops instead of crossing the city repeatedly."
+        },
+        {
+          "cat": "DAY 3",
+          "title": "Keep it flexible",
+          "body": "Add a market, a local neighborhood or a slower day."
+        },
+        {
+          "cat": "MAKE IT REALISTIC",
+          "title": "Leave room for travel time",
+          "body": "Add meals, breaks and a little space for discoveries.",
+          "cta": "Save · Full guide via profile link"
+        }
+      ],
+      "caption": "Planning three days in Busan? Think in areas, not a checklist of every famous spot. 🌊\n\nGive one day to the coast, one to a city neighborhood, and keep a third day flexible for a market, a local food stop or a slower pace. Build in travel time and breaks—nearby on a map does not always mean next door.\n\nOur three-day guide is in the profile link. Illustration: AI-generated.\n\n#BusanItinerary #BusanTravel #KoreaTravel #TravelPlanning #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "verified",
+        "register": "d05-three-days",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/busan-three-days/",
+          "https://go2busan.com/ja/guides/three-days/",
+          "https://go2busan.com/zh-tw/guides/three-days/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d05-threedays-ja",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-16T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d05-three-days-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a folded city map with three highlighted neighborhood circles, no names or text",
+          "Editorial illustration of a seaside promenade with a beach and gentle waves, no recognizable landmark",
+          "Editorial illustration of a lively urban shopping street with small restaurants, no signs or logos",
+          "Editorial illustration of a quiet neighborhood lane with trees and a cafe, no text",
+          "Minimal navy background with a cream itinerary card and three yellow check marks, no letters"
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "旅行計画",
+          "title": "釜山3日間の旅",
+          "body": "詰め込みすぎない計画が大切。"
+        },
+        {
+          "cat": "1日目",
+          "title": "まずは1エリア",
+          "body": "到着時刻とホテルの場所に合わせて選びましょう。"
+        },
+        {
+          "cat": "2日目",
+          "title": "海岸エリアを楽しむ",
+          "body": "近い海辺のスポットをまとめて巡るのがおすすめ。"
+        },
+        {
+          "cat": "3日目",
+          "title": "柔軟な1日に",
+          "body": "市場やローカルな街歩き、ゆっくり過ごす時間を。"
+        },
+        {
+          "cat": "無理のない計画",
+          "title": "移動時間も確保",
+          "body": "食事・休憩・寄り道の余白を入れましょう。",
+          "cta": "保存 · プロフィールのリンクから詳しいガイドへ"
+        }
+      ],
+      "caption": "釜山3日間の旅行なら、有名スポットを全部回るよりエリアごとに考えてみましょう。🌊\n\n海岸エリアの日、市街地の街歩きの日、そして市場やローカルな場所を楽しむ柔軟な1日。移動時間と休憩も予定に入れておくと、地図上の距離だけで無理な計画を立てずに済みます。\n\n3日間モデルコースはプロフィールのリンクから。イラスト：AI生成。\n\n#釜山旅行 #釜山モデルコース #韓国旅行 #旅行計画 #Go2Busan",
+      "guide_url": "https://go2busan.com/ja/guides/three-days/",
+      "verification": {
+        "status": "verified",
+        "register": "d05-three-days",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/busan-three-days/",
+          "https://go2busan.com/ja/guides/three-days/",
+          "https://go2busan.com/zh-tw/guides/three-days/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d05-threedays-zh-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-16T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d05-three-days-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of a folded city map with three highlighted neighborhood circles, no names or text",
+          "Editorial illustration of a seaside promenade with a beach and gentle waves, no recognizable landmark",
+          "Editorial illustration of a lively urban shopping street with small restaurants, no signs or logos",
+          "Editorial illustration of a quiet neighborhood lane with trees and a cafe, no text",
+          "Minimal navy background with a cream itinerary card and three yellow check marks, no letters"
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "行程規劃",
+          "title": "釜山三天行程",
+          "body": "走得舒服，比塞滿景點更重要。"
+        },
+        {
+          "cat": "第一天",
+          "title": "先選一個街區",
+          "body": "依抵達時間與住宿地點安排第一天。"
+        },
+        {
+          "cat": "第二天",
+          "title": "留一天給海岸",
+          "body": "把距離相近的海邊景點排在一起。"
+        },
+        {
+          "cat": "第三天",
+          "title": "保留彈性",
+          "body": "安排市場、在地街區，或放慢腳步。"
+        },
+        {
+          "cat": "實際走得完",
+          "title": "把交通時間算進去",
+          "body": "用餐、休息與臨時發現都要留空間。",
+          "cta": "收藏 · 完整攻略請點個人檔案連結"
+        }
+      ],
+      "caption": "第一次安排釜山三天行程，不必把所有知名景點都塞進去。🌊\n\n可以把一天留給海岸，一天安排市區街區，第三天保留彈性，逛市場、找在地美食或慢慢散步。別忘了把交通、用餐與休息時間一起算進去；地圖上看起來近，不代表真的就在隔壁。\n\n三天行程指南請點個人檔案連結。插畫：AI 生成。\n\n#釜山行程 #釜山旅遊 #韓國旅遊 #自由行規劃 #Go2Busan",
+      "guide_url": "https://go2busan.com/zh-tw/guides/three-days/",
+      "verification": {
+        "status": "verified",
+        "register": "d05-three-days",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/busan-three-days/",
+          "https://go2busan.com/ja/guides/three-days/",
+          "https://go2busan.com/zh-tw/guides/three-days/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d06-stay-en",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-17T12:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d06-stay-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of three different accommodation settings: beachfront hotel, central city hotel, and traditional market district, no logos",
+          "Editorial illustration of a hotel balcony overlooking a calm beach, no recognizable skyline",
+          "Editorial illustration of a central metro station surrounded by shops and restaurants, no station names",
+          "Editorial illustration of a small market street with food stalls and pedestrian lanes, no signs",
+          "Minimal navy background with a cream map pin card and yellow bookmark, no letters"
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "WHERE TO STAY",
+          "title": "Choose your Busan base",
+          "body": "Pick an area that matches the days you want."
+        },
+        {
+          "cat": "HAEUNDAE",
+          "title": "Beach and coastal time",
+          "body": "A good fit if the beach and eastern coast are central to your plan."
+        },
+        {
+          "cat": "SEOMYEON",
+          "title": "Central city base",
+          "body": "Useful for shopping, food and metro connections."
+        },
+        {
+          "cat": "NAMPO",
+          "title": "Markets and older streets",
+          "body": "A practical base for market walks and central sights."
+        },
+        {
+          "cat": "BOOK BY YOUR ROUTE",
+          "title": "Map your must-sees first",
+          "body": "Check real travel times from the exact hotel address.",
+          "cta": "Save · Full guide via profile link"
+        }
+      ],
+      "caption": "Where should you stay in Busan? Start with the kind of days you want—not just the hotel photos. 🏨\n\nHaeundae suits a beach-focused plan; Seomyeon is a central city base for shopping, food and metro connections; Nampo works well for market walks and central sights. Map your must-see places and compare routes from the actual hotel address before booking.\n\nFull neighborhood comparison: link in our profile. Illustration: AI-generated.\n\n#BusanHotels #WhereToStay #BusanTravel #KoreaTravel #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "verified",
+        "register": "d06-stay",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/where-to-stay-busan/",
+          "https://go2busan.com/ja/guides/where-to-stay-busan/",
+          "https://go2busan.com/zh-tw/guides/where-to-stay-busan/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d06-stay-ja",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-17T12:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d06-stay-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of three different accommodation settings: beachfront hotel, central city hotel, and traditional market district, no logos",
+          "Editorial illustration of a hotel balcony overlooking a calm beach, no recognizable skyline",
+          "Editorial illustration of a central metro station surrounded by shops and restaurants, no station names",
+          "Editorial illustration of a small market street with food stalls and pedestrian lanes, no signs",
+          "Minimal navy background with a cream map pin card and yellow bookmark, no letters"
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "宿泊エリア",
+          "title": "釜山のホテルはどこに？",
+          "body": "どんな1日を過ごしたいかで選びましょう。"
+        },
+        {
+          "cat": "海雲台",
+          "title": "海辺と海岸散策",
+          "body": "ビーチや東釜山を中心に楽しみたい人向け。"
+        },
+        {
+          "cat": "西面",
+          "title": "市内の中心エリア",
+          "body": "買い物、グルメ、地下鉄移動に便利。"
+        },
+        {
+          "cat": "南浦",
+          "title": "市場と昔ながらの街並み",
+          "body": "市場散策や中心部の観光を楽しみたい人に。"
+        },
+        {
+          "cat": "ルートで選ぶ",
+          "title": "行きたい場所を地図に",
+          "body": "予約前にホテルの正確な住所からの移動を確認。",
+          "cta": "保存 · プロフィールのリンクから詳しいガイドへ"
+        }
+      ],
+      "caption": "釜山のホテルはどこに泊まる？写真だけでなく、どんな1日を過ごしたいかで選びましょう。🏨\n\n海雲台はビーチ中心、西面は買い物・グルメ・地下鉄移動、南浦は市場や中心部の街歩きに向いています。予約前に行きたい場所を地図に置き、ホテルの正確な住所からのルートを比較しましょう。\n\nエリア別ガイドはプロフィールのリンクから。イラスト：AI生成。\n\n#釜山ホテル #釜山旅行 #韓国旅行 #宿泊エリア #Go2Busan",
+      "guide_url": "https://go2busan.com/ja/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "verified",
+        "register": "d06-stay",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/where-to-stay-busan/",
+          "https://go2busan.com/ja/guides/where-to-stay-busan/",
+          "https://go2busan.com/zh-tw/guides/where-to-stay-busan/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d06-stay-zh-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-17T12:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d06-stay-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of three different accommodation settings: beachfront hotel, central city hotel, and traditional market district, no logos",
+          "Editorial illustration of a hotel balcony overlooking a calm beach, no recognizable skyline",
+          "Editorial illustration of a central metro station surrounded by shops and restaurants, no station names",
+          "Editorial illustration of a small market street with food stalls and pedestrian lanes, no signs",
+          "Minimal navy background with a cream map pin card and yellow bookmark, no letters"
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "住宿區域",
+          "title": "釜山住哪裡比較好？",
+          "body": "先想想這趟旅行想怎麼玩。"
+        },
+        {
+          "cat": "海雲台",
+          "title": "海灘與海岸行程",
+          "body": "適合把海邊和東釜山排為旅遊重點的人。"
+        },
+        {
+          "cat": "西面",
+          "title": "市區交通中心",
+          "body": "購物、美食與地鐵轉乘都方便。"
+        },
+        {
+          "cat": "南浦洞",
+          "title": "市場與老街散步",
+          "body": "適合安排傳統市場和市中心景點。"
+        },
+        {
+          "cat": "依路線選住宿",
+          "title": "先把必去地點放上地圖",
+          "body": "訂房前用飯店完整地址比較實際交通。",
+          "cta": "收藏 · 完整攻略請點個人檔案連結"
+        }
+      ],
+      "caption": "釜山住宿要選哪一區？別只看飯店照片，先想想每天想怎麼玩。🏨\n\n海雲台適合海灘與海岸行程；西面是購物、美食和地鐵交通的市區中心；南浦洞則適合逛市場與市中心老街。訂房前先把必去景點放上地圖，再用飯店完整地址比較交通路線。\n\n住宿區域比較指南請點個人檔案連結。插畫：AI 生成。\n\n#釜山住宿 #釜山旅遊 #韓國旅遊 #自由行住宿 #Go2Busan",
+      "guide_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "verified",
+        "register": "d06-stay",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/where-to-stay-busan/",
+          "https://go2busan.com/ja/guides/where-to-stay-busan/",
+          "https://go2busan.com/zh-tw/guides/where-to-stay-busan/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d07-eomuk-en",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-18T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d07-eomuk-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of Korean fish cakes on skewers in a warm paper cup of broth, no branding",
+          "Editorial illustration of several different fish cake shapes arranged on a market tray, no labels",
+          "Editorial illustration of a street-food stall serving a steaming cup of broth, no readable signs",
+          "Editorial illustration of a traveler choosing from a simple menu at a market counter, no readable text",
+          "Minimal navy background with a cream food card and yellow bookmark, no letters"
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "LOCAL FOOD",
+          "title": "Busan eomuk",
+          "body": "A familiar street-food taste with a port-city story."
+        },
+        {
+          "cat": "MORE THAN ONE SHAPE",
+          "title": "Look beyond the skewer",
+          "body": "Fish cakes come in different shapes and textures."
+        },
+        {
+          "cat": "BROTH BREAK",
+          "title": "Warm up with a cup",
+          "body": "Some stalls serve fish cakes with a comforting broth."
+        },
+        {
+          "cat": "CHECK THE MENU",
+          "title": "Each shop is different",
+          "body": "Check the menu and price before ordering."
+        },
+        {
+          "cat": "TRY IT YOUR WAY",
+          "title": "Choose what looks good",
+          "body": "Explore the local food story in our guide.",
+          "cta": "Save · Full guide via profile link"
+        }
+      ],
+      "caption": "That warm cup of eomuk is more than a quick snack. 🍢\n\nBusan eomuk is a regional food tradition, not one single recipe or brand. Look for different shapes and textures, and check each stall's menu and price before ordering. Some places serve fish cakes with broth, making it an easy break while exploring.\n\nRead the local food story through our profile link. Illustration: AI-generated.\n\n#BusanEomuk #KoreanStreetFood #BusanFood #BusanTravel #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-eomuk-history/",
+      "verification": {
+        "status": "verified",
+        "register": "d07-eomuk",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/busan-eomuk-history/",
+          "https://go2busan.com/ja/guides/busan-eomuk-history/",
+          "https://go2busan.com/zh-tw/guides/busan-eomuk-history/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d07-eomuk-ja",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-18T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d07-eomuk-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of Korean fish cakes on skewers in a warm paper cup of broth, no branding",
+          "Editorial illustration of several different fish cake shapes arranged on a market tray, no labels",
+          "Editorial illustration of a street-food stall serving a steaming cup of broth, no readable signs",
+          "Editorial illustration of a traveler choosing from a simple menu at a market counter, no readable text",
+          "Minimal navy background with a cream food card and yellow bookmark, no letters"
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山グルメ",
+          "title": "釜山おでん（オムク）",
+          "body": "港町の食文化を感じる定番の味。"
+        },
+        {
+          "cat": "形はいろいろ",
+          "title": "串だけではない",
+          "body": "形や食感の異なる練り物があります。"
+        },
+        {
+          "cat": "スープと一緒に",
+          "title": "温かい一杯",
+          "body": "おでんと一緒にスープを出す店もあります。"
+        },
+        {
+          "cat": "メニューを確認",
+          "title": "店ごとに違う",
+          "body": "注文前にメニューと価格を確認しましょう。"
+        },
+        {
+          "cat": "自分の好みで",
+          "title": "気になるものを選ぶ",
+          "body": "釜山オムクの背景をガイドで紹介。",
+          "cta": "保存 · プロフィールのリンクから詳しいガイドへ"
+        }
+      ],
+      "caption": "温かいオムクのスープは、釜山の街歩きにぴったりの軽食。🍢\n\n釜山オムクはひとつのレシピやブランドだけではなく、形や食感もさまざまな地域の食文化です。店によってメニューや価格が異なるので、注文前に確認しましょう。スープと一緒に楽しめる店もあります。\n\n釜山オムクの背景はプロフィールのガイドから。イラスト：AI生成。\n\n#釜山おでん #釜山グルメ #韓国旅行 #韓国屋台 #Go2Busan",
+      "guide_url": "https://go2busan.com/ja/guides/busan-eomuk-history/",
+      "verification": {
+        "status": "verified",
+        "register": "d07-eomuk",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/busan-eomuk-history/",
+          "https://go2busan.com/ja/guides/busan-eomuk-history/",
+          "https://go2busan.com/zh-tw/guides/busan-eomuk-history/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
+      }
+    },
+    {
+      "id": "ig-d07-eomuk-zh-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "approved",
+      "publish_at_utc": "2026-11-18T00:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "d07-eomuk-v2",
+        "stylized": true,
+        "prompts": [
+          "Editorial illustration of Korean fish cakes on skewers in a warm paper cup of broth, no branding",
+          "Editorial illustration of several different fish cake shapes arranged on a market tray, no labels",
+          "Editorial illustration of a street-food stall serving a steaming cup of broth, no readable signs",
+          "Editorial illustration of a traveler choosing from a simple menu at a market counter, no readable text",
+          "Minimal navy background with a cream food card and yellow bookmark, no letters"
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "在地小吃",
+          "title": "釜山魚板",
+          "body": "熟悉的街頭滋味，也有港口城市的故事。"
+        },
+        {
+          "cat": "不只一種形狀",
+          "title": "看看不同魚板",
+          "body": "魚板有各種形狀與口感，不只有串燒。"
+        },
+        {
+          "cat": "熱湯搭配",
+          "title": "來一杯暖呼呼的湯",
+          "body": "有些攤位會搭配熱湯一起享用。"
+        },
+        {
+          "cat": "先看菜單",
+          "title": "每家店都不同",
+          "body": "點餐前先確認菜單與價格。"
+        },
+        {
+          "cat": "依喜好挑選",
+          "title": "找到自己喜歡的口味",
+          "body": "從我們的指南認識釜山魚板文化。",
+          "cta": "收藏 · 完整攻略請點個人檔案連結"
+        }
+      ],
+      "caption": "一杯熱呼呼的魚板湯，不只是快速填飽肚子的小吃。🍢\n\n釜山魚板是一種地方飲食文化，不是只有單一配方或品牌。可以留意不同形狀與口感；各家攤位的菜單和價格不同，點餐前先確認。有些店也會搭配熱湯一起供應。\n\n釜山魚板故事請點個人檔案連結。插畫：AI 生成。\n\n#釜山魚板 #韓國街頭小吃 #釜山美食 #釜山旅遊 #Go2Busan",
+      "guide_url": "https://go2busan.com/zh-tw/guides/busan-eomuk-history/",
+      "verification": {
+        "status": "verified",
+        "register": "d07-eomuk",
+        "checked_on": "2026-11-10",
+        "sources": [
+          "https://go2busan.com/guides/busan-eomuk-history/",
+          "https://go2busan.com/ja/guides/busan-eomuk-history/",
+          "https://go2busan.com/zh-tw/guides/busan-eomuk-history/"
+        ],
+        "approved_by": "Owner-directed refresh 2026-11-10"
       }
     }
   ]
