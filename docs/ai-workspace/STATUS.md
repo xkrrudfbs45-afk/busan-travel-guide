@@ -84,3 +84,10 @@ _Last updated: 2026-11-10 — live GitHub reconciliation_
 - The Threads `threads-state` log contains 18 published records and no failed records at this check. The #305 branch has 144 future approved Threads entries; #304 changes 42 upcoming posts and resets them to draft. Compare the exact changed records before choosing which copy to keep.
 - The Instagram `instagram-state` log contains 6 published records and no failures. On #305, 21 future posts are approved/verified and 2 superseded drafts are cancelled; the next series is scheduled Nov 12–18. This is branch data, not a claim that #305 has been merged or that all posts have already published.
 - Keep #304/#305 separate until their content and schedule differences are reviewed. Do not merge either automatically: merge could affect the publisher's eligible queue when LIVE is enabled.
+
+
+### Additional execution — 2026-11-10
+
+- Opened draft PR #307: clarify Kkangtong Golmok Halmae Yubu Jeongol as an unvisited local tip rather than a first-hand review. One English guide paragraph changed; no URL, map, pricing, hours, image, analytics, affiliate or publisher changes. Technical SEO workflow #833 passed (public-site build + dependency-free audit). Manual 360px/390px/desktop review remains outstanding.
+- #297 PNU six-pick branch includes the Jangjeon-dong Gaya Park Dwaeji Gukbap recommendation in EN/JA/zh-TW and explicitly identifies it as a local recommendation, not an author visit. Address matches the Jangjeon-oncheoncheon-ro 87 listing; no current menu or hours asserted. Do not claim this PR is merged.
+- Social publisher logs checked: Threads 18 published, 0 failed; Instagram 6 published, 0 failed. The Nov 7 fireworks post `d01-us-2` was published Nov 4, not left pending. #305 future schedule shows 21 approved/verified Instagram posts and 144 future approved Threads posts; #304 resets 42 upcoming Threads posts to draft. Keep #304/#305 unreconciled until post-by-post diff and owner approval.
