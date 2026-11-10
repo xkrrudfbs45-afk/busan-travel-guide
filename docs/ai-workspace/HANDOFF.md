@@ -67,3 +67,14 @@ No merge, production deploy, paid API usage, partner application, or external sp
 
 ### Owner approval required
 - No merge or production deployment. No live social publishing, workflow cadence change, token/secret change, or paid API spend.
+
+
+### Additional audit — localized previews and social approval states
+
+- #303 branch now uses the evergreen Busanhang Bridge homepage image for both EN and zh-TW social previews (latest commits `0d9951b`, `5d276ed`); the autumn feature and localized guide content remain intact.
+- Static checks on the updated #303/#306 branches confirm the expired fireworks image reference is absent from EN, JA and zh-TW homepages in the relevant branches. This is branch-level verification only; main remains unchanged until owner-approved merge/deploy.
+- Social schedule comparison: main currently has 6 approved + 18 draft Instagram posts; 180 approved Threads posts. PR #304 branch has 6 approved + 18 draft Instagram and 138 approved + 42 draft Threads. PR #305 branch has 21 approved + 3 cancelled Instagram and 178 approved + 2 cancelled Threads. Because these PRs touch the same schedule files and #305 contains many approved posts, merging it could make content eligible for existing publisher workflows if LIVE variables are enabled. Treat #305 as a publication approval decision, not a routine content-only merge. No schedule, LIVE variable, workflow cadence, token or secret was changed in this work.
+
+
+### Social release gate
+- Compare #304 and #305 schedule JSON record-by-record before merge. Verify copy, language-specific destination URLs, scheduled times, verification status and approval provenance. Do not infer approval from a PR description. The existing publisher workflows and LIVE variables govern actual publication.
