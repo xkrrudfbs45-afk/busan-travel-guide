@@ -1,4 +1,4 @@
-name: Threads publisher (Go2Busan JP/US)
+name: Threads publisher (Go2Busan JP/TW/US)
 
 # SNS automation only. Independent of the site build/deploy pipeline:
 # - reads the reviewed schedule from main (content/social/threads-30day/schedule.json)
@@ -8,8 +8,8 @@ name: Threads publisher (Go2Busan JP/US)
 # Otherwise every run is a dry run that prints what would be posted.
 #
 # Scheduled checks: 09:00 and 21:00 Korea Standard Time (UTC 00:00 and 12:00).
-# Local JP/TW/US post slots are about one hour before each check; the existing 3h
-# late window accommodates normal GitHub Actions scheduling delays without backlog bursts.
+# JP/US local post slots are about one hour before each check; Taiwan slots align with
+# the check times. The existing 3h late window absorbs normal Actions delays without bursts.
 
 on:
   schedule:
