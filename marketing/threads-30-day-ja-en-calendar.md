@@ -122,30 +122,30 @@ Three days in Busan doesn’t mean you have to see everything. Put your prioriti
 ## Day 8 — Transit planning
 
 ### Japan · Post 1 (08:00 JST)
-釜山では、行き先だけでなく「どこから移動するか」も旅の計画に大切。宿泊エリアと最初の目的地を先に決めると、到着後の動きが考えやすくなります。運賃や運行情報は出発前に最新情報を確認しましょう。
+金海空港からホテルへ向かうときは、まずホテルの正確な住所を確認。空港軽電鉄は沙上駅で地下鉄2号線、大渚駅で3号線に接続します。海雲台・機張方面の空港リムジン1号は長山行きと機張行きで時刻表が異なるため、乗車前に行き先を確認しましょう。
 
 ### Japan · Post 2 (20:00 JST)
-旅の移動は、最短時間だけで決めなくても大丈夫。荷物の量、乗り換え、到着時間も考えて、自分に合う方法を選びましょう。空港から宿までのルートは出発前に確認しておくと安心です。
+荷物が多い、夜遅く着く、複数人で移動するなら、タクシーも比較候補に。費用を抑えたい場合は軽電鉄＋地下鉄が便利ですが、乗換回数とホテルまでの徒歩も確認を。最終便は駅や日によって異なるため、到着日に合わせて公式時刻表を確認しましょう。
 
 ### USA · Post 1 (08:00 ET)
-Make your first transit decision before you land: where are you staying, and how will you get there with your luggage? Compare routes for your arrival time and check current fares and service information before departure.
+From Gimhae Airport, the light rail connects with Metro Line 2 at Sasang and Line 3 at Daejeo. Airport Limousine 1 for Haeundae and Gijang has separate Jangsan and Gijang timetables. Match the bus destination to your hotel address before boarding.
 
 ### USA · Post 2 (18:00 ET)
-The fastest route isn’t always the easiest route when you have luggage or arrive late. For Busan, compare the transfer count, walking distance, and arrival time—not just the number of minutes shown on a map.
+Traveling with large bags, arriving late, or moving as a group? Compare taxi and rail by door-to-door time, transfers, walking distance and total cost—not just the fare. Check the final train or bus for your actual arrival date before leaving the airport.
 
 ## Day 9 — Where to stay
 
 ### Japan · Post 1 (08:00 JST)
-ホテル選びは、部屋の写真だけでなく「行きたい場所との相性」も大切。海辺を中心に楽しみたいのか、街なかを移動しやすくしたいのかで、便利なエリアは変わります。
+釜山の宿泊エリアは、旅の目的で選ぶと便利です。海雲台はビーチや東側の海岸、西面は地下鉄の乗り換えと街なかの食事、南浦洞は市場や旧市街の散策に向いています。ホテルの正確な住所から行きたい場所までのルートを比べてみましょう。
 
 ### Japan · Post 2 (20:00 JST)
-宿泊先を決める前に、行きたい場所を地図に置いてみてください。毎日遠くまで移動する計画になっていたら、エリアを絞るか宿の場所を見直すサインかもしれません。
+ホテルを予約する前に、必ず行きたい場所を3つ地図に保存してみてください。毎日、海雲台・西面・南浦洞の間を往復する計画なら、宿泊エリアか観光ルートを見直すと移動時間を減らせます。駅名だけでなくホテルの住所で検索するのがポイントです。
 
 ### USA · Post 1 (08:00 ET)
-Where you stay shapes your Busan trip. Choose based on the kind of days you want—beach time, city exploring, or a mix—and check actual routes from the accommodation to your must-see places.
+Choose your Busan hotel area around the days you want: Haeundae for beach time and the east coast, Seomyeon for metro connections and city food, or Nampo for markets and old-town walks. Compare routes from the exact hotel address to your priority stops before booking.
 
 ### USA · Post 2 (18:00 ET)
-Before booking a hotel, map your top stops. If every day starts with a long cross-city trip, consider regrouping your itinerary or comparing a different base. Location can save time and energy.
+Before you book, save your three must-see places on a map. If your plan sends you between Haeundae, Seomyeon and Nampo every day, reconsider the hotel base or group nearby sights together. Search from the full hotel address—not just the neighborhood name.
 
 ## Day 10 — Coastal walks
 
