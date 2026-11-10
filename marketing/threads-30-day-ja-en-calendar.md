@@ -124,7 +124,7 @@ Three days in Busan doesn’t mean you have to see everything. Put your prioriti
 ### Japan · Post 1 (08:00 JST)
 釜山市區公車現在可用 ZeroPay QR Code 付款。每人車資 1,700 韓元，未滿 6 歲免費；同行者要逐一掃碼，而且 QR 付款沒有交通卡轉乘優惠。若還要搭地鐵，交通卡仍是更方便的選擇。
 
-### Japan · Post 2 (18:00 JST)
+### Japan · Post 2 (20:00 JST)
 搭釜山公車時，你會想用熟悉的支付 App，還是直接用 T-money 等交通卡？QR 付款適合單搭公車；若要公車轉地鐵，記得交通卡才有符合條件的轉乘優惠。
 
 ### USA · Post 1 (08:00 ET)
@@ -138,7 +138,7 @@ A useful Busan transport detail: QR payment is for city buses, not the metro. It
 ### Japan · Post 1 (08:00 JST)
 釜山のホテルは、行きたい場所に合わせて選ぶのがコツ。西面は市内移動の拠点、海雲台は海辺と東釜山、広安里は夜景、南浦は市場や旧市街を楽しみたい人に向いています。
 
-### Japan · Post 2 (18:00 JST)
+### Japan · Post 2 (20:00 JST)
 ホテルを予約する前に、行きたい場所を地図に置いてみましょう。毎日遠くまで移動するなら、宿のエリアか観光ルートを見直すサイン。部屋の写真だけでなく、駅までの道や坂道も確認を。
 
 ### USA · Post 1 (08:00 ET)
@@ -152,7 +152,7 @@ Before booking, pin your must-sees on a map. If every day starts with a long cro
 ### Japan · Post 1 (08:00 JST)
 影島の海岸散歩を計画するなら、絶影海岸散歩道、ヒンヨウル文化村、太宗台をひとまとめの短い徒歩コースだと思わないこと。見どころが広がっているので、区間ごとの移動方法と歩く距離を確認しましょう。
 
-### Japan · Post 2 (18:00 JST)
+### Japan · Post 2 (20:00 JST)
 釜山の影島は、海沿いの遊歩道、白い壁の文化村、灯台のある岬など景色が変わるエリア。全部を急いで回るより、行きたい場所を絞って移動時間も含めて計画するのがおすすめです。
 
 ### USA · Post 1 (08:00 ET)
@@ -166,7 +166,7 @@ Yeongdo offers a different side of Busan: coastal paths, a hillside culture vill
 ### Japan · Post 1 (08:00 JST)
 田浦カフェ通りは、コーヒーやデザートだけでなく、路地の小さな店や個性的な空間を探すのも楽しいエリア。大通りだけで終わらず、気になる路地を少し歩いてみてください。
 
-### Japan · Post 2 (18:00 JST)
+### Japan · Post 2 (20:00 JST)
 田浦のカフェ巡りは、店を何軒も詰め込まなくても楽しめます。気になる一軒を決めて、周辺のベーカリーや雑貨店もゆっくり見る。営業時間や休業日は各店の最新案内を確認しましょう。
 
 ### USA · Post 1 (08:00 ET)
@@ -180,7 +180,7 @@ You don’t need to café-hop all afternoon in Jeonpo. Pick one place you’re c
 ### Japan · Post 1 (08:00 JST)
 釜山の秋色を楽しむなら、黄領山の街と海を見渡す景色、金井山・梵魚寺周辺の森と寺院風景を候補に。紅葉の時期は年ごとの天候で変わるので、直前の状況を確認しましょう。
 
-### Japan · Post 2 (18:00 JST)
+### Japan · Post 2 (20:00 JST)
 黄領山と金井山は同じ散歩コースではありません。街並みを見渡したい日と、森や寺院の雰囲気を楽しみたい日で分けると計画しやすくなります。歩きやすい靴と帰りの交通も忘れずに。
 
 ### USA · Post 1 (08:00 ET)
@@ -189,12 +189,12 @@ For autumn color in Busan, consider Hwangnyeongsan for wide city-and-coast views
 ### USA · Post 2 (18:00 ET)
 Hwangnyeongsan and Geumjeongsan are different outings, not one connected walking route. Choose the city-view experience or the mountain-and-temple atmosphere, then plan transport and walking time around that choice.
 
-## Day 13 — Jagalchi market know-how
+## Day 13 — Jagalchi Market know-how
 
 ### Japan · Post 1 (08:00 JST)
 チャガルチ市場で海鮮を買うなら、魚介の種類、計量する重さ、単価、調理費、席料を注文前に確認しましょう。市場全体で料金が一律というわけではないので、最後の合計額を見てから決めるのが安心です。
 
-### Japan · Post 2 (18:00 JST)
+### Japan · Post 2 (20:00 JST)
 「いくらですか？」だけで終わらせず、何を何グラム買うのか、調理や席料が別かも確認。魚介を量ったり調理したりする前に、追加料金込みの総額を見せてもらいましょう。
 
 ### USA · Post 1 (08:00 ET)
@@ -208,7 +208,7 @@ A simple question can prevent confusion at a seafood market: “What’s the tot
 ### Japan · Post 1 (08:00 JST)
 釜山のお土産は、定番のお菓子だけでなく、港町らしいデザインや地元作家の小物も候補になります。釜山市の公式観光土産もチェックしつつ、買う場所と持ち帰りやすさで選びましょう。
 
-### Japan · Post 2 (18:00 JST)
+### Japan · Post 2 (20:00 JST)
 お土産を買うなら、最終日にまとめて探すより、訪れるエリアで少しずつ候補を見ておくと安心。ポップアップや店舗在庫は変わるので、行く前に販売場所を確認してください。
 
 ### USA · Post 1 (08:00 ET)
