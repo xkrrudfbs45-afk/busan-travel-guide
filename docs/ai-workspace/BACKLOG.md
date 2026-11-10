@@ -30,11 +30,12 @@ This is a prioritized portfolio, not authorization to implement everything at on
 
 | ID | Task | Expected outcome | Acceptance evidence |
 |---|---|---|---|
-| G2B-021 | Reconcile social schedule against publish logs | No expired approved slots can be posted late; no false claim of publication | Zero expired approved slots without matching logs; manual account-history check before reuse |
-| G2B-022 | Separate first-hand visits, local tips and directory facts | Transparent local editorial trust | Each food entry labels provenance and links its factual source |
-| G2B-023 | Verify volatile restaurant details | Reduce wasted trips from stale hours/phones/prices | Official or current listing linked; conflicts disclosed; day-of caveat |
-| G2B-024 | Original restaurant photography and rights | Stronger food discovery without copyright risk | Owner-supplied or licensed finished-dish images with attribution and responsive sizes |
-| G2B-025 | SNS approval and LIVE release gate | Prevent accidental account posting on merge | Owner review of schedule diff and confirmation of LIVE state before merge |
+| G2B-021 | Reconcile social schedule against publish logs | Prevent expired slots from posting late | Pipeline reconciliation complete in PR #305; manual account-history check still required before reuse |
+| G2B-022 | Separate first-hand visits, local tips and directory facts | Transparent local editorial trust | In progress in #309 and #311; keep provenance labels and source links consistent across new pages |
+| G2B-023 | Verify volatile restaurant details | Reduce wasted trips from stale hours/phones/prices | Updated in #309 and #311; continue day-of caveats where listings conflict |
+| G2B-024 | Original restaurant photography and rights | Stronger food discovery without copyright risk | Still outstanding; use owner-supplied or licensed finished-dish images with attribution and responsive sizes |
+| G2B-025 | SNS approval and LIVE release gate | Prevent accidental account posting on merge | #305 remains draft; owner review and LIVE-state confirmation required before merge |
+| G2B-026 | Mobile QA for updated food pages | Ensure restaurant cards, maps and text work on small screens | 360px, 390px and desktop checks on #309 and #311 before merge |
 
 ## P1 — Days 31–90
 
