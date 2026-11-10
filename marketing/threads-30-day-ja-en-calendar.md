@@ -119,103 +119,104 @@ For a first Busan trip, try planning by day type: one day for the coast, one for
 ### USA · Post 2 (18:00 ET)
 Three days in Busan doesn’t mean you have to see everything. Put your priorities on the map, check how far apart they are, and remove anything that makes the day feel rushed. What would make your ideal third day?
 
-## Day 8 — Transit planning
+## Day 8 — Busan bus QR payments
 
 ### Japan · Post 1 (08:00 JST)
-釜山では、行き先だけでなく「どこから移動するか」も旅の計画に大切。宿泊エリアと最初の目的地を先に決めると、到着後の動きが考えやすくなります。運賃や運行情報は出発前に最新情報を確認しましょう。
+釜山市區公車現在可用 ZeroPay QR Code 付款。每人車資 1,700 韓元，未滿 6 歲免費；同行者要逐一掃碼，而且 QR 付款沒有交通卡轉乘優惠。若還要搭地鐵，交通卡仍是更方便的選擇。
 
-### Japan · Post 2 (20:00 JST)
-旅の移動は、最短時間だけで決めなくても大丈夫。荷物の量、乗り換え、到着時間も考えて、自分に合う方法を選びましょう。空港から宿までのルートは出発前に確認しておくと安心です。
+### Japan · Post 2 (18:00 JST)
+搭釜山公車時，你會想用熟悉的支付 App，還是直接用 T-money 等交通卡？QR 付款適合單搭公車；若要公車轉地鐵，記得交通卡才有符合條件的轉乘優惠。
 
 ### USA · Post 1 (08:00 ET)
-Make your first transit decision before you land: where are you staying, and how will you get there with your luggage? Compare routes for your arrival time and check current fares and service information before departure.
+Busan city buses now accept ZeroPay QR payments. The fare is ₩1,700 per passenger; children under 6 ride free. Each rider pays separately, and QR payments do not get transit-card transfer discounts. If you’ll connect to the metro, keep a transit card handy.
 
 ### USA · Post 2 (18:00 ET)
-The fastest route isn’t always the easiest route when you have luggage or arrive late. For Busan, compare the transfer count, walking distance, and arrival time—not just the number of minutes shown on a map.
+A useful Busan transport detail: QR payment is for city buses, not the metro. It can save you buying a card for a single bus ride, but a rechargeable transit card is more practical if you’ll transfer between buses and subway. Which would you use?
 
-## Day 9 — Where to stay
+## Day 9 — Choose the right base
 
 ### Japan · Post 1 (08:00 JST)
-ホテル選びは、部屋の写真だけでなく「行きたい場所との相性」も大切。海辺を中心に楽しみたいのか、街なかを移動しやすくしたいのかで、便利なエリアは変わります。
+釜山のホテルは、行きたい場所に合わせて選ぶのがコツ。西面は市内移動の拠点、海雲台は海辺と東釜山、広安里は夜景、南浦は市場や旧市街を楽しみたい人に向いています。
 
-### Japan · Post 2 (20:00 JST)
-宿泊先を決める前に、行きたい場所を地図に置いてみてください。毎日遠くまで移動する計画になっていたら、エリアを絞るか宿の場所を見直すサインかもしれません。
+### Japan · Post 2 (18:00 JST)
+ホテルを予約する前に、行きたい場所を地図に置いてみましょう。毎日遠くまで移動するなら、宿のエリアか観光ルートを見直すサイン。部屋の写真だけでなく、駅までの道や坂道も確認を。
 
 ### USA · Post 1 (08:00 ET)
-Where you stay shapes your Busan trip. Choose based on the kind of days you want—beach time, city exploring, or a mix—and check actual routes from the accommodation to your must-see places.
+Where to stay in Busan depends on the trip you want. Seomyeon works as a central base, Haeundae suits beach time and east Busan, Gwangalli is about the waterfront night view, and Nampo is handy for markets and the old downtown.
 
 ### USA · Post 2 (18:00 ET)
-Before booking a hotel, map your top stops. If every day starts with a long cross-city trip, consider regrouping your itinerary or comparing a different base. Location can save time and energy.
+Before booking, pin your must-sees on a map. If every day starts with a long cross-city ride, rethink either your hotel area or your route. Check the real walk to the station too—hills matter in Busan.
 
-## Day 10 — Coastal walks
+## Day 10 — A day on Yeongdo
 
 ### Japan · Post 1 (08:00 JST)
-釜山の海辺を歩く日は、目的地をひとつだけ決めて、途中で景色を楽しむ時間も残してみてください。写真を撮る、ベンチで休む、海を眺める。そんな余白も旅の思い出になります。
+影島の海岸散歩を計画するなら、絶影海岸散歩道、ヒンヨウル文化村、太宗台をひとまとめの短い徒歩コースだと思わないこと。見どころが広がっているので、区間ごとの移動方法と歩く距離を確認しましょう。
 
-### Japan · Post 2 (20:00 JST)
-旅先で好きなのは、名所を巡ること？ それとも目的を決めずに散歩すること？ 釜山では、予定の間に少し歩く時間を入れるだけでも、街の雰囲気に触れやすくなります。
+### Japan · Post 2 (18:00 JST)
+釜山の影島は、海沿いの遊歩道、白い壁の文化村、灯台のある岬など景色が変わるエリア。全部を急いで回るより、行きたい場所を絞って移動時間も含めて計画するのがおすすめです。
 
 ### USA · Post 1 (08:00 ET)
-A coastal walk is a reminder to slow down. Pick one destination, then leave time for the view, photos, or a break along the way. You don’t have to turn every beautiful place into a timed stop.
+Planning a day on Yeongdo? The Jeoryeong Coastal Walk, Huinnyeoul Culture Village and Taejongdae are spread across the island. Don’t treat them as one short, continuous stroll—check the travel time between stops and choose the sections you want.
 
 ### USA · Post 2 (18:00 ET)
-What’s your favorite travel pace: landmarks and checklists, or long walks with no strict plan? In Busan, try leaving one open block in your itinerary just to explore at your own speed.
+Yeongdo offers a different side of Busan: coastal paths, a hillside culture village and dramatic headland scenery. Pick your priorities, leave time for the transfers, and don’t try to turn every stop into a quick photo break.
 
-## Day 11 — Café breaks
+## Day 11 — Jeonpo café streets
 
 ### Japan · Post 1 (08:00 JST)
-カフェは休憩場所であると同時に、旅のペースを整える場所。観光の合間にひと息つく時間を予定に入れると、次の場所へ向かう気持ちにも余裕が生まれます。
+田浦カフェ通りは、コーヒーやデザートだけでなく、路地の小さな店や個性的な空間を探すのも楽しいエリア。大通りだけで終わらず、気になる路地を少し歩いてみてください。
 
-### Japan · Post 2 (20:00 JST)
-旅先のカフェは、景色重視？ コーヒーやデザート重視？ それとも歩き疲れたときに近くで見つける派？ 釜山で立ち寄りたいカフェの条件、ぜひ教えてください。
+### Japan · Post 2 (18:00 JST)
+田浦のカフェ巡りは、店を何軒も詰め込まなくても楽しめます。気になる一軒を決めて、周辺のベーカリーや雑貨店もゆっくり見る。営業時間や休業日は各店の最新案内を確認しましょう。
 
 ### USA · Post 1 (08:00 ET)
-A café break can be part of the itinerary, not a detour from it. Use it to reset between neighborhoods instead of scheduling every minute of the day.
+Jeonpo Café Street is more than a row of coffee shops. Look for dessert cafés, bakeries, workshops and small stores tucked into side streets. The area’s former tool-shop identity is part of what makes the neighborhood interesting.
 
 ### USA · Post 2 (18:00 ET)
-Your travel café style says a lot: sea view, great coffee, dessert, or simply somewhere nearby to rest? What makes you save a café when planning a trip?
+You don’t need to café-hop all afternoon in Jeonpo. Pick one place you’re curious about, then leave time to explore the side streets and small shops nearby. Check each café’s own hours before you go.
 
-## Day 12 — Photo spots without rushing
+## Day 12 — Autumn foliage in Busan
 
 ### Japan · Post 1 (08:00 JST)
-写真を撮りたい場所が多い旅ほど、1日に回るエリアを絞るのがおすすめ。移動に追われず、気に入った景色の前でゆっくり過ごせます。撮影スポットはアクセス方法も確認しておきましょう。
+釜山の秋色を楽しむなら、黄領山の街と海を見渡す景色、金井山・梵魚寺周辺の森と寺院風景を候補に。紅葉の時期は年ごとの天候で変わるので、直前の状況を確認しましょう。
 
-### Japan · Post 2 (20:00 JST)
-旅の写真は、名所の一枚だけでなく、路地の看板や食卓、海辺の光もあとから思い出になります。釜山で撮りたいのは、街並み、食べ物、海の景色のどれですか？
+### Japan · Post 2 (18:00 JST)
+黄領山と金井山は同じ散歩コースではありません。街並みを見渡したい日と、森や寺院の雰囲気を楽しみたい日で分けると計画しやすくなります。歩きやすい靴と帰りの交通も忘れずに。
 
 ### USA · Post 1 (08:00 ET)
-If photos are a big part of your trip, group nearby spots together. You’ll have more time to enjoy the view instead of rushing to the next location. Always check access and local rules before visiting a photo spot.
+For autumn color in Busan, consider Hwangnyeongsan for wide city-and-coast views, or the Geumjeongsan and Beomeosa area for forest paths and temple scenery. The timing shifts with the weather each year, so check current conditions before setting out.
 
 ### USA · Post 2 (18:00 ET)
-Travel photos aren’t only famous landmarks. A meal, a street sign, the light over the water—small details can bring a trip back to life. What do you photograph most when you travel?
+Hwangnyeongsan and Geumjeongsan are different outings, not one connected walking route. Choose the city-view experience or the mountain-and-temple atmosphere, then plan transport and walking time around that choice.
 
-## Day 13 — Markets and everyday life
+## Day 13 — Jagalchi market know-how
 
 ### Japan · Post 1 (08:00 JST)
-旅先の市場は、買い物や食事だけでなく、その街の日常を感じられる場所でもあります。通路をふさがず、写真を撮るときは周りの人への配慮も忘れずに楽しみたいですね。
+チャガルチ市場で海鮮を買うなら、魚介の種類、計量する重さ、単価、調理費、席料を注文前に確認しましょう。市場全体で料金が一律というわけではないので、最後の合計額を見てから決めるのが安心です。
 
-### Japan · Post 2 (20:00 JST)
-地元の市場を歩くとき、つい見てしまうのは何ですか？ 食材、屋台、店先の雰囲気、それとも人の行き来？ 旅先ならではの発見を聞いてみたいです。
+### Japan · Post 2 (18:00 JST)
+「いくらですか？」だけで終わらせず、何を何グラム買うのか、調理や席料が別かも確認。魚介を量ったり調理したりする前に、追加料金込みの総額を見せてもらいましょう。
 
 ### USA · Post 1 (08:00 ET)
-Markets offer more than food and shopping—they’re a window into everyday life. Be considerate in busy aisles, ask before taking close-up photos of people, and give yourself time to observe.
+At Jagalchi Market, agree on the details before seafood is weighed or prepared: species, charged weight, unit price, preparation fees and any per-person table charge. Fees vary by shop, so ask for the full total before you commit.
 
 ### USA · Post 2 (18:00 ET)
-When you explore a market, what do you notice first: ingredients, street food, shop displays, or the rhythm of the neighborhood? Those small observations often become the most memorable travel stories.
+A simple question can prevent confusion at a seafood market: “What’s the total including preparation and table fees?” Compare the final meal cost—not just the seafood price—and don’t assume every stall uses the same pricing model.
 
-## Day 14 — Midpoint check-in
+## Day 14 — Busan souvenirs
 
 ### Japan · Post 1 (08:00 JST)
-釜山旅行の計画、どこまで進みましたか？ 行き先を決めた人も、まだ地図を眺めている人も、まずは「行きたい場所3つ」から始めると整理しやすいです。
+釜山のお土産は、定番のお菓子だけでなく、港町らしいデザインや地元作家の小物も候補になります。釜山市の公式観光土産もチェックしつつ、買う場所と持ち帰りやすさで選びましょう。
 
-### Japan · Post 2 (20:00 JST)
-ここまでの旅のヒントで、役に立ったテーマはありましたか？ グルメ、交通、宿泊エリア、海辺の散歩など、次に知りたい釜山情報をコメントで教えてください。
+### Japan · Post 2 (18:00 JST)
+お土産を買うなら、最終日にまとめて探すより、訪れるエリアで少しずつ候補を見ておくと安心。ポップアップや店舗在庫は変わるので、行く前に販売場所を確認してください。
 
 ### USA · Post 1 (08:00 ET)
-Busan trip planning check-in: do you have your dates and neighborhood picked, or are you still collecting ideas? Start with three priorities and build outward from there.
+Busan souvenirs can be more personal than a standard snack box: look for local design goods, port-city motifs and practical small gifts. The city also highlights official Busan tourism souvenirs, which are worth browsing as ideas.
 
 ### USA · Post 2 (18:00 ET)
-What would help you plan Busan next: local food, transit, where to stay, coastal walks, or rainy-day ideas? Tell us what you’re curious about so future guides can be more useful.
+Before making a special trip to a souvenir shop, check its current location and stock. Pop-ups and seasonal displays can change; choose something easy to pack and meaningful to the place you visited.
+
 
 ## Day 15 — Make room for a flexible day
 
