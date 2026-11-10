@@ -11,7 +11,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Created `docs/ai-workspace/FOOD-PHOTO-SHOTLIST.md` with restaurant-by-restaurant capture priorities, original-image rights, privacy checks, filename rules and mobile framing guidance.
 
 ### Verification
-- PR #305 preceding revision: Instagram content tests and Technical SEO audit passed. The latest schedule, localized link-reply and copy changes need a fresh CI run.
+- PR #305 preceding revision: Instagram content tests and Technical SEO audit passed. Latest CI on the current PR #305 head passes Instagram content tests and Technical SEO. All 180 schedule entries match the source calendars; eight refreshed JP/US posts remain draft.
 - PR #309 initial revision: Technical SEO audit/build passed. A subsequent HTML paragraph closure fix still needs a fresh check.
 - PR #311: six EN/JA/Traditional Chinese food pages plus five homepage/directory files pass local structural checks (unique IDs, no broken in-page anchors, balanced paragraph tags and valid JSON-LD); latest Technical SEO build/audit passes.
 - Threads reconciliation on PR #305 branch: 148 approved, 20 cancelled, 12 draft; zero expired approved slots without a matching publisher-log entry; zero future approved posts with `needs_check` status.
