@@ -820,19 +820,21 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-10T23:00:00.000Z",
-      "text": "釜山では、行き先だけでなく「どこから移動するか」も旅の計画に大切。宿泊エリアと最初の目的地を先に決めると、到着後の動きが考えやすくなります。運賃や運行情報は出発前に最新情報を確認しましょう。",
+      "text": "釜山市區公車現在可用 ZeroPay QR Code 付款。每人車資 1,700 韓元，未滿 6 歲免費；同行者要逐一掃碼，而且 QR 付款沒有交通卡轉乘優惠。若還要搭地鐵，交通卡仍是更方便的選擇。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "price/amount"
+        ],
+        "verified_by": "Go2Busan editorial check",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d08-jp-2",
@@ -845,22 +847,24 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-11T11:00:00.000Z",
-      "text": "旅の移動は、最短時間だけで決めなくても大丈夫。荷物の量、乗り換え、到着時間も考えて、自分に合う方法を選びましょう。空港から宿までのルートは出発前に確認しておくと安心です。",
+      "text": "搭釜山公車時，你會想用熟悉的支付 App，還是直接用 T-money 等交通卡？QR 付款適合單搭公車；若要公車轉地鐵，記得交通卡才有符合條件的轉乘優惠。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "price/amount"
+        ],
+        "verified_by": "Go2Busan editorial check",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved",
+      "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day08",
-        "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day08"
+        "url": "https://go2busan.com/ja/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day08",
+        "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day08"
       }
     },
     {
@@ -874,22 +878,24 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-11T13:00:00.000Z",
-      "text": "Make your first transit decision before you land: where are you staying, and how will you get there with your luggage? Compare routes for your arrival time and check current fares and service information before departure.",
+      "text": "Busan city buses now accept ZeroPay QR payments. The fare is ₩1,700 per passenger; children under 6 ride free. Each rider pays separately, and QR payments do not get transit-card transfer discounts. If you’ll connect to the metro, keep a transit card handy.",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "price/amount"
+        ],
+        "verified_by": "Go2Busan editorial check",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved",
+      "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day08",
-        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day08"
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day08",
+        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day08"
       }
     },
     {
@@ -903,19 +909,21 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-11T23:00:00.000Z",
-      "text": "The fastest route isn’t always the easiest route when you have luggage or arrive late. For Busan, compare the transfer count, walking distance, and arrival time—not just the number of minutes shown on a map.",
+      "text": "A useful Busan transport detail: QR payment is for city buses, not the metro. It can save you buying a card for a single bus ride, but a rechargeable transit card is more practical if you’ll transfer between buses and subway. Which would you use?",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "price/amount"
+        ],
+        "verified_by": "Go2Busan editorial check",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d09-jp-1",
@@ -928,7 +936,7 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-11T23:00:00.000Z",
-      "text": "ホテル選びは、部屋の写真だけでなく「行きたい場所との相性」も大切。海辺を中心に楽しみたいのか、街なかを移動しやすくしたいのかで、便利なエリアは変わります。",
+      "text": "釜山のホテルは、行きたい場所に合わせて選ぶのがコツ。西面は市内移動の拠点、海雲台は海辺と東釜山、広安里は夜景、南浦は市場や旧市街を楽しみたい人に向いています。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -937,10 +945,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved",
+      "status": "draft",
       "link_reply": {
         "url": "https://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day09",
         "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day09"
@@ -957,7 +965,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-12T11:00:00.000Z",
-      "text": "宿泊先を決める前に、行きたい場所を地図に置いてみてください。毎日遠くまで移動する計画になっていたら、エリアを絞るか宿の場所を見直すサインかもしれません。",
+      "text": "ホテルを予約する前に、行きたい場所を地図に置いてみましょう。毎日遠くまで移動するなら、宿のエリアか観光ルートを見直すサイン。部屋の写真だけでなく、駅までの道や坂道も確認を。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -966,10 +974,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d09-us-1",
@@ -982,7 +990,7 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-12T13:00:00.000Z",
-      "text": "Where you stay shapes your Busan trip. Choose based on the kind of days you want—beach time, city exploring, or a mix—and check actual routes from the accommodation to your must-see places.",
+      "text": "Where to stay in Busan depends on the trip you want. Seomyeon works as a central base, Haeundae suits beach time and east Busan, Gwangalli is about the waterfront night view, and Nampo is handy for markets and the old downtown.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -991,10 +999,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved",
+      "status": "draft",
       "link_reply": {
         "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day09",
         "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day09"
@@ -1011,7 +1019,7 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-12T23:00:00.000Z",
-      "text": "Before booking a hotel, map your top stops. If every day starts with a long cross-city trip, consider regrouping your itinerary or comparing a different base. Location can save time and energy.",
+      "text": "Before booking, pin your must-sees on a map. If every day starts with a long cross-city ride, rethink either your hotel area or your route. Check the real walk to the station too—hills matter in Busan.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1020,10 +1028,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d10-jp-1",
@@ -1036,7 +1044,7 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-12T23:00:00.000Z",
-      "text": "釜山の海辺を歩く日は、目的地をひとつだけ決めて、途中で景色を楽しむ時間も残してみてください。写真を撮る、ベンチで休む、海を眺める。そんな余白も旅の思い出になります。",
+      "text": "影島の海岸散歩を計画するなら、絶影海岸散歩道、ヒンヨウル文化村、太宗台をひとまとめの短い徒歩コースだと思わないこと。見どころが広がっているので、区間ごとの移動方法と歩く距離を確認しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1045,10 +1053,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d10-jp-2",
@@ -1061,7 +1069,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-13T11:00:00.000Z",
-      "text": "旅先で好きなのは、名所を巡ること？ それとも目的を決めずに散歩すること？ 釜山では、予定の間に少し歩く時間を入れるだけでも、街の雰囲気に触れやすくなります。",
+      "text": "釜山の影島は、海沿いの遊歩道、白い壁の文化村、灯台のある岬など景色が変わるエリア。全部を急いで回るより、行きたい場所を絞って移動時間も含めて計画するのがおすすめです。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1070,10 +1078,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d10-us-1",
@@ -1086,7 +1094,7 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-13T13:00:00.000Z",
-      "text": "A coastal walk is a reminder to slow down. Pick one destination, then leave time for the view, photos, or a break along the way. You don’t have to turn every beautiful place into a timed stop.",
+      "text": "Planning a day on Yeongdo? The Jeoryeong Coastal Walk, Huinnyeoul Culture Village and Taejongdae are spread across the island. Don’t treat them as one short, continuous stroll—check the travel time between stops and choose the sections you want.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1095,10 +1103,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d10-us-2",
@@ -1111,7 +1119,7 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-13T23:00:00.000Z",
-      "text": "What’s your favorite travel pace: landmarks and checklists, or long walks with no strict plan? In Busan, try leaving one open block in your itinerary just to explore at your own speed.",
+      "text": "Yeongdo offers a different side of Busan: coastal paths, a hillside culture village and dramatic headland scenery. Pick your priorities, leave time for the transfers, and don’t try to turn every stop into a quick photo break.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1120,10 +1128,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d11-jp-1",
@@ -1136,7 +1144,7 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-13T23:00:00.000Z",
-      "text": "カフェは休憩場所であると同時に、旅のペースを整える場所。観光の合間にひと息つく時間を予定に入れると、次の場所へ向かう気持ちにも余裕が生まれます。",
+      "text": "田浦カフェ通りは、コーヒーやデザートだけでなく、路地の小さな店や個性的な空間を探すのも楽しいエリア。大通りだけで終わらず、気になる路地を少し歩いてみてください。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1145,10 +1153,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d11-jp-2",
@@ -1161,7 +1169,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-14T11:00:00.000Z",
-      "text": "旅先のカフェは、景色重視？ コーヒーやデザート重視？ それとも歩き疲れたときに近くで見つける派？ 釜山で立ち寄りたいカフェの条件、ぜひ教えてください。",
+      "text": "田浦のカフェ巡りは、店を何軒も詰め込まなくても楽しめます。気になる一軒を決めて、周辺のベーカリーや雑貨店もゆっくり見る。営業時間や休業日は各店の最新案内を確認しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1170,10 +1178,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d11-us-1",
@@ -1186,7 +1194,7 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-14T13:00:00.000Z",
-      "text": "A café break can be part of the itinerary, not a detour from it. Use it to reset between neighborhoods instead of scheduling every minute of the day.",
+      "text": "Jeonpo Café Street is more than a row of coffee shops. Look for dessert cafés, bakeries, workshops and small stores tucked into side streets. The area’s former tool-shop identity is part of what makes the neighborhood interesting.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1195,10 +1203,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d11-us-2",
@@ -1211,7 +1219,7 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-14T23:00:00.000Z",
-      "text": "Your travel café style says a lot: sea view, great coffee, dessert, or simply somewhere nearby to rest? What makes you save a café when planning a trip?",
+      "text": "You don’t need to café-hop all afternoon in Jeonpo. Pick one place you’re curious about, then leave time to explore the side streets and small shops nearby. Check each café’s own hours before you go.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1220,10 +1228,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d12-jp-1",
@@ -1236,7 +1244,7 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-14T23:00:00.000Z",
-      "text": "写真を撮りたい場所が多い旅ほど、1日に回るエリアを絞るのがおすすめ。移動に追われず、気に入った景色の前でゆっくり過ごせます。撮影スポットはアクセス方法も確認しておきましょう。",
+      "text": "釜山の秋色を楽しむなら、黄領山の街と海を見渡す景色、金井山・梵魚寺周辺の森と寺院風景を候補に。紅葉の時期は年ごとの天候で変わるので、直前の状況を確認しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1245,10 +1253,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d12-jp-2",
@@ -1261,7 +1269,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-15T11:00:00.000Z",
-      "text": "旅の写真は、名所の一枚だけでなく、路地の看板や食卓、海辺の光もあとから思い出になります。釜山で撮りたいのは、街並み、食べ物、海の景色のどれですか？",
+      "text": "黄領山と金井山は同じ散歩コースではありません。街並みを見渡したい日と、森や寺院の雰囲気を楽しみたい日で分けると計画しやすくなります。歩きやすい靴と帰りの交通も忘れずに。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1270,10 +1278,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d12-us-1",
@@ -1286,7 +1294,7 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-15T13:00:00.000Z",
-      "text": "If photos are a big part of your trip, group nearby spots together. You’ll have more time to enjoy the view instead of rushing to the next location. Always check access and local rules before visiting a photo spot.",
+      "text": "For autumn color in Busan, consider Hwangnyeongsan for wide city-and-coast views, or the Geumjeongsan and Beomeosa area for forest paths and temple scenery. The timing shifts with the weather each year, so check current conditions before setting out.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1295,10 +1303,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d12-us-2",
@@ -1311,7 +1319,7 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-15T23:00:00.000Z",
-      "text": "Travel photos aren’t only famous landmarks. A meal, a street sign, the light over the water—small details can bring a trip back to life. What do you photograph most when you travel?",
+      "text": "Hwangnyeongsan and Geumjeongsan are different outings, not one connected walking route. Choose the city-view experience or the mountain-and-temple atmosphere, then plan transport and walking time around that choice.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1320,10 +1328,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d13-jp-1",
@@ -1336,7 +1344,7 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-15T23:00:00.000Z",
-      "text": "旅先の市場は、買い物や食事だけでなく、その街の日常を感じられる場所でもあります。通路をふさがず、写真を撮るときは周りの人への配慮も忘れずに楽しみたいですね。",
+      "text": "チャガルチ市場で海鮮を買うなら、魚介の種類、計量する重さ、単価、調理費、席料を注文前に確認しましょう。市場全体で料金が一律というわけではないので、最後の合計額を見てから決めるのが安心です。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1345,10 +1353,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day13",
+        "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day13"
+      }
     },
     {
       "id": "d13-jp-2",
@@ -1361,7 +1373,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-16T11:00:00.000Z",
-      "text": "地元の市場を歩くとき、つい見てしまうのは何ですか？ 食材、屋台、店先の雰囲気、それとも人の行き来？ 旅先ならではの発見を聞いてみたいです。",
+      "text": "「いくらですか？」だけで終わらせず、何を何グラム買うのか、調理や席料が別かも確認。魚介を量ったり調理したりする前に、追加料金込みの総額を見せてもらいましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1370,10 +1382,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d13-us-1",
@@ -1386,7 +1398,7 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-16T13:00:00.000Z",
-      "text": "Markets offer more than food and shopping—they’re a window into everyday life. Be considerate in busy aisles, ask before taking close-up photos of people, and give yourself time to observe.",
+      "text": "At Jagalchi Market, agree on the details before seafood is weighed or prepared: species, charged weight, unit price, preparation fees and any per-person table charge. Fees vary by shop, so ask for the full total before you commit.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1395,13 +1407,13 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved",
+      "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/guides/busan-local-culture/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day13",
-        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-local-culture/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day13"
+        "url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day13",
+        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day13"
       }
     },
     {
@@ -1415,7 +1427,7 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-16T23:00:00.000Z",
-      "text": "When you explore a market, what do you notice first: ingredients, street food, shop displays, or the rhythm of the neighborhood? Those small observations often become the most memorable travel stories.",
+      "text": "A simple question can prevent confusion at a seafood market: “What’s the total including preparation and table fees?” Compare the final meal cost—not just the seafood price—and don’t assume every stall uses the same pricing model.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1424,10 +1436,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d14-jp-1",
@@ -1440,7 +1452,7 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-16T23:00:00.000Z",
-      "text": "釜山旅行の計画、どこまで進みましたか？ 行き先を決めた人も、まだ地図を眺めている人も、まずは「行きたい場所3つ」から始めると整理しやすいです。",
+      "text": "釜山のお土産は、定番のお菓子だけでなく、港町らしいデザインや地元作家の小物も候補になります。釜山市の公式観光土産もチェックしつつ、買う場所と持ち帰りやすさで選びましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1449,10 +1461,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d14-jp-2",
@@ -1465,7 +1477,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-17T11:00:00.000Z",
-      "text": "ここまでの旅のヒントで、役に立ったテーマはありましたか？ グルメ、交通、宿泊エリア、海辺の散歩など、次に知りたい釜山情報をコメントで教えてください。",
+      "text": "お土産を買うなら、最終日にまとめて探すより、訪れるエリアで少しずつ候補を見ておくと安心。ポップアップや店舗在庫は変わるので、行く前に販売場所を確認してください。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1474,10 +1486,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d14-us-1",
@@ -1490,7 +1502,7 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-17T13:00:00.000Z",
-      "text": "Busan trip planning check-in: do you have your dates and neighborhood picked, or are you still collecting ideas? Start with three priorities and build outward from there.",
+      "text": "Busan souvenirs can be more personal than a standard snack box: look for local design goods, port-city motifs and practical small gifts. The city also highlights official Busan tourism souvenirs, which are worth browsing as ideas.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1499,10 +1511,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d14-us-2",
@@ -1515,7 +1527,7 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-17T23:00:00.000Z",
-      "text": "What would help you plan Busan next: local food, transit, where to stay, coastal walks, or rainy-day ideas? Tell us what you’re curious about so future guides can be more useful.",
+      "text": "Before making a special trip to a souvenir shop, check its current location and stock. Pop-ups and seasonal displays can change; choose something easy to pack and meaningful to the place you visited.",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -1524,10 +1536,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d15-jp-1",
@@ -3556,22 +3568,24 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T00:00:00.000Z",
-      "text": "抵達釜山前，先決定第一段交通：住在哪一區？帶著行李要怎麼過去？依抵達時間比較幾種路線，出發前也記得確認最新的票價與班次資訊。",
+      "text": "釜山市區公車已導入 ZeroPay QR Code 付款，每人 1,700 韓元，未滿 6 歲免費；同行乘客須逐一掃碼。QR 付款沒有交通卡轉乘優惠，若還要搭地鐵，建議仍準備 T-money 等交通卡。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "price/amount"
+        ],
+        "verified_by": "Go2Busan editorial check",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved",
+      "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08",
-        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08"
+        "url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08"
       }
     },
     {
@@ -3585,19 +3599,21 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T12:00:00.000Z",
-      "text": "帶著行李或晚上才抵達時，最快的路線不一定最輕鬆。在釜山移動，除了看地圖上的時間，也比較一下轉乘次數、步行距離和抵達時間吧。",
+      "text": "到釜山搭公車，你會想用熟悉的支付 App，還是買一張交通卡？QR Code 付款只適用市區公車；如果要公車轉地鐵，交通卡通常更方便。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "price/amount"
+        ],
+        "verified_by": "Go2Busan editorial check",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d09-tw-1",
@@ -3610,7 +3626,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-13T00:00:00.000Z",
-      "text": "住宿地點會影響整趟釜山旅行。想多待海邊、多逛市區，還是兩者都要？依照你想過的日子來選，並確認住宿到必去景點的實際路線。",
+      "text": "釜山住宿選哪一區，要看你想怎麼玩。西面適合當市區交通據點；海雲台方便安排海邊與東釜山；廣安里適合看海景夜景；南浦則方便逛市場與舊市區。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3619,10 +3635,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved",
+      "status": "draft",
       "link_reply": {
         "url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09",
         "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09"
@@ -3639,7 +3655,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-13T12:00:00.000Z",
-      "text": "訂飯店前，先把想去的地方標在地圖上。如果每天一出門都要跨區移動很久，可以考慮調整行程，或比較看看其他區域的住宿。位置選對，能省下不少時間和體力。",
+      "text": "訂房前先把想去的景點標在地圖上。如果每天都得跨區移動，不妨重新比較住宿區域或調整行程。也要確認飯店到車站的實際步行路線，釜山有些路段坡度不小。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3648,10 +3664,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d10-tw-1",
@@ -3664,7 +3680,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T00:00:00.000Z",
-      "text": "沿著海岸散步，是提醒自己放慢腳步的好方式。選一個目的地就好，沿途留時間看風景、拍照或休息。不需要把每個漂亮的地方都變成限時打卡點。",
+      "text": "想安排釜山影島一日遊，可以把絕影海岸散步道、白淺灘文化村與太宗臺列入清單。不過景點分布在不同區域，不是一路走到底的短程步道；出發前先確認各段交通與步行距離。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3673,10 +3689,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d10-tw-2",
@@ -3689,7 +3705,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T12:00:00.000Z",
-      "text": "你喜歡哪種旅行節奏？照著清單一個一個去，還是不設限地慢慢走？在釜山，不妨在行程裡留一段空白，用自己的速度探索。",
+      "text": "影島可以一次看到海岸步道、山坡文化村與海岬景色。建議先選出最想去的幾個地方，把景點間交通時間也算進去，不要把整天排成趕拍照行程。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3698,10 +3714,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d11-tw-1",
@@ -3714,7 +3730,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T00:00:00.000Z",
-      "text": "咖啡廳也可以是行程的一部分，而不是繞路。在兩個區域之間停下來喝杯咖啡、休息一下，比把每一分鐘都排滿更舒服。",
+      "text": "田浦咖啡街不只有咖啡廳，也有甜點店、麵包店、工作室與藏在巷弄裡的小店。這一帶曾有工具街的街區背景，逛街時不妨走進主要道路旁的小巷看看。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3723,10 +3739,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d11-tw-2",
@@ -3739,7 +3755,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T12:00:00.000Z",
-      "text": "你的旅行咖啡廳類型是哪一種？海景、好喝的咖啡、甜點，還是只要離下一站近、能坐下來休息就好？規劃旅行時，什麼樣的咖啡廳會讓你想收藏？",
+      "text": "在田浦咖啡街不必安排連續跑好幾家店。先挑一間想去的咖啡廳，再慢慢逛附近巷弄、麵包店和選物小店。各店營業時間不同，出發前請查看店家最新公告。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3748,10 +3764,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d12-tw-1",
@@ -3764,7 +3780,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-16T00:00:00.000Z",
-      "text": "如果拍照是旅行的重點，把距離近的拍照點排在一起，就有更多時間好好欣賞，而不是一直趕場。去拍照點之前，也記得確認開放狀況和當地規定。",
+      "text": "想在釜山賞楓，可以考慮黃領山的城市與海景視野，或金井山、梵魚寺一帶的山林與寺院景色。楓紅時間每年會受天氣影響，出發前先確認最新狀況。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3773,10 +3789,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d12-tw-2",
@@ -3789,7 +3805,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-16T12:00:00.000Z",
-      "text": "旅行照片不一定都是知名景點。一頓飯、一塊路牌、海面上的光線，這些小細節最能讓人想起那趟旅行。你出國時最常拍的是什麼？",
+      "text": "黃領山與金井山不是同一條連續步道。想看城市全景，或想走山林、逛寺院，可以分成不同半日行程安排，也別忘了確認交通與步行時間。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3798,10 +3814,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d13-tw-1",
@@ -3814,7 +3830,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-17T00:00:00.000Z",
-      "text": "市場不只是吃東西和購物的地方，也是看見當地日常生活的窗口。在人多的走道上多留意身邊的人，想近拍攤商前先詢問，給自己一點時間慢慢觀察。",
+      "text": "到札嘎其市場買海鮮，秤重或料理前先確認海鮮種類、計價重量、單價、料理費與每人座位費。各店計價方式不同，先問清楚包含所有費用的總價再決定。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3823,10 +3839,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day13",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day13"
+      }
     },
     {
       "id": "d13-tw-2",
@@ -3839,7 +3859,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-17T12:00:00.000Z",
-      "text": "逛市場時，你會先注意到食材、路邊小吃、店家陳列，還是整個街區的節奏？這些小觀察，常常會變成最難忘的旅行故事。",
+      "text": "逛札嘎其市場別只問海鮮單價，也要確認料理費、座位費與追加餐點。可以請店家在點單或顯示畫面上列出完整總額，再決定是否購買。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3848,10 +3868,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d14-tw-1",
@@ -3864,7 +3884,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-18T00:00:00.000Z",
-      "text": "釜山行程規劃進度確認：日期和住宿區域都決定了嗎？還是還在收集靈感？先抓出三個重點，再慢慢往外安排。",
+      "text": "釜山伴手禮不一定只有零食，也可以留意海港城市意象、在地設計小物與實用紀念品。釜山市也有官方觀光紀念品選品，可當作挑選靈感。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3873,10 +3893,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d14-tw-2",
@@ -3889,7 +3909,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-18T12:00:00.000Z",
-      "text": "接下來你最想看哪一類釜山資訊？在地美食、交通、住宿區域、海岸散步，還是雨天備案？留言告訴我們，之後的指南會更貼近你的需要。",
+      "text": "如果想特地去紀念品店，先確認目前販售地點與庫存。快閃店和季節展示可能變動，挑選時也可以考慮是否方便放進行李帶回台灣。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3898,10 +3918,10 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": null,
+        "approved_at": null
       },
-      "status": "approved"
+      "status": "draft"
     },
     {
       "id": "d15-tw-1",
