@@ -33,12 +33,18 @@
 A small Busan planning tip: pick one neighborhood to explore at a time. You’ll spend less of the day crossing the city and more time enjoying the food, views, and little discoveries. What matters most on your trip: food, coast, culture, or shopping?
 
 ### USA · Post 2 (18:00 ET)
-Before planning every hour in Busan, choose your top three must-dos. Build around those and leave a little room for an unexpected café, market, or sea view. A good itinerary should feel like a trip, not a checklist.
+Busan Fireworks Festival is this Saturday, Nov 7. 🎆
+Three viewing areas to know: Gwangalli Beach for the classic Gwangan Bridge view and the biggest crowd, Igidae for a more distant view across the bay, and Dongbaekseom for a Haeundae-side perspective.
+Local tip: take the subway (Gwangan Station, Line 2, Exit 3 for Gwangalli) and don’t plan on parking near the beach. Pick a meeting point outside the densest area too.
+Which would you choose: the atmosphere or the wider view?
 
 ## Day 2 — Choose your travel pace
 
 ### Japan · Post 1 (08:00 JST)
-旅行は予定ぎっしり派？ それとも、気になる路地に入ったりカフェで休んだりする余白もほしい派？ 釜山は、行くエリアを絞ると自分らしいペースを作りやすい街です。
+釜山の花火祭りは今週土曜、11月7日です🎆
+見どころは3エリア。広安里ビーチは広安大橋を望む定番の景色で、雰囲気は抜群ですが人出も多めです。二妓台(イギデ)は湾の向こうから眺める少し離れた景色、冬柏島は海雲台側からの景色です。
+現地のコツは、地下鉄2号線の広安駅(3番出口)を使うこと。ビーチ周辺の駐車は想定しないほうが安全です。人混みの外で集合場所を決めておくのもおすすめです。
+あなたなら「雰囲気」と「広い眺め」、どちらを選びますか？
 
 ### Japan · Post 2 (20:00 JST)
 モデルコースは「全部こなすため」ではなく、旅のイメージをつかむためのもの。到着時間や宿泊場所に合わせて、気軽に入れ替えてください。無理なく楽しめる計画がいちばんです。
