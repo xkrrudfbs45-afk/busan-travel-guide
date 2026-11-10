@@ -33,7 +33,7 @@ This is a prioritized portfolio, not authorization to implement everything at on
 | G2B-021 | Reconcile social schedule against publish logs | Prevent expired slots from posting late | Pipeline reconciliation complete in PR #305; manual account-history check still required before reuse |
 | G2B-022 | Separate first-hand visits, local tips and directory facts | Transparent local editorial trust | In progress in #309 and #311; keep provenance labels and source links consistent across new pages |
 | G2B-023 | Verify volatile restaurant details | Reduce wasted trips from stale hours/phones/prices | Updated in #309 and #311; continue day-of caveats where listings conflict |
-| G2B-024 | Original restaurant photography and rights | Stronger food discovery without copyright risk | Still outstanding; use owner-supplied or licensed finished-dish images with attribution and responsive sizes |
+| G2B-024 | Original restaurant photography and rights | Stronger food discovery without copyright risk | Shot list created in `FOOD-PHOTO-SHOTLIST.md`; actual owner-supplied or licensed finished-dish images, attribution and responsive sizes still outstanding |
 | G2B-025 | SNS approval and LIVE release gate | Prevent accidental account posting on merge | #305 remains draft; owner review and LIVE-state confirmation required before merge |
 | G2B-026 | Mobile QA for updated food pages | Ensure restaurant cards, maps and text work on small screens | 360px, 390px and desktop checks on #309 and #311 before merge |
 
