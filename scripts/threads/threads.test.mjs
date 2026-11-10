@@ -152,9 +152,11 @@ test("link mapping: JP -> /ja/ pages, US -> English pages, all pages exist", () 
   const withLink = s.posts.filter((p) => p.link_reply);
   assert.ok(withLink.length >= 20);
   for (const p of withLink) assert.deepEqual(checkLinkReply(p), [], p.id);
-  assert.match(s.posts.find((p) => p.id === "d08-jp-2").link_reply.url, /\/ja\/guides\/airport-to-haeundae\//);
+  assert.match(s.posts.find((p) => p.id === "d08-jp-2").link_reply.url, /\/ja\/guides\/transit-card\//);
   assert.equal(s.posts.find((p) => p.id === "d08-jp-1").link_reply, undefined);
   assert.match(s.posts.find((p) => p.id === "d01-us-1").link_reply.url, /utm_campaign=threads30_us&utm_content=day01/);
+  assert.match(s.posts.find((p) => p.id === "d13-jp-1").link_reply.url, /\\/ja\\/guides\\/jagalchi-market\\//);
+  assert.match(s.posts.find((p) => p.id === "d13-tw-1").link_reply.url, /\\/zh-tw\\/guides\\/jagalchi-market\\//);
 });
 
 test("link reply is posted as a reply to the new thread, once", async () => {
