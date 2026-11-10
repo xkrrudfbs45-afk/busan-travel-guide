@@ -19,3 +19,5 @@ Published copy is never edited retroactively.
 
 
 - 2026-11-10 — Rewrote eight upcoming JP/US Threads posts for Days 8–9 with concrete airport-transfer and accommodation-area advice. Returned all eight to draft and cleared prior approval metadata so the revised copy cannot publish without owner reapproval. Added localized first-reply guide links for airport access and accommodation planning. Taiwan posts retained their separately verified transit, Sky Capsule and area-planning copy.
+
+- 2026-11-10 — Synced the Day 1 US fireworks post and Day 2 JP / Day 1 TW fireworks replacements into their source calendars. The schedule and source calendars now preserve the same copy for all historical posts.
