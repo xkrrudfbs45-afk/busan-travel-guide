@@ -2,7 +2,28 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
-## Current handoff — 2026-11-06 (Claude, after deploy 197b438)
+## Current handoff — 2026-11-10 (ChatGPT, content and SNS safety review)
+
+### Completed
+- Opened consolidated Nampo food guide PR #309; superseded draft PRs #307/#308 were closed. Source links now distinguish local tip, current directory listings and official Visit Busan data.
+- Updated PR #305 branch: expired Threads slots with no publisher-log match are cancelled; four posts remain drafts per the owner’s prior instruction; two Taiwan fact-sensitive posts are checked against official sources.
+- PR #305 is intentionally draft because merging may activate scheduled posting if LIVE variables are enabled. No account post, token, secret, workflow cadence, LIVE setting, merge or deployment was changed.
+
+### Verification
+- PR #305 preceding revision: Instagram content tests and Technical SEO audit passed. The latest Traditional Chinese calendar sync still needs a fresh check.
+- PR #309 initial revision: Technical SEO audit/build passed. A subsequent HTML paragraph closure fix still needs a fresh check.
+- Threads reconciliation on PR #305 branch: 156 approved, 20 cancelled, 4 draft; zero expired approved slots without a matching publisher-log entry; zero future approved posts with `needs_check` status.
+
+### Approval / setup needed from the owner
+1. Review and decide whether to merge #305; merge may enable the already-configured scheduled publishers if LIVE variables are true.
+2. Review #309 for the Nampo food guide; merge will deploy the content.
+3. Before reusing any cancelled Threads post without a publisher-log record, manually compare the live account history.
+4. No request to change LIVE variables, secrets, tokens or workflow schedules is included.
+
+### Recommended next action
+- Re-run CI on the latest heads of #305 and #309, then review mobile rendering and source/image rights for the food page.
+
+## Historical handoff — 2026-11-06 (Claude, after deploy 197b438)
 
 ### Completed
 - Deployed: #280 (Nampo-dong and Gwangalli hubs, hub ↔ map links) and #281 (JA/TW Haeundae and Seomyeon hubs). Production `version.txt` = `197b438`.
