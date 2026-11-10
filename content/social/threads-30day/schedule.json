@@ -149,10 +149,6 @@
         "reason": "Time-sensitive: Busan Fireworks Festival on 2026-11-07; pulled forward to publish now",
         "original_text": "Before planning every hour in Busan, choose your top three must-dos. Build around those and leave a little room for an unexpected café, market, or sea view. A good itinerary should feel like a trip, not a checklist.",
         "original_publish_at_utc": "2026-11-04T23:00:00.000Z"
-      },
-      "link_reply": {
-        "url": "https://go2busan.com/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=fireworks",
-        "text": "Where to watch, how to get there and what to check first 👇\nhttps://go2busan.com/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=fireworks"
       }
     },
     {
@@ -181,17 +177,13 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "replacement": {
         "by": "Tak (chat request 2026-11-04)",
         "at": "2026-11-04T12:15:00.000Z",
         "reason": "Time-sensitive: Busan Fireworks Festival on 2026-11-07; pulled forward to publish now",
         "original_text": "旅行は予定ぎっしり派？ それとも、気になる路地に入ったりカフェで休んだりする余白もほしい派？ 釜山は、行くエリアを絞ると自分らしいペースを作りやすい街です。",
         "original_publish_at_utc": "2026-11-04T23:00:00.000Z"
-      },
-      "link_reply": {
-        "url": "https://go2busan.com/ja/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=fireworks",
-        "text": "花火祭りの見どころ・行き方・注意点はこちら👇\nhttps://go2busan.com/ja/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=fireworks"
       }
     },
     {
@@ -3187,10 +3179,10 @@
         "approved_by": "Tak",
         "approved_at": "2026-11-03T23:43:44.952Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=fireworks",
-        "text": "觀賞區、交通與注意事項請看 Go2Busan 指南👇\nhttps://go2busan.com/zh-tw/guides/busan-fireworks-festival/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=fireworks"
+        "url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day01",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day01"
       },
       "replacement": {
         "by": "Tak (chat request 2026-11-04)",
@@ -3477,7 +3469,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-10T12:00:00.000Z",
-      "text": "排行程的小習慣：分成「晴天清單」和「雨天也能去的清單」，出發前看天氣預報再互換。保持彈性，比幾週前就想猜中天氣實在得多。",
+      "text": "到札嘎其市場吃海鮮，別只問「多少錢」。先確認魚種、計價單位與重量，再問海鮮費、處理／料理費、每人桌菜費是否分開計算。不同店家的收費方式不一樣，最重要的是在開始處理前先確認完整金額。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3486,10 +3478,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day06",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day06"
+      }
     },
     {
       "id": "d07-tw-1",
@@ -3502,7 +3498,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-11T00:00:00.000Z",
-      "text": "第一次去釜山，可以用「一天一種主題」來排：一天看海、一天逛市區、一天彈性安排。記得把交通時間也算進去，地圖上的點看起來近，不代表真的就在隔壁。",
+      "text": "第一次到釜山自由行，三天行程可以先分成海岸、市區街區與彈性日。把同一區的景點排在一起，並把交通、用餐和休息時間算進去；地圖上看起來近，不代表真的就在隔壁。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3511,8 +3507,8 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
       "status": "approved",
       "link_reply": {
@@ -3531,7 +3527,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-11T12:00:00.000Z",
-      "text": "釜山三天兩夜不代表什麼都要去。把想去的地方放到地圖上，看看彼此距離，再刪掉會讓行程變得匆忙的點。你理想中的第三天是什麼樣子？",
+      "text": "從金海機場前往海雲台，先確認住宿附近的站點。機場輕軌可在沙上站轉乘地鐵2號線；機場利木津1號線則分為長山與機張方向，兩種路線的停靠站和時刻表不同。上車前先核對終點，不要只看「海雲台」字樣。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3540,10 +3536,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day07",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day07"
+      }
     },
     {
       "id": "d08-tw-1",
@@ -3556,22 +3556,24 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T00:00:00.000Z",
-      "text": "抵達釜山前，先決定第一段交通：住在哪一區？帶著行李要怎麼過去？依抵達時間比較幾種路線，出發前也記得確認最新的票價與班次資訊。",
+      "text": "在釜山搭公車或地鐵，記得上車與下車都要刷交通卡。符合規定的交通工具在30分鐘內轉乘可享優惠，每趟行程最多可轉乘2次。首末班車依車站而異，出發前請查詢實際搭乘站的時刻表。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "transfer window / numeric rule"
+        ],
+        "verified_by": "Busan Transportation Corporation official transfer FAQ, checked 2026-11-10",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
       "status": "approved",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08",
-        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08"
+        "url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08"
       }
     },
     {
@@ -3585,19 +3587,25 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T12:00:00.000Z",
-      "text": "帶著行李或晚上才抵達時，最快的路線不一定最輕鬆。在釜山移動，除了看地圖上的時間，也比較一下轉乘次數、步行距離和抵達時間吧。",
+      "text": "想搭海雲台天空膠囊列車？官方網站每週二韓國時間上午7點，開放四週後那一週的票券。現場可能有少量當日票，採先到先買，也可能提早售完。預約時間是入場時段，不代表列車一定在該時刻出發。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "booking release time / advance window"
+        ],
+        "verified_by": "Haeundae Blueline Park official booking and FAQ pages, checked 2026-11-10",
+        "verified_at": "2026-11-10T02:00:00.000Z"
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day08"
+      }
     },
     {
       "id": "d09-tw-1",
@@ -3610,7 +3618,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-13T00:00:00.000Z",
-      "text": "住宿地點會影響整趟釜山旅行。想多待海邊、多逛市區，還是兩者都要？依照你想過的日子來選，並確認住宿到必去景點的實際路線。",
+      "text": "釜山住宿可以先從三個區域比較：海雲台適合海灘與海岸行程；西面方便安排購物、美食和市區交通；南浦洞適合逛市場與市中心街區。訂房前，把必去景點放上地圖，再用飯店完整地址比較交通路線。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3619,8 +3627,8 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
       "status": "approved",
       "link_reply": {
@@ -3639,7 +3647,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-13T12:00:00.000Z",
-      "text": "訂飯店前，先把想去的地方標在地圖上。如果每天一出門都要跨區移動很久，可以考慮調整行程，或比較看看其他區域的住宿。位置選對，能省下不少時間和體力。",
+      "text": "安排釜山美食，不妨先依照當天要逛的區域找餐廳。南浦洞可以搭配市場小吃，西面適合安排市區美食，海雲台則能和海岸行程一起規劃。先列想吃的清單，再替每一區準備一兩個備案，行程會更有彈性。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3648,10 +3656,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09"
+      }
     },
     {
       "id": "d10-tw-1",
@@ -3664,7 +3676,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T00:00:00.000Z",
-      "text": "沿著海岸散步，是提醒自己放慢腳步的好方式。選一個目的地就好，沿途留時間看風景、拍照或休息。不需要把每個漂亮的地方都變成限時打卡點。",
+      "text": "廣安里很適合安排傍晚到夜間的海邊散步：先看廣安大橋與海景，再找附近餐廳或咖啡廳。週末和活動日人潮可能增加，出發前先確認回住宿的地鐵路線與末班車資訊。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3673,10 +3685,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day10",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day10"
+      }
     },
     {
       "id": "d10-tw-2",
@@ -3689,7 +3705,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T12:00:00.000Z",
-      "text": "你喜歡哪種旅行節奏？照著清單一個一個去，還是不設限地慢慢走？在釜山，不妨在行程裡留一段空白，用自己的速度探索。",
+      "text": "南浦洞可以把札嘎其市場、BIFF廣場與國際市場排在同一個街區行程裡。市場不只是吃東西，也能看看釜山日常；逛攤位時留意通道、拍照前先詢問，並在點餐前確認價格與份量。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3698,10 +3714,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day10",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day10"
+      }
     },
     {
       "id": "d11-tw-1",
@@ -3714,7 +3734,7 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T00:00:00.000Z",
-      "text": "咖啡廳也可以是行程的一部分，而不是繞路。在兩個區域之間停下來喝杯咖啡、休息一下，比把每一分鐘都排滿更舒服。",
+      "text": "到釜山可以試試魚板（어묵）。它不只有一種形狀或口感，有些攤位會搭配熱湯一起供應。不同店家的菜單和價格不一樣，點餐前先確認內容，再挑自己喜歡的口味。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3723,10 +3743,14 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/busan-eomuk-history/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day11",
+        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/busan-eomuk-history/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day11"
+      }
     },
     {
       "id": "d11-tw-2",
@@ -3739,7 +3763,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T12:00:00.000Z",
-      "text": "你的旅行咖啡廳類型是哪一種？海景、好喝的咖啡、甜點，還是只要離下一站近、能坐下來休息就好？規劃旅行時，什麼樣的咖啡廳會讓你想收藏？",
+      "text": "第一次到釜山，你最想先去哪一區？海雲台看海、西面逛街吃美食、南浦洞逛市場，還是影島看海岸風景？如果正在規劃行程，也可以留言告訴我們最想先解決的問題。",
       "verification": {
         "status": "evergreen",
         "issues": [],
@@ -3748,8 +3772,8 @@
         "verified_at": null
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Owner-directed Taiwan content refresh 2026-11-10",
+        "approved_at": "2026-11-10T02:00:00.000Z"
       },
       "status": "approved"
     },
