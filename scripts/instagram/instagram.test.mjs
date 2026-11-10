@@ -108,7 +108,7 @@ test("v2 series posts are approved only after fact-check, share backgrounds per 
 test("Instagram carousel publish times align with the 09:00/21:00 KST checks", () => {
   const v2 = realSchedule.posts.filter((p) => p.design === "v2");
   assert.ok(v2.length > 0);
-  assert.ok(v2.every((p) => /T(00|12):00:00\\.000Z$/.test(p.publish_at_utc)), "every post must be due at a publisher check");
+  assert.ok(v2.every((p) => /T(00|12):00:00\.000Z$/.test(p.publish_at_utc)), "every post must be due at a publisher check");
 });
 
 test("art gate limits generation to listed sets", () => {
