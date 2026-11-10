@@ -1,6 +1,6 @@
 # Go2Busan Project Status
 
-_Last updated: 2026-11-06 — Claude (after #280, #281)_
+_Last updated: 2026-11-10 — ChatGPT (Go2Busan content and publishing-safety review)_
 
 This file is an operational snapshot, not a substitute for checking GitHub and production at the start of each task.
 
@@ -13,7 +13,15 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 - Existing languages include English, Japanese, and Traditional Chinese.
 - Deployment platform documented in repository README: Render.
 
-## Verified state (2026-11-06, Claude)
+## Verified state (2026-11-10, ChatGPT)
+
+- **main:** `5a705ead6f736bf648c583df14f968b76064a3bc` (the current base for new work; do not assume the older 197b438 production note is current).
+- **Open PR #305 — multilingual SNS and airport/Haeundae content:** kept as draft after safety review. The Threads branch now has 156 approved, 20 cancelled and 4 draft posts. Eighteen expired slots without matching publisher-log entries were cancelled to prevent late posting; this does not prove those posts were never published manually. Four posts containing unverifiable “the best” wording were returned to draft per the earlier owner decision. Two Taiwan posts were checked against official Busan transit and Haeundae Blueline Park sources. No LIVE variable, token, secret, workflow cadence or actual account post was changed. CI on the preceding revision passed Instagram content tests and technical SEO; the final calendar copy-sync commit still needs a fresh check.
+- **Open PR #309 — Nampo food guide fact-check:** draft. Distinguishes unvisited local tips from first-hand recommendations; updates Yubu Jeongol, Nampo Jjukkumi and 18번완당집 menu/hours/source details. Technical SEO/build passed on the initial revision; a subsequent paragraph-closing markup fix needs a fresh check.
+- **Superseded PRs #307 and #308:** closed in favor of consolidated #309.
+- **Open PR #306 / #303 and other existing work:** retain owner review and conflict checks; do not merge based only on branch CI.
+
+## Historical state (2026-11-06, Claude)
 
 - **main / production:** `197b438`. Merged with owner approval and deployed on 2026-11-06: #274, #278, #276, #280, #281. `go2busan.com/version.txt` = `197b438`. Live checks: map (28 places, link fallback until the Maps key is set; `?area=nampo` → 6), four EN neighborhood hubs, JA/TW Haeundae and Seomyeon hubs (lang + hreflang).
 - **Open PRs by other agents:** #275 (ChatGPT docs) and #277 (Codex JA/TW nav) merge cleanly and pass all audits together, but Claude's merge attempt was blocked by the session safety layer because Claude did not author them; owner merges or approves them by number. #275 appends a second full copy of HANDOFF.md, so clean up after it merges.
