@@ -83,7 +83,7 @@ test("art generation: decodes image, reports API errors, skips existing files", 
 
 // ---- 7-day series (v2) data checks ----
 import { readFileSync as rf } from "node:fs";
-test("v2 series posts are drafts, valid, share backgrounds per topic and have registered sources", () => {
+test("v2 series posts are approved only after fact-check, share backgrounds per topic and have registered sources", () => {
   const sched = realSchedule;
   const reg = JSON.parse(rf("content/social/instagram/source-register.json", "utf8"));
   const v2 = sched.posts.filter((p) => p.design === "v2");
@@ -102,6 +102,13 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
     assert.equal(new Set(ps.map((p) => JSON.stringify(p.art.prompts))).size, 1, `${set} backgrounds identical across languages`);
     assert.equal(new Set(ps.map((p) => p.art.prompts.join("|"))).size, 1);
   }
+});
+
+
+test("Instagram carousel publish times align with the 09:00/21:00 KST checks", () => {
+  const v2 = realSchedule.posts.filter((p) => p.design === "v2");
+  assert.ok(v2.length > 0);
+  assert.ok(v2.every((p) => /T(00|12):00:00\\.000Z$/.test(p.publish_at_utc)), "every post must be due at a publisher check");
 });
 
 test("art gate limits generation to listed sets", () => {
