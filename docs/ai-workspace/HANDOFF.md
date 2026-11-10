@@ -56,7 +56,7 @@ No merge, production deploy, paid API usage, partner application, or external sp
 ### Verified repository state
 - `main` HEAD: `5a705ead6f736bf648c583df14f968b76064a3bc` (merged #302). Do not describe the Nov 6 `197b438` baseline as current production without a fresh production version check.
 - Main EN and JA homepages still contain the expired Nov 7 fireworks campaign. The #306 branch has been updated to replace those panels with a Japanese winter-events summary and an English winter guide feature; the EN and JA social preview images no longer point to the old fireworks photo.
-- Latest #306 branch commits from this work: `694ff1a82a240c9cb731f91368b1f619456051b2` and `8d4b39b8e889681c34317dfef39fd05b3a2793a8`. Static string checks pass for removal of old campaign/date/image and presence of the winter guide link. Automated CI/browser/mobile QA remains outstanding.
+- Latest #306 branch commits from this work: `694ff1a82a240c9cb731f91368b1f619456051b2` and `8d4b39b8e889681c34317dfef39fd05b3a2793a8`. Static string checks pass for removal of old campaign/date/image and presence of the winter guide link. Automated Technical SEO workflow #832 passed on #306 and included the public-site build plus dependency-free audit. Manual browser/mobile QA at 360px, 390px and desktop remains outstanding. The latest #303 preview-image commit has no workflow run returned yet and needs fresh CI.
 
 ### Next execution order
 1. Review #306 CI and full SEO/build checks after the latest commits; manually check EN/JA/TW homepages at 360px, 390px and desktop before asking for owner approval.
