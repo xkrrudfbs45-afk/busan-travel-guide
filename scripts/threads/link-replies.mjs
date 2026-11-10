@@ -17,11 +17,11 @@ export const LINKS = {
   "d05-1": ["/guides/things-to-do-in-busan/", "/ja/guides/things-to-do-in-busan/", "/zh-tw/guides/things-to-do-in-busan/"],
   "d06-1": ["/guides/busan-rainy-day-guide/", "/ja/guides/rainy-day/", "/zh-tw/guides/rainy-day/"],
   "d07-1": ["/guides/busan-three-days/", "/ja/guides/three-days/", "/zh-tw/guides/three-days/"],
-  "d08-us-1": ["/guides/gimhae-airport-to-haeundae/", null, null],   // US post 1 is the airport/luggage post
-  "d08-jp-2": [null, "/ja/guides/airport-to-haeundae/", null],
-  "d08-tw-1": [null, null, "/zh-tw/guides/airport-to-haeundae/"],   // TW post 1 is the arrival/luggage post,       // JP post 2 is the airport post
+  "d08-us-1": ["/guides/busan-transit-card/", null, null],   // US post 1 covers city-bus QR payments
+  "d08-jp-2": [null, "/ja/guides/transit-card/", null],
+  "d08-tw-1": [null, null, "/zh-tw/guides/transit-card/"],
   "d09-1": ["/guides/where-to-stay-busan/", "/ja/guides/where-to-stay-busan/", "/zh-tw/guides/where-to-stay-busan/"],
-  "d13-1": ["/guides/busan-local-culture/", null, null],
+  "d13-1": ["/guides/jagalchi-market-no-surprise-bill/", "/ja/guides/jagalchi-market/", "/zh-tw/guides/jagalchi-market/"],
   "d16-1": ["/guides/busan-food-stories/", "/ja/guides/busan-food-stories/", "/zh-tw/guides/busan-food-stories/"],
   "d22-1": ["/guides/busan-winter-travel-guide/", "/ja/guides/busan-winter-travel-guide/", "/zh-tw/guides/busan-winter-travel-guide/"],
   "d25-1": ["/guides/busan-travel-budget/", null, null],
