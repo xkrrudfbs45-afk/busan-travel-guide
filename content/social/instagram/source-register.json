@@ -1,115 +1,127 @@
 {
   "version": 1,
-  "checked_on": "2026-11-04",
-  "note": "Facts used in the 7-day Instagram test series. status 'checked' means read on the cited official page by Claude on checked_on; it does not replace user approval or day-of recheck.",
+  "checked_on": "2026-11-10",
+  "note": "Facts used in the refreshed 7-day Instagram carousel series. Official sources were checked on 2026-11-10; volatile details must be rechecked before travel. Posts remain gated by the repository approval status and INSTAGRAM_LIVE setting.",
   "topics": {
-    "d01-fireworks": {
+    "d01-airport": {
       "facts": [
-        "21st Busan Fireworks Festival: Saturday Nov 7, 2026",
-        "Official venue areas: Gwangalli Beach, Igidae and Dongbaekseom (Haeundae side)",
-        "Gwangan Bridge fully closed to traffic both directions on Nov 7 (upper deck from 15:30, lower deck from 18:30 until 24:00)",
-        "Official transport: Subway Line 2 Gwangalli Station, Exit 3 (busanfireworks.com/content/location)"
-      ],
-      "not_stated_anywhere_checked": [
-        "subway extended hours / last train changes",
-        "official free viewing zones",
-        "paid seat layout (image only)"
+        "Airport Limousine 1 toward Haeundae/Gijang has separate Jangsan and Gijang timetables",
+        "Busan City lists different first/last airport departures for the Jangsan and Gijang services",
+        "Airport light rail connects at Sasang to Metro Line 2 and at Daejeo to Line 3"
       ],
       "urls": [
-        "https://www.busan.go.kr/nbnews/1761578",
-        "https://www.busan.go.kr/eng/bsevents/1752782",
-        "https://www.busan.go.kr/kids/board/view.busan?boardId=BBS_0000015&dataSid=1327&menuCd=DOM_000001701009002000",
-        "https://busanfireworks.com/content/location",
-        "https://busanfireworks.com/content/traffic"
+        "https://www.busan.go.kr/eng/bsnews01/1714674",
+        "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?CONTENTS_NO=3&MENU_ID=110"
       ],
       "volatile": [
-        "traffic control hours",
-        "event programme",
-        "weather",
-        "ticket status"
+        "limousine timetable",
+        "fares",
+        "payment options"
       ],
-      "recheck": "2026-11-06 and morning of 2026-11-07"
+      "recheck": "Before each trip"
     },
-    "d02-traffic": {
+    "d02-jagalchi": {
       "facts": [
-        "Road control around Gwangalli: stage 1 begins 10:00 on Nov 7",
-        "From 18:00 Nov 7, 11 bus routes (9 regular, 2 village) through Gwangnam-ro are fully closed; detour via Suyeong-ro",
-        "Notice dated 2026-10-30 (Busan City, Tourism Content Division)"
+        "Jagalchi is a major seafood market in Busan",
+        "Seafood purchase and preparation/table-setting charges may be separate depending on the shop",
+        "Visitors should confirm species, unit/weight, seafood total and extra charges before preparation"
       ],
       "urls": [
-        "https://www.busan.go.kr/nbnews/1761578"
+        "https://www.visitbusan.net/index.do?contentsSid=22&lang_cd=en&uc_seq=412",
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=69318"
       ],
       "volatile": [
-        "control stages and hours",
-        "bus routes"
+        "shop prices",
+        "individual shop fees",
+        "opening hours"
       ],
-      "recheck": "2026-11-06 and morning of 2026-11-07"
+      "recheck": "Before each visit"
     },
-    "d03-packing": {
+    "d03-transit": {
       "facts": [
-        "General preparation advice only; no dated or numeric claims"
-      ],
-      "urls": [],
-      "volatile": [
-        "weather"
-      ],
-      "recheck": "2026-11-07 morning (forecast)"
-    },
-    "d04-return": {
-      "facts": [
-        "General safety advice; Gwangalli Station Line 2 Exit 3 is the official subway stop per busanfireworks.com/content/location",
-        "No subway last-train extension was found in official sources; none is claimed"
+        "Busan transfer discount applies when transferring between eligible modes within 30 minutes",
+        "Up to two transfers are allowed within one trip under the published transfer rule",
+        "First and last metro train times vary by station; riders should check station timetables"
       ],
       "urls": [
-        "https://busanfireworks.com/content/location"
+        "https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=10060401",
+        "https://www.busan.go.kr/eng/public-transportation"
       ],
       "volatile": [
-        "event status, safety notices, transport operation"
+        "fare rules",
+        "service hours",
+        "card acceptance"
       ],
-      "recheck": "immediately before posting on 2026-11-07"
+      "recheck": "Before each trip"
     },
-    "d05-first-day": {
+    "d04-skycapsule": {
       "facts": [
-        "Itinerary advice only; links to the site's 3-day itinerary"
+        "Weekly tickets open every Tuesday at 07:00 Korea Standard Time for one week four weeks ahead",
+        "A small number of same-day on-site tickets may be available first-come, first-served and may sell out early",
+        "Sky Capsule operates one way between Mipo and Cheongsapo over about 2 km, taking around 30 minutes",
+        "The reservation time is an entry window; the capsule boards sequentially and can be delayed"
       ],
       "urls": [
-        "https://go2busan.com/guides/busan-three-days/"
+        "https://www.bluelinepark.com/eng/booking.do",
+        "https://www.bluelinepark.com/eng/skyCapsuleCourse.do",
+        "https://www.bluelinepark.com/eng/information.do",
+        "https://www.bluelinepark.com/eng/faqList.do",
+        "https://www.bluelinepark.com/eng/skyCapsuleTime.do"
+      ],
+      "volatile": [
+        "booking availability",
+        "operating hours",
+        "ticket fares",
+        "cancellation terms"
+      ],
+      "recheck": "Before booking and on travel day"
+    },
+    "d05-three-days": {
+      "facts": [
+        "The guide groups the city by day and area rather than attempting to cover every attraction",
+        "Travel time and breaks should be included in a realistic itinerary"
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-three-days/",
+        "https://go2busan.com/ja/guides/three-days/",
+        "https://go2busan.com/zh-tw/guides/three-days/"
       ],
       "volatile": [],
-      "recheck": "2026-12-01"
+      "recheck": "Review when the guide changes"
     },
-    "d06-airport": {
+    "d06-stay": {
       "facts": [
-        "Airport light rail to Sasang (Line 2) or Daejeo (Line 3) Station then transfer; described as best and cheapest option",
-        "Airport limousine to Haeundae New Town in about an hour",
-        "Taxi types: regular, deluxe, large; deluxe and large cost 50% more than regular",
-        "No fares are stated on the cited pages, so none are shown"
+        "The guide compares accommodation areas by travel style and access to planned attractions",
+        "Visitors should compare routes from the actual accommodation to their priority stops"
       ],
       "urls": [
-        "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000304011003000",
-        "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000"
+        "https://go2busan.com/guides/where-to-stay-busan/",
+        "https://go2busan.com/ja/guides/where-to-stay-busan/",
+        "https://go2busan.com/zh-tw/guides/where-to-stay-busan/"
       ],
       "volatile": [
-        "fares",
-        "limousine timetable"
+        "hotel availability",
+        "prices",
+        "construction and transport changes"
       ],
-      "recheck": "2026-12-01"
+      "recheck": "Before booking"
     },
-    "d07-transit": {
+    "d07-eomuk": {
       "facts": [
-        "Metro runs 05:00-23:59; first/last trains vary by station",
-        "Hanaro Card is the official transit pass; Mybi, T-money, Cashbee, Gimhae-for-you also earn transfer discounts",
-        "Transfer discount within 30 minutes, up to twice per trip; tap when leaving bus/subway",
-        "Top-up at metro station machines, Donghae Line stations, convenience stores, Busan Bank branches"
+        "Busan eomuk is a regional food tradition with different shapes and preparations rather than one single recipe",
+        "Street stalls and shops may serve fish cakes with broth; check each shop's menu and price"
       ],
       "urls": [
-        "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000"
+        "https://go2busan.com/guides/busan-eomuk-history/",
+        "https://go2busan.com/ja/guides/busan-eomuk-history/",
+        "https://go2busan.com/zh-tw/guides/busan-eomuk-history/"
       ],
       "volatile": [
-        "operating hours",
-        "card rules"
+        "shop menu",
+        "prices",
+        "opening hours"
       ],
-      "recheck": "2026-12-01"
+      "recheck": "Before visiting"
     }
   }
 }
