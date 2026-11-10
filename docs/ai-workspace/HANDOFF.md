@@ -6,22 +6,25 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Completed
 - Opened consolidated Nampo food guide PR #309; superseded draft PRs #307/#308 were closed. Source links now distinguish local tip, current directory listings and official Visit Busan data.
-- Updated PR #305 branch: expired Threads slots with no publisher-log match are cancelled; four posts remain drafts per the owner’s prior instruction; two Taiwan fact-sensitive posts are checked against official sources.
+- Updated PR #305 branch: expired Threads slots with no publisher-log match are cancelled; four posts remain drafts per the owner’s prior instruction; eight JP/US Day 8–9 posts were rewritten and returned to draft; Taiwan transit and Sky Capsule copy is checked against official sources. Current Threads counts: 148 approved, 20 cancelled, 12 draft. The 21 Instagram carousels remain approved.
 - PR #305 is intentionally draft because merging may activate scheduled posting if LIVE variables are enabled. No account post, token, secret, workflow cadence, LIVE setting, merge or deployment was changed.
 
 ### Verification
-- PR #305 preceding revision: Instagram content tests and Technical SEO audit passed. The latest Traditional Chinese calendar sync still needs a fresh check.
+- PR #305 preceding revision: Instagram content tests and Technical SEO audit passed. The latest schedule, localized link-reply and copy changes need a fresh CI run.
 - PR #309 initial revision: Technical SEO audit/build passed. A subsequent HTML paragraph closure fix still needs a fresh check.
-- Threads reconciliation on PR #305 branch: 156 approved, 20 cancelled, 4 draft; zero expired approved slots without a matching publisher-log entry; zero future approved posts with `needs_check` status.
+- PR #311: six EN/JA/Traditional Chinese food pages pass local structural checks (unique IDs, no broken in-page anchors, balanced paragraph tags and valid JSON-LD); build, SEO and mobile viewport CI pending.
+- Threads reconciliation on PR #305 branch: 148 approved, 20 cancelled, 12 draft; zero expired approved slots without a matching publisher-log entry; zero future approved posts with `needs_check` status.
 
 ### Approval / setup needed from the owner
 1. Review and decide whether to merge #305; merge may enable the already-configured scheduled publishers if LIVE variables are true.
 2. Review #309 for the Nampo food guide; merge will deploy the content.
-3. Before reusing any cancelled Threads post without a publisher-log record, manually compare the live account history.
-4. No request to change LIVE variables, secrets, tokens or workflow schedules is included.
+3. Review #311 for Seomyeon, Gaya Park and PNU food guides; merge will deploy the content.
+4. Before reusing any cancelled Threads post without a publisher-log record, manually compare the live account history.
+5. Reapprove the eight refreshed JP/US Threads posts only after reviewing the revised copy.
+6. No request to change LIVE variables, secrets, tokens or workflow schedules is included.
 
 ### Recommended next action
-- Re-run CI on the latest heads of #305 and #309, then review mobile rendering and source/image rights for the food page.
+- Re-run CI on the latest heads of #305, #309 and #311, then review mobile rendering and source/image rights for the food pages.
 
 ## Historical handoff — 2026-11-06 (Claude, after deploy 197b438)
 
