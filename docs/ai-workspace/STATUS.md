@@ -76,3 +76,11 @@ _Last updated: 2026-11-10 — live GitHub reconciliation_
 - #303 branch now uses the evergreen Busanhang Bridge homepage image for both EN and zh-TW social previews (latest commits `0d9951b`, `5d276ed`); the autumn feature and localized guide content remain intact.
 - Static checks on the updated #303/#306 branches confirm the expired fireworks image reference is absent from EN, JA and zh-TW homepages in the relevant branches. This is branch-level verification only; main remains unchanged until owner-approved merge/deploy.
 - Social schedule comparison: main currently has 6 approved + 18 draft Instagram posts; 180 approved Threads posts. PR #304 branch has 6 approved + 18 draft Instagram and 138 approved + 42 draft Threads. PR #305 branch has 21 approved + 3 cancelled Instagram and 178 approved + 2 cancelled Threads. Because these PRs touch the same schedule files and #305 contains many approved posts, merging it could make content eligible for existing publisher workflows if LIVE variables are enabled. Treat #305 as a publication approval decision, not a routine content-only merge. No schedule, LIVE variable, workflow cadence, token or secret was changed in this work.
+
+
+### Social publication log reconciliation — 2026-11-10
+
+- Correction to the earlier review note: the dated US Threads post `d01-us-2` about the Nov 7 Busan Fireworks Festival was **published on Nov 4 at 12:28:35 UTC**, with its localized link reply recorded as done. It is not an unpublished scheduled item. Do not edit already-published copy; the publish log confirms success and no error.
+- The Threads `threads-state` log contains 18 published records and no failed records at this check. The #305 branch has 144 future approved Threads entries; #304 changes 42 upcoming posts and resets them to draft. Compare the exact changed records before choosing which copy to keep.
+- The Instagram `instagram-state` log contains 6 published records and no failures. On #305, 21 future posts are approved/verified and 2 superseded drafts are cancelled; the next series is scheduled Nov 12–18. This is branch data, not a claim that #305 has been merged or that all posts have already published.
+- Keep #304/#305 separate until their content and schedule differences are reviewed. Do not merge either automatically: merge could affect the publisher's eligible queue when LIVE is enabled.
