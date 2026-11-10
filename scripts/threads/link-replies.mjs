@@ -77,6 +77,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const sitemap = existsSync("sitemap.xml") ? readFileSync("sitemap.xml", "utf8") : "";
   if (!process.argv.includes("--check")) {
     for (const p of s.posts) {
+      if (p.status === "cancelled") { delete p.link_reply; continue; }
       const path = pathFor(p);
       if (!path) { delete p.link_reply; continue; }
       const url = guideUrl(path, p.market, p.day);
