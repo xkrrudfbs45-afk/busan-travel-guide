@@ -8,11 +8,12 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Opened consolidated Nampo food guide PR #309; superseded draft PRs #307/#308 were closed. Source links now distinguish local tip, current directory listings and official Visit Busan data.
 - Updated PR #305 branch: expired Threads slots with no publisher-log match are cancelled; four posts remain drafts per the owner’s prior instruction; eight JP/US Day 8–9 posts were rewritten and returned to draft; Taiwan transit and Sky Capsule copy is checked against official sources. Current Threads counts: 148 approved, 20 cancelled, 12 draft. The 21 Instagram carousels remain approved.
 - PR #305 is intentionally draft because merging may activate scheduled posting if LIVE variables are enabled. No account post, token, secret, workflow cadence, LIVE setting, merge or deployment was changed.
+- Created `docs/ai-workspace/FOOD-PHOTO-SHOTLIST.md` with restaurant-by-restaurant capture priorities, original-image rights, privacy checks, filename rules and mobile framing guidance.
 
 ### Verification
 - PR #305 preceding revision: Instagram content tests and Technical SEO audit passed. The latest schedule, localized link-reply and copy changes need a fresh CI run.
 - PR #309 initial revision: Technical SEO audit/build passed. A subsequent HTML paragraph closure fix still needs a fresh check.
-- PR #311: six EN/JA/Traditional Chinese food pages pass local structural checks (unique IDs, no broken in-page anchors, balanced paragraph tags and valid JSON-LD); build, SEO and mobile viewport CI pending.
+- PR #311: six EN/JA/Traditional Chinese food pages plus five homepage/directory files pass local structural checks (unique IDs, no broken in-page anchors, balanced paragraph tags and valid JSON-LD); latest Technical SEO build/audit passes.
 - Threads reconciliation on PR #305 branch: 148 approved, 20 cancelled, 12 draft; zero expired approved slots without a matching publisher-log entry; zero future approved posts with `needs_check` status.
 
 ### Approval / setup needed from the owner
