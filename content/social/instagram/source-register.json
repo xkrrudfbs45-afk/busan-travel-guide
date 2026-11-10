@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "checked_on": "2026-11-04",
-  "note": "Facts used in the 7-day Instagram test series. status 'checked' means read on the cited official page by Claude on checked_on; it does not replace user approval or day-of recheck.",
+  "checked_on": "2026-11-10",
+  "note": "Sources for the Instagram 7-day multilingual carousel series. Verified on checked_on; every post remains a draft until owner approval.",
   "topics": {
     "d01-fireworks": {
       "facts": [
@@ -47,69 +47,78 @@
     },
     "d03-packing": {
       "facts": [
-        "General preparation advice only; no dated or numeric claims"
+        "Busan introduced ZeroPay QR payments on city buses on 2026-09-21.",
+        "QR fare is KRW 1,700 per passenger; children under 6 ride free; each passenger pays separately.",
+        "QR payment is not eligible for transfer discounts and is an alternative for city buses, not metro.",
+        "Busan City payment material lists WeChat Pay, UnionPay, Alipay+ and All Pay; app/account availability must be checked."
       ],
-      "urls": [],
+      "urls": [
+        "https://www.busan.go.kr/eng/bsnews01/1758410"
+      ],
       "volatile": [
-        "weather"
+        "payment app availability",
+        "fare and operating rules"
       ],
-      "recheck": "2026-11-07 morning (forecast)"
+      "recheck": "before approval and periodically"
     },
     "d04-return": {
       "facts": [
-        "General safety advice; Gwangalli Station Line 2 Exit 3 is the official subway stop per busanfireworks.com/content/location",
-        "No subway last-train extension was found in official sources; none is claimed"
+        "Jagalchi Market is a seafood market with different vendors and market-to-table arrangements.",
+        "Seafood type, charged weight, unit price, preparation fees and table-setting charges can differ by shop.",
+        "Visitors should confirm the full total before seafood is weighed or prepared; no claim of universal overcharging."
       ],
       "urls": [
-        "https://busanfireworks.com/content/location"
+        "https://www.visitbusan.net/index.do?contentsSid=22&lang_cd=en&uc_seq=412",
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=69318"
       ],
       "volatile": [
-        "event status, safety notices, transport operation"
+        "seafood availability",
+        "individual shop fees and opening hours"
       ],
-      "recheck": "immediately before posting on 2026-11-07"
+      "recheck": "before approval"
     },
     "d05-first-day": {
       "facts": [
-        "Itinerary advice only; links to the site's 3-day itinerary"
-      ],
-      "urls": [
-        "https://go2busan.com/guides/busan-three-days/"
-      ],
-      "volatile": [],
-      "recheck": "2026-12-01"
-    },
-    "d06-airport": {
-      "facts": [
-        "Airport light rail to Sasang (Line 2) or Daejeo (Line 3) Station then transfer; described as best and cheapest option",
-        "Airport limousine to Haeundae New Town in about an hour",
-        "Taxi types: regular, deluxe, large; deluxe and large cost 50% more than regular",
-        "No fares are stated on the cited pages, so none are shown"
+        "Gimhae Airport access options include light rail plus metro, airport limousine services and taxis.",
+        "Specific route, fare and operating details can change; the carousel avoids fixed prices and schedules."
       ],
       "urls": [
         "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000304011003000",
         "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000"
       ],
       "volatile": [
-        "fares",
-        "limousine timetable"
+        "limousine route and timetable",
+        "fares and late-night service"
       ],
-      "recheck": "2026-12-01"
+      "recheck": "before approval"
+    },
+    "d06-airport": {
+      "facts": [
+        "Seomyeon, Haeundae, Gwangalli and Nampo serve different travel styles and geographic priorities.",
+        "Actual walking routes and hotel access depend on the exact accommodation address."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/where-to-stay-busan/",
+        "https://go2busan.com/ja/guides/where-to-stay-busan/",
+        "https://go2busan.com/zh-tw/guides/where-to-stay-busan/"
+      ],
+      "volatile": [
+        "hotel availability and access"
+      ],
+      "recheck": "before approval"
     },
     "d07-transit": {
       "facts": [
-        "Metro runs 05:00-23:59; first/last trains vary by station",
-        "Hanaro Card is the official transit pass; Mybi, T-money, Cashbee, Gimhae-for-you also earn transfer discounts",
-        "Transfer discount within 30 minutes, up to twice per trip; tap when leaving bus/subway",
-        "Top-up at metro station machines, Donghae Line stations, convenience stores, Busan Bank branches"
+        "Three-day itinerary is a flexible area-based planning framework, not a fixed timetable.",
+        "English, Japanese and Traditional Chinese pages provide localized itinerary guidance."
       ],
       "urls": [
-        "https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000"
+        "https://go2busan.com/guides/busan-three-days/",
+        "https://go2busan.com/ja/guides/three-days/",
+        "https://go2busan.com/zh-tw/guides/three-days/"
       ],
-      "volatile": [
-        "operating hours",
-        "card rules"
-      ],
-      "recheck": "2026-12-01"
+      "volatile": [],
+      "recheck": "before approval"
     }
   }
 }
