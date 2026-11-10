@@ -147,6 +147,15 @@ function withReplies(s) {
   return s;
 }
 
+
+test("Taiwan refresh links upcoming market-specific posts to localized guides", () => {
+  assert.equal(pathFor({ id: "d06-tw-2", market: "TW" }), "/zh-tw/guides/jagalchi-market/");
+  assert.equal(pathFor({ id: "d07-tw-2", market: "TW" }), "/zh-tw/guides/airport-to-haeundae/");
+  assert.equal(pathFor({ id: "d08-tw-1", market: "TW" }), "/zh-tw/guides/transit-card/");
+  assert.equal(pathFor({ id: "d08-tw-2", market: "TW" }), "/zh-tw/guides/haeundae-neighborhood-guide/");
+  assert.equal(pathFor({ id: "d10-tw-1", market: "TW" }), "/zh-tw/guides/gwangalli-neighborhood-guide/");
+});
+
 test("link mapping: JP -> /ja/ pages, US -> English pages, all pages exist", () => {
   const s = withReplies(buildSchedule(md, "2026-11-04"));
   const withLink = s.posts.filter((p) => p.link_reply);
