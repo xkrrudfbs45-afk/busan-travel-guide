@@ -16,3 +16,6 @@ Published copy is never edited retroactively.
 - 2026-11-10 — Cancelled 18 expired Threads slots with no matching publisher-log entry. This prevents late posting; it does not assert those posts were never published outside this pipeline. The owner should check the account manually before any reuse.
 - 2026-11-10 — Restored d15-us-2, d18-us-2, d19-us-1 and d28-us-1 to draft, preserving the 2026-11-03 owner decision to hold unverifiable “the best” wording.
 - 2026-11-10 — Verified d08-tw-1 against Busan BIMS transfer guidance and d08-tw-2 against Haeundae Blueline Park’s official booking guidance; revised the Traditional Chinese copy for precision.
+
+
+- 2026-11-10 — Rewrote eight upcoming JP/US Threads posts for Days 8–9 with concrete airport-transfer and accommodation-area advice. Returned all eight to draft and cleared prior approval metadata so the revised copy cannot publish without owner reapproval. Added localized first-reply guide links for airport access and accommodation planning. Taiwan posts retained their separately verified transit, Sky Capsule and area-planning copy.
