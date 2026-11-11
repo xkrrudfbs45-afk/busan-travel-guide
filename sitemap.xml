@@ -1101,4 +1101,37 @@
     <loc>https://go2busan.com/zh-tw/guides/taiwan-travelers-busan/</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
+  <url>
+    <loc>https://go2busan.com/guides/busan-map/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/ja/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-map/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/busan-map/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-map/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-map/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/ja/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-map/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/guides/visit-busan-pass-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/visit-busan-pass-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
+  </url>
 </urlset>
