@@ -168,7 +168,10 @@
  .home-refresh .brand-lockup{width:148px;max-width:42%}
  .home-refresh .site-header nav{gap:13px}
  .home-refresh .site-header nav a{font-size:9px}
- .home-refresh .header-actions{display:none}
+ .home-refresh .header-actions{display:flex;gap:5px}
+ .home-refresh .header-actions .search-icon{display:none}
+ .home-refresh .header-actions .language-pill{display:inline-flex;min-height:30px;padding:5px 7px;font-size:9px}
+ .home-refresh .site-header nav a:nth-child(n+3){display:none}
  .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:460px}
  .home-refresh .home-hero-inner{padding:40px 0 34px}
  .home-refresh .home-hero h1{font-size:clamp(42px,11vw,58px)}
