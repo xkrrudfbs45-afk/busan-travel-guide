@@ -87,3 +87,11 @@ Update this table after each meaningful work session. Include PR numbers, commit
 - Sitemap has no duplicate URLs; 14 English/root guide URLs still lack zh-TW alternates (baseline 22), pending alternate-slug review.
 - CI run 42933070268 passed: 181 HTML pages, 5,166 local links, zero broken links; zero missing descriptions/canonicals; strict image-credit audit zero errors; language-switch audit zero findings. 80 non-blocking legacy SEO warnings remain.
 - PR #312 is draft. No merge, production deployment or social publishing.
+
+
+## Final Taiwan localization state — 2026-11-11
+- PR #312 contains 22 new Taiwan Traditional Chinese guide pages; the Taiwan guide set is now 67 pages.
+- Taiwan search index: 68 URLs (67 guides + directory), no duplicates. All six baseline missing search entries restored.
+- Sitemap: 189 unique URLs, no duplicate entries, zero English guide URLs missing a Traditional Chinese hreflang alternate.
+- Final CI run 42935326144 passed: 194 HTML pages, 5,553 local links, zero broken links, zero missing descriptions/canonicals, strict image-credit audit zero errors (7 warnings), 491 language-switch links with zero findings. 74 legacy pages still lack social preview image metadata.
+- PR #312 remains draft. No merge, production deployment or social publishing.
