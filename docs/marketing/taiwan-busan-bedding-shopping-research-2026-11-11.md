@@ -113,3 +113,45 @@ Sections:
 ## Next fieldwork question
 
 When the owner next visits Gukje Market, ask them to photograph the signs showing “3공구” and the bedding shops around it first. The exact entrance and store list can then be mapped before a public guide is drafted.
+
+## Second market to investigate: Busanjin Market (부산진시장)
+
+The owner's field note suggests Busanjin Market is also a substantial bedding-shopping destination. This is supported by official tourism and municipal sources:
+- Korea Tourism Organization accessible-tourism listing (updated 2026-11-10) describes Busanjin Market as a wedding-goods and fabric-specialist market with about 1,350 shops, including bedding, hanbok, fabrics and household goods. It lists 24 Jinsijang-ro, Dong-gu, phone 051-646-7041~3, 07:00–19:00 and Sunday closure. Treat market-level hours as a general guide; individual shop schedules can differ: https://access.visitkorea.or.kr/ms/detail.do?cotId=c6937954-c7b4-4605-b258-2b3ea11e0cc8
+- Dong-gu official tourism page describes the market's long textile and bedding tradition and its wedding-goods focus: https://www.bsdonggu.go.kr/board/view.donggu?boardId=BBS_0000094&dataSid=5000192&menuCd=DOM_000000313003000000&startPage=1
+- Official market directory lists individual shops and floors, including bedding retailers. Current directory: https://bjmhome.cafe24.com/ and floor/category listings: https://bjmhome.cafe24.com/mobile/sub.php?key=cate&keyword=1514012535&m=all
+
+### Positioning versus Gukje Market
+
+- Gukje Market / Nampo-dong: position as the visitor-friendly market-shopping experience to combine with BIFF Square, street food, cafes and nearby sightseeing. Taiwan visitor bedding demand, vacuum packing and shipping have been reported there, but verify each store's current service.
+- Busanjin Market / Beomil-dong: position as a larger, specialist textile and wedding-goods market where visitors can compare bedding and fabrics across multiple shops. It may be better for shoppers who prioritize product range and material comparison over a compact sightseeing route.
+- Do not claim Busanjin Market is cheaper, better, or more Taiwan-tourist-ready than Gukje Market without a documented comparison.
+
+### Candidate stores for field verification (not endorsements)
+
+The market's public directory and listings surface these leads:
+- 거창이불: market directory lists bedding, pads, floor bedding and bedding sets; B1, 잉여부 73–75호 area; phone 051-631-1126.
+- 오뚜기이불: market website lists B1; exact booth and current contact should be confirmed.
+- 부산진시장 directory also surfaces 고성이불, 운성이불, 색동나라, 대한이불, 성화이불, 경동이불, 평화이불 and other bedding-related shops. Names, floor/section labels and booth numbers vary across third-party listings; reconcile against the current on-site directory before publishing.
+- Market website: https://bjmhome.cafe24.com/
+
+### Additional fieldwork for Busanjin Market
+
+When visiting, photograph:
+1. Main entrance, floor directory and the exact sign for the bedding section.
+2. B1 aisle/section signs and shop nameplates with booth numbers.
+3. At least three shops' comparable products, price tags and material/care labels.
+4. Whether stores sell ready-made bedding suitable for tourists, not only custom wedding sets or wholesale quantities.
+5. Vacuum packing, Taiwan shipping, language support, card payment and tax refund only if the shop confirms each service.
+6. Practical route from Beomil Station and any stairs/elevator needed to reach the bedding floor.
+
+### Taiwan-market content implication
+
+Include both markets in one comparison section on the existing Taiwan Nampo-dong page only if the geographic scope is broadened to a citywide shopping guide; otherwise keep Busanjin Market as a separate “another bedding market” callout with clear transport context. Do not imply it is in Nampo-dong: it is in Beomil-dong, Dong-gu. The main Nampo-dong itinerary should not silently route visitors between the two markets as if they were adjacent.
+
+Suggested Taiwan Traditional Chinese labels:
+- 부산진시장：釜山鎮市場（布料、婚嫁用品與寢具專門市場）
+- 국제시장：國際市場（南浦洞周邊的傳統市場購物區）
+- 범일동：凡一洞
+- 침구 비교 쇼핑：寢具比價／比較選購
+
