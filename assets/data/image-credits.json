@@ -514,6 +514,34 @@
       "checked_on": "2026-11-05",
       "status": "verified",
       "note": "Food vendor at Bupyeong Kkangtong Night Market in Busan, photographed 27 September 2018. Used as market food atmosphere, not as a specific restaurant or dish."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg",
+      "author": "Masterhatch",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-11",
+      "status": "verified",
+      "note": "Photo depicts Gwangalli Beach and Gwangan Bridge; used for the Gwangalli Beach Book Fair event card."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_BEXCO.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_BEXCO.jpg",
+      "author": "M.M.Minderhoud (Michiel1972)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-11",
+      "status": "verified",
+      "note": "Exterior photograph of BEXCO; used for the G-STAR event card."
     }
   ]
 }
