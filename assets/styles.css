@@ -1155,3 +1155,27 @@
  .g2b-share-bar a{width:100%;box-sizing:border-box}
  .show-card{padding:16px}
 }
+
+/* Go2Busan JP/TW referral components — phase 2 (2026-11) */
+.quick-summary p:not(.quick-summary-title){margin:.35rem 0 0;line-height:1.6}
+.offline-address-card .show-card{margin:18px 0;padding:16px;box-shadow:none}
+.offline-address-card .show-card-ko{white-space:pre-line;overflow-wrap:anywhere;font-size:clamp(20px,5vw,28px)}
+.pin-visual-card figcaption{padding:9px 12px 12px;background:#fff;color:#526174;font-size:11px;line-height:1.5}
+.pin-visual-card figcaption a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.pin-visual-card--compact{max-width:340px;margin-inline:auto}
+.pin-visual-card--compact>a{top:12px;bottom:auto}
+.pin-visual-card--compact img{aspect-ratio:4/5}
+.ig-worthy-badge{margin-bottom:12px}
+@media(max-width:760px){
+ body:not(.home-refresh) .site-header .nav-wrap{flex-wrap:wrap;row-gap:2px}
+ body:not(.home-refresh) .site-header nav a,body:not(.home-refresh) .site-header .language-pill{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;box-sizing:border-box}
+ body:not(.home-refresh) .site-header nav a{padding:0 6px}
+ body:not(.home-refresh) .site-header .brand{min-height:44px}
+}
+/* Align top-level components with the 1120px page shell (they sat edge-to-edge on desktop) */
+main>.transport-logistics-card,main>.guide-map-cta,main>.g2b-share-bar,main>.guide-warning-box,main>.show-card,main>.pin-visual-card{width:min(1120px,calc(100% - 44px));margin-inline:auto;box-sizing:border-box}
+main>.gmap-direct-link{display:flex;width:fit-content;margin-left:max(22px,calc((100% - 1120px)/2))}
+@media(max-width:700px){
+ main>.transport-logistics-card,main>.guide-map-cta,main>.g2b-share-bar,main>.guide-warning-box,main>.show-card,main>.pin-visual-card{width:calc(100% - 32px)}
+ main>.gmap-direct-link{margin-left:16px}
+}
