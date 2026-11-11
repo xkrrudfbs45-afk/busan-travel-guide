@@ -245,7 +245,7 @@
 .home-refresh .search-icon{font-size:29px;line-height:1;text-decoration:none;color:#10265a;transform:rotate(-20deg)}
 .home-refresh .language-pill{border:1px solid #dbeafe;background:#f8fbff;border-radius:99px;padding:10px 13px;color:#10265a;text-decoration:none;font-size:11px;font-weight:750;white-space:nowrap}
 .home-refresh .home-hero{position:relative;min-height:395px;overflow:hidden;background:#dbeafe}
-.home-refresh .home-hero-backdrop{position:absolute;inset:0;background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffd9 29%,#ffffff38 51%,#ffffff00 70%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1800");background-size:cover;background-position:center 52%;transform:scale(1.01)}
+.home-refresh .home-hero-backdrop{position:absolute;inset:0;background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffd9 29%,#ffffff38 51%,#ffffff00 70%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1800");background-size:cover;background-position:center 52%;transform:scale(1.01)}
 .home-refresh .home-hero-inner{position:relative;z-index:1;width:min(1440px,calc(100% - 64px));min-height:395px;display:flex;align-items:center;padding-top:25px;padding-bottom:35px}
 .home-refresh .home-hero-copy{max-width:560px}
 .home-refresh .hero-script{font-family:Georgia,serif;font-style:italic;font-size:clamp(21px,2vw,28px);font-weight:700;color:#10265a;margin:0 0 7px}
@@ -342,7 +342,7 @@
  .home-refresh .site-header nav a:hover:after{bottom:2px}
  .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:360px}
  .home-refresh .home-hero-inner{width:calc(100% - 36px)}
- .home-refresh .home-hero-backdrop{background-position:58% center;background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffdc 40%,#ffffff70 70%,#ffffff30 100%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1400")}
+ .home-refresh .home-hero-backdrop{background-position:58% center;background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffdc 40%,#ffffff70 70%,#ffffff30 100%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1400")}
  .home-refresh .busan-now-band{width:calc(100% - 32px);grid-template-columns:1fr .8fr}
  .home-refresh .category-strip{width:calc(100% - 32px);grid-template-columns:repeat(2,minmax(0,1fr))}
  .home-refresh .home-content{width:calc(100% - 32px);grid-template-columns:1fr}
@@ -358,7 +358,7 @@
 @media(max-width:560px){
  .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:330px}
  .home-refresh .home-hero-inner{width:calc(100% - 32px);padding-top:30px;padding-bottom:25px}
- .home-refresh .home-hero-backdrop{background-position:61% center;background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffdf 57%,#ffffff80 100%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1000")}
+ .home-refresh .home-hero-backdrop{background-position:61% center;background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffdf 57%,#ffffff80 100%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1000")}
  .home-refresh .hero-script{font-size:20px}
  .home-refresh .home-hero h1{font-size:42px}
  .home-refresh .home-hero .hero-intro{font-size:13px}
@@ -412,7 +412,7 @@
 
 /* Editorial image rules: match each card to its actual subject and keep credits visible. */
 .home-refresh .home-hero-backdrop{
-  background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffd9 29%,#ffffff38 51%,#ffffff00 70%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1800");
+  background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffd9 29%,#ffffff38 51%,#ffffff00 70%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1800");
   background-size:cover;background-position:center 48%;
 }
 .home-refresh .home-image-credit{margin:9px 0 0;color:#52647b;font-size:9px;line-height:1.4}
@@ -647,8 +647,8 @@
 
 /* Editorial image relevance pass: prefer identifiable Busan locations and subjects over generic stock. */
 .home-refresh .home-hero-backdrop{
-  background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffd9 29%,#ffffff38 51%,#ffffff00 70%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1800");
-  background-position:center 54%;
+  background-image:linear-gradient(90deg,#ffffffef 0%,#ffffffd9 29%,#ffffff38 51%,#ffffff00 70%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1800");
+  background-position:center 52%;
 }
 .home-refresh .trend-hotel,
 .home-refresh .trend-stay{
@@ -837,7 +837,7 @@
   .home-refresh .home-hero-backdrop{
     background-image:
       linear-gradient(90deg,rgba(255,255,255,.94) 0%,rgba(255,255,255,.84) 43%,rgba(255,255,255,.42) 76%,rgba(255,255,255,.18) 100%),
-      url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1400");
+      url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1400");
     background-size:cover;
     background-position:60% center;
   }
@@ -1108,3 +1108,18 @@
 .seasonal-events-credits a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:760px){.seasonal-events{padding-top:22px;padding-bottom:26px}.seasonal-events-heading{align-items:flex-start;flex-direction:column;gap:10px}.seasonal-events-grid{grid-template-columns:1fr;gap:12px}.seasonal-event-card{display:grid;grid-template-columns:34% 1fr}.seasonal-event-photo{height:100%;min-height:175px}.seasonal-event-copy{padding:14px}.seasonal-event-copy p{min-height:0;font-size:12px}.seasonal-event-copy h3{font-size:16px}}
 @media(max-width:420px){.seasonal-event-card{grid-template-columns:1fr}.seasonal-event-photo{height:150px;min-height:0}}
+
+/* Homepage hero on phones: show the skyline photo as a clear band above the copy
+   instead of under a near-opaque white wash. Gwangan Bridge stays in frame. */
+@media(max-width:560px){
+  .home-refresh .home-hero .home-hero-backdrop{
+    inset:0 0 auto 0;
+    height:190px;
+    background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1000");
+    background-size:cover;
+    background-position:30% 55%;
+    transform:none;
+  }
+  .home-refresh .home-hero .home-hero-inner{padding-top:206px}
+  .home-refresh .home-hero{background:linear-gradient(180deg,#fff 0%,#f4f8ff 100%)}
+}
