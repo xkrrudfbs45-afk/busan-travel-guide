@@ -5,12 +5,14 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 ## Current handoff — 2026-11-11 (ChatGPT, Taiwan localization audit)
 
 ### Completed
+- Audited all 50 Traditional Chinese sitemap pages on main and compared the 69 English/root URLs, sitemap hreflang pairs and localized search index. Added `docs/ai-workspace/TAIWAN-LOCALIZATION-AUDIT.md` with exact gaps and a Taiwan-first remediation order.
 - Opened consolidated Nampo food guide PR #309; superseded draft PRs #307/#308 were closed. Source links now distinguish local tip, current directory listings and official Visit Busan data.
 - Updated PR #305 branch: expired Threads slots with no publisher-log match are cancelled; four posts remain drafts per the owner’s prior instruction; eight JP/US Day 8–9 posts were rewritten and returned to draft; Taiwan transit and Sky Capsule copy is checked against official sources. Current Threads counts: 148 approved, 20 cancelled, 12 draft. The 21 Instagram carousels remain approved.
 - PR #305 is intentionally draft because merging may activate scheduled posting if LIVE variables are enabled. No account post, token, secret, workflow cadence, LIVE setting, merge or deployment was changed.
 - Created `docs/ai-workspace/FOOD-PHOTO-SHOTLIST.md` with restaurant-by-restaurant capture priorities, original-image rights, privacy checks, filename rules and mobile framing guidance.
 
 ### Verification
+- Main snapshot `5a705ead6f736bf648c583df14f968b76064a3bc`: 50 zh-TW URLs (45 guides), 69 English/root URLs, 22 English/root URLs without zh-TW hreflang, and six existing Taiwan guides missing from search results. All 50 Taiwan HTML files fetched; five use `lang=zh-TW`, one Dongnae footer retains English labels, and Nampo links to an English-only Kkangtong guide. Production version/deployment was not verified.
 - PR #305 preceding revision: Instagram content tests and Technical SEO audit passed. Latest CI on the current PR #305 head passes Instagram content tests and Technical SEO. All 180 schedule entries match the source calendars; eight refreshed JP/US posts remain draft.
 - PR #309 initial revision: Technical SEO audit/build passed. A subsequent HTML paragraph closure fix still needs a fresh check.
 - PR #311: six EN/JA/Traditional Chinese food pages plus five homepage/directory files pass local structural checks (unique IDs, no broken in-page anchors, balanced paragraph tags and valid JSON-LD); latest Technical SEO build/audit passes.
@@ -25,7 +27,8 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 6. No request to change LIVE variables, secrets, tokens or workflow schedules is included.
 
 ### Recommended next action
-- Re-run CI on the latest heads of #305, #309 and #311, then review mobile rendering and source/image rights for the food pages.
+- Reconcile stale localization PRs #269, #294 and #303 against current main without losing their Taiwan pages or search-index updates. Then add the six missing Taiwan search-index entries and prioritize a Taiwan version of the Sky Capsule sold-out guide in the #305 content stream. Review #306's four English-only guides for Taiwan demand.
+- Keep #305 draft until the owner reviews the scheduled-publishing safety gate; do not merge or deploy without explicit approval.
 
 ## Historical handoff — 2026-11-06 (Claude, after deploy 197b438)
 
