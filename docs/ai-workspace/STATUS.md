@@ -22,7 +22,16 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 - **Superseded PRs #307 and #308:** closed in favor of consolidated #309.
 - **Open PR #306 / #303 and other existing work:** retain owner review and conflict checks; do not merge based only on branch CI.
 
-## Taiwan localization audit (2026-11-11, ChatGPT)\n\n- Audited the current main source snapshot `5a705ead6f736bf648c583df14f968b76064a3bc`: 168 sitemap URLs, 69 English/root URLs and 50 Traditional Chinese URLs (45 guides, homepage, directory and three legal pages).\n- 47 of 69 English/root URLs have a zh-TW hreflang alternate; 22 do not. See `TAIWAN-LOCALIZATION-AUDIT.md` for the complete URL list and open-PR overlap.\n- The Traditional Chinese search index contains 40 zh-TW URLs including the guide directory, but six existing guide pages are not indexed: OCHORYANG, Busan Station local walk, fair-price fireworks stays, BTS in Busan, Dongnae hot-spring half-day and the Taiwan traveler guide.\n- All 50 Taiwan pages were fetched and checked for title, description, language declaration and visible copy. Five pages use `lang=zh-TW` rather than the project-standard `zh-Hant-TW`; the Dongnae guide has English footer labels, and the Nampo guide links to an English-only Kkangtong guide.\n- Source-level About/Disclosure/Privacy links appear in 24 zh-TW files, but `enhance-public-extras.mjs` rewrites these in generated output. Build-output verification remains required.\n- This is a repository-source audit, not a production deployment or native-speaker sign-off. No merge, deploy or social post was performed.\n\n## Historical state (2026-11-06, Claude)
+## Taiwan localization audit (2026-11-11, ChatGPT)
+
+- Audited the current main source snapshot `5a705ead6f736bf648c583df14f968b76064a3bc`: 168 sitemap URLs, 69 English/root URLs and 50 Traditional Chinese URLs (45 guides, homepage, directory and three legal pages).
+- 47 of 69 English/root URLs have a zh-TW hreflang alternate; 22 do not. See `TAIWAN-LOCALIZATION-AUDIT.md` for the complete URL list and open-PR overlap.
+- The Traditional Chinese search index contains 40 zh-TW URLs including the guide directory, but six existing guide pages are not indexed: OCHORYANG, Busan Station local walk, fair-price fireworks stays, BTS in Busan, Dongnae hot-spring half-day and the Taiwan traveler guide.
+- All 50 Taiwan pages were fetched and checked for title, description, language declaration and visible copy. Five pages use `lang=zh-TW` rather than the project-standard `zh-Hant-TW`; the Dongnae guide has English footer labels, and the Nampo guide links to an English-only Kkangtong guide.
+- Source-level About/Disclosure/Privacy links appear in 24 zh-TW files, but `enhance-public-extras.mjs` rewrites these in generated output. Build-output verification remains required.
+- This is a repository-source audit, not a production deployment or native-speaker sign-off. No merge, deploy or social post was performed.
+
+## Historical state (2026-11-06, Claude)
 
 - **main / production:** `197b438`. Merged with owner approval and deployed on 2026-11-06: #274, #278, #276, #280, #281. `go2busan.com/version.txt` = `197b438`. Live checks: map (28 places, link fallback until the Maps key is set; `?area=nampo` → 6), four EN neighborhood hubs, JA/TW Haeundae and Seomyeon hubs (lang + hreflang).
 - **Open PRs by other agents:** #275 (ChatGPT docs) and #277 (Codex JA/TW nav) merge cleanly and pass all audits together, but Claude's merge attempt was blocked by the session safety layer because Claude did not author them; owner merges or approves them by number. #275 appends a second full copy of HANDOFF.md, so clean up after it merges.
@@ -57,9 +66,10 @@ Use one of:
 | Workstream | Status | Owner | Evidence / next action |
 |---|---|---|---|
 | Shared AI workspace | Done | ChatGPT | #271 merged by owner |
-| PR #269 validation | Ready for review | Owner | Mergeable, audits pass; update branch + resolve late-arrival duplicate first |
+| PR #269 validation | Blocked | Claude + owner | Current PR state is non-mergeable; rebase and reconcile search-index/sitemap changes before review |
 | Technical SEO audit | Done | Claude | No structural blockers; keep daily indexing requests |
-| Taiwan content plan | In progress | ChatGPT + Claude | 50 zh-TW URLs audited; 22 English/root URLs lack zh-TW hreflang; six Taiwan guides missing from search index. See `TAIWAN-LOCALIZATION-AUDIT.md` |\n| Taiwan localization coverage | In progress | ChatGPT + Claude | Reconcile PRs #269/#294/#303/#305/#311; prioritize Sky Capsule, Kkangtong Market and high-intent food/transport pages |
+| Taiwan content plan | In progress | ChatGPT + Claude | 50 zh-TW URLs audited; 22 English/root URLs lack zh-TW hreflang; six Taiwan guides missing from search index. See `TAIWAN-LOCALIZATION-AUDIT.md` |
+| Taiwan localization coverage | In progress | ChatGPT + Claude | Reconcile PRs #269/#294/#303/#305/#311; prioritize Sky Capsule, Kkangtong Market and high-intent food/transport pages |
 | Four neighborhood hubs | In progress | Claude | EN ×4 live; JA/TW Haeundae + Seomyeon live (#281); JA/TW Nampo + Gwangalli in open PR |
 | Claude GitHub automation | Blocked | Owner | #276 merged; Install Claude GitHub App, add secret, protect main |
 | Busan map MVP (#273) | Done (link fallback) | Owner | #278 live; interactive map needs Maps Embed key in Render |
