@@ -212,3 +212,52 @@ test("Taiwan drafts never publish even with a token", async () => {
   await run({ now: new Date("2026-11-04T00:05:00Z"), schedule: s, log, env: { ...ENV, THREADS_TW_ACCESS_TOKEN: "tw" }, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
   assert.equal(Object.keys(log.posts).filter((k) => k.includes("-tw-")).length, 0);
 });
+
+// ---- schedule coverage of the publisher cron (owner asked for low-frequency checks) ----
+function cronHours() {
+  const yml = readFileSync(".github/workflows/threads-publisher.yml", "utf8");
+  const m = yml.match(/cron:\s*"(\d+) ([\d,]+) \* \* \*"/);
+  assert.ok(m, "publisher cron must be a fixed minute + explicit UTC hour list");
+  return { minute: Number(m[1]), hours: m[2].split(",").map(Number) };
+}
+const nextRunAfter = (iso, { minute, hours }) => {
+  const t = new Date(iso);
+  for (let i = 0; i < 48 * 60; i++) {
+    const c = new Date(t.getTime() + i * 60000);
+    if (c.getUTCMinutes() === minute && hours.includes(c.getUTCHours())) return c;
+  }
+  return null;
+};
+
+test("publisher cron picks up every scheduled post within the late window (both US DST states)", () => {
+  const cron = cronHours();
+  assert.ok(cron.hours.length <= 8, "keep scheduled runs low (no 15-minute polling)");
+  const sched = JSON.parse(readFileSync("content/social/threads-30day/schedule.json", "utf8"));
+  const sample = [...sched.posts.map((p) => p.publish_at_utc)];
+  // Also check each market slot on a date in US daylight time and in US standard time.
+  for (const d of ["2027-07-01", "2027-01-15"]) for (const [tz, slots] of [["Asia/Tokyo", ["08:00", "20:00"]], ["Asia/Taipei", ["08:00", "20:00"]], ["America/New_York", ["08:00", "18:00"]]])
+    for (const s of slots) sample.push(localToUtc(d, s, tz));
+  for (const iso of sample) {
+    const run = nextRunAfter(iso, cron);
+    assert.ok(run, `no run after ${iso}`);
+    const lateMin = (run - new Date(iso)) / 60000;
+    assert.ok(lateMin <= 120, `${iso} would wait ${lateMin} min for the next run`);
+  }
+});
+
+test("a retry with an old container is abandoned after 12h instead of posting a stale post", async () => {
+  const api = fakeApi(); const sch = approved();
+  const log = { posts: { "d01-jp-1": { status: "retry_pending", attempts: 1, creation_id: "C9", container_created_at: "2026-11-04T23:05:00Z" } } };
+  // d01-jp-1 was due 2026-11-04T23:00Z; 2 days later it must not be published.
+  const s = await run({ now: new Date("2026-11-06T23:05:00Z"), schedule: sch, log, env: ENV, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
+  assert.equal(log.posts["d01-jp-1"].status, "missed");
+  assert.ok(s.missed.includes("d01-jp-1"));
+  assert.ok(!s.published.some((x) => x.startsWith("d01-jp-1")));
+});
+
+test("a retry with a container still completes when only a little late (within 12h)", async () => {
+  const api = fakeApi(); const sch = approved();
+  const log = { posts: { "d01-jp-1": { status: "retry_pending", attempts: 1, creation_id: "C9", container_created_at: "2026-11-04T23:05:00Z" } } };
+  await run({ now: new Date("2026-11-05T04:05:00Z"), schedule: sch, log, env: ENV, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
+  assert.equal(log.posts["d01-jp-1"].status, "published");
+});
