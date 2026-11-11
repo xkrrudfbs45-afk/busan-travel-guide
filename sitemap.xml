@@ -1049,6 +1049,12 @@
   <url><loc>https://go2busan.com/guides/kkangtong-market-food-guide/</loc></url>
   <url><loc>https://go2busan.com/guides/kkangtong-market-bath-shopping/</loc></url>
   <url>
+    <loc>https://go2busan.com/zh-tw/guides/kkangtong-market-bath-shopping/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/kkangtong-market-bath-shopping/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/kkangtong-market-bath-shopping/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/kkangtong-market-bath-shopping/" />
+  </url>
+  <url>
     <loc>https://go2busan.com/zh-tw/guides/taiwan-travelers-busan/</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
