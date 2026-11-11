@@ -3,7 +3,7 @@
   "start_date": "2026-11-12",
   "end_date": "2026-11-26",
   "status": "draft_only",
-  "note": "90 new localized drafts: 30 per market, two daily. No post is approved or live. Verify localized guide URLs and facts before promotion.",
+  "note": "90 localized drafts; evening posts rewritten as independent complementary angles rather than repeating morning copy. All remain draft / needs_check pending fact checks, destination review and owner approval.",
   "posts": [
     {
       "id": "fresh15-1112-us-1",
@@ -45,7 +45,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-13T01:00:00.000Z",
-      "text": "Plan Busan by neighborhood, not by checklist. Choose one area for the morning and leave room for food stops.",
+      "text": "A simple way to plan: pick the one experience you most want each day, then build the route around it. What is your must-do in Busan?",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -103,7 +103,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-12T11:00:00.000Z",
-      "text": "釜山は観光地を詰め込まず、エリアごとに楽しみましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "旅の計画は、まず「その日に一番したいこと」をひとつ決めるのがおすすめ。そこを中心に周辺を組み立てると、移動に追われにくくなります。釜山で外せないことは？",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -161,7 +161,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T12:00:00.000Z",
-      "text": "釜山自由行別把景點排得太滿，按區域安排更輕鬆。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "安排釜山行程時，可以先選出每天最想體驗的一件事，再把附近景點排進去。這樣比較不容易整天都在趕路。你最期待哪一站？",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -219,7 +219,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-14T01:00:00.000Z",
-      "text": "Choose your hotel around the places you want to visit. Compare arrival and departure journeys before booking.",
+      "text": "Before booking, picture your first and last journeys: airport arrival, luggage, and the station or stop you will use most. A convenient base can save more time than a room near just one attraction.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -277,7 +277,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-13T11:00:00.000Z",
-      "text": "ホテルは行きたい場所を基準に選び、到着日と最終日の移動も比較して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "ホテル選びでは、観光地との距離だけでなく、空港からの到着日と帰国日の移動も想像してみてください。荷物を持って移動しやすい場所かどうかも大切です。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -335,7 +335,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-13T12:00:00.000Z",
-      "text": "住宿地點先看想去哪些地方，訂房前比較抵達與離開當天的交通。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "挑住宿時，別只看離景點多近，也想想抵達與離開當天怎麼走、行李怎麼搬。交通順手的住宿點，往往比只靠近單一景點更實用。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -393,7 +393,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-15T01:00:00.000Z",
-      "text": "Compare light rail + metro with a taxi from Gimhae Airport. Your hotel area, luggage, group size and arrival time all matter.",
+      "text": "Landing with a large suitcase or late at night? Compare the full journey, not just the fare: transfers, walking distance, waiting time and the final walk to your accommodation.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -451,7 +451,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-14T11:00:00.000Z",
-      "text": "金海空港からは軽電鉄＋地下鉄とタクシーを比較。荷物や到着時刻も考慮して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "大きな荷物がある日や夜遅い到着なら、料金だけでなく乗り換え回数、徒歩距離、待ち時間、宿までの最後の移動も比べて選びましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -509,7 +509,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T12:00:00.000Z",
-      "text": "金海機場到市區可比較輕軌轉地鐵與計程車，也要考量行李與抵達時間。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "帶大型行李或深夜抵達時，別只比較車資；也要一起考慮轉乘次數、步行距離、等車時間，以及下車後到住宿的路程。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -567,7 +567,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-16T01:00:00.000Z",
-      "text": "A transit card makes repeated metro and bus rides simpler. Check current fares and transfer rules before travelling.",
+      "text": "Keep your transport card somewhere easy to reach, and check the current fare and transfer guidance before travelling. If you are travelling with others, agree on where to meet after each ride.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -625,7 +625,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-15T11:00:00.000Z",
-      "text": "交通カードがあると地下鉄やバスの乗車がスムーズ。運賃と乗換ルールは最新情報を確認。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "交通カードはすぐ取り出せる場所に。運賃や乗り換えの最新ルールは出発前に確認しましょう。複数人で移動するなら、降車後の集合場所も決めておくと安心です。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -683,7 +683,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T12:00:00.000Z",
-      "text": "交通卡讓地鐵與公車付款更方便，出發前確認最新票價與轉乘規則。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "交通卡放在容易拿取的地方，出發前再確認最新票價與轉乘規定。多人同行時，也可以先約好每次下車後的集合位置。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -741,7 +741,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-17T01:00:00.000Z",
-      "text": "Give each day in Busan a clear area or theme. Group nearby sights instead of crossing the city repeatedly.",
+      "text": "Give each day a different pace: one day for the coast, one for markets and neighborhoods, and one flexible day for the places you discover along the way. Leave breathing room between stops.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -799,7 +799,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-16T11:00:00.000Z",
-      "text": "釜山3日間の旅は日ごとにエリアを分け、近いスポットをまとめましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "3日間なら、海辺を楽しむ日、市場や街歩きの日、気になった場所を巡る予備の日のように、日ごとにテーマを分ける方法も。予定の間に余白を残しましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -857,7 +857,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-16T12:00:00.000Z",
-      "text": "釜山三天行程建議每天安排一個主要區域，把鄰近景點排在一起。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "三天行程可以安排不同節奏：一天看海、一天逛市場與街區，另一天保留彈性，走訪旅途中臨時發現的地方。景點之間別排得太緊。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -915,7 +915,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-18T01:00:00.000Z",
-      "text": "Confirm the seafood, weight and total price before ordering. Ask whether preparation, cooking or table fees are separate.",
+      "text": "At a seafood market, pause before ordering: confirm the item, weight, total price and any separate preparation or seating charges. A quick price check makes the experience more comfortable.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -973,7 +973,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-17T11:00:00.000Z",
-      "text": "海鮮市場では品目・重さ・合計金額を先に確認。調理代や席料も聞いておきましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "海鮮市場では注文前に、品目・重量・合計金額を確認。調理代や席料が別にかかるかも聞いておくと、安心して楽しめます。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1031,7 +1031,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-17T12:00:00.000Z",
-      "text": "在海鮮市場先確認品項、重量與總價，也要問清楚料理費或桌席費是否另計。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "在海鮮市場點餐前，先確認品項、重量與總價，也問清楚料理費、座位費是否另計。先把價格確認好，吃得更安心。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1089,7 +1089,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-19T01:00:00.000Z",
-      "text": "Gwangalli is worth a beach walk, not only a night-view photo. Check weather and plan your return route on busy nights.",
+      "text": "For a relaxed Gwangalli visit, decide whether you want a beach walk, a café stop or an evening view. Your preferred time of day changes the feel of the neighborhood.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1147,7 +1147,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-18T11:00:00.000Z",
-      "text": "広安里は夜景だけでなく海辺の散歩もおすすめ。天気と帰り道も確認して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "広安里では、海辺の散歩、カフェ、夜景のどれを楽しみたいか先に決めると過ごし方が選びやすくなります。時間帯によって街の雰囲気も変わります。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1205,7 +1205,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-18T12:00:00.000Z",
-      "text": "廣安里不只有夜景，也很適合海邊散步；留意天氣並先想好回程方式。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "去廣安里前，可以先想好這趟想散步看海、找咖啡廳，還是欣賞夜景。不同時段的街區氛圍也不太一樣。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1263,7 +1263,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-20T01:00:00.000Z",
-      "text": "Enjoy Haeundae beach, market and nearby walks at your own pace. Choose one main activity and add nearby stops.",
+      "text": "Haeundae covers more than the beach. Choose one main stop first, then add a nearby market, walk or café only if you have time and energy.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1321,7 +1321,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-19T11:00:00.000Z",
-      "text": "海雲台は海水浴場・市場・周辺散策を自分のペースで。目的をひとつ決めて。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "海雲台はビーチだけでなく、周辺にも立ち寄り先があります。まず目的をひとつ決めて、時間と体力に余裕があれば市場や散歩、カフェを追加しましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1379,7 +1379,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-19T12:00:00.000Z",
-      "text": "海雲台可以慢慢玩海灘、市場與周邊散步，先選一個主要活動再加附近景點。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "海雲台不只有海灘。先選一個主要目的地，有時間和體力再加上市場、散步或咖啡廳，行程會更輕鬆。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1437,7 +1437,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-21T01:00:00.000Z",
-      "text": "Nampo combines markets, street food and shopping in one walk. Check shop hours and closing days before you go.",
+      "text": "Nampo is easy to enjoy on foot when you group nearby stops together. Save the Korean names of places you want to visit so you can show them when asking for directions.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1495,7 +1495,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-20T11:00:00.000Z",
-      "text": "南浦洞は市場、屋台グルメ、ショッピングをまとめて楽しめます。営業時間も確認して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "南浦洞は近くの立ち寄り先をまとめると、徒歩で巡りやすいエリアです。行きたい店や場所の韓国語名を保存しておくと、道を尋ねるときにも便利です。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1553,7 +1553,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-20T12:00:00.000Z",
-      "text": "南浦洞適合一次安排市場、小吃與逛街，先確認各店營業時間與公休日。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "南浦洞適合把附近景點排在一起步行探索。先把想去的店家或地點韓文名稱存起來，需要問路時就能直接出示。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1611,7 +1611,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-22T01:00:00.000Z",
-      "text": "Seomyeon is a practical base for food, shopping and metro connections. Check the exact street and save your hotel address in Korean.",
+      "text": "Seomyeon works well as a food-and-shopping stop. Save your accommodation address in Korean before heading out, especially if you plan to return by taxi.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1669,7 +1669,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-21T11:00:00.000Z",
-      "text": "西面はグルメ、買い物、地下鉄移動の拠点に便利。ホテル住所の韓国語表記も保存して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "西面はグルメや買い物を楽しむ立ち寄り先にぴったり。特にタクシーで戻る予定なら、宿泊先の韓国語住所をスマホに保存しておきましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1727,7 +1727,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-21T12:00:00.000Z",
-      "text": "西面方便安排美食、購物與地鐵移動，也把飯店韓文地址存進手機。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "西面很適合安排美食與購物。出門前先把住宿地址的韓文版本存在手機裡，尤其打算搭計程車回去時會更方便。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1785,7 +1785,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-23T01:00:00.000Z",
-      "text": "Mix famous restaurants with neighborhood favorites for a fuller food trip. Check current hours and save Korean shop names and addresses.",
+      "text": "Mix well-known restaurants with smaller neighborhood spots. Before setting out, save the Korean restaurant name and address; translated names can vary across apps.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1843,7 +1843,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-22T11:00:00.000Z",
-      "text": "釜山グルメは有名店と街の人に親しまれる店を組み合わせて。営業時間も確認しましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "有名店と街の小さなお店を組み合わせると、食の楽しみが広がります。出発前に店名と住所を韓国語で保存しておくと、地図アプリでも探しやすくなります。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1901,7 +1901,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-22T12:00:00.000Z",
-      "text": "釜山美食可把人氣名店與在地小店搭配，先確認營業時間並存好韓文店名地址。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "釜山美食可以把人氣名店和巷弄小店搭配安排。出發前先存好店家的韓文名稱與地址，不同地圖 App 的翻譯名稱可能不一致。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -1959,7 +1959,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-24T01:00:00.000Z",
-      "text": "Keep one indoor option for a rainy or windy day. Markets, museums and covered shopping areas can be useful backups.",
+      "text": "Build one indoor backup into each day: a market, museum, department store or café area. Check the day's opening hours before changing your route.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2017,7 +2017,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-23T11:00:00.000Z",
-      "text": "雨や風が強い日に備えて屋内スポットをひとつ用意。休館日も確認して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "毎日の予定に、屋内で過ごせる予備プランをひとつ用意しておくと便利です。市場・博物館・百貨店・カフェなど、行き先を変える前に当日の営業情報を確認しましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2075,7 +2075,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-23T12:00:00.000Z",
-      "text": "遇到下雨或風大，行程裡保留室內備案；出門前確認公休日。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "每天都可以準備一個室內備案，例如市場、博物館、百貨公司或咖啡街區。臨時更改路線前，記得確認當天營業時間。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2133,7 +2133,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-25T01:00:00.000Z",
-      "text": "Pack layers for a coastal city; the sea breeze can feel different. Comfortable walking shoes matter. Check the forecast before departure.",
+      "text": "Pack for the day you will actually have: comfortable walking shoes, a light extra layer and a compact bag for essentials. Check the forecast again before leaving.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2191,7 +2191,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-24T11:00:00.000Z",
-      "text": "海沿いの釜山は風の感じ方が違うことも。歩きやすい靴を選び、天気も確認。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "歩きやすい靴、温度調整できる羽織り、必要な物をまとめる小さなバッグがあると便利。出発前に天気予報をもう一度確認しましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2249,7 +2249,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-24T12:00:00.000Z",
-      "text": "釜山海邊風感可能和市區不同，建議洋蔥式穿搭、穿好走的鞋並確認天氣。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "準備好適合當天行程的物品：好走的鞋、方便穿脫的外套，以及放隨身用品的小包。出門前再看一次天氣預報。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2307,7 +2307,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-26T01:00:00.000Z",
-      "text": "Explore markets without a minute-by-minute schedule. Payment methods vary; ask before photographing vendors or customers.",
+      "text": "Markets are working places as well as visitor destinations. Keep walkways clear, ask before photographing people or stalls, and check payment options before ordering.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2365,7 +2365,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-25T11:00:00.000Z",
-      "text": "市場散策は細かく時間を決めすぎずに。支払い方法を確認し、撮影前は声をかけて。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "市場は観光地であると同時に、地元の人の仕事場でもあります。通路をふさがず、人や店を撮影する前にひと声かけ、注文前に支払い方法も確認しましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2423,7 +2423,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-25T12:00:00.000Z",
-      "text": "逛市場不必把時間排滿，各店付款方式不同；拍攝攤商或客人前先禮貌詢問。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "市場也是當地人工作的地方。逛街時別擋住通道，拍攝攤商或客人前先禮貌詢問，點餐前也確認付款方式。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2481,7 +2481,7 @@
       "local_time": "20:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-27T01:00:00.000Z",
-      "text": "Walk beyond the main viewpoint to find your own coastal photo spot. Golden-hour light changes quickly; respect residents and keep paths clear.",
+      "text": "Try slowing down between photo spots. Look for safe public viewpoints, keep paths clear and be mindful of residents when photographing near homes.",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2539,7 +2539,7 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-26T11:00:00.000Z",
-      "text": "海辺の写真は定番スポットだけでなく少し歩いて探して。住民や通路にも配慮を。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "text": "撮影スポットの間も、少しゆっくり歩いてみましょう。安全な公共の場所から撮影し、通路をふさがず、住宅の近くでは住民への配慮を忘れずに。",
       "verification": {
         "status": "needs_check",
         "issues": [
@@ -2597,7 +2597,7 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-26T12:00:00.000Z",
-      "text": "拍海景不一定只在熱門點，沿周邊多走一段也有驚喜；拍照時尊重居民、勿阻擋通道。 出發前請確認營業時間、交通資訊等最新消息。",
+      "text": "拍照景點之間不妨放慢腳步。選擇安全的公共位置取景，不阻擋通道，在住宅附近拍攝時也要留意居民感受。",
       "verification": {
         "status": "needs_check",
         "issues": [
