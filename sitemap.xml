@@ -193,8 +193,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-blueline-park-sold-out/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-blueline-park-sold-out/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/gijang-kkeutjip-abalone-porridge/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/jagalchi-market-no-surprise-bill/</loc>
@@ -231,8 +240,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/late-arrival/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/songdo-beach-local-breakfast/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/songdo-beach-local-breakfast/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/things-to-do-in-busan/</loc>
