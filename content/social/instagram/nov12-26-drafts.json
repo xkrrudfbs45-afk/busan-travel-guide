@@ -1,0 +1,2484 @@
+{
+  "campaign": "Go2Busan fresh 15-day Instagram campaign",
+  "start_date": "2026-11-12",
+  "end_date": "2026-11-26",
+  "status": "draft_only",
+  "note": "45 new localized five-card carousel drafts: 15 per market. All remain draft and needs_check; prompts are briefs, not rendered image assets.",
+  "posts": [
+    {
+      "id": "ig-fresh15-1112-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-12T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-1",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Plan Busan by neighborhood, not by checklist."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Choose one area for the morning and leave room for food stops."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Plan Busan by neighborhood, not by checklist. Choose one area for the morning and leave room for food stops.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1112-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-12T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-1",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "釜山は観光地を詰め込まず、エリアごとに楽しみましょう。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "釜山は観光地を詰め込まず、エリアごとに楽しみましょう。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1112-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-12T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-1",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about First-trip planning, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "釜山自由行別把景點排得太滿，按區域安排更輕鬆。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "釜山自由行別把景點排得太滿，按區域安排更輕鬆。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1113-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-13T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-2",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Choose your hotel around the places you want to visit."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Compare arrival and departure journeys before booking."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose your hotel around the places you want to visit. Compare arrival and departure journeys before booking.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1113-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-13T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-2",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "ホテルは行きたい場所を基準に選び、到着日と最終日の移動も比較して。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "ホテルは行きたい場所を基準に選び、到着日と最終日の移動も比較して。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1113-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-13T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-2",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Where to stay, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "住宿地點先看想去哪些地方，訂房前比較抵達與離開當天的交通。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "住宿地點先看想去哪些地方，訂房前比較抵達與離開當天的交通。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1114-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-14T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-3",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Compare light rail + metro with a taxi from Gimhae Airport."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Your hotel area, luggage, group size and arrival time all matter."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Compare light rail + metro with a taxi from Gimhae Airport. Your hotel area, luggage, group size and arrival time all matter.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1114-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-14T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-3",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "金海空港からは軽電鉄＋地下鉄とタクシーを比較。荷物や到着時刻も考慮して。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "金海空港からは軽電鉄＋地下鉄とタクシーを比較。荷物や到着時刻も考慮して。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1114-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-14T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-3",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Airport transfer, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "金海機場到市區可比較輕軌轉地鐵與計程車，也要考量行李與抵達時間。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "金海機場到市區可比較輕軌轉地鐵與計程車，也要考量行李與抵達時間。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1115-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-15T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-4",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "A transit card makes repeated metro and bus rides simpler."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Check current fares and transfer rules before travelling."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "A transit card makes repeated metro and bus rides simpler. Check current fares and transfer rules before travelling.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-transit-card/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1115-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-15T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-4",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "交通カードがあると地下鉄やバスの乗車がスムーズ。運賃と乗換ルールは最新情報を確認。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "交通カードがあると地下鉄やバスの乗車がスムーズ。運賃と乗換ルールは最新情報を確認。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-transit-card/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1115-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-15T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-4",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Transit card, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "交通卡讓地鐵與公車付款更方便，出發前確認最新票價與轉乘規則。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "交通卡讓地鐵與公車付款更方便，出發前確認最新票價與轉乘規則。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-transit-card/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1116-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-16T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-5",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Give each day in Busan a clear area or theme."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Group nearby sights instead of crossing the city repeatedly."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Give each day in Busan a clear area or theme. Group nearby sights instead of crossing the city repeatedly.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1116-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-16T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-5",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "釜山3日間の旅は日ごとにエリアを分け、近いスポットをまとめましょう。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "釜山3日間の旅は日ごとにエリアを分け、近いスポットをまとめましょう。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1116-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-16T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-5",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Three-day itinerary, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "釜山三天行程建議每天安排一個主要區域，把鄰近景點排在一起。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "釜山三天行程建議每天安排一個主要區域，把鄰近景點排在一起。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1117-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-17T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-6",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Confirm the seafood, weight and total price before ordering."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Ask whether preparation, cooking or table fees are separate."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Confirm the seafood, weight and total price before ordering. Ask whether preparation, cooking or table fees are separate.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1117-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-17T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-6",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "海鮮市場では品目・重さ・合計金額を先に確認。調理代や席料も聞いておきましょう。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "海鮮市場では品目・重さ・合計金額を先に確認。調理代や席料も聞いておきましょう。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1117-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-17T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-6",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Jagalchi seafood market, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "在海鮮市場先確認品項、重量與總價，也要問清楚料理費或桌席費是否另計。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "在海鮮市場先確認品項、重量與總價，也要問清楚料理費或桌席費是否另計。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1118-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-18T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-7",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Gwangalli is worth a beach walk, not only a night-view photo."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Check weather and plan your return route on busy nights."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Gwangalli is worth a beach walk, not only a night-view photo. Check weather and plan your return route on busy nights.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gwangalli-beach/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1118-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-18T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-7",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "広安里は夜景だけでなく海辺の散歩もおすすめ。天気と帰り道も確認して。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "広安里は夜景だけでなく海辺の散歩もおすすめ。天気と帰り道も確認して。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gwangalli-beach/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1118-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-18T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-7",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Gwangalli beach, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "廣安里不只有夜景，也很適合海邊散步；留意天氣並先想好回程方式。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "廣安里不只有夜景，也很適合海邊散步；留意天氣並先想好回程方式。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gwangalli-beach/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1119-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-19T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-8",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Enjoy Haeundae beach, market and nearby walks at your own pace."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Choose one main activity and add nearby stops."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Enjoy Haeundae beach, market and nearby walks at your own pace. Choose one main activity and add nearby stops.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1119-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-19T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-8",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "海雲台は海水浴場・市場・周辺散策を自分のペースで。目的をひとつ決めて。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "海雲台は海水浴場・市場・周辺散策を自分のペースで。目的をひとつ決めて。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1119-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-19T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-8",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Haeundae, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "海雲台可以慢慢玩海灘、市場與周邊散步，先選一個主要活動再加附近景點。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "海雲台可以慢慢玩海灘、市場與周邊散步，先選一個主要活動再加附近景點。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1120-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-20T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-9",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Nampo combines markets, street food and shopping in one walk."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Check shop hours and closing days before you go."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Nampo combines markets, street food and shopping in one walk. Check shop hours and closing days before you go.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/nampo-dong/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1120-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-20T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-9",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "南浦洞は市場、屋台グルメ、ショッピングをまとめて楽しめます。営業時間も確認して。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "南浦洞は市場、屋台グルメ、ショッピングをまとめて楽しめます。営業時間も確認して。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/nampo-dong/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1120-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-20T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-9",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Nampo-dong, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "南浦洞適合一次安排市場、小吃與逛街，先確認各店營業時間與公休日。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "南浦洞適合一次安排市場、小吃與逛街，先確認各店營業時間與公休日。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/nampo-dong/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1121-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-21T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-10",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Seomyeon is a practical base for food, shopping and metro connections."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Check the exact street and save your hotel address in Korean."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Seomyeon is a practical base for food, shopping and metro connections. Check the exact street and save your hotel address in Korean.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1121-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-21T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-10",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "西面はグルメ、買い物、地下鉄移動の拠点に便利。ホテル住所の韓国語表記も保存して。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "西面はグルメ、買い物、地下鉄移動の拠点に便利。ホテル住所の韓国語表記も保存して。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1121-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-21T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-10",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Seomyeon, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "西面方便安排美食、購物與地鐵移動，也把飯店韓文地址存進手機。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "西面方便安排美食、購物與地鐵移動，也把飯店韓文地址存進手機。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1122-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-22T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-11",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Mix famous restaurants with neighborhood favorites for a fuller food trip."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Check current hours and save Korean shop names and addresses."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Mix famous restaurants with neighborhood favorites for a fuller food trip. Check current hours and save Korean shop names and addresses.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-food/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1122-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-22T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-11",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "釜山グルメは有名店と街の人に親しまれる店を組み合わせて。営業時間も確認しましょう。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "釜山グルメは有名店と街の人に親しまれる店を組み合わせて。営業時間も確認しましょう。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-food/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1122-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-22T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-11",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Busan food, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "釜山美食可把人氣名店與在地小店搭配，先確認營業時間並存好韓文店名地址。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "釜山美食可把人氣名店與在地小店搭配，先確認營業時間並存好韓文店名地址。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-food/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1123-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-23T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-12",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Keep one indoor option for a rainy or windy day."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Markets, museums and covered shopping areas can be useful backups."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Keep one indoor option for a rainy or windy day. Markets, museums and covered shopping areas can be useful backups.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1123-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-23T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-12",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "雨や風が強い日に備えて屋内スポットをひとつ用意。休館日も確認して。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "雨や風が強い日に備えて屋内スポットをひとつ用意。休館日も確認して。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1123-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-23T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-12",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Rainy-day plan, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "遇到下雨或風大，行程裡保留室內備案；出門前確認公休日。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "遇到下雨或風大，行程裡保留室內備案；出門前確認公休日。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1124-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-24T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-13",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Pack layers for a coastal city; the sea breeze can feel different."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Comfortable walking shoes matter. Check the forecast before departure."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Pack layers for a coastal city; the sea breeze can feel different. Comfortable walking shoes matter. Check the forecast before departure.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1124-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-24T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-13",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "海沿いの釜山は風の感じ方が違うことも。歩きやすい靴を選び、天気も確認。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "海沿いの釜山は風の感じ方が違うことも。歩きやすい靴を選び、天気も確認。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1124-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-24T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-13",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about What to pack, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "釜山海邊風感可能和市區不同，建議洋蔥式穿搭、穿好走的鞋並確認天氣。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "釜山海邊風感可能和市區不同，建議洋蔥式穿搭、穿好走的鞋並確認天氣。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1125-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-25T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-14",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Explore markets without a minute-by-minute schedule."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Payment methods vary; ask before photographing vendors or customers."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Explore markets without a minute-by-minute schedule. Payment methods vary; ask before photographing vendors or customers.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1125-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-25T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-14",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "市場散策は細かく時間を決めすぎずに。支払い方法を確認し、撮影前は声をかけて。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "市場散策は細かく時間を決めすぎずに。支払い方法を確認し、撮影前は声をかけて。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1125-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-25T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-14",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Market etiquette, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "逛市場不必把時間排滿，各店付款方式不同；拍攝攤商或客人前先禮貌詢問。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "逛市場不必把時間排滿，各店付款方式不同；拍攝攤商或客人前先禮貌詢問。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1126-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-26T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-15",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL NOTE",
+          "title": "Explore Busan at your pace",
+          "body": "Walk beyond the main viewpoint to find your own coastal photo spot."
+        },
+        {
+          "cat": "PLAN BY AREA",
+          "title": "Start with one area",
+          "body": "Golden-hour light changes quickly; respect residents and keep paths clear."
+        },
+        {
+          "cat": "LOCAL TIP",
+          "title": "A practical local tip",
+          "body": "Check current details for your travel date."
+        },
+        {
+          "cat": "BEFORE YOU GO",
+          "title": "Check before heading out",
+          "body": "Save this carousel and read the full local guide."
+        },
+        {
+          "cat": "GO2BUSAN GUIDE",
+          "title": "Save this for your trip",
+          "body": "Full guide via profile link.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Walk beyond the main viewpoint to find your own coastal photo spot. Golden-hour light changes quickly; respect residents and keep paths clear.\n\nSave this carousel for your Busan trip. Check current details before you go. Full guide: link in bio (go2busan.com).\n\nIllustration: AI-generated · Go2Busan\n\n#Busan #BusanTravel #KoreaTravel #VisitBusan #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gwangalli-beach/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1126-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-26T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-15",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行メモ",
+          "title": "自分のペースで釜山を楽しむ",
+          "body": "海辺の写真は定番スポットだけでなく少し歩いて探して。住民や通路にも配慮を。"
+        },
+        {
+          "cat": "エリア別に計画",
+          "title": "まずはひとつのエリアから",
+          "body": "旅行前に営業時間・交通情報など最新情報を確認しましょう。"
+        },
+        {
+          "cat": "現地のヒント",
+          "title": "現地で役立つポイント",
+          "body": "訪問日とルートに合わせて最新情報を確認してください。"
+        },
+        {
+          "cat": "出発前に確認",
+          "title": "出発前に確認",
+          "body": "この投稿を保存して詳しい現地ガイドもチェック。"
+        },
+        {
+          "cat": "Go2Busanガイド",
+          "title": "旅行のために保存",
+          "body": "詳しいガイドはプロフィールのリンクへ。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "海辺の写真は定番スポットだけでなく少し歩いて探して。住民や通路にも配慮を。\n\n釜山旅行のために保存しておきましょう。出発前に最新情報をご確認ください。詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成 · Go2Busan\n\n#釜山旅行 #釜山観光 #韓国旅行 #釜山グルメ #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gwangalli-beach/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    },
+    {
+      "id": "ig-fresh15-1126-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-26T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-15",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 1/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 2/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 3/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 4/5; distinct composition, no readable text, no logos, no photorealistic named businesses.",
+          "Stylized editorial illustration for a Busan travel guide about Coastal photo walk, carousel card 5/5; distinct composition, no readable text, no logos, no photorealistic named businesses."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行筆記",
+          "title": "用自己的步調玩釜山",
+          "body": "拍海景不一定只在熱門點，沿周邊多走一段也有驚喜；拍照時尊重居民、勿阻擋通道。"
+        },
+        {
+          "cat": "按區域規劃",
+          "title": "先從一個區域開始",
+          "body": "出發前請確認營業時間、交通資訊等最新消息。"
+        },
+        {
+          "cat": "在地實用提醒",
+          "title": "在地實用提醒",
+          "body": "依照出遊日期與路線確認最新資訊。"
+        },
+        {
+          "cat": "出發前先確認",
+          "title": "出發前先確認",
+          "body": "先收藏這篇，再閱讀完整的在地攻略。"
+        },
+        {
+          "cat": "Go2Busan 攻略",
+          "title": "先收藏，旅行時回看",
+          "body": "完整攻略請見個人檔案連結。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "拍海景不一定只在熱門點，沿周邊多走一段也有驚喜；拍照時尊重居民、勿阻擋通道。\n\n先收藏這篇，安排釜山旅行時方便回看。出發前請確認最新資訊。完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成 · Go2Busan\n\n#釜山旅遊 #釜山自由行 #韓國旅行 #釜山美食 #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/gwangalli-beach/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Verify localized guide URL, facts, and final generated carousel assets before approval."
+      }
+    }
+  ]
+}
