@@ -28,7 +28,17 @@ These rules apply to human contributors, Claude Code, Codex, and automated conte
 - For food, lodging, and event content, give concrete local decision criteria and transparent caveats. Avoid unsupported accusations against individual businesses; explain how to check menus, minimum orders, fees, receipts, and cancellation terms.
 - Do not copy another publisher's article. Use source material for verification, then write original guidance with links to primary sources.
 
-## 5. Required checks before PR
+
+## 5. Original field photography
+- Prefer Go2Busan's own on-location photos for restaurants, dishes, markets, attractions, hotels, and street scenes. Replace generic reference imagery with original photos when the exact place or dish has been photographed.
+- Never imply that a reference or stock image depicts a named restaurant's actual dish, storefront, interior, or current condition. Label illustrative images clearly until an original photo is available.
+- For each original photo, record the photographer, capture date, location/business (if applicable), and any permission or consent needed for identifiable people, private interiors, or commercial use. Keep the original file and an optimized web version.
+- Capture useful editorial context, not only a hero shot: storefront/signage for identification, the actual dish from a clear angle, menu/price board where photography is permitted, interior/queue context without exposing customers, and nearby street or station landmarks.
+- Do not stage or alter photos in a way that misrepresents portion size, ingredients, price, crowd levels, accessibility, or current business conditions. Basic crop, exposure, and compression are acceptable.
+- Write descriptive, localized alt text that explains what is genuinely visible. Do not stuff keywords or claim an image shows an item that is not in frame.
+- Register third-party images in `assets/data/image-credits.json`; original Go2Busan photos should be credited consistently as Go2Busan and should not be assigned a third-party license.
+
+## 6. Required checks before PR
 - Confirm the proposed URL and topic do not duplicate an existing guide.
 - Validate JSON and JSON-LD, sitemap XML, canonical and hreflang reciprocity, search-index coverage, and internal links.
 - Run the repository build and available page-quality, SEO, outbound-link, and JavaScript checks.
