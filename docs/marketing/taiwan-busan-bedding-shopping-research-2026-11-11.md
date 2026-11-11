@@ -181,3 +181,44 @@ Research update: 2026-11-11, following owner recommendations. The owner recommen
 - Keep the practical visitor advice simple: compare the same size and material across shops, check the sewn-in country-of-origin label, ask for the final price and whether any packing/shipping service is available.
 - Do not publish a claim that Busanjin Market stores do or do not offer vacuum packing as a market-wide fact.
 
+
+
+## Additional related shopping lead: Eunae Sangsa (은애상사), Bupyeong Kkangtong Market
+
+Research update: 2026-11-11. Add 은애상사 as a store lead for the market's K-sauna / bath-item shopping content. This is a desk-research lead, not an owner-visited endorsement.
+
+### Strongest source: Visit Busan official tourism editorial
+
+Visit Busan published a feature titled “부산 부평깡통시장에서 만나는 사우나 아이템 쇼핑” and explicitly recommends 자연식품, 은애상사 and 재호상회 for visitors looking for bathhouse and body-care items. It gives 은애상사's address as 부산 중구 중구로47번길 11. The feature describes the wider market assortment as including bath baskets, bath cushions, slippers, exfoliating towels and gloves, back scrubbers, exfoliating soap, shower towels/balls, gua sha tools, body brushes, foot-care tools, bath caps, hair caps, soap cases, waterproof pouches and travel bottles. These are market-level examples; do not imply every item is stocked by 은애상사 specifically unless confirmed with the shop.
+
+Source:
+- Visit Busan official tourism feature: https://www.visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000202002001000&uc_seq=3035
+- Search result captured 2026-11-11 explicitly names 은애상사 and its address, alongside the sauna-shopping recommendation.
+
+### Conflicting business-category records
+
+Public business/merchant listings are inconsistent:
+- Visit Busan identifies 은애상사 as one of three recommended stores for sauna/bath-item shopping at Bupyeong Kkangtong Market, address 부산 중구 중구로47번길 11.
+- A listing based on Small Enterprise and Market Service / Onnuri merchant data (data date 2026-09-26) identifies 은애상사 as a household/living-goods merchant and lists 주방용품 as the item category; it also indicates paper and digital Onnuri Gift Certificate acceptance. This does not establish its current full assortment or guarantee that payment acceptance remains unchanged: https://open.114.ai.kr/onnuri/4b8d46a2a35545a7
+- Other business listings classify the same or nearby address as kitchenware / kitchen furniture retail. Treat these categories as administrative or directory labels, not definitive evidence of what a visitor can currently buy.
+
+### Editorial positioning
+
+- Place 은애상사 alongside 영도할머니 as a named stop in a Bupyeong Kkangtong Market “K-sauna shopping” guide, subject to a current assortment check.
+- Differentiate the stores only where product range is verified. Do not assume 은애상사 duplicates 영도할머니's products or that it specializes exclusively in bath products.
+- The useful Taiwan-market angle is a practical, compact souvenir / Korean bathhouse culture shopping stop: exfoliating towels, bath accessories and body-care tools are easy to explain to first-time visitors. Verify actual stock, prices and product origins before naming specific products.
+- Taiwan Traditional Chinese candidate wording: 韓國澡堂小物、搓澡巾、沐浴用品、身體清潔用品、釜山傳統市場購物. These are editorial keyword candidates, not verified search-volume data.
+- Do not claim the store offers tax refunds, foreign-language service, card payment, vacuum packing, international shipping or tourist discounts without direct confirmation.
+
+### Verification before public recommendation
+
+1. Confirm the store is still operating at 부산 중구 중구로47번길 11 and capture its sign / storefront.
+2. Confirm whether the current core assortment is bathhouse goods, body-care tools, kitchenware, or a mix.
+3. Photograph representative products, packaging, Korean-language product labels and dated price tags with permission.
+4. Ask which products are made in Korea; do not infer origin from the store's location or Korean-language packaging.
+5. Confirm payment methods and Onnuri acceptance at the counter; public directory data may lag.
+6. Record current opening hours and weekly closing day only after direct confirmation.
+
+### Recommended next step
+
+Keep this as an internal research lead in the existing bedding / market-shopping research brief for now. When the public Bupyeong Kkangtong sauna-shopping guide is reviewed, cross-link 은애상사 and 영도할머니 only after verifying each shop's current products and exact location.
