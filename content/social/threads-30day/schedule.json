@@ -1628,7 +1628,13 @@
         "approved_by": "Tak (chat approval 2026-11-05)",
         "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Owner-directed editorial review (ChatGPT)",
+        "at": "2026-11-11T23:40:00+09:00",
+        "reason": "Remove subjective superlative and keep the post evergreen.",
+        "original_text": "A change of plan isn’t a failed itinerary. Sometimes the best travel day is the one where you slow down, follow a local tip, or spend longer somewhere you love."
+      }
     },
     {
       "id": "d16-jp-1",
@@ -1937,7 +1943,13 @@
         "approved_by": "Tak (chat approval 2026-11-05)",
         "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Owner-directed editorial review (ChatGPT)",
+        "at": "2026-11-11T23:40:00+09:00",
+        "reason": "Remove subjective superlative and keep the post evergreen.",
+        "original_text": "Have you ever stumbled on a place that became the best part of a trip? The walk between planned stops can be just as memorable as the destination."
+      }
     },
     {
       "id": "d19-jp-1",
@@ -2013,7 +2025,13 @@
         "approved_by": "Tak (chat approval 2026-11-05)",
         "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Owner-directed editorial review (ChatGPT)",
+        "at": "2026-11-11T23:40:00+09:00",
+        "reason": "Remove subjective superlative and keep the post evergreen.",
+        "original_text": "Solo trip, friends, or family? The best Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks."
+      }
     },
     {
       "id": "d19-us-2",
