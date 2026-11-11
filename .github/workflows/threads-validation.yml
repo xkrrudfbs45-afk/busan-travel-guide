@@ -1,0 +1,26 @@
+name: Threads scheduler validation
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/threads-publisher.yml"
+      - ".github/workflows/threads-validation.yml"
+      - "scripts/threads/**"
+      - "marketing/threads-30-day-*-calendar.md"
+      - "content/social/threads-30day/schedule.json"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run Threads publisher unit tests
+        run: node --test scripts/threads/threads.test.mjs
+      - name: Validate generated schedule
+        run: node scripts/threads/build-schedule.mjs --check

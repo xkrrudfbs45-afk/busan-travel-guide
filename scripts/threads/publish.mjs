@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Go2Busan Threads publisher. Run by .github/workflows/threads-publisher.yml every 15 minutes.
+// Go2Busan Threads publisher. Run by .github/workflows/threads-publisher.yml six times a day (targeted UTC hours).
 //
 // Safety model
 //  - DRY RUN unless THREADS_LIVE=true. Dry runs never call publish endpoints and never touch the log.
@@ -10,11 +10,12 @@
 //  - At most one post per account per run, at most 2 per account per local day.
 //  - Retries: max 3 attempts per post, only for network/5xx/429. Auth/validation errors stop that post.
 //  - More than 3h late (e.g. Actions outage) -> "missed"; never burst-posts a backlog.
+//  - A retry that already has a container is abandoned after 12h, so a stale post never goes out days later.
 //  - URLs inside a post are fetched before publishing; a non-200 link blocks the post.
 //  - Tokens come only from env and are redacted from every message.
 //
 // Usage: node scripts/threads/publish.mjs [--now ISO] [--log path] [--wait-ms 30000]
-import { ACCOUNTS, SCHEDULE_FILE, LOG_FILE, MAX_ATTEMPTS, LATE_WINDOW_MIN, REPLY_LATE_WINDOW_MIN, MAX_PER_LOCAL_DAY,
+import { ACCOUNTS, SCHEDULE_FILE, LOG_FILE, MAX_ATTEMPTS, LATE_WINDOW_MIN, REPLY_LATE_WINDOW_MIN, MAX_PER_LOCAL_DAY, STALE_RETRY_MAX_MIN,
   readJson, writeJson, makeClient, checkPost, redact } from "./lib.mjs";
 
 const norm = (t) => String(t || "").replace(/\s+/g, " ").trim();
@@ -89,7 +90,10 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
     let p = null;
     for (const c of due) {
       const lateMin = (now - new Date(c.publish_at_utc)) / 60000;
-      if (lateMin > LATE_WINDOW_MIN && !log.posts[c.id]?.creation_id) {
+      // A post that already has a container may finish its retries a little late, but never
+      // more than STALE_RETRY_MAX_MIN after its slot: a stale post is not published days later.
+      const stale = log.posts[c.id]?.creation_id ? lateMin > STALE_RETRY_MAX_MIN : lateMin > LATE_WINDOW_MIN;
+      if (stale) {
         if (live) { Object.assign(entry(c.id), { status: "missed", missed_at: now.toISOString() }); persist(); }
         summary.missed.push(c.id); continue;
       }
