@@ -161,3 +161,23 @@ The baseline findings above describe the `main` snapshot before the follow-up co
 - Latest PR #312 CI passed: public build ready; 172 HTML pages scanned; 4,886 local links checked; zero broken local links, zero missing descriptions and zero missing canonicals. There are 76 non-blocking legacy social-image metadata warnings.
 
 No production deployment, merge or social publishing was performed. PR #312 remains a draft pending owner review.
+
+
+## Second remediation update — 2026-11-11
+
+The follow-up draft [PR #312](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/312) has expanded beyond the first remediation batch. It now contains eight new Taiwan guides (Sky Capsule booking, Kkangtong food, Kkangtong bath-shopping, Visit Busan Pass, Busan coffee/MOMOS, Haeundae food, Yeongdo coastal walk and Jeonpo Cafe Street) plus the Busan Map in English, Japanese and Traditional Chinese.
+
+### Current branch coverage
+
+- Traditional Chinese search index: 55 URLs (54 guides plus the guide directory), no duplicates.
+- All six baseline search omissions restored.
+- Nine newly added Taiwan guide pages, including the map, are indexed and listed in the Traditional Chinese guide directory.
+- English/Japanese/Traditional Chinese map hreflang group is reciprocal; the sitemap has no duplicate URLs.
+- English/root guide URLs without a Traditional Chinese sitemap alternate: 14 (baseline 22). This is a URL-pairing gap count; some content may exist under alternate localized slugs.
+- Five HTML language tags standardized; Dongnae and Nampo footers localized.
+
+### Latest validation
+
+GitHub Actions run [42933070268](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/42933070268) passed. Build and public quality audit checked 181 HTML pages. Technical SEO audit checked 5,166 local links with zero broken links, zero missing descriptions and zero missing canonicals. Strict image-credit audit had zero errors; language-switch audit checked 477 links with zero findings. 80 non-blocking SEO warnings remain, mostly older pages missing social preview images.
+
+No merge or production deployment was performed. PR #312 remains a draft pending owner review.
