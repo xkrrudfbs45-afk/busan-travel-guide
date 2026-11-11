@@ -9,7 +9,7 @@
 1. Treat each post as a standalone Threads post. Keep the line breaks and punctuation as written.
 2. Publish two posts per account per day, using the account's local audience time:
    - Japan: start with 08:00 and 20:00 Japan Standard Time.
-   - USA: start with 08:00 and 18:00 Eastern Time as a test schedule. This is a broad starting point for a multi-time-zone audience, not a proven optimum. Review analytics after 14 days and adjust.
+   - USA: 07:00 and 18:00 Eastern Time. The 07:00 morning slot aligns with the 12:00 UTC GitHub Actions run; review analytics after 14 days before changing it. This is a broad starting point for a multi-time-zone audience, not a proven optimum. Review analytics after 14 days and adjust.
 3. Use Day 1–30 as a rolling calendar from the agreed launch date. Do not assume the launch date.
 4. Do not post both language versions to the same account. Japanese copy goes only to Japan; English copy goes only to USA.
 5. Keep the voice helpful, curious, local-minded, and conversational. Avoid making every post an advertisement. Use a question or invite a reply where it feels natural.
