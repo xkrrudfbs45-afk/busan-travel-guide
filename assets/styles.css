@@ -1109,6 +1109,77 @@
 @media(max-width:760px){.seasonal-events{padding-top:22px;padding-bottom:26px}.seasonal-events-heading{align-items:flex-start;flex-direction:column;gap:10px}.seasonal-events-grid{grid-template-columns:1fr;gap:12px}.seasonal-event-card{display:grid;grid-template-columns:34% 1fr}.seasonal-event-photo{height:100%;min-height:175px}.seasonal-event-copy{padding:14px}.seasonal-event-copy p{min-height:0;font-size:12px}.seasonal-event-copy h3{font-size:16px}}
 @media(max-width:420px){.seasonal-event-card{grid-template-columns:1fr}.seasonal-event-photo{height:150px;min-height:0}}
 
+
+/* Go2Busan JP/TW referral and travel-decision components — 2026-11 */
+.transport-logistics-card{margin:22px 0;padding:18px;border:1px solid #d7e2ed;border-radius:14px;background:#f7faff}
+.transport-logistics-card h2,.transport-logistics-card h3{margin:0 0 8px;color:#173657}
+.transport-logistics-route{margin:0 0 14px;color:#526174;font-size:13px;font-weight:750}
+.transport-logistics-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.transport-option{padding:14px;border:1px solid #dce5ef;border-radius:10px;background:#fff}
+.transport-option strong{display:block;margin-bottom:8px;color:#173657;font-size:15px}
+.transport-option p{margin:5px 0;color:#475569;font-size:13px;line-height:1.5}
+.transport-option small{display:block;margin-top:8px;color:#64748b;font-size:11px;line-height:1.5}
+.transport-logistics-note{margin:12px 0 0!important;color:#64748b;font-size:11px;line-height:1.55}
+.guide-map-cta{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:22px 0;padding:18px 20px;border:1px solid #c8dcf4;border-radius:12px;background:#eff6ff}
+.guide-map-cta h2{margin:5px 0 6px;color:#173657;font-size:20px}
+.guide-map-cta p{margin:0;color:#526174;font-size:13px;line-height:1.6}
+.guide-map-cta .map-cta-kicker{color:#2563a6;font-size:10px;font-weight:850;letter-spacing:.1em}
+.guide-map-cta>a{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;min-height:46px;padding:10px 15px;border-radius:7px;background:#174f91;color:#fff!important;font-size:13px;font-weight:800;text-decoration:none}
+.g2b-share-bar{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin:24px 0;padding:14px;border:1px solid #e2e8f0;border-radius:12px;background:#fff}
+.g2b-share-bar strong{margin-right:auto;color:#334155;font-size:13px}
+.g2b-share-bar a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:9px 13px;border-radius:7px;color:#fff!important;font-size:12px;font-weight:800;text-decoration:none}
+.g2b-share-line{background:#06c755}.g2b-share-facebook{background:#1877f2}
+.g2b-share-note{flex-basis:100%;margin:0!important;color:#64748b;font-size:11px}
+.show-card{margin:22px 0;padding:18px;border:2px solid #173657;border-radius:12px;background:#fff;text-align:center}
+.show-card-kicker{margin:0 0 8px!important;color:#526174;font-size:10px;font-weight:850;letter-spacing:.1em}
+.show-card-ko{margin:12px 0 6px!important;color:#172e31;font-size:clamp(23px,5vw,30px);font-weight:900;line-height:1.5;word-break:keep-all}
+.show-card-translation{margin:0!important;color:#526174;font-size:13px;line-height:1.6}
+.editorial-trust-line{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:12px 0 0;color:#526174;font-size:11px}
+.editorial-trust-line strong{color:#173657}
+.ig-worthy-badge{display:inline-flex;align-items:center;gap:6px;margin:8px 0;padding:7px 10px;border-radius:6px;background:#fff1f2;color:#9f1239;font-size:11px;font-weight:850}
+.guide-trust-badges{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}
+.guide-trust-badges span{display:inline-flex;align-items:center;min-height:25px;padding:4px 9px;border-radius:5px;background:#edf5f2;color:#176b55;font-size:10px;font-weight:850}
+.guide-warning-box{margin:22px 0;padding:16px 18px;border:1px solid #fed7aa;border-left:5px solid #ea580c;border-radius:10px;background:#fff7ed;color:#7c2d12}
+.guide-warning-box strong{display:block;margin-bottom:6px;color:#9a3412;font-size:14px}
+.guide-warning-box p{margin:0;color:#7c2d12;font-size:13px;line-height:1.65}
+.pin-visual-card{position:relative;overflow:hidden;margin:22px 0;border-radius:14px;background:#f1f5f9}
+.pin-visual-card img{display:block;width:100%;height:auto;aspect-ratio:9/16;object-fit:cover}
+.pin-visual-card>a{position:absolute;right:12px;bottom:12px;display:inline-flex;align-items:center;min-height:42px;padding:9px 13px;border-radius:7px;background:#bd081c;color:#fff!important;font-size:12px;font-weight:850;text-decoration:none}
+.gmap-direct-link{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;margin:8px 0;padding:10px 14px;border-radius:7px;background:#4285f4;color:#fff!important;font-size:13px;font-weight:850;text-decoration:none}
+.gmap-direct-link:focus-visible,.guide-map-cta>a:focus-visible,.g2b-share-bar a:focus-visible,.pin-visual-card>a:focus-visible{outline:3px solid #f59e0b;outline-offset:3px}
+@media(max-width:650px){
+ .transport-logistics-options{grid-template-columns:1fr}
+ .guide-map-cta{align-items:stretch;flex-direction:column;margin-inline:0;padding:16px}
+ .guide-map-cta>a{width:100%;box-sizing:border-box}
+ .g2b-share-bar{display:grid;grid-template-columns:1fr 1fr}
+ .g2b-share-bar strong,.g2b-share-note{grid-column:1/-1}
+ .g2b-share-bar a{width:100%;box-sizing:border-box}
+ .show-card{padding:16px}
+}
+
+/* Go2Busan JP/TW referral components — phase 2 (2026-11) */
+.quick-summary p:not(.quick-summary-title){margin:.35rem 0 0;line-height:1.6}
+.offline-address-card .show-card{margin:18px 0;padding:16px;box-shadow:none}
+.offline-address-card .show-card-ko{white-space:pre-line;overflow-wrap:anywhere;font-size:clamp(20px,5vw,28px)}
+.pin-visual-card figcaption{padding:9px 12px 12px;background:#fff;color:#526174;font-size:11px;line-height:1.5}
+.pin-visual-card figcaption a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.pin-visual-card--compact{max-width:340px;margin-inline:auto}
+.pin-visual-card--compact>a{top:12px;bottom:auto}
+.pin-visual-card--compact img{aspect-ratio:4/5}
+.ig-worthy-badge{margin-bottom:12px}
+@media(max-width:760px){
+ body:not(.home-refresh) .site-header .nav-wrap{flex-wrap:wrap;row-gap:2px}
+ body:not(.home-refresh) .site-header nav a,body:not(.home-refresh) .site-header .language-pill{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;box-sizing:border-box}
+ body:not(.home-refresh) .site-header nav a{padding:0 6px}
+ body:not(.home-refresh) .site-header .brand{min-height:44px}
+}
+/* Align top-level components with the 1120px page shell (they sat edge-to-edge on desktop) */
+main>.transport-logistics-card,main>.guide-map-cta,main>.g2b-share-bar,main>.guide-warning-box,main>.show-card,main>.pin-visual-card{width:min(1120px,calc(100% - 44px));margin-inline:auto;box-sizing:border-box}
+main>.gmap-direct-link{display:flex;width:fit-content;margin-left:max(22px,calc((100% - 1120px)/2))}
+@media(max-width:700px){
+ main>.transport-logistics-card,main>.guide-map-cta,main>.g2b-share-bar,main>.guide-warning-box,main>.show-card,main>.pin-visual-card{width:calc(100% - 32px)}
+ main>.gmap-direct-link{margin-left:16px}
+}
 /* Homepage hero on phones: show the skyline photo as a clear band above the copy
    instead of under a near-opaque white wash. Gwangan Bridge stays in frame. */
 @media(max-width:560px){
