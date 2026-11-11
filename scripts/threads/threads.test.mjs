@@ -229,7 +229,9 @@ const nextRunAfter = (iso, { minute, hours }) => {
   return null;
 };
 
-test("publisher cron picks up every scheduled post within the late window (both US DST states)", () => {
+// Slots fall exactly on UTC hours listed in the cron, so the computed wait is the cron minute (7 min).
+// The 60-minute bound leaves room for one extra slot hour being added later without hiding a missing hour.
+test("publisher cron reaches every scheduled post within 60 minutes of its slot (both US DST states)", () => {
   const cron = cronHours();
   assert.ok(cron.hours.length <= 8, "keep scheduled runs low (no 15-minute polling)");
   const sched = JSON.parse(readFileSync("content/social/threads-30day/schedule.json", "utf8"));
@@ -241,7 +243,7 @@ test("publisher cron picks up every scheduled post within the late window (both 
     const run = nextRunAfter(iso, cron);
     assert.ok(run, `no run after ${iso}`);
     const lateMin = (run - new Date(iso)) / 60000;
-    assert.ok(lateMin <= 120, `${iso} would wait ${lateMin} min for the next run`);
+    assert.ok(lateMin <= 60, `${iso} would wait ${lateMin} min for the next run`);
   }
 });
 
@@ -260,4 +262,19 @@ test("a retry with a container still completes when only a little late (within 1
   const log = { posts: { "d01-jp-1": { status: "retry_pending", attempts: 1, creation_id: "C9", container_created_at: "2026-11-04T23:05:00Z" } } };
   await run({ now: new Date("2026-11-05T04:05:00Z"), schedule: sch, log, env: ENV, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
   assert.equal(log.posts["d01-jp-1"].status, "published");
+});
+
+test("stale-retry cutoff is measured from the scheduled slot: exactly 12h still completes, 12h+1min is missed", async () => {
+  const sch = approved(); const slot = sch.posts.find((p) => p.id === "d01-jp-1").publish_at_utc; // 2026-11-04T23:00Z
+  const at = (min) => new Date(new Date(slot).getTime() + min * 60000);
+  const entryWith = () => ({ posts: { "d01-jp-1": { status: "retry_pending", attempts: 1, creation_id: "C9", container_created_at: slot } } });
+  // Exactly 720 min after the slot: not stale (cutoff is "more than 12h").
+  let log = entryWith(); let api = fakeApi();
+  await run({ now: at(720), schedule: sch, log, env: ENV, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
+  assert.equal(log.posts["d01-jp-1"].status, "published");
+  // 721 min after the slot: stale -> missed, not published.
+  log = entryWith(); api = fakeApi();
+  const s = await run({ now: at(721), schedule: sch, log, env: ENV, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
+  assert.equal(log.posts["d01-jp-1"].status, "missed");
+  assert.ok(!s.published.some((x) => x.startsWith("d01-jp-1")));
 });
