@@ -1055,7 +1055,18 @@
   <url><loc>https://go2busan.com/guides/busan-coffee-guide/</loc></url>
   <url><loc>https://go2busan.com/guides/haeundae-food-guide/</loc></url>
 
-  <url><loc>https://go2busan.com/guides/kkangtong-market-food-guide/</loc></url>
+  <url>
+    <loc>https://go2busan.com/guides/kkangtong-market-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/kkangtong-market-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/kkangtong-market-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/kkangtong-market-food-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/kkangtong-market-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/kkangtong-market-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/kkangtong-market-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/kkangtong-market-food-guide/" />
+  </url>
   <url><loc>https://go2busan.com/guides/kkangtong-market-bath-shopping/</loc></url>
   <url>
     <loc>https://go2busan.com/zh-tw/guides/taiwan-travelers-busan/</loc>
