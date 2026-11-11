@@ -435,6 +435,11 @@
       "permalink": "https://www.threads.com/@go2busan.tw/post/Dfmh6itEd7h",
       "published_at": "2026-11-11T12:53:36.629Z",
       "last_error": null
+    },
+    "d08-us-1": {
+      "status": "missed",
+      "attempts": 0,
+      "missed_at": "2026-11-11T22:50:28.297Z"
     }
   }
 }
