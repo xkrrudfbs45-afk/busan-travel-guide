@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://go2busan.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/" />
@@ -148,9 +147,6 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-three-days/" />
   </url>
   <url>
-    <loc>https://go2busan.com/guides/busan-map/</loc>
-  </url>
-  <url>
     <loc>https://go2busan.com/guides/busan-transit-card/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-transit-card/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/transit-card/" />
@@ -244,9 +240,6 @@
     <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/things-to-do-in-busan/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/things-to-do-in-busan/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/things-to-do-in-busan/" />
-  </url>
-  <url>
-    <loc>https://go2busan.com/guides/visit-busan-pass-guide/</loc>
   </url>
   <url>
     <loc>https://go2busan.com/guides/pusan-national-university-food-guide/</loc>
@@ -1094,7 +1087,6 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-food-guide/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-food-guide/" />
   </url>
-
   <url>
     <loc>https://go2busan.com/guides/kkangtong-market-food-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/kkangtong-market-food-guide/" />
@@ -1125,7 +1117,7 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-map/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/ja/guides/busan-map/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-map/" />
     <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-map/" />
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-map/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-map/" />
