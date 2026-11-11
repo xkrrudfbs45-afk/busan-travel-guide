@@ -181,3 +181,14 @@ The follow-up draft [PR #312](https://github.com/xkrrudfbs45-afk/busan-travel-gu
 GitHub Actions run [42933070268](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/42933070268) passed. Build and public quality audit checked 181 HTML pages. Technical SEO audit checked 5,166 local links with zero broken links, zero missing descriptions and zero missing canonicals. Strict image-credit audit had zero errors; language-switch audit checked 477 links with zero findings. 80 non-blocking SEO warnings remain, mostly older pages missing social preview images.
 
 No merge or production deployment was performed. PR #312 remains a draft pending owner review.
+
+
+## Final remediation result — 2026-11-11
+
+The latest draft [PR #312](https://github.com/xkrrudf45-afk/busan-travel-guide/pull/312) now contains 22 new Traditional Chinese guide pages, increasing the Taiwan guide set from 45 to 67. The Taiwan search index has 68 URLs (67 guides plus the guide directory) with no duplicate entries. All six original search-index omissions are restored.
+
+The sitemap was deduplicated and now contains 189 unique URLs, with no duplicate URL entries. Every English guide URL in the sitemap now has a Traditional Chinese hreflang alternate; missing EN→zh-TW guide pairs: 0. This reflects source-level pairing, not native-speaker sign-off.
+
+Final CI run [42935326144](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/42935326144) passed: 194 HTML pages scanned, 5,553 local links checked, zero broken links, zero missing descriptions/canonicals, strict image-credit audit zero errors (7 warnings), and 491 language-switch links checked with zero findings. 74 legacy pages still lack social preview image metadata.
+
+No merge or production deployment was performed. PR #312 remains a draft pending owner review.
