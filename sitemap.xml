@@ -1064,4 +1064,32 @@
     <loc>https://go2busan.com/zh-tw/guides/taiwan-travelers-busan/</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/haeundae-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-food-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/haeundae-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-food-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/busan-coffee-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-coffee-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-coffee-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-coffee-guide/" />
+  </url>
 </urlset>
