@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { CALENDAR_MD, parseCalendar, localToUtc, checkPost, redact } from "./lib.mjs";
 import { buildSchedule, validateSchedule, addMarket } from "./build-schedule.mjs";
+import { ACCOUNTS } from "./lib.mjs";
 import { CALENDAR_TW_MD } from "./lib.mjs";
 import { run } from "./publish.mjs";
 import { pathFor, guideUrl, checkLinkReply } from "./link-replies.mjs";
@@ -211,4 +212,12 @@ test("Taiwan drafts never publish even with a token", async () => {
   const s = addMarket(approved("2026-11-04"), allMd, "TW", "2026-11-04");
   await run({ now: new Date("2026-11-04T00:05:00Z"), schedule: s, log, env: { ...ENV, THREADS_TW_ACCESS_TOKEN: "tw" }, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
   assert.equal(Object.keys(log.posts).filter((k) => k.includes("-tw-")).length, 0);
+});
+
+test("US morning slot is aligned with the 12:00 UTC publisher run", () => {
+  assert.equal(ACCOUNTS.US.slots[0], "07:00");
+  const s = buildSchedule(md, "2026-11-11", ["US"]);
+  const p = s.posts.find((x) => x.id === "d01-us-1");
+  assert.equal(p.local_time, "07:00");
+  assert.equal(p.publish_at_utc, "2026-11-11T12:00:00.000Z");
 });
