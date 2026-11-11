@@ -11,3 +11,5 @@ Published copy is never edited retroactively.
   - JP d02-jp-1 (was 2026-11-05 08:00 JST, planning tip) → fireworks, now
   - US d01-us-2 (was 2026-11-04 18:00 ET, "top three must-dos") → fireworks, now
   - TW d01-tw-1 (was 2026-11-05 08:00 Taipei, first-trip tip + first-trip link) → fireworks, now; this also moves the TW account's first post forward to tonight
+
+- 2026-11-11 — Moved the remaining 23 approved US morning posts (d08-us-1 through d30-us-1; local dates 2026-11-11 to 2026-12-03) from 08:00 to 07:00 America/New_York. Their UTC publish times now align with the existing 12:00 UTC workflow run. Historical/past records and all evening, Japan and Taiwan posts remain unchanged. Owner-directed scheduling correction.
