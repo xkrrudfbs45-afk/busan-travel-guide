@@ -139,3 +139,25 @@ Do not merge or deploy these PRs as a batch. Rebase and reconcile their sitemap,
 ## Verification limits
 
 This audit reads the current repository `main` source snapshot. It does not prove that the current production deployment matches this commit, that Google has indexed every URL, or that every translation has been native-reviewed. No PR was merged and no production or social publishing action was performed as part of this audit.
+
+
+## Follow-up remediation batch — 2026-11-11
+
+The baseline findings above describe the `main` snapshot before the follow-up content branch was merged. The draft [PR #312](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/312) addresses the following:
+
+- Adds three Taiwan Traditional Chinese guides: Haeundae Sky Capsule booking/payment troubleshooting, Bupyeong Kkangtong Market food, and Kkangtong bath/shopping essentials.
+- Adds the three pages to the Taiwan guide directory, search index and sitemap, with reciprocal EN/zh-TW alternates.
+- Restores all six previously missing Taiwan search-index entries.
+- Standardizes five HTML language declarations to `zh-Hant-TW` and localizes the Dongnae/Nampo footer links.
+- Replaces the Nampo guide's English-only Kkangtong food link with the Taiwan page and creates the Taiwan bath-shopping page to resolve the remaining market-guide link.
+- Adds the existing Taiwan fireworks fair-price-stays page to the sitemap's reciprocal hreflang group.
+
+### Post-remediation source checks
+
+- Taiwan search index: 49 URLs (48 guide pages plus the guide directory), no duplicate Taiwan URLs.
+- All six baseline search omissions and all three new Taiwan pages have index entries.
+- The five language declarations are standardized; Dongnae and Nampo footer links are localized.
+- The sitemap now has 18 English/root guide URLs without a zh-TW hreflang alternate, down from the baseline 22. This is a pairing gap count, not a translation-gap count; check alternate slugs before creating new translations.
+- Latest PR #312 CI passed: public build ready; 172 HTML pages scanned; 4,886 local links checked; zero broken local links, zero missing descriptions and zero missing canonicals. There are 76 non-blocking legacy social-image metadata warnings.
+
+No production deployment, merge or social publishing was performed. PR #312 remains a draft pending owner review.
