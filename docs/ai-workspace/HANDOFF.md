@@ -2,7 +2,7 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
-## Current handoff — 2026-11-10 (ChatGPT, content and SNS safety review)
+## Current handoff — 2026-11-11 (ChatGPT, Taiwan localization audit)
 
 ### Completed
 - Opened consolidated Nampo food guide PR #309; superseded draft PRs #307/#308 were closed. Source links now distinguish local tip, current directory listings and official Visit Busan data.
