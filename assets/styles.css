@@ -913,6 +913,7 @@
   .home-refresh .home-hero h1{font-size:clamp(38px,10.2vw,42px)}
   .home-refresh .home-hero-inner{padding-top:24px;padding-bottom:22px}
   .home-refresh .search-quick-links button{padding-inline:11px;font-size:11px}
+}
 /* 2026-11-05 mobile usability pass: compact navigation, first-screen focus,
    readable category cards and a single-column guide layout. */
 @media (max-width:850px){
