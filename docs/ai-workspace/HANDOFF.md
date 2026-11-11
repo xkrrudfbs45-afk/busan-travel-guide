@@ -72,3 +72,11 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Approval needed
 - [Any merge, deployment, spend, partner, or policy decision]
+
+
+## Latest Taiwan handoff — 2026-11-11
+- Continue from PR #312 (`content/taiwan-sky-capsule-booking-guide-2026-11`). It now contains eight new Taiwan guides and the three-language Busan Map.
+- Search index: 55 Taiwan URLs (54 guides + directory), zero duplicates. All six previous missing Taiwan search entries are restored.
+- Sitemap: no duplicate URLs; 14 English/root guide URLs still have no zh-TW alternate. Verify whether translated equivalents exist under alternate slugs before creating duplicates.
+- CI run 42933070268 passed: 181 HTML pages, 5,166 local links, zero broken links, no missing descriptions/canonicals, strict image credits zero errors and language-switch audit zero findings. 80 non-blocking SEO warnings remain.
+- Keep PR #312 draft pending owner review. Do not merge/deploy or publish social content without approval.
