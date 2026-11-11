@@ -2071,5 +2071,83 @@
       "広安里",
       "광안리"
     ]
+  },
+  {
+    "title": "Where to Eat in Haeundae, Busan",
+    "url": "/guides/haeundae-food-guide/",
+    "summary": "Choose Haeundae Market snacks, seaside seafood, Haeridan-gil cafés or Korean barbecue, with locations and ordering tips.",
+    "tags": [
+      "haeundae food",
+      "where to eat haeundae",
+      "haeundae market",
+      "seafood busan",
+      "korean barbecue",
+      "haeridan gil",
+      "해운대 맛집"
+    ]
+  },
+  {
+    "title": "Busan Coffee Guide: MOMOS and Local Roasteries",
+    "url": "/guides/busan-coffee-guide/",
+    "summary": "Plan a specialty coffee stop at MOMOS COFFEE in Oncheonjang or Yeongdo, with local coffee culture and route advice.",
+    "tags": [
+      "busan coffee",
+      "momos coffee",
+      "specialty coffee busan",
+      "coffee roastery",
+      "yeongdo cafe",
+      "전포 카페",
+      "부산 커피"
+    ]
+  },
+  {
+    "title": "海雲台グルメガイド",
+    "url": "/ja/guides/haeundae-food-guide/",
+    "summary": "海雲台市場、海辺の海鮮、海理団通りのカフェ、韓国式ホルモン焼き。エリア別に食事を選べます。",
+    "tags": [
+      "海雲台 グルメ",
+      "海雲台 市場",
+      "釜山 海鮮",
+      "海理団通り",
+      "釜山 焼肉",
+      "釜山旅行"
+    ]
+  },
+  {
+    "title": "海雲台區域美食攻略",
+    "url": "/zh-tw/guides/haeundae-food-guide/",
+    "summary": "整理海雲台傳統市場、海邊海鮮餐飲區、海理團路咖啡廳與韓式烤牛腸，依行程選擇用餐地點。",
+    "tags": [
+      "海雲台美食",
+      "海雲台市場",
+      "釜山海鮮",
+      "海理團路",
+      "釜山烤肉",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "釜山コーヒーガイド",
+    "url": "/ja/guides/busan-coffee-guide/",
+    "summary": "釜山発のMOMOS COFFEE。温泉場本店と影島ロースタリーの違い、注文のヒント、街歩きとの組み合わせを紹介。",
+    "tags": [
+      "釜山 コーヒー",
+      "MOMOS COFFEE",
+      "釜山 カフェ",
+      "影島 カフェ",
+      "スペシャルティコーヒー"
+    ]
+  },
+  {
+    "title": "釜山咖啡指南",
+    "url": "/zh-tw/guides/busan-coffee-guide/",
+    "summary": "從 MOMOS COFFEE 出發，認識溫泉場旗艦店、影島烘豆店與釜山港口城市的咖啡文化。",
+    "tags": [
+      "釜山咖啡",
+      "MOMOS COFFEE",
+      "釜山咖啡廳",
+      "影島咖啡",
+      "精品咖啡"
+    ]
   }
 ]

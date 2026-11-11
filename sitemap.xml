@@ -1043,8 +1043,20 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/dongnae-hot-spring-half-day/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
   </url>
-  <url><loc>https://go2busan.com/guides/busan-coffee-guide/</loc></url>
-  <url><loc>https://go2busan.com/guides/haeundae-food-guide/</loc></url>
+  <url>
+    <loc>https://go2busan.com/guides/busan-coffee-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-coffee-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/guides/haeundae-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-food-guide/" />
+  </url>
 
   <url><loc>https://go2busan.com/guides/kkangtong-market-food-guide/</loc></url>
   <url><loc>https://go2busan.com/guides/kkangtong-market-bath-shopping/</loc></url>
