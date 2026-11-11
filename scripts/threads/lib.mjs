@@ -9,10 +9,10 @@ export const SCHEDULE_FILE = "content/social/threads-30day/schedule.json";
 export const LOG_FILE = "content/social/threads-30day/publish-log.json";
 export const CHANGELOG_FILE = "content/social/threads-30day/CHANGELOG.md";
 
-// Account config. Times come from the calendar's operating rules (JST 08/20, ET 08/18).
+// Account config. US morning moved to 07:00 ET so it is due at the 12:00 UTC workflow run (07:00 EST).
 export const ACCOUNTS = {
   JP: { handle: "go2busan.jp", language: "ja", tz: "Asia/Tokyo", slots: ["08:00", "20:00"], tokenEnv: "THREADS_JP_ACCESS_TOKEN" },
-  US: { handle: "go2busan.us", language: "en", tz: "America/New_York", slots: ["08:00", "18:00"], tokenEnv: "THREADS_US_ACCESS_TOKEN" },
+  US: { handle: "go2busan.us", language: "en", tz: "America/New_York", slots: ["07:00", "18:00"], tokenEnv: "THREADS_US_ACCESS_TOKEN" },
   TW: { handle: "go2busan.tw", language: "zh-TW", tz: "Asia/Taipei", slots: ["08:00", "20:00"], tokenEnv: "THREADS_TW_ACCESS_TOKEN" },
 };
 
