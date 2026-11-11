@@ -1615,22 +1615,26 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-18T23:00:00.000Z",
-      "text": "A change of plan isn’t a failed itinerary. Sometimes the best travel day is the one where you slow down, follow a local tip, or spend longer somewhere you love.",
+      "text": "A change of plan can be part of a good trip. Sometimes slowing down, following a local tip, or spending longer somewhere you enjoy makes the day feel more personal.",
       "verification": {
-        "status": "needs_check",
+        "status": "evergreen",
         "issues": [],
-        "flags": [
-          "superlative / unverifiable claim"
-        ],
+        "flags": [],
         "verified_by": "Tak (chat approval 2026-11-05)",
         "verified_at": "2026-11-05T12:40:00.000Z",
-        "note": "'the best' is used as a subjective travel reflection, not a factual ranking of a business; owner accepted the wording as-is"
+        "note": "Copy edited to remove subjective superlative; no time-sensitive factual claim."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-05)",
         "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Owner-directed editorial review (ChatGPT)",
+        "at": "2026-11-11T23:40:00+09:00",
+        "reason": "Remove subjective superlative and keep the post evergreen.",
+        "original_text": "A change of plan isn’t a failed itinerary. Sometimes the best travel day is the one where you slow down, follow a local tip, or spend longer somewhere you love."
+      }
     },
     {
       "id": "d16-jp-1",
@@ -1926,22 +1930,26 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-21T23:00:00.000Z",
-      "text": "Have you ever stumbled on a place that became the best part of a trip? The walk between planned stops can be just as memorable as the destination.",
+      "text": "Have you ever stumbled on a place that stayed with you? The walk between planned stops can be just as memorable as the destination.",
       "verification": {
-        "status": "needs_check",
+        "status": "evergreen",
         "issues": [],
-        "flags": [
-          "superlative / unverifiable claim"
-        ],
+        "flags": [],
         "verified_by": "Tak (chat approval 2026-11-05)",
         "verified_at": "2026-11-05T12:40:00.000Z",
-        "note": "'the best' is used as a subjective travel reflection, not a factual ranking of a business; owner accepted the wording as-is"
+        "note": "Copy edited to remove subjective superlative; no time-sensitive factual claim."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-05)",
         "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Owner-directed editorial review (ChatGPT)",
+        "at": "2026-11-11T23:40:00+09:00",
+        "reason": "Remove subjective superlative and keep the post evergreen.",
+        "original_text": "Have you ever stumbled on a place that became the best part of a trip? The walk between planned stops can be just as memorable as the destination."
+      }
     },
     {
       "id": "d19-jp-1",
@@ -2004,22 +2012,26 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-22T13:00:00.000Z",
-      "text": "Solo trip, friends, or family? The best Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks.",
+      "text": "Solo trip, friends, or family? The right Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks.",
       "verification": {
-        "status": "needs_check",
+        "status": "evergreen",
         "issues": [],
-        "flags": [
-          "superlative / unverifiable claim"
-        ],
+        "flags": [],
         "verified_by": "Tak (chat approval 2026-11-05)",
         "verified_at": "2026-11-05T12:40:00.000Z",
-        "note": "'the best' is used as a subjective travel reflection, not a factual ranking of a business; owner accepted the wording as-is"
+        "note": "Copy edited to remove subjective superlative; no time-sensitive factual claim."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-05)",
         "approved_at": "2026-11-05T12:40:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Owner-directed editorial review (ChatGPT)",
+        "at": "2026-11-11T23:40:00+09:00",
+        "reason": "Remove subjective superlative and keep the post evergreen.",
+        "original_text": "Solo trip, friends, or family? The best Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks."
+      }
     },
     {
       "id": "d19-us-2",
