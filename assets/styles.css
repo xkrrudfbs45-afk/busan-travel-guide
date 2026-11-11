@@ -459,7 +459,7 @@
 
 
 /* Accessible on-site guide search */
-.search-quick-links{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:12px;color:#fff;font-size:11px}.search-quick-links span{opacity:.9;margin-right:2px}.search-quick-links button{appearance:none;border:1px solid #ffffff70;border-radius:999px;background:#ffffff18;color:#fff;padding:6px 10px;font:inherit;cursor:pointer}.search-quick-links button:hover,.search-quick-links button:focus-visible{background:#fff;color:var(--teal-dark);outline-offset:2px}
+.search-quick-links{display:flex;align-items:center;flex-wrap:wrap;gap:7px;margin-top:12px;color:#fff;font-size:11px}.search-quick-links span{opacity:1;margin-right:2px;font-weight:700;text-shadow:0 1px 3px rgba(0,0,0,.75)}.search-quick-links button{appearance:none;border:1px solid #fff;border-radius:999px;background:rgba(255,255,255,.96);color:#173b45;padding:6px 10px;font:inherit;font-weight:700;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.16)}.search-quick-links button:hover,.search-quick-links button:focus-visible{background:#fff;color:var(--teal-dark);outline:2px solid #fff;outline-offset:2px}
 .site-search-results {
   margin-top: 12px;
   max-width: 620px;
