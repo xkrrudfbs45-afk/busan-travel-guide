@@ -7,7 +7,7 @@
   background:var(--home-paper);color:var(--home-ink);
 }
 .home-refresh .shell{width:min(1200px,calc(100% - 56px))}
-.home-refresh .site-header{background:rgba(250,249,245,.94);border-bottom:1px solid rgba(10,25,47,.09);backdrop-filter:blur(18px)}
+.home-refresh .site-header{background:rgba(248,250,252,.96);border-bottom:1px solid rgba(10,25,47,.09);backdrop-filter:blur(18px)}
 .home-refresh .nav-wrap{min-height:78px;gap:28px}
 .home-refresh .brand-lockup{width:230px;max-width:25%;flex:none}
 .home-refresh .brand-lockup img{display:block;width:100%;height:auto;max-height:48px;object-fit:contain;object-position:left center}
@@ -20,7 +20,7 @@
 .home-refresh .search-icon{display:grid;place-items:center;width:36px;height:36px;border:1px solid var(--home-line);border-radius:50%;color:var(--home-ink);text-decoration:none;font-size:20px}
 .home-refresh .home-hero{min-height:510px;background:#0A192F}
 .home-refresh .home-hero-backdrop{
-  background-image:linear-gradient(90deg,rgba(10,28,30,.86) 0%,rgba(10,28,30,.68) 36%,rgba(10,28,30,.16) 76%,rgba(10,28,30,.08) 100%),linear-gradient(0deg,rgba(10,28,30,.22),transparent 48%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=2000");
+  background-image:linear-gradient(90deg,rgba(10,25,47,.86) 0%,rgba(10,25,47,.68) 36%,rgba(10,25,47,.16) 76%,rgba(10,25,47,.08) 100%),linear-gradient(0deg,rgba(10,25,47,.22),transparent 48%),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=2000");
   background-size:cover;background-position:center 52%;transform:none;
 }
 .home-refresh .home-hero-inner{width:min(1200px,calc(100% - 56px));min-height:510px;padding:62px 0 54px;align-items:center}
@@ -99,11 +99,11 @@
 .home-refresh .trip-planner{position:sticky;top:100px;padding:20px 17px 16px;border:1px solid var(--home-line);border-radius:13px;background:#fff;box-shadow:none}
 .home-refresh .trip-planner h2{font-size:17px;color:var(--home-ink);font-weight:700}
 .home-refresh .trip-planner h2 span,.home-refresh .planner-icon{color:var(--home-sea)}
-.home-refresh .trip-planner>a{padding:12px 8px;border:0;border-top:1px solid #edf0eb;border-radius:0;background:transparent}
-.home-refresh .trip-planner>a:hover{background:#f5f8f5;border-color:#edf0eb}
+.home-refresh .trip-planner>a{padding:12px 8px;border:0;border-top:1px solid #E2E8F0;border-radius:0;background:transparent}
+.home-refresh .trip-planner>a:hover{background:#F0F6FF;border-color:#E2E8F0}
 .home-refresh .trip-planner strong{font-size:11px;color:var(--home-ink)}
 .home-refresh .trip-planner small{font-size:10px;color:var(--home-muted)}
-.home-refresh .planner-art{color:#9bbab0}
+.home-refresh .planner-art{color:#9BBDF5}
 .home-refresh .neighborhood-planner{padding-top:48px;padding-bottom:50px}
 .home-refresh .neighborhood-planner-heading h2{font-size:clamp(28px,3vw,36px);color:var(--home-ink)}
 .home-refresh .neighborhood-planner-heading>p:last-child{color:var(--home-muted)}
@@ -123,7 +123,7 @@
 .home-refresh .all-guides{padding-top:16px!important}
 .home-refresh .all-guides h2{font-size:clamp(25px,3vw,32px);color:var(--home-ink)}
 .home-refresh .all-guides-list{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:7px 28px}
-.home-refresh .all-guides-list a{padding:8px 0;border-bottom:1px solid #e9ebe5;color:#526174;font-size:12px;text-decoration:none}
+.home-refresh .all-guides-list a{padding:8px 0;border-bottom:1px solid #E2E8F0;color:#526174;font-size:12px;text-decoration:none}
 .home-refresh .all-guides-list a:hover{color:var(--home-sea)}
 .home-refresh .home-bottom{margin-top:22px;margin-bottom:48px;padding:28px 30px;border:1px solid #D7E5F5;border-radius:14px;background:#F0F6FF}
 .home-refresh .home-bottom h2{font-size:24px;color:var(--home-ink)}
@@ -154,7 +154,7 @@
  .home-refresh .header-actions .language-pill{display:none}
  .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:470px}
  .home-refresh .home-hero-inner{padding:48px 0}
- .home-refresh .home-hero-backdrop{background-position:58% center;background-image:linear-gradient(90deg,rgba(10,28,30,.83),rgba(10,28,30,.42) 72%,rgba(10,28,30,.2)),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1400")}
+ .home-refresh .home-hero-backdrop{background-position:58% center;background-image:linear-gradient(90deg,rgba(10,25,47,.83),rgba(10,25,47,.42) 72%,rgba(10,25,47,.2)),url("https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1400")}
  .home-refresh .home-content{grid-template-columns:1fr}
  .home-refresh .trip-planner{position:static;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px}
  .home-refresh .trip-planner h2,.home-refresh .planner-art{grid-column:1/-1}
@@ -224,3 +224,18 @@
 .home-refresh .site-footer a{color:#DCEBFF}
 .home-refresh .site-header a:focus-visible,.home-refresh main a:focus-visible,.home-refresh main button:focus-visible{outline:3px solid #0066FF;outline-offset:3px}
 @media(max-width:720px){.home-refresh{padding-bottom:0}.home-refresh .g2b-bar{background:rgba(248,250,252,.98);border-top-color:#DCE3EC}.home-refresh .g2b-bar__item{color:#334155}.home-refresh .g2b-bar__item[aria-current="page"]{color:#0066FF}.home-refresh .g2b-bar__badge{background:#FF4757}}
+
+
+/* Final consistency and accessibility pass for the #344 owner-approved palette */
+.home-refresh .site-header{background:rgba(248,250,252,.96);border-bottom-color:#E2E8F0}
+.home-refresh .home-hero-backdrop{background-color:#0A192F}
+.home-refresh .trip-planner>a:hover{background:#F0F6FF}
+.home-refresh .all-guides-list a{border-bottom-color:#E2E8F0}
+.home-refresh .planner-art{color:#9BBDF5}
+.home-refresh .home-photo-grid>a:focus-visible,.home-refresh .seasonal-event-card:focus-visible,.home-refresh .trend-card:focus-visible{outline:3px solid #0066FF;outline-offset:3px}
+@supports not (backdrop-filter:blur(4px)){
+ .home-refresh .site-header{background:#F8FAFC}
+}
+@media(prefers-reduced-motion:reduce){
+ .home-refresh *, .home-refresh *::before, .home-refresh *::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
