@@ -79,3 +79,11 @@ Use one of:
 | Affiliate measurement | Blocked | Owner | Code done (#268/#270); GA4 Viewer access needed to verify live events |
 
 Update this table after each meaningful work session. Include PR numbers, commit SHAs, test results, and blockers where known.
+
+
+## Taiwan localization update — 2026-11-11 (latest)
+- PR #312 now adds eight Taiwan guides plus the EN/JA/zh-TW Busan Map; all nine new Taiwan pages are in the search index and guide directory.
+- Taiwan search index: 55 URLs (54 guides + directory), no duplicates. All six baseline search omissions restored.
+- Sitemap has no duplicate URLs; 14 English/root guide URLs still lack zh-TW alternates (baseline 22), pending alternate-slug review.
+- CI run 42933070268 passed: 181 HTML pages, 5,166 local links, zero broken links; zero missing descriptions/canonicals; strict image-credit audit zero errors; language-switch audit zero findings. 80 non-blocking legacy SEO warnings remain.
+- PR #312 is draft. No merge, production deployment or social publishing.
