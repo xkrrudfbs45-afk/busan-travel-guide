@@ -62,8 +62,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/bukangi-busan-north-port-shark/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/bukangi-busan-north-port-shark/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/bukangi-soju-busan/</loc>
