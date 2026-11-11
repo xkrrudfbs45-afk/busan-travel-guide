@@ -83,7 +83,7 @@ Use descriptive alt text in Taiwan Traditional Chinese. Do not use generic stock
 
 ## Proposed page structure (after field verification)
 
-Suggested existing-site destination: first inspect the current Taiwan shopping / Nampo-dong guide coverage and extend the best matching canonical page. Do not create a competing URL until the sitemap and internal-link audit confirms there is no suitable existing page.
+Suggested existing-site destination: extend the existing Taiwan Traditional Chinese Nampo-dong neighborhood hub at `zh-tw/guides/nampo-neighborhood-guide/index.html`. Repository search confirms this canonical page already covers markets, street food and a half-day plan, and the sitemap already lists it with EN/JA/TW alternates. Add the bedding-shopping section there after field verification rather than creating a competing URL. Link it from the Taiwan guides directory if the section becomes substantial.
 
 Suggested Taiwan title:
 釜山國際市場買棉被攻略｜南浦洞寢具購物、真空包裝與寄送
