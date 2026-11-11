@@ -155,3 +155,29 @@ Suggested Taiwan Traditional Chinese labels:
 - 범일동：凡一洞
 - 침구 비교 쇼핑：寢具比價／比較選購
 
+
+
+## Third-party owner leads and directory verification: Busanjin Market bedding shops
+
+Research update: 2026-11-11, following owner recommendations. The owner recommends 부산이불, 거창이불 and 유신침구 as stores reportedly known for affordable prices and decent quality. Treat this as an owner-supplied local lead and informal reputation, not an independently verified price/quality ranking.
+
+### Confirmed in the market's public shop directory
+
+- 부산이불: Busanjin Market's official shop directory lists this store in B1, 솜부 1–2호; phone 051-634-3112. The directory listing does not provide a product description in the captured result. Source: https://bjmhome.cafe24.com/mobile/sub.php?key=cate&keyword=1514012721&m=all&o=nd&page=5
+- 거창이불: Official directory lists bedding, pads, floor bedding (요), bed sets and wedding bedding; B1, 잉여부 73–75호; phone 051-631-1126. Sources: https://bjmhome.cafe24.com/mobile/sub.php?key=cate&keyword=1514012535&m=all and https://bjmhome.cafe24.com/mobile/sub.php?key=cate&keyword=1514012721&m=all
+- 유신침구: A Saramin business profile lists the business at B1, 잉여부 55·56·57호, in the sales/retail category; phone 051-643-8247 is surfaced by a separate local business listing. The public directory result reviewed did not independently surface this shop, so confirm the booth and phone against the current market directory or by calling before publication. Sources: https://www.saramin.co.kr/zf_user/company-info/view/csn/VzZXM0RkckUrb3pxZnEwTnkwYUtKUT09/company_nm/%EB%B6%80%EC%82%B0%EC%A7%84%EC%8B%9C%EC%9E%A5%2B%EC%9C%A0%EC%8B%A0%EC%B9%A8%EA%B5%AC
+- Additional official-directory lead: 운성이불, B1 비누부 1호; phones 051-632-4879 / 0507-1300-4879. Its listing describes wedding/bridal bedding and uses search terms such as 부산이불 and 부산진시장 이불. Source: https://bjmhome.cafe24.com/mobile/sub.php?key=cate&keyword=1514012490&m=all&page=3
+
+### Owner field impressions (not verified store-wide facts)
+
+- The owner has heard that 부산이불, 거창이불 and 유신침구 are known for affordable prices and acceptable quality. Do not turn this into “cheapest,” “best value,” or a quantified comparison without dated price comparisons and product specifications.
+- The owner’s impression is that most bedding sold at Busanjin Market is Korean-made. This is not verified; inspect individual product labels and distinguish Korean-made products from Korean brands or products sold in Korea.
+- The owner believes vacuum packing may not be offered at Busanjin Market. This is unverified and may vary by store. Ask each named store directly before stating that packing is unavailable.
+
+### Content implications
+
+- These three owner-suggested shops can be introduced as starting points for comparison only after reconfirming their current locations and operation.
+- The official directory result for 부산이불 is a useful correction: the exact store name is listed in B1, 솜부 1–2호, phone 051-634-3112. Do not confuse it with unrelated “부산이불” businesses in other cities.
+- Keep the practical visitor advice simple: compare the same size and material across shops, check the sewn-in country-of-origin label, ask for the final price and whether any packing/shipping service is available.
+- Do not publish a claim that Busanjin Market stores do or do not offer vacuum packing as a market-wide fact.
+
