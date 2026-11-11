@@ -24,7 +24,9 @@ This is a prioritized portfolio, not authorization to implement everything at on
 | G2B-007 | Taiwan Traditional Chinese landing page | Clear entry point for Taiwan visitors | Localized page, metadata, internal links |
 | G2B-008 | Taiwan-focused food, shopping, stay, itinerary content plan | Market-fit editorial roadmap | Keyword/intent map and content briefs |
 | G2B-009 | Haeundae, Seomyeon, Nampo-dong, Gwangalli hub audit/build | Neighborhood-led discovery | Four useful hubs or documented existing equivalents |
-| G2B-010 | Strengthen editorial/local trust signals | Credible local expertise | About/editorial standards/firsthand labels |\n| G2B-031 | Complete Taiwan localization coverage audit and remediation | No high-value English guide stranded without a Taiwan path | URL-level zh-TW coverage, reciprocal hreflang, native Taiwan wording and owner-approved release |\n| G2B-032 | Add all existing Taiwan guides to localized search index | Visitors can discover every Taiwan guide through on-site search | All 45 zh-TW guides have unique index entries; six current omissions fixed |
+| G2B-010 | Strengthen editorial/local trust signals | Credible local expertise | About/editorial standards/firsthand labels |
+| G2B-031 | Complete Taiwan localization coverage audit and remediation | No high-value English guide stranded without a Taiwan path | URL-level zh-TW coverage, reciprocal hreflang, native Taiwan wording and owner-approved release |
+| G2B-032 | Add all existing Taiwan guides to localized search index | Visitors can discover every Taiwan guide through on-site search | All 45 zh-TW guides have unique index entries; six current omissions fixed |
 
 ## P0 — Current release and trust fixes
 
@@ -37,10 +39,11 @@ This is a prioritized portfolio, not authorization to implement everything at on
 | G2B-025 | SNS approval and LIVE release gate | Prevent accidental account posting on merge | #305 remains draft; owner review and LIVE-state confirmation required before merge |
 | G2B-026 | Mobile QA for updated food pages | Ensure restaurant cards, maps and text work on small screens | 360px, 390px and desktop checks on #309 and #311 before merge |
 
-## P1 — Days 31–90\n\n| ID | Task | Expected outcome | Acceptance evidence |\n|---|---|---|---|\n| G2B-033 | Taiwan-first localization of high-intent pages | Help Taiwan visitors solve booking, food, transport and shopping problems | Prioritized Taiwan pages for Sky Capsule, Kkangtong Market, local food, Visit Busan Pass, map and family travel; localized SEO/index/hreflang and QA |
+## P1 — Days 31–90
 
 | ID | Task | Expected outcome | Acceptance evidence |
 |---|---|---|---|
+| G2B-033 | Taiwan-first localization of high-intent pages | Help Taiwan visitors solve booking, food, transport and shopping problems | Prioritized Taiwan pages for Sky Capsule, Kkangtong Market, local food, Visit Busan Pass, map and family travel; localized SEO/index/hreflang and QA |
 | G2B-011 | Local food database structure | Reusable local food content | Fields, editorial status, map and source data |
 | G2B-012 | Food discovery by neighborhood and cuisine | Better food discovery | Searchable/listed food hubs |
 | G2B-013 | Original photography workflow | Distinctive visual assets | Image checklist, credits, responsive variants |
@@ -68,6 +71,9 @@ This is a prioritized portfolio, not authorization to implement everything at on
 | G2B-030 | Local advertiser media kit and packages | Direct commercial revenue | Audience evidence, disclosure policy, rate-card proposal |
 
 ## First execution batch
+
+0. G2B-031: use `TAIWAN-LOCALIZATION-AUDIT.md` as the source of truth; reconcile existing PR work before creating duplicate pages.
+0. G2B-032: restore search-index coverage for the six existing Taiwan guide pages.
 
 1. G2B-001: inspect repository, open PRs, and deployment state.
 2. G2B-002: complete visual QA for current work.
