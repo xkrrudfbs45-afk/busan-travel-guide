@@ -7,13 +7,18 @@ name: Threads publisher (Go2Busan JP/US)
 # Live posting happens only when the repository variable THREADS_LIVE is exactly "true".
 # Otherwise every run is a dry run that prints what would be posted.
 #
-# Scheduled checks: 09:00 and 21:00 Korea Standard Time (UTC 00:00 and 12:00).
-# Local JP/TW/US post slots are about one hour before each check; the existing 3h
-# late window accommodates normal GitHub Actions scheduling delays without backlog bursts.
+# Targeted checks instead of polling: six runs a day at minute 7 of the UTC hours
+# where a local slot can fall, in both US daylight-saving states.
+#   JP 08:00/20:00 Asia/Tokyo        -> 23:00 / 11:00 UTC
+#   TW 08:00/20:00 Asia/Taipei       -> 00:00 / 12:00 UTC
+#   US 08:00 America/New_York        -> 13:00 UTC (EST) / 12:00 UTC (EDT)
+#   US 18:00 America/New_York        -> 23:00 UTC (EST) / 22:00 UTC (EDT)
+# Every slot is picked up within about an hour; the 3h late window is only a safety net.
+# scripts/threads/threads.test.mjs checks that this cron covers every scheduled post.
 
 on:
   schedule:
-    - cron: "0 0,12 * * *"   # 09:00 and 21:00 KST
+    - cron: "7 0,11,12,13,22,23 * * *"  # 6 runs/day; see slot table above
   workflow_dispatch:
 
 permissions:

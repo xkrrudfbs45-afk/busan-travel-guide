@@ -21,6 +21,7 @@ export const MAX_ATTEMPTS = 3;         // total publish attempts per post (acros
 export const LATE_WINDOW_MIN = 180;    // more than 3h late -> "missed", never auto-posted
 export const MAX_PER_LOCAL_DAY = 2;    // planned cadence per account
 export const REPLY_LATE_WINDOW_MIN = 360; // link reply must follow its post within 6h
+export const STALE_RETRY_MAX_MIN = 720; // a retry with an existing container is abandoned (missed) after 12h
 
 // ---------- calendar parsing ----------
 export function parseCalendar(md) {
