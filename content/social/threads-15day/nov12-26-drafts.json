@@ -1,0 +1,2619 @@
+{
+  "campaign": "Go2Busan fresh 15-day Threads campaign",
+  "start_date": "2026-11-12",
+  "end_date": "2026-11-26",
+  "status": "draft_only",
+  "note": "90 new localized drafts: 30 per market, two daily. No post is approved or live. Verify localized guide URLs and facts before promotion.",
+  "posts": [
+    {
+      "id": "fresh15-1112-us-1",
+      "day": 1,
+      "theme": "First-trip planning",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-12",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-12T13:00:00.000Z",
+      "text": "Plan Busan by neighborhood, not by checklist.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_1"
+      }
+    },
+    {
+      "id": "fresh15-1112-us-2",
+      "day": 1,
+      "theme": "First-trip planning",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-12",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-13T01:00:00.000Z",
+      "text": "Plan Busan by neighborhood, not by checklist. Choose one area for the morning and leave room for food stops.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2"
+      }
+    },
+    {
+      "id": "fresh15-1112-jp-1",
+      "day": 1,
+      "theme": "First-trip planning",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-12",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-11T23:00:00.000Z",
+      "text": "釜山は観光地を詰め込まず、エリアごとに楽しみましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_1"
+      }
+    },
+    {
+      "id": "fresh15-1112-jp-2",
+      "day": 1,
+      "theme": "First-trip planning",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-12",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-12T11:00:00.000Z",
+      "text": "釜山は観光地を詰め込まず、エリアごとに楽しみましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2"
+      }
+    },
+    {
+      "id": "fresh15-1112-tw-1",
+      "day": 1,
+      "theme": "First-trip planning",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-12",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-12T00:00:00.000Z",
+      "text": "釜山自由行別把景點排得太滿，按區域安排更輕鬆。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_1"
+      }
+    },
+    {
+      "id": "fresh15-1112-tw-2",
+      "day": 1,
+      "theme": "First-trip planning",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-12",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-12T12:00:00.000Z",
+      "text": "釜山自由行別把景點排得太滿，按區域安排更輕鬆。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2"
+      }
+    },
+    {
+      "id": "fresh15-1113-us-1",
+      "day": 2,
+      "theme": "Where to stay",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-13",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-13T13:00:00.000Z",
+      "text": "Choose your hotel around the places you want to visit.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_1"
+      }
+    },
+    {
+      "id": "fresh15-1113-us-2",
+      "day": 2,
+      "theme": "Where to stay",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-13",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-14T01:00:00.000Z",
+      "text": "Choose your hotel around the places you want to visit. Compare arrival and departure journeys before booking.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_2"
+      }
+    },
+    {
+      "id": "fresh15-1113-jp-1",
+      "day": 2,
+      "theme": "Where to stay",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-13",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-12T23:00:00.000Z",
+      "text": "ホテルは行きたい場所を基準に選び、到着日と最終日の移動も比較して。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_1"
+      }
+    },
+    {
+      "id": "fresh15-1113-jp-2",
+      "day": 2,
+      "theme": "Where to stay",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-13",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-13T11:00:00.000Z",
+      "text": "ホテルは行きたい場所を基準に選び、到着日と最終日の移動も比較して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_2"
+      }
+    },
+    {
+      "id": "fresh15-1113-tw-1",
+      "day": 2,
+      "theme": "Where to stay",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-13",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-13T00:00:00.000Z",
+      "text": "住宿地點先看想去哪些地方，訂房前比較抵達與離開當天的交通。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_1"
+      }
+    },
+    {
+      "id": "fresh15-1113-tw-2",
+      "day": 2,
+      "theme": "Where to stay",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-13",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-13T12:00:00.000Z",
+      "text": "住宿地點先看想去哪些地方，訂房前比較抵達與離開當天的交通。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_2"
+      }
+    },
+    {
+      "id": "fresh15-1114-us-1",
+      "day": 3,
+      "theme": "Airport transfer",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-14",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-14T13:00:00.000Z",
+      "text": "Compare light rail + metro with a taxi from Gimhae Airport.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_1"
+      }
+    },
+    {
+      "id": "fresh15-1114-us-2",
+      "day": 3,
+      "theme": "Airport transfer",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-14",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-15T01:00:00.000Z",
+      "text": "Compare light rail + metro with a taxi from Gimhae Airport. Your hotel area, luggage, group size and arrival time all matter.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_2"
+      }
+    },
+    {
+      "id": "fresh15-1114-jp-1",
+      "day": 3,
+      "theme": "Airport transfer",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-14",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-13T23:00:00.000Z",
+      "text": "金海空港からは軽電鉄＋地下鉄とタクシーを比較。荷物や到着時刻も考慮して。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_1"
+      }
+    },
+    {
+      "id": "fresh15-1114-jp-2",
+      "day": 3,
+      "theme": "Airport transfer",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-14",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-14T11:00:00.000Z",
+      "text": "金海空港からは軽電鉄＋地下鉄とタクシーを比較。荷物や到着時刻も考慮して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_2"
+      }
+    },
+    {
+      "id": "fresh15-1114-tw-1",
+      "day": 3,
+      "theme": "Airport transfer",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-14",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-14T00:00:00.000Z",
+      "text": "金海機場到市區可比較輕軌轉地鐵與計程車，也要考量行李與抵達時間。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_1"
+      }
+    },
+    {
+      "id": "fresh15-1114-tw-2",
+      "day": 3,
+      "theme": "Airport transfer",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-14",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-14T12:00:00.000Z",
+      "text": "金海機場到市區可比較輕軌轉地鐵與計程車，也要考量行李與抵達時間。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_2"
+      }
+    },
+    {
+      "id": "fresh15-1115-us-1",
+      "day": 4,
+      "theme": "Transit card",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-15",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-15T13:00:00.000Z",
+      "text": "A transit card makes repeated metro and bus rides simpler.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_1"
+      }
+    },
+    {
+      "id": "fresh15-1115-us-2",
+      "day": 4,
+      "theme": "Transit card",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-15",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-16T01:00:00.000Z",
+      "text": "A transit card makes repeated metro and bus rides simpler. Check current fares and transfer rules before travelling.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_2"
+      }
+    },
+    {
+      "id": "fresh15-1115-jp-1",
+      "day": 4,
+      "theme": "Transit card",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-15",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-14T23:00:00.000Z",
+      "text": "交通カードがあると地下鉄やバスの乗車がスムーズ。運賃と乗換ルールは最新情報を確認。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_1"
+      }
+    },
+    {
+      "id": "fresh15-1115-jp-2",
+      "day": 4,
+      "theme": "Transit card",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-15",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-15T11:00:00.000Z",
+      "text": "交通カードがあると地下鉄やバスの乗車がスムーズ。運賃と乗換ルールは最新情報を確認。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_2"
+      }
+    },
+    {
+      "id": "fresh15-1115-tw-1",
+      "day": 4,
+      "theme": "Transit card",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-15",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-15T00:00:00.000Z",
+      "text": "交通卡讓地鐵與公車付款更方便，出發前確認最新票價與轉乘規則。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_1"
+      }
+    },
+    {
+      "id": "fresh15-1115-tw-2",
+      "day": 4,
+      "theme": "Transit card",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-15",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-15T12:00:00.000Z",
+      "text": "交通卡讓地鐵與公車付款更方便，出發前確認最新票價與轉乘規則。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_2"
+      }
+    },
+    {
+      "id": "fresh15-1116-us-1",
+      "day": 5,
+      "theme": "Three-day itinerary",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-16",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-16T13:00:00.000Z",
+      "text": "Give each day in Busan a clear area or theme.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116_1"
+      }
+    },
+    {
+      "id": "fresh15-1116-us-2",
+      "day": 5,
+      "theme": "Three-day itinerary",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-16",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-17T01:00:00.000Z",
+      "text": "Give each day in Busan a clear area or theme. Group nearby sights instead of crossing the city repeatedly.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116_2"
+      }
+    },
+    {
+      "id": "fresh15-1116-jp-1",
+      "day": 5,
+      "theme": "Three-day itinerary",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-16",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-15T23:00:00.000Z",
+      "text": "釜山3日間の旅は日ごとにエリアを分け、近いスポットをまとめましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116_1"
+      }
+    },
+    {
+      "id": "fresh15-1116-jp-2",
+      "day": 5,
+      "theme": "Three-day itinerary",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-16",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-16T11:00:00.000Z",
+      "text": "釜山3日間の旅は日ごとにエリアを分け、近いスポットをまとめましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116_2"
+      }
+    },
+    {
+      "id": "fresh15-1116-tw-1",
+      "day": 5,
+      "theme": "Three-day itinerary",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-16",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-16T00:00:00.000Z",
+      "text": "釜山三天行程建議每天安排一個主要區域，把鄰近景點排在一起。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116_1"
+      }
+    },
+    {
+      "id": "fresh15-1116-tw-2",
+      "day": 5,
+      "theme": "Three-day itinerary",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-16",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-16T12:00:00.000Z",
+      "text": "釜山三天行程建議每天安排一個主要區域，把鄰近景點排在一起。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116_2"
+      }
+    },
+    {
+      "id": "fresh15-1117-us-1",
+      "day": 6,
+      "theme": "Jagalchi seafood market",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-17",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-17T13:00:00.000Z",
+      "text": "Confirm the seafood, weight and total price before ordering.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_1"
+      }
+    },
+    {
+      "id": "fresh15-1117-us-2",
+      "day": 6,
+      "theme": "Jagalchi seafood market",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-17",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-18T01:00:00.000Z",
+      "text": "Confirm the seafood, weight and total price before ordering. Ask whether preparation, cooking or table fees are separate.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_2"
+      }
+    },
+    {
+      "id": "fresh15-1117-jp-1",
+      "day": 6,
+      "theme": "Jagalchi seafood market",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-17",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-16T23:00:00.000Z",
+      "text": "海鮮市場では品目・重さ・合計金額を先に確認。調理代や席料も聞いておきましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_1"
+      }
+    },
+    {
+      "id": "fresh15-1117-jp-2",
+      "day": 6,
+      "theme": "Jagalchi seafood market",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-17",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-17T11:00:00.000Z",
+      "text": "海鮮市場では品目・重さ・合計金額を先に確認。調理代や席料も聞いておきましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_2"
+      }
+    },
+    {
+      "id": "fresh15-1117-tw-1",
+      "day": 6,
+      "theme": "Jagalchi seafood market",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-17",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-17T00:00:00.000Z",
+      "text": "在海鮮市場先確認品項、重量與總價，也要問清楚料理費或桌席費是否另計。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_1"
+      }
+    },
+    {
+      "id": "fresh15-1117-tw-2",
+      "day": 6,
+      "theme": "Jagalchi seafood market",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-17",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-17T12:00:00.000Z",
+      "text": "在海鮮市場先確認品項、重量與總價，也要問清楚料理費或桌席費是否另計。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_2"
+      }
+    },
+    {
+      "id": "fresh15-1118-us-1",
+      "day": 7,
+      "theme": "Gwangalli beach",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-18",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-18T13:00:00.000Z",
+      "text": "Gwangalli is worth a beach walk, not only a night-view photo.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_1"
+      }
+    },
+    {
+      "id": "fresh15-1118-us-2",
+      "day": 7,
+      "theme": "Gwangalli beach",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-18",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-19T01:00:00.000Z",
+      "text": "Gwangalli is worth a beach walk, not only a night-view photo. Check weather and plan your return route on busy nights.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_2"
+      }
+    },
+    {
+      "id": "fresh15-1118-jp-1",
+      "day": 7,
+      "theme": "Gwangalli beach",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-18",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-17T23:00:00.000Z",
+      "text": "広安里は夜景だけでなく海辺の散歩もおすすめ。天気と帰り道も確認して。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_1"
+      }
+    },
+    {
+      "id": "fresh15-1118-jp-2",
+      "day": 7,
+      "theme": "Gwangalli beach",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-18",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-18T11:00:00.000Z",
+      "text": "広安里は夜景だけでなく海辺の散歩もおすすめ。天気と帰り道も確認して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_2"
+      }
+    },
+    {
+      "id": "fresh15-1118-tw-1",
+      "day": 7,
+      "theme": "Gwangalli beach",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-18",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-18T00:00:00.000Z",
+      "text": "廣安里不只有夜景，也很適合海邊散步；留意天氣並先想好回程方式。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_1"
+      }
+    },
+    {
+      "id": "fresh15-1118-tw-2",
+      "day": 7,
+      "theme": "Gwangalli beach",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-18",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-18T12:00:00.000Z",
+      "text": "廣安里不只有夜景，也很適合海邊散步；留意天氣並先想好回程方式。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_2"
+      }
+    },
+    {
+      "id": "fresh15-1119-us-1",
+      "day": 8,
+      "theme": "Haeundae",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-19",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-19T13:00:00.000Z",
+      "text": "Enjoy Haeundae beach, market and nearby walks at your own pace.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_1"
+      }
+    },
+    {
+      "id": "fresh15-1119-us-2",
+      "day": 8,
+      "theme": "Haeundae",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-19",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-20T01:00:00.000Z",
+      "text": "Enjoy Haeundae beach, market and nearby walks at your own pace. Choose one main activity and add nearby stops.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_2"
+      }
+    },
+    {
+      "id": "fresh15-1119-jp-1",
+      "day": 8,
+      "theme": "Haeundae",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-19",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-18T23:00:00.000Z",
+      "text": "海雲台は海水浴場・市場・周辺散策を自分のペースで。目的をひとつ決めて。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_1"
+      }
+    },
+    {
+      "id": "fresh15-1119-jp-2",
+      "day": 8,
+      "theme": "Haeundae",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-19",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-19T11:00:00.000Z",
+      "text": "海雲台は海水浴場・市場・周辺散策を自分のペースで。目的をひとつ決めて。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_2"
+      }
+    },
+    {
+      "id": "fresh15-1119-tw-1",
+      "day": 8,
+      "theme": "Haeundae",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-19",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-19T00:00:00.000Z",
+      "text": "海雲台可以慢慢玩海灘、市場與周邊散步，先選一個主要活動再加附近景點。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_1"
+      }
+    },
+    {
+      "id": "fresh15-1119-tw-2",
+      "day": 8,
+      "theme": "Haeundae",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-19",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-19T12:00:00.000Z",
+      "text": "海雲台可以慢慢玩海灘、市場與周邊散步，先選一個主要活動再加附近景點。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_2"
+      }
+    },
+    {
+      "id": "fresh15-1120-us-1",
+      "day": 9,
+      "theme": "Nampo-dong",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-20",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-20T13:00:00.000Z",
+      "text": "Nampo combines markets, street food and shopping in one walk.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_1"
+      }
+    },
+    {
+      "id": "fresh15-1120-us-2",
+      "day": 9,
+      "theme": "Nampo-dong",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-20",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-21T01:00:00.000Z",
+      "text": "Nampo combines markets, street food and shopping in one walk. Check shop hours and closing days before you go.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_2"
+      }
+    },
+    {
+      "id": "fresh15-1120-jp-1",
+      "day": 9,
+      "theme": "Nampo-dong",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-20",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-19T23:00:00.000Z",
+      "text": "南浦洞は市場、屋台グルメ、ショッピングをまとめて楽しめます。営業時間も確認して。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_1"
+      }
+    },
+    {
+      "id": "fresh15-1120-jp-2",
+      "day": 9,
+      "theme": "Nampo-dong",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-20",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-20T11:00:00.000Z",
+      "text": "南浦洞は市場、屋台グルメ、ショッピングをまとめて楽しめます。営業時間も確認して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_2"
+      }
+    },
+    {
+      "id": "fresh15-1120-tw-1",
+      "day": 9,
+      "theme": "Nampo-dong",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-20",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-20T00:00:00.000Z",
+      "text": "南浦洞適合一次安排市場、小吃與逛街，先確認各店營業時間與公休日。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_1"
+      }
+    },
+    {
+      "id": "fresh15-1120-tw-2",
+      "day": 9,
+      "theme": "Nampo-dong",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-20",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-20T12:00:00.000Z",
+      "text": "南浦洞適合一次安排市場、小吃與逛街，先確認各店營業時間與公休日。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/nampo-dong/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_2"
+      }
+    },
+    {
+      "id": "fresh15-1121-us-1",
+      "day": 10,
+      "theme": "Seomyeon",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-21",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-21T13:00:00.000Z",
+      "text": "Seomyeon is a practical base for food, shopping and metro connections.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_1"
+      }
+    },
+    {
+      "id": "fresh15-1121-us-2",
+      "day": 10,
+      "theme": "Seomyeon",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-21",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-22T01:00:00.000Z",
+      "text": "Seomyeon is a practical base for food, shopping and metro connections. Check the exact street and save your hotel address in Korean.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_2"
+      }
+    },
+    {
+      "id": "fresh15-1121-jp-1",
+      "day": 10,
+      "theme": "Seomyeon",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-21",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-20T23:00:00.000Z",
+      "text": "西面はグルメ、買い物、地下鉄移動の拠点に便利。ホテル住所の韓国語表記も保存して。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_1"
+      }
+    },
+    {
+      "id": "fresh15-1121-jp-2",
+      "day": 10,
+      "theme": "Seomyeon",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-21",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-21T11:00:00.000Z",
+      "text": "西面はグルメ、買い物、地下鉄移動の拠点に便利。ホテル住所の韓国語表記も保存して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_2"
+      }
+    },
+    {
+      "id": "fresh15-1121-tw-1",
+      "day": 10,
+      "theme": "Seomyeon",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-21",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-21T00:00:00.000Z",
+      "text": "西面方便安排美食、購物與地鐵移動，也把飯店韓文地址存進手機。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_1"
+      }
+    },
+    {
+      "id": "fresh15-1121-tw-2",
+      "day": 10,
+      "theme": "Seomyeon",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-21",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-21T12:00:00.000Z",
+      "text": "西面方便安排美食、購物與地鐵移動，也把飯店韓文地址存進手機。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_2"
+      }
+    },
+    {
+      "id": "fresh15-1122-us-1",
+      "day": 11,
+      "theme": "Busan food",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-22",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-22T13:00:00.000Z",
+      "text": "Mix famous restaurants with neighborhood favorites for a fuller food trip.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_1"
+      }
+    },
+    {
+      "id": "fresh15-1122-us-2",
+      "day": 11,
+      "theme": "Busan food",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-22",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-23T01:00:00.000Z",
+      "text": "Mix famous restaurants with neighborhood favorites for a fuller food trip. Check current hours and save Korean shop names and addresses.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_2"
+      }
+    },
+    {
+      "id": "fresh15-1122-jp-1",
+      "day": 11,
+      "theme": "Busan food",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-22",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-21T23:00:00.000Z",
+      "text": "釜山グルメは有名店と街の人に親しまれる店を組み合わせて。営業時間も確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_1"
+      }
+    },
+    {
+      "id": "fresh15-1122-jp-2",
+      "day": 11,
+      "theme": "Busan food",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-22",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-22T11:00:00.000Z",
+      "text": "釜山グルメは有名店と街の人に親しまれる店を組み合わせて。営業時間も確認しましょう。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_2"
+      }
+    },
+    {
+      "id": "fresh15-1122-tw-1",
+      "day": 11,
+      "theme": "Busan food",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-22",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-22T00:00:00.000Z",
+      "text": "釜山美食可把人氣名店與在地小店搭配，先確認營業時間並存好韓文店名地址。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_1"
+      }
+    },
+    {
+      "id": "fresh15-1122-tw-2",
+      "day": 11,
+      "theme": "Busan food",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-22",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-22T12:00:00.000Z",
+      "text": "釜山美食可把人氣名店與在地小店搭配，先確認營業時間並存好韓文店名地址。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-food/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_2"
+      }
+    },
+    {
+      "id": "fresh15-1123-us-1",
+      "day": 12,
+      "theme": "Rainy-day plan",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-23",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-23T13:00:00.000Z",
+      "text": "Keep one indoor option for a rainy or windy day.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123_1"
+      }
+    },
+    {
+      "id": "fresh15-1123-us-2",
+      "day": 12,
+      "theme": "Rainy-day plan",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-23",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-24T01:00:00.000Z",
+      "text": "Keep one indoor option for a rainy or windy day. Markets, museums and covered shopping areas can be useful backups.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123_2"
+      }
+    },
+    {
+      "id": "fresh15-1123-jp-1",
+      "day": 12,
+      "theme": "Rainy-day plan",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-23",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-22T23:00:00.000Z",
+      "text": "雨や風が強い日に備えて屋内スポットをひとつ用意。休館日も確認して。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123_1"
+      }
+    },
+    {
+      "id": "fresh15-1123-jp-2",
+      "day": 12,
+      "theme": "Rainy-day plan",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-23",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-23T11:00:00.000Z",
+      "text": "雨や風が強い日に備えて屋内スポットをひとつ用意。休館日も確認して。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123_2"
+      }
+    },
+    {
+      "id": "fresh15-1123-tw-1",
+      "day": 12,
+      "theme": "Rainy-day plan",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-23",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-23T00:00:00.000Z",
+      "text": "遇到下雨或風大，行程裡保留室內備案；出門前確認公休日。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123_1"
+      }
+    },
+    {
+      "id": "fresh15-1123-tw-2",
+      "day": 12,
+      "theme": "Rainy-day plan",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-23",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-23T12:00:00.000Z",
+      "text": "遇到下雨或風大，行程裡保留室內備案；出門前確認公休日。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123_2"
+      }
+    },
+    {
+      "id": "fresh15-1124-us-1",
+      "day": 13,
+      "theme": "What to pack",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-24",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-24T13:00:00.000Z",
+      "text": "Pack layers for a coastal city; the sea breeze can feel different.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_1"
+      }
+    },
+    {
+      "id": "fresh15-1124-us-2",
+      "day": 13,
+      "theme": "What to pack",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-24",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-25T01:00:00.000Z",
+      "text": "Pack layers for a coastal city; the sea breeze can feel different. Comfortable walking shoes matter. Check the forecast before departure.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_2"
+      }
+    },
+    {
+      "id": "fresh15-1124-jp-1",
+      "day": 13,
+      "theme": "What to pack",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-24",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-23T23:00:00.000Z",
+      "text": "海沿いの釜山は風の感じ方が違うことも。歩きやすい靴を選び、天気も確認。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_1"
+      }
+    },
+    {
+      "id": "fresh15-1124-jp-2",
+      "day": 13,
+      "theme": "What to pack",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-24",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-24T11:00:00.000Z",
+      "text": "海沿いの釜山は風の感じ方が違うことも。歩きやすい靴を選び、天気も確認。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_2"
+      }
+    },
+    {
+      "id": "fresh15-1124-tw-1",
+      "day": 13,
+      "theme": "What to pack",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-24",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-24T00:00:00.000Z",
+      "text": "釜山海邊風感可能和市區不同，建議洋蔥式穿搭、穿好走的鞋並確認天氣。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124_1"
+      }
+    },
+    {
+      "id": "fresh15-1124-tw-2",
+      "day": 13,
+      "theme": "What to pack",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-24",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-24T12:00:00.000Z",
+      "text": "釜山海邊風感可能和市區不同，建議洋蔥式穿搭、穿好走的鞋並確認天氣。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124_2"
+      }
+    },
+    {
+      "id": "fresh15-1125-us-1",
+      "day": 14,
+      "theme": "Market etiquette",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-25",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-25T13:00:00.000Z",
+      "text": "Explore markets without a minute-by-minute schedule.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125_1"
+      }
+    },
+    {
+      "id": "fresh15-1125-us-2",
+      "day": 14,
+      "theme": "Market etiquette",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-25",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-26T01:00:00.000Z",
+      "text": "Explore markets without a minute-by-minute schedule. Payment methods vary; ask before photographing vendors or customers.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125_2"
+      }
+    },
+    {
+      "id": "fresh15-1125-jp-1",
+      "day": 14,
+      "theme": "Market etiquette",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-25",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-24T23:00:00.000Z",
+      "text": "市場散策は細かく時間を決めすぎずに。支払い方法を確認し、撮影前は声をかけて。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125_1"
+      }
+    },
+    {
+      "id": "fresh15-1125-jp-2",
+      "day": 14,
+      "theme": "Market etiquette",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-25",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-25T11:00:00.000Z",
+      "text": "市場散策は細かく時間を決めすぎずに。支払い方法を確認し、撮影前は声をかけて。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125_2"
+      }
+    },
+    {
+      "id": "fresh15-1125-tw-1",
+      "day": 14,
+      "theme": "Market etiquette",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-25",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-25T00:00:00.000Z",
+      "text": "逛市場不必把時間排滿，各店付款方式不同；拍攝攤商或客人前先禮貌詢問。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_1"
+      }
+    },
+    {
+      "id": "fresh15-1125-tw-2",
+      "day": 14,
+      "theme": "Market etiquette",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-25",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-25T12:00:00.000Z",
+      "text": "逛市場不必把時間排滿，各店付款方式不同；拍攝攤商或客人前先禮貌詢問。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_2"
+      }
+    },
+    {
+      "id": "fresh15-1126-us-1",
+      "day": 15,
+      "theme": "Coastal photo walk",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-26",
+      "local_time": "08:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-26T13:00:00.000Z",
+      "text": "Walk beyond the main viewpoint to find your own coastal photo spot.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_1"
+      }
+    },
+    {
+      "id": "fresh15-1126-us-2",
+      "day": 15,
+      "theme": "Coastal photo walk",
+      "market": "US",
+      "account": "go2busan.us",
+      "language": "en",
+      "local_date": "2026-11-26",
+      "local_time": "20:00",
+      "tz": "America/New_York",
+      "publish_at_utc": "2026-11-27T01:00:00.000Z",
+      "text": "Walk beyond the main viewpoint to find your own coastal photo spot. Golden-hour light changes quickly; respect residents and keep paths clear.",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_2"
+      }
+    },
+    {
+      "id": "fresh15-1126-jp-1",
+      "day": 15,
+      "theme": "Coastal photo walk",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-26",
+      "local_time": "08:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-25T23:00:00.000Z",
+      "text": "海辺の写真は定番スポットだけでなく少し歩いて探して。住民や通路にも配慮を。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_1"
+      }
+    },
+    {
+      "id": "fresh15-1126-jp-2",
+      "day": 15,
+      "theme": "Coastal photo walk",
+      "market": "JP",
+      "account": "go2busan.jp",
+      "language": "ja",
+      "local_date": "2026-11-26",
+      "local_time": "20:00",
+      "tz": "Asia/Tokyo",
+      "publish_at_utc": "2026-11-26T11:00:00.000Z",
+      "text": "海辺の写真は定番スポットだけでなく少し歩いて探して。住民や通路にも配慮を。 旅行前に営業時間・交通情報など最新情報を確認しましょう。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_2"
+      }
+    },
+    {
+      "id": "fresh15-1126-tw-1",
+      "day": 15,
+      "theme": "Coastal photo walk",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-26",
+      "local_time": "08:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-26T00:00:00.000Z",
+      "text": "拍海景不一定只在熱門點，沿周邊多走一段也有驚喜；拍照時尊重居民、勿阻擋通道。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_1"
+      }
+    },
+    {
+      "id": "fresh15-1126-tw-2",
+      "day": 15,
+      "theme": "Coastal photo walk",
+      "market": "TW",
+      "account": "go2busan.tw",
+      "language": "zh-TW",
+      "local_date": "2026-11-26",
+      "local_time": "20:00",
+      "tz": "Asia/Taipei",
+      "publish_at_utc": "2026-11-26T12:00:00.000Z",
+      "text": "拍海景不一定只在熱門點，沿周邊多走一段也有驚喜；拍照時尊重居民、勿阻擋通道。 出發前請確認營業時間、交通資訊等最新消息。",
+      "verification": {
+        "status": "needs_check",
+        "issues": [
+          "Verify localized guide URL and final copy before approval."
+        ],
+        "flags": [
+          "draft only"
+        ],
+        "verified_by": null,
+        "verified_at": null
+      },
+      "status": "draft",
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/guides/gwangalli-beach/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_2"
+      }
+    }
+  ]
+}
