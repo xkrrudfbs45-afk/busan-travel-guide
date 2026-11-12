@@ -20,6 +20,11 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 ### Recommended next action
 - Claude: finish Search Console indexing requests (Gwangalli hub, JA/TW hubs) after the daily quota resets; then a JA/TW version of the Busan map.
 
+### zh-TW + JA affiliate CTAs (2026-11-12, Claude)
+- CTA copy lives in `content/affiliate/zh-tw-cta.json` and `ja-cta.json` (not in page HTML). ChatGPT may edit the copy there; keep `aff_adid`, `dest` and `before` unless coordinated.
+- If a page edit removes the `before` anchor, the build skips that CTA with a warning and CI `inject-affiliate-cta.mjs --check` fails — update the anchor in the JSON.
+- Next: where-to-stay / airport pages need a content decision (hotel or transfer product) before a CTA is added.
+
 ## Handoff template
 
 ### Date and contributor

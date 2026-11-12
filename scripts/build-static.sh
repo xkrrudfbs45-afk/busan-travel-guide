@@ -45,6 +45,8 @@ done
 # Fill share-preview, image-loading, breadcrumb and sitemap gaps in the deployed copy.
 node scripts/enhance-public.mjs public
 node scripts/enhance-public-extras.mjs public
+# Data-driven zh-TW affiliate CTAs (content/affiliate/zh-tw-cta.json); runs before UX so TOC/skip rules apply.
+node scripts/inject-affiliate-cta.mjs public
 node scripts/enhance-public-ux.mjs public
 
 # Optional: add the referrer-restricted Google Maps Embed key from the environment.
