@@ -6,6 +6,9 @@ on:
       - ".github/workflows/threads-publisher.yml"
       - ".github/workflows/threads-validation.yml"
       - "scripts/threads/**"
+      - "scripts/social/**"
+      - "content/social/threads-15day/**"
+      - "content/social/instagram/nov12-26-drafts.json"
       - "marketing/threads-30-day-*-calendar.md"
       - "content/social/threads-30day/schedule.json"
 
@@ -22,5 +25,7 @@ jobs:
           node-version: 22
       - name: Run Threads publisher unit tests
         run: node --test scripts/threads/threads.test.mjs
+      - name: Validate 15-day localized social drafts
+        run: node scripts/social/validate-15day-drafts.mjs
       - name: Validate generated schedule
         run: node scripts/threads/build-schedule.mjs --check
