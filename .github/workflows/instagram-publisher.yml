@@ -24,7 +24,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
         with:
@@ -66,9 +66,21 @@ jobs:
 
       - name: Generate AI illustrations (OpenAI)
         if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
+        # A failed image must not block rendering/publishing of posts whose art already exists.
+        continue-on-error: true
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node scripts/instagram/art.mjs --art state/art
+        # Time-boxed (about 10 minutes, 4 requests in parallel); remaining images are generated on the next run.
+        run: node scripts/instagram/art.mjs --art state/art --budget-sec 600 --concurrency 4
+
+      - name: Save generated art right away (kept even if a later step fails)
+        if: always() && steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
+        run: |
+          cd state
+          git add -A art
+          git diff --cached --quiet && exit 0
+          git -c user.name="go2busan-bot" -c user.email="actions@users.noreply.github.com" commit -q -m "Instagram art $(date -u +%FT%TZ)"
+          git push -q origin HEAD:refs/heads/instagram-state
 
       - name: Render cards
         if: steps.plan.outputs.count != '0' && vars.INSTAGRAM_LIVE == 'true'
