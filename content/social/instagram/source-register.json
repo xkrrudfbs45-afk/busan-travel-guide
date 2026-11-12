@@ -110,6 +110,242 @@
         "card rules"
       ],
       "recheck": "2026-12-01"
+    },
+    "ig-fresh15-1": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Busan has hills and stairs (site guide)."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-first-time-guide/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-2": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Seomyeon: central metro connections; Haeundae: beach base; Nampo: markets/old downtown (site guide)."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/where-to-stay-busan/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-3": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Options: light rail + metro, airport bus, taxi; cards tell readers to verify fares and first/last services."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
+        "https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-4": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Card coverage, discounts and refunds depend on card type; readers told to check current purchase/top-up options."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-transit-card/",
+        "https://www.humetro.busan.kr/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-5": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Day plan by area: Nampo/markets, coast, flexible day (site guide)."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-three-days/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-6": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Confirm price, portion/weight and preparation charges before ordering (site guide)."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-7": {
+      "facts": [
+        "Gwangalli faces Gwangan Bridge, between Seomyeon and Haeundae.",
+        "Gwangan and Geumnyeonsan stations (Line 2) are the usual beach stops.",
+        "Drone show: recurring Saturday event; times vary by season; can be cancelled for weather."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/gwangalli-neighborhood-guide/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-8": {
+      "facts": [
+        "From Busan Station: Line 1 to Seomyeon, change to Line 2 for Haeundae.",
+        "Blueline Park popular rides can sell out; check availability.",
+        "Haeundae is far from western Busan."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/haeundae-neighborhood-guide/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-9": {
+      "facts": [
+        "Nampo and Jagalchi stations are on Line 1, a short ride from Busan Station.",
+        "Food: Jagalchi seafood, Bupyeong Kkangtong Market, BIFF Square street food (EN only; JA/TW cards omit Kkangtong).",
+        "At Jagalchi confirm type, weight, price and cooking fee.",
+        "Pairs with Yeongdo, Songdo or Gamcheon."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/nampo-neighborhood-guide/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-10": {
+      "facts": [
+        "Seomyeon Station: Lines 1 and 2 meet; Line 1 to Nampo-dong, Line 2 to Haeundae.",
+        "Hotels named 'Seomyeon' can mean a longer or uphill walk.",
+        "Food: dwaeji-gukbap, milmyeon (site guides)."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/seomyeon-neighborhood-guide/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-11": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Small restaurants may have break times or regular closing days."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-neighborhood-food-guide/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-12": {
+      "facts": [
+        "Evergreen planning advice only: no prices, hours, dates or durations on the cards.",
+        "Choose one indoor anchor; some market areas are open-air or busy; check opening day and last entry (site guide)."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-rainy-day-guide/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-13": {
+      "facts": [
+        "Busan has hills and stairs (site guide).",
+        "South Korea: 220V, 60Hz; plug/socket Types C and F."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-first-time-guide/",
+        "https://www.trip.com/guide/info/south-korea-plug.html"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-14": {
+      "facts": [
+        "Dwaeji-gukbap seasonings often served on the side; add gradually.",
+        "At seafood markets confirm total price and preparation/table charges.",
+        "Solo dining possible at many soup shops; policies vary.",
+        "Phrase: 덜 맵게 해 주세요 (less spicy)."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/busan-local-food-etiquette-tips/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-15": {
+      "facts": [
+        "Taejongdae is a seaside nature park with hills and walking stretches.",
+        "Danubi train service, tickets and waits vary by season and weather.",
+        "Not every viewpoint is step-free or next to a stop."
+      ],
+      "urls": [
+        "https://go2busan.com/guides/taejongdae-danubi-train-tips/"
+      ],
+      "volatile": [
+        "opening hours",
+        "fares",
+        "service status"
+      ],
+      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
     }
   }
 }
