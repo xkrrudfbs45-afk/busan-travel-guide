@@ -6,6 +6,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Completed
 - Confirmed GitHub main at `60146784d5563ed4628afcb8c58eb272028ed536`; PR #383 image quality batch 1 merged and its Technical SEO audit / Growth ops checks passed.
+- Reviewed `docs/ai-workspace/IMAGE-AUDIT-2026-11-12.md`: pre-#383 baseline found no body photo on 40/49 zh-TW, 33/67 EN, 39/47 JA guides; generic skyline OG fallback on 18/23/18 pages; and five EN covers lazy-loaded. #383 fixed seven core zh-TW/JA guide covers, all-language Seomyeon share image, and EN cover loading priority.
 - Re-read connected GSC and GA4. GSC 2026-10-13–11-09: 353 impressions / 2 clicks; Taiwan 43, USA 28, Japan 20 impressions, with zero clicks in each target market. GA4 2026-10-15–11-11: 40 sessions, 8 users, 1 organic session, 5 affiliate_click events from 3 users, 0 transactions/revenue.
 - Completed a 50-page SEO crawl: no missing alt among crawled pages; 127 URLs not crawled. A separate Lighthouse-enabled audit completed 20/20 with 0 failures; available audit endpoints did not expose numeric Lighthouse/Core Web Vitals metrics, so performance remains unverified.
 - Updated the global growth, SNS, and operations automations with recurring image-quality checks covering source/license, real-place/menu fit, alt, OG/social imagery, mobile crop, responsive delivery, file weight, LCP/CLS, and approval safeguards.
@@ -21,6 +22,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - #320 and #311 overlap on JA/TW PNU food-guide HTML files.
 - #314 and #315 overlap on EN Haeundae food guide.
 - #316 and #321 overlap on 31 files. Consolidate each pair before further edits.
+- Re-audit the pre-#383 image gaps after the batch: zh-TW/JA first-trip, Taiwan-travelers-busan, things-to-do; EN dialect/local-culture/Bukangi/things-to-do illustration-vs-photo decisions; Bukmun needs_review; and repeated Gimhae/Haeundae images.
 - Rebase stale work onto current main and rerun build, all repository audits, and 360/390/1280 visual checks.
 - Review PR #382 after current-main rebase; do not merge or deploy without owner approval.
 
