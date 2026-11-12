@@ -483,7 +483,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-07T02:30:00.000Z",
       "art": {
         "type": "ai",
@@ -531,15 +531,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d03-packing"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d03-packing-ja",
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-07T00:30:00.000Z",
       "art": {
         "type": "ai",
@@ -587,15 +586,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d03-packing"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d03-packing-zh-tw",
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-07T01:30:00.000Z",
       "art": {
         "type": "ai",
@@ -643,15 +641,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d03-packing"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d04-return-en",
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-07T07:00:00.000Z",
       "art": {
         "type": "ai",
@@ -699,15 +696,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d04-return"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d04-return-ja",
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-07T05:00:00.000Z",
       "art": {
         "type": "ai",
@@ -755,15 +751,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d04-return"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d04-return-zh-tw",
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-07T06:00:00.000Z",
       "art": {
         "type": "ai",
@@ -811,15 +806,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d04-return"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d05-first-day-en",
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-08T10:00:00.000Z",
       "art": {
         "type": "ai",
@@ -867,15 +861,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d05-first-day"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d05-first-day-ja",
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-08T03:30:00.000Z",
       "art": {
         "type": "ai",
@@ -923,15 +916,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d05-first-day"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d05-first-day-zh-tw",
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-08T12:00:00.000Z",
       "art": {
         "type": "ai",
@@ -979,15 +971,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d05-first-day"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d06-airport-en",
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-09T10:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1035,15 +1026,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d06-airport"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d06-airport-ja",
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-09T03:30:00.000Z",
       "art": {
         "type": "ai",
@@ -1091,15 +1081,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d06-airport"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d06-airport-zh-tw",
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-09T12:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1147,15 +1136,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d06-airport"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d07-transit-en",
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-10T10:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1203,15 +1191,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d07-transit"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d07-transit-ja",
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-10T03:30:00.000Z",
       "art": {
         "type": "ai",
@@ -1259,15 +1246,14 @@
       "verification": {
         "status": "needs_check",
         "register": "d07-transit"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     },
     {
       "id": "ig-d07-transit-zh-tw",
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "cancelled",
+      "status": "draft",
       "publish_at_utc": "2026-11-10T12:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1315,8 +1301,7 @@
       "verification": {
         "status": "needs_check",
         "register": "d07-transit"
-      },
-      "cancel_reason": "Expired scheduled slot before 2026-11-12; retained as draft content but removed from the active schedule to prevent stale publication."
+      }
     }
   ]
 }
