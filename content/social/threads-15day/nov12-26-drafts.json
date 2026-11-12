@@ -2322,20 +2322,18 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-24T12:00:00.000Z",
-      "text": "釜山海邊的風感可能比市區明顯，外套建議分層穿搭。鞋子選好走、防滑的款式，出門前再確認當天氣溫與降雨。",
+      "text": "釜山海邊的風勢可能比市區明顯，外套建議分層穿搭。鞋子選好走、防滑的款式，出門前再確認當天氣溫與降雨。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Confirm the voltage and plug-adapter advice against the Taiwan-language VISITKOREA source before approval."
+          "Weather and wind conditions vary by travel date; check the local forecast before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
         "verified_at": null,
-        "sources": [
-          "https://big5chinese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140059"
-        ]
+        "sources": []
       },
       "status": "draft",
       "link_reply": {
