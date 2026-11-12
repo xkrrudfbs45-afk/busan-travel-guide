@@ -1,0 +1,26 @@
+{
+  "_note": "Seed topics for the growth scan's content-gap check. A topic counts as covered for a locale when any guide's title, H1 or URL contains one of its keywords. Priority 1 = highest. Edit freely (ChatGPT owns topic strategy); keywords are matched case-insensitively.",
+  "topics": [
+    {"id": "itinerary-2n3d / 3n4d", "keywords": {"en": ["itinerary", "3 days", "three-days", "4 days"], "ja": ["2泊3日", "3日間", "3泊4日", "モデルコース"], "zh-TW": ["三天", "3天", "四天", "行程"]}, "priority": {"en": 1, "ja": 1, "zh-TW": 1}},
+    {"id": "where-to-stay by area", "keywords": {"en": ["where to stay"], "ja": ["泊まる", "ホテル", "宿泊エリア"], "zh-TW": ["住宿", "住哪"]}, "priority": {"en": 1, "ja": 1, "zh-TW": 1}},
+    {"id": "busan-station to sights", "keywords": {"en": ["busan station"], "ja": ["釜山駅"], "zh-TW": ["釜山站"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 1}},
+    {"id": "gimhae-airport transfer", "keywords": {"en": ["airport"], "ja": ["空港"], "zh-TW": ["機場"]}, "priority": {"en": 1, "ja": 1, "zh-TW": 1}},
+    {"id": "subway + transit card", "keywords": {"en": ["transit card", "subway", "metro", "get around"], "ja": ["交通カード", "地下鉄"], "zh-TW": ["交通卡", "地鐵"]}, "priority": {"en": 1, "ja": 1, "zh-TW": 1}},
+    {"id": "local food picks", "keywords": {"en": ["food guide", "where to eat", "local food"], "ja": ["グルメ", "食べ"], "zh-TW": ["美食"]}, "priority": {"en": 1, "ja": 1, "zh-TW": 1}},
+    {"id": "jagalchi / gukje / kkangtong markets", "keywords": {"en": ["market"], "ja": ["市場"], "zh-TW": ["市場"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 1}},
+    {"id": "rainy day", "keywords": {"en": ["rainy"], "ja": ["雨"], "zh-TW": ["雨天"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "solo travel", "keywords": {"en": ["solo"], "ja": ["一人旅", "ひとり旅"], "zh-TW": ["一個人", "獨旅", "自助"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "family travel", "keywords": {"en": ["family", "kids"], "ja": ["家族", "子連れ"], "zh-TW": ["親子", "家庭"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 1}},
+    {"id": "couple / night views", "keywords": {"en": ["night view", "night"], "ja": ["夜景"], "zh-TW": ["夜景"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 1}},
+    {"id": "shopping + souvenirs", "keywords": {"en": ["shopping", "souvenir"], "ja": ["ショッピング", "お土産", "買い物"], "zh-TW": ["購物", "伴手禮", "紀念品"]}, "priority": {"en": 2, "ja": 1, "zh-TW": 1}},
+    {"id": "seasonal festivals and events", "keywords": {"en": ["festival", "events"], "ja": ["祭り", "イベント", "フェスティバル"], "zh-TW": ["節慶", "活動", "慶典"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "day trips from busan", "keywords": {"en": ["day trip"], "ja": ["日帰り"], "zh-TW": ["一日遊", "近郊"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "beaches compared", "keywords": {"en": ["beaches", "beach guide"], "ja": ["ビーチ", "海水浴場"], "zh-TW": ["海灘", "海水浴場"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "cafe tour", "keywords": {"en": ["coffee", "cafe", "café"], "ja": ["カフェ"], "zh-TW": ["咖啡"]}, "priority": {"en": 3, "ja": 2, "zh-TW": 2}},
+    {"id": "late-night food", "keywords": {"en": ["late-night", "late night"], "ja": ["深夜", "夜食"], "zh-TW": ["宵夜", "深夜"]}, "priority": {"en": 3, "ja": 3, "zh-TW": 2}},
+    {"id": "travel budget", "keywords": {"en": ["budget", "cost"], "ja": ["予算", "費用"], "zh-TW": ["預算", "花費"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "spa / jjimjilbang / hot springs", "keywords": {"en": ["spa", "jjimjilbang", "hot spring"], "ja": ["スパ", "温泉", "チムジルバン"], "zh-TW": ["汗蒸幕", "溫泉", "Spa"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "luggage storage", "keywords": {"en": ["luggage"], "ja": ["荷物"], "zh-TW": ["行李"]}, "priority": {"en": 2, "ja": 2, "zh-TW": 2}},
+    {"id": "common problems / mistakes", "keywords": {"en": ["mistakes", "tips"], "ja": ["注意", "失敗"], "zh-TW": ["注意", "錯誤"]}, "priority": {"en": 3, "ja": 3, "zh-TW": 3}}
+  ]
+}

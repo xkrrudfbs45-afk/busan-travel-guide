@@ -1,0 +1,151 @@
+name: Growth ops (4-hourly scan)
+
+# Every 4 hours (UTC 00,04,08,12,16,20 = KST 09,13,17,21,01,05):
+#   scan   - build the site, run the audit suite, technical SEO + affiliate + coverage scan,
+#            live-site checks, social publish logs (read-only, no Meta API calls),
+#            Search Console / GA4 when credentials exist. Posts the report to the
+#            open issue labelled "growth-log".
+#   autopilot (optional, off by default) - when repository variable GROWTH_AUTOPILOT == 'true'
+#            and secret CLAUDE_CODE_OAUTH_TOKEN exist, Claude picks ONE item from the report and
+#            opens a DRAFT pull request. It never merges, deploys, edits secrets or social schedules.
+# Pull requests that touch this workflow or scripts/growth run the scan as a self-test
+# (report goes to the job summary only).
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch:
+    inputs:
+      autopilot:
+        description: "Run the autopilot job after the scan (still requires GROWTH_AUTOPILOT=true)"
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - ".github/workflows/growth-ops.yml"
+      - "scripts/growth/**"
+
+concurrency:
+  group: growth-ops-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'main' }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  scan:
+    name: Scan site, data and social logs
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
+    outputs:
+      priorities: ${{ steps.scan.outputs.priorities }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Fetch social state branches (read-only)
+        run: |
+          git fetch --no-tags --depth=1 origin +refs/heads/main:refs/remotes/origin/main || echo "main not fetched"
+          git fetch --no-tags --depth=1 origin +refs/heads/threads-state:refs/remotes/origin/threads-state || echo "threads-state not available"
+          git fetch --no-tags --depth=1 origin +refs/heads/instagram-state:refs/remotes/origin/instagram-state || echo "instagram-state not available"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Build the public site (same script Render runs)
+        run: sh scripts/build-static.sh
+      - name: Run growth scan
+        id: scan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_PROPERTY: ${{ vars.GSC_PROPERTY }}
+          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
+        run: |
+          node scripts/growth/scan.mjs --public public --out growth-report
+          cat growth-report/report.md >> "$GITHUB_STEP_SUMMARY"
+          echo "priorities=$(node -e 'console.log(require("./growth-report/report.json").priorities.length)')" >> "$GITHUB_OUTPUT"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: growth-report-${{ github.run_id }}
+          path: growth-report/
+          retention-days: 30
+      - name: Post report to the growth-log issue
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          gh label create growth-log --color 0E8A16 --description "4-hourly growth scan log" 2>/dev/null || true
+          n=$(gh issue list --label growth-log --state open --limit 1 --json number -q '.[0].number')
+          [ -n "$n" ] || n=$(gh issue list --search 'in:title "Growth ops log"' --state open --limit 1 --json number -q '.[0].number')
+          if [ -z "$n" ]; then
+            n=$(gh issue create --title "Growth ops log (4-hourly scan)" --label growth-log \
+              --body "Automated log from .github/workflows/growth-ops.yml. Each comment is one scan. Numbers marked 'no access' are not estimated." | grep -o '[0-9]*$')
+          fi
+          { cat growth-report/report.md; echo; echo "[Run log](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})"; } > comment.md
+          gh issue comment "$n" --body-file comment.md
+
+  autopilot:
+    name: Autopilot (draft PR, optional)
+    needs: scan
+    if: >-
+      github.event_name != 'pull_request' &&
+      vars.GROWTH_AUTOPILOT == 'true' &&
+      (github.event_name == 'schedule' || inputs.autopilot)
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+    steps:
+      - name: Check credentials and open autopilot PRs
+        id: gate
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HAS_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN != '' }}
+        run: |
+          if [ "$HAS_TOKEN" != "true" ]; then echo "run=false" >> "$GITHUB_OUTPUT"; echo "CLAUDE_CODE_OAUTH_TOKEN not set: skipping" >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          open=$(gh pr list -R "$GITHUB_REPOSITORY" --label growth-autopilot --state open --json number -q 'length')
+          if [ "$open" -ge 2 ]; then echo "run=false" >> "$GITHUB_OUTPUT"; echo "$open autopilot PRs already open: skipping to avoid a backlog" >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          echo "run=true" >> "$GITHUB_OUTPUT"
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          fetch-depth: 1
+      - uses: actions/download-artifact@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          name: growth-report-${{ github.run_id }}
+          path: growth-report
+      - uses: actions/setup-node@v4
+        if: steps.gate.outputs.run == 'true'
+        with:
+          node-version: "20"
+      - name: Claude picks one item and opens a draft PR
+        if: steps.gate.outputs.run == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          claude_args: "--max-turns 60"
+          prompt: |
+            You are the Go2Busan growth autopilot. Read AGENTS.md, CONTENT_GUIDELINES.md,
+            docs/ai-workspace/WORK-DIVISION-CHATGPT-CLAUDE.md, docs/ai-workspace/STATUS.md and growth-report/report.md.
+            Run `gh pr list --state open` and skip anything an open PR already covers.
+            Pick exactly ONE item from "Next priorities" with the best evidence and smallest risk.
+            Technical items (metadata, schema, links, affiliate CTA data in content/affiliate/*.json, CSS/JS, scripts):
+            implement them. Content items (new page or body text): write a draft only if every fact can be cited to an
+            official or primary source you actually opened; never claim a visit; mark it "needs ChatGPT/owner review".
+            Then: create branch `autopilot/<short-topic>-${{ github.run_id }}`, run `sh scripts/build-static.sh` and every
+            audit listed in .github/workflows/seo-audit.yml, commit, push, and open a DRAFT pull request with label
+            `growth-autopilot` (create the label if missing) containing: evidence from the report, files changed,
+            audit results. If nothing is worth changing, open no PR and say so.
+            Never: merge, push to main, edit .github/workflows, secrets, GA4 consent/measurement settings,
+            content/social schedules or LIVE variables, URLs/redirects, Klook aid or existing aff_adid values.
