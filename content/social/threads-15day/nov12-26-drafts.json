@@ -490,17 +490,20 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T00:00:00.000Z",
-      "text": "金海機場到市區可比較輕軌轉地鐵與計程車，也要考量行李與抵達時間。",
+      "text": "從金海機場前往海雲台，先依飯店位置、抵達時間和行李選交通方式。釜山市區公車行李原則為每人 20 公斤以下、50×40×20 公分以下；大型行李建議改搭地鐵、機場巴士或計程車。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official Visit Busan luggage guidance added; verify the live route, stop and timetable for the travel date before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -520,17 +523,20 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T12:00:00.000Z",
-      "text": "帶大型行李或深夜抵達時，別只比較車資；也要一起考慮轉乘次數、步行距離、等車時間，以及下車後到住宿的路程。",
+      "text": "帶大行李時別只看車資。釜山官方旅遊資訊建議，超過市區公車行李尺寸限制的行李，改搭地鐵、機場巴士或計程車會更合適；機場巴士停靠站與班次請出發前再確認。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official Visit Busan luggage guidance added; verify the live route, stop and timetable for the travel date before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -670,17 +676,20 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T00:00:00.000Z",
-      "text": "交通卡讓地鐵與公車付款更方便，出發前確認最新票價與轉乘規則。",
+      "text": "釜山地鐵 1 日券、3 日券不適用於東海線與釜山金海輕軌。若從金海機場搭輕軌進市區，記得另外確認車票，不要把地鐵通行券當成全交通通用。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official Traditional Chinese Visit Busan source identifies the excluded lines and station-specific first/last train times; recheck current ticket conditions before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -700,17 +709,20 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T12:00:00.000Z",
-      "text": "交通卡放在容易拿取的地方，出發前再確認最新票價與轉乘規定。多人同行時，也可以先約好每次下車後的集合位置。",
+      "text": "買釜山地鐵通行券前，先看行程會不會搭到釜山金海輕軌或東海線。這兩種交通不在地鐵定期券適用範圍內；各站首末班車也不同，出發前記得查當日時間表。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official Traditional Chinese Visit Busan source identifies the excluded lines and station-specific first/last train times; recheck current ticket conditions before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000"
+        ]
       },
       "status": "draft",
       "link_reply": {
