@@ -11,14 +11,14 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 - **Search Console (2026-10-13–2026-11-09):** 353 impressions / 2 clicks overall. Taiwan 43 impressions, 0 clicks, average position 19.4; USA 28 / 0 / 26.2; Japan 20 / 0 / 8.5. These market samples are small.
 - **GA4 (2026-10-15–2026-11-11, Asia/Seoul):** 40 sessions / 8 active users; direct 26, ChatGPT 9, (not set) 3, Google organic 1, Instagram referral 1. `affiliate_click` 5 key events / 3 users; transactions 0 and purchase revenue 0. The recorded country breakdown contains South Korea only; analytics is opt-in, so this is not proof that overseas visitors are absent.
 - **Organic measurement:** one organic session in the period. GSC–GA4 opportunity matching is sparse (1 matched GSC page; 42 unmatched GSC pages), so opportunity scores must not be treated as conversion or revenue evidence.
-- **Site audit:** 50-page crawl completed; 50 pages returned HTTP 200; zero missing-alt findings among crawled pages. The crawl stopped at its 50-page limit with 127 URLs not crawled. The audit found 17 long titles, 10 short meta descriptions, 7 long meta descriptions, one heading-order skip, and the page-limit warning. This crawl did not run Lighthouse or verify image licensing, visual crop, or actual OG rendering.
+- **Site audit:** 50-page crawl completed; 50 pages returned HTTP 200; zero missing-alt findings among crawled pages. The crawl stopped at its 50-page limit with 127 URLs not crawled. The audit found 17 long titles, 10 short meta descriptions, 7 long meta descriptions, one heading-order skip, and the page-limit warning. A second Lighthouse-enabled audit completed 20/20 Lighthouse runs with 0 failures, but the available result endpoints exposed only completion counts—not numeric Lighthouse/Core Web Vitals metrics. Performance scores therefore remain unverified. Neither crawl verifies image licensing, visual crop, or actual OG rendering.
 - **Open PR portfolio:** 46 open PRs were visible. Confirmed file overlap: #320/#311 share the JA and zh-TW PNU food-guide HTML files; #314/#315 share the EN Haeundae food guide; #316/#321 overlap on 31 files. Consolidate and rebase before creating parallel content/metadata work.
 - **Image quality:** PR #383 is merged in main. PR #382 remains a Draft policy/document PR and must be reviewed against the current main before merge. PR #320 needs consolidation with #311 before the JA/TW PNU image work is considered complete.
 
 ### Next actions
 1. Rebase and consolidate overlapping PRs before new content creation.
 2. Prioritize Taiwan landing-page discovery and existing stay/itinerary/transport guide connections, while maintaining English and Japanese coverage.
-3. Complete Lighthouse/Core Web Vitals and manual visual/image-source checks; do not infer these from the 50-page crawl.
+3. Obtain numeric Lighthouse/Core Web Vitals metrics through a report view or separate test; manual visual/image-source checks remain open. Do not infer these from the 50-page crawl.
 4. Keep bookings and revenue unverified until partner-side conversion data is available.
 
 ## Known project context
