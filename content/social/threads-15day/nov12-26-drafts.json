@@ -1585,17 +1585,20 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-20T00:00:00.000Z",
-      "text": "南浦洞適合一次安排市場、小吃與逛街，先確認各店營業時間與公休日。",
+      "text": "南浦洞半日散步可以從札嘎其市場開始，再走到 BIFF 廣場、光復路與龍頭山公園。這幾個區域相距不遠，適合安排在同一天慢慢逛。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official Visit Busan itinerary supports the walkable old-downtown cluster; verify current shop hours and fees before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=2809"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -1615,17 +1618,20 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-20T12:00:00.000Z",
-      "text": "南浦洞適合把附近景點排在一起步行探索。先把想去的店家或地點韓文名稱存起來，需要問路時就能直接出示。",
+      "text": "在札嘎其市場買海鮮前，先確認品項、重量與單價，也問清楚料理費、座位費是否另計。各店營業時間與公休日不同，出發前先確認。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official Visit Busan itinerary supports the walkable old-downtown cluster; verify current shop hours and fees before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=2809"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -2663,17 +2669,21 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-26T00:00:00.000Z",
-      "text": "拍海景不一定只在熱門點，沿周邊多走一段也有驚喜；拍照時尊重居民、勿阻擋通道。",
+      "text": "冬天去太宗臺，園區冬季（11月至2月）開放時間為 05:00–24:00；Danubi 列車淡季約 09:20–17:30，每週一休息，天候不佳也可能停駛。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official source lists winter park hours, Danubi off-season hours, Monday closure and weather suspension; reconfirm same-day operations and fare before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://www.visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000601001001000&uc_seq=258",
+          "https://www.bisco.or.kr/taejongdae/"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -2693,17 +2703,21 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-26T12:00:00.000Z",
-      "text": "拍照景點之間不妨放慢腳步。選擇安全的公共位置取景，不阻擋通道，在住宅附近拍攝時也要留意居民感受。",
+      "text": "太宗臺園區開放，不代表 Danubi 列車一定行駛。出發前確認當日公告、天氣與票務；官方旅遊資訊列出的成人循環票價為 ₩4,000，仍請以現場最新資訊為準。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Official source lists winter park hours, Danubi off-season hours, Monday closure and weather suspension; reconfirm same-day operations and fare before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://www.visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000601001001000&uc_seq=258",
+          "https://www.bisco.or.kr/taejongdae/"
+        ]
       },
       "status": "draft",
       "link_reply": {
