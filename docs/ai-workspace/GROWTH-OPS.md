@@ -43,6 +43,7 @@ Cost/rate notes: the scan makes ~200 plain HTTP requests to go2busan.com per run
 
 - `pull_request` self-test run on PR #373: scan job success, live checks included (sitemap 175/175 = 200, redirects 301, unknown URL 404). Schedule and `workflow_dispatch` only become available after the workflow is on `main` (GitHub limitation).
 - `GROWTH_AUTOPILOT=true` set 2026-11-12. Run 43158856803: 4 permission denials (no tool allowlist). Run 43159967531 after #377: 22 turns, 12 denials, no PR. #378 widens the allowlist with main/merge/API still blocked and shows tool calls in the log.
+- Run 43164645905 after #378: Claude chose a real item (zh-TW Nampo/rainy-day Klook CTA) and created a branch, but Claude Code's sandbox refused the build/audit commands, so it stopped without a PR. Fix (#379): Claude only edits files; the workflow itself validates protected paths, builds, runs all 12 audits, and only then commits to `autopilot/run-<id>` and opens the draft PR. Claude has no push or PR permission at all.
 - Failure handling: the report is posted even when a step fails; the autopilot posts its outcome (success/failure + open PR) to the log issue; nothing is retried in the same run, the next 4-hourly run retries.
 - Owner steps (beginner guide): `docs/ai-workspace/OWNER-SETUP.md`.
 
