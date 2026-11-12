@@ -1,6 +1,6 @@
 # Go2Busan Project Status
 
-_Last updated: 2026-11-06 — Claude (after #280, #281)_
+_Last updated: 2026-11-12 — Claude (after #342, #343 follow-up)_
 
 This file is an operational snapshot, not a substitute for checking GitHub and production at the start of each task.
 
@@ -12,6 +12,12 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 - Site type: multilingual static Busan travel guide.
 - Existing languages include English, Japanese, and Traditional Chinese.
 - Deployment platform documented in repository README: Render.
+
+## Verified state (2026-11-12, Claude)
+
+- **Merged with owner approval (11-11/12):** #334 + #336 (Threads cron `7 0,11,12,13,22,23`, 12h stale-retry guard, post-event fireworks pages), #337 + #338 + #339 (skyline hero, zh-TW hero first), #340 (JA/TW travel-decision components), #342 (US Threads copy). #343 (15-day social drafts) merged by another agent.
+- **Design refresh:** issue #344 (owner-approved spec + benchmark), PR #345 draft (homepage). Owner decisions: palette #0066FF / #0A192F / #FF4757; "Run by a Busan local" only (no name/job); EN header affiliate links (Agoda, Klook pass, transit) must stay.
+- **15-day social drafts (nov12-26):** still draft/needs_check; this follow-up removes repeated Instagram carousels, adds captions' AI disclosure + hashtags, maps neighborhood/rainy/etiquette/coastal themes to dedicated guides, sets US evening Threads to 18:00 ET (20:00 ET = 01:00Z is outside the publisher cron), and adds `bio_link_url` with UTM. Activation still needs: owner replacement plan for the overlapping live 30-day schedule, rendered assets, fact checks.
 
 ## Verified state (2026-11-06, Claude)
 
