@@ -1310,14 +1310,14 @@
       "publish_at_utc": "2026-11-12T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-1",
+        "set": "ig-fresh15-1-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -1356,7 +1356,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-1"
       },
-      "bio_link_url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112"
+      "bio_link_url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1112-jp",
@@ -1367,14 +1368,14 @@
       "publish_at_utc": "2026-11-12T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-1",
+        "set": "ig-fresh15-1-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -1413,7 +1414,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-1"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112"
+      "bio_link_url": "https://go2busan.com/ja/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1112-tw",
@@ -1424,14 +1426,14 @@
       "publish_at_utc": "2026-11-12T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-1",
+        "set": "ig-fresh15-1-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -1470,7 +1472,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-1"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1113-us",
@@ -1481,14 +1484,14 @@
       "publish_at_utc": "2026-11-13T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-2",
+        "set": "ig-fresh15-2-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -1527,7 +1530,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-2"
       },
-      "bio_link_url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113"
+      "bio_link_url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1113-jp",
@@ -1538,14 +1542,14 @@
       "publish_at_utc": "2026-11-13T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-2",
+        "set": "ig-fresh15-2-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -1584,7 +1588,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-2"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113"
+      "bio_link_url": "https://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1113-tw",
@@ -1595,14 +1600,14 @@
       "publish_at_utc": "2026-11-13T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-2",
+        "set": "ig-fresh15-2-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -1641,7 +1646,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-2"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1114-us",
@@ -1652,14 +1658,14 @@
       "publish_at_utc": "2026-11-14T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-3",
+        "set": "ig-fresh15-3-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -1698,7 +1704,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-3"
       },
-      "bio_link_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114"
+      "bio_link_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1114-jp",
@@ -1709,14 +1716,14 @@
       "publish_at_utc": "2026-11-14T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-3",
+        "set": "ig-fresh15-3-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -1755,7 +1762,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-3"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114"
+      "bio_link_url": "https://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1114-tw",
@@ -1766,14 +1774,14 @@
       "publish_at_utc": "2026-11-14T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-3",
+        "set": "ig-fresh15-3-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -1812,7 +1820,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-3"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1115-us",
@@ -1823,14 +1832,14 @@
       "publish_at_utc": "2026-11-15T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-4",
+        "set": "ig-fresh15-4-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -1869,7 +1878,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-4"
       },
-      "bio_link_url": "https://go2busan.com/guides/busan-transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115"
+      "bio_link_url": "https://go2busan.com/guides/busan-transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1115-jp",
@@ -1880,14 +1890,14 @@
       "publish_at_utc": "2026-11-15T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-4",
+        "set": "ig-fresh15-4-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -1926,7 +1936,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-4"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115"
+      "bio_link_url": "https://go2busan.com/ja/guides/transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1115-tw",
@@ -1937,14 +1948,14 @@
       "publish_at_utc": "2026-11-15T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-4",
+        "set": "ig-fresh15-4-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -1983,7 +1994,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-4"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1116-us",
@@ -1994,14 +2006,14 @@
       "publish_at_utc": "2026-11-16T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-5",
+        "set": "ig-fresh15-5-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2040,7 +2052,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-5"
       },
-      "bio_link_url": "https://go2busan.com/guides/busan-three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116"
+      "bio_link_url": "https://go2busan.com/guides/busan-three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1116-jp",
@@ -2051,14 +2064,14 @@
       "publish_at_utc": "2026-11-16T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-5",
+        "set": "ig-fresh15-5-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2097,7 +2110,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-5"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116"
+      "bio_link_url": "https://go2busan.com/ja/guides/three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1116-tw",
@@ -2108,14 +2122,14 @@
       "publish_at_utc": "2026-11-16T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-5",
+        "set": "ig-fresh15-5-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2154,7 +2168,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-5"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1117-us",
@@ -2165,14 +2180,14 @@
       "publish_at_utc": "2026-11-17T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-6",
+        "set": "ig-fresh15-6-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2211,7 +2226,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-6"
       },
-      "bio_link_url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117"
+      "bio_link_url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1117-jp",
@@ -2222,14 +2238,14 @@
       "publish_at_utc": "2026-11-17T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-6",
+        "set": "ig-fresh15-6-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2268,7 +2284,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-6"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/jagalchi-market/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117"
+      "bio_link_url": "https://go2busan.com/ja/guides/jagalchi-market/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1117-tw",
@@ -2279,14 +2296,14 @@
       "publish_at_utc": "2026-11-17T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-6",
+        "set": "ig-fresh15-6-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2325,7 +2342,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-6"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1118-us",
@@ -2336,14 +2354,14 @@
       "publish_at_utc": "2026-11-18T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-7",
+        "set": "ig-fresh15-7-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: abstract light formation hovering over the sea at night. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: abstract light formation hovering over the sea at night. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2382,7 +2400,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-7"
       },
-      "bio_link_url": "https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118"
+      "bio_link_url": "https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1118-jp",
@@ -2393,14 +2412,14 @@
       "publish_at_utc": "2026-11-18T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-7",
+        "set": "ig-fresh15-7-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: abstract light formation hovering over the sea at night. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: abstract light formation hovering over the sea at night. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2439,7 +2458,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-7"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118"
+      "bio_link_url": "https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1118-tw",
@@ -2450,14 +2470,14 @@
       "publish_at_utc": "2026-11-18T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-7",
+        "set": "ig-fresh15-7-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: abstract light formation hovering over the sea at night. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: abstract light formation hovering over the sea at night. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2496,7 +2516,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-7"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1119-us",
@@ -2507,14 +2528,14 @@
       "publish_at_utc": "2026-11-19T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-8",
+        "set": "ig-fresh15-8-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: long coastal district drawn as a stretched map strip. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: small coastal sky-capsule cars on an elevated track. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: calendar split into east and west halves. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: long coastal district drawn as a stretched map strip. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small coastal sky-capsule cars on an elevated track. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: calendar split into east and west halves. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2553,7 +2574,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-8"
       },
-      "bio_link_url": "https://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119"
+      "bio_link_url": "https://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1119-jp",
@@ -2564,14 +2586,14 @@
       "publish_at_utc": "2026-11-19T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-8",
+        "set": "ig-fresh15-8-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: long coastal district drawn as a stretched map strip. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: small coastal sky-capsule cars on an elevated track. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: calendar split into east and west halves. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: long coastal district drawn as a stretched map strip. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small coastal sky-capsule cars on an elevated track. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: calendar split into east and west halves. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2610,7 +2632,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-8"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119"
+      "bio_link_url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1119-tw",
@@ -2621,14 +2644,14 @@
       "publish_at_utc": "2026-11-19T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-8",
+        "set": "ig-fresh15-8-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: long coastal district drawn as a stretched map strip. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: small coastal sky-capsule cars on an elevated track. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: calendar split into east and west halves. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: long coastal district drawn as a stretched map strip. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small coastal sky-capsule cars on an elevated track. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: calendar split into east and west halves. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2667,7 +2690,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-8"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1120-us",
@@ -2678,14 +2702,14 @@
       "publish_at_utc": "2026-11-20T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-9",
+        "set": "ig-fresh15-9-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2724,7 +2748,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-9"
       },
-      "bio_link_url": "https://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120"
+      "bio_link_url": "https://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1120-jp",
@@ -2735,14 +2760,14 @@
       "publish_at_utc": "2026-11-20T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-9",
+        "set": "ig-fresh15-9-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2781,7 +2806,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-9"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120"
+      "bio_link_url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1120-tw",
@@ -2792,14 +2818,14 @@
       "publish_at_utc": "2026-11-20T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-9",
+        "set": "ig-fresh15-9-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2838,7 +2864,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-9"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1121-us",
@@ -2849,14 +2876,14 @@
       "publish_at_utc": "2026-11-21T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-10",
+        "set": "ig-fresh15-10-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2895,7 +2922,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-10"
       },
-      "bio_link_url": "https://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121"
+      "bio_link_url": "https://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1121-jp",
@@ -2906,14 +2934,14 @@
       "publish_at_utc": "2026-11-21T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-10",
+        "set": "ig-fresh15-10-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2952,7 +2980,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-10"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121"
+      "bio_link_url": "https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1121-tw",
@@ -2963,14 +2992,14 @@
       "publish_at_utc": "2026-11-21T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-10",
+        "set": "ig-fresh15-10-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3009,7 +3038,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-10"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1122-us",
@@ -3020,14 +3050,14 @@
       "publish_at_utc": "2026-11-22T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-11",
+        "set": "ig-fresh15-11-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -3066,7 +3096,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-11"
       },
-      "bio_link_url": "https://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122"
+      "bio_link_url": "https://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1122-jp",
@@ -3077,14 +3108,14 @@
       "publish_at_utc": "2026-11-22T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-11",
+        "set": "ig-fresh15-11-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -3123,7 +3154,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-11"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122"
+      "bio_link_url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1122-tw",
@@ -3134,14 +3166,14 @@
       "publish_at_utc": "2026-11-22T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-11",
+        "set": "ig-fresh15-11-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3180,7 +3212,8 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-11"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1123-us",
@@ -3191,14 +3224,14 @@
       "publish_at_utc": "2026-11-23T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-12",
+        "set": "ig-fresh15-12-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: umbrella over a city crosswalk in light rain. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: single indoor landmark icon circled on a map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: covered shopping street with warm lights. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: wet market floor with a caution reflection. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: ticket and clock beside a raincoat. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: umbrella over a city crosswalk in light rain. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: single indoor landmark icon circled on a map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: covered shopping street with warm lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: wet market floor with a caution reflection. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: ticket and clock beside a raincoat. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -3237,7 +3270,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-12"
       },
-      "bio_link_url": "https://go2busan.com/guides/busan-rainy-day-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123"
+      "bio_link_url": "https://go2busan.com/guides/busan-rainy-day-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1123-jp",
@@ -3248,14 +3282,14 @@
       "publish_at_utc": "2026-11-23T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-12",
+        "set": "ig-fresh15-12-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: umbrella over a city crosswalk in light rain. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: single indoor landmark icon circled on a map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: covered shopping street with warm lights. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: wet market floor with a caution reflection. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: ticket and clock beside a raincoat. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: umbrella over a city crosswalk in light rain. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: single indoor landmark icon circled on a map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: covered shopping street with warm lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: wet market floor with a caution reflection. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: ticket and clock beside a raincoat. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -3294,7 +3328,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-12"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/rainy-day/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123"
+      "bio_link_url": "https://go2busan.com/ja/guides/rainy-day/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1123-tw",
@@ -3305,14 +3340,14 @@
       "publish_at_utc": "2026-11-23T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-12",
+        "set": "ig-fresh15-12-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: umbrella over a city crosswalk in light rain. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: single indoor landmark icon circled on a map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: covered shopping street with warm lights. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: wet market floor with a caution reflection. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: ticket and clock beside a raincoat. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: umbrella over a city crosswalk in light rain. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: single indoor landmark icon circled on a map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: covered shopping street with warm lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: wet market floor with a caution reflection. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: ticket and clock beside a raincoat. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3351,7 +3386,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-12"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/rainy-day/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/rainy-day/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1124-us",
@@ -3362,14 +3398,14 @@
       "publish_at_utc": "2026-11-24T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-13",
+        "set": "ig-fresh15-13-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: open suitcase with neatly packed essentials. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: walking shoes on a steep stone stairway. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: travel plug adapter beside a phone charger. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: phone screen showing an address card, no readable text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: light rain jacket folded beside a coastal map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: open suitcase with neatly packed essentials. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: walking shoes on a steep stone stairway. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: travel plug adapter beside a phone charger. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: phone screen showing an address card, no readable text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: light rain jacket folded beside a coastal map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -3408,7 +3444,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-13"
       },
-      "bio_link_url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124"
+      "bio_link_url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1124-jp",
@@ -3419,14 +3456,14 @@
       "publish_at_utc": "2026-11-24T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-13",
+        "set": "ig-fresh15-13-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: open suitcase with neatly packed essentials. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: walking shoes on a steep stone stairway. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: travel plug adapter beside a phone charger. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: phone screen showing an address card, no readable text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: light rain jacket folded beside a coastal map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: open suitcase with neatly packed essentials. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: walking shoes on a steep stone stairway. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: travel plug adapter beside a phone charger. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: phone screen showing an address card, no readable text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: light rain jacket folded beside a coastal map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -3465,7 +3502,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-13"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124"
+      "bio_link_url": "https://go2busan.com/ja/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1124-tw",
@@ -3476,14 +3514,14 @@
       "publish_at_utc": "2026-11-24T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-13",
+        "set": "ig-fresh15-13-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: open suitcase with neatly packed essentials. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: walking shoes on a steep stone stairway. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: travel plug adapter beside a phone charger. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: phone screen showing an address card, no readable text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: light rain jacket folded beside a coastal map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: open suitcase with neatly packed essentials. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: walking shoes on a steep stone stairway. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: travel plug adapter beside a phone charger. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: phone screen showing an address card, no readable text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: light rain jacket folded beside a coastal map. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3522,7 +3560,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-13"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1125-us",
@@ -3533,14 +3572,14 @@
       "publish_at_utc": "2026-11-25T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-14",
+        "set": "ig-fresh15-14-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: bowl of pork soup with small side dishes of condiments. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: small spoon adding a pinch of seasoning. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: market seafood counter with an empty price board. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: single diner at a counter seat. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: phone screen held out showing a short phrase, no readable text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: bowl of pork soup with small side dishes of condiments. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: small spoon adding a pinch of seasoning. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: market seafood counter with an empty price board. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: single diner at a counter seat. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: phone screen held out showing a short phrase, no readable text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -3579,7 +3618,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-14"
       },
-      "bio_link_url": "https://go2busan.com/guides/busan-local-food-etiquette-tips/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125"
+      "bio_link_url": "https://go2busan.com/guides/busan-local-food-etiquette-tips/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1125-jp",
@@ -3590,14 +3630,14 @@
       "publish_at_utc": "2026-11-25T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-14",
+        "set": "ig-fresh15-14-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: bowl of pork soup with small side dishes of condiments. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: small spoon adding a pinch of seasoning. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: market seafood counter with an empty price board. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: single diner at a counter seat. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: phone screen held out showing a short phrase, no readable text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: bowl of pork soup with small side dishes of condiments. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: small spoon adding a pinch of seasoning. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: market seafood counter with an empty price board. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: single diner at a counter seat. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: phone screen held out showing a short phrase, no readable text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -3636,7 +3676,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-14"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125"
+      "bio_link_url": "https://go2busan.com/ja/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1125-tw",
@@ -3647,14 +3688,14 @@
       "publish_at_utc": "2026-11-25T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-14",
+        "set": "ig-fresh15-14-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: bowl of pork soup with small side dishes of condiments. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: small spoon adding a pinch of seasoning. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: market seafood counter with an empty price board. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: single diner at a counter seat. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: phone screen held out showing a short phrase, no readable text. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: bowl of pork soup with small side dishes of condiments. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: small spoon adding a pinch of seasoning. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: market seafood counter with an empty price board. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: single diner at a counter seat. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: phone screen held out showing a short phrase, no readable text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3693,7 +3734,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-14"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1126-us",
@@ -3704,14 +3746,14 @@
       "publish_at_utc": "2026-11-26T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-15",
+        "set": "ig-fresh15-15-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: small open-air park train on a winding road. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: small open-air park train on a winding road. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -3750,7 +3792,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-15"
       },
-      "bio_link_url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126"
+      "bio_link_url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1126-jp",
@@ -3761,14 +3804,14 @@
       "publish_at_utc": "2026-11-26T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-15",
+        "set": "ig-fresh15-15-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: small open-air park train on a winding road. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: small open-air park train on a winding road. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -3807,7 +3850,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-15"
       },
-      "bio_link_url": "https://go2busan.com/ja/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126"
+      "bio_link_url": "https://go2busan.com/ja/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126",
+      "theme": "bright"
     },
     {
       "id": "ig-fresh15-1126-tw",
@@ -3818,14 +3862,14 @@
       "publish_at_utc": "2026-11-26T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-15",
+        "set": "ig-fresh15-15-bright",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: small open-air park train on a winding road. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: small open-air park train on a winding road. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3864,7 +3908,8 @@
         "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
         "register": "ig-fresh15-15"
       },
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126"
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126",
+      "theme": "bright"
     }
   ]
 }
