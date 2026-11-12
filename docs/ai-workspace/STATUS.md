@@ -1,6 +1,6 @@
 # Go2Busan Project Status
 
-_Last updated: 2026-11-12 — Claude (Taiwan plan #359, Phase 0)_
+_Last updated: 2026-11-12 — ChatGPT growth run / Claude handoff_
 
 This file is an operational snapshot, not a substitute for checking GitHub and production at the start of each task.
 
