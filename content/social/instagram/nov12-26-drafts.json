@@ -638,9 +638,9 @@
         "stylized": true,
         "prompts": [
           "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial infographic illustration of a Busan metro day pass beside separate Donghae Line and Gimhae light rail route icons, clearly distinct networks, vertical 4:5, no readable text, no logos.",
+          "Stylized editorial travel illustration showing airport light rail arriving at a transfer station with a separate ticket reminder symbol, Busan context, vertical 4:5, no readable text, no logos.",
+          "Stylized editorial illustration of a traveler checking a station-specific first and last train timetable on a phone beside a subway platform clock, vertical 4:5, no readable text, no logos.",
           "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
@@ -653,18 +653,18 @@
         },
         {
           "cat": "行程安排",
-          "title": "查詢購買與加值地點",
-          "body": "出發前先確認購買與加值方式。"
+          "title": "地鐵通行券有適用範圍",
+          "body": "1 日券、3 日券不適用東海線與釜山金海輕軌。"
         },
         {
           "cat": "在地提醒",
-          "title": "依讀卡機指示感應",
-          "body": "上下車時依讀卡機指示感應。"
+          "title": "機場輕軌要另確認車票",
+          "body": "從金海機場搭輕軌進市區，別假設地鐵通行券可直接使用。"
         },
         {
           "cat": "出發前確認",
-          "title": "確認卡片餘額",
-          "body": "多段轉乘前先確認餘額是否足夠。"
+          "title": "各站末班車時間不同",
+          "body": "營運約 05:00–23:59，請查出發站與目的站當日時間表。"
         },
         {
           "cat": "收藏備用",
@@ -673,11 +673,15 @@
           "cta": "收藏 · 完整攻略請見個人檔案"
         }
       ],
-      "caption": "使用適用的交通卡，可簡化公車與地鐵搭乘。 出發前先確認購買與加值方式。 上下車時依讀卡機指示感應。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山地鐵 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
+      "caption": "釜山地鐵 1 日券、3 日券不適用東海線與釜山金海輕軌。若從金海機場搭輕軌進市區，請另外確認車票。地鐵營運時間約為 05:00–23:59，但各站首末班車不同，出發前要查當日時間表。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山交通卡 #釜山地鐵 #金海機場 #釜山旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/transit-card/",
       "verification": {
         "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000"
+        ],
+        "note": "Official Traditional Chinese Visit Busan guidance says metro passes (1-day, 3-day, monthly) do not cover Donghae Line or Busan-Gimhae Light Rail; metro operates approximately 05:00-23:59, but first/last times vary by station. Recheck ticket conditions and current timetables before approval."
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115"
     },
