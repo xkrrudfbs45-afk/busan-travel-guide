@@ -131,10 +131,17 @@ jobs:
       - name: Claude picks one item and opens a draft PR
         if: steps.gate.outputs.run == 'true'
         uses: anthropics/claude-code-action@v1
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          claude_args: "--max-turns 60"
+          # Least privilege: only the commands the autopilot needs. Pushing is limited to autopilot/* branches,
+          # so main can never be pushed from here; merges/deploys are impossible with these tools.
+          claude_args: >-
+            --max-turns 60
+            --allowedTools "Read,Edit,Write,Glob,Grep,WebFetch,WebSearch,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git checkout -b autopilot/:*),Bash(git switch -c autopilot/:*),Bash(git add:*),Bash(git commit:*),Bash(git push -u origin autopilot/:*),Bash(gh pr list:*),Bash(gh pr view:*),Bash(gh pr create:*),Bash(gh label create:*),Bash(gh issue list:*),Bash(sh scripts/build-static.sh),Bash(node scripts/:*),Bash(ls:*),Bash(cat:*)"
+            --disallowedTools "Bash(git push origin main:*),Bash(git push -u origin main:*),Bash(gh pr merge:*),Bash(gh api:*),Bash(gh secret:*),Bash(gh variable:*)"
           prompt: |
             You are the Go2Busan growth autopilot. Read AGENTS.md, CONTENT_GUIDELINES.md,
             docs/ai-workspace/WORK-DIVISION-CHATGPT-CLAUDE.md, docs/ai-workspace/STATUS.md and growth-report/report.md.
@@ -143,9 +150,10 @@ jobs:
             Technical items (metadata, schema, links, affiliate CTA data in content/affiliate/*.json, CSS/JS, scripts):
             implement them. Content items (new page or body text): write a draft only if every fact can be cited to an
             official or primary source you actually opened; never claim a visit; mark it "needs ChatGPT/owner review".
-            Then: create branch `autopilot/<short-topic>-${{ github.run_id }}`, run `sh scripts/build-static.sh` and every
-            audit listed in .github/workflows/seo-audit.yml, commit, push, and open a DRAFT pull request with label
-            `growth-autopilot` (create the label if missing) containing: evidence from the report, files changed,
+            Then: `git checkout -b autopilot/<short-topic>-${{ github.run_id }}`, run `sh scripts/build-static.sh` and every
+            `node scripts/...` audit listed in .github/workflows/seo-audit.yml, `git add` + `git commit`,
+            `git push -u origin autopilot/<same branch>`, `gh label create growth-autopilot` (ignore "already exists"),
+            then `gh pr create --draft --label growth-autopilot` with: evidence from the report, files changed,
             audit results. If nothing is worth changing, open no PR and say so.
             Never: merge, push to main, edit .github/workflows, secrets, GA4 consent/measurement settings,
             content/social schedules or LIVE variables, URLs/redirects, Klook aid or existing aff_adid values.
