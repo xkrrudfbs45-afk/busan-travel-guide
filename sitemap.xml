@@ -1099,4 +1099,19 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gwangalli-parking-guide/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gwangalli-parking-guide/" />
   </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-shopping-souvenirs/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-shopping-souvenirs/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-shopping-souvenirs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/zh-tw/guides/busan-shopping-souvenirs/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/busan-shopping-souvenirs/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-shopping-souvenirs/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-shopping-souvenirs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/zh-tw/guides/busan-shopping-souvenirs/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-family-travel/</loc>
+  </url>
 </urlset>
