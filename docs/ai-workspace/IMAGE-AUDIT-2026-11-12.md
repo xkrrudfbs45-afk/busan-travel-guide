@@ -45,7 +45,7 @@ Also: every existing `figure.article-cover` image is made non-lazy with `fetchpr
 Image byte size and LCP on real devices: Wikimedia and the live site are blocked from the build sandbox and PageSpeed quota was exhausted; covers are served by Wikimedia thumbnails at the requested width.
 
 ## Next candidates (not changed)
-1. zh-TW/ja `first-trip`, `taiwan-travelers-busan`, `things-to-do-in-busan`: need a representative verified photo.
+1. ~~zh-TW/ja `first-trip`, `taiwan-travelers-busan`, `things-to-do-in-busan`: need a representative verified photo.~~ Batch 2 (2026-11-12): covers added from verified registry photos. first-trip = Suyeong Bay skyline (S h y numis, CC BY 4.0), zh-TW taiwan-travelers = Nampo-dong main street (Ken Eckert, CC BY-SA 4.0), things-to-do = Gwangalli Beach + Gwangan Bridge (Masterhatch, CC BY-SA 4.0). Dimensions checked via the Commons API. og:image left unchanged (first-trip already uses verified Busan_Yeongdo-gu.jpg; things-to-do keeps its own illustration OG).
 2. EN pages with only SVG illustrations (dialect, local culture, Bukangi ×2, things-to-do): decide illustration vs photo per standard §2.
 3. `Bukmun_of_Dongnae_eupseong_in_2018.jpg` is `needs_review` and used on 4 pages.
 4. Reduce re-use of the Gimhae and Haeundae photos across unrelated pages.
