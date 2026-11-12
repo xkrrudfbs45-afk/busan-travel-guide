@@ -52,7 +52,8 @@ for (const p of th) {
   assert.equal(p.status, "draft", p.id + " must remain draft");
   assert.equal(p.verification?.status, "needs_check", p.id + " must remain unverified");
   assert.ok(dates.includes(p.local_date), p.id + " outside campaign dates");
-  assert.ok(["08:00", "20:00"].includes(p.local_time), p.id + " invalid local slot");
+  const allowedSlots = p.market === "US" ? ["08:00", "18:00"] : ["08:00", "20:00"];
+  assert.ok(allowedSlots.includes(p.local_time), p.id + " invalid local slot");
   assert.equal(p.tz, timeZones[p.market], p.id + " wrong timezone");
   const parts = localParts(p.publish_at_utc, p.tz);
   assert.equal(parts.year + "-" + parts.month + "-" + parts.day, p.local_date, p.id + " local date mismatch");
