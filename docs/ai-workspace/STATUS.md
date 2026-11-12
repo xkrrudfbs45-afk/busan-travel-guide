@@ -20,7 +20,7 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 2. Prioritize Taiwan landing-page discovery and existing stay/itinerary/transport guide connections, while maintaining English and Japanese coverage.
 3. Re-audit image gaps after #383 using the pre-merge baseline in IMAGE-AUDIT-2026-11-12.md; prioritize first-trip, Taiwan traveler, things-to-do, EN illustration/photo choices, Bukmun needs_review, and image reuse.
 4. Obtain numeric Lighthouse/Core Web Vitals metrics through a report view or separate test; manual visual/image-source checks remain open. Do not infer these from the 50-page crawl.
-4. Keep bookings and revenue unverified until partner-side conversion data is available.
+5. Keep bookings and revenue unverified until partner-side conversion data is available.
 
 ## Known project context
 
