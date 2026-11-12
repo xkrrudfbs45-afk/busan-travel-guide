@@ -2,23 +2,31 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
-## Current handoff — 2026-11-06 (Claude, after deploy 197b438)
+## Current handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
 
 ### Completed
-- Deployed: #280 (Nampo-dong and Gwangalli hubs, hub ↔ map links) and #281 (JA/TW Haeundae and Seomyeon hubs). Production `version.txt` = `197b438`.
-- Open PR: JA/TW Nampo-dong and Gwangalli hubs, reciprocal hreflang on the EN hubs, JA/TW directory and where-to-stay links.
+- Reconciled main/production/open PRs: `docs/ai-workspace/BASELINE-TAIWAN-2026-11-12.md` (45 open PRs triaged into close / clean / conflicting).
+- #362: site content from #354–#356 (KTX–SRT integration notice in EN/JA/zh-TW; zh-TW bus luggage, metro-pass exclusions, Taejongdae/Danubi winter caveats, Nampo walking order) without their conflicting social edits. Facts re-checked (see PR).
+- #364: zh-TW `・` → `·` on 19 files; nakgopsae/milmyeon headings lead with Chinese names.
+- Social: no duplicate live Threads slots; Threads publisher confirmed LIVE; IG drafts await first render.
+- Affiliate: `affiliate_click` payload verified locally; analytics is opt-in.
 
 ### Verification
-- Build and all 11 audits pass. Mobile overflow at 360/390 on 169 built pages: 0. New JA/TW hubs at 360/390/1280: no overflow, TOC present, every internal link returns 200.
+- Build + all 11 CI audits exit 0 on #362 and #364 branches; no horizontal overflow at 360/390/1280 on the changed pages.
+- PR conflict status from `git merge-tree` against `19e8150`.
 
-### Approval / setup needed from the owner
-1. Merge the JA/TW Nampo/Gwangalli hub PR (merge = production deploy).
-2. Merge or approve by number #275 and #277 (clean, audits pass; Claude is blocked from merging PRs it did not author).
-3. Decide on #263, #266, #269 (conflicting). Claude can rebase their content into fresh PRs if asked.
-4. Claude action setup, Maps Embed key, GA4 Viewer access.
+### Open issues / blockers
+- GA4 data not readable by Claude (owner connected OpenSEO; ChatGPT to re-run #358).
+- Search Console country breakdown not reachable from this session's browser (redirected); last Taiwan figure is from 11-11.
+- #361 and #364 edit the same file; #352 will need a one-line rebase after #362.
 
 ### Recommended next action
-- Claude: finish Search Console indexing requests (Gwangalli hub, JA/TW hubs) after the daily quota resets; then a JA/TW version of the Busan map.
+- Owner: approve #362 and #364; decide on closing the PRs listed as superseded.
+- ChatGPT: re-run #358 GA4 baseline by market.
+- Claude: add zh-TW affiliate/next-step links on high-intent Taiwan pages (where-to-stay, airport, three-days, Haeundae/Gwangalli hubs) using existing link formats; review IG renders after the 12:00 UTC run.
+
+### Approval needed
+- Merges of #362/#364 (production deploy). Closing superseded PRs. Any change to the analytics consent model.
 
 ## Handoff template
 
