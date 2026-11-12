@@ -1207,17 +1207,20 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-18T00:00:00.000Z",
-      "text": "廣安里不只有夜景，也很適合海邊散步；留意天氣並先想好回程方式。",
+      "text": "廣安里每週六通常有 M 無人機燈光秀，但當月場次與時間可能調整，遇雨、強風或通訊問題也可能取消或延後。出發前先看官方公告。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Recheck the current official Saturday programme and weather notice before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6450&menuCd=DOM_000000304010000000"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -1237,17 +1240,20 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-18T12:00:00.000Z",
-      "text": "去廣安里前，可以先想好這趟想散步看海、找咖啡廳，還是欣賞夜景。不同時段的街區氛圍也不太一樣。",
+      "text": "安排廣安里夜景行程時，可以把海邊散步、咖啡廳和無人機燈光秀分開規劃。表演不是每週都能保證照常舉行，當天出門前再確認官方公告。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Recheck the current official Saturday programme and weather notice before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6450&menuCd=DOM_000000304010000000"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -2284,17 +2290,20 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-24T00:00:00.000Z",
-      "text": "釜山海邊風感可能和市區不同，建議洋蔥式穿搭、穿好走的鞋並確認天氣。",
+      "text": "從台灣出發記得帶轉接頭。韓國標準電壓為 220V／60Hz，插座是雙圓孔；也要確認手機、相機與筆電充電器支援 220V。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm the voltage and plug-adapter advice against the Taiwan-language VISITKOREA source before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://big5chinese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140059"
+        ]
       },
       "status": "draft",
       "link_reply": {
@@ -2313,17 +2322,20 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-24T12:00:00.000Z",
-      "text": "準備好適合當天行程的物品：好走的鞋、方便穿脫的外套，以及放隨身用品的小包。出門前再看一次天氣預報。",
+      "text": "釜山海邊的風感可能比市區明顯，外套建議分層穿搭。鞋子選好走、防滑的款式，出門前再確認當天氣溫與降雨。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm the voltage and plug-adapter advice against the Taiwan-language VISITKOREA source before approval."
         ],
         "flags": [
           "draft only"
         ],
         "verified_by": null,
-        "verified_at": null
+        "verified_at": null,
+        "sources": [
+          "https://big5chinese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140059"
+        ]
       },
       "status": "draft",
       "link_reply": {
