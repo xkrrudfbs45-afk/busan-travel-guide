@@ -265,7 +265,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     });
     // FAQPage structured data from a visible FAQ section, only when the page has none.
     if (isGuideUrl(url) && !noindex && !/"@type"\s*:\s*"FAQPage"/.test(h)) {
-      const sec = (h.match(/<section class="guide-faq"[\s\S]*?<\/section>/) || [""])[0];
+      const sec = (h.match(/<section class="(?:[^"]*\s)?guide-faq(?:\s[^"]*)?"[\s\S]*?<\/section>/) || [""])[0];
       const qa = [...sec.matchAll(/<details>\s*<summary>([\s\S]*?)<\/summary>([\s\S]*?)<\/details>/g)].map((m) => [unesc(m[1]), unesc(m[2])]).filter(([q, a]) => q && a);
       if (qa.length >= 2) {
         const ld = { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: qa.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) };
