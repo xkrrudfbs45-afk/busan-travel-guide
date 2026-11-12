@@ -1028,7 +1028,7 @@
     {
       "id": "d10-jp-1",
       "day": 10,
-      "theme": "Coastal walks",
+      "theme": "Where to stay",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1036,24 +1036,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-12T23:00:00.000Z",
-      "text": "釜山の海辺を歩く日は、目的地をひとつだけ決めて、途中で景色を楽しむ時間も残してみてください。写真を撮る、ベンチで休む、海を眺める。そんな余白も旅の思い出になります。",
+      "text": "ホテルは行きたい場所を基準に選び、到着日と最終日の移動も比較して。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1113-jp-1 (theme: Where to stay)",
+        "original_text": "釜山の海辺を歩く日は、目的地をひとつだけ決めて、途中で景色を楽しむ時間も残してみてください。写真を撮る、ベンチで休む、海を眺める。そんな余白も旅の思い出になります。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_1"
+      }
     },
     {
       "id": "d10-jp-2",
       "day": 10,
-      "theme": "Coastal walks",
+      "theme": "Where to stay",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1061,24 +1072,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-13T11:00:00.000Z",
-      "text": "旅先で好きなのは、名所を巡ること？ それとも目的を決めずに散歩すること？ 釜山では、予定の間に少し歩く時間を入れるだけでも、街の雰囲気に触れやすくなります。",
+      "text": "ホテル選びでは、観光地との距離だけでなく、空港からの到着日と帰国日の移動も想像してみてください。荷物を持って移動しやすい場所かどうかも大切です。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1113-jp-2 (theme: Where to stay)",
+        "original_text": "旅先で好きなのは、名所を巡ること？ それとも目的を決めずに散歩すること？ 釜山では、予定の間に少し歩く時間を入れるだけでも、街の雰囲気に触れやすくなります。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113_2"
+      }
     },
     {
       "id": "d10-us-1",
       "day": 10,
-      "theme": "Coastal walks",
+      "theme": "Where to stay",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1086,24 +1108,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-13T13:00:00.000Z",
-      "text": "A coastal walk is a reminder to slow down. Pick one destination, then leave time for the view, photos, or a break along the way. You don’t have to turn every beautiful place into a timed stop.",
+      "text": "Choose your hotel around the places you want to visit.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1113-us-1 (theme: Where to stay)",
+        "original_text": "A coastal walk is a reminder to slow down. Pick one destination, then leave time for the view, photos, or a break along the way. You don’t have to turn every beautiful place into a timed stop."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_1"
+      }
     },
     {
       "id": "d10-us-2",
       "day": 10,
-      "theme": "Coastal walks",
+      "theme": "Where to stay",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1111,24 +1144,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-13T23:00:00.000Z",
-      "text": "What’s your favorite travel pace: landmarks and checklists, or long walks with no strict plan? In Busan, try leaving one open block in your itinerary just to explore at your own speed.",
+      "text": "Before booking, picture your first and last journeys: airport arrival, luggage, and the station or stop you will use most. A convenient base can save more time than a room near just one attraction.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1113-us-2 (theme: Where to stay)",
+        "original_text": "What’s your favorite travel pace: landmarks and checklists, or long walks with no strict plan? In Busan, try leaving one open block in your itinerary just to explore at your own speed."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113_2"
+      }
     },
     {
       "id": "d11-jp-1",
       "day": 11,
-      "theme": "Café breaks",
+      "theme": "Airport transfer",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1136,24 +1180,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-13T23:00:00.000Z",
-      "text": "カフェは休憩場所であると同時に、旅のペースを整える場所。観光の合間にひと息つく時間を予定に入れると、次の場所へ向かう気持ちにも余裕が生まれます。",
+      "text": "金海空港からは軽電鉄＋地下鉄とタクシーを比較。荷物や到着時刻も考慮して。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1114-jp-1 (theme: Airport transfer)",
+        "original_text": "カフェは休憩場所であると同時に、旅のペースを整える場所。観光の合間にひと息つく時間を予定に入れると、次の場所へ向かう気持ちにも余裕が生まれます。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_1"
+      }
     },
     {
       "id": "d11-jp-2",
       "day": 11,
-      "theme": "Café breaks",
+      "theme": "Airport transfer",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1161,24 +1216,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-14T11:00:00.000Z",
-      "text": "旅先のカフェは、景色重視？ コーヒーやデザート重視？ それとも歩き疲れたときに近くで見つける派？ 釜山で立ち寄りたいカフェの条件、ぜひ教えてください。",
+      "text": "大きな荷物がある日や夜遅い到着なら、料金だけでなく乗り換え回数、徒歩距離、待ち時間、宿までの最後の移動も比べて選びましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1114-jp-2 (theme: Airport transfer)",
+        "original_text": "旅先のカフェは、景色重視？ コーヒーやデザート重視？ それとも歩き疲れたときに近くで見つける派？ 釜山で立ち寄りたいカフェの条件、ぜひ教えてください。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114_2"
+      }
     },
     {
       "id": "d11-us-1",
       "day": 11,
-      "theme": "Café breaks",
+      "theme": "Airport transfer",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1186,24 +1252,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-14T13:00:00.000Z",
-      "text": "A café break can be part of the itinerary, not a detour from it. Use it to reset between neighborhoods instead of scheduling every minute of the day.",
+      "text": "Compare light rail + metro with a taxi from Gimhae Airport.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1114-us-1 (theme: Airport transfer)",
+        "original_text": "A café break can be part of the itinerary, not a detour from it. Use it to reset between neighborhoods instead of scheduling every minute of the day."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_1"
+      }
     },
     {
       "id": "d11-us-2",
       "day": 11,
-      "theme": "Café breaks",
+      "theme": "Airport transfer",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1211,24 +1288,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-14T23:00:00.000Z",
-      "text": "Your travel café style says a lot: sea view, great coffee, dessert, or simply somewhere nearby to rest? What makes you save a café when planning a trip?",
+      "text": "Landing with a large suitcase or late at night? Compare the full journey, not just the fare: transfers, walking distance, waiting time and the final walk to your accommodation.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1114-us-2 (theme: Airport transfer)",
+        "original_text": "Your travel café style says a lot: sea view, great coffee, dessert, or simply somewhere nearby to rest? What makes you save a café when planning a trip?"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114_2"
+      }
     },
     {
       "id": "d12-jp-1",
       "day": 12,
-      "theme": "Photo spots without rushing",
+      "theme": "Transit card",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1236,24 +1324,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-14T23:00:00.000Z",
-      "text": "写真を撮りたい場所が多い旅ほど、1日に回るエリアを絞るのがおすすめ。移動に追われず、気に入った景色の前でゆっくり過ごせます。撮影スポットはアクセス方法も確認しておきましょう。",
+      "text": "交通カードがあると地下鉄やバスの乗車がスムーズ。運賃と乗換ルールは最新情報を確認。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1115-jp-1 (theme: Transit card)",
+        "original_text": "写真を撮りたい場所が多い旅ほど、1日に回るエリアを絞るのがおすすめ。移動に追われず、気に入った景色の前でゆっくり過ごせます。撮影スポットはアクセス方法も確認しておきましょう。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_1"
+      }
     },
     {
       "id": "d12-jp-2",
       "day": 12,
-      "theme": "Photo spots without rushing",
+      "theme": "Transit card",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1261,24 +1360,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-15T11:00:00.000Z",
-      "text": "旅の写真は、名所の一枚だけでなく、路地の看板や食卓、海辺の光もあとから思い出になります。釜山で撮りたいのは、街並み、食べ物、海の景色のどれですか？",
+      "text": "交通カードはすぐ取り出せる場所に。運賃や乗り換えの最新ルールは出発前に確認しましょう。複数人で移動するなら、降車後の集合場所も決めておくと安心です。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1115-jp-2 (theme: Transit card)",
+        "original_text": "旅の写真は、名所の一枚だけでなく、路地の看板や食卓、海辺の光もあとから思い出になります。釜山で撮りたいのは、街並み、食べ物、海の景色のどれですか？"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115_2"
+      }
     },
     {
       "id": "d12-us-1",
       "day": 12,
-      "theme": "Photo spots without rushing",
+      "theme": "Transit card",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1286,24 +1396,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-15T13:00:00.000Z",
-      "text": "If photos are a big part of your trip, group nearby spots together. You’ll have more time to enjoy the view instead of rushing to the next location. Always check access and local rules before visiting a photo spot.",
+      "text": "A transit card makes repeated metro and bus rides simpler.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1115-us-1 (theme: Transit card)",
+        "original_text": "If photos are a big part of your trip, group nearby spots together. You’ll have more time to enjoy the view instead of rushing to the next location. Always check access and local rules before visiting a photo spot."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_1"
+      }
     },
     {
       "id": "d12-us-2",
       "day": 12,
-      "theme": "Photo spots without rushing",
+      "theme": "Transit card",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1311,19 +1432,30 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-15T23:00:00.000Z",
-      "text": "Travel photos aren’t only famous landmarks. A meal, a street sign, the light over the water—small details can bring a trip back to life. What do you photograph most when you travel?",
+      "text": "Keep your transport card somewhere easy to reach, and check the current fare and transfer guidance before travelling. If you are travelling with others, agree on where to meet after each ride.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1115-us-2 (theme: Transit card)",
+        "original_text": "Travel photos aren’t only famous landmarks. A meal, a street sign, the light over the water—small details can bring a trip back to life. What do you photograph most when you travel?"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115_2"
+      }
     },
     {
       "id": "d13-jp-1",
@@ -1353,7 +1485,7 @@
     {
       "id": "d13-jp-2",
       "day": 13,
-      "theme": "Markets and everyday life",
+      "theme": "Three-day itinerary",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1361,19 +1493,30 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-16T11:00:00.000Z",
-      "text": "地元の市場を歩くとき、つい見てしまうのは何ですか？ 食材、屋台、店先の雰囲気、それとも人の行き来？ 旅先ならではの発見を聞いてみたいです。",
+      "text": "3日間なら、海辺を楽しむ日、市場や街歩きの日、気になった場所を巡る予備の日のように、日ごとにテーマを分ける方法も。予定の間に余白を残しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1116-jp-2 (theme: Three-day itinerary)",
+        "original_text": "地元の市場を歩くとき、つい見てしまうのは何ですか？ 食材、屋台、店先の雰囲気、それとも人の行き来？ 旅先ならではの発見を聞いてみたいです。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116_2"
+      }
     },
     {
       "id": "d13-us-1",
@@ -1407,7 +1550,7 @@
     {
       "id": "d13-us-2",
       "day": 13,
-      "theme": "Markets and everyday life",
+      "theme": "Three-day itinerary",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1415,24 +1558,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-16T23:00:00.000Z",
-      "text": "When you explore a market, what do you notice first: ingredients, street food, shop displays, or the rhythm of the neighborhood? Those small observations often become the most memorable travel stories.",
+      "text": "Give each day a different pace: one day for the coast, one for markets and neighborhoods, and one flexible day for the places you discover along the way. Leave breathing room between stops.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1116-us-2 (theme: Three-day itinerary)",
+        "original_text": "When you explore a market, what do you notice first: ingredients, street food, shop displays, or the rhythm of the neighborhood? Those small observations often become the most memorable travel stories."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116_2"
+      }
     },
     {
       "id": "d14-jp-1",
       "day": 14,
-      "theme": "Midpoint check-in",
+      "theme": "Jagalchi seafood market",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1440,24 +1594,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-16T23:00:00.000Z",
-      "text": "釜山旅行の計画、どこまで進みましたか？ 行き先を決めた人も、まだ地図を眺めている人も、まずは「行きたい場所3つ」から始めると整理しやすいです。",
+      "text": "海鮮市場では品目・重さ・合計金額を先に確認。調理代や席料も聞いておきましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1117-jp-1 (theme: Jagalchi seafood market)",
+        "original_text": "釜山旅行の計画、どこまで進みましたか？ 行き先を決めた人も、まだ地図を眺めている人も、まずは「行きたい場所3つ」から始めると整理しやすいです。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_1"
+      }
     },
     {
       "id": "d14-jp-2",
       "day": 14,
-      "theme": "Midpoint check-in",
+      "theme": "Jagalchi seafood market",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1465,24 +1630,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-17T11:00:00.000Z",
-      "text": "ここまでの旅のヒントで、役に立ったテーマはありましたか？ グルメ、交通、宿泊エリア、海辺の散歩など、次に知りたい釜山情報をコメントで教えてください。",
+      "text": "海鮮市場では注文前に、品目・重量・合計金額を確認。調理代や席料が別にかかるかも聞いておくと、安心して楽しめます。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1117-jp-2 (theme: Jagalchi seafood market)",
+        "original_text": "ここまでの旅のヒントで、役に立ったテーマはありましたか？ グルメ、交通、宿泊エリア、海辺の散歩など、次に知りたい釜山情報をコメントで教えてください。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117_2"
+      }
     },
     {
       "id": "d14-us-1",
       "day": 14,
-      "theme": "Midpoint check-in",
+      "theme": "Jagalchi seafood market",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1490,24 +1666,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-17T13:00:00.000Z",
-      "text": "Busan trip planning check-in: do you have your dates and neighborhood picked, or are you still collecting ideas? Start with three priorities and build outward from there.",
+      "text": "Confirm the seafood, weight and total price before ordering.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1117-us-1 (theme: Jagalchi seafood market)",
+        "original_text": "Busan trip planning check-in: do you have your dates and neighborhood picked, or are you still collecting ideas? Start with three priorities and build outward from there."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_1"
+      }
     },
     {
       "id": "d14-us-2",
       "day": 14,
-      "theme": "Midpoint check-in",
+      "theme": "Jagalchi seafood market",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1515,24 +1702,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-17T23:00:00.000Z",
-      "text": "What would help you plan Busan next: local food, transit, where to stay, coastal walks, or rainy-day ideas? Tell us what you’re curious about so future guides can be more useful.",
+      "text": "At a seafood market, pause before ordering: confirm the item, weight, total price and any separate preparation or seating charges. A quick price check makes the experience more comfortable.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1117-us-2 (theme: Jagalchi seafood market)",
+        "original_text": "What would help you plan Busan next: local food, transit, where to stay, coastal walks, or rainy-day ideas? Tell us what you’re curious about so future guides can be more useful."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117_2"
+      }
     },
     {
       "id": "d15-jp-1",
       "day": 15,
-      "theme": "Make room for a flexible day",
+      "theme": "Gwangalli beach",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1540,24 +1738,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-17T23:00:00.000Z",
-      "text": "旅程に「何も決めない時間」を少し入れておくのもおすすめ。天気や気分で予定を変えられる日があると、思いがけない場所との出会いも楽しみやすくなります。",
+      "text": "広安里は夜景だけでなく海辺の散歩もおすすめ。天気と帰り道も確認して。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1118-jp-1 (theme: Gwangalli beach)",
+        "original_text": "旅程に「何も決めない時間」を少し入れておくのもおすすめ。天気や気分で予定を変えられる日があると、思いがけない場所との出会いも楽しみやすくなります。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_1"
+      }
     },
     {
       "id": "d15-jp-2",
       "day": 15,
-      "theme": "Make room for a flexible day",
+      "theme": "Gwangalli beach",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1565,24 +1774,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-18T11:00:00.000Z",
-      "text": "予定変更は失敗ではなく、旅の一部。疲れたら休む、気になる店を見つけたら寄る。釜山で過ごす時間を、自分のペースに合わせて楽しんでください。",
+      "text": "広安里では、海辺の散歩、カフェ、夜景のどれを楽しみたいか先に決めると過ごし方が選びやすくなります。時間帯によって街の雰囲気も変わります。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1118-jp-2 (theme: Gwangalli beach)",
+        "original_text": "予定変更は失敗ではなく、旅の一部。疲れたら休む、気になる店を見つけたら寄る。釜山で過ごす時間を、自分のペースに合わせて楽しんでください。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118_2"
+      }
     },
     {
       "id": "d15-us-1",
       "day": 15,
-      "theme": "Make room for a flexible day",
+      "theme": "Gwangalli beach",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1590,24 +1810,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-18T13:00:00.000Z",
-      "text": "Leave one flexible block in your Busan itinerary. It gives you room to follow a recommendation, rest when you need to, or change plans if the weather shifts.",
+      "text": "Gwangalli is worth a beach walk, not only a night-view photo.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1118-us-1 (theme: Gwangalli beach)",
+        "original_text": "Leave one flexible block in your Busan itinerary. It gives you room to follow a recommendation, rest when you need to, or change plans if the weather shifts."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_1"
+      }
     },
     {
       "id": "d15-us-2",
       "day": 15,
-      "theme": "Make room for a flexible day",
+      "theme": "Gwangalli beach",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1615,31 +1846,41 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-18T23:00:00.000Z",
-      "text": "A change of plan can be part of a good trip. Sometimes slowing down, following a local tip, or spending longer somewhere you enjoy makes the day feel more personal.",
+      "text": "For a relaxed Gwangalli visit, decide whether you want a beach walk, a café stop or an evening view. Your preferred time of day changes the feel of the neighborhood.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": "Tak (chat approval 2026-11-05)",
-        "verified_at": "2026-11-05T12:40:00.000Z",
-        "note": "Copy edited to remove subjective superlative; no time-sensitive factual claim."
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-05)",
-        "approved_at": "2026-11-05T12:40:00.000Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "replacement": {
-        "by": "Owner-directed editorial review (ChatGPT)",
-        "at": "2026-11-11T23:40:00+09:00",
-        "reason": "Remove subjective superlative and keep the post evergreen.",
-        "original_text": "A change of plan isn’t a failed itinerary. Sometimes the best travel day is the one where you slow down, follow a local tip, or spend longer somewhere you love."
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1118-us-2 (theme: Gwangalli beach)",
+        "original_text": "A change of plan can be part of a good trip. Sometimes slowing down, following a local tip, or spending longer somewhere you enjoy makes the day feel more personal.",
+        "previous_replacement": {
+          "by": "Owner-directed editorial review (ChatGPT)",
+          "at": "2026-11-11T23:40:00+09:00",
+          "reason": "Remove subjective superlative and keep the post evergreen.",
+          "original_text": "A change of plan isn’t a failed itinerary. Sometimes the best travel day is the one where you slow down, follow a local tip, or spend longer somewhere you love."
+        }
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118_2"
       }
     },
     {
       "id": "d16-jp-1",
       "day": 16,
-      "theme": "Food preferences",
+      "theme": "Haeundae",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1647,28 +1888,39 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-18T23:00:00.000Z",
-      "text": "グルメ計画は、人気店をたくさん並べるより、自分の好みに合う料理を選ぶところから。辛いもの、温かいスープ、海鮮、軽食。食べたいものを軸にエリアを組み立ててみましょう。",
+      "text": "海雲台は海水浴場・市場・周辺散策を自分のペースで。目的をひとつ決めて。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "link_reply": {
-        "url": "https://go2busan.com/ja/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day16",
-        "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day16"
+        "url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_1"
+      },
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1119-jp-1 (theme: Haeundae)",
+        "original_text": "グルメ計画は、人気店をたくさん並べるより、自分の好みに合う料理を選ぶところから。辛いもの、温かいスープ、海鮮、軽食。食べたいものを軸にエリアを組み立ててみましょう。",
+        "original_link_reply": {
+          "url": "https://go2busan.com/ja/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day16",
+          "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day16"
+        }
       }
     },
     {
       "id": "d16-jp-2",
       "day": 16,
-      "theme": "Food preferences",
+      "theme": "Haeundae",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1676,24 +1928,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-19T11:00:00.000Z",
-      "text": "旅先の食事で大事なのは、話題性？ 地元らしさ？ それとも並ばずに入れること？ どれを優先するか決めておくと、お店選びで迷いにくくなります。",
+      "text": "海雲台はビーチだけでなく、周辺にも立ち寄り先があります。まず目的をひとつ決めて、時間と体力に余裕があれば市場や散歩、カフェを追加しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1119-jp-2 (theme: Haeundae)",
+        "original_text": "旅先の食事で大事なのは、話題性？ 地元らしさ？ それとも並ばずに入れること？ どれを優先するか決めておくと、お店選びで迷いにくくなります。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119_2"
+      }
     },
     {
       "id": "d16-us-1",
       "day": 16,
-      "theme": "Food preferences",
+      "theme": "Haeundae",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1701,28 +1964,39 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-19T13:00:00.000Z",
-      "text": "Build a Busan food list around what you actually enjoy: seafood, soups, noodles, snacks, or trying something new. Your itinerary should fit your appetite and comfort level—not just a trending list.",
+      "text": "Enjoy Haeundae beach, market and nearby walks at your own pace.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "link_reply": {
-        "url": "https://go2busan.com/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day16",
-        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day16"
+        "url": "https://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_1"
+      },
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1119-us-1 (theme: Haeundae)",
+        "original_text": "Build a Busan food list around what you actually enjoy: seafood, soups, noodles, snacks, or trying something new. Your itinerary should fit your appetite and comfort level—not just a trending list.",
+        "original_link_reply": {
+          "url": "https://go2busan.com/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day16",
+          "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day16"
+        }
       }
     },
     {
       "id": "d16-us-2",
       "day": 16,
-      "theme": "Food preferences",
+      "theme": "Haeundae",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1730,24 +2004,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-19T23:00:00.000Z",
-      "text": "When choosing a restaurant on a trip, what matters most to you: local character, a dish you’ve wanted to try, short waits, or being near your next stop? There’s no one right way to plan food.",
+      "text": "Haeundae covers more than the beach. Choose one main stop first, then add a nearby market, walk or café only if you have time and energy.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1119-us-2 (theme: Haeundae)",
+        "original_text": "When choosing a restaurant on a trip, what matters most to you: local character, a dish you’ve wanted to try, short waits, or being near your next stop? There’s no one right way to plan food."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119_2"
+      }
     },
     {
       "id": "d17-jp-1",
       "day": 17,
-      "theme": "Avoid overpacking the itinerary",
+      "theme": "Nampo-dong",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1755,24 +2040,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-19T23:00:00.000Z",
-      "text": "地図では近く見えても、坂道や乗り換え、待ち時間があると予定は変わります。釜山の旅程は、移動時間に少し余裕を持たせておくと落ち着いて楽しめます。",
+      "text": "南浦洞は市場、屋台グルメ、ショッピングをまとめて楽しめます。営業時間も確認して。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1120-jp-1 (theme: Nampo-dong)",
+        "original_text": "地図では近く見えても、坂道や乗り換え、待ち時間があると予定は変わります。釜山の旅程は、移動時間に少し余裕を持たせておくと落ち着いて楽しめます。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_1"
+      }
     },
     {
       "id": "d17-jp-2",
       "day": 17,
-      "theme": "Avoid overpacking the itinerary",
+      "theme": "Nampo-dong",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1780,24 +2076,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-20T11:00:00.000Z",
-      "text": "旅の予定を減らすのは、楽しみを減らすことではありません。行きたい場所を厳選すると、ひとつひとつをゆっくり味わえます。予定が多くなったら、優先順位をつけてみてください。",
+      "text": "南浦洞は近くの立ち寄り先をまとめると、徒歩で巡りやすいエリアです。行きたい店や場所の韓国語名を保存しておくと、道を尋ねるときにも便利です。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1120-jp-2 (theme: Nampo-dong)",
+        "original_text": "旅の予定を減らすのは、楽しみを減らすことではありません。行きたい場所を厳選すると、ひとつひとつをゆっくり味わえます。予定が多くなったら、優先順位をつけてみてください。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120_2"
+      }
     },
     {
       "id": "d17-us-1",
       "day": 17,
-      "theme": "Avoid overpacking the itinerary",
+      "theme": "Nampo-dong",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1805,24 +2112,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-20T13:00:00.000Z",
-      "text": "Maps don’t show the whole travel experience: hills, transfers, queues, and time spent deciding where to eat all add up. Build a buffer into your Busan days.",
+      "text": "Nampo combines markets, street food and shopping in one walk.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1120-us-1 (theme: Nampo-dong)",
+        "original_text": "Maps don’t show the whole travel experience: hills, transfers, queues, and time spent deciding where to eat all add up. Build a buffer into your Busan days."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_1"
+      }
     },
     {
       "id": "d17-us-2",
       "day": 17,
-      "theme": "Avoid overpacking the itinerary",
+      "theme": "Nampo-dong",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1830,24 +2148,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-20T23:00:00.000Z",
-      "text": "Removing stops from an itinerary isn’t losing out. It gives you more time to enjoy the places you chose. If your plan feels crowded, rank your must-dos and let the rest be optional.",
+      "text": "Nampo is easy to enjoy on foot when you group nearby stops together. Save the Korean names of places you want to visit so you can show them when asking for directions.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1120-us-2 (theme: Nampo-dong)",
+        "original_text": "Removing stops from an itinerary isn’t losing out. It gives you more time to enjoy the places you chose. If your plan feels crowded, rank your must-dos and let the rest be optional."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120_2"
+      }
     },
     {
       "id": "d18-jp-1",
       "day": 18,
-      "theme": "Neighborhood over checklist",
+      "theme": "Seomyeon",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1855,24 +2184,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-20T23:00:00.000Z",
-      "text": "一つのエリアをじっくり歩くと、観光名所だけでは気づかなかった店や風景に出会えることも。釜山の旅では、点を結ぶより「街の一角を楽しむ」時間も作ってみてください。",
+      "text": "西面はグルメ、買い物、地下鉄移動の拠点に便利。ホテル住所の韓国語表記も保存して。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1121-jp-1 (theme: Seomyeon)",
+        "original_text": "一つのエリアをじっくり歩くと、観光名所だけでは気づかなかった店や風景に出会えることも。釜山の旅では、点を結ぶより「街の一角を楽しむ」時間も作ってみてください。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_1"
+      }
     },
     {
       "id": "d18-jp-2",
       "day": 18,
-      "theme": "Neighborhood over checklist",
+      "theme": "Seomyeon",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1880,24 +2220,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-21T11:00:00.000Z",
-      "text": "旅先で予定外に見つけた場所が、いちばん印象に残ったことはありますか？ 目的地へ向かう途中にも、その街らしい発見が隠れているかもしれません。",
+      "text": "西面はグルメや買い物を楽しむ立ち寄り先にぴったり。特にタクシーで戻る予定なら、宿泊先の韓国語住所をスマホに保存しておきましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1121-jp-2 (theme: Seomyeon)",
+        "original_text": "旅先で予定外に見つけた場所が、いちばん印象に残ったことはありますか？ 目的地へ向かう途中にも、その街らしい発見が隠れているかもしれません。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121_2"
+      }
     },
     {
       "id": "d18-us-1",
       "day": 18,
-      "theme": "Neighborhood over checklist",
+      "theme": "Seomyeon",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1905,24 +2256,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-21T13:00:00.000Z",
-      "text": "Try exploring one Busan neighborhood deeply instead of collecting far-apart pins. You may notice a small shop, a side street, or a view you would have missed while rushing.",
+      "text": "Seomyeon is a practical base for food, shopping and metro connections.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1121-us-1 (theme: Seomyeon)",
+        "original_text": "Try exploring one Busan neighborhood deeply instead of collecting far-apart pins. You may notice a small shop, a side street, or a view you would have missed while rushing."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_1"
+      }
     },
     {
       "id": "d18-us-2",
       "day": 18,
-      "theme": "Neighborhood over checklist",
+      "theme": "Seomyeon",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -1930,31 +2292,41 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-21T23:00:00.000Z",
-      "text": "Have you ever stumbled on a place that stayed with you? The walk between planned stops can be just as memorable as the destination.",
+      "text": "Seomyeon works well as a food-and-shopping stop. Save your accommodation address in Korean before heading out, especially if you plan to return by taxi.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": "Tak (chat approval 2026-11-05)",
-        "verified_at": "2026-11-05T12:40:00.000Z",
-        "note": "Copy edited to remove subjective superlative; no time-sensitive factual claim."
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-05)",
-        "approved_at": "2026-11-05T12:40:00.000Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "replacement": {
-        "by": "Owner-directed editorial review (ChatGPT)",
-        "at": "2026-11-11T23:40:00+09:00",
-        "reason": "Remove subjective superlative and keep the post evergreen.",
-        "original_text": "Have you ever stumbled on a place that became the best part of a trip? The walk between planned stops can be just as memorable as the destination."
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1121-us-2 (theme: Seomyeon)",
+        "original_text": "Have you ever stumbled on a place that stayed with you? The walk between planned stops can be just as memorable as the destination.",
+        "previous_replacement": {
+          "by": "Owner-directed editorial review (ChatGPT)",
+          "at": "2026-11-11T23:40:00+09:00",
+          "reason": "Remove subjective superlative and keep the post evergreen.",
+          "original_text": "Have you ever stumbled on a place that became the best part of a trip? The walk between planned stops can be just as memorable as the destination."
+        }
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121_2"
       }
     },
     {
       "id": "d19-jp-1",
       "day": 19,
-      "theme": "Travel with different people",
+      "theme": "Busan food",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1962,24 +2334,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-21T23:00:00.000Z",
-      "text": "一人旅、友人との旅、家族旅行では、ちょうどいいペースも変わります。全員が楽しめるように、食事や休憩の時間を先に決めておくのも旅をスムーズにするコツです。",
+      "text": "釜山グルメは有名店と街の人に親しまれる店を組み合わせて。営業時間も確認しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1122-jp-1 (theme: Busan food)",
+        "original_text": "一人旅、友人との旅、家族旅行では、ちょうどいいペースも変わります。全員が楽しめるように、食事や休憩の時間を先に決めておくのも旅をスムーズにするコツです。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_1"
+      }
     },
     {
       "id": "d19-jp-2",
       "day": 19,
-      "theme": "Travel with different people",
+      "theme": "Busan food",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -1987,24 +2370,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-22T11:00:00.000Z",
-      "text": "旅の計画を立てるとき、同行者と「絶対にしたいこと」を一つずつ出し合うと、予定を決めやすくなります。全員の希望を少しずつ入れた旅程にしたいですね。",
+      "text": "有名店と街の小さなお店を組み合わせると、食の楽しみが広がります。出発前に店名と住所を韓国語で保存しておくと、地図アプリでも探しやすくなります。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1122-jp-2 (theme: Busan food)",
+        "original_text": "旅の計画を立てるとき、同行者と「絶対にしたいこと」を一つずつ出し合うと、予定を決めやすくなります。全員の希望を少しずつ入れた旅程にしたいですね。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122_2"
+      }
     },
     {
       "id": "d19-us-1",
       "day": 19,
-      "theme": "Travel with different people",
+      "theme": "Busan food",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2012,31 +2406,41 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-22T13:00:00.000Z",
-      "text": "Solo trip, friends, or family? The right Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks.",
+      "text": "Mix famous restaurants with neighborhood favorites for a fuller food trip.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": "Tak (chat approval 2026-11-05)",
-        "verified_at": "2026-11-05T12:40:00.000Z",
-        "note": "Copy edited to remove subjective superlative; no time-sensitive factual claim."
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-05)",
-        "approved_at": "2026-11-05T12:40:00.000Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "replacement": {
-        "by": "Owner-directed editorial review (ChatGPT)",
-        "at": "2026-11-11T23:40:00+09:00",
-        "reason": "Remove subjective superlative and keep the post evergreen.",
-        "original_text": "Solo trip, friends, or family? The best Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks."
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1122-us-1 (theme: Busan food)",
+        "original_text": "Solo trip, friends, or family? The right Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks.",
+        "previous_replacement": {
+          "by": "Owner-directed editorial review (ChatGPT)",
+          "at": "2026-11-11T23:40:00+09:00",
+          "reason": "Remove subjective superlative and keep the post evergreen.",
+          "original_text": "Solo trip, friends, or family? The best Busan itinerary changes with the people you’re traveling with. Plan around everyone’s must-do, energy level, and need for breaks."
+        }
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_1"
       }
     },
     {
       "id": "d19-us-2",
       "day": 19,
-      "theme": "Travel with different people",
+      "theme": "Busan food",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2044,19 +2448,30 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-22T23:00:00.000Z",
-      "text": "A simple group-trip trick: everyone picks one non-negotiable experience, then you build the route around those. It’s an easy way to make a shared itinerary feel fair.",
+      "text": "Mix well-known restaurants with smaller neighborhood spots. Before setting out, save the Korean restaurant name and address; translated names can vary across apps.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1122-us-2 (theme: Busan food)",
+        "original_text": "A simple group-trip trick: everyone picks one non-negotiable experience, then you build the route around those. It’s an easy way to make a shared itinerary feel fair."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122_2"
+      }
     },
     {
       "id": "d20-jp-1",
@@ -2086,7 +2501,7 @@
     {
       "id": "d20-jp-2",
       "day": 20,
-      "theme": "Travel etiquette",
+      "theme": "Rainy-day plan",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -2094,19 +2509,30 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-23T11:00:00.000Z",
-      "text": "地元のお店を訪れるときは、営業時間や注文方法を確認し、混雑時は周りのお客さんにも配慮を。観光客として楽しむだけでなく、その街の日常を尊重したいですね。",
+      "text": "毎日の予定に、屋内で過ごせる予備プランをひとつ用意しておくと便利です。市場・博物館・百貨店・カフェなど、行き先を変える前に当日の営業情報を確認しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1123-jp-2 (theme: Rainy-day plan)",
+        "original_text": "地元のお店を訪れるときは、営業時間や注文方法を確認し、混雑時は周りのお客さんにも配慮を。観光客として楽しむだけでなく、その街の日常を尊重したいですね。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123_2"
+      }
     },
     {
       "id": "d20-us-1",
@@ -2136,7 +2562,7 @@
     {
       "id": "d20-us-2",
       "day": 20,
-      "theme": "Travel etiquette",
+      "theme": "Rainy-day plan",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2144,24 +2570,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-23T23:00:00.000Z",
-      "text": "When visiting a neighborhood restaurant or market, be patient, follow the venue’s rules, and remember that people are going about their everyday lives. Being a thoughtful visitor is part of traveling well.",
+      "text": "Build one indoor backup into each day: a market, museum, department store or café area. Check the day's opening hours before changing your route.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1123-us-2 (theme: Rainy-day plan)",
+        "original_text": "When visiting a neighborhood restaurant or market, be patient, follow the venue’s rules, and remember that people are going about their everyday lives. Being a thoughtful visitor is part of traveling well."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-rainy-day-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-rainy-day-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123_2"
+      }
     },
     {
       "id": "d21-jp-1",
       "day": 21,
-      "theme": "What makes a trip memorable?",
+      "theme": "What to pack",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -2169,24 +2606,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-23T23:00:00.000Z",
-      "text": "旅の思い出は、有名な場所だけで決まるわけではありません。おいしかった一皿、海辺で過ごした時間、偶然見つけた景色。釜山でどんな思い出を作りたいですか？",
+      "text": "海沿いの釜山は風の感じ方が違うことも。歩きやすい靴を選び、天気も確認。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1124-jp-1 (theme: What to pack)",
+        "original_text": "旅の思い出は、有名な場所だけで決まるわけではありません。おいしかった一皿、海辺で過ごした時間、偶然見つけた景色。釜山でどんな思い出を作りたいですか？"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_1"
+      }
     },
     {
       "id": "d21-jp-2",
       "day": 21,
-      "theme": "What makes a trip memorable?",
+      "theme": "What to pack",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -2194,24 +2642,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-24T11:00:00.000Z",
-      "text": "旅から帰ったあと、写真を見返すのはどんな瞬間ですか？ 景色、食事、一緒にいた人、それとも何気ない街角？ 旅の楽しみ方は人それぞれですね。",
+      "text": "歩きやすい靴、温度調整できる羽織り、必要な物をまとめる小さなバッグがあると便利。出発前に天気予報をもう一度確認しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1124-jp-2 (theme: What to pack)",
+        "original_text": "旅から帰ったあと、写真を見返すのはどんな瞬間ですか？ 景色、食事、一緒にいた人、それとも何気ない街角？ 旅の楽しみ方は人それぞれですね。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124_2"
+      }
     },
     {
       "id": "d21-us-1",
       "day": 21,
-      "theme": "What makes a trip memorable?",
+      "theme": "What to pack",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2219,24 +2678,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-24T13:00:00.000Z",
-      "text": "A memorable trip isn’t always about the biggest attraction. It might be a meal, a quiet sea view, or a conversation that changed your day. What kind of moments do you hope to find in Busan?",
+      "text": "Pack layers for a coastal city; the sea breeze can feel different.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1124-us-1 (theme: What to pack)",
+        "original_text": "A memorable trip isn’t always about the biggest attraction. It might be a meal, a quiet sea view, or a conversation that changed your day. What kind of moments do you hope to find in Busan?"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_1"
+      }
     },
     {
       "id": "d21-us-2",
       "day": 21,
-      "theme": "What makes a trip memorable?",
+      "theme": "What to pack",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2244,19 +2714,30 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-24T23:00:00.000Z",
-      "text": "When you look back at a trip, which photos do you revisit most: landmarks, food, people, or ordinary street scenes? The small moments often tell the story best.",
+      "text": "Pack for the day you will actually have: comfortable walking shoes, a light extra layer and a compact bag for essentials. Check the forecast again before leaving.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1124-us-2 (theme: What to pack)",
+        "original_text": "When you look back at a trip, which photos do you revisit most: landmarks, food, people, or ordinary street scenes? The small moments often tell the story best."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124_2"
+      }
     },
     {
       "id": "d22-jp-1",
@@ -2290,7 +2771,7 @@
     {
       "id": "d22-jp-2",
       "day": 22,
-      "theme": "Seasonal planning",
+      "theme": "Market etiquette",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -2298,19 +2779,30 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-25T11:00:00.000Z",
-      "text": "旅行の日程が決まったら、服装だけでなく日没時間や移動時間も確認しておくと計画しやすくなります。最新の天気予報を見ながら、無理のない予定に調整しましょう。",
+      "text": "市場は観光地であると同時に、地元の人の仕事場でもあります。通路をふさがず、人や店を撮影する前にひと声かけ、注文前に支払い方法も確認しましょう。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1125-jp-2 (theme: Market etiquette)",
+        "original_text": "旅行の日程が決まったら、服装だけでなく日没時間や移動時間も確認しておくと計画しやすくなります。最新の天気予報を見ながら、無理のない予定に調整しましょう。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/food-etiquette/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/food-etiquette/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125_2"
+      }
     },
     {
       "id": "d22-us-1",
@@ -2344,7 +2836,7 @@
     {
       "id": "d22-us-2",
       "day": 22,
-      "theme": "Seasonal planning",
+      "theme": "Market etiquette",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2352,24 +2844,35 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-25T23:00:00.000Z",
-      "text": "Before your trip, check more than the temperature: think about rain, daylight, and how long it takes to move between stops. A few small checks can make the day easier.",
+      "text": "Markets are working places as well as visitor destinations. Keep walkways clear, ask before photographing people or stalls, and check payment options before ordering.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1125-us-2 (theme: Market etiquette)",
+        "original_text": "Before your trip, check more than the temperature: think about rain, daylight, and how long it takes to move between stops. A few small checks can make the day easier."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-local-food-etiquette-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-local-food-etiquette-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125_2"
+      }
     },
     {
       "id": "d23-jp-1",
       "day": 23,
-      "theme": "Build a personal shortlist",
+      "theme": "Coastal photo walk",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -2377,24 +2880,35 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-25T23:00:00.000Z",
-      "text": "SNSで見つけた場所を全部保存すると、旅の直前に迷いがち。気になる場所を「必ず行く」「時間があれば」「次回に分ける」の3つに整理してみてください。",
+      "text": "海辺の写真は定番スポットだけでなく少し歩いて探して。住民や通路にも配慮を。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1126-jp-1 (theme: Coastal photo walk)",
+        "original_text": "SNSで見つけた場所を全部保存すると、旅の直前に迷いがち。気になる場所を「必ず行く」「時間があれば」「次回に分ける」の3つに整理してみてください。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_1",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_1"
+      }
     },
     {
       "id": "d23-jp-2",
       "day": 23,
-      "theme": "Build a personal shortlist",
+      "theme": "Coastal photo walk",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -2402,24 +2916,35 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-26T11:00:00.000Z",
-      "text": "旅の保存リスト、増えすぎていませんか？ まずは地図に置いて、近い場所をまとめるだけでも実際に回れる計画に近づきます。保存した情報を旅程に変えていきましょう。",
+      "text": "撮影スポットの間も、少しゆっくり歩いてみましょう。安全な公共の場所から撮影し、通路をふさがず、住宅の近くでは住民への配慮を忘れずに。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1126-jp-2 (theme: Coastal photo walk)",
+        "original_text": "旅の保存リスト、増えすぎていませんか？ まずは地図に置いて、近い場所をまとめるだけでも実際に回れる計画に近づきます。保存した情報を旅程に変えていきましょう。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_2"
+      }
     },
     {
       "id": "d23-us-1",
       "day": 23,
-      "theme": "Build a personal shortlist",
+      "theme": "Coastal photo walk",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2427,24 +2952,35 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-26T13:00:00.000Z",
-      "text": "Saved too many Busan recommendations? Sort them into three lists: must-do, if-time, and next trip. It turns an endless inspiration feed into a realistic plan.",
+      "text": "Walk beyond the main viewpoint to find your own coastal photo spot.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1126-us-1 (theme: Coastal photo walk)",
+        "original_text": "Saved too many Busan recommendations? Sort them into three lists: must-do, if-time, and next trip. It turns an endless inspiration feed into a realistic plan."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_1",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_1"
+      }
     },
     {
       "id": "d23-us-2",
       "day": 23,
-      "theme": "Build a personal shortlist",
+      "theme": "Coastal photo walk",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2452,19 +2988,30 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-26T23:00:00.000Z",
-      "text": "Turn your saved places into a map. Group nearby stops, then choose what fits each day. Inspiration is great—but a useful shortlist is what gets you out exploring.",
+      "text": "Try slowing down between photo spots. Look for safe public viewpoints, keep paths clear and be mindful of residents when photographing near homes.",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1126-us-2 (theme: Coastal photo walk)",
+        "original_text": "Turn your saved places into a map. Group nearby stops, then choose what fits each day. Inspiration is great—but a useful shortlist is what gets you out exploring."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_2",
+        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_2"
+      }
     },
     {
       "id": "d24-jp-1",
@@ -3622,22 +4169,33 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-13T00:00:00.000Z",
-      "text": "住宿地點會影響整趟釜山旅行。想多待海邊、多逛市區，還是兩者都要？依照你想過的日子來選，並確認住宿到必去景點的實際路線。",
+      "text": "住宿地點先看想去哪些地方，訂房前比較抵達與離開當天的交通。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09",
-        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09"
+        "url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_1"
+      },
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1113-tw-1 (theme: Where to stay)",
+        "original_text": "住宿地點會影響整趟釜山旅行。想多待海邊、多逛市區，還是兩者都要？依照你想過的日子來選，並確認住宿到必去景點的實際路線。",
+        "original_link_reply": {
+          "url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09",
+          "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day09"
+        }
       }
     },
     {
@@ -3651,24 +4209,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-13T12:00:00.000Z",
-      "text": "訂飯店前，先把想去的地方標在地圖上。如果每天一出門都要跨區移動很久，可以考慮調整行程，或比較看看其他區域的住宿。位置選對，能省下不少時間和體力。",
+      "text": "挑住宿時，別只看離景點多近，也想想抵達與離開當天怎麼走、行李怎麼搬。交通順手的住宿點，往往比只靠近單一景點更實用。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1113-tw-2 (theme: Where to stay)",
+        "original_text": "訂飯店前，先把想去的地方標在地圖上。如果每天一出門都要跨區移動很久，可以考慮調整行程，或比較看看其他區域的住宿。位置選對，能省下不少時間和體力。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113_2"
+      }
     },
     {
       "id": "d10-tw-1",
       "day": 10,
-      "theme": "Coastal walks",
+      "theme": "Airport transfer",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3676,24 +4245,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T00:00:00.000Z",
-      "text": "沿著海岸散步，是提醒自己放慢腳步的好方式。選一個目的地就好，沿途留時間看風景、拍照或休息。不需要把每個漂亮的地方都變成限時打卡點。",
+      "text": "金海機場到市區可比較輕軌轉地鐵與計程車，也要考量行李與抵達時間。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1114-tw-1 (theme: Airport transfer)",
+        "original_text": "沿著海岸散步，是提醒自己放慢腳步的好方式。選一個目的地就好，沿途留時間看風景、拍照或休息。不需要把每個漂亮的地方都變成限時打卡點。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_1"
+      }
     },
     {
       "id": "d10-tw-2",
       "day": 10,
-      "theme": "Coastal walks",
+      "theme": "Airport transfer",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3701,24 +4281,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-14T12:00:00.000Z",
-      "text": "你喜歡哪種旅行節奏？照著清單一個一個去，還是不設限地慢慢走？在釜山，不妨在行程裡留一段空白，用自己的速度探索。",
+      "text": "帶大型行李或深夜抵達時，別只比較車資；也要一起考慮轉乘次數、步行距離、等車時間，以及下車後到住宿的路程。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1114-tw-2 (theme: Airport transfer)",
+        "original_text": "你喜歡哪種旅行節奏？照著清單一個一個去，還是不設限地慢慢走？在釜山，不妨在行程裡留一段空白，用自己的速度探索。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114_2"
+      }
     },
     {
       "id": "d11-tw-1",
       "day": 11,
-      "theme": "Café breaks",
+      "theme": "Transit card",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3726,24 +4317,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T00:00:00.000Z",
-      "text": "咖啡廳也可以是行程的一部分，而不是繞路。在兩個區域之間停下來喝杯咖啡、休息一下，比把每一分鐘都排滿更舒服。",
+      "text": "交通卡讓地鐵與公車付款更方便，出發前確認最新票價與轉乘規則。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1115-tw-1 (theme: Transit card)",
+        "original_text": "咖啡廳也可以是行程的一部分，而不是繞路。在兩個區域之間停下來喝杯咖啡、休息一下，比把每一分鐘都排滿更舒服。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_1"
+      }
     },
     {
       "id": "d11-tw-2",
       "day": 11,
-      "theme": "Café breaks",
+      "theme": "Transit card",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3751,19 +4353,30 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-15T12:00:00.000Z",
-      "text": "你的旅行咖啡廳類型是哪一種？海景、好喝的咖啡、甜點，還是只要離下一站近、能坐下來休息就好？規劃旅行時，什麼樣的咖啡廳會讓你想收藏？",
+      "text": "交通卡放在容易拿取的地方，出發前再確認最新票價與轉乘規定。多人同行時，也可以先約好每次下車後的集合位置。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1115-tw-2 (theme: Transit card)",
+        "original_text": "你的旅行咖啡廳類型是哪一種？海景、好喝的咖啡、甜點，還是只要離下一站近、能坐下來休息就好？規劃旅行時，什麼樣的咖啡廳會讓你想收藏？"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/transit-card/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115_2"
+      }
     },
     {
       "id": "d12-tw-1",
@@ -3793,7 +4406,7 @@
     {
       "id": "d12-tw-2",
       "day": 12,
-      "theme": "Photo spots without rushing",
+      "theme": "Three-day itinerary",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3801,24 +4414,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-16T12:00:00.000Z",
-      "text": "旅行照片不一定都是知名景點。一頓飯、一塊路牌、海面上的光線，這些小細節最能讓人想起那趟旅行。你出國時最常拍的是什麼？",
+      "text": "三天行程可以安排不同節奏：一天看海、一天逛市場與街區，另一天保留彈性，走訪旅途中臨時發現的地方。景點之間別排得太緊。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1116-tw-2 (theme: Three-day itinerary)",
+        "original_text": "旅行照片不一定都是知名景點。一頓飯、一塊路牌、海面上的光線，這些小細節最能讓人想起那趟旅行。你出國時最常拍的是什麼？"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116_2"
+      }
     },
     {
       "id": "d13-tw-1",
       "day": 13,
-      "theme": "Markets and everyday life",
+      "theme": "Jagalchi seafood market",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3826,24 +4450,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-17T00:00:00.000Z",
-      "text": "市場不只是吃東西和購物的地方，也是看見當地日常生活的窗口。在人多的走道上多留意身邊的人，想近拍攤商前先詢問，給自己一點時間慢慢觀察。",
+      "text": "在海鮮市場先確認品項、重量與總價，也要問清楚料理費或桌席費是否另計。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1117-tw-1 (theme: Jagalchi seafood market)",
+        "original_text": "市場不只是吃東西和購物的地方，也是看見當地日常生活的窗口。在人多的走道上多留意身邊的人，想近拍攤商前先詢問，給自己一點時間慢慢觀察。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_1"
+      }
     },
     {
       "id": "d13-tw-2",
       "day": 13,
-      "theme": "Markets and everyday life",
+      "theme": "Jagalchi seafood market",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3851,24 +4486,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-17T12:00:00.000Z",
-      "text": "逛市場時，你會先注意到食材、路邊小吃、店家陳列，還是整個街區的節奏？這些小觀察，常常會變成最難忘的旅行故事。",
+      "text": "在海鮮市場點餐前，先確認品項、重量與總價，也問清楚料理費、座位費是否另計。先把價格確認好，吃得更安心。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1117-tw-2 (theme: Jagalchi seafood market)",
+        "original_text": "逛市場時，你會先注意到食材、路邊小吃、店家陳列，還是整個街區的節奏？這些小觀察，常常會變成最難忘的旅行故事。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117_2"
+      }
     },
     {
       "id": "d14-tw-1",
       "day": 14,
-      "theme": "Midpoint check-in",
+      "theme": "Gwangalli beach",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3876,24 +4522,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-18T00:00:00.000Z",
-      "text": "釜山行程規劃進度確認：日期和住宿區域都決定了嗎？還是還在收集靈感？先抓出三個重點，再慢慢往外安排。",
+      "text": "廣安里不只有夜景，也很適合海邊散步；留意天氣並先想好回程方式。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1118-tw-1 (theme: Gwangalli beach)",
+        "original_text": "釜山行程規劃進度確認：日期和住宿區域都決定了嗎？還是還在收集靈感？先抓出三個重點，再慢慢往外安排。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_1"
+      }
     },
     {
       "id": "d14-tw-2",
       "day": 14,
-      "theme": "Midpoint check-in",
+      "theme": "Gwangalli beach",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3901,24 +4558,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-18T12:00:00.000Z",
-      "text": "接下來你最想看哪一類釜山資訊？在地美食、交通、住宿區域、海岸散步，還是雨天備案？留言告訴我們，之後的指南會更貼近你的需要。",
+      "text": "去廣安里前，可以先想好這趟想散步看海、找咖啡廳，還是欣賞夜景。不同時段的街區氛圍也不太一樣。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1118-tw-2 (theme: Gwangalli beach)",
+        "original_text": "接下來你最想看哪一類釜山資訊？在地美食、交通、住宿區域、海岸散步，還是雨天備案？留言告訴我們，之後的指南會更貼近你的需要。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118_2"
+      }
     },
     {
       "id": "d15-tw-1",
       "day": 15,
-      "theme": "Make room for a flexible day",
+      "theme": "Haeundae",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3926,24 +4594,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-19T00:00:00.000Z",
-      "text": "在釜山行程裡留一段彈性時間吧。可以去朋友推薦的地方、累了就休息，天氣變了也能臨時換計畫。",
+      "text": "海雲台可以慢慢玩海灘、市場與周邊散步，先選一個主要活動再加附近景點。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1119-tw-1 (theme: Haeundae)",
+        "original_text": "在釜山行程裡留一段彈性時間吧。可以去朋友推薦的地方、累了就休息，天氣變了也能臨時換計畫。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_1"
+      }
     },
     {
       "id": "d15-tw-2",
       "day": 15,
-      "theme": "Make room for a flexible day",
+      "theme": "Haeundae",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3951,24 +4630,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-19T12:00:00.000Z",
-      "text": "行程改變不代表失敗。有時候讓人最難忘的一天，就是放慢腳步、聽從當地人的建議，或在喜歡的地方多待一會兒的那一天。",
+      "text": "海雲台不只有海灘。先選一個主要目的地，有時間和體力再加上市場、散步或咖啡廳，行程會更輕鬆。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1119-tw-2 (theme: Haeundae)",
+        "original_text": "行程改變不代表失敗。有時候讓人最難忘的一天，就是放慢腳步、聽從當地人的建議，或在喜歡的地方多待一會兒的那一天。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119_2"
+      }
     },
     {
       "id": "d16-tw-1",
       "day": 16,
-      "theme": "Food preferences",
+      "theme": "Nampo-dong",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -3976,28 +4666,39 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-20T00:00:00.000Z",
-      "text": "排釜山美食清單時，從自己真正喜歡的開始：海鮮、湯品、麵食、小吃，或是想嘗鮮的料理。行程應該配合你的胃口，而不是只跟著熱門清單走。",
+      "text": "南浦洞適合一次安排市場、小吃與逛街，先確認各店營業時間與公休日。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day16",
-        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day16"
+        "url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_1"
+      },
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1120-tw-1 (theme: Nampo-dong)",
+        "original_text": "排釜山美食清單時，從自己真正喜歡的開始：海鮮、湯品、麵食、小吃，或是想嘗鮮的料理。行程應該配合你的胃口，而不是只跟著熱門清單走。",
+        "original_link_reply": {
+          "url": "https://go2busan.com/zh-tw/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day16",
+          "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/busan-food-stories/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day16"
+        }
       }
     },
     {
       "id": "d16-tw-2",
       "day": 16,
-      "theme": "Food preferences",
+      "theme": "Nampo-dong",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4005,24 +4706,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-20T12:00:00.000Z",
-      "text": "旅行時挑餐廳，你最在意什麼？在地特色、一直想吃的那道菜、不用排太久，還是離下一站近？安排美食沒有標準答案。",
+      "text": "南浦洞適合把附近景點排在一起步行探索。先把想去的店家或地點韓文名稱存起來，需要問路時就能直接出示。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1120-tw-2 (theme: Nampo-dong)",
+        "original_text": "旅行時挑餐廳，你最在意什麼？在地特色、一直想吃的那道菜、不用排太久，還是離下一站近？安排美食沒有標準答案。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120_2"
+      }
     },
     {
       "id": "d17-tw-1",
       "day": 17,
-      "theme": "Avoid overpacking the itinerary",
+      "theme": "Seomyeon",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4030,24 +4742,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-21T00:00:00.000Z",
-      "text": "地圖看不出旅行的全部：上坡、轉乘、排隊，還有猶豫要吃什麼的時間，加起來其實不少。替釜山的每一天都留一點緩衝吧。",
+      "text": "西面方便安排美食、購物與地鐵移動，也把飯店韓文地址存進手機。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1121-tw-1 (theme: Seomyeon)",
+        "original_text": "地圖看不出旅行的全部：上坡、轉乘、排隊，還有猶豫要吃什麼的時間，加起來其實不少。替釜山的每一天都留一點緩衝吧。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_1"
+      }
     },
     {
       "id": "d17-tw-2",
       "day": 17,
-      "theme": "Avoid overpacking the itinerary",
+      "theme": "Seomyeon",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4055,24 +4778,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-21T12:00:00.000Z",
-      "text": "從行程中刪掉一些點，不代表錯過，而是讓你有更多時間享受選好的地方。如果覺得行程太滿，把必去的排出順序，其他的就當作有空再去。",
+      "text": "西面很適合安排美食與購物。出門前先把住宿地址的韓文版本存在手機裡，尤其打算搭計程車回去時會更方便。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1121-tw-2 (theme: Seomyeon)",
+        "original_text": "從行程中刪掉一些點，不代表錯過，而是讓你有更多時間享受選好的地方。如果覺得行程太滿，把必去的排出順序，其他的就當作有空再去。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121_2"
+      }
     },
     {
       "id": "d18-tw-1",
       "day": 18,
-      "theme": "Neighborhood over checklist",
+      "theme": "Busan food",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4080,24 +4814,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-22T00:00:00.000Z",
-      "text": "試著好好逛一個釜山的街區，而不是收集一堆距離很遠的景點。你可能會發現趕路時錯過的小店、巷弄或風景。",
+      "text": "釜山美食可把人氣名店與在地小店搭配，先確認營業時間並存好韓文店名地址。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1122-tw-1 (theme: Busan food)",
+        "original_text": "試著好好逛一個釜山的街區，而不是收集一堆距離很遠的景點。你可能會發現趕路時錯過的小店、巷弄或風景。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_1"
+      }
     },
     {
       "id": "d18-tw-2",
       "day": 18,
-      "theme": "Neighborhood over checklist",
+      "theme": "Busan food",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4105,19 +4850,30 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-22T12:00:00.000Z",
-      "text": "你有沒有過這種經驗：無意間走進的地方，反而成了整趟旅行最難忘的回憶？景點之間的那段路，有時候和目的地一樣值得。",
+      "text": "釜山美食可以把人氣名店和巷弄小店搭配安排。出發前先存好店家的韓文名稱與地址，不同地圖 App 的翻譯名稱可能不一致。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1122-tw-2 (theme: Busan food)",
+        "original_text": "你有沒有過這種經驗：無意間走進的地方，反而成了整趟旅行最難忘的回憶？景點之間的那段路，有時候和目的地一樣值得。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122_2"
+      }
     },
     {
       "id": "d19-tw-1",
@@ -4147,7 +4903,7 @@
     {
       "id": "d19-tw-2",
       "day": 19,
-      "theme": "Travel with different people",
+      "theme": "Rainy-day plan",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4155,19 +4911,30 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-23T12:00:00.000Z",
-      "text": "多人出遊的小技巧：每個人各選一個「一定要」的體驗，再圍繞這些安排路線。這樣排出來的共同行程，大家都比較能接受。",
+      "text": "每天都可以準備一個室內備案，例如市場、博物館、百貨公司或咖啡街區。臨時更改路線前，記得確認當天營業時間。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1123-tw-2 (theme: Rainy-day plan)",
+        "original_text": "多人出遊的小技巧：每個人各選一個「一定要」的體驗，再圍繞這些安排路線。這樣排出來的共同行程，大家都比較能接受。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123_2"
+      }
     },
     {
       "id": "d20-tw-1",
@@ -4197,7 +4964,7 @@
     {
       "id": "d20-tw-2",
       "day": 20,
-      "theme": "Travel etiquette",
+      "theme": "What to pack",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4205,24 +4972,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-24T12:00:00.000Z",
-      "text": "去當地的小餐廳或市場時，多一點耐心、遵守店家規定，也記得大家正在過自己的日常生活。當一個體貼的旅客，也是好好旅行的一部分。",
+      "text": "準備好適合當天行程的物品：好走的鞋、方便穿脫的外套，以及放隨身用品的小包。出門前再看一次天氣預報。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1124-tw-2 (theme: What to pack)",
+        "original_text": "去當地的小餐廳或市場時，多一點耐心、遵守店家規定，也記得大家正在過自己的日常生活。當一個體貼的旅客，也是好好旅行的一部分。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124_2"
+      }
     },
     {
       "id": "d21-tw-1",
       "day": 21,
-      "theme": "What makes a trip memorable?",
+      "theme": "Market etiquette",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4230,24 +5008,35 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-25T00:00:00.000Z",
-      "text": "難忘的旅行不一定來自最有名的景點。可能是一頓飯、一片安靜的海景，或是一段改變一天心情的對話。你希望在釜山遇見什麼樣的時刻？",
+      "text": "逛市場不必把時間排滿，各店付款方式不同；拍攝攤商或客人前先禮貌詢問。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1125-tw-1 (theme: Market etiquette)",
+        "original_text": "難忘的旅行不一定來自最有名的景點。可能是一頓飯、一片安靜的海景，或是一段改變一天心情的對話。你希望在釜山遇見什麼樣的時刻？"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/food-etiquette/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/food-etiquette/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_1"
+      }
     },
     {
       "id": "d21-tw-2",
       "day": 21,
-      "theme": "What makes a trip memorable?",
+      "theme": "Market etiquette",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4255,24 +5044,35 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-25T12:00:00.000Z",
-      "text": "回想一趟旅行時，你最常翻的是哪些照片？景點、食物、人，還是平凡的街景？那些小小的瞬間，往往最能說出旅行的故事。",
+      "text": "市場也是當地人工作的地方。逛街時別擋住通道，拍攝攤商或客人前先禮貌詢問，點餐前也確認付款方式。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1125-tw-2 (theme: Market etiquette)",
+        "original_text": "回想一趟旅行時，你最常翻的是哪些照片？景點、食物、人，還是平凡的街景？那些小小的瞬間，往往最能說出旅行的故事。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/food-etiquette/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/food-etiquette/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125_2"
+      }
     },
     {
       "id": "d22-tw-1",
       "day": 22,
-      "theme": "Seasonal planning",
+      "theme": "Coastal photo walk",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4280,28 +5080,39 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-26T00:00:00.000Z",
-      "text": "釜山會隨著季節和天氣呈現不同的樣子。出發前記得看天氣預報，行程裡同時準備戶外計畫和室內備案，會比較安心。",
+      "text": "拍海景不一定只在熱門點，沿周邊多走一段也有驚喜；拍照時尊重居民、勿阻擋通道。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
       "status": "approved",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/busan-winter-travel-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day22",
-        "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/busan-winter-travel-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day22"
+        "url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_1",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_1"
+      },
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1126-tw-1 (theme: Coastal photo walk)",
+        "original_text": "釜山會隨著季節和天氣呈現不同的樣子。出發前記得看天氣預報，行程裡同時準備戶外計畫和室內備案，會比較安心。",
+        "original_link_reply": {
+          "url": "https://go2busan.com/zh-tw/guides/busan-winter-travel-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day22",
+          "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/busan-winter-travel-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day22"
+        }
       }
     },
     {
       "id": "d22-tw-2",
       "day": 22,
-      "theme": "Seasonal planning",
+      "theme": "Coastal photo walk",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -4309,19 +5120,30 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-26T12:00:00.000Z",
-      "text": "出發前不只看氣溫，也想想會不會下雨、天黑的時間，還有景點之間的移動時間。幾個小小的確認，就能讓一天輕鬆不少。",
+      "text": "拍照景點之間不妨放慢腳步。選擇安全的公共位置取景，不阻擋通道，在住宅附近拍攝時也要留意居民感受。",
       "verification": {
         "status": "evergreen",
         "issues": [],
         "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
+        "verified_at": "2026-11-12T00:51:31.000Z",
+        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-12)",
+        "approved_at": "2026-11-12T00:51:31.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
+        "at": "2026-11-12T00:51:31.000Z",
+        "reason": "15-day campaign: replaced by draft fresh15-1126-tw-2 (theme: Coastal photo walk)",
+        "original_text": "出發前不只看氣溫，也想想會不會下雨、天黑的時間，還有景點之間的移動時間。幾個小小的確認，就能讓一天輕鬆不少。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_2"
+      }
     },
     {
       "id": "d23-tw-1",
