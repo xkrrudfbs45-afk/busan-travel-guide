@@ -75,7 +75,7 @@ jobs:
           path: growth-report/
           retention-days: 30
       - name: Post report to the growth-log issue
-        if: github.event_name != 'pull_request'
+        if: always() && github.event_name != 'pull_request'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -87,7 +87,8 @@ jobs:
             n=$(gh issue create --title "Growth ops log (4-hourly scan)" --label growth-log \
               --body "Automated log from .github/workflows/growth-ops.yml. Each comment is one scan. Numbers marked 'no access' are not estimated." | grep -o '[0-9]*$')
           fi
-          { cat growth-report/report.md; echo; echo "[Run log](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})"; } > comment.md
+          if [ -s growth-report/report.md ]; then cat growth-report/report.md > comment.md; else echo "## Growth scan FAILED before a report was written — see the run log. The next scheduled run retries automatically." > comment.md; fi
+          echo "" >> comment.md; echo "[Run log](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID})" >> comment.md
           gh issue comment "$n" --body-file comment.md
 
   autopilot:
@@ -113,7 +114,7 @@ jobs:
         run: |
           if [ "$HAS_TOKEN" != "true" ]; then echo "run=false" >> "$GITHUB_OUTPUT"; echo "CLAUDE_CODE_OAUTH_TOKEN not set: skipping" >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
           open=$(gh pr list -R "$GITHUB_REPOSITORY" --label growth-autopilot --state open --json number -q 'length')
-          if [ "$open" -ge 2 ]; then echo "run=false" >> "$GITHUB_OUTPUT"; echo "$open autopilot PRs already open: skipping to avoid a backlog" >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          if [ "$open" -ge 1 ]; then echo "run=false" >> "$GITHUB_OUTPUT"; echo "$open autopilot PR still open: waiting for review before opening another (max 1)" >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
           echo "run=true" >> "$GITHUB_OUTPUT"
       - uses: actions/checkout@v4
         if: steps.gate.outputs.run == 'true'
@@ -138,10 +139,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # Least privilege: only the commands the autopilot needs. Pushing is limited to autopilot/* branches,
           # so main can never be pushed from here; merges/deploys are impossible with these tools.
+          show_full_output: true  # tool calls visible in the run log for review; secrets stay masked
           claude_args: >-
             --max-turns 60
-            --allowedTools "Read,Edit,Write,Glob,Grep,WebFetch,WebSearch,Bash(git status:*),Bash(git diff:*),Bash(git log:*),Bash(git checkout -b autopilot/:*),Bash(git switch -c autopilot/:*),Bash(git add:*),Bash(git commit:*),Bash(git push -u origin autopilot/:*),Bash(gh pr list:*),Bash(gh pr view:*),Bash(gh pr create:*),Bash(gh label create:*),Bash(gh issue list:*),Bash(sh scripts/build-static.sh),Bash(node scripts/:*),Bash(ls:*),Bash(cat:*)"
-            --disallowedTools "Bash(git push origin main:*),Bash(git push -u origin main:*),Bash(gh pr merge:*),Bash(gh api:*),Bash(gh secret:*),Bash(gh variable:*)"
+            --allowedTools "Read,Edit,Write,Glob,Grep,WebFetch,WebSearch,Bash(git:*),Bash(gh pr list:*),Bash(gh pr view:*),Bash(gh pr create:*),Bash(gh label create:*),Bash(gh issue list:*),Bash(sh scripts/:*),Bash(node:*),Bash(npm:*),Bash(ls:*),Bash(cat:*),Bash(head:*),Bash(tail:*),Bash(grep:*),Bash(find:*),Bash(mkdir:*),Bash(cd:*),Bash(echo:*),Bash(python3:*)"
+            --disallowedTools "Bash(git push origin main:*),Bash(git push -u origin main:*),Bash(git push origin HEAD:main:*),Bash(git push --force:*),Bash(git push -f:*),Bash(git checkout main:*),Bash(git merge:*),Bash(git rebase:*),Bash(gh pr merge:*),Bash(gh api:*),Bash(gh secret:*),Bash(gh variable:*),Bash(gh workflow:*),Bash(gh release:*)"
           prompt: |
             You are the Go2Busan growth autopilot. Read AGENTS.md, CONTENT_GUIDELINES.md,
             docs/ai-workspace/WORK-DIVISION-CHATGPT-CLAUDE.md, docs/ai-workspace/STATUS.md and growth-report/report.md.
@@ -157,3 +159,12 @@ jobs:
             audit results. If nothing is worth changing, open no PR and say so.
             Never: merge, push to main, edit .github/workflows, secrets, GA4 consent/measurement settings,
             content/social schedules or LIVE variables, URLs/redirects, Klook aid or existing aff_adid values.
+      - name: Record the autopilot result on the growth-log issue
+        if: always() && steps.gate.outputs.run == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTCOME: ${{ job.status }}
+        run: |
+          n=$(gh issue list -R "$GITHUB_REPOSITORY" --search 'in:title "Growth ops log"' --state open --limit 1 --json number -q '.[0].number')
+          pr=$(gh pr list -R "$GITHUB_REPOSITORY" --label growth-autopilot --state open --json number,url -q '.[0].url // "none"')
+          [ -n "$n" ] && gh issue comment "$n" -R "$GITHUB_REPOSITORY" --body "Autopilot run ${GITHUB_RUN_ID}: **${OUTCOME}** · open autopilot PR: ${pr} · [log](${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}). A failed run changes nothing; the next 4-hourly run retries." || true
