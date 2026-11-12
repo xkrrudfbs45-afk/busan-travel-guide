@@ -22,7 +22,7 @@
 - Instagram state branch: 6 published, 0 missed, 0 failed. Six published links are recorded in `instagram-state/publish-log.json`.
 - Threads state branch: 28 published, 20 missed, 0 failed. The 20 missed IDs are recorded in `threads-state/publish-log.json`; no permalink exists for missed posts.
 - The 20 missed Threads entries were changed to `cancelled` in the legacy schedule. They must not be replayed as a backlog.
-- Seventeen expired Instagram draft schedule entries (two one-off drafts plus 15 expired day-3-to-day-7 slots) were changed to `cancelled`. The six already-published Instagram posts remain unchanged.
+- Two expired one-off Instagram draft schedule entries were changed to `cancelled`. The 15 expired v2 series entries remain `draft` to preserve the publisher's schema contract; their past slots and draft status prevent publication. The six already-published Instagram posts remain unchanged.
 - Publish logs were read only and were not rewritten.
 - Publisher code confirms Threads posts more than 3 hours late are marked missed, never burst-posted; the publish log also prevents re-publishing missed or published IDs.
 - Live account toggles could not be verified from the available repository metadata. No assumption is made about `THREADS_LIVE` or `INSTAGRAM_LIVE`.
