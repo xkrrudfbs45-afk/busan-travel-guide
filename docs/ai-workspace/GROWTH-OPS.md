@@ -18,7 +18,7 @@ Owner brief: grow overseas search traffic (Taiwan first, then US, Japan) and mak
 | GA4 | sessions/users/new users by country, `affiliate_click` / `affiliate_cta_view` by country | **owner**: same secret + variable `GA4_PROPERTY_ID` |
 | GitHub queue | open/stale PRs, open autopilot PRs | built-in token |
 | Log | report posted as a comment on the open issue titled "Growth ops log…" (or labelled `growth-log`) | built-in token |
-| Autopilot (optional) | Claude picks one priority and opens a **draft** PR labelled `growth-autopilot`; max 2 open at a time | **owner**: variable `GROWTH_AUTOPILOT=true` + secret `CLAUDE_CODE_OAUTH_TOKEN` |
+| Autopilot (optional) | Claude picks one priority and opens a **draft** PR labelled `growth-autopilot`; max **1** open at a time (next one only after review) | **owner**: variable `GROWTH_AUTOPILOT=true` + secret `CLAUDE_CODE_OAUTH_TOKEN` |
 
 Data that is not accessible is reported as "no access" and never estimated. Clicks are not bookings: bookings and commission are only in the Klook/Agoda partner dashboards.
 
@@ -37,12 +37,14 @@ Data that is not accessible is reported as "no access" and never estimated. Clic
 
 `*` = not set in the repository on 2026-11-12. Repository secrets present: CLAUDE_CODE_OAUTH_TOKEN, INSTAGRAM_{JP,TW,US}_ACCESS_TOKEN, OPENAI_API_KEY, RENDER_DEPLOY_HOOK_URL, THREADS_{JP,TW,US}_ACCESS_TOKEN.
 
-Cost/rate notes: the scan makes ~200 plain HTTP requests to go2busan.com per run (sitemap URLs) and up to 30 to klook.com (mostly 403 from CI). Autopilot uses the owner's Claude subscription via CLAUDE_CODE_OAUTH_TOKEN; at most 6 runs/day and it stops while 2 autopilot PRs are open.
+Cost/rate notes: the scan makes ~200 plain HTTP requests to go2busan.com per run (sitemap URLs) and up to 30 to klook.com (mostly 403 from CI). Autopilot uses the owner's Claude subscription via CLAUDE_CODE_OAUTH_TOKEN; at most 6 runs/day and it does nothing while 1 autopilot PR is open.
 
 ## Testing status
 
 - `pull_request` self-test run on PR #373: scan job success, live checks included (sitemap 175/175 = 200, redirects 301, unknown URL 404). Schedule and `workflow_dispatch` only become available after the workflow is on `main` (GitHub limitation).
-- Autopilot: not yet run (needs `GROWTH_AUTOPILOT=true`).
+- `GROWTH_AUTOPILOT=true` set 2026-11-12. Run 43158856803: 4 permission denials (no tool allowlist). Run 43159967531 after #377: 22 turns, 12 denials, no PR. #378 widens the allowlist with main/merge/API still blocked and shows tool calls in the log.
+- Failure handling: the report is posted even when a step fails; the autopilot posts its outcome (success/failure + open PR) to the log issue; nothing is retried in the same run, the next 4-hourly run retries.
+- Owner steps (beginner guide): `docs/ai-workspace/OWNER-SETUP.md`.
 
 ## Owner actions to unlock data (not done by Claude)
 
