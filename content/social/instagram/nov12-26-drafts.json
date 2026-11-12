@@ -2480,5 +2480,16 @@
         "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
       }
     }
-  ]
+  ],
+  "destination_audit": {
+    "checked_against": "main repository tree",
+    "localized_routes_found": 21,
+    "localized_routes_expected": 21,
+    "markets": [
+      "en",
+      "ja",
+      "zh-TW"
+    ],
+    "note": "Repository route existence verified; live HTTP response, canonical/hreflang and in-app bio link still require runtime verification."
+  }
 }
