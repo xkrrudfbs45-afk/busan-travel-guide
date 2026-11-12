@@ -30,6 +30,18 @@
       "button": "在 Klook 查看遊艇行程 ↗"
     },
     {
+      "path": "zh-tw/guides/nampo-neighborhood-guide/index.html",
+      "en_counterpart": "guides/nampo-neighborhood-guide/index.html",
+      "before": "<section class=\"shell guide-faq\"",
+      "id": "cta-hub-cablecar",
+      "kicker": "松島・纜車",
+      "title": "南浦洞行程想加上松島嗎？",
+      "body": "南浦洞西側的松島海水浴場除了海岸步道，還有海上纜車。請依出發日期比較票種、車廂類型與取消條款再預訂。",
+      "aff_adid": "1539682",
+      "dest": "https://www.klook.com/zh-TW/activity/29068-busan-air-cruise-cable-car-ticket/",
+      "button": "在 Klook 比較松島纜車票券 ↗"
+    },
+    {
       "path": "zh-tw/guides/seomyeon-neighborhood-guide/index.html",
       "en_counterpart": "guides/seomyeon-neighborhood-guide/index.html",
       "before": "<section class=\"shell guide-faq\"",
