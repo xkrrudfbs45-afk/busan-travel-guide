@@ -76,6 +76,18 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
       "button": "在 Klook 查看釜山通行證 ↗"
+    },
+    {
+      "path": "zh-tw/guides/transit-card/index.html",
+      "en_counterpart": "guides/busan-first-time-guide/index.html",
+      "before": "<h2>常見錯誤</h2>",
+      "id": "cta-transit-pass",
+      "kicker": "交通卡・通票比較",
+      "title": "想比較釜山通行證與單買交通卡嗎？",
+      "body": "釜山通行證（Visit Busan Pass）主要是景點通票；實體卡可另外儲值當交通卡使用，手機版沒有交通卡功能。是否划算取決於行程，請先列出確定要去的景點，再對照適用設施、有效期限與使用規定。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
+      "button": "在 Klook 查看釜山通行證 ↗"
     }
   ]
 }
