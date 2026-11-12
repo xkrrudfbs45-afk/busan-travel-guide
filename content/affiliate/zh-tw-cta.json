@@ -1,0 +1,66 @@
+{
+  "_note": "Build-time Klook CTAs for zh-TW guides. Injected into public/ by scripts/inject-affiliate-cta.mjs so ChatGPT-owned page HTML is never edited. Destinations and aff_adid values mirror the English counterpart pages. `before` must match the source page exactly once; CI runs the script with --check.",
+  "aid": "141680",
+  "pages": [
+    {
+      "path": "zh-tw/guides/haeundae-neighborhood-guide/index.html",
+      "en_counterpart": "guides/haeundae-neighborhood-guide/index.html",
+      "before": "<section class=\"shell guide-faq\"",
+      "id": "cta-hub-blueline",
+      "kicker": "海雲台・票券",
+      "title": "打算搭海雲台藍線公園（Blueline Park）嗎？",
+      "body": "天空膠囊列車每班座位有限，熱門時段可能很快額滿；海岸列車是另一項服務，票券分開販售。請依出發日期比較票種、價格與取消條款。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/133293-haeundae-blueline-park-ticket-in-busan/",
+      "button": "在 Klook 查看藍線公園票券 ↗"
+    },
+    {
+      "path": "zh-tw/guides/gwangalli-neighborhood-guide/index.html",
+      "en_counterpart": "guides/gwangalli-neighborhood-guide/index.html",
+      "before": "<section class=\"shell guide-faq\"",
+      "id": "cta-hub-yacht",
+      "kicker": "廣安里・體驗",
+      "title": "想從海上看廣安大橋嗎？",
+      "body": "Klook 有販售海雲台日落與廣安大橋一帶的遊艇行程。請比較出發時間、集合地點、價格與取消條款；天候不佳時行程可能取消。",
+      "aff_adid": "1539682",
+      "dest": "https://www.klook.com/zh-TW/activity/223315-busan-yacht-tour-haeundae-sunset-gwangan-bridge-catamaran-cruise/",
+      "button": "在 Klook 查看遊艇行程 ↗"
+    },
+    {
+      "path": "zh-tw/guides/seomyeon-neighborhood-guide/index.html",
+      "en_counterpart": "guides/seomyeon-neighborhood-guide/index.html",
+      "before": "<section class=\"shell guide-faq\"",
+      "id": "cta-hub-pass",
+      "kicker": "景點通票・出發前",
+      "title": "打算一次去好幾個景點嗎？",
+      "body": "釜山通行證（Visit Busan Pass）是可用於多個釜山景點的通票。合不合算取決於你實際會去哪些地方，購買前請核對適用設施、有效期限與使用規定。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
+      "button": "在 Klook 查看釜山通行證 ↗"
+    },
+    {
+      "path": "zh-tw/guides/things-to-do-in-busan/index.html",
+      "en_counterpart": "guides/things-to-do-in-busan/index.html",
+      "before": "<section class=\"article-section\" aria-labelledby=\"faq-title\">",
+      "id": "cta-things-pass",
+      "kicker": "景點通票・出發前",
+      "title": "打算一次去好幾個景點嗎？",
+      "body": "釜山通行證（Visit Busan Pass）是可用於多個釜山景點的通票。合不合算取決於你實際會去哪些地方，購買前請核對適用設施、有效期限與使用規定。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
+      "button": "在 Klook 查看釜山通行證 ↗"
+    },
+    {
+      "path": "zh-tw/guides/three-days/index.html",
+      "en_counterpart": "guides/busan-three-days/index.html",
+      "before": "<h2>延伸閱讀",
+      "id": "cta-itinerary-pass",
+      "kicker": "景點通票・行程規劃",
+      "title": "三天內要跑好幾個付費景點嗎？",
+      "body": "釜山通行證（Visit Busan Pass）是可用於多個釜山景點的通票。先排好每天的區域，再對照通票的適用設施、有效期限與使用規定，判斷是否比單買門票划算。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
+      "button": "在 Klook 查看釜山通行證 ↗"
+    }
+  ]
+}

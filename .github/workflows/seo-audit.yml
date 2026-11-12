@@ -41,3 +41,4 @@ jobs:
           node scripts/social-content-audit.mjs
           node scripts/social-content-audit.mjs --self-test
           node scripts/language-switch-audit.mjs
+          node scripts/inject-affiliate-cta.mjs --check

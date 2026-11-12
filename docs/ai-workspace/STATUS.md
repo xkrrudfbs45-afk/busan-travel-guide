@@ -31,6 +31,7 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 
 ## Open PRs from Claude (not merged)
 
+- **zh-TW Klook CTAs (build-time, 2026-11-12)** — `content/affiliate/zh-tw-cta.json` + `scripts/inject-affiliate-cta.mjs` add 5 CTAs (Haeundae/Gwangalli/Seomyeon hubs, things-to-do, three-days) to the built site only; page HTML untouched. Destinations/aff_adid mirror the EN pages; zh-TW URLs checked 200 on klook.com. CI runs `--check`. Not merged.
 - **JA/TW Nampo-dong and Gwangalli hubs** (this PR) — completes the four hubs in all three languages; audits pass; 360/390/1280 checked.
 
 ## Waiting on the owner
