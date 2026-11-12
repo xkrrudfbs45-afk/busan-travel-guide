@@ -17,47 +17,47 @@
         "set": "ig-fresh15-1",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: high-speed rail ticket beside Busan Station arrival sign and a simple onward city-transit route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Editorial illustration of modern Korean high-speed train moving toward Busan, coastal blue palette, vertical 4:5, no logos or readable text.",
+          "Editorial illustration showing one integrated high-speed rail line with former SRT route merging into KTX system, clean transit diagram metaphor, no text, no logos.",
+          "Editorial illustration of a smartphone booking interface beside a Korail-style generic train ticket, no legible text, no logos or trademarks.",
+          "Editorial illustration of two distinct Korean rail station entrances represented by separate map pins, traveler checking ticket, no readable text.",
+          "Editorial illustration of traveler with suitcase checking train ticket and onward Busan city transit route, no readable text or logos."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
       "cards": [
         {
-          "cat": "BUSAN TRAVEL GUIDE",
-          "title": "First Busan route",
-          "body": "Choose one anchor area for each day."
+          "cat": "KTX RAIL UPDATE",
+          "title": "KTX is the booking system",
+          "body": "Korea’s high-speed rail services are now integrated."
         },
         {
-          "cat": "ROUTE IDEA",
-          "title": "Group nearby stops",
-          "body": "Reduce backtracking by grouping places on the same side of the city."
+          "cat": "FORMER SRT ROUTES",
+          "title": "Included in KTX",
+          "body": "You no longer book these as a separate SRT service."
         },
         {
-          "cat": "LOCAL DETAIL",
-          "title": "Allow time for hills",
-          "body": "Busan has hills and stairs; allow extra walking time."
+          "cat": "WHERE TO BOOK",
+          "title": "Use Korail or Korail+",
+          "body": "Search by your travel date and departure station."
         },
         {
-          "cat": "PRACTICAL CHECK",
-          "title": "Former SRT routes are now KTX",
-          "body": "Book high-speed services through Korail+ or Korail’s official website."
+          "cat": "CHECK YOUR TICKET",
+          "title": "Confirm the departure station",
+          "body": "Seoul Station and Suseo are different locations."
         },
         {
-          "cat": "SAVE FOR LATER",
-          "title": "Check before departure",
-          "body": "Recheck opening hours and transport on your travel date.",
+          "cat": "BEFORE YOU GO",
+          "title": "Save your station and route",
+          "body": "Plan the onward trip from your confirmed arrival station.",
           "cta": "Save · Full guide in profile"
         }
       ],
-      "caption": "Choose one anchor area for each day. Reduce backtracking by grouping places on the same side of the city. Busan has hills and stairs; allow extra walking time.\n\nSince September 1, 2026, former SRT routes have been integrated into KTX operations. Book through Korail+ or Korail’s official website, then check your confirmed arrival station and plan the trip to your hotel.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanTips #Busan #BusanTravel #KoreaTravel #Go2Busan",
+      "caption": "Taking high-speed rail to Busan? Here is the important update. 🚄\n\nSince September 1, 2026, former SRT routes have been integrated into KTX operations. Book through Korail’s official website or Korail+, then check the exact departure and arrival stations on your ticket. Seoul Station and Suseo are different locations.\n\nPlan your onward trip to your hotel before travel. Full guide: link in bio.\n\nIllustration: AI-generated.\n\n#Busan #BusanTravel #KoreaTravel #KTX #Korail #Go2Busan",
       "guide_url": "https://go2busan.com/guides/ktx-booking-guide/",
       "verification": {
         "status": "needs_check",
-        "note": "Updated to reflect the September 1, 2026 KTX-SRT rail integration: former SRT routes are booked as KTX through Korail+ or Korail's official site. Draft only pending final live-page, factual and image checks."
+        "note": "Focused KTX integration explainer. Former SRT routes are described as integrated into KTX from 2026-09-01. Draft pending official booking-flow fact check and rendered image review."
       },
       "bio_link_url": "https://go2busan.com/guides/ktx-booking-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112"
     },
@@ -73,47 +73,47 @@
         "set": "ig-fresh15-1",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: high-speed rail ticket beside Busan Station arrival sign and a simple onward city-transit route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Editorial illustration of modern Korean high-speed train moving toward Busan, coastal blue palette, vertical 4:5, no logos or readable text.",
+          "Editorial illustration showing one integrated high-speed rail line with former SRT route merging into KTX system, clean transit diagram metaphor, no text, no logos.",
+          "Editorial illustration of a smartphone booking interface beside a Korail-style generic train ticket, no legible text, no logos or trademarks.",
+          "Editorial illustration of two distinct Korean rail station entrances represented by separate map pins, traveler checking ticket, no readable text.",
+          "Editorial illustration of traveler with suitcase checking train ticket and onward Busan city transit route, no readable text or logos."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
       "cards": [
         {
-          "cat": "釜山旅行ガイド",
-          "title": "初めての釜山ルート",
-          "body": "1日ごとに中心エリアを決めましょう。"
+          "cat": "KTX鉄道の最新情報",
+          "title": "高速鉄道はKTXに統合",
+          "body": "韓国の高速鉄道は統合運行されています。"
         },
         {
-          "cat": "エリア別ポイント",
-          "title": "近いスポットをまとめる",
-          "body": "同じエリアの場所を組み合わせ、往復を減らして。"
+          "cat": "旧SRT路線",
+          "title": "KTXに含まれます",
+          "body": "SRTを別の予約サービスとして探す必要はありません。"
         },
         {
-          "cat": "現地の確認",
-          "title": "坂道の時間も見込む",
-          "body": "坂や階段もあるので、徒歩時間に余裕を。"
+          "cat": "予約方法",
+          "title": "Korail・Korail+を利用",
+          "body": "乗車日と出発駅を指定して検索しましょう。"
         },
         {
-          "cat": "旅行前の準備",
-          "title": "旧SRT路線もKTXに統合",
-          "body": "Korail+またはKorail公式サイトから予約できます。"
+          "cat": "乗車券を確認",
+          "title": "出発駅を必ず確認",
+          "body": "ソウル駅と水西駅は別の駅です。"
         },
         {
-          "cat": "保存して活用",
-          "title": "出発前に最新情報を確認",
-          "body": "営業時間と交通情報は訪問日に再確認を。",
+          "cat": "出発前の確認",
+          "title": "駅と移動ルートを保存",
+          "body": "到着駅からホテルまでの移動も計画しましょう。",
           "cta": "保存 · 詳細ガイドはプロフィールへ"
         }
       ],
-      "caption": "1日ごとに中心エリアを決めましょう。 同じエリアの場所を組み合わせ、往復を減らして。 坂や階段もあるので、徒歩時間に余裕を。\n\n2026年9月1日から、旧SRT路線もKTXに統合されました。Korail+またはKorail公式サイトで予約し、確定した到着駅からホテルまでの移動も計画しましょう。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山観光 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
+      "caption": "高速鉄道で釜山へ向かう方へ。🚄\n\n2026年9月1日から、旧SRT路線もKTXに統合されました。Korail公式サイトまたはKorail+で予約し、乗車券に記載された出発駅と到着駅を確認してください。ソウル駅と水西駅は別の駅です。\n\n到着駅からホテルまでの移動も事前に計画しましょう。詳しいガイドはプロフィールのリンクから。\n\nイラスト：AI生成\n\n#釜山旅行 #韓国旅行 #KTX #Korail #釜山観光 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/ktx-booking/",
       "verification": {
         "status": "needs_check",
-        "note": "Updated to reflect the September 1, 2026 KTX-SRT rail integration: former SRT routes are booked as KTX through Korail+ or Korail's official site. Draft only pending final live-page, factual and image checks."
+        "note": "Focused KTX integration explainer. Former SRT routes are described as integrated into KTX from 2026-09-01. Draft pending official booking-flow fact check and rendered image review."
       },
       "bio_link_url": "https://go2busan.com/ja/guides/ktx-booking/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112"
     },
@@ -129,47 +129,47 @@
         "set": "ig-fresh15-1",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: high-speed rail ticket beside Busan Station arrival sign and a simple onward city-transit route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Editorial illustration of modern Korean high-speed train moving toward Busan, coastal blue palette, vertical 4:5, no logos or readable text.",
+          "Editorial illustration showing one integrated high-speed rail line with former SRT route merging into KTX system, clean transit diagram metaphor, no text, no logos.",
+          "Editorial illustration of a smartphone booking interface beside a Korail-style generic train ticket, no legible text, no logos or trademarks.",
+          "Editorial illustration of two distinct Korean rail station entrances represented by separate map pins, traveler checking ticket, no readable text.",
+          "Editorial illustration of traveler with suitcase checking train ticket and onward Busan city transit route, no readable text or logos."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
       "cards": [
         {
-          "cat": "釜山旅遊攻略",
-          "title": "第一次釜山行程",
-          "body": "每天先選一個主要區域。"
+          "cat": "KTX 鐵路最新資訊",
+          "title": "韓國高速鐵路已整合為 KTX",
+          "body": "目前高速鐵路採整合後的 KTX 系統。"
         },
         {
-          "cat": "行程安排",
-          "title": "把鄰近景點排一起",
-          "body": "把同一區域的景點排在一起，減少來回移動。"
+          "cat": "原 SRT 路線",
+          "title": "現在也納入 KTX",
+          "body": "不必再把 SRT 當成獨立訂票服務。"
         },
         {
-          "cat": "在地提醒",
-          "title": "坡道也要預留時間",
-          "body": "釜山有坡道與階梯，步行時間要抓寬鬆。"
+          "cat": "訂票方式",
+          "title": "使用 Korail 或 Korail+",
+          "body": "依搭乘日期與出發車站查詢班次。"
+        },
+        {
+          "cat": "確認車票",
+          "title": "出發車站一定要看清楚",
+          "body": "首爾站與水西站是不同車站。"
         },
         {
           "cat": "出發前確認",
-          "title": "原 SRT 路線也已整合為 KTX",
-          "body": "可透過 Korail+ 或 Korail 官方網站查詢與訂票。"
-        },
-        {
-          "cat": "收藏備用",
-          "title": "出發前再次確認資訊",
-          "body": "營業時間與交通資訊請依出遊日期再次確認。",
+          "title": "先存好車站與交通路線",
+          "body": "也要規劃抵達車站到住宿地點的交通。",
           "cta": "收藏 · 完整攻略請見個人檔案"
         }
       ],
-      "caption": "每天先選一個主要區域。 把同一區域的景點排在一起，減少來回移動。 釜山有坡道與階梯，步行時間要抓寬鬆。\n\n自 2026 年 9 月 1 日起，原 SRT 路線也已整合為 KTX。請透過 Korail+ 或 Korail 官方網站查詢與訂票，再確認抵達車站及前往飯店的交通方式。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山自由行 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
+      "caption": "搭高速鐵路前往釜山嗎？先看這項重要更新。🚄\n\n自 2026 年 9 月 1 日起，原 SRT 路線也已整合為 KTX。請透過 Korail 官方網站或 Korail+ 訂票，並確認車票上的出發與抵達車站。首爾站和水西站是不同車站。\n\n出發前也先規劃抵達車站到住宿地點的交通。完整攻略請點個人檔案連結。\n\n插畫：AI 生成\n\n#釜山自由行 #釜山旅遊 #韓國旅遊 #KTX #Korail #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/ktx-booking/",
       "verification": {
         "status": "needs_check",
-        "note": "Updated to reflect the September 1, 2026 KTX-SRT rail integration: former SRT routes are booked as KTX through Korail+ or Korail's official site. Draft only pending final live-page, factual and image checks."
+        "note": "Focused KTX integration explainer. Former SRT routes are described as integrated into KTX from 2026-09-01. Draft pending official booking-flow fact check and rendered image review."
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112"
     },
