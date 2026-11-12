@@ -3,7 +3,7 @@
 import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { SCHEDULE_FILE, checkPost } from "./lib.mjs";
-import { cardV2Html, layoutProbe, langIssues, SAFE } from "./card-v2.mjs";
+import { cardV2Html, layoutProbe, langIssues, SAFE, BRIGHT_VERSION } from "./card-v2.mjs";
 import { artFiles } from "./art.mjs";
 
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -38,7 +38,7 @@ export async function fetchPhoto(url, fetchImpl = fetch) {
   return `data:image/jpeg;base64,${buf.toString("base64")}`;
 }
 
-export const specHash = (p) => createHash("sha1").update(JSON.stringify(p.theme ? [p.cards, p.photo, p.art, p.design, p.lang, p.theme] : [p.cards, p.photo, p.art, p.design, p.lang])).digest("hex").slice(0, 12);
+export const specHash = (p) => createHash("sha1").update(JSON.stringify(p.theme ? [p.cards, p.photo, p.art, p.design, p.lang, p.theme, BRIGHT_VERSION] : [p.cards, p.photo, p.art, p.design, p.lang])).digest("hex").slice(0, 12);
 
 // Approved posts inside the horizon, plus drafts (so previews exist before approval).
 export function dueForRender(schedule, log, now, horizonH = 36) {
