@@ -87,7 +87,7 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
   const sched = realSchedule;
   const reg = JSON.parse(rf("content/social/instagram/source-register.json", "utf8"));
   const v2 = sched.posts.filter((p) => p.design === "v2");
-  assert.equal(v2.length, 21);
+  assert.equal(v2.length, 66); // 21 launch series + 45 fifteen-day drafts (Nov 12-26)
   for (const p of v2) {
     assert.deepEqual(checkPost(p), [], p.id);
     // Only posts whose topic was fact-checked (verification.verified) may be approved; everything else stays a draft.
