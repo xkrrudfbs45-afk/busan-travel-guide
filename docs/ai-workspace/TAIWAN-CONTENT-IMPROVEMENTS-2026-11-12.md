@@ -6,7 +6,7 @@ Improve the practical usefulness and source quality of Traditional Chinese conte
 ## Official source checked
 - Visit Busan Traditional Chinese — travel preparation / transport information:
   https://visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000
-- The official page states city-bus luggage guidance of under 20 kg per person and under 50 × 40 × 20 cm; larger/bulkier luggage should use subway, airport limousine or taxi.
+- The official page states city-bus luggage guidance of 20 kg or less per person and dimensions no greater than 50 × 40 × 20 cm; larger/bulkier luggage should use subway, airport limousine or taxi.
 - The official page states Busan Metro passes (1-day, 3-day, monthly) do not cover Donghae Line or Busan-Gimhae Light Rail. Metro service is approximately 05:00–23:59, while station-specific first/last train times vary.
 
 ## Site changes
