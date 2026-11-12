@@ -1486,9 +1486,9 @@
         "stylized": true,
         "prompts": [
           "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial travel illustration of Jagalchi Market seafood stalls with a visitor checking a clearly displayed item and weight before ordering, Busan, vertical 4:5, no readable text, no logos.",
+          "Stylized illustrated walking route through Busan old downtown linking Jagalchi Market, BIFF Square, Gwangbok-ro and Yongdusan Park, four distinct landmark vignettes connected in one vertical composition, no text, vertical 4:5.",
+          "Stylized editorial illustration of a traveler checking separate shop and observation tower opening hours on a phone in Nampo-dong, Busan, vertical 4:5, no readable text, no logos.",
           "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
@@ -1501,18 +1501,18 @@
         },
         {
           "cat": "行程安排",
-          "title": "從釜山站搭1號線",
-          "body": "往南幾站就到南浦站、札嘎其站。"
+          "title": "從札嘎其市場開始",
+          "body": "先確認海鮮品項、重量、單價與料理費，再決定在哪裡用餐。"
         },
         {
           "cat": "在地提醒",
-          "title": "邊走邊吃的經典",
-          "body": "札嘎其市場的海鮮，以及BIFF廣場小吃。"
+          "title": "沿著老城區慢慢逛",
+          "body": "札嘎其市場 → BIFF 廣場 → 光復路 → 龍頭山公園。"
         },
         {
           "cat": "出發前確認",
-          "title": "點海鮮之前",
-          "body": "在札嘎其先確認種類、重量、價格與料理費。"
+          "title": "市場與商店營業時間不同",
+          "body": "各店公休日不同；釜山塔也要另確認入場時間。"
         },
         {
           "cat": "收藏備用",
@@ -1521,11 +1521,15 @@
           "cta": "收藏 · 完整攻略請見個人檔案"
         }
       ],
-      "caption": "市場、商店街與港口都集中在附近。 往南幾站就到南浦站、札嘎其站。 札嘎其市場的海鮮，以及BIFF廣場小吃。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#南浦洞 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
+      "caption": "南浦洞半日散步可以這樣走：札嘎其市場 → BIFF 廣場 → 光復路 → 龍頭山公園／釜山塔。札嘎其市場買海鮮前，先確認品項、重量、單價，以及料理費、座位費是否另計。各店營業時間與公休日不同，出發前先確認。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#南浦洞 #札嘎其市場 #BIFF廣場 #釜山自由行 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/",
       "verification": {
         "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked."
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000302011001000&uc_seq=2809"
+        ],
+        "note": "Visit Busan official historic downtown itinerary confirms walkable cluster from Jagalchi through BIFF Square, Gwangbok-ro and Yongdusan Park; source gives Jagalchi hours and closure days. Reconfirm individual shop hours and Busan Tower admission before approval."
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120"
     },
@@ -2498,9 +2502,9 @@
         "stylized": true,
         "prompts": [
           "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: small open-air park train on a winding road. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial illustration of Taejongdae coastal park in winter with crisp sea cliffs and a small visitor path, calm cold-season atmosphere, vertical 4:5, no text, no logos.",
+          "Stylized editorial illustration of the colorful Danubi sightseeing train on a coastal park road in Taejongdae, winter landscape, vertical 4:5, no readable text, no logos.",
+          "Stylized editorial illustration of a traveler checking a weather forecast and Monday closure reminder before visiting a coastal sightseeing train, Taejongdae context, vertical 4:5, no text, no logos.",
           "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
@@ -2513,18 +2517,18 @@
         },
         {
           "cat": "行程安排",
-          "title": "先確認觀光小火車",
-          "body": "營運、票券與等候時間會隨季節和天氣改變。"
+          "title": "冬季園區開放時間",
+          "body": "太宗臺遊園區 11月至2月：05:00–24:00。"
         },
         {
           "cat": "在地提醒",
-          "title": "坡道與步行路段",
-          "body": "不是每個觀景點都無階梯、離站點很近。"
+          "title": "Danubi 列車淡季時間",
+          "body": "09:20–17:30；每週一休息，天候不佳可能停駛。"
         },
         {
           "cat": "出發前確認",
-          "title": "拍照注意禮貌",
-          "body": "選安全的公共觀景點，不要擋住步道。"
+          "title": "別把園區時間當列車時間",
+          "body": "成人循環票官方資訊列為 ₩4,000，出發前再確認。"
         },
         {
           "cat": "收藏備用",
@@ -2533,11 +2537,16 @@
           "cta": "收藏 · 完整攻略請見個人檔案"
         }
       ],
-      "caption": "這是海邊的自然公園，不是從市區順路的小景點。 營運、票券與等候時間會隨季節和天氣改變。 不是每個觀景點都無階梯、離站點很近。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#太宗台 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
+      "caption": "冬天去太宗臺，先分清楚園區與 Danubi 列車的時間。園區冬季（11月至2月）開放 05:00–24:00；列車淡季約 09:20–17:30，每週一休息，遇雨或天候惡化可能停駛。官方旅遊資訊列出的成人循環票價為 ₩4,000，出發前請再次確認當日公告。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#太宗臺 #影島 #釜山冬季旅行 #釜山自由行 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/taejongdae/",
       "verification": {
         "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked."
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://www.visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000601001001000&uc_seq=258",
+          "https://www.bisco.or.kr/taejongdae/"
+        ],
+        "note": "Official Visit Busan page lists park winter hours 05:00–24:00, Danubi Monday closure and off-season hours 09:20–17:30; weather can stop operation. Official page lists adult circular ticket at ₩4,000; reconfirm on visit date."
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126"
     }
