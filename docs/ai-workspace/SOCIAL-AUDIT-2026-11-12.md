@@ -34,8 +34,10 @@
 4. Verify live account variables and account tokens in a controlled dry-run/owner-approved workflow before activation.
 
 ## KTX/SRT integration update
-- English, Japanese and Traditional Chinese KTX guide pages were updated in the companion PR for the September 1, 2026 integration.
-- First-day Nov 12 Instagram and Threads rail copy was corrected to describe former SRT routes as KTX services booked through Korail/Korail+; it no longer describes SRT as a separate current booking channel.
+- English, Japanese and Traditional Chinese KTX guide pages were updated for the September 1, 2026 integration.
+- First-day Nov 12 Instagram and Threads rail copy was corrected to describe former SRT routes as KTX services booked primarily through Korail/Korail+; it no longer describes SRT as a separate current booking channel.
+- The guide wording reflects the SR transition notice: legacy SRT app/site access may be limited to non-member general-ticket purchase for a transition period, rather than claiming every function stopped immediately.
+- Taiwan posts on Gwangalli's Saturday drone show and Korea's 220V/two-round-pin outlets now carry official Visit Busan / VISITKOREA source URLs and explicit recheck requirements.
 - The localized guide pages and booking process still require a production-page check after deployment.
 
 ## Change control
