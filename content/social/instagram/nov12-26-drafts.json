@@ -466,8 +466,8 @@
         "stylized": true,
         "prompts": [
           "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial illustration of a traveler comparing airport limousine bus and subway while holding a carry-on suitcase that fits a clearly marked luggage-size frame, Busan travel context, vertical 4:5, no readable text, no logos.",
+          "Stylized editorial illustration showing a large suitcase beside a city bus with a clear alternative route toward subway, airport limousine and taxi icons, Busan travel context, vertical 4:5, no readable text, no logos.",
           "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
           "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
         ],
@@ -481,13 +481,13 @@
         },
         {
           "cat": "行程安排",
-          "title": "比較軌道交通與巴士",
-          "body": "查詢機場鐵路、地鐵與機場巴士的最新選項。"
+          "title": "大型行李先看公車規定",
+          "body": "市區公車行李原則：每人 20 公斤以下、50×40×20 公分以下。"
         },
         {
           "cat": "在地提醒",
-          "title": "預留轉乘時間",
-          "body": "前往海雲台跨區移動，記得預留轉乘時間。"
+          "title": "超過尺寸改搭其他交通",
+          "body": "大型行李可比較地鐵、機場巴士或計程車，先確認路線與停靠站。"
         },
         {
           "cat": "出發前確認",
@@ -501,11 +501,15 @@
           "cta": "收藏 · 完整攻略請見個人檔案"
         }
       ],
-      "caption": "適合的路線會依飯店確切位置而不同。 查詢機場鐵路、地鐵與機場巴士的最新選項。 前往海雲台跨區移動，記得預留轉乘時間。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#金海機場 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
+      "caption": "從金海機場前往海雲台，先依飯店位置、抵達時間和行李選交通方式。釜山市區公車行李原則為每人 20 公斤以下、50×40×20 公分以下；大型行李建議改搭地鐵、機場巴士或計程車。機場巴士班次與停靠站請以當日公告為準。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#金海機場 #釜山交通 #海雲台 #釜山旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/",
       "verification": {
         "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+        "checked_on": "2026-11-12",
+        "sources": [
+          "https://visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000"
+        ],
+        "note": "Traditional Chinese official Visit Busan travel-preparation page states bus luggage limit of under 20kg and under 50×40×20cm; larger luggage should use subway, airport limousine or taxi. Reconfirm route/stop and service notices before posting."
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114"
     },
