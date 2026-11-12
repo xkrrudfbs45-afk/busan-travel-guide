@@ -156,6 +156,9 @@ jobs:
             Finally write growth-report/autopilot-summary.md with: first line = a short PR title; then the evidence from the
             report, what you changed and why, and anything a reviewer must check. If nothing is worth changing, edit no
             files and write only "NO_CHANGE: <reason>" to that file.
+            For any image change follow docs/IMAGE_QUALITY_STANDARD.md: only photos with status "verified" in
+            assets/data/image-credits.json, real place/dish match, alt + author/license caption; covers go through
+            content/images/cover-photos.json. Never use AI images as photos of real Busan places.
             Never edit: .github/, content/social/, scripts/growth/, secrets, GA4 consent/measurement code
             (assets/js/analytics.js), URLs/redirects, sitemap URLs of existing pages, Klook aid or existing aff_adid values.
       - name: Validate, build and audit Claude's change
@@ -171,7 +174,7 @@ jobs:
           fi
           fails=""
           sh scripts/build-static.sh > /tmp/build.log 2>&1 || fails="build"
-          for a in "public-quality-audit.mjs public" "seo-audit.mjs" "sitemap-hreflang-audit.mjs" "outbound-link-image-audit.mjs" "homepage-food-image-audit.mjs" "image-credit-audit.mjs --strict" "analytics-navigation-audit.mjs" "build-social-calendar.mjs --check" "social-content-audit.mjs" "social-content-audit.mjs --self-test" "language-switch-audit.mjs" "inject-affiliate-cta.mjs --check"; do
+          for a in "public-quality-audit.mjs public" "seo-audit.mjs" "sitemap-hreflang-audit.mjs" "outbound-link-image-audit.mjs" "homepage-food-image-audit.mjs" "image-credit-audit.mjs --strict" "analytics-navigation-audit.mjs" "build-social-calendar.mjs --check" "social-content-audit.mjs" "social-content-audit.mjs --self-test" "language-switch-audit.mjs" "inject-affiliate-cta.mjs --check" "enhance-images.mjs --check"; do
             if node scripts/$a > /tmp/a.log 2>&1; then echo "- ✅ $a" >> /tmp/audits.md; else echo "- ❌ $a: $(tail -2 /tmp/a.log | tr '\n' ' ' | cut -c1-200)" >> /tmp/audits.md; fails="$fails $a"; fi
           done
           node scripts/growth/scan.mjs --public public --out /tmp/after --offline > /dev/null 2>&1 && sed -n '/### Technical SEO/,/### CI audit/p' /tmp/after/report.md | head -12 >> /tmp/audits.md || true

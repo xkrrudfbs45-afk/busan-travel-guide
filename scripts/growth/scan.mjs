@@ -86,7 +86,7 @@ sec("Technical SEO (built site)", () => {
 
 // ---------- 2. CI audits ----------
 sec("CI audit suite", () => {
-  const audits = [["public-quality-audit.mjs", PUB], ["seo-audit.mjs"], ["sitemap-hreflang-audit.mjs"], ["outbound-link-image-audit.mjs"], ["homepage-food-image-audit.mjs"], ["image-credit-audit.mjs", "--strict"], ["analytics-navigation-audit.mjs"], ["build-social-calendar.mjs", "--check"], ["social-content-audit.mjs"], ["language-switch-audit.mjs"], ["inject-affiliate-cta.mjs", "--check"]];
+  const audits = [["public-quality-audit.mjs", PUB], ["seo-audit.mjs"], ["sitemap-hreflang-audit.mjs"], ["outbound-link-image-audit.mjs"], ["homepage-food-image-audit.mjs"], ["image-credit-audit.mjs", "--strict"], ["analytics-navigation-audit.mjs"], ["build-social-calendar.mjs", "--check"], ["social-content-audit.mjs"], ["language-switch-audit.mjs"], ["inject-affiliate-cta.mjs", "--check"], ["enhance-images.mjs", "--check"]];
   const res = [];
   for (const [s, ...a] of audits) {
     if (!existsSync(`scripts/${s}`)) continue;
