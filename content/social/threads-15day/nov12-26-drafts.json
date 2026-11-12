@@ -8,7 +8,7 @@
     {
       "id": "fresh15-1112-us-1",
       "day": 1,
-      "theme": "First-trip planning",
+      "theme": "KTX rail integration",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -16,11 +16,11 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-12T13:00:00.000Z",
-      "text": "Plan Busan by neighborhood, not by checklist.",
+      "text": "Taking high-speed rail to Busan? Since September 1, 2026, former SRT routes have been integrated into KTX operations. Book through Korail or Korail+, and check the exact departure station on your ticket.",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm live localized KTX guide and current Korail booking flow before approval."
         ],
         "flags": [
           "draft only"
@@ -30,14 +30,14 @@
       },
       "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_1",
-        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_1"
+        "url": "https://go2busan.com/guides/ktx-booking-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_1",
+        "text": "Taking high-speed rail to Busan? Since September 1, 2026, former SRT routes have been integrated into KTX operations. Book through Korail or Korail+, and check the exact departure station on your ticket.\nhttps://go2busan.com/guides/ktx-booking-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_1"
       }
     },
     {
       "id": "fresh15-1112-us-2",
       "day": 1,
-      "theme": "First-trip planning",
+      "theme": "KTX rail integration",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -45,11 +45,11 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-12T23:00:00.000Z",
-      "text": "Since September 1, 2026, former SRT routes have been integrated into KTX operations. Book through Korail+ or Korail’s official website, then check your arrival station and plan the final trip to your hotel.",
+      "text": "A useful detail before you book: Seoul Station and Suseo are different stations. Check the departure station shown on your KTX ticket, then plan the route from your arrival station to your Busan hotel.",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Confirm the localized guide reflects the September 1, 2026 KTX-SRT integration and the current Korail+ booking process before approval."
+          "Confirm live localized KTX guide and current Korail booking flow before approval."
         ],
         "flags": [
           "draft only"
@@ -60,13 +60,13 @@
       "status": "draft",
       "link_reply": {
         "url": "https://go2busan.com/guides/ktx-booking-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2",
-        "text": "See our updated KTX rail guide, including former SRT routes 👇\nhttps://go2busan.com/guides/ktx-booking-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2"
+        "text": "Taking high-speed rail to Busan? Since September 1, 2026, former SRT routes have been integrated into KTX operations. Book through Korail or Korail+, and check the exact departure station on your ticket.\nhttps://go2busan.com/guides/ktx-booking-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2"
       }
     },
     {
       "id": "fresh15-1112-jp-1",
       "day": 1,
-      "theme": "First-trip planning",
+      "theme": "KTX rail integration",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -74,11 +74,11 @@
       "local_time": "08:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-11T23:00:00.000Z",
-      "text": "釜山は観光地を詰め込まず、エリアごとに楽しみましょう。",
+      "text": "高速鉄道で釜山へ行くなら、予約前に最新情報を確認。2026年9月1日から旧SRT路線もKTXに統合されました。Korail公式サイトまたはKorail+で予約できます。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm live localized KTX guide and current Korail booking flow before approval."
         ],
         "flags": [
           "draft only"
@@ -88,14 +88,14 @@
       },
       "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_1",
-        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_1"
+        "url": "https://go2busan.com/ja/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_1",
+        "text": "高速鉄道で釜山へ行くなら、予約前に最新情報を確認。2026年9月1日から旧SRT路線もKTXに統合されました。Korail公式サイトまたはKorail+で予約できます。\nhttps://go2busan.com/ja/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_1"
       }
     },
     {
       "id": "fresh15-1112-jp-2",
       "day": 1,
-      "theme": "First-trip planning",
+      "theme": "KTX rail integration",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -103,11 +103,11 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-12T11:00:00.000Z",
-      "text": "2026年9月1日から旧SRT路線もKTXに統合。予約はKorail+またはKorail公式サイトから。到着駅を確認し、ホテルまでの移動も先に計画しましょう。",
+      "text": "予約時は出発駅を必ず確認しましょう。ソウル駅と水西駅は別の駅です。乗車券に記載された駅を確認し、到着後のホテルまでの移動も計画しておくと安心です。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Confirm the localized guide reflects the September 1, 2026 KTX-SRT integration and the current Korail+ booking process before approval."
+          "Confirm live localized KTX guide and current Korail booking flow before approval."
         ],
         "flags": [
           "draft only"
@@ -118,13 +118,13 @@
       "status": "draft",
       "link_reply": {
         "url": "https://go2busan.com/ja/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2",
-        "text": "旧SRT路線も含むKTX鉄道ガイドはこちら👇\nhttps://go2busan.com/ja/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2"
+        "text": "高速鉄道で釜山へ行くなら、予約前に最新情報を確認。2026年9月1日から旧SRT路線もKTXに統合されました。Korail公式サイトまたはKorail+で予約できます。\nhttps://go2busan.com/ja/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2"
       }
     },
     {
       "id": "fresh15-1112-tw-1",
       "day": 1,
-      "theme": "First-trip planning",
+      "theme": "KTX rail integration",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -132,11 +132,11 @@
       "local_time": "08:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T00:00:00.000Z",
-      "text": "釜山自由行別把景點排得太滿，按區域安排更輕鬆。",
+      "text": "搭高速鐵路到釜山前，先確認最新訂票方式。自 2026 年 9 月 1 日起，原 SRT 路線也已整合為 KTX，可透過 Korail 官方網站或 Korail+ 訂票。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm live localized KTX guide and current Korail booking flow before approval."
         ],
         "flags": [
           "draft only"
@@ -146,14 +146,14 @@
       },
       "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_1",
-        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_1"
+        "url": "https://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_1",
+        "text": "搭高速鐵路到釜山前，先確認最新訂票方式。自 2026 年 9 月 1 日起，原 SRT 路線也已整合為 KTX，可透過 Korail 官方網站或 Korail+ 訂票。\nhttps://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_1"
       }
     },
     {
       "id": "fresh15-1112-tw-2",
       "day": 1,
-      "theme": "First-trip planning",
+      "theme": "KTX rail integration",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -161,11 +161,11 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T12:00:00.000Z",
-      "text": "自 2026 年 9 月 1 日起，原 SRT 路線也已整合為 KTX。請透過 Korail+ 或 Korail 官方網站訂票，並先確認抵達車站及前往住宿地點的交通。",
+      "text": "訂票時別只看出發時間，也要確認車站。首爾站與水西站是不同地點，請以車票上的出發站為準，再安排抵達釜山後前往住宿地點的交通。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Confirm the localized guide reflects the September 1, 2026 KTX-SRT integration and the current Korail+ booking process before approval."
+          "Confirm live localized KTX guide and current Korail booking flow before approval."
         ],
         "flags": [
           "draft only"
@@ -176,7 +176,7 @@
       "status": "draft",
       "link_reply": {
         "url": "https://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2",
-        "text": "包含原 SRT 路線的 KTX 鐵路指南請看這裡👇\nhttps://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2"
+        "text": "搭高速鐵路到釜山前，先確認最新訂票方式。自 2026 年 9 月 1 日起，原 SRT 路線也已整合為 KTX，可透過 Korail 官方網站或 Korail+ 訂票。\nhttps://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2"
       }
     },
     {
