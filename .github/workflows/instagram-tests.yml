@@ -4,6 +4,7 @@ on:
   pull_request:
     paths:
       - "scripts/instagram/**"
+      - "scripts/social/**"
       - "content/social/instagram/**"
       - ".github/workflows/instagram-tests.yml"
   push:
@@ -30,4 +31,6 @@ jobs:
         with:
           node-version: "22"
       - name: Run Instagram regression tests
-        run: node --test scripts/instagram/instagram.test.mjs
+        run: |
+          node --test scripts/instagram/instagram.test.mjs
+          node scripts/social/validate-15day-drafts.mjs
