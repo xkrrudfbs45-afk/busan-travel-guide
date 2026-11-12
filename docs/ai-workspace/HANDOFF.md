@@ -2,6 +2,33 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
+## Current handoff — 2026-11-12 (ChatGPT growth and image audit)
+
+### Completed
+- Confirmed GitHub main at `60146784d5563ed4628afcb8c58eb272028ed536`; PR #383 image quality batch 1 merged and its Technical SEO audit / Growth ops checks passed.
+- Re-read connected GSC and GA4. GSC 2026-10-13–11-09: 353 impressions / 2 clicks; Taiwan 43, USA 28, Japan 20 impressions, with zero clicks in each target market. GA4 2026-10-15–11-11: 40 sessions, 8 users, 1 organic session, 5 affiliate_click events from 3 users, 0 transactions/revenue.
+- Completed a 50-page SEO crawl: no missing alt among crawled pages; 127 URLs not crawled. A separate Lighthouse-enabled audit is running; results must be checked before reporting performance.
+- Updated the global growth, SNS, and operations automations with recurring image-quality checks covering source/license, real-place/menu fit, alt, OG/social imagery, mobile crop, responsive delivery, file weight, LCP/CLS, and approval safeguards.
+- Added evidence and rebase/consolidation notes to PR #359, #382, and #320.
+
+### Verification and limitations
+- The current main SHA is verified from GitHub. Production `version.txt` was not readable in this run and Render workspace selection was not available; production deployment SHA remains unverified.
+- GA4 is opt-in and undercounts; recorded countries show Korea only. Do not infer that no overseas users visited.
+- GSC samples are small. Do not overinterpret positions or zero clicks at market level.
+- The crawl checks alt and page-level SEO but not image licensing, visual crop, or full image delivery. Lighthouse results are pending.
+
+### Open conflicts / next actions
+- #320 and #311 overlap on JA/TW PNU food-guide HTML files.
+- #314 and #315 overlap on EN Haeundae food guide.
+- #316 and #321 overlap on 31 files. Consolidate each pair before further edits.
+- Rebase stale work onto current main and rerun build, all repository audits, and 360/390/1280 visual checks.
+- Review PR #382 after current-main rebase; do not merge or deploy without owner approval.
+
+### Approval needed
+- Any PR merge or production deployment.
+- Any change to GA4 consent/measurement configuration.
+- Any external Instagram/Threads publishing or schedule change.
+
 ## Current handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
 
 ### Completed
