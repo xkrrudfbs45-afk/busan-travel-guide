@@ -45,11 +45,11 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-12T23:00:00.000Z",
-      "text": "A simple way to plan: pick the one experience you most want each day, then build the route around it. What is your must-do in Busan?",
+      "text": "Coming from Seoul or another city? Compare KTX and SRT in one rail guide, then check your confirmed arrival station and plan the final trip to your hotel.",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm the localized combined KTX/SRT guide is live and accurately reflects the current booking process before approval."
         ],
         "flags": [
           "draft only"
@@ -59,8 +59,8 @@
       },
       "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2",
-        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/busan-first-time-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2"
+        "url": "https://go2busan.com/guides/ktx-booking-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2",
+        "text": "More details in our KTX + SRT rail guide 👇\nhttps://go2busan.com/guides/ktx-booking-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261112_2"
       }
     },
     {
@@ -103,11 +103,11 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-12T11:00:00.000Z",
-      "text": "旅の計画は、まず「その日に一番したいこと」をひとつ決めるのがおすすめ。そこを中心に周辺を組み立てると、移動に追われにくくなります。釜山で外せないことは？",
+      "text": "ソウルなど他都市から釜山へ来るなら、KTX・SRTをまとめた鉄道ガイドを確認。確定した到着駅と、釜山駅からホテルまでの移動も先に計画しましょう。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm the localized combined KTX/SRT guide is live and accurately reflects the current booking process before approval."
         ],
         "flags": [
           "draft only"
@@ -117,8 +117,8 @@
       },
       "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2",
-        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2"
+        "url": "https://go2busan.com/ja/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2",
+        "text": "KTX・SRTの鉄道ガイドはこちら👇\nhttps://go2busan.com/ja/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261112_2"
       }
     },
     {
@@ -161,11 +161,11 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-12T12:00:00.000Z",
-      "text": "安排釜山行程時，可以先選出每天最想體驗的一件事，再把附近景點排進去。這樣比較不容易整天都在趕路。你最期待哪一站？",
+      "text": "從首爾或其他城市前往釜山，可以參考整合 KTX 與 SRT 的鐵路指南。先確認車票上的抵達車站，再安排從釜山站前往住宿地點的交通。",
       "verification": {
         "status": "needs_check",
         "issues": [
-          "Verify localized guide URL and final copy before approval."
+          "Confirm the localized combined KTX/SRT guide is live and accurately reflects the current booking process before approval."
         ],
         "flags": [
           "draft only"
@@ -175,8 +175,8 @@
       },
       "status": "draft",
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2",
-        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/first-trip/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2"
+        "url": "https://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2",
+        "text": "KTX・SRT 鐵路指南請看這裡👇\nhttps://go2busan.com/zh-tw/guides/ktx-booking/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261112_2"
       }
     },
     {
