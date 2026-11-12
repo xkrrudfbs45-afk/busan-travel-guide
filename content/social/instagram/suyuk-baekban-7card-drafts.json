@@ -1,0 +1,228 @@
+{
+  "campaign": "suyuk-baekban-7-card-carousel",
+  "created_at": "2026-11-12",
+  "status": "draft_only",
+  "notes": [
+    "Seven-slide Instagram carousel localized for English, Japanese and Traditional Chinese.",
+    "Not added to any live schedule. Do not publish until restaurant-specific menu facts and final 1080x1350 artwork are checked.",
+    "The guide_url currently points to the general pork-soup history page; create a dedicated suyuk-baekban guide before using this CTA in a live campaign."
+  ],
+  "posts": [
+    {
+      "id": "ig-suyuk-baekban-en-7card",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "theme": "Busan suyuk baekban: a pork-slice set meal",
+      "art": {
+        "type": "ai",
+        "set": "suyuk-baekban-7-en",
+        "stylized": true,
+        "prompts": [
+          "Editorial food illustration, card 1 of 7: a steaming Korean pork soup and a separate plate of neatly sliced boiled pork on a traditional restaurant table, appetizing realistic food styling, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 2 of 7: close-up of tender boiled pork slices arranged on a white plate, warm natural restaurant light, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 3 of 7: side-by-side visual comparison, one bowl of pork soup with rice and one set meal with sliced boiled pork, clear composition, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 4 of 7: Korean restaurant table with rice, soup, sliced pork and small side dishes; show variation naturally, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 5 of 7: chopsticks lifting a slice of boiled pork beside a small dish of salted shrimp condiment and chive salad, optional condiments clearly secondary, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 6 of 7: traveler pointing to a menu item labelled only by blank menu layout, server nearby, friendly Korean diner atmosphere, vertical 4:5, no readable text, no logos.",
+          "Editorial food illustration, card 7 of 7: inviting Busan neighborhood pork soup restaurant table by a window, empty space for a save-this-guide message, vertical 4:5, no text, no logos."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN FOOD",
+          "title": "Meet suyuk baekban",
+          "body": "A set meal built around suyuk: tender slices of boiled pork, usually served with rice and side dishes."
+        },
+        {
+          "cat": "THE MAIN DISH",
+          "title": "What is suyuk?",
+          "body": "Suyuk means boiled pork. The cut, thickness and serving style vary by restaurant."
+        },
+        {
+          "cat": "ORDERING TIP",
+          "title": "Not the same as gukbap",
+          "body": "Dwaeji-gukbap centers on pork soup. Suyuk baekban puts the sliced pork set at the center."
+        },
+        {
+          "cat": "WHAT'S ON THE TABLE",
+          "title": "Expect some variation",
+          "body": "Rice, soup and banchan are common, but the exact side dishes and portions depend on the restaurant."
+        },
+        {
+          "cat": "HOW TO ENJOY IT",
+          "title": "Season to your taste",
+          "body": "Try the pork first. If provided, add chive salad or a little salted shrimp; neither is compulsory."
+        },
+        {
+          "cat": "USEFUL KOREAN",
+          "title": "Order with confidence",
+          "body": "수육백반 주세요. (Suyuk baekban, please.) Ask whether the soup is included if the menu is unclear."
+        },
+        {
+          "cat": "SAVE FOR YOUR TRIP",
+          "title": "Try a Busan classic",
+          "body": "Check the menu, price and opening hours of your chosen restaurant before you go.",
+          "cta": "Save · Full food guide in profile"
+        }
+      ],
+      "caption": "Want to try more than a bowl of pork soup in Busan? Suyuk baekban is a set meal centered on tender slices of boiled pork. The exact cuts, soup and side dishes vary by restaurant, so check the menu before ordering.\n\nUseful phrase: 수육백반 주세요. (Suyuk baekban, please.)\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanFood #BusanEats #DwaejiGukbap #KoreanFood #BusanTravel #Go2Busan",
+      "guide_url": "https://go2busan.com/guides/busan-dwaeji-gukbap-history/",
+      "bio_link_url": "https://go2busan.com/guides/busan-dwaeji-gukbap-history/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=en",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Distinguishes boiled-pork set meal from pork soup; sides and soup inclusion are restaurant-specific. Verify selected restaurant menu and final image rendering before approval."
+      },
+      "sources": [
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=904&vcontsId=221285",
+        "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002001000&uc_seq=1515"
+      ]
+    },
+    {
+      "id": "ig-suyuk-baekban-ja-7card",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "theme": "釜山のスユクペッパン（ゆで豚定食）",
+      "art": {
+        "type": "ai",
+        "set": "suyuk-baekban-7-ja",
+        "stylized": true,
+        "prompts": [
+          "Editorial food illustration, card 1 of 7: a steaming Korean pork soup and a separate plate of neatly sliced boiled pork on a traditional restaurant table, appetizing realistic food styling, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 2 of 7: close-up of tender boiled pork slices arranged on a white plate, warm natural restaurant light, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 3 of 7: side-by-side visual comparison, one bowl of pork soup with rice and one set meal with sliced boiled pork, clear composition, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 4 of 7: Korean restaurant table with rice, soup, sliced pork and small side dishes; show variation naturally, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 5 of 7: chopsticks lifting a slice of boiled pork beside a small dish of salted shrimp condiment and chive salad, optional condiments clearly secondary, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 6 of 7: traveler pointing to a menu item labelled only by blank menu layout, server nearby, friendly Korean diner atmosphere, vertical 4:5, no readable text, no logos.",
+          "Editorial food illustration, card 7 of 7: inviting Busan neighborhood pork soup restaurant table by a window, empty space for a save-this-guide message, vertical 4:5, no text, no logos."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山グルメ",
+          "title": "スユクペッパンとは？",
+          "body": "ゆで豚（スユク）を主役にした定食。ご飯やおかずと一緒に楽しむ料理です。"
+        },
+        {
+          "cat": "メイン料理",
+          "title": "スユク＝ゆで豚",
+          "body": "豚肉をゆでた料理です。部位や厚さ、盛り付けは店によって異なります。"
+        },
+        {
+          "cat": "注文のポイント",
+          "title": "テジクッパとは別の料理",
+          "body": "テジクッパは豚肉入りスープが主役。スユクペッパンはゆで豚の盛り合わせが中心です。"
+        },
+        {
+          "cat": "食卓の内容",
+          "title": "付け合わせは店ごとに違う",
+          "body": "ご飯やスープ、おかずが付くことが多いものの、内容や量は店によって異なります。"
+        },
+        {
+          "cat": "おすすめの食べ方",
+          "title": "好みの味に調整",
+          "body": "まずは豚肉そのものを味わってみて。ニラ和えやアミの塩辛があれば、少しずつ試してみましょう。"
+        },
+        {
+          "cat": "韓国語フレーズ",
+          "title": "こう注文してみよう",
+          "body": "수육백반 주세요.（スユクペッパンをください。）スープが付くか不明なら注文時に確認を。"
+        },
+        {
+          "cat": "旅の保存メモ",
+          "title": "釜山の定番料理を体験",
+          "body": "訪問前にメニュー、価格、営業時間を確認しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "釜山で豚肉料理を楽しむなら、スユクペッパンもおすすめ。ゆで豚を主役に、ご飯やおかずと味わう定食です。部位やスープ、付け合わせは店ごとに違うので、注文前にメニューを確認しましょう。\n\n使える韓国語：수육백반 주세요.（スユクペッパンをください。）\n\n詳しいガイドはプロフィールのリンクから。\n\nIllustration: AI-generated.\n\n#釜山グルメ #釜山旅行 #韓国グルメ #テジクッパ #釜山ひとり旅 #Go2Busan",
+      "guide_url": "https://go2busan.com/ja/guides/busan-dwaeji-gukbap-history/",
+      "bio_link_url": "https://go2busan.com/ja/guides/busan-dwaeji-gukbap-history/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=ja",
+      "verification": {
+        "status": "needs_check",
+        "note": "Draft only. Suyuk baekban is distinguished from dwaeji-gukbap; side dishes and soup inclusion are restaurant-specific. Verify selected restaurant menu and final image rendering before approval."
+      },
+      "sources": [
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=904&vcontsId=221285",
+        "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002001000&uc_seq=1515"
+      ]
+    },
+    {
+      "id": "ig-suyuk-baekban-zh-tw-7card",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "theme": "釜山水肉白飯套餐：認識韓式白切豬肉",
+      "art": {
+        "type": "ai",
+        "set": "suyuk-baekban-7-zh-tw",
+        "stylized": true,
+        "prompts": [
+          "Editorial food illustration, card 1 of 7: a steaming Korean pork soup and a separate plate of neatly sliced boiled pork on a traditional restaurant table, appetizing realistic food styling, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 2 of 7: close-up of tender boiled pork slices arranged on a white plate, warm natural restaurant light, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 3 of 7: side-by-side visual comparison, one bowl of pork soup with rice and one set meal with sliced boiled pork, clear composition, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 4 of 7: Korean restaurant table with rice, soup, sliced pork and small side dishes; show variation naturally, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 5 of 7: chopsticks lifting a slice of boiled pork beside a small dish of salted shrimp condiment and chive salad, optional condiments clearly secondary, vertical 4:5, no text, no logos.",
+          "Editorial food illustration, card 6 of 7: traveler pointing to a menu item labelled only by blank menu layout, server nearby, friendly Korean diner atmosphere, vertical 4:5, no readable text, no logos.",
+          "Editorial food illustration, card 7 of 7: inviting Busan neighborhood pork soup restaurant table by a window, empty space for a save-this-guide message, vertical 4:5, no text, no logos."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山美食",
+          "title": "什麼是水肉白飯套餐？",
+          "body": "以韓式白切豬肉（수육）為主角，搭配白飯與小菜享用的套餐。"
+        },
+        {
+          "cat": "主角料理",
+          "title": "수육：韓式白切豬肉",
+          "body": "將豬肉水煮後切片。使用部位、厚度與擺盤方式會依店家而不同。"
+        },
+        {
+          "cat": "點餐小提醒",
+          "title": "和豬肉湯飯不一樣",
+          "body": "豬肉湯飯以豬肉湯為主；水肉白飯套餐則以切片白切豬肉為主角。"
+        },
+        {
+          "cat": "餐桌上有什麼？",
+          "title": "配菜依店家而異",
+          "body": "通常會搭配白飯、湯品與小菜，但實際內容和份量請以店家菜單為準。"
+        },
+        {
+          "cat": "推薦吃法",
+          "title": "依喜好調整味道",
+          "body": "先品嚐豬肉原味。若有韭菜拌菜或蝦醬，可以少量搭配，不是每家都相同。"
+        },
+        {
+          "cat": "實用韓語",
+          "title": "這樣點餐就可以",
+          "body": "수육백반 주세요.（請給我水肉白飯套餐。）不確定是否附湯，可以點餐時先詢問。"
+        },
+        {
+          "cat": "旅行收藏",
+          "title": "來釜山試試在地料理",
+          "body": "出發前先確認想去店家的菜單、價格與營業時間。",
+          "cta": "先收藏 · 完整指南看個人檔案連結"
+        }
+      ],
+      "caption": "到釜山吃豬肉料理，除了豬肉湯飯，也可以試試「수육백반（水肉白飯套餐）」。以韓式白切豬肉為主角，搭配白飯與小菜。肉的部位、湯品與配菜會依店家不同，點餐前先確認菜單更安心。\n\n實用韓語：수육백반 주세요.（請給我水肉白飯套餐。）\n\n完整指南請見個人檔案連結。\n\nIllustration: AI-generated.\n\n#釜山美食 #釜山自由行 #韓國美食 #釜山豬肉湯飯 #釜山旅遊 #Go2Busan",
+      "guide_url": "https://go2busan.com/zh-tw/guides/busan-dwaeji-gukbap-history/",
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/busan-dwaeji-gukbap-history/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=zh_tw",
+      "verification": {
+        "status": "needs_check",
+        "note": "僅為草稿。已區分水肉白飯套餐與豬肉湯飯，並註明配菜及湯品依店家而異。正式發布前需核對指定店家菜單並檢查最終圖片。"
+      },
+      "sources": [
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=904&vcontsId=221285",
+        "https://www.visitbusan.net/index.do?menuCd=DOM_000000301002001000&uc_seq=1515"
+      ]
+    }
+  ]
+}
