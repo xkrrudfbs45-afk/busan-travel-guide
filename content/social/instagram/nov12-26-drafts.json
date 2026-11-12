@@ -1,0 +1,2495 @@
+{
+  "campaign": "Go2Busan fresh 15-day Instagram campaign",
+  "start_date": "2026-11-12",
+  "end_date": "2026-11-26",
+  "status": "draft_only",
+  "note": "45 localized five-card carousel drafts now use topic-specific copy and distinct card-by-card art direction for each guide destination. All remain draft / needs_check; prompts are briefs, not rendered image assets.",
+  "posts": [
+    {
+      "id": "ig-fresh15-1112-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-12T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-1",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "First Busan route",
+          "body": "Choose one anchor area for each day."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Group nearby stops",
+          "body": "Reduce backtracking by grouping places on the same side of the city."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Allow time for hills",
+          "body": "Busan has hills and stairs; allow extra walking time."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Save key addresses",
+          "body": "Keep your hotel address and nearest station easy to access."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check before departure",
+          "body": "Recheck opening hours and transport on your travel date.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose one anchor area for each day. Reduce backtracking by grouping places on the same side of the city. Busan has hills and stairs; allow extra walking time.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1112-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-12T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-1",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "初めての釜山ルート",
+          "body": "1日ごとに中心エリアを決めましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "近いスポットをまとめる",
+          "body": "同じエリアの場所を組み合わせ、往復を減らして。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "坂道の時間も見込む",
+          "body": "坂や階段もあるので、徒歩時間に余裕を。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "住所を保存しておく",
+          "body": "ホテルの住所と最寄り駅を保存しておきましょう。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "出発前に最新情報を確認",
+          "body": "営業時間と交通情報は訪問日に再確認を。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "1日ごとに中心エリアを決めましょう。 同じエリアの場所を組み合わせ、往復を減らして。 坂や階段もあるので、徒歩時間に余裕を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1112-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-12T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-1",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "第一次釜山行程",
+          "body": "每天先選一個主要區域。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "把鄰近景點排一起",
+          "body": "把同一區域的景點排在一起，減少來回移動。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "坡道也要預留時間",
+          "body": "釜山有坡道與階梯，步行時間要抓寬鬆。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "先存好重要地址",
+          "body": "先存好飯店地址與最近的車站。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "出發前再次確認資訊",
+          "body": "營業時間與交通資訊請依出遊日期再次確認。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "每天先選一個主要區域。 把同一區域的景點排在一起，減少來回移動。 釜山有坡道與階梯，步行時間要抓寬鬆。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1113-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-13T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-2",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Choose by trip style",
+          "body": "Choose a base near the places you plan to visit most."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Seomyeon for connections",
+          "body": "Compare Seomyeon if subway connections are important."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Haeundae for the coast",
+          "body": "Consider Haeundae when beach time is a priority."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Nampo for old town",
+          "body": "Nampo can suit plans around markets and old downtown."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check the last-mile walk",
+          "body": "Check station access, luggage routes and late-night transport.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose a base near the places you plan to visit most. Compare Seomyeon if subway connections are important. Consider Haeundae when beach time is a priority.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1113-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-13T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-2",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "旅の目的から選ぶ",
+          "body": "よく訪れる場所に合わせて宿泊エリアを選びましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "移動重視なら西面",
+          "body": "地下鉄の乗り換えを重視するなら西面も候補に。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "海辺を楽しむなら海雲台",
+          "body": "海辺で過ごす時間を重視する旅なら海雲台も候補。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "旧市街なら南浦",
+          "body": "市場や旧市街を歩く予定なら南浦周辺も候補。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "駅からの道のりを確認",
+          "body": "駅からの徒歩距離や夜間の帰り道も確認を。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "よく訪れる場所に合わせて宿泊エリアを選びましょう。 地下鉄の乗り換えを重視するなら西面も候補に。 海辺で過ごす時間を重視する旅なら海雲台も候補。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1113-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-13T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-2",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "依旅行目的選住宿",
+          "body": "依照主要行程選擇住宿區域。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "重視交通可考慮西面",
+          "body": "若重視地鐵轉乘，可比較西面一帶。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "想看海可選海雲台",
+          "body": "若想安排海邊行程，可考慮海雲台周邊。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "逛舊市區可考慮南浦",
+          "body": "若想逛市場與舊市區，可比較南浦一帶。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "確認車站到住宿的路",
+          "body": "確認車站步行距離、行李動線與夜間交通。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "依照主要行程選擇住宿區域。 若重視地鐵轉乘，可比較西面一帶。 若想安排海邊行程，可考慮海雲台周邊。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1114-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-14T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-3",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Start with your hotel",
+          "body": "The best route depends on your exact hotel location."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Compare rail and bus",
+          "body": "Check current airport rail, subway and airport-bus options."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Allow transfer time",
+          "body": "Allow time for transfers when heading across the city to Haeundae."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Keep a backup route",
+          "body": "Arrival time, luggage and service changes can affect the trip."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check fares and times",
+          "body": "Verify current fares and first/last services before departure.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "The best route depends on your exact hotel location. Check current airport rail, subway and airport-bus options. Allow time for transfers when heading across the city to Haeundae.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1114-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-14T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-3",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "ホテルの場所から確認",
+          "body": "便利なルートはホテルの場所によって変わります。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "鉄道とバスを比較",
+          "body": "空港鉄道・地下鉄・空港バスの最新情報を確認。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "乗り換え時間を確保",
+          "body": "海雲台へ向かう場合は乗り換え時間も見込んで。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "代替ルートも用意",
+          "body": "到着時刻や荷物、運行変更に備えて別ルートも。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "運賃と時刻を確認",
+          "body": "運賃と始発・終電は出発前に確認しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "便利なルートはホテルの場所によって変わります。 空港鉄道・地下鉄・空港バスの最新情報を確認。 海雲台へ向かう場合は乗り換え時間も見込んで。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/airport-to-haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1114-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-14T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-3",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: airport arrival hall with luggage and map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: rail and airport bus comparison scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: eastbound route line toward Haeundae. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: traveler checking alternate route on phone. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: clock and transit timetable symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "先確認飯店位置",
+          "body": "適合的路線會依飯店確切位置而不同。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "比較軌道交通與巴士",
+          "body": "查詢機場鐵路、地鐵與機場巴士的最新選項。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "預留轉乘時間",
+          "body": "前往海雲台跨區移動，記得預留轉乘時間。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "準備備用路線",
+          "body": "抵達時間、行李與班次異動都可能影響行程。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "確認票價與班次",
+          "body": "出發前再次確認票價與首末班車時間。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "適合的路線會依飯店確切位置而不同。 查詢機場鐵路、地鐵與機場巴士的最新選項。 前往海雲台跨區移動，記得預留轉乘時間。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1115-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-15T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-4",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Make daily rides easier",
+          "body": "A compatible transport card can simplify bus and subway trips."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Find purchase and top-up",
+          "body": "Check current purchase and recharge options before you go."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Follow the reader",
+          "body": "Follow the reader instructions when boarding and exiting."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Check your balance",
+          "body": "Check your balance before a day with several transfers."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Know card conditions",
+          "body": "Coverage, discounts and refunds depend on card type.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "A compatible transport card can simplify bus and subway trips. Check current purchase and recharge options before you go. Follow the reader instructions when boarding and exiting.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-transit-card/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1115-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-15T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-4",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "毎日の移動をスムーズに",
+          "body": "対応する交通カードがあるとバス・地下鉄移動が便利に。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "購入・チャージ場所を確認",
+          "body": "購入場所とチャージ方法を事前に確認。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "読み取り機の案内に従う",
+          "body": "乗降時は読み取り機の案内に従いましょう。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "残高を確認",
+          "body": "乗り換えが多い日は出発前に残高を確認。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "カードの利用条件を確認",
+          "body": "利用範囲・割引・払い戻し条件はカードの種類で異なります。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "対応する交通カードがあるとバス・地下鉄移動が便利に。 購入場所とチャージ方法を事前に確認。 乗降時は読み取り機の案内に従いましょう。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/transit-card/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1115-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-15T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-4",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: generic contactless card beside subway gate. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: card at an unbranded convenience counter. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: hand tapping card on bus reader. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: card beside balance indicator and wallet. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route map with coverage and refund symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "讓日常搭乘更方便",
+          "body": "使用適用的交通卡，可簡化公車與地鐵搭乘。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "查詢購買與加值地點",
+          "body": "出發前先確認購買與加值方式。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "依讀卡機指示感應",
+          "body": "上下車時依讀卡機指示感應。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "確認卡片餘額",
+          "body": "多段轉乘前先確認餘額是否足夠。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "留意卡片適用規則",
+          "body": "適用範圍、優惠與退費規定依卡片種類而異。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "使用適用的交通卡，可簡化公車與地鐵搭乘。 出發前先確認購買與加值方式。 上下車時依讀卡機指示感應。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/transit-card/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1116-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-16T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-5",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Day 1 · Old town",
+          "body": "Group Nampo and nearby market visits together."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Day 2 · Coast",
+          "body": "Choose a coastal area and leave time for walks between stops."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Day 3 · Your interests",
+          "body": "Add a food neighborhood, museum or a slower local day."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Avoid zigzag routes",
+          "body": "Build each day around one area where possible."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Plan real travel time",
+          "body": "Hills, transfers and waiting time add to map distance.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Group Nampo and nearby market visits together. Choose a coastal area and leave time for walks between stops. Add a food neighborhood, museum or a slower local day.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1116-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-16T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-5",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "1日目 · 旧市街",
+          "body": "南浦周辺と市場をまとめて巡りましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "2日目 · 海辺",
+          "body": "海沿いのエリアを選び、散策時間も確保。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "3日目 · 好きな街へ",
+          "body": "グルメエリアや博物館など、興味に合わせて。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "市内を何度も横断しない",
+          "body": "できるだけ同じエリア内で1日の予定を組んで。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "実際の移動時間で計画",
+          "body": "坂道・乗り換え・待ち時間も考慮しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "南浦周辺と市場をまとめて巡りましょう。 海沿いのエリアを選び、散策時間も確保。 グルメエリアや博物館など、興味に合わせて。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1116-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-16T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-5",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "第1天・舊市區",
+          "body": "把南浦與附近市場排在同一天。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "第2天・海岸",
+          "body": "選定海岸區域，預留景點間散步時間。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "第3天・依興趣安排",
+          "body": "加入美食街區、博物館或慢步調行程。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "避免跨區來回",
+          "body": "每天盡量以同一區域為行程核心。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "用實際交通時間規劃",
+          "body": "坡道、轉乘與等車時間都要算進去。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "把南浦與附近市場排在同一天。 選定海岸區域，預留景點間散步時間。 加入美食街區、博物館或慢步調行程。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1117-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-17T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-6",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Browse before ordering",
+          "body": "Compare stalls and menus before choosing where to eat."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Ask how prices work",
+          "body": "Confirm price, portion and any preparation charge before ordering."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Confirm the total",
+          "body": "Make sure you understand the final total before preparation."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Respect busy walkways",
+          "body": "Keep aisles clear and ask before photographing people or stalls."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Save the market checklist",
+          "body": "Read the full guide before your market visit.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Compare stalls and menus before choosing where to eat. Confirm price, portion and any preparation charge before ordering. Make sure you understand the final total before preparation.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1117-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-17T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-6",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "注文前にひと回り",
+          "body": "店やメニューを比べてから選びましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "料金の計算方法を確認",
+          "body": "注文前に価格・量・調理料金を確認。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "合計金額を確認",
+          "body": "調理が始まる前に支払総額を確認しましょう。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "混雑した通路に配慮",
+          "body": "通路をふさがず、撮影前にひと声かけて。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "市場訪問のポイントを保存",
+          "body": "訪問前に詳しいガイドを確認しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "店やメニューを比べてから選びましょう。 注文前に価格・量・調理料金を確認。 調理が始まる前に支払総額を確認しましょう。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1117-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-17T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-6",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "先逛一圈再點餐",
+          "body": "先比較攤位與菜單，再決定在哪裡用餐。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "先問清楚價格算法",
+          "body": "點餐前確認單價、份量與是否另收處理費。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "確認最後總金額",
+          "body": "料理開始前先確認應付總金額。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "留意市場動線",
+          "body": "不要擋住走道，拍攝前先禮貌詢問。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "收藏市場消費提醒",
+          "body": "逛市場前可先閱讀完整指南。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "先比較攤位與菜單，再決定在哪裡用餐。 點餐前確認單價、份量與是否另收處理費。 料理開始前先確認應付總金額。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1118-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-18T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-7",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "First Busan route",
+          "body": "Choose one anchor area for each day."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Group nearby stops",
+          "body": "Reduce backtracking by grouping places on the same side of the city."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Allow time for hills",
+          "body": "Busan has hills and stairs; allow extra walking time."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Save key addresses",
+          "body": "Keep your hotel address and nearest station easy to access."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check before departure",
+          "body": "Recheck opening hours and transport on your travel date.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose one anchor area for each day. Reduce backtracking by grouping places on the same side of the city. Busan has hills and stairs; allow extra walking time.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1118-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-18T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-7",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "初めての釜山ルート",
+          "body": "1日ごとに中心エリアを決めましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "近いスポットをまとめる",
+          "body": "同じエリアの場所を組み合わせ、往復を減らして。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "坂道の時間も見込む",
+          "body": "坂や階段もあるので、徒歩時間に余裕を。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "住所を保存しておく",
+          "body": "ホテルの住所と最寄り駅を保存しておきましょう。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "出発前に最新情報を確認",
+          "body": "営業時間と交通情報は訪問日に再確認を。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "1日ごとに中心エリアを決めましょう。 同じエリアの場所を組み合わせ、往復を減らして。 坂や階段もあるので、徒歩時間に余裕を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1118-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-18T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-7",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "第一次釜山行程",
+          "body": "每天先選一個主要區域。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "把鄰近景點排一起",
+          "body": "把同一區域的景點排在一起，減少來回移動。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "坡道也要預留時間",
+          "body": "釜山有坡道與階梯，步行時間要抓寬鬆。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "先存好重要地址",
+          "body": "先存好飯店地址與最近的車站。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "出發前再次確認資訊",
+          "body": "營業時間與交通資訊請依出遊日期再次確認。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "每天先選一個主要區域。 把同一區域的景點排在一起，減少來回移動。 釜山有坡道與階梯，步行時間要抓寬鬆。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1119-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-19T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-8",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Choose by trip style",
+          "body": "Choose a base near the places you plan to visit most."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Seomyeon for connections",
+          "body": "Compare Seomyeon if subway connections are important."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Haeundae for the coast",
+          "body": "Consider Haeundae when beach time is a priority."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Nampo for old town",
+          "body": "Nampo can suit plans around markets and old downtown."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check the last-mile walk",
+          "body": "Check station access, luggage routes and late-night transport.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose a base near the places you plan to visit most. Compare Seomyeon if subway connections are important. Consider Haeundae when beach time is a priority.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1119-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-19T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-8",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "旅の目的から選ぶ",
+          "body": "よく訪れる場所に合わせて宿泊エリアを選びましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "移動重視なら西面",
+          "body": "地下鉄の乗り換えを重視するなら西面も候補に。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "海辺を楽しむなら海雲台",
+          "body": "海辺で過ごす時間を重視する旅なら海雲台も候補。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "旧市街なら南浦",
+          "body": "市場や旧市街を歩く予定なら南浦周辺も候補。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "駅からの道のりを確認",
+          "body": "駅からの徒歩距離や夜間の帰り道も確認を。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "よく訪れる場所に合わせて宿泊エリアを選びましょう。 地下鉄の乗り換えを重視するなら西面も候補に。 海辺で過ごす時間を重視する旅なら海雲台も候補。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1119-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-19T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-8",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "依旅行目的選住宿",
+          "body": "依照主要行程選擇住宿區域。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "重視交通可考慮西面",
+          "body": "若重視地鐵轉乘，可比較西面一帶。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "想看海可選海雲台",
+          "body": "若想安排海邊行程，可考慮海雲台周邊。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "逛舊市區可考慮南浦",
+          "body": "若想逛市場與舊市區，可比較南浦一帶。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "確認車站到住宿的路",
+          "body": "確認車站步行距離、行李動線與夜間交通。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "依照主要行程選擇住宿區域。 若重視地鐵轉乘，可比較西面一帶。 若想安排海邊行程，可考慮海雲台周邊。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1120-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-20T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-9",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Pick the area first",
+          "body": "Choose where you will explore, then find food nearby."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Nampo · Market bites",
+          "body": "Pair a market walk with a nearby meal."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Seomyeon · Dining",
+          "body": "Compare menus and choose what suits your appetite."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Check opening hours",
+          "body": "Small restaurants may have breaks or regular closing days."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Save by neighborhood",
+          "body": "Save places near each day's route instead of one citywide list.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose where you will explore, then find food nearby. Pair a market walk with a nearby meal. Compare menus and choose what suits your appetite.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-neighborhood-food-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1120-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-20T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-9",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "まずエリアを決める",
+          "body": "その日に歩く街を決めて、近くのお店を探して。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "南浦 · 市場周辺グルメ",
+          "body": "市場散策と近くの食事を組み合わせて。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "西面 · 飲食店めぐり",
+          "body": "メニューを比べ、その日の気分に合う店を。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "営業時間を確認",
+          "body": "小さな店は休憩時間や定休日がある場合も。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "エリアごとに保存",
+          "body": "その日のルート近くで候補を保存しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "その日に歩く街を決めて、近くのお店を探して。 市場散策と近くの食事を組み合わせて。 メニューを比べ、その日の気分に合う店を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1120-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-20T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-9",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "先決定要逛哪一區",
+          "body": "先選好散步區域，再找附近想吃的店。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "南浦・市場周邊小吃",
+          "body": "把市場散步與附近用餐排在一起。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "西面・餐廳選擇",
+          "body": "先比較菜單，再依當天食慾挑選。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "出發前確認營業時間",
+          "body": "部分小店可能有休息時段或固定公休日。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "按區域收藏名單",
+          "body": "把店家存到每天行程附近，不必全市跑透透。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "先選好散步區域，再找附近想吃的店。 把市場散步與附近用餐排在一起。 先比較菜單，再依當天食慾挑選。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1121-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-21T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-10",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Choose by trip style",
+          "body": "Choose a base near the places you plan to visit most."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Seomyeon for connections",
+          "body": "Compare Seomyeon if subway connections are important."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Haeundae for the coast",
+          "body": "Consider Haeundae when beach time is a priority."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Nampo for old town",
+          "body": "Nampo can suit plans around markets and old downtown."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check the last-mile walk",
+          "body": "Check station access, luggage routes and late-night transport.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose a base near the places you plan to visit most. Compare Seomyeon if subway connections are important. Consider Haeundae when beach time is a priority.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1121-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-21T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-10",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "旅の目的から選ぶ",
+          "body": "よく訪れる場所に合わせて宿泊エリアを選びましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "移動重視なら西面",
+          "body": "地下鉄の乗り換えを重視するなら西面も候補に。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "海辺を楽しむなら海雲台",
+          "body": "海辺で過ごす時間を重視する旅なら海雲台も候補。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "旧市街なら南浦",
+          "body": "市場や旧市街を歩く予定なら南浦周辺も候補。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "駅からの道のりを確認",
+          "body": "駅からの徒歩距離や夜間の帰り道も確認を。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "よく訪れる場所に合わせて宿泊エリアを選びましょう。 地下鉄の乗り換えを重視するなら西面も候補に。 海辺で過ごす時間を重視する旅なら海雲台も候補。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1121-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-21T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-10",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: three neighborhood mood panels: transit hub, beach, old market. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: abstract subway interchange scene. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Haeundae beachfront promenade. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: Nampo market street and old downtown. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase route from station to hotel. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "依旅行目的選住宿",
+          "body": "依照主要行程選擇住宿區域。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "重視交通可考慮西面",
+          "body": "若重視地鐵轉乘，可比較西面一帶。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "想看海可選海雲台",
+          "body": "若想安排海邊行程，可考慮海雲台周邊。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "逛舊市區可考慮南浦",
+          "body": "若想逛市場與舊市區，可比較南浦一帶。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "確認車站到住宿的路",
+          "body": "確認車站步行距離、行李動線與夜間交通。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "依照主要行程選擇住宿區域。 若重視地鐵轉乘，可比較西面一帶。 若想安排海邊行程，可考慮海雲台周邊。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1122-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-22T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-11",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Pick the area first",
+          "body": "Choose where you will explore, then find food nearby."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Nampo · Market bites",
+          "body": "Pair a market walk with a nearby meal."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Seomyeon · Dining",
+          "body": "Compare menus and choose what suits your appetite."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Check opening hours",
+          "body": "Small restaurants may have breaks or regular closing days."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Save by neighborhood",
+          "body": "Save places near each day's route instead of one citywide list.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose where you will explore, then find food nearby. Pair a market walk with a nearby meal. Compare menus and choose what suits your appetite.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-neighborhood-food-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1122-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-22T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-11",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "まずエリアを決める",
+          "body": "その日に歩く街を決めて、近くのお店を探して。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "南浦 · 市場周辺グルメ",
+          "body": "市場散策と近くの食事を組み合わせて。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "西面 · 飲食店めぐり",
+          "body": "メニューを比べ、その日の気分に合う店を。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "営業時間を確認",
+          "body": "小さな店は休憩時間や定休日がある場合も。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "エリアごとに保存",
+          "body": "その日のルート近くで候補を保存しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "その日に歩く街を決めて、近くのお店を探して。 市場散策と近くの食事を組み合わせて。 メニューを比べ、その日の気分に合う店を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1122-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-22T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-11",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: neighborhood map with grouped food pins. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Nampo market snack atmosphere. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: Seomyeon restaurant street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: small restaurant hours sign and clock. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: saved-place list grouped by neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "先決定要逛哪一區",
+          "body": "先選好散步區域，再找附近想吃的店。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "南浦・市場周邊小吃",
+          "body": "把市場散步與附近用餐排在一起。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "西面・餐廳選擇",
+          "body": "先比較菜單，再依當天食慾挑選。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "出發前確認營業時間",
+          "body": "部分小店可能有休息時段或固定公休日。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "按區域收藏名單",
+          "body": "把店家存到每天行程附近，不必全市跑透透。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "先選好散步區域，再找附近想吃的店。 把市場散步與附近用餐排在一起。 先比較菜單，再依當天食慾挑選。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1123-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-23T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-12",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Day 1 · Old town",
+          "body": "Group Nampo and nearby market visits together."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Day 2 · Coast",
+          "body": "Choose a coastal area and leave time for walks between stops."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Day 3 · Your interests",
+          "body": "Add a food neighborhood, museum or a slower local day."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Avoid zigzag routes",
+          "body": "Build each day around one area where possible."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Plan real travel time",
+          "body": "Hills, transfers and waiting time add to map distance.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Group Nampo and nearby market visits together. Choose a coastal area and leave time for walks between stops. Add a food neighborhood, museum or a slower local day.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1123-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-23T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-12",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "1日目 · 旧市街",
+          "body": "南浦周辺と市場をまとめて巡りましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "2日目 · 海辺",
+          "body": "海沿いのエリアを選び、散策時間も確保。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "3日目 · 好きな街へ",
+          "body": "グルメエリアや博物館など、興味に合わせて。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "市内を何度も横断しない",
+          "body": "できるだけ同じエリア内で1日の予定を組んで。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "実際の移動時間で計画",
+          "body": "坂道・乗り換え・待ち時間も考慮しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "南浦周辺と市場をまとめて巡りましょう。 海沿いのエリアを選び、散策時間も確保。 グルメエリアや博物館など、興味に合わせて。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1123-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-23T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-12",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: Nampo old-town market street. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: Busan coastal walk and viewpoint. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: neighborhood cafe street and museum. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: three compact daily zones on map. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: route planner with walking and transfer symbols. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "第1天・舊市區",
+          "body": "把南浦與附近市場排在同一天。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "第2天・海岸",
+          "body": "選定海岸區域，預留景點間散步時間。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "第3天・依興趣安排",
+          "body": "加入美食街區、博物館或慢步調行程。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "避免跨區來回",
+          "body": "每天盡量以同一區域為行程核心。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "用實際交通時間規劃",
+          "body": "坡道、轉乘與等車時間都要算進去。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "把南浦與附近市場排在同一天。 選定海岸區域，預留景點間散步時間。 加入美食街區、博物館或慢步調行程。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/three-days/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1124-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-24T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-13",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "First Busan route",
+          "body": "Choose one anchor area for each day."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Group nearby stops",
+          "body": "Reduce backtracking by grouping places on the same side of the city."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Allow time for hills",
+          "body": "Busan has hills and stairs; allow extra walking time."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Save key addresses",
+          "body": "Keep your hotel address and nearest station easy to access."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check before departure",
+          "body": "Recheck opening hours and transport on your travel date.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose one anchor area for each day. Reduce backtracking by grouping places on the same side of the city. Busan has hills and stairs; allow extra walking time.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1124-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-24T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-13",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "初めての釜山ルート",
+          "body": "1日ごとに中心エリアを決めましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "近いスポットをまとめる",
+          "body": "同じエリアの場所を組み合わせ、往復を減らして。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "坂道の時間も見込む",
+          "body": "坂や階段もあるので、徒歩時間に余裕を。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "住所を保存しておく",
+          "body": "ホテルの住所と最寄り駅を保存しておきましょう。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "出発前に最新情報を確認",
+          "body": "営業時間と交通情報は訪問日に再確認を。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "1日ごとに中心エリアを決めましょう。 同じエリアの場所を組み合わせ、往復を減らして。 坂や階段もあるので、徒歩時間に余裕を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1124-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-24T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-13",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "第一次釜山行程",
+          "body": "每天先選一個主要區域。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "把鄰近景點排一起",
+          "body": "把同一區域的景點排在一起，減少來回移動。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "坡道也要預留時間",
+          "body": "釜山有坡道與階梯，步行時間要抓寬鬆。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "先存好重要地址",
+          "body": "先存好飯店地址與最近的車站。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "出發前再次確認資訊",
+          "body": "營業時間與交通資訊請依出遊日期再次確認。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "每天先選一個主要區域。 把同一區域的景點排在一起，減少來回移動。 釜山有坡道與階梯，步行時間要抓寬鬆。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1125-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-25T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-14",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "Browse before ordering",
+          "body": "Compare stalls and menus before choosing where to eat."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Ask how prices work",
+          "body": "Confirm price, portion and any preparation charge before ordering."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Confirm the total",
+          "body": "Make sure you understand the final total before preparation."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Respect busy walkways",
+          "body": "Keep aisles clear and ask before photographing people or stalls."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Save the market checklist",
+          "body": "Read the full guide before your market visit.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Compare stalls and menus before choosing where to eat. Confirm price, portion and any preparation charge before ordering. Make sure you understand the final total before preparation.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1125-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-25T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-14",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "注文前にひと回り",
+          "body": "店やメニューを比べてから選びましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "料金の計算方法を確認",
+          "body": "注文前に価格・量・調理料金を確認。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "合計金額を確認",
+          "body": "調理が始まる前に支払総額を確認しましょう。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "混雑した通路に配慮",
+          "body": "通路をふさがず、撮影前にひと声かけて。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "市場訪問のポイントを保存",
+          "body": "訪問前に詳しいガイドを確認しましょう。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "店やメニューを比べてから選びましょう。 注文前に価格・量・調理料金を確認。 調理が始まる前に支払総額を確認しましょう。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1125-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-25T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-14",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: seafood market aisle without identifiable vendors. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: customer comparing market stalls. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: receipt and calculator beside seafood meal. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: busy market walkway with clear pedestrian path. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: market checklist beside seafood baskets. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "先逛一圈再點餐",
+          "body": "先比較攤位與菜單，再決定在哪裡用餐。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "先問清楚價格算法",
+          "body": "點餐前確認單價、份量與是否另收處理費。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "確認最後總金額",
+          "body": "料理開始前先確認應付總金額。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "留意市場動線",
+          "body": "不要擋住走道，拍攝前先禮貌詢問。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "收藏市場消費提醒",
+          "body": "逛市場前可先閱讀完整指南。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "先比較攤位與菜單，再決定在哪裡用餐。 點餐前確認單價、份量與是否另收處理費。 料理開始前先確認應付總金額。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/jagalchi-market/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1126-us",
+      "account": "US",
+      "lang": "en",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-26T17:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-15",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "Illustration: AI-generated · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "BUSAN TRAVEL GUIDE",
+          "title": "First Busan route",
+          "body": "Choose one anchor area for each day."
+        },
+        {
+          "cat": "ROUTE IDEA",
+          "title": "Group nearby stops",
+          "body": "Reduce backtracking by grouping places on the same side of the city."
+        },
+        {
+          "cat": "LOCAL DETAIL",
+          "title": "Allow time for hills",
+          "body": "Busan has hills and stairs; allow extra walking time."
+        },
+        {
+          "cat": "PRACTICAL CHECK",
+          "title": "Save key addresses",
+          "body": "Keep your hotel address and nearest station easy to access."
+        },
+        {
+          "cat": "SAVE FOR LATER",
+          "title": "Check before departure",
+          "body": "Recheck opening hours and transport on your travel date.",
+          "cta": "Save · Full guide in profile"
+        }
+      ],
+      "caption": "Choose one anchor area for each day. Reduce backtracking by grouping places on the same side of the city. Busan has hills and stairs; allow extra walking time.\n\nFull guide: link in bio (go2busan.com).",
+      "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1126-jp",
+      "account": "JP",
+      "lang": "ja",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-26T03:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-15",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "イラスト：AI生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅行ガイド",
+          "title": "初めての釜山ルート",
+          "body": "1日ごとに中心エリアを決めましょう。"
+        },
+        {
+          "cat": "エリア別ポイント",
+          "title": "近いスポットをまとめる",
+          "body": "同じエリアの場所を組み合わせ、往復を減らして。"
+        },
+        {
+          "cat": "現地の確認",
+          "title": "坂道の時間も見込む",
+          "body": "坂や階段もあるので、徒歩時間に余裕を。"
+        },
+        {
+          "cat": "旅行前の準備",
+          "title": "住所を保存しておく",
+          "body": "ホテルの住所と最寄り駅を保存しておきましょう。"
+        },
+        {
+          "cat": "保存して活用",
+          "title": "出発前に最新情報を確認",
+          "body": "営業時間と交通情報は訪問日に再確認を。",
+          "cta": "保存 · 詳細ガイドはプロフィールへ"
+        }
+      ],
+      "caption": "1日ごとに中心エリアを決めましょう。 同じエリアの場所を組み合わせ、往復を減らして。 坂や階段もあるので、徒歩時間に余裕を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。",
+      "guide_url": "https://go2busan.com/ja/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    },
+    {
+      "id": "ig-fresh15-1126-tw",
+      "account": "TW",
+      "lang": "zh-TW",
+      "design": "v2",
+      "status": "draft",
+      "publish_at_utc": "2026-11-26T04:00:00.000Z",
+      "art": {
+        "type": "ai",
+        "set": "ig-fresh15-15",
+        "stylized": true,
+        "prompts": [
+          "Stylized editorial Busan travel illustration, card 1/5: folded map with one highlighted neighborhood. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 2/5: nearby attractions grouped into one walking route. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 3/5: steep hillside street and stairs. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 4/5: hotel address card beside station marker. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding.",
+          "Stylized editorial Busan travel illustration, card 5/5: suitcase and pre-departure checklist. Vertical 4:5 composition, cohesive navy and ocean-blue palette with a restrained coral accent, strong single focal point, no readable text, no logos, no fabricated business branding."
+        ],
+        "credit": "插畫：AI 生成 · Go2Busan"
+      },
+      "cards": [
+        {
+          "cat": "釜山旅遊攻略",
+          "title": "第一次釜山行程",
+          "body": "每天先選一個主要區域。"
+        },
+        {
+          "cat": "行程安排",
+          "title": "把鄰近景點排一起",
+          "body": "把同一區域的景點排在一起，減少來回移動。"
+        },
+        {
+          "cat": "在地提醒",
+          "title": "坡道也要預留時間",
+          "body": "釜山有坡道與階梯，步行時間要抓寬鬆。"
+        },
+        {
+          "cat": "出發前確認",
+          "title": "先存好重要地址",
+          "body": "先存好飯店地址與最近的車站。"
+        },
+        {
+          "cat": "收藏備用",
+          "title": "出發前再次確認資訊",
+          "body": "營業時間與交通資訊請依出遊日期再次確認。",
+          "cta": "收藏 · 完整攻略請見個人檔案"
+        }
+      ],
+      "caption": "每天先選一個主要區域。 把同一區域的景點排在一起，減少來回移動。 釜山有坡道與階梯，步行時間要抓寬鬆。\n\n完整攻略請點個人檔案連結（go2busan.com）。",
+      "guide_url": "https://go2busan.com/zh-tw/guides/first-trip/",
+      "verification": {
+        "status": "needs_check",
+        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked."
+      }
+    }
+  ],
+  "destination_audit": {
+    "checked_against": "main repository tree",
+    "localized_routes_found": 21,
+    "localized_routes_expected": 21,
+    "markets": [
+      "en",
+      "ja",
+      "zh-TW"
+    ],
+    "note": "Repository route existence verified; live HTTP response, canonical/hreflang and in-app bio link still require runtime verification."
+  }
+}
