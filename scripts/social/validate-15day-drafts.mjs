@@ -32,7 +32,7 @@ for (const p of ig) {
   assert.ok(p.art?.set && p.art?.stylized, p.id + " needs a stylized art set");
   assert.match(p.art?.credit || "", /AI/i, p.id + " needs AI art credit");
   assert.match(p.caption || "", /AI/i, p.id + " caption needs AI disclosure");
-  assert.ok((p.caption.match(/#[^\\s#]+/g) || []).length >= 3, p.id + " needs hashtags");
+  assert.ok((p.caption.match(/#[^\s#]+/g) || []).length >= 3, p.id + " needs hashtags");
   assert.ok(p.cards.at(-1)?.cta, p.id + " needs final-card CTA");
   const guide = new URL(p.guide_url);
   assert.equal(guide.hostname, "go2busan.com", p.id + " guide must use Go2Busan");
@@ -65,9 +65,9 @@ for (const p of th) {
     assert.ok(link.searchParams.get(key), p.id + " missing " + key);
   }
   assert.equal(link.searchParams.get("utm_source"), "threads", p.id + " wrong UTM source");
-  if (p.market === "TW") assert.ok(/[\\u4e00-\\u9fff]/.test(p.text) && !/[\\u3040-\\u30ff]/.test(p.text), p.id + " must be Traditional Chinese, not Japanese");
-  if (p.market === "JP") assert.ok(/[\\u3040-\\u30ff\\u4e00-\\u9fff]/.test(p.text), p.id + " must be Japanese");
-  if (p.market === "US") assert.ok(!/[\\u3040-\\u30ff]/.test(p.text), p.id + " contains Japanese text");
+  if (p.market === "TW") assert.ok(/[\u4e00-\u9fff]/.test(p.text) && !/[\u3040-\u30ff]/.test(p.text), p.id + " must be Traditional Chinese, not Japanese");
+  if (p.market === "JP") assert.ok(/[\u3040-\u30ff\u4e00-\u9fff]/.test(p.text), p.id + " must be Japanese");
+  if (p.market === "US") assert.ok(!/[\u3040-\u30ff]/.test(p.text), p.id + " contains Japanese text");
 }
 
 assert.deepEqual(countBy(th, (p) => p.local_date), Object.fromEntries(dates.map((d) => [d, 6])));
