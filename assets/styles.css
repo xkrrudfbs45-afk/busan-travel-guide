@@ -1169,6 +1169,7 @@
 .ig-worthy-badge{margin-bottom:12px}
 @media(max-width:760px){
  body:not(.home-refresh) .site-header .nav-wrap{flex-wrap:wrap;row-gap:2px}
+ body:not(.home-refresh) .site-header nav{flex-wrap:wrap;column-gap:4px;row-gap:0;min-width:0}
  body:not(.home-refresh) .site-header nav a,body:not(.home-refresh) .site-header .language-pill{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;box-sizing:border-box}
  body:not(.home-refresh) .site-header nav a{padding:0 6px}
  body:not(.home-refresh) .site-header .brand{min-height:44px}
