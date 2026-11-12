@@ -5,7 +5,7 @@
   "notes": [
     "Seven-slide Instagram carousel localized for English, Japanese and Traditional Chinese.",
     "Not added to any live schedule. Do not publish until restaurant-specific menu facts and final 1080x1350 artwork are checked.",
-    "The guide_url currently points to the general pork-soup history page; create a dedicated suyuk-baekban guide before using this CTA in a live campaign."
+    "The CTA now points to the new dedicated localized suyuk baekban guide in the companion transport/content PR; keep this campaign draft-only until both guide pages are deployed and final artwork is checked."
   ],
   "posts": [
     {
@@ -69,11 +69,11 @@
         }
       ],
       "caption": "Want to try more than a bowl of pork soup in Busan? Suyuk baekban is a set meal centered on tender slices of boiled pork. The exact cuts, soup and side dishes vary by restaurant, so check the menu before ordering.\n\nUseful phrase: 수육백반 주세요. (Suyuk baekban, please.)\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanFood #BusanEats #DwaejiGukbap #KoreanFood #BusanTravel #Go2Busan",
-      "guide_url": "https://go2busan.com/guides/busan-dwaeji-gukbap-history/",
-      "bio_link_url": "https://go2busan.com/guides/busan-dwaeji-gukbap-history/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=en",
+      "guide_url": "https://go2busan.com/guides/busan-suyuk-baekban-guide/",
+      "bio_link_url": "https://go2busan.com/guides/busan-suyuk-baekban-guide/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=en",
       "verification": {
         "status": "needs_check",
-        "note": "Draft only. Distinguishes boiled-pork set meal from pork soup; sides and soup inclusion are restaurant-specific. Verify selected restaurant menu and final image rendering before approval."
+        "note": "Draft only. Distinguishes boiled-pork set meal from pork soup; sides and soup inclusion are restaurant-specific. Verify selected restaurant menu and final image rendering before approval. Dedicated localized suyuk baekban guide path added; still draft until guide PR is merged/deployed and artwork is rendered/checked."
       },
       "sources": [
         "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=904&vcontsId=221285",
@@ -141,11 +141,11 @@
         }
       ],
       "caption": "釜山で豚肉料理を楽しむなら、スユクペッパンもおすすめ。ゆで豚を主役に、ご飯やおかずと味わう定食です。部位やスープ、付け合わせは店ごとに違うので、注文前にメニューを確認しましょう。\n\n使える韓国語：수육백반 주세요.（スユクペッパンをください。）\n\n詳しいガイドはプロフィールのリンクから。\n\nIllustration: AI-generated.\n\n#釜山グルメ #釜山旅行 #韓国グルメ #テジクッパ #釜山ひとり旅 #Go2Busan",
-      "guide_url": "https://go2busan.com/ja/guides/busan-dwaeji-gukbap-history/",
-      "bio_link_url": "https://go2busan.com/ja/guides/busan-dwaeji-gukbap-history/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=ja",
+      "guide_url": "https://go2busan.com/ja/guides/busan-suyuk-baekban-guide/",
+      "bio_link_url": "https://go2busan.com/ja/guides/busan-suyuk-baekban-guide/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=ja",
       "verification": {
         "status": "needs_check",
-        "note": "Draft only. Suyuk baekban is distinguished from dwaeji-gukbap; side dishes and soup inclusion are restaurant-specific. Verify selected restaurant menu and final image rendering before approval."
+        "note": "Draft only. Suyuk baekban is distinguished from dwaeji-gukbap; side dishes and soup inclusion are restaurant-specific. Verify selected restaurant menu and final image rendering before approval. Dedicated localized suyuk baekban guide path added; still draft until guide PR is merged/deployed and artwork is rendered/checked."
       },
       "sources": [
         "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=904&vcontsId=221285",
@@ -213,11 +213,11 @@
         }
       ],
       "caption": "到釜山吃豬肉料理，除了豬肉湯飯，也可以試試「수육백반（水肉白飯套餐）」。以韓式白切豬肉為主角，搭配白飯與小菜。肉的部位、湯品與配菜會依店家不同，點餐前先確認菜單更安心。\n\n實用韓語：수육백반 주세요.（請給我水肉白飯套餐。）\n\n完整指南請見個人檔案連結。\n\nIllustration: AI-generated.\n\n#釜山美食 #釜山自由行 #韓國美食 #釜山豬肉湯飯 #釜山旅遊 #Go2Busan",
-      "guide_url": "https://go2busan.com/zh-tw/guides/busan-dwaeji-gukbap-history/",
-      "bio_link_url": "https://go2busan.com/zh-tw/guides/busan-dwaeji-gukbap-history/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=zh_tw",
+      "guide_url": "https://go2busan.com/zh-tw/guides/busan-suyuk-baekban-guide/",
+      "bio_link_url": "https://go2busan.com/zh-tw/guides/busan-suyuk-baekban-guide/?utm_source=instagram&utm_medium=social&utm_campaign=suyuk_baekban&utm_content=zh_tw",
       "verification": {
         "status": "needs_check",
-        "note": "僅為草稿。已區分水肉白飯套餐與豬肉湯飯，並註明配菜及湯品依店家而異。正式發布前需核對指定店家菜單並檢查最終圖片。"
+        "note": "僅為草稿。已區分水肉白飯套餐與豬肉湯飯，並註明配菜及湯品依店家而異。正式發布前需核對指定店家菜單並檢查最終圖片。 Dedicated localized suyuk baekban guide path added; still draft until guide PR is merged/deployed and artwork is rendered/checked."
       },
       "sources": [
         "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=904&vcontsId=221285",
