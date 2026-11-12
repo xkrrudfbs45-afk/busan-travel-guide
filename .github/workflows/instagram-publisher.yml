@@ -12,6 +12,9 @@ name: Instagram publisher (Go2Busan)
 on:
   schedule:
     - cron: "0 0,12 * * *"
+    # Publish slots used by the schedule (03:00, 04:00, 17:00 UTC). Each post must be picked up within
+    # the 6-hour late window, which the 00/12 UTC runs alone do not cover for these slots.
+    - cron: "10 3,4,17 * * *"
   workflow_dispatch:
 
 permissions:

@@ -38,7 +38,7 @@ export async function fetchPhoto(url, fetchImpl = fetch) {
   return `data:image/jpeg;base64,${buf.toString("base64")}`;
 }
 
-export const specHash = (p) => createHash("sha1").update(JSON.stringify([p.cards, p.photo, p.art, p.design, p.lang])).digest("hex").slice(0, 12);
+export const specHash = (p) => createHash("sha1").update(JSON.stringify(p.theme ? [p.cards, p.photo, p.art, p.design, p.lang, p.theme] : [p.cards, p.photo, p.art, p.design, p.lang])).digest("hex").slice(0, 12);
 
 // Approved posts inside the horizon, plus drafts (so previews exist before approval).
 export function dueForRender(schedule, log, now, horizonH = 36) {
@@ -79,7 +79,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       const problems = langIssues(p.lang, texts).map((m) => `${p.id}: ${m}`);
       for (let i = 0; i < p.cards.length; i++) {
         const bg = `data:image/jpeg;base64,${readFileSync(`${artDir}/${files[i].file}`).toString("base64")}`;
-        await page.setContent(cardV2Html(p.cards[i], { bgDataUri: bg, lang: p.lang, index: i, total: p.cards.length, credit: p.art.credit }), { waitUntil: "networkidle" });
+        await page.setContent(cardV2Html(p.cards[i], { bgDataUri: bg, lang: p.lang, index: i, total: p.cards.length, credit: p.art.credit, theme: p.theme }), { waitUntil: "networkidle" });
         await page.evaluate(() => document.fonts.ready);
         const bad = await page.evaluate(layoutProbe, { SAFE, isLast: i === p.cards.length - 1 });
         bad.forEach((m) => problems.push(`${p.id} card ${i + 1}: ${m}`));
