@@ -156,6 +156,9 @@ jobs:
             Finally write growth-report/autopilot-summary.md with: first line = a short PR title; then the evidence from the
             report, what you changed and why, and anything a reviewer must check. If nothing is worth changing, edit no
             files and write only "NO_CHANGE: <reason>" to that file.
+            For any image change follow docs/IMAGE_QUALITY_STANDARD.md: only photos with status "verified" in
+            assets/data/image-credits.json, real place/dish match, alt + author/license caption; covers go through
+            content/images/cover-photos.json. Never use AI images as photos of real Busan places.
             Never edit: .github/, content/social/, scripts/growth/, secrets, GA4 consent/measurement code
             (assets/js/analytics.js), URLs/redirects, sitemap URLs of existing pages, Klook aid or existing aff_adid values.
       - name: Validate, build and audit Claude's change
