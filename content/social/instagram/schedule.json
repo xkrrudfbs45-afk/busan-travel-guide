@@ -1480,7 +1480,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-13T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1526,9 +1526,11 @@
       "caption": "Choose a base near the places you plan to visit most. Compare Seomyeon if subway connections are important. Consider Haeundae when beach time is a priority.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#WhereToStay #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/where-to-stay-busan/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-2"
+        "status": "verified",
+        "register": "ig-fresh15-2",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261113",
       "theme": "bright"
@@ -1538,7 +1540,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-13T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1584,9 +1586,11 @@
       "caption": "よく訪れる場所に合わせて宿泊エリアを選びましょう。 地下鉄の乗り換えを重視するなら西面も候補に。 海辺で過ごす時間を重視する旅なら海雲台も候補。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山ホテル #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/where-to-stay-busan/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-2"
+        "status": "verified",
+        "register": "ig-fresh15-2",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261113",
       "theme": "bright"
@@ -1596,7 +1600,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-13T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1642,9 +1646,11 @@
       "caption": "依照主要行程選擇住宿區域。 若重視地鐵轉乘，可比較西面一帶。 若想安排海邊行程，可考慮海雲台周邊。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山住宿 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-2"
+        "status": "verified",
+        "register": "ig-fresh15-2",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/where-to-stay-busan/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261113",
       "theme": "bright"
@@ -1654,7 +1660,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-14T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1700,9 +1706,11 @@
       "caption": "The best route depends on your exact hotel location. Check current airport rail, subway and airport-bus options. Allow time for transfers when heading across the city to Haeundae.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#GimhaeAirport #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-3"
+        "status": "verified",
+        "register": "ig-fresh15-3",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261114",
       "theme": "bright"
@@ -1712,7 +1720,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-14T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1758,9 +1766,11 @@
       "caption": "便利なルートはホテルの場所によって変わります。 空港鉄道・地下鉄・空港バスの最新情報を確認。 海雲台へ向かう場合は乗り換え時間も見込んで。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#金海空港 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/airport-to-haeundae/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-3"
+        "status": "verified",
+        "register": "ig-fresh15-3",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261114",
       "theme": "bright"
@@ -1770,7 +1780,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-14T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1816,9 +1826,11 @@
       "caption": "適合的路線會依飯店確切位置而不同。 查詢機場鐵路、地鐵與機場巴士的最新選項。 前往海雲台跨區移動，記得預留轉乘時間。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#金海機場 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-3"
+        "status": "verified",
+        "register": "ig-fresh15-3",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/airport-to-haeundae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261114",
       "theme": "bright"
@@ -1828,7 +1840,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-15T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1874,9 +1886,11 @@
       "caption": "A compatible transport card can simplify bus and subway trips. Check current purchase and recharge options before you go. Follow the reader instructions when boarding and exiting.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanMetro #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-transit-card/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-4"
+        "status": "verified",
+        "register": "ig-fresh15-4",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/busan-transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261115",
       "theme": "bright"
@@ -1886,7 +1900,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-15T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1932,9 +1946,11 @@
       "caption": "対応する交通カードがあるとバス・地下鉄移動が便利に。 購入場所とチャージ方法を事前に確認。 乗降時は読み取り機の案内に従いましょう。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山地下鉄 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/transit-card/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-4"
+        "status": "verified",
+        "register": "ig-fresh15-4",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261115",
       "theme": "bright"
@@ -1944,7 +1960,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-15T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -1990,9 +2006,11 @@
       "caption": "使用適用的交通卡，可簡化公車與地鐵搭乘。 出發前先確認購買與加值方式。 上下車時依讀卡機指示感應。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山地鐵 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/transit-card/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-4"
+        "status": "verified",
+        "register": "ig-fresh15-4",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/transit-card/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261115",
       "theme": "bright"
@@ -2002,7 +2020,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-16T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2048,9 +2066,11 @@
       "caption": "Group Nampo and nearby market visits together. Choose a coastal area and leave time for walks between stops. Add a food neighborhood, museum or a slower local day.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanItinerary #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-three-days/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-5"
+        "status": "verified",
+        "register": "ig-fresh15-5",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/busan-three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261116",
       "theme": "bright"
@@ -2060,7 +2080,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-16T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2106,9 +2126,11 @@
       "caption": "南浦周辺と市場をまとめて巡りましょう。 海沿いのエリアを選び、散策時間も確保。 グルメエリアや博物館など、興味に合わせて。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山モデルコース #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/three-days/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-5"
+        "status": "verified",
+        "register": "ig-fresh15-5",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261116",
       "theme": "bright"
@@ -2118,7 +2140,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-16T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2164,9 +2186,11 @@
       "caption": "把南浦與附近市場排在同一天。 選定海岸區域，預留景點間散步時間。 加入美食街區、博物館或慢步調行程。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山行程 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/three-days/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-5"
+        "status": "verified",
+        "register": "ig-fresh15-5",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/three-days/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261116",
       "theme": "bright"
@@ -2176,7 +2200,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-17T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2222,9 +2246,11 @@
       "caption": "Compare stalls and menus before choosing where to eat. Confirm price, portion and any preparation charge before ordering. Make sure you understand the final total before preparation.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#JagalchiMarket #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-6"
+        "status": "verified",
+        "register": "ig-fresh15-6",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261117",
       "theme": "bright"
@@ -2234,7 +2260,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-17T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2280,9 +2306,11 @@
       "caption": "店やメニューを比べてから選びましょう。 注文前に価格・量・調理料金を確認。 調理が始まる前に支払総額を確認しましょう。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#チャガルチ市場 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/jagalchi-market/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-6"
+        "status": "verified",
+        "register": "ig-fresh15-6",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/jagalchi-market/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261117",
       "theme": "bright"
@@ -2292,7 +2320,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-17T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2338,9 +2366,11 @@
       "caption": "先比較攤位與菜單，再決定在哪裡用餐。 點餐前確認單價、份量與是否另收處理費。 料理開始前先確認應付總金額。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#札嘎其市場 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/jagalchi-market/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-6"
+        "status": "verified",
+        "register": "ig-fresh15-6",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261117",
       "theme": "bright"
@@ -2350,7 +2380,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-18T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2396,9 +2426,11 @@
       "caption": "The beach faces Gwangan Bridge, between Seomyeon and Haeundae. Gwangan and Geumnyeonsan stations are the usual stops. Come for a beach walk and cafés, then stay for the bridge view.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#Gwangalli #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/gwangalli-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-7"
+        "status": "verified",
+        "register": "ig-fresh15-7",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118",
       "theme": "bright"
@@ -2408,7 +2440,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-18T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2454,9 +2486,11 @@
       "caption": "広安大橋を望むビーチ。西面と海雲台の間にあります。 最寄りは広安駅か金蓮山駅が一般的。 昼はビーチ散歩とカフェ、夕方からは橋の眺めを。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#広安里 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-7"
+        "status": "verified",
+        "register": "ig-fresh15-7",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118",
       "theme": "bright"
@@ -2466,7 +2500,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-18T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2512,9 +2546,11 @@
       "caption": "面向廣安大橋的海灘，位在西面與海雲台之間。 一般在廣安站或金蓮山站下車。 白天沿海散步、喝咖啡，傍晚留下來看大橋景色。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#廣安里 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-7"
+        "status": "verified",
+        "register": "ig-fresh15-7",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118",
       "theme": "bright"
@@ -2524,7 +2560,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-19T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2570,9 +2606,11 @@
       "caption": "Best for beach time, coastal walks and a relaxed seaside stay. Take Line 1 to Seomyeon, then change to Line 2 for Haeundae. A hotel near Jangsan feels different from one by the beach. Check the walk.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#Haeundae #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/haeundae-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-8"
+        "status": "verified",
+        "register": "ig-fresh15-8",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119",
       "theme": "bright"
@@ -2582,7 +2620,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-19T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2628,9 +2666,11 @@
       "caption": "ビーチ、海沿いの散歩、のんびりした海辺の滞在に向くエリア。 地下鉄1号線で西面へ行き、2号線に乗り換え。 萇山近くと海辺のホテルでは雰囲気が違います。徒歩距離を確認。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#海雲台 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-8"
+        "status": "verified",
+        "register": "ig-fresh15-8",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119",
       "theme": "bright"
@@ -2640,7 +2680,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-19T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2686,9 +2726,11 @@
       "caption": "適合海灘時光、海岸散步與悠閒的海邊住宿。 搭地鐵1號線到西面，轉2號線前往海雲台。 萇山附近與海灘旁的飯店感覺不同，記得確認步行距離。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#海雲台 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-8"
+        "status": "verified",
+        "register": "ig-fresh15-8",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119",
       "theme": "bright"
@@ -2698,7 +2740,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-20T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2744,9 +2786,11 @@
       "caption": "Markets, shopping streets and the harbor sit close together. Nampo and Jagalchi stations are a short ride south. Jagalchi seafood, Bupyeong Kkangtong Market snacks and BIFF Square street food.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#Nampodong #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/nampo-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-9"
+        "status": "verified",
+        "register": "ig-fresh15-9",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120",
       "theme": "bright"
@@ -2756,7 +2800,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-20T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2802,9 +2846,11 @@
       "caption": "市場、商店街、港がぎゅっと集まるエリア。 南浦駅・チャガルチ駅まで南へすぐ。 チャガルチ市場の海鮮と、BIFF広場の屋台。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#南浦洞 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-9"
+        "status": "verified",
+        "register": "ig-fresh15-9",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120",
       "theme": "bright"
@@ -2814,7 +2860,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-20T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2860,9 +2906,11 @@
       "caption": "市場、商店街與港口都集中在附近。 往南幾站就到南浦站、札嘎其站。 札嘎其市場的海鮮，以及BIFF廣場小吃。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#南浦洞 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-9"
+        "status": "verified",
+        "register": "ig-fresh15-9",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120",
       "theme": "bright"
@@ -2872,7 +2920,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-21T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2918,9 +2966,11 @@
       "caption": "Metro Lines 1 and 2 meet here. Line 1 to Nampo-dong, Line 2 to Haeundae. Restaurants and shops nearby, but it is not a seaside escape.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#Seomyeon #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/seomyeon-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-10"
+        "status": "verified",
+        "register": "ig-fresh15-10",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121",
       "theme": "bright"
@@ -2930,7 +2980,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-21T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -2976,9 +3026,11 @@
       "caption": "地下鉄1号線と2号線が交わる駅。 1号線で南浦洞へ、2号線で海雲台へ。 飲食店や店が多い一方、海辺の静けさはありません。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#西面 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-10"
+        "status": "verified",
+        "register": "ig-fresh15-10",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121",
       "theme": "bright"
@@ -2988,7 +3040,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-21T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3034,9 +3086,11 @@
       "caption": "地鐵1號線與2號線在這裡交會。 1號線到南浦洞，2號線到海雲台。 附近餐廳商店多，但不是海邊度假的氛圍。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#西面 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-10"
+        "status": "verified",
+        "register": "ig-fresh15-10",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121",
       "theme": "bright"
@@ -3046,7 +3100,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-22T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3092,9 +3146,11 @@
       "caption": "Choose where you will explore, then find food nearby. Pair a market walk with a nearby meal. Compare menus and choose what suits your appetite.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanFood #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-neighborhood-food-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-11"
+        "status": "verified",
+        "register": "ig-fresh15-11",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/busan-neighborhood-food-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261122",
       "theme": "bright"
@@ -3104,7 +3160,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-22T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3150,9 +3206,11 @@
       "caption": "その日に歩く街を決めて、近くのお店を探して。 市場散策と近くの食事を組み合わせて。 メニューを比べ、その日の気分に合う店を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山グルメ #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-11"
+        "status": "verified",
+        "register": "ig-fresh15-11",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/local-food-by-neighborhood/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261122",
       "theme": "bright"
@@ -3162,7 +3220,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-22T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3208,9 +3266,11 @@
       "caption": "先選好散步區域，再找附近想吃的店。 把市場散步與附近用餐排在一起。 先比較菜單，再依當天食慾挑選。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山美食 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/",
       "verification": {
-        "status": "needs_check",
-        "note": "Rewritten with topic-specific copy and distinct five-card visual direction. Draft only until localized URL, factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-11"
+        "status": "verified",
+        "register": "ig-fresh15-11",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/local-food-by-neighborhood/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261122",
       "theme": "bright"
@@ -3220,7 +3280,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-23T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3266,9 +3326,11 @@
       "caption": "Keep plans close together and save the coast for a clearer window. Choose one museum, aquarium, cinema or department store, not five. Restaurants, shopping and indoor breaks near the metro.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#RainyDay #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-rainy-day-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-12"
+        "status": "verified",
+        "register": "ig-fresh15-12",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/busan-rainy-day-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261123",
       "theme": "bright"
@@ -3278,7 +3340,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-23T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3324,9 +3386,11 @@
       "caption": "予定は近くにまとめ、海辺は晴れ間に回しましょう。 博物館や水族館、映画館、百貨店などから1つを軸に。 地下鉄の近くで食事や買い物、屋内での休憩を。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#雨の日 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/rainy-day/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-12"
+        "status": "verified",
+        "register": "ig-fresh15-12",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/rainy-day/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261123",
       "theme": "bright"
@@ -3336,7 +3400,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-23T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3382,9 +3446,11 @@
       "caption": "行程集中在附近，海邊留到放晴再去。 博物館、水族館、電影院或百貨公司，選一個就好。 地鐵附近就能吃飯、逛街、在室內休息。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#雨天備案 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/rainy-day/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-12"
+        "status": "verified",
+        "register": "ig-fresh15-12",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/rainy-day/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261123",
       "theme": "bright"
@@ -3394,7 +3460,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-24T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3440,9 +3506,11 @@
       "caption": "A short list for hills, transit and changing weather. Busan has hills and stairs; many viewpoints mean a climb. Korea uses 220V and Type C/F sockets.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#PackingList #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-first-time-guide/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-13"
+        "status": "verified",
+        "register": "ig-fresh15-13",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/busan-first-time-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261124",
       "theme": "bright"
@@ -3452,7 +3520,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-24T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3498,9 +3566,11 @@
       "caption": "坂道、交通、天気の変化に備える短いリスト。 釜山は坂道や階段が多く、展望地点は上りも。 韓国は220V、コンセントはCタイプ（SEタイプ）。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#持ち物リスト #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/first-trip/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-13"
+        "status": "verified",
+        "register": "ig-fresh15-13",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261124",
       "theme": "bright"
@@ -3510,7 +3580,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-24T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3556,9 +3626,11 @@
       "caption": "為坡道、交通和天氣變化準備的簡短清單。 釜山坡道和階梯多，很多觀景點都要往上走。 韓國電壓220V，插座為C/F型（雙圓孔）。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#行李清單 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/first-trip/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-13"
+        "status": "verified",
+        "register": "ig-fresh15-13",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124",
       "theme": "bright"
@@ -3568,7 +3640,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-25T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3614,9 +3686,11 @@
       "caption": "A few habits make Busan restaurants and markets easier. Pork soup condiments often come on the side; add a little, then taste. At seafood markets, confirm the price and any preparation or table charges.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#BusanFood #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/busan-local-food-etiquette-tips/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-14"
+        "status": "verified",
+        "register": "ig-fresh15-14",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/busan-local-food-etiquette-tips/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261125",
       "theme": "bright"
@@ -3626,7 +3700,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-25T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3672,9 +3746,11 @@
       "caption": "ちょっとしたコツで、釜山の食堂や市場がぐっと楽に。 テジクッパの薬味は別添えが多め。少し入れて味見を。 海鮮市場では価格と調理代・席料を注文前に確認。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#釜山グルメ #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/food-etiquette/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-14"
+        "status": "verified",
+        "register": "ig-fresh15-14",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125",
       "theme": "bright"
@@ -3684,7 +3760,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-25T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3730,9 +3806,11 @@
       "caption": "掌握幾個小習慣，在釜山餐廳和市場更自在。 豬肉湯飯的調味料常另外附上，先加一點再試味道。 在海鮮市場，點餐前確認價格、料理費與座位費。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#釜山美食 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/food-etiquette/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-14"
+        "status": "verified",
+        "register": "ig-fresh15-14",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261125",
       "theme": "bright"
@@ -3742,7 +3820,7 @@
       "account": "US",
       "lang": "en",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-26T17:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3788,9 +3866,11 @@
       "caption": "A seaside nature park, not a quick stop from downtown. Service, tickets and waits change with season and weather. Not every viewpoint is step-free or next to a stop.\n\nFull guide: link in bio (go2busan.com).\n\nIllustration: AI-generated.\n\n#Taejongdae #Busan #BusanTravel #KoreaTravel #Go2Busan",
       "guide_url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-15"
+        "status": "verified",
+        "register": "ig-fresh15-15",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126",
       "theme": "bright"
@@ -3800,7 +3880,7 @@
       "account": "JP",
       "lang": "ja",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-26T03:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3846,9 +3926,11 @@
       "caption": "市内からさっと寄れる場所ではない、海辺の自然公園。 運行・チケット・待ち時間は季節や天気で変わります。 すべての展望地点が段差なし・停留所すぐとは限りません。\n\n詳しいガイドはプロフィールのリンクから（go2busan.com）。\n\nイラスト：AI生成\n\n#太宗台 #釜山旅行 #釜山 #韓国旅行 #Go2Busan",
       "guide_url": "https://go2busan.com/ja/guides/taejongdae/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-15"
+        "status": "verified",
+        "register": "ig-fresh15-15",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126",
       "theme": "bright"
@@ -3858,7 +3940,7 @@
       "account": "TW",
       "lang": "zh-TW",
       "design": "v2",
-      "status": "draft",
+      "status": "approved",
       "publish_at_utc": "2026-11-26T04:00:00.000Z",
       "art": {
         "type": "ai",
@@ -3904,9 +3986,11 @@
       "caption": "這是海邊的自然公園，不是從市區順路的小景點。 營運、票券與等候時間會隨季節和天氣改變。 不是每個觀景點都無階梯、離站點很近。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#太宗台 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/taejongdae/",
       "verification": {
-        "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked.",
-        "register": "ig-fresh15-15"
+        "status": "verified",
+        "register": "ig-fresh15-15",
+        "checked_on": "2026-11-13",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126",
       "theme": "bright"

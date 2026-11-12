@@ -11,7 +11,7 @@ export function cardV2Html(card, { bgDataUri, lang, index, total, credit, theme 
   const cjk = lang !== "en";
   const titleSize = first ? (cjk ? 104 : 118) : (cjk ? 82 : 92);
   const font = FONT[lang] || FONT.en;
-  return `<!doctype html><meta charset="utf-8"><style>
+  return `<!doctype html><html lang="${lang === "zh-TW" ? "zh-Hant-TW" : lang}"><meta charset="utf-8"><style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Noto+Sans+JP:wght@500;700;800&family=Noto+Sans+TC:wght@500;700;800&display=swap');
 *{margin:0;box-sizing:border-box}
 body{width:1080px;height:1350px;position:relative;overflow:hidden;background:#101B3B;font-family:'${font}',Inter,'Noto Sans JP','Noto Sans TC','Noto Sans CJK TC','Noto Sans CJK JP',sans-serif;color:#fff}
@@ -36,10 +36,12 @@ ${theme === "bright" ? BRIGHT : ""}
 }
 
 // "bright" theme: light cream text panel and navy type over a daytime illustration (owner request 2026-11-13).
+// Bump BRIGHT_VERSION when the bright template changes so render.mjs re-renders those cards.
+export const BRIGHT_VERSION = 2;
 const BRIGHT = `body{background:#FFF8EC;color:#13294B}
-.shade{background:linear-gradient(180deg,rgba(19,41,75,.28) 0%,rgba(19,41,75,0) 16%,rgba(255,248,236,0) 42%,rgba(255,248,236,.94) 62%,#FFF8EC 78%)}
-.cat{color:#FFE27A;text-shadow:0 1px 8px rgba(19,41,75,.7)}
-.pg{color:#fff;text-shadow:0 1px 8px rgba(19,41,75,.7)}
+.shade{background:linear-gradient(180deg,rgba(19,41,75,.18) 0%,rgba(19,41,75,0) 12%,rgba(255,248,236,0) 30%,rgba(255,248,236,.9) 46%,#FFF8EC 58%)}
+.cat{color:#FFE27A;text-shadow:none;background:rgba(19,41,75,.78);padding:8px 18px;border-radius:999px}
+.pg{color:#fff;text-shadow:none;background:rgba(19,41,75,.78);padding:8px 16px;border-radius:999px}
 .title{color:#13294B;text-shadow:none}
 .body{color:#33415C}
 .cta{background:#FF7A59;color:#fff}
