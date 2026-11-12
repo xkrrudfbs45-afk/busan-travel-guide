@@ -429,7 +429,8 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d04-us-1",
@@ -454,11 +455,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day04",
         "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/jagalchi-market-no-surprise-bill/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day04"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d04-us-2",
@@ -483,7 +485,8 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d05-jp-1",
@@ -508,11 +511,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/ja/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day05",
         "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day05"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d05-jp-2",
@@ -537,7 +541,8 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d05-us-1",
@@ -562,11 +567,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day05",
         "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day05"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d05-us-2",
@@ -591,7 +597,8 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d06-jp-1",
@@ -616,11 +623,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/ja/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day06",
         "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day06"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d06-jp-2",
@@ -645,7 +653,8 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d06-us-1",
@@ -670,11 +679,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/guides/busan-rainy-day-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day06",
         "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-rainy-day-guide/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day06"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d06-us-2",
@@ -699,7 +709,8 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d07-jp-1",
@@ -724,11 +735,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.227Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/ja/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day07",
         "text": "詳しくはGo2Busanの釜山ガイドで👇\nhttps://go2busan.com/ja/guides/three-days/?utm_source=threads&utm_medium=social&utm_campaign=threads30_jp&utm_content=day07"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d07-jp-2",
@@ -778,11 +790,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day07",
         "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-three-days/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day07"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d07-us-2",
@@ -886,11 +899,12 @@
         "approved_by": "Tak (chat approval 2026-11-03)",
         "approved_at": "2026-11-03T14:58:02.285Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day08",
         "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/gimhae-airport-to-haeundae/?utm_source=threads&utm_medium=social&utm_campaign=threads30_us&utm_content=day08"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d08-us-2",
@@ -3886,7 +3900,8 @@
         "approved_by": "Tak",
         "approved_at": "2026-11-03T23:43:44.952Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d04-tw-1",
@@ -3911,11 +3926,12 @@
         "approved_by": "Tak",
         "approved_at": "2026-11-03T23:43:44.952Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day04",
         "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/jagalchi-market/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day04"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d04-tw-2",
@@ -3940,7 +3956,8 @@
         "approved_by": "Tak",
         "approved_at": "2026-11-03T23:43:44.952Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d05-tw-1",
@@ -3965,11 +3982,12 @@
         "approved_by": "Tak",
         "approved_at": "2026-11-03T23:43:44.952Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/zh-tw/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day05",
         "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day05"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d05-tw-2",
@@ -3994,7 +4012,8 @@
         "approved_by": "Tak",
         "approved_at": "2026-11-03T23:43:44.952Z"
       },
-      "status": "approved"
+      "status": "cancelled",
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d06-tw-1",
@@ -4019,11 +4038,12 @@
         "approved_by": "Tak",
         "approved_at": "2026-11-03T23:43:44.952Z"
       },
-      "status": "approved",
+      "status": "cancelled",
       "link_reply": {
         "url": "https://go2busan.com/zh-tw/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day06",
         "text": "更多細節請看 Go2Busan 釜山在地指南👇\nhttps://go2busan.com/zh-tw/guides/rainy-day/?utm_source=threads&utm_medium=social&utm_campaign=threads30_tw&utm_content=day06"
-      }
+      },
+      "cancel_reason": "Publish log confirms missed slot; do not replay or burst-publish."
     },
     {
       "id": "d06-tw-2",
