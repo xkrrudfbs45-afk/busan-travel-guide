@@ -88,7 +88,7 @@ for (const f of files) {
     bump("3 theme-color added");
   }
 
-  if (/^\/(ja|zh-tw)\/guides\/[^/]+\/$/.test(path) && !h.includes("BreadcrumbList")) {
+  if (/^\/(?:(?:ja|zh-tw)\/)?guides\/[^/]+\/$/.test(path) && !h.includes("BreadcrumbList")) {
     const trail = (h.match(/<div class="breadcrumbs">([\s\S]*?)<\/div>/) || [])[1];
     if (trail) {
       const items = trail.split(/\s\/\s/).map((part, i) => {
@@ -113,11 +113,22 @@ for (const f of files) {
   if (!h.includes('rel="manifest"')) { h = insertHead(h, '<link rel="manifest" href="/manifest.webmanifest">'); bump("8 manifest linked"); }
   if (!h.includes("/assets/js/offline.js") && h.includes("</body>")) { h = h.replace("</body>", '<script defer src="/assets/js/offline.js"></script></body>'); bump("8 offline script added"); }
 
+  // 7b. Indexable pages without any Open Graph text (e.g. /about.html): derive it from <title>, description and canonical.
+  if (!noindex && !/<meta property="og:title"/.test(h)) {
+    const t = (h.match(/<title>([\s\S]*?)<\/title>/) || [])[1];
+    const d = (h.match(/<meta name="description" content="([^"]*)"/) || [])[1];
+    const c = (h.match(/<link rel="canonical" href="([^"]+)"/) || [])[1];
+    if (t && c) {
+      h = insertHead(h, `<meta property="og:type" content="website"><meta property="og:title" content="${esc(unesc(t.trim()))}">` + (d ? `<meta property="og:description" content="${d}">` : "") + `<meta property="og:url" content="${c}">`);
+      bump("7b og text added");
+    }
+  }
+
   if (!noindex && /<meta property="og:title"/.test(h)) {
     if (!/<meta property="og:image"/.test(h)) {
       let img = null, alt = "";
       const first = mainAt !== -1 ? (h.slice(h.indexOf("<main")).match(/<img\b(?![^>]*go2busan-(?:mark|logo))[^>]*>/) || [])[0] : null;
-      if (first && attr(first, "src")) { img = absolute(attr(first, "src")); alt = attr(first, "alt") || ""; }
+      if (first && attr(first, "src") && !/\.svg(?:$|\?)/i.test(attr(first, "src"))) { img = absolute(attr(first, "src")); alt = attr(first, "alt") || ""; }
       if (!img) {
         const en = (h.match(/hreflang="en" href="https:\/\/go2busan\.com([^"]+)"/) || [])[1];
         if (en && ogByPath[en]) ({ og: img, alt = "" } = ogByPath[en]);
@@ -126,6 +137,18 @@ for (const f of files) {
       if (img) {
         h = insertHead(h, `<meta property="og:image" content="${esc(img)}">` + (alt && !/og:image:alt/.test(h) ? `<meta property="og:image:alt" content="${esc(unesc(alt))}">` : ""));
         bump("6 og:image added");
+      }
+    }
+    // 6b. Social platforms do not render SVG previews: swap an SVG og:image/twitter:image for a raster fallback.
+    const cur = (h.match(/<meta property="og:image" content="([^"]+)"/) || [])[1];
+    if (cur && /\.svg(?:$|\?)/i.test(cur)) {
+      const en = (h.match(/hreflang="en" href="https:\/\/go2busan\.com([^"]+)"/) || [])[1];
+      const pick = [en && ogByPath[en], siteDefault].find((o) => o && !/\.svg(?:$|\?)/i.test(o.og));
+      if (pick) {
+        const svg = cur.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        h = h.replace(new RegExp(`(<meta (?:property="og:image"|name="twitter:image") content=")${svg}(")`, "g"), `$1${esc(pick.og)}$2`);
+        h = h.replace(/<meta property="og:image:alt" content="[^"]*">/, pick.alt ? `<meta property="og:image:alt" content="${esc(unesc(pick.alt))}">` : "");
+        bump("6b svg og:image replaced");
       }
     }
     if (!/name="twitter:card"/.test(h)) { h = insertHead(h, '<meta name="twitter:card" content="summary_large_image">'); bump("6 twitter:card added"); }
