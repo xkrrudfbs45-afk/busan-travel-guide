@@ -184,7 +184,7 @@ async function fetchStatus(url, opts = {}) {
 }
 await asec("Live site", async () => {
   if (OFFLINE) { md.push("\n### Live site", "- skipped (--offline)"); return; }
-  const out = []; const head = git("rev-parse", "HEAD");
+  const out = []; const head = git("rev-parse", "origin/main") || git("rev-parse", "HEAD"); // on PR runs HEAD is a merge commit
   const v = await fetch(`${SITE}/version.txt`).then((r) => r.text()).catch(() => "");
   const live = v.trim();
   out.push(`- Deployed version: \`${live.slice(0, 7) || "unknown"}\` — main \`${head.slice(0, 7)}\` ${live && head.startsWith(live.slice(0, 7)) ? "✅ in sync" : "⚠️ differs (deploy pending or failed)"}`);
@@ -204,7 +204,7 @@ await asec("Live site", async () => {
   if (bad.length) report.priorities.push(`P0 tech: ${bad.length} sitemap URLs not 200 on the live site`);
   const dests = (report._dests || []).slice(0, 30); const dbad = [];
   for (const d of dests) { const r = await fetchStatus(d); if (!(r.status === 200 || (r.status >= 300 && r.status < 400))) dbad.push(`${d.replace("https://www.klook.com", "")} ${r.status || r.error}`); }
-  out.push(`- Klook destinations reachable: ${dests.length - dbad.length}/${dests.length}${dbad.length ? ` — unverified/blocked: ${dbad.slice(0, 4).join("; ")} (Klook may block automated requests; confirm in a browser before changing links)` : ""}`);
+  out.push(`- Klook destinations reachable: ${dests.length - dbad.length}/${dests.length}${dbad.length ? ` — unverified/blocked: ${dbad.slice(0, 4).join("; ")} (Klook blocks most automated requests with 403, so this is not proof of a broken link; confirm in a browser before changing anything)` : ""}`);
   report.sections.live = { version_in_sync: !!(live && head.startsWith(live.slice(0, 7))), sitemap_ok: ok, sitemap_total: smUrls.length, klook_unverified: dbad.length };
   md.push("\n### Live site", ...out);
 });

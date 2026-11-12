@@ -49,6 +49,7 @@ jobs:
           fetch-depth: 1
       - name: Fetch social state branches (read-only)
         run: |
+          git fetch --no-tags --depth=1 origin +refs/heads/main:refs/remotes/origin/main || echo "main not fetched"
           git fetch --no-tags --depth=1 origin +refs/heads/threads-state:refs/remotes/origin/threads-state || echo "threads-state not available"
           git fetch --no-tags --depth=1 origin +refs/heads/instagram-state:refs/remotes/origin/instagram-state || echo "instagram-state not available"
       - uses: actions/setup-node@v4
