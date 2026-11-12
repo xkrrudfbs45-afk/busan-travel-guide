@@ -556,6 +556,20 @@
       "checked_on": "2026-11-11",
       "status": "verified",
       "note": "Exterior photograph of BEXCO; used for the G-STAR event card."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Seomyeon_Street.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Seomyeon_Street.jpg",
+      "author": "Minseong Kim",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-12",
+      "status": "verified",
+      "note": "Commons API extmetadata checked 2026-11-12: own work by Minseong Kim, taken 7 Jan 2015, 'Seomyeon Street' (shopping street, Busanjin-gu). Replaces the unrelated Busanhang Bridge share image on the Seomyeon hubs. Street scene from 2015: shop signs may have changed; caption must not name current shops."
     }
   ]
 }
