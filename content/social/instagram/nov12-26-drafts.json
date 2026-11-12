@@ -1163,8 +1163,8 @@
         },
         {
           "cat": "出發前確認",
-          "title": "星期六無人機表演",
-          "body": "每週六定期舉行，時間依季節不同，也可能因天候取消。"
+          "title": "週六通常有無人機燈光秀",
+          "body": "場次與時間依當月公告調整，遇雨、強風或通訊問題可能取消或延後。"
         },
         {
           "cat": "收藏備用",
@@ -1177,7 +1177,11 @@
       "guide_url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/",
       "verification": {
         "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked."
+        "note": "Official Visit Busan November 2026 programme lists Nov 14, 21 and 28 and warns of weather/communications cancellation or delay. Recheck the exact Saturday programme before posting.",
+        "sources": [
+          "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6450&menuCd=DOM_000000304010000000"
+        ],
+        "checked_on": "2026-11-12"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118"
     },
@@ -2166,8 +2170,8 @@
         },
         {
           "cat": "在地提醒",
-          "title": "轉接插頭",
-          "body": "韓國電壓220V，插座為C/F型（雙圓孔）。"
+          "title": "韓國插座與台灣不同",
+          "body": "韓國為 220V／60Hz、雙圓孔插座；帶轉接頭，也要確認電器支援 220V。"
         },
         {
           "cat": "出發前確認",
@@ -2181,11 +2185,15 @@
           "cta": "收藏 · 完整攻略請見個人檔案"
         }
       ],
-      "caption": "為坡道、交通和天氣變化準備的簡短清單。 釜山坡道和階梯多，很多觀景點都要往上走。 韓國電壓220V，插座為C/F型（雙圓孔）。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#行李清單 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
+      "caption": "為坡道、交通和天氣變化準備的簡短清單。 釜山坡道和階梯多，很多觀景點都要往上走。 韓國標準電壓為 220V／60Hz，插座是雙圓孔；台灣常見插頭不同，記得帶轉接頭，也要確認電器支援 220V。\n\n完整攻略請點個人檔案連結（go2busan.com）。\n\n插畫：AI 生成\n\n#行李清單 #釜山旅遊 #釜山 #韓國旅遊 #Go2Busan",
       "guide_url": "https://go2busan.com/zh-tw/guides/first-trip/",
       "verification": {
         "status": "needs_check",
-        "note": "Replaced a repeated carousel with a topic-specific one (Claude, 2026-11-12); copy drawn only from the linked localized guide. Draft only until factual details, rendered 1080x1350 assets and live bio link are checked."
+        "note": "Taiwan-market practical detail based on Taiwan-language VISITKOREA guidance: Korea uses 220V/60Hz and two-round-hole outlets. Confirm each device supports 220V; bring a plug adapter.",
+        "sources": [
+          "https://big5chinese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140059"
+        ],
+        "checked_on": "2026-11-12"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/first-trip/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261124"
     },
