@@ -1,6 +1,9 @@
 {
-  "_note": "Build-time Klook CTAs for zh-TW guides. Injected into public/ by scripts/inject-affiliate-cta.mjs so ChatGPT-owned page HTML is never edited. Destinations and aff_adid values mirror the English counterpart pages. `before` must match the source page exactly once; CI runs the script with --check.",
+  "_note": "Build-time Klook CTAs for localized guides. Injected into public/ by scripts/inject-affiliate-cta.mjs (reads every content/affiliate/*-cta.json) so ChatGPT-owned page HTML is never edited. Destinations and aff_adid values mirror the English counterpart pages. `before` must match the source page exactly once; CI runs the script with --check.",
+  "locale": "zh-TW",
+  "locale_path": "/zh-TW/",
   "aid": "141680",
+  "disclosure": "價格、內容與供應情況可能變動，購買前請確認最新條款。此為聯盟連結，Go2Busan 可能因此獲得佣金，您不需支付額外費用。<a href=\"/zh-tw/disclosure.html\">聯盟揭露說明</a>",
   "pages": [
     {
       "path": "zh-tw/guides/haeundae-neighborhood-guide/index.html",

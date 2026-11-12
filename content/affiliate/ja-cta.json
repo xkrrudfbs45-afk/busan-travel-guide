@@ -1,0 +1,69 @@
+{
+  "_note": "Build-time Klook CTAs for localized guides. Injected into public/ by scripts/inject-affiliate-cta.mjs (reads every content/affiliate/*-cta.json) so ChatGPT-owned page HTML is never edited. Destinations and aff_adid values mirror the English counterpart pages. `before` must match the source page exactly once; CI runs the script with --check.",
+  "locale": "ja",
+  "locale_path": "/ja/",
+  "aid": "141680",
+  "disclosure": "料金・内容・在庫状況は変更されることがあります。購入前に最新の条件をご確認ください。このリンクはアフィリエイトリンクで、Go2Busanに手数料が支払われる場合がありますが、お客様の負担が増えることはありません。<a href=\"/ja/disclosure.html\">アフィリエイトについて</a>",
+  "pages": [
+    {
+      "path": "ja/guides/haeundae-neighborhood-guide/index.html",
+      "en_counterpart": "guides/haeundae-neighborhood-guide/index.html",
+      "before": "<section class=\"shell guide-faq\"",
+      "id": "cta-hub-blueline",
+      "kicker": "海雲台・チケット",
+      "title": "海雲台ブルーラインパークに乗る予定の方へ",
+      "body": "スカイカプセルは便ごとの定員が限られ、人気の時間帯は早く埋まることがあります。ビーチトレインは別のサービスで、チケットも別売りです。利用日に合わせてチケットの種類・料金・キャンセル条件を比べてください。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/activity/133293-haeundae-blueline-park-ticket-in-busan/",
+      "button": "Klookでブルーラインパークのチケットを見る ↗"
+    },
+    {
+      "path": "ja/guides/gwangalli-neighborhood-guide/index.html",
+      "en_counterpart": "guides/gwangalli-neighborhood-guide/index.html",
+      "before": "<section class=\"shell guide-faq\"",
+      "id": "cta-hub-yacht",
+      "kicker": "広安里・体験",
+      "title": "海から広安大橋を眺めたい方へ",
+      "body": "Klookでは海雲台のサンセットと広安大橋を巡るヨットツアーを扱っています。出発時刻・集合場所・料金・キャンセル条件を比べてください。天候によっては運休になる場合があります。",
+      "aff_adid": "1539682",
+      "dest": "https://www.klook.com/ja/activity/223315-busan-yacht-tour-haeundae-sunset-gwangan-bridge-catamaran-cruise/",
+      "button": "Klookでヨットツアーを見る ↗"
+    },
+    {
+      "path": "ja/guides/seomyeon-neighborhood-guide/index.html",
+      "en_counterpart": "guides/seomyeon-neighborhood-guide/index.html",
+      "before": "<section class=\"shell guide-faq\"",
+      "id": "cta-hub-pass",
+      "kicker": "周遊パス・出発前に",
+      "title": "いくつもの観光施設を回る予定の方へ",
+      "body": "ビジット釜山パスは、釜山の複数の観光施設で使える周遊パスです。お得になるかどうかは実際に訪れる場所次第なので、購入前に対象施設・有効期間・利用ルールを確認してください。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/activity/81576-visit-busan-pass/",
+      "button": "Klookでビジット釜山パスを見る ↗"
+    },
+    {
+      "path": "ja/guides/things-to-do-in-busan/index.html",
+      "en_counterpart": "guides/things-to-do-in-busan/index.html",
+      "before": "<section class=\"article-section\" aria-labelledby=\"faq-title\">",
+      "id": "cta-things-pass",
+      "kicker": "周遊パス・出発前に",
+      "title": "いくつもの観光施設を回る予定の方へ",
+      "body": "ビジット釜山パスは、釜山の複数の観光施設で使える周遊パスです。お得になるかどうかは実際に訪れる場所次第なので、購入前に対象施設・有効期間・利用ルールを確認してください。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/activity/81576-visit-busan-pass/",
+      "button": "Klookでビジット釜山パスを見る ↗"
+    },
+    {
+      "path": "ja/guides/three-days/index.html",
+      "en_counterpart": "guides/busan-three-days/index.html",
+      "before": "<h2>関連ガイド",
+      "id": "cta-itinerary-pass",
+      "kicker": "周遊パス・旅程づくり",
+      "title": "3日間で有料スポットをいくつも回る方へ",
+      "body": "ビジット釜山パスは、釜山の複数の観光施設で使える周遊パスです。まず日ごとのエリアを決め、対象施設・有効期間・利用ルールと照らし合わせて、個別にチケットを買うより得かどうか判断してください。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/activity/81576-visit-busan-pass/",
+      "button": "Klookでビジット釜山パスを見る ↗"
+    }
+  ]
+}
