@@ -152,3 +152,21 @@ Shorten these titles to approximately 50–60 characters while retaining the mai
 6. Add a real-browser viewport/crop and LCP check for a representative EN/JA/zh-TW sample before declaring image operations fully verified.
 
 **No production changes are included in this PR.**
+
+## P1 — Instagram carousel QA failure (approved post)
+
+A separate image QA check on the `instagram-state` branch found one approved Japanese carousel that still fails layout QA:
+
+- Post: `ig-fresh15-1125-jp`
+- Account / locale: Japan / `ja`
+- Scheduled: **2026-11-25 12:00 JST** (2026-11-25 03:00 UTC)
+- QA file: `cards/ig-fresh15-1125-jp/qa.json`
+- Result: `ok: false`
+- Finding: `ig-fresh15-1125-jp card 5: .body text overflows horizontally`
+- The post remains `approved` and `verification.status=verified` in the active Instagram schedule.
+
+The current renderer writes the failed `qa.json` but exits with code 0 while keeping the preview. The publisher does not read or require `qa.json.ok === true`; the workflow proceeds from rendering to publishing. Therefore a layout-failed card set is not programmatically blocked from external publication.
+
+The first-day cards for 2026-11-13 (JP/TW/US) and the checked 2026-11-14 JP/TW sets currently report `ok: true`.
+
+**Safe remediation:** shorten the Japanese card-5 body or adjust the text container, rerender the set, and require a successful `qa.json` result in the publish preflight. If QA is false or missing, skip publication and record a blocked state. No copy, renderer, schedule, or publisher change is included in this report-only PR.
