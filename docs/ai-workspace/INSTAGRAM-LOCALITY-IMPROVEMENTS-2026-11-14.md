@@ -35,7 +35,7 @@ The requested seven-card outline is kept as a proposal rather than inserted into
 4. Compare bus/subway with taxi for the last mile; do not imply that a taxi is always necessary.
 5. Treat an unexpected mid-trip end as an exception, not a scam pattern. Do not generalise from a single personal account.
 6. Keep trip details, fare and receipt records; use the relevant app's official support. k.ride lists App Menu > Support and its weekday support hours; Kakao Mobility lists FAQ, chatbot and counselling chat. No official step-by-step for a mid-trip meter switch was found.
-7. CTA to a relevant localized taxi guide. A matching guide section/URL still needs to be confirmed.
+7. CTA to a relevant localized taxi guide. The existing English page `/guides/busan-taxi-vs-subway-motion-sickness/` exists, but Japanese and Traditional Chinese counterparts do not. The English page focuses on taxi-vs-subway comfort/motion sickness, not the full K.Ride onboarding or mid-trip exception flow. Before using this CTA, expand the existing guide and localize it into JA/TW; do not point TW/JA users to the English page or create a new URL before checking duplication.
 
 The current Instagram v2 carousel validator permits 5–6 cards, not 7. The seven-card version therefore needs either a deliberate template change or a reviewed six-card compression. It is not scheduled in this PR.
 
