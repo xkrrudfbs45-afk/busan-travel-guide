@@ -108,7 +108,7 @@ main 기준: `f7b244d44fe7c43a92f19262c6f520d05415bfdb`
 ## 5. PR·CI·배포 구분
 
 - PR #389는 현재 merged 상태다. 11월 13일 보고서의 “미병합” 문구는 당시 스냅샷이며, 현재 상태와 혼동하지 않는다.
-- PR #409: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/409 — Draft, open, mergeable. Instagram content tests CI 성공, technical SEO audit은 점검 시각에 진행 중이다. main 미반영, production 배포 없음.
+- PR #409: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/409 — Draft, open, mergeable. Instagram content tests와 technical SEO audit 모두 success다. main 미반영, production 배포 없음.
 - PR #390은 11월 13일 보고서를 보존하고, 이 문서를 11월 14일 최신 점검으로 추가한다.
 - main의 이번 점검 관련 신규 production deploy는 없다. CI 성공은 배포를 의미하지 않는다.
 - 게시 스케줄·상태 브랜치·외부 계정·예약 시각은 변경하지 않았다.
