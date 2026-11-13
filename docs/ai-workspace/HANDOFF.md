@@ -161,3 +161,13 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Corrected the Korean taxi destination phrase to “해운대 블루라인파크 청사포정거장으로 가주세요” in the three localized homepages and their copy actions.
 - Agoda homepage links still use the generic Busan landing URL without a verified account-specific cid; no tracking parameter was fabricated. Japanese and Traditional Chinese Klook links still point to the existing en-US activity destination and require verified locale-specific destinations before changing.
 - Verification status: code updated; fresh build, audit and browser QA are pending on the latest branch head. PR remains Draft; no merge or deployment.
+
+
+## Responsive and food/transport page batch — 2026-11-14
+- Refined homepage header spacing at tablet/mobile widths to separate the search control and language pills; retained all locale links.
+- Refined Japanese homepage hero title width and line treatment to keep punctuation away from the viewport edge.
+- Added safe-area-aware footer clearance beneath the fixed mobile travel dock on localized homepages.
+- Added tablet-specific no-wrap rules for language switchers on non-homepage guide pages, including Traditional Chinese.
+- Updated stylesheet cache keys on the homepage, guide directories and selected food/transport pages in EN / JA / zh-TW where the files were successfully updated. A final pass is still needed for the two localized transit-card pages whose cache key was not updated in this batch.
+- Reviewed food guide content structure: neighborhood-led choices, dish context, practical cautions, scorecard caveat and image source/license captions are present in sampled EN/JA/zh-TW pages. Reviewed transit-card pages: practical card/transfer guidance and locale-specific Article metadata are present; no speculative fare values or unverified route claims added.
+- Verification is pending against the latest head. Claude should retest the prior 360/390/768/1280 findings and verify food/transport page templates. PR remains Draft; no merge/deploy.
