@@ -496,3 +496,24 @@ At day 30, assess direction and data quality. Do not claim growth from impressio
 - Official references:
   - https://www.k-eta.go.kr/portal/board/viewboarddetail.do?bbsSn=299707&esntlPnotiMtYn=Y&locale=EN
   - https://overseas.mofa.go.kr/us-en/brd/m_4500/view.do?seq=761106
+
+
+## Busan Now refresh — winter experiences, checked 2026-11-14
+
+The homepage Busan Now feature is no longer centered on the time-sensitive Bukangi story. Keep Bukangi as an evergreen local-interest guide, but rotate the homepage feature toward current visitor experiences.
+
+Verified editorial candidates:
+- **3rd Millak Luce Festa:** Nov 14, 2026–Jan 10, 2027, Millak Waterside Park; free; lighting 18:00–23:30. Official Busan City event page: https://www.busan.go.kr/eng/bsevents/1762643
+- **Busan Christmas Village:** Nov 26–Dec 25, 2026, Busan Cinema Center; paid admission; weekday 16:00–22:00, weekends/Christmas season 11:00–22:00. Korea Tourism Organization listing: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=217216
+- **13th Haeundae Light Festival:** Nov 28, 2026–Jan 10, 2027, Haeundae Beach and Gunam-ro; free; lighting 18:00–23:00. Official Busan City page: https://www.busan.go.kr/eng/bsevents/1762645
+- **ARTE MUSEUM Busan:** indoor immersive media-art attraction at 29 Haeyang-ro 247beon-gil, Yeongdo-gu; official site lists 10:00–20:00, last admission 19:00. Check current prices/exhibitions: https://artemuseum.com/busan
+- **Haewol Observatory:** coastal viewpoint in Jung-dong, Haeundae-gu; Korea Tourism Organization lists Dec–Feb hours 09:00–20:00 and notes weather restrictions may apply: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=229701
+
+Homepage photo uses the existing verified Wikimedia Commons file “Gwangalli Beach and Gwangan Bridge Busan.jpg” by Masterhatch, CC BY-SA 4.0. Credit is shown adjacent to the image. It is a general waterfront image, not represented as a photograph of any of the festivals.
+
+Editorial rules:
+- Show date ranges and ticket status only when confirmed by the official source.
+- Do not imply that the Gwangalli drone show or other recurring programs run daily; check each event's actual schedule.
+- Do not describe a generic beach photo as a current festival installation.
+- Keep Bukangi available as a local story, but do not let a past viral moment occupy the primary Busan Now homepage slot after its peak.
+- Recheck schedules, hours, ticketing and weather notices before future seasonal rotations.
