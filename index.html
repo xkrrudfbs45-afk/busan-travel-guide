@@ -205,6 +205,6 @@
 <script defer src="/assets/js/site-search.js"></script>
 <script defer src="/assets/js/analytics.js"></script>
 <script>
-(()=>{const b=document.querySelector('.mobile-menu-toggle');const n=document.getElementById('primary-nav');if(!b||!n)return;b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(open));b.setAttribute('aria-label',open?'Close menu':'Open menu');n.classList.toggle('is-open',open)});n.addEventListener('click',e=>{if(e.target.closest('a')){b.setAttribute('aria-expanded','false');n.classList.remove('is-open')}})})();
+(()=>{const b=document.querySelector('.mobile-menu-toggle');const n=document.getElementById('primary-nav');if(!b||!n)return;b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',String(open));b.setAttribute('aria-label',open?'Close menu':'Open menu');n.classList.toggle('is-open',open)});n.addEventListener('click',e=>{if(e.target.closest('a')){b.setAttribute('aria-expanded','false');n.classList.remove('is-open')}});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&b.getAttribute('aria-expanded')==='true'){b.setAttribute('aria-expanded','false');b.setAttribute('aria-label','Open menu');n.classList.remove('is-open');b.focus()}})})();
 </script>
 </body></html>
