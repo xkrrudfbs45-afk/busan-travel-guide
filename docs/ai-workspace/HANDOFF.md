@@ -142,3 +142,12 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Static source checks passed for the three localized homepages (balanced main tags; modules placed below Editor’s Picks; share and taxi controls present; invalid pass path removed).
 - No latest-head CI/browser run is available yet. Request Claude to run a fresh full verification of PR #406 after these commits. Do not claim final QA or deployment.
 - PR #406 remains Draft and awaits owner approval before merge/deploy.
+
+
+## Multilingual guide directory and shared editorial batch — 2026-11-13
+
+- Extended the shared non-homepage editorial layer for EN, JA and zh-TW guide/article templates: balanced multilingual headings, cover and figure sizing, image captions, article blockquotes/dividers, responsive callouts, directory navigation and reduced-motion behavior.
+- Completed a dedicated visual polish pass on all three travel-guide directory pages: editorial card surfaces, accent rail, refined typography, separated link rows, clear hover states and horizontally scrollable mobile category navigation.
+- Refreshed the shared stylesheet cache key on EN/JA/zh-TW guide directory pages to `20261113-directory-polish` so all three receive the current design.
+- Static internal-link audit of the three guide directories: EN 74, JA 54 and zh-TW 57 unique internal destinations checked; no missing local targets found in the repository tree.
+- This is source/static verification only. Latest-head build, 13 audits and browser QA at 360/390/768/1280 remain pending. PR #406 remains Draft, unmerged and undeployed.
