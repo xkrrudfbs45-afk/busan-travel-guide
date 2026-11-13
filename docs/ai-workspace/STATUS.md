@@ -166,3 +166,5 @@ Applied to the existing #406 Draft branch; no overlapping PR created.
 - Bumped homepage stylesheet cache keys on all three locale homepages to `20261114-visual-batch2`.
 
 Pending: build, full audit suite, and cross-locale browser QA at 360/390/768/1280. Keep Draft; do not merge or deploy until verified.
+
+- Responsive hero preload: split preload hints by viewport in EN/JA/zh-TW. Desktop/tablet preloads the 1800 request (1920px delivery tier); phones preload the same 1000 request used by the mobile hero CSS, avoiding a desktop-sized LCP preload on small screens.
