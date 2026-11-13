@@ -49,6 +49,8 @@ node scripts/enhance-public-extras.mjs public
 node scripts/inject-affiliate-cta.mjs public
 # Data-driven cover photos + cover image loading priority (content/images/cover-photos.json, docs/IMAGE_QUALITY_STANDARD.md).
 node scripts/enhance-images.mjs public
+# Complete share-preview tags (twitter:title/description/image:alt, localized og:image:alt, image size) after covers are set.
+node scripts/enhance-social-meta.mjs public
 node scripts/enhance-public-ux.mjs public
 
 # Optional: add the referrer-restricted Google Maps Embed key from the environment.

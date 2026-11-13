@@ -155,6 +155,7 @@ page = f'''<!doctype html>
 </div>
 </div>
 <div>
+<h2 class="g2b-places-title" style="font-size:1.15rem;margin:0 0 10px">Places from our guides</h2>
 <div class="g2b-filters" role="group" aria-label="Filter places">
 <div class="g2b-filter-row" role="group" aria-label="Filter by area">{area_chips}</div>
 <div class="g2b-filter-row" role="group" aria-label="Filter by type">{cat_chips}</div>
