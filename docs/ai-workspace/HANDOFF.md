@@ -234,3 +234,7 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Expanded search-index keywords for Yeongdo, Hwangnyeongsan, Cheonghak Reservoir, Gwangalli drone show and BTS fan searches.
 - This is a stacked follow-up to Draft PR #407; its base is the #407 branch so the two batches can merge in order without conflicting homepage edits. No merge or production deployment.
 - Exact-head CI and screenshot QA pending.
+
+- Added the Gwangalli M Drone Light Show to Busan Now in all three locales with the 2026 winter Saturday times (19:00 / 21:00), free admission note, official schedule link and weather-change caveat.
+- Registered the Huinnyeoul (Choi2451 / CC0 1.0) and Gwangalli night (Carey Ciuro / CC BY 2.0) images in `assets/data/image-credits.json` after license verification; social metadata for the expanded guide now matches its new subject coverage.
+- Initial exact-head build passed; strict audit identified two missing image registry records. Registry entries and Busan Now callouts have now been corrected; rerun CI before considering this batch verified.
