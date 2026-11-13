@@ -94,6 +94,23 @@
     if (!analyticsEnabled) clearAnalyticsCookies();
   }
 
+  // Klook links are commission-attributable only through the affiliate redirect with numeric aid and aff_adid;
+  // Agoda links only when they carry a numeric partner cid. Anything else on these domains is a plain outbound link.
+  function classifyPartnerLink(url) {
+    const host = url.hostname.toLowerCase();
+    const numeric = (name, re) => re.test(url.searchParams.get(name) || '');
+    if (host === 'klook.com' || host.endsWith('.klook.com')) {
+      const attributable = host === 'affiliate.klook.com'
+        ? numeric('aid', /^[0-9]{3,12}$/) && numeric('aff_adid', /^[0-9]{4,12}$/)
+        : numeric('aid', /^[0-9]{3,12}$/);
+      return { partner: 'klook', attributable };
+    }
+    if (host === 'agoda.com' || host.endsWith('.agoda.com')) {
+      return { partner: 'agoda', attributable: numeric('cid', /^[0-9]{4,12}$/) };
+    }
+    return null;
+  }
+
   function registerTrackingHandlers() {
     if (trackingHandlersRegistered) return;
     trackingHandlersRegistered = true;
@@ -140,11 +157,9 @@
       } catch (_) {
         return;
       }
-      const host = affiliateUrl.hostname.toLowerCase();
-      let affiliatePartner = null;
-      if (host === 'klook.com' || host.endsWith('.klook.com')) affiliatePartner = 'klook';
-      if (host === 'agoda.com' || host.endsWith('.agoda.com')) affiliatePartner = 'agoda';
-      if (!affiliatePartner) return;
+      const partnerLink = classifyPartnerLink(affiliateUrl);
+      if (!partnerLink) return;
+      const affiliatePartner = partnerLink.partner;
 
       const affiliatePlacementContext = link.closest('.pass-conversion-cta')
         ? 'visit_busan_pass_conversion_panel'
@@ -166,6 +181,13 @@
         link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100),
         page_location: window.location.href
       };
+
+      // Partner links without a commission-tracking ID (e.g. a plain agoda.com city page) cannot earn a referral.
+      // They are reported separately so affiliate_click keeps meaning "commission-attributable click".
+      if (!partnerLink.attributable) {
+        window.gtag('event', 'partner_outbound_click', eventParams);
+        return;
+      }
 
       if (affiliatePartner === 'klook') {
         const placement = affiliateUrl.searchParams.get('aff_adid');

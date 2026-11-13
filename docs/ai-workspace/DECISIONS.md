@@ -43,3 +43,9 @@ Record material product, editorial, technical, and commercial decisions here. Ad
 - **Decision:** Build neighborhood hubs as routing pages that summarize an area and link to the existing detailed guides, instead of new pages that repeat stay, food or airport content.
 - **Rationale:** Avoid duplicate search intent with `where-to-stay-busan`, the food guides and the airport guides.
 - **Condition:** Start with Haeundae and Seomyeon (EN). Add Nampo and Gwangalli, and JA/TW versions, after the first two are reviewed.
+
+## 2026-11-13 — GA4: commission-attributable vs plain partner clicks
+
+- **Decision:** `affiliate_click` now fires only for links that can earn a commission: the Klook affiliate redirect (`affiliate.klook.com/redirect` with numeric `aid` and `aff_adid`, or a `klook.com` URL with numeric `aid`) and Agoda URLs with a numeric `cid`. Other klook.com / agoda.com links (today: the homepage `agoda.com/city/busan-kr.html` link, which has no partner ID) send `partner_outbound_click` with the same parameters (`affiliate_partner`, `affiliate_placement_context`, `link_url`, `link_text`, `page_location`). `affiliate_cta_view` counts attributable links only.
+- **Rationale:** Affiliate-click totals and click-through rates should only include clicks that the partner dashboards can attribute. Clicks are still not bookings or commission.
+- **Unchanged:** consent gate (no events before "Allow analytics"), measurement ID, Klook aid/aff_adid values, existing `affiliate_click` parameters. Data before 2026-11-13 includes the homepage Agoda link in `affiliate_click` (agoda partner rows).

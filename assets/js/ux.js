@@ -261,7 +261,17 @@
   // 11. Partner-link impressions: one event per page per partner block when it scrolls into view (CTR baseline per page).
   function partnerViews() {
     if (!('IntersectionObserver' in window)) return;
-    const links = [...doc.querySelectorAll('a[href*="affiliate.klook.com"], a[href*="agoda.com"]')];
+    // Only commission-attributable partner links count as affiliate CTA impressions (same rule as analytics.js:
+    // Klook affiliate redirect with numeric aid + aff_adid, or Agoda with a numeric cid).
+    const attributable = (a) => {
+      let u; try { u = new URL(a.href, location.href); } catch (_) { return false; }
+      const h = u.hostname.toLowerCase(), q = (k, re) => re.test(u.searchParams.get(k) || '');
+      if (h === 'affiliate.klook.com') return q('aid', /^[0-9]{3,12}$/) && q('aff_adid', /^[0-9]{4,12}$/);
+      if (h === 'klook.com' || h.endsWith('.klook.com')) return q('aid', /^[0-9]{3,12}$/);
+      if (h === 'agoda.com' || h.endsWith('.agoda.com')) return q('cid', /^[0-9]{4,12}$/);
+      return false;
+    };
+    const links = [...doc.querySelectorAll('a[href*="klook.com"], a[href*="agoda.com"]')].filter(attributable);
     if (!links.length) return;
     const seen = new Set();
     const io = new IntersectionObserver((entries) => {
