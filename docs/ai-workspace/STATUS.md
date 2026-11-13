@@ -74,3 +74,13 @@ Use one of:
 | Affiliate measurement | Blocked | Owner | Code done (#268/#270); GA4 Viewer access needed to verify live events |
 
 Update this table after each meaningful work session. Include PR numbers, commit SHAs, test results, and blockers where known.
+
+
+## Verified state (2026-11-13, ChatGPT — editorial design Phase 1)
+
+- **PR #404:** [Establish premium Go2Busan editorial design system — Phase 1](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/404), open Draft, base main, branch design/busan-editorial-system-phase1-20261113. Three commits ahead of main; zero commits behind at last comparison. Not merged or deployed.
+- **Changed files:** assets/styles.css (shared non-homepage editorial styling), assets/editorial-design-system.css (reusable tokens/components for later template adoption), and docs/design/GO2BUSAN-EDITORIAL-DESIGN-SYSTEM.md.
+- **CI evidence:** GitHub Actions run 43424881559, Technical SEO audit, completed successfully. Its public-site build and dependency-free audit steps both succeeded. This is not a substitute for visual QA.
+- **Template coverage checked:** EN/JA/zh-TW guide index pages all load /assets/styles.css and contain the directory classes targeted by Phase 1. Homepage has a separate homepage-editorial.css system and remains intentionally outside the non-homepage selector scope.
+- **Not yet verified:** screenshots or browser rendering at 360/390/768/1280; individual restaurant/neighborhood pages across all languages; keyboard/focus/contrast review; production deployment SHA/version. Do not describe the visual rollout as complete.
+- **Next:** perform representative page/template QA, then build the food/place detail-page module as a separate reviewed phase. Owner approval is required before merge/deploy.
