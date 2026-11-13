@@ -109,3 +109,6 @@ html:lang(zh-TW) .home-refresh .showcase-pick-copy strong{font-family:'Noto Seri
 html:lang(ja) .home-refresh .showcase-quick-item,
 html:lang(zh-TW) .home-refresh .showcase-quick-item{line-height:1.5;overflow-wrap:anywhere}
 @media(prefers-reduced-motion:reduce){.home-refresh .showcase-pick,.home-refresh .showcase-pick-arrow,.home-refresh .showcase-primary{transition:none!important}}
+
+.home-refresh .showcase-photo-credit{position:absolute;right:14px;top:52px;max-width:58%;color:rgba(255,255,255,.82);font-size:8px;line-height:1.35;text-align:right;text-shadow:0 1px 5px rgba(0,0,0,.8)}
+@media(max-width:768px){.home-refresh .showcase-photo-credit{font-size:8px;max-width:64%}}
