@@ -209,3 +209,16 @@ html:lang(ja) .home-refresh h1,html:lang(zh-TW) .home-refresh h1{
  .home-refresh .mobile-travel-dock a{display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px;border-radius:11px;background:#102d50;color:#fff;font-size:12px;font-weight:850;text-decoration:none}
  .home-refresh .mobile-travel-dock a:last-child{background:#ed6c57}
 }
+
+
+/* Final art-direction pass: panoramic bridge hero and real-use taxi card */
+@media(min-width:821px){
+ .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:500px}
+ .home-refresh .home-hero-inner{padding-top:112px;padding-bottom:78px}
+ .home-refresh .home-hero h1{font-size:clamp(64px,7vw,88px)}
+ .home-refresh .home-hero-backdrop{background-position:center 57%}
+}
+.home-refresh .taxi-korean{display:block;margin-top:9px;padding:10px 12px;border:1px dashed #9baec4;border-radius:9px;background:#fff;color:#102d50;font-size:14px;font-weight:900;line-height:1.55;letter-spacing:.01em}
+.home-refresh .home-conversion-card .conversion-cta{border:0;cursor:pointer;font-family:inherit}
+.home-refresh .home-conversion-card .conversion-cta:hover{filter:brightness(.94)}
+@media(max-width:600px){.home-refresh .taxi-korean{font-size:13px}.home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:570px}}
