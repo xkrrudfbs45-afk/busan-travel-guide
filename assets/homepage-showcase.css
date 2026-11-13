@@ -244,3 +244,123 @@ html[lang="ja"] .home-refresh .home-hero h1{
     padding-bottom:calc(32px + env(safe-area-inset-bottom));
   }
 }
+
+
+/* Homepage design batch 3 — 10-point visual polish, 2026-11-14 */
+/* 1–2. Match the mobile hero background to its 1000px responsive preload.
+   The desktop image remains the 1800 request (1920px Wikimedia delivery tier). */
+@media (max-width:560px){
+  .home-refresh .home-hero-backdrop{
+    background-image:
+      linear-gradient(90deg,rgba(7,20,37,.82) 0%,rgba(7,20,37,.58) 43%,rgba(7,20,37,.12) 100%),
+      linear-gradient(0deg,rgba(7,20,37,.38),transparent 48%),
+      url('https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1000');
+    background-position:62% center;
+  }
+}
+
+/* 3. Keep editorial photo credits legible without obscuring the subject. */
+.home-refresh .showcase-photo-credit{
+  position:absolute;top:13px;right:13px;z-index:2;
+  max-width:calc(100% - 26px);padding:5px 8px;
+  border:1px solid rgba(255,255,255,.3);border-radius:999px;
+  background:rgba(7,19,34,.62);color:rgba(255,255,255,.94);
+  font-size:9px;line-height:1.35;text-align:right;
+  backdrop-filter:blur(7px);
+}
+
+/* 4. Give every image-led editorial pick a consistent crop and stronger focus state. */
+.home-refresh .showcase-pick{
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  isolation:isolate;
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.home-refresh .showcase-pick:focus-visible{
+  outline:3px solid #ed765f;outline-offset:4px;
+  box-shadow:0 12px 30px rgba(11,27,48,.22);
+}
+.home-refresh .showcase-pick-copy{max-width:min(86%,520px)}
+.home-refresh .showcase-pick-copy strong{overflow-wrap:anywhere}
+
+/* 5. Make the six discovery shortcuts thumb-friendly on narrow phones. */
+@media(max-width:600px){
+  .home-refresh .showcase-quick-wrap{margin-top:-26px}
+  .home-refresh .showcase-quickbar{
+    display:flex;gap:0;overflow-x:auto;overscroll-behavior-x:contain;
+    scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+    scrollbar-width:thin;border-radius:13px;
+  }
+  .home-refresh .showcase-quick-item{
+    flex:0 0 142px;min-height:104px;scroll-snap-align:start;
+    border-right:1px solid var(--show-line)!important;border-bottom:0!important;
+  }
+  .home-refresh .showcase-quick-item:last-child{border-right:0!important}
+  .home-refresh .showcase-quick-item:focus-visible{outline:3px solid #ed765f;outline-offset:-4px}
+}
+
+/* 6. Preserve a clear image hierarchy in the mobile editorial bento. */
+@media(max-width:600px){
+  .home-refresh .showcase-picks{padding-top:38px;padding-bottom:36px}
+  .home-refresh .showcase-bento{grid-template-rows:205px 154px;gap:10px}
+  .home-refresh .pick-1{padding:15px}
+  .home-refresh .pick-2,.home-refresh .pick-3{padding:12px}
+  .home-refresh .pick-2 .showcase-pick-tag,.home-refresh .pick-3 .showcase-pick-tag{font-size:7px;padding:5px 8px}
+  .home-refresh .pick-2 .showcase-pick-copy,.home-refresh .pick-3 .showcase-pick-copy{max-width:100%;padding-right:0}
+  .home-refresh .pick-2 .showcase-photo-credit,.home-refresh .pick-3 .showcase-photo-credit{top:8px;right:8px;font-size:8px}
+}
+
+/* 7. Neighborhood photography: consistent cover crop, readable labels and calm hover. */
+.home-refresh .home-photo-grid>a{isolation:isolate;box-shadow:0 8px 24px rgba(16,27,53,.1);transition:transform .25s ease,box-shadow .25s ease}
+.home-refresh .home-photo-grid>a img{object-fit:cover;object-position:center;transition:transform .5s ease}
+.home-refresh .home-photo-grid>a:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(16,27,53,.16)}
+.home-refresh .home-photo-grid>a:hover img{transform:scale(1.04)}
+.home-refresh .home-photo-grid>a:focus-visible{outline:3px solid #ed765f;outline-offset:4px}
+.home-refresh .home-photo-grid>a span{z-index:1}
+
+/* 8. Seasonal cards share a calmer editorial frame and keep image crops intentional. */
+.home-refresh .seasonal-event-card{overflow:hidden;transition:transform .22s ease,box-shadow .22s ease}
+.home-refresh .seasonal-event-card:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(16,27,53,.13)}
+.home-refresh .seasonal-event-card:focus-within{outline:3px solid #ed765f;outline-offset:3px}
+.home-refresh .seasonal-event-photo{background-size:cover;background-position:center}
+.home-refresh .seasonal-event-copy{display:flex;flex-direction:column;align-items:flex-start}
+.home-refresh .seasonal-event-copy h3{margin-top:9px}
+.home-refresh .seasonal-event-copy a{display:inline-flex;align-items:center;min-height:36px;margin-top:auto;padding-top:8px;font-weight:800;text-underline-offset:3px}
+
+/* 9. Taiwan-specific landing callout: distinct editorial panel, responsive and scannable. */
+.home-refresh .taiwan-traveler-feature{padding:26px 0 10px!important}
+.home-refresh .taiwan-traveler-feature>div{
+  position:relative;overflow:hidden;grid-template-columns:1.25fr .9fr!important;
+  gap:clamp(18px,3vw,34px)!important;padding:clamp(22px,4vw,38px)!important;
+  border:1px solid #ead9cc;border-radius:18px!important;
+  background:linear-gradient(120deg,#fff8f2 0%,#f3e7dc 58%,#e8eef3 100%)!important;
+  box-shadow:0 12px 30px rgba(32,42,57,.08);
+}
+.home-refresh .taiwan-traveler-feature .eyebrow{color:#a65343;letter-spacing:.16em}
+.home-refresh .taiwan-traveler-feature h2{max-width:620px;color:#17243a}
+.home-refresh .taiwan-traveler-feature>div>div:last-child{
+  align-self:stretch;padding:19px 21px!important;border:1px solid rgba(32,42,57,.08)!important;
+  border-radius:12px!important;background:rgba(255,255,255,.78)!important;
+}
+.home-refresh .taiwan-traveler-feature>div>div:last-child strong{font-size:13px}
+.home-refresh .taiwan-traveler-feature>div>div:last-child p{line-height:1.6}
+@media(max-width:650px){
+  .home-refresh .taiwan-traveler-feature{padding:18px 0 8px!important}
+  .home-refresh .taiwan-traveler-feature>div{grid-template-columns:1fr!important;gap:14px!important;padding:21px!important}
+}
+
+/* 10. Consistent section rhythm and locale-safe headline wrapping. */
+.home-refresh .showcase-section-head h2,
+.home-refresh .seasonal-events-heading h2{ text-wrap:balance }
+.home-refresh .showcase-section-head>div>p:last-child{overflow-wrap:anywhere}
+html[lang="ja"] .home-refresh .showcase-section-head h2,
+html[lang="zh-Hant-TW"] .home-refresh .showcase-section-head h2{
+  line-break:strict;word-break:normal;overflow-wrap:anywhere;
+}
+@media(prefers-reduced-motion:reduce){
+  .home-refresh .showcase-pick,.home-refresh .home-photo-grid>a,
+  .home-refresh .home-photo-grid>a img,.home-refresh .seasonal-event-card{transition:none!important}
+  .home-refresh .showcase-pick:hover,.home-refresh .home-photo-grid>a:hover,
+  .home-refresh .seasonal-event-card:hover{transform:none!important}
+}
