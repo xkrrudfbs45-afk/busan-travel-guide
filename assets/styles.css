@@ -1195,3 +1195,116 @@ main>.gmap-direct-link{display:flex;width:fit-content;margin-left:max(22px,calc(
   .home-refresh .home-hero .home-hero-inner{padding-top:206px}
   .home-refresh .home-hero{background:linear-gradient(180deg,#fff 0%,#f4f8ff 100%)}
 }
+
+
+/* =========================================================
+   GO2BUSAN EDITORIAL SYSTEM — PHASE 1
+   A coherent visual language for guide directories and stories.
+   Homepage-specific rules remain in homepage-editorial.css.
+   ========================================================= */
+:root{
+  --gb-ink:#10243a;--gb-ink-soft:#30445a;--gb-muted:#68798b;
+  --gb-paper:#f7f8f6;--gb-white:#fff;--gb-sea:#1769aa;
+  --gb-sea-deep:#103d62;--gb-sand:#e9e2d5;--gb-coral:#d96f5b;
+  --gb-line:#dfe5e8;--gb-serif:Georgia,"Times New Roman",serif;
+  --gb-sans:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+body:not(.home-refresh){background:var(--gb-paper);color:var(--gb-ink);font-family:var(--gb-sans);line-height:1.7}
+body:not(.home-refresh) .shell{width:min(1180px,calc(100% - 56px))}
+body:not(.home-refresh) .site-header{background:rgba(250,251,249,.94);border-bottom:1px solid rgba(16,36,58,.1);box-shadow:0 5px 24px rgba(16,36,58,.035);backdrop-filter:blur(18px)}
+body:not(.home-refresh) .nav-wrap{min-height:82px;gap:30px}
+body:not(.home-refresh) .brand-lockup{width:218px;max-width:25%;flex:none}
+body:not(.home-refresh) .brand-lockup img{display:block;width:100%;max-height:48px;object-fit:contain;object-position:left center}
+body:not(.home-refresh) .site-header nav{align-items:center;gap:clamp(16px,2.1vw,30px)}
+body:not(.home-refresh) .site-header nav a{font-size:12px;letter-spacing:.015em;color:#3b5065;font-weight:700}
+body:not(.home-refresh) .site-header nav a:hover{color:var(--gb-sea)}
+body:not(.home-refresh) .language-pill{border:1px solid var(--gb-line);border-radius:999px;background:#fff;color:var(--gb-ink);padding:8px 13px;font-size:11px}
+body:not(.home-refresh) .article-hero{position:relative;padding:54px 0 43px;border:0;border-bottom:1px solid var(--gb-line)}
+body:not(.home-refresh) .article-hero:after{content:"";position:absolute;right:0;bottom:-1px;width:112px;height:3px;background:var(--gb-coral)}
+body:not(.home-refresh) .breadcrumbs{font-size:11px;letter-spacing:.015em;color:#82909d;margin-bottom:26px}
+body:not(.home-refresh) .breadcrumbs a{color:#52677a;text-decoration:none}
+body:not(.home-refresh) .article-hero .eyebrow{color:var(--gb-sea);font-size:10px;letter-spacing:.19em;font-weight:800}
+body:not(.home-refresh) .article-hero h1{max-width:900px;font-family:var(--gb-serif);font-weight:500;font-size:clamp(42px,5.4vw,68px);line-height:1.04;letter-spacing:-.052em;color:var(--gb-ink);margin:12px 0 20px}
+body:not(.home-refresh) .article-deck{max-width:780px;font-size:17px;line-height:1.78;color:#5c6e7f}
+body:not(.home-refresh) .article-meta{gap:9px 18px;margin-top:25px}
+body:not(.home-refresh) .article-meta span{font-size:9px;letter-spacing:.1em;color:#60758a;font-weight:800}
+body:not(.home-refresh) .article-meta span+span:before{content:"";display:inline-block;width:4px;height:4px;margin:0 12px 2px 0;border-radius:50%;background:var(--gb-coral)}
+body:not(.home-refresh) .spa-photo{margin:34px auto 0;max-width:1180px;overflow:hidden;border-radius:5px;background:#e8edf0}
+body:not(.home-refresh) .spa-photo img{display:block;width:100%;max-height:560px;object-fit:cover}
+body:not(.home-refresh) .spa-photo figcaption{padding:11px 15px;background:#fff;color:#718091;font-size:10px;line-height:1.6}
+body:not(.home-refresh) .article-layout{grid-template-columns:minmax(0,790px) 250px;gap:clamp(42px,6vw,90px);padding-top:54px;padding-bottom:100px}
+body:not(.home-refresh) .article-body{font-size:16px;line-height:1.95;color:#34495c}
+body:not(.home-refresh) .article-body p{margin:0 0 23px}
+body:not(.home-refresh) .article-body h2{position:relative;margin:58px 0 19px;padding-top:17px;border-top:1px solid var(--gb-line);font-family:var(--gb-serif);font-size:clamp(28px,3vw,36px);line-height:1.18;letter-spacing:-.035em;color:var(--gb-ink)}
+body:not(.home-refresh) .article-body h2:before{content:"";position:absolute;top:-1px;left:0;width:42px;height:2px;background:var(--gb-sea)}
+body:not(.home-refresh) .article-body h3{margin:31px 0 12px;color:var(--gb-ink);font-size:18px;letter-spacing:-.02em}
+body:not(.home-refresh) .article-body a,body:not(.home-refresh) .simple-page a{color:#155f98;text-decoration-thickness:1px;text-underline-offset:4px}
+body:not(.home-refresh) .article-body a:hover{color:var(--gb-coral)}
+body:not(.home-refresh) .callout{padding:25px 27px;margin:0 0 35px;border:1px solid #dce7ed;border-left:3px solid var(--gb-sea);border-radius:3px;background:#edf3f5;color:#294257}
+body:not(.home-refresh) .callout p:last-child{margin:0}
+body:not(.home-refresh) .warning{background:#f7eee8;border-color:#ead8cd;border-left-color:var(--gb-coral)}
+body:not(.home-refresh) .article-body ul,body:not(.home-refresh) .article-body ol{padding-left:25px;margin:0 0 28px}
+body:not(.home-refresh) .article-body li{padding-left:5px;margin-bottom:10px}
+body:not(.home-refresh) .article-body li::marker{color:var(--gb-sea)}
+body:not(.home-refresh) .table-wrap{border:1px solid var(--gb-line);border-radius:4px;box-shadow:0 8px 24px rgba(16,36,58,.04)}
+body:not(.home-refresh) table{font-size:13px}
+body:not(.home-refresh) th{background:#edf1f2;color:#30495e}
+body:not(.home-refresh) th,body:not(.home-refresh) td{padding:15px 16px}
+body:not(.home-refresh) .article-aside{top:108px}
+body:not(.home-refresh) .aside-box{padding:21px 19px 22px;border:1px solid var(--gb-line);border-top:3px solid var(--gb-sea);border-radius:4px;background:#fff;box-shadow:0 10px 30px rgba(16,36,58,.045)}
+body:not(.home-refresh) .aside-box h2{font-size:10px;letter-spacing:.16em;color:var(--gb-ink)}
+body:not(.home-refresh) .aside-box a{padding:7px 0;margin:0;border-bottom:1px solid #edf0f1;color:#5b6e7f;line-height:1.45}
+body:not(.home-refresh) .aside-box a:hover{color:var(--gb-sea)}
+body:not(.home-refresh) .aside-note{padding:15px 0 0;border:0;color:#7b8996}
+body:not(.home-refresh) .article-end{margin-top:58px;padding-top:28px;border-top:1px solid var(--gb-line)}
+body:not(.home-refresh) .article-end h3{font-family:var(--gb-serif);font-size:29px;color:var(--gb-ink)}
+/* Guide directory: curated editorial index rather than a plain link dump. */
+body:not(.home-refresh) .guide-directory-jumps{display:flex;gap:9px;flex-wrap:wrap;padding-top:25px;padding-bottom:8px}
+body:not(.home-refresh) .guide-directory-jumps a{padding:9px 14px;border:1px solid var(--gb-line);border-radius:999px;background:#fff;color:#43596d;font-size:11px;font-weight:750;text-decoration:none;transition:all .18s}
+body:not(.home-refresh) .guide-directory-jumps a:hover{border-color:var(--gb-sea);background:var(--gb-sea-deep);color:#fff}
+body:not(.home-refresh) .guide-directory{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding-top:25px;padding-bottom:90px}
+body:not(.home-refresh) .guide-directory-section{position:relative;padding:29px 30px 27px;border:1px solid var(--gb-line);border-radius:4px;background:#fff;box-shadow:0 7px 24px rgba(16,36,58,.035);transition:transform .2s,box-shadow .2s}
+body:not(.home-refresh) .guide-directory-section:hover{transform:translateY(-2px);box-shadow:0 14px 34px rgba(16,36,58,.075)}
+body:not(.home-refresh) .guide-directory-section h2{font-family:var(--gb-serif);font-size:29px;letter-spacing:-.035em;color:var(--gb-ink)}
+body:not(.home-refresh) .guide-directory-section>p{font-size:12px;line-height:1.7;color:#718091;padding-bottom:15px;border-bottom:1px solid #edf0f1}
+body:not(.home-refresh) .guide-directory-section ul{list-style:none;padding:0;margin:0}
+body:not(.home-refresh) .guide-directory-section li{position:relative;padding:8px 22px 8px 0;border-bottom:1px solid #f0f2f2;font-size:13px;line-height:1.5}
+body:not(.home-refresh) .guide-directory-section li:last-child{border-bottom:0}
+body:not(.home-refresh) .guide-directory-section li:after{content:"↗";position:absolute;right:1px;top:8px;color:#9aa8b2;font-size:12px}
+body:not(.home-refresh) .guide-directory-section a{color:#344d62;text-decoration:none}
+body:not(.home-refresh) .guide-directory-section a:hover{color:var(--gb-sea)}
+body:not(.home-refresh) .simple-page{max-width:820px;padding-top:70px;padding-bottom:100px}
+body:not(.home-refresh) .simple-page h1{font-family:var(--gb-serif);font-size:clamp(42px,5vw,62px);font-weight:500;letter-spacing:-.045em;color:var(--gb-ink)}
+body:not(.home-refresh) .simple-page h2{font-family:var(--gb-serif);color:var(--gb-ink)}
+@media(max-width:820px){
+ body:not(.home-refresh) .article-layout{grid-template-columns:1fr;gap:28px;padding-top:34px}
+ body:not(.home-refresh) .article-aside{position:static;order:-1}
+ body:not(.home-refresh) .article-aside .aside-box{display:flex;flex-wrap:wrap;gap:7px 16px;align-items:center}
+ body:not(.home-refresh) .article-aside .aside-box h2{width:100%}
+ body:not(.home-refresh) .article-aside .aside-box a{display:inline-block;border:0;margin:0}
+ body:not(.home-refresh) .article-aside .aside-note{display:none}
+ body:not(.home-refresh) .article-hero{padding-top:38px}
+ body:not(.home-refresh) .article-hero h1{font-size:clamp(38px,7vw,54px)}
+}
+@media(max-width:600px){
+ body:not(.home-refresh) .shell{width:calc(100% - 34px)}
+ body:not(.home-refresh) .nav-wrap{min-height:66px;gap:12px}
+ body:not(.home-refresh) .brand-lockup{width:148px;max-width:42%}
+ body:not(.home-refresh) .site-header nav{gap:11px}
+ body:not(.home-refresh) .site-header nav a{font-size:10px}
+ body:not(.home-refresh) .header-actions{gap:5px}
+ body:not(.home-refresh) .language-pill{min-height:30px;padding:6px 9px;font-size:10px}
+ body:not(.home-refresh) .article-hero{padding-top:31px;padding-bottom:30px}
+ body:not(.home-refresh) .article-hero h1{font-size:39px}
+ body:not(.home-refresh) .article-deck{font-size:15px}
+ body:not(.home-refresh) .article-meta{gap:8px}
+ body:not(.home-refresh) .article-meta span{font-size:8px}
+ body:not(.home-refresh) .spa-photo{margin-top:22px}
+ body:not(.home-refresh) .article-body{font-size:15px;line-height:1.85}
+ body:not(.home-refresh) .article-body h2{font-size:29px;margin-top:43px}
+ body:not(.home-refresh) .callout{padding:19px 18px}
+ body:not(.home-refresh) .guide-directory{grid-template-columns:1fr;gap:12px;padding-bottom:60px}
+ body:not(.home-refresh) .guide-directory-section{padding:23px 21px}
+ body:not(.home-refresh) .guide-directory-section h2{font-size:26px}
+}
+@media(prefers-reduced-motion:reduce){body:not(.home-refresh) .guide-directory-section{transition:none}}
