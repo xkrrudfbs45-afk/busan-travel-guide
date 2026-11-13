@@ -3739,7 +3739,7 @@
         {
           "cat": "保存して活用",
           "title": "韓国語を見せる",
-          "body": "덜 맵게 해 주세요 —「辛さ控えめにしてください」",
+          "body": "덜 맵게 해 주세요 — 「辛さ控えめにしてください」",
           "cta": "保存 · 詳細ガイドはプロフィールへ"
         }
       ],
@@ -3749,7 +3749,7 @@
         "status": "verified",
         "register": "ig-fresh15-14",
         "checked_on": "2026-11-13",
-        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues). 2026-11-13: card 5 body gets a space after the dash so it can wrap (owner chose option 1); wording unchanged.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125",
