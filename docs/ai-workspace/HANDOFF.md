@@ -214,3 +214,13 @@ Pending: build, full audit suite, and cross-locale browser QA at 360/390/768/128
 - Added responsive adjustments for narrow phones and CJK line wrapping; bumped all three homepage stylesheet cache keys to `20261114-visual-batch4`.
 
 Preserved existing images, attribution records, page copy, routes, canonical/hreflang, metadata, JSON-LD, analytics and affiliate destinations. Verification on this exact head is pending; keep PR #406 Draft and do not merge/deploy before CI and visual QA.
+
+
+## Busan Now winter refresh — 2026-11-14
+- Replaced the English homepage's Bukangi-first Busan Now feature with a seasonal visitor-interest feature covering Millak Luce Festa, Busan Christmas Village and Haeundae Light Festival; added equivalent native Japanese and Traditional Chinese sections.
+- Expanded the existing Things to Do in Busan guide in EN / JA / zh-TW with five useful experiences: three official winter events, ARTE MUSEUM Busan and Haewol Observatory.
+- Added verified date windows, admission status, official information links and map links; avoided presenting generic Gwangalli photography as festival imagery.
+- Added adjacent attribution for the Gwangalli Beach and Gwangan Bridge photo (Masterhatch, CC BY-SA 4.0), and refined the responsive Busan Now feature layout.
+- Updated the shared search index tags and November acquisition playbook with verified facts and editorial guardrails.
+- Previous homepage design batch 4 exact-head Technical SEO workflow `43525561647` passed. The Busan Now refresh is a later change and still requires its own CI and visual QA.
+- These new commits are additional to merged PR #406 and need a separate PR against main; do not treat them as deployed.
