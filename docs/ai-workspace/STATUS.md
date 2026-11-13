@@ -181,3 +181,18 @@ Pending: build, full audit suite, and cross-locale browser QA at 360/390/768/128
 - Updated all three homepage stylesheet cache keys to `20261114-visual-batch3`.
 - Preserved photo subjects, attribution text/links, routes, article copy, canonical/hreflang, metadata, JSON-LD, analytics and affiliate destinations.
 - Verification is pending on this exact head: build, technical audits and Playwright screenshots at 360/390/768/1280. PR #406 remains Draft; no merge or deployment.
+
+
+## Homepage design batch 4 — 2026-11-14 (10 coordinated refinements)
+- Unified hero composition, copy width and headline wrapping across EN / JA / Traditional Chinese.
+- Clarified hero primary/secondary actions and improved touch/keyboard states.
+- Improved search field affordance, focus visibility and minimum touch target.
+- Aligned desktop header logo, navigation and utility controls.
+- Refined discovery shortcut icon/label alignment and focus states.
+- Improved editorial bento card layering, title and photo-credit placement.
+- Strengthened booking/planning card hierarchy, hover and focus treatment.
+- Standardized destination photo caption behavior and image container sizing.
+- Refined seasonal event and FAQ card typography, rhythm and interaction.
+- Added responsive adjustments for narrow phones and CJK line wrapping; bumped all three homepage stylesheet cache keys to `20261114-visual-batch4`.
+
+Preserved existing images, attribution records, page copy, routes, canonical/hreflang, metadata, JSON-LD, analytics and affiliate destinations. Verification on this exact head is pending; keep PR #406 Draft and do not merge/deploy before CI and visual QA.
