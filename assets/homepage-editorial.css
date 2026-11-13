@@ -409,3 +409,9 @@ html[lang="ja"] .home-refresh .showcase-pick-copy{
     white-space:normal;
   }
 }
+
+@media(max-width:560px){
+  .home-refresh .site-header nav:not(.is-open){display:none!important}
+  .home-refresh .site-header nav.is-open{display:flex!important}
+  .home-refresh .site-header .mobile-menu-toggle{display:flex!important}
+}
