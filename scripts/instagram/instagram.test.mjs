@@ -88,7 +88,7 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
   const sched = realSchedule;
   const reg = JSON.parse(rf("content/social/instagram/source-register.json", "utf8"));
   const v2 = sched.posts.filter((p) => p.design === "v2");
-  assert.equal(v2.length, 66); // 21 launch series + 45 fifteen-day drafts (Nov 12-26)
+  assert.equal(v2.length, 69); // 21 launch series + 45 fifteen-day drafts + 3 Nov 28 event drafts
   for (const p of v2) {
     assert.deepEqual(checkPost(p), [], p.id);
     // Only posts whose topic was fact-checked (verification.verified) may be approved; everything else stays a draft.
@@ -96,6 +96,10 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
     else assert.equal(p.status, "draft", p.id);
     assert.ok(reg.topics[p.verification.register], `${p.id} register`);
   }
+  const gwangbok = v2.filter((p) => p.verification.register === "ig-fresh15-16");
+  assert.equal(gwangbok.length, 3);
+  assert.ok(gwangbok.every((p) => p.status === "draft" && p.verification.status === "needs_check"));
+  assert.ok(gwangbok.every((p) => p.publish_at_utc.startsWith("2026-11-28T")));
   const bySet = {};
   for (const p of v2) (bySet[p.art.set] ??= []).push(p);
   for (const [set, ps] of Object.entries(bySet)) {
