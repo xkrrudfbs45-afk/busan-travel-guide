@@ -1,0 +1,468 @@
+/* Go2Busan homepage showcase — editorial visual system */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
+.home-refresh{--show-ink:#17243a;--show-muted:#687487;--show-paper:#faf8f4;--show-coral:#e97861;--show-line:#e9e4dc;font-family:'DM Sans',Inter,Arial,sans-serif;background:var(--show-paper);color:var(--show-ink)}
+.home-refresh .site-header{position:absolute;inset:0 0 auto;z-index:50;background:linear-gradient(180deg,rgba(9,22,39,.72),transparent);border:0;color:#fff}
+.home-refresh .nav-wrap{min-height:86px}
+.home-refresh .brand-lockup img{filter:brightness(0) invert(1)}
+.home-refresh .site-header nav a{color:#fff;font-size:12px;font-weight:600;letter-spacing:.025em}
+.home-refresh .site-header nav a:hover{color:#ffd2c8}
+.home-refresh .header-actions{gap:8px}
+.home-refresh .header-actions .language-pill,.home-refresh .header-actions .search-icon{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;padding:8px 10px;color:#fff;border:1px solid rgba(255,255,255,.48);border-radius:999px;background:rgba(255,255,255,.1)}
+.home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:680px}
+.home-refresh .home-hero{position:relative;overflow:hidden;background:#101d31}
+.home-refresh .home-hero-backdrop{position:absolute;inset:0;background-image:linear-gradient(90deg,rgba(7,20,37,.82) 0%,rgba(7,20,37,.58) 43%,rgba(7,20,37,.12) 100%),linear-gradient(0deg,rgba(7,20,37,.38),transparent 48%),url('https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1800');background-size:cover;background-position:center 54%;transform:scale(1.01)}
+.home-refresh .home-hero-inner{position:relative;z-index:1;align-items:center;padding:125px 0 105px}
+.home-refresh .home-hero-copy{max-width:700px}
+.home-refresh .hero-script{font-size:10px!important;letter-spacing:.24em;text-transform:uppercase;color:#f6cfc4!important}
+.home-refresh .home-hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(58px,7vw,94px);font-weight:500;line-height:1.02;letter-spacing:-.045em;color:#fff;max-width:750px}
+.home-refresh .home-hero h1 em{display:block;color:#f4cfc4;font-style:italic;font-weight:500}
+.home-refresh .home-hero .hero-intro{max-width:510px;color:rgba(255,255,255,.9);font-size:16px;line-height:1.8;margin:22px 0 24px}
+.home-refresh .showcase-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 25px}
+.home-refresh .showcase-primary,.home-refresh .showcase-secondary{display:inline-flex;align-items:center;justify-content:center;gap:18px;min-height:48px;padding:0 21px;border-radius:4px;font-size:12px;font-weight:700;text-decoration:none;transition:transform .2s,background .2s}
+.home-refresh .showcase-primary{background:var(--show-coral);color:#fff;box-shadow:0 8px 24px rgba(10,20,35,.2)}
+.home-refresh .showcase-primary:hover{background:#d96550;transform:translateY(-2px)}
+.home-refresh .showcase-secondary{border:1px solid rgba(255,255,255,.7);color:#fff;background:rgba(255,255,255,.08)}
+.home-refresh .showcase-secondary:hover{background:rgba(255,255,255,.18)}
+.home-refresh .site-search{max-width:510px;min-height:52px;border:1px solid rgba(255,255,255,.55);border-radius:4px;background:#fff;box-shadow:0 14px 38px rgba(0,0,0,.18)}
+.home-refresh .site-search button{background:var(--show-coral);border-radius:3px}
+.home-refresh .search-quick-links button{border-radius:3px;background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35);color:#fff}
+.home-refresh .home-image-credit{color:rgba(255,255,255,.78)}
+.home-refresh .home-image-credit a{color:#fff}
+.home-refresh .showcase-quick-wrap{position:relative;z-index:5;margin-top:-43px}
+.home-refresh .showcase-quickbar{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));background:#fff;border:1px solid rgba(28,39,57,.07);border-radius:7px;box-shadow:0 16px 45px rgba(23,36,58,.13);overflow:hidden}
+.home-refresh .showcase-quick-item{display:flex;min-height:116px;flex-direction:column;align-items:center;justify-content:center;gap:9px;padding:15px 9px;text-align:center;text-decoration:none;color:var(--show-ink);font-size:11px;font-weight:700;line-height:1.35;border-right:1px solid var(--show-line);transition:background .2s,color .2s}
+.home-refresh .showcase-quick-item:last-child{border-right:0}
+.home-refresh .showcase-quick-item:hover{background:#fbf2ee;color:#a94f40}
+.home-refresh .showcase-quick-icon{display:grid;place-items:center;width:37px;height:37px;border-radius:50%;background:#f6eee8;color:#b96552;font-size:18px}
+.home-refresh .showcase-quick-item b{display:none}
+.home-refresh .showcase-picks{padding-top:76px;padding-bottom:66px}
+.home-refresh .showcase-section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:25px}
+.home-refresh .showcase-kicker{margin:0 0 8px;color:#b76552;font-size:9px;font-weight:800;letter-spacing:.2em}
+.home-refresh .showcase-section-head h2{margin:0;color:var(--show-ink);font-family:'Playfair Display',Georgia,serif;font-size:clamp(36px,4.4vw,54px);font-weight:500;letter-spacing:-.04em;line-height:1.08}
+.home-refresh .showcase-section-head>div>p:last-child{max-width:520px;margin:10px 0 0;color:var(--show-muted);font-size:13px;line-height:1.7}
+.home-refresh .showcase-view-all{flex:none;color:#9d5547;font-size:11px;font-weight:800;text-decoration:none}
+.home-refresh .showcase-bento{display:grid;grid-template-columns:minmax(250px,.86fr) minmax(0,1.14fr);grid-template-rows:repeat(2,245px);gap:17px}
+.home-refresh .showcase-pick{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-width:0;overflow:hidden;padding:18px;border-radius:5px;background:#24364b center/cover no-repeat;background-image:linear-gradient(180deg,rgba(7,19,34,.16),rgba(7,19,34,.08) 35%,rgba(7,19,34,.76)),var(--pick-image);color:#fff;text-decoration:none;isolation:isolate}
+.home-refresh .showcase-pick:before{position:absolute;inset:0;z-index:-1;content:"";background:linear-gradient(0deg,rgba(7,19,34,.72),transparent 72%);transition:background .25s}
+.home-refresh .showcase-pick:hover:before{background:linear-gradient(0deg,rgba(7,19,34,.82),rgba(7,19,34,.08))}
+.home-refresh .showcase-pick:hover{background-size:auto,auto,cover}
+.home-refresh .pick-1{grid-column:1;grid-row:1}
+.home-refresh .pick-2{grid-column:1;grid-row:2}
+.home-refresh .pick-3{grid-column:2;grid-row:1}
+.home-refresh .pick-4{grid-column:2;grid-row:2}
+.home-refresh .showcase-pick-tag{align-self:flex-start;max-width:100%;padding:7px 11px;border:1px solid rgba(255,255,255,.55);border-radius:99px;background:rgba(14,28,45,.28);backdrop-filter:blur(8px);font-size:8px;font-weight:800;letter-spacing:.13em;white-space:normal}
+.home-refresh .showcase-pick-copy{display:flex;flex-direction:column;gap:6px;max-width:82%;padding-right:28px}
+.home-refresh .showcase-pick-copy strong{font-family:'Playfair Display',Georgia,serif;font-size:clamp(21px,2.3vw,30px);font-weight:500;line-height:1.18;text-wrap:balance}
+.home-refresh .showcase-pick-copy small{color:rgba(255,255,255,.83);font-size:10px;line-height:1.5}
+.home-refresh .showcase-pick-arrow{position:absolute;right:17px;bottom:17px;display:grid;place-items:center;width:37px;height:37px;border:1px solid rgba(255,255,255,.7);border-radius:50%;background:rgba(255,255,255,.12);font-size:17px;transition:background .2s,transform .2s}
+.home-refresh .showcase-pick:hover .showcase-pick-arrow{background:var(--show-coral);border-color:var(--show-coral);transform:translate(2px,-2px)}
+.home-refresh .seasonal-events{padding-top:30px}
+.home-refresh .site-header a:focus-visible,.home-refresh main a:focus-visible,.home-refresh main button:focus-visible{outline:3px solid #e97861;outline-offset:3px}
+.home-refresh .mobile-menu-toggle{display:none}
+@media(max-width:900px){
+ .home-refresh .showcase-quickbar{grid-template-columns:repeat(3,minmax(0,1fr))}
+ .home-refresh .showcase-quick-item:nth-child(3){border-right:0}
+ .home-refresh .showcase-quick-item:nth-child(-n+3){border-bottom:1px solid var(--show-line)}
+ .home-refresh .showcase-bento{grid-template-columns:1fr 1fr;grid-template-rows:repeat(2,210px)}
+}
+@media(max-width:768px){
+ .home-refresh .nav-wrap{width:calc(100% - 28px);min-height:72px;gap:8px}
+ .home-refresh .brand-lockup{width:clamp(118px,32vw,165px);max-width:none}
+ .home-refresh .mobile-menu-toggle{display:flex;flex:none;flex-direction:column;justify-content:center;gap:5px;width:44px;height:44px;padding:10px;border:1px solid rgba(255,255,255,.45);border-radius:50%;background:rgba(255,255,255,.1);cursor:pointer}
+ .home-refresh .mobile-menu-toggle span{display:block;width:100%;height:1.5px;background:#fff}
+ .home-refresh .site-header nav{display:none;position:absolute;top:68px;left:14px;right:14px;z-index:55;flex-direction:column;align-items:stretch;gap:0;padding:8px 14px;border:1px solid rgba(255,255,255,.18);border-radius:7px;background:#14243a;box-shadow:0 16px 35px rgba(0,0,0,.25)}
+ .home-refresh .site-header nav.is-open{display:flex}
+ .home-refresh .site-header nav a{padding:13px 5px;border-bottom:1px solid rgba(255,255,255,.12);font-size:13px}
+ .home-refresh .site-header nav a:last-child{border-bottom:0}
+ .home-refresh .header-actions{margin-left:auto;gap:5px}
+ .home-refresh .header-actions .search-icon,.home-refresh .header-actions .language-pill{display:inline-flex;min-width:44px;min-height:44px;padding:5px 7px;font-size:10px}
+ .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:640px}
+ .home-refresh .home-hero-inner{padding:118px 0 95px}
+ .home-refresh .home-hero-backdrop{background-position:62% center}
+ .home-refresh .home-hero h1{font-size:clamp(48px,10vw,72px)}
+ .home-refresh .home-hero .hero-intro{font-size:14px}
+ .home-refresh .showcase-quick-wrap{margin-top:-34px}
+ .home-refresh .showcase-quickbar{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .home-refresh .showcase-quick-item{min-height:90px;flex-direction:row;justify-content:flex-start;text-align:left;padding:12px 13px;font-size:10px;border-bottom:1px solid var(--show-line)}
+ .home-refresh .showcase-quick-item:nth-child(odd){border-right:1px solid var(--show-line)}
+ .home-refresh .showcase-quick-item:nth-child(even){border-right:0}
+ .home-refresh .showcase-quick-item:nth-last-child(-n+2){border-bottom:0}
+ .home-refresh .showcase-quick-icon{flex:none;width:34px;height:34px}
+ .home-refresh .showcase-quick-item b{display:block;margin-left:auto;color:#b96552}
+ .home-refresh .showcase-picks{padding-top:54px;padding-bottom:45px}
+ .home-refresh .showcase-section-head{align-items:flex-start;flex-direction:column;gap:12px}
+ .home-refresh .showcase-bento{grid-template-columns:1fr;grid-template-rows:none;gap:12px}
+ .home-refresh .showcase-pick{grid-column:1!important;grid-row:auto!important;min-height:225px}
+ .home-refresh .showcase-pick-copy strong{font-size:26px}
+}
+@media(max-width:420px){
+ .home-refresh .header-actions .language-pill{min-width:44px;padding:4px;font-size:9px}
+ .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:620px}
+ .home-refresh .home-hero h1{font-size:clamp(43px,11.5vw,58px)}
+ .home-refresh .showcase-hero-actions{gap:8px}
+ .home-refresh .showcase-primary,.home-refresh .showcase-secondary{min-height:46px;padding:0 13px;font-size:10px}
+ .home-refresh .showcase-quick-item{padding:10px 8px;font-size:9px;gap:8px}
+ .home-refresh .showcase-quick-icon{width:30px;height:30px}
+}
+html:lang(ja) .home-refresh .showcase-pick-copy strong,
+html:lang(zh-TW) .home-refresh .showcase-pick-copy strong{font-family:'Noto Serif JP','Noto Serif TC','Yu Mincho',serif;line-height:1.35}
+html:lang(ja) .home-refresh .showcase-quick-item,
+html:lang(zh-TW) .home-refresh .showcase-quick-item{line-height:1.5;overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){.home-refresh .showcase-pick,.home-refresh .showcase-pick-arrow,.home-refresh .showcase-primary{transition:none!important}}
+
+.home-refresh .showcase-photo-credit{position:absolute;right:14px;top:52px;max-width:58%;color:rgba(255,255,255,.82);font-size:8px;line-height:1.35;text-align:right;text-shadow:0 1px 5px rgba(0,0,0,.8)}
+@media(max-width:768px){.home-refresh .showcase-photo-credit{font-size:8px;max-width:64%}}
+
+
+/* Functional QA fixes — mobile navigation, locale controls and readable CJK headings */
+@media(max-width:900px){
+ .home-refresh .nav-wrap{display:flex;flex-wrap:nowrap;align-items:center;gap:7px;width:calc(100% - 24px)}
+ .home-refresh .brand-lockup{flex:0 1 142px;width:142px;min-width:0}
+ .home-refresh .mobile-menu-toggle{display:flex;flex:0 0 42px;width:42px;height:42px}
+ .home-refresh .site-header nav{display:none;position:absolute;top:calc(100% - 4px);left:12px;right:12px;z-index:60;flex-direction:column;align-items:stretch;gap:0;padding:8px 14px;border:1px solid rgba(255,255,255,.2);border-radius:9px;background:#14243a!important;box-shadow:0 16px 35px rgba(0,0,0,.28)}
+ .home-refresh .site-header nav.is-open{display:flex!important}
+ .home-refresh .site-header nav a{display:flex;align-items:center;min-height:44px;padding:11px 6px;color:#fff!important;background:transparent!important;border-bottom:1px solid rgba(255,255,255,.14);white-space:normal}
+ .home-refresh .site-header nav a:last-child{border-bottom:0}
+ .home-refresh .header-actions{display:flex;flex:0 0 auto;align-items:center;gap:4px;margin-left:auto}
+ .home-refresh .header-actions .search-icon,.home-refresh .header-actions .language-pill{min-width:36px;min-height:40px;padding:4px 6px;font-size:9px;white-space:nowrap}
+}
+@media(max-width:390px){
+ .home-refresh .brand-lockup{flex-basis:108px;width:108px}
+ .home-refresh .header-actions .search-icon{min-width:34px;width:34px}
+ .home-refresh .header-actions .language-pill{min-width:34px;padding-inline:4px;font-size:8px}
+}
+.home-refresh h1,.home-refresh h2,.home-refresh h3,
+html:lang(ja) .home-refresh h1,html:lang(zh-TW) .home-refresh h1{
+ word-break:keep-all;overflow-wrap:normal;line-break:strict;
+}
+.home-refresh .showcase-pick-copy strong{word-break:keep-all;overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){
+ .home-refresh *, .home-refresh *::before, .home-refresh *::after{
+  scroll-behavior:auto!important;animation:none!important;transition:none!important;
+ }
+ .home-refresh .showcase-pick:hover,.home-refresh .showcase-primary:hover,
+ .home-refresh .showcase-quick-item:hover{transform:none!important}
+}
+
+
+/* BUSAN EDITORIAL full-homepage composition: image-led discovery + conversion */
+.home-refresh .showcase-quickbar{border:1px solid #e5e9f0;border-radius:18px;box-shadow:0 16px 34px rgba(14,31,58,.12);background:rgba(255,255,255,.97)}
+.home-refresh .showcase-picks{padding-top:48px}
+.home-refresh .showcase-section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:22px}
+.home-refresh .showcase-section-head>div{display:grid;grid-template-columns:auto 1fr;column-gap:18px;align-items:center}
+.home-refresh .showcase-section-head .showcase-kicker{grid-column:1/-1;margin:0 0 5px;color:#d36552;font-size:10px;font-weight:800;letter-spacing:.18em}
+.home-refresh .showcase-section-head h2{margin:0;font-family:Georgia,'Times New Roman',serif;font-size:clamp(32px,4vw,48px);font-weight:500;letter-spacing:-.045em}
+.home-refresh .showcase-section-head>div>p:last-child{max-width:330px;margin:0;padding-left:18px;border-left:2px solid #ed715d;color:#526174;font-size:13px;line-height:1.55}
+.home-refresh .showcase-bento{display:grid;grid-template-columns:1.22fr .88fr .92fr;grid-template-rows:190px 190px;gap:14px}
+.home-refresh .showcase-pick{position:relative;min-height:0;border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(16,27,53,.12);background-size:cover;background-position:center}
+.home-refresh .showcase-pick::before{background:linear-gradient(180deg,rgba(4,17,32,.02) 15%,rgba(4,17,32,.78) 100%)}
+.home-refresh .showcase-pick:hover{transform:translateY(-3px)}
+.home-refresh .showcase-pick-1,.home-refresh .pick-1{grid-column:1;grid-row:1/3}
+.home-refresh .showcase-pick-2,.home-refresh .pick-2{grid-column:2;grid-row:1/3}
+.home-refresh .showcase-pick-3,.home-refresh .pick-3{grid-column:3;grid-row:1}
+.home-refresh .showcase-pick-4,.home-refresh .pick-4{grid-column:3;grid-row:2}
+.home-refresh .showcase-pick-copy strong{font-size:clamp(18px,2vw,25px);line-height:1.2}
+.home-refresh .showcase-pick-copy small{font-size:11px;color:rgba(255,255,255,.86)}
+.home-refresh .home-conversion-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:14px;margin:22px auto 18px}
+.home-refresh .home-conversion-card{position:relative;display:flex;min-height:142px;align-items:center;gap:16px;padding:20px;border-radius:16px;overflow:hidden;text-decoration:none;color:#14213b;background:#f0f5fb;border:1px solid #e4eaf2}
+.home-refresh .home-conversion-card strong{display:block;font-family:Georgia,'Times New Roman',serif;font-size:23px;line-height:1.1}
+.home-refresh .home-conversion-card small{display:block;margin-top:7px;color:#4b5b70;line-height:1.45}
+.home-refresh .home-conversion-card .conversion-tag{display:inline-flex;margin-bottom:8px;padding:4px 9px;border-radius:99px;background:#fff;color:#a83e32;font-size:9px;font-weight:850;letter-spacing:.08em}
+.home-refresh .home-conversion-card .conversion-cta{display:inline-flex;margin-top:12px;padding:9px 14px;border-radius:99px;background:#ed6c57;color:white;font-size:11px;font-weight:800}
+.home-refresh .home-conversion-card.pass{background:linear-gradient(120deg,#fff0eb,#ffe0d6)}
+.home-refresh .home-conversion-card.hotel{background:linear-gradient(120deg,#edf5ff,#dcecff)}
+.home-refresh .home-conversion-card.taxi{background:linear-gradient(120deg,#f2f5f8,#e6edf5)}
+.home-refresh .home-conversion-icon{flex:none;display:grid;place-items:center;width:46px;height:46px;border-radius:14px;background:rgba(255,255,255,.75);font-size:25px}
+.home-refresh .home-local-strip{display:grid;grid-template-columns:1fr 1.6fr 1fr;gap:12px;align-items:stretch;margin:18px auto 42px}
+.home-refresh .home-local-strip>div,.home-refresh .home-local-strip>a{display:flex;align-items:center;gap:12px;min-width:0;padding:13px 15px;border-radius:14px;background:#f2f4f8;text-decoration:none;color:#14213b}
+.home-refresh .home-local-strip strong{font-size:13px}
+.home-refresh .home-local-strip small{display:block;color:#667085;font-size:10px}
+.home-refresh .home-spot-links{display:flex;gap:8px;flex-wrap:wrap}
+.home-refresh .home-spot-links a{display:flex;align-items:center;gap:7px;padding:6px 10px;border-radius:99px;background:#fff;border:1px solid #e1e6ee;color:#344256;font-size:10px;font-weight:750;text-decoration:none}
+.home-refresh .home-share-links{display:flex;gap:8px;margin-left:auto}
+.home-refresh .home-share-links a,.home-refresh .home-share-links button{display:grid;place-items:center;width:34px;height:34px;border:1px solid #d9e0ea;border-radius:50%;background:#fff;color:#173b68;font-size:11px;font-weight:850;text-decoration:none;cursor:pointer}
+.home-refresh .mobile-travel-dock{display:none}
+@media(max-width:820px){
+ .home-refresh .showcase-bento{grid-template-columns:1fr 1fr;grid-template-rows:220px 170px}
+ .home-refresh .pick-1{grid-column:1/3;grid-row:1}
+ .home-refresh .pick-2{grid-column:1;grid-row:2}
+ .home-refresh .pick-3{grid-column:2;grid-row:2}
+ .home-refresh .pick-4{display:none}
+ .home-refresh .home-conversion-grid{grid-template-columns:1fr 1fr}
+ .home-refresh .home-conversion-card:first-child{grid-column:1/-1}
+ .home-refresh .home-local-strip{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+ .home-refresh{padding-bottom:76px}
+ .home-refresh .showcase-section-head>div{display:block}
+ .home-refresh .showcase-section-head>div>p:last-child{margin-top:8px;padding-left:0;border:0}
+ .home-refresh .showcase-bento{grid-template-columns:1fr 1fr;grid-template-rows:210px 150px}
+ .home-refresh .pick-1{grid-column:1/3;grid-row:1}
+ .home-refresh .pick-2{grid-column:1;grid-row:2}
+ .home-refresh .pick-3{grid-column:2;grid-row:2}
+ .home-refresh .pick-2 .showcase-pick-copy strong,.home-refresh .pick-3 .showcase-pick-copy strong{font-size:15px}
+ .home-refresh .home-conversion-grid{grid-template-columns:1fr;gap:10px}
+ .home-refresh .home-conversion-card:first-child{grid-column:auto}
+ .home-refresh .home-conversion-card{min-height:118px;padding:16px}
+ .home-refresh .home-local-strip{gap:8px;margin-bottom:24px}
+ .home-refresh .mobile-travel-dock{position:fixed;display:grid;grid-template-columns:1fr 1fr;gap:8px;left:10px;right:10px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:90;padding:8px;border:1px solid rgba(18,37,65,.12);border-radius:16px;background:rgba(255,255,255,.96);box-shadow:0 8px 30px rgba(12,29,54,.2);backdrop-filter:blur(12px)}
+ .home-refresh .mobile-travel-dock a{display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px;border-radius:11px;background:#102d50;color:#fff;font-size:12px;font-weight:850;text-decoration:none}
+ .home-refresh .mobile-travel-dock a:last-child{background:#ed6c57}
+}
+
+
+/* Final art-direction pass: panoramic bridge hero and real-use taxi card */
+@media(min-width:821px){
+ .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:500px}
+ .home-refresh .home-hero-inner{padding-top:112px;padding-bottom:78px}
+ .home-refresh .home-hero h1{font-size:clamp(64px,7vw,88px)}
+ .home-refresh .home-hero-backdrop{background-position:center 57%}
+}
+.home-refresh .taxi-korean{display:block;margin-top:9px;padding:10px 12px;border:1px dashed #9baec4;border-radius:9px;background:#fff;color:#102d50;font-size:14px;font-weight:900;line-height:1.55;letter-spacing:.01em}
+.home-refresh .home-conversion-card .conversion-cta{border:0;cursor:pointer;font-family:inherit}
+.home-refresh .home-conversion-card .conversion-cta:hover{filter:brightness(.94)}
+@media(max-width:600px){.home-refresh .taxi-korean{font-size:13px}.home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:570px}}
+
+
+/* Locale-specific art direction and mobile dock clearance — QA batch 2. */
+html[lang="ja"] .home-refresh .home-hero h1{
+  max-width:min(100%,11em);
+  text-wrap:balance;
+  word-break:normal;
+  overflow-wrap:normal;
+  line-break:strict;
+}
+.home-refresh .pick-1{background-position:center 58%}
+.home-refresh .pick-2{background-position:center 62%}
+.home-refresh .pick-3{background-position:center 48%}
+.home-refresh .pick-4{background-position:center 55%}
+@media(max-width:600px){
+  .home-refresh .site-footer{
+    padding-bottom:calc(122px + env(safe-area-inset-bottom));
+  }
+  .home-refresh .footer-inner{
+    padding-bottom:calc(32px + env(safe-area-inset-bottom));
+  }
+}
+
+
+/* Homepage design batch 3 — 10-point visual polish, 2026-11-14 */
+/* 1–2. Match the mobile hero background to its 1000px responsive preload.
+   The desktop image remains the 1800 request (1920px Wikimedia delivery tier). */
+@media (max-width:560px){
+  .home-refresh .home-hero-backdrop{
+    background-image:
+      linear-gradient(90deg,rgba(7,20,37,.82) 0%,rgba(7,20,37,.58) 43%,rgba(7,20,37,.12) 100%),
+      linear-gradient(0deg,rgba(7,20,37,.38),transparent 48%),
+      url('https://commons.wikimedia.org/wiki/Special:FilePath/Skyline_of_Busan_Including_Gwangan_Bridge%2C_Marine_City_and_LCT_Skyscrapers.jpg?width=1000');
+    background-position:62% center;
+  }
+}
+
+/* 3. Keep editorial photo credits legible without obscuring the subject. */
+.home-refresh .showcase-photo-credit{
+  position:absolute;top:13px;right:13px;z-index:2;
+  max-width:calc(100% - 26px);padding:5px 8px;
+  border:1px solid rgba(255,255,255,.3);border-radius:999px;
+  background:rgba(7,19,34,.62);color:rgba(255,255,255,.94);
+  font-size:9px;line-height:1.35;text-align:right;
+  backdrop-filter:blur(7px);
+}
+
+/* 4. Give every image-led editorial pick a consistent crop and stronger focus state. */
+.home-refresh .showcase-pick{
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  isolation:isolate;
+  transition:transform .25s ease,box-shadow .25s ease;
+}
+.home-refresh .showcase-pick:focus-visible{
+  outline:3px solid #ed765f;outline-offset:4px;
+  box-shadow:0 12px 30px rgba(11,27,48,.22);
+}
+.home-refresh .showcase-pick-copy{max-width:min(86%,520px)}
+.home-refresh .showcase-pick-copy strong{overflow-wrap:anywhere}
+
+/* 5. Make the six discovery shortcuts thumb-friendly on narrow phones. */
+@media(max-width:600px){
+  .home-refresh .showcase-quick-wrap{margin-top:-26px}
+  .home-refresh .showcase-quickbar{
+    display:flex;gap:0;overflow-x:auto;overscroll-behavior-x:contain;
+    scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;
+    scrollbar-width:thin;border-radius:13px;
+  }
+  .home-refresh .showcase-quick-item{
+    flex:0 0 142px;min-height:104px;scroll-snap-align:start;
+    border-right:1px solid var(--show-line)!important;border-bottom:0!important;
+  }
+  .home-refresh .showcase-quick-item:last-child{border-right:0!important}
+  .home-refresh .showcase-quick-item:focus-visible{outline:3px solid #ed765f;outline-offset:-4px}
+}
+
+/* 6. Preserve a clear image hierarchy in the mobile editorial bento. */
+@media(max-width:600px){
+  .home-refresh .showcase-picks{padding-top:38px;padding-bottom:36px}
+  .home-refresh .showcase-bento{grid-template-rows:205px 154px;gap:10px}
+  .home-refresh .pick-1{padding:15px}
+  .home-refresh .pick-2,.home-refresh .pick-3{padding:12px}
+  .home-refresh .pick-2 .showcase-pick-tag,.home-refresh .pick-3 .showcase-pick-tag{font-size:7px;padding:5px 8px}
+  .home-refresh .pick-2 .showcase-pick-copy,.home-refresh .pick-3 .showcase-pick-copy{max-width:100%;padding-right:0}
+  .home-refresh .pick-2 .showcase-photo-credit,.home-refresh .pick-3 .showcase-photo-credit{top:8px;right:8px;font-size:8px}
+}
+
+/* 7. Neighborhood photography: consistent cover crop, readable labels and calm hover. */
+.home-refresh .home-photo-grid>a{isolation:isolate;box-shadow:0 8px 24px rgba(16,27,53,.1);transition:transform .25s ease,box-shadow .25s ease}
+.home-refresh .home-photo-grid>a img{object-fit:cover;object-position:center;transition:transform .5s ease}
+.home-refresh .home-photo-grid>a:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(16,27,53,.16)}
+.home-refresh .home-photo-grid>a:hover img{transform:scale(1.04)}
+.home-refresh .home-photo-grid>a:focus-visible{outline:3px solid #ed765f;outline-offset:4px}
+.home-refresh .home-photo-grid>a span{z-index:1}
+
+/* 8. Seasonal cards share a calmer editorial frame and keep image crops intentional. */
+.home-refresh .seasonal-event-card{overflow:hidden;transition:transform .22s ease,box-shadow .22s ease}
+.home-refresh .seasonal-event-card:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(16,27,53,.13)}
+.home-refresh .seasonal-event-card:focus-within{outline:3px solid #ed765f;outline-offset:3px}
+.home-refresh .seasonal-event-photo{background-size:cover;background-position:center}
+.home-refresh .seasonal-event-copy{display:flex;flex-direction:column;align-items:flex-start}
+.home-refresh .seasonal-event-copy h3{margin-top:9px}
+.home-refresh .seasonal-event-copy a{display:inline-flex;align-items:center;min-height:36px;margin-top:auto;padding-top:8px;font-weight:800;text-underline-offset:3px}
+
+/* 9. Taiwan-specific landing callout: distinct editorial panel, responsive and scannable. */
+.home-refresh .taiwan-traveler-feature{padding:26px 0 10px!important}
+.home-refresh .taiwan-traveler-feature>div{
+  position:relative;overflow:hidden;grid-template-columns:1.25fr .9fr!important;
+  gap:clamp(18px,3vw,34px)!important;padding:clamp(22px,4vw,38px)!important;
+  border:1px solid #ead9cc;border-radius:18px!important;
+  background:linear-gradient(120deg,#fff8f2 0%,#f3e7dc 58%,#e8eef3 100%)!important;
+  box-shadow:0 12px 30px rgba(32,42,57,.08);
+}
+.home-refresh .taiwan-traveler-feature .eyebrow{color:#a65343;letter-spacing:.16em}
+.home-refresh .taiwan-traveler-feature h2{max-width:620px;color:#17243a}
+.home-refresh .taiwan-traveler-feature>div>div:last-child{
+  align-self:stretch;padding:19px 21px!important;border:1px solid rgba(32,42,57,.08)!important;
+  border-radius:12px!important;background:rgba(255,255,255,.78)!important;
+}
+.home-refresh .taiwan-traveler-feature>div>div:last-child strong{font-size:13px}
+.home-refresh .taiwan-traveler-feature>div>div:last-child p{line-height:1.6}
+@media(max-width:650px){
+  .home-refresh .taiwan-traveler-feature{padding:18px 0 8px!important}
+  .home-refresh .taiwan-traveler-feature>div{grid-template-columns:1fr!important;gap:14px!important;padding:21px!important}
+}
+
+/* 10. Consistent section rhythm and locale-safe headline wrapping. */
+.home-refresh .showcase-section-head h2,
+.home-refresh .seasonal-events-heading h2{ text-wrap:balance }
+.home-refresh .showcase-section-head>div>p:last-child{overflow-wrap:anywhere}
+html[lang="ja"] .home-refresh .showcase-section-head h2,
+html[lang="zh-Hant-TW"] .home-refresh .showcase-section-head h2{
+  line-break:strict;word-break:normal;overflow-wrap:anywhere;
+}
+@media(prefers-reduced-motion:reduce){
+  .home-refresh .showcase-pick,.home-refresh .home-photo-grid>a,
+  .home-refresh .home-photo-grid>a img,.home-refresh .seasonal-event-card{transition:none!important}
+  .home-refresh .showcase-pick:hover,.home-refresh .home-photo-grid>a:hover,
+  .home-refresh .seasonal-event-card:hover{transform:none!important}
+}
+
+
+/* Homepage design batch 4 — ten coordinated visual refinements, 2026-11-14 */
+/* 1. A consistent, high-contrast hero composition across all language homepages. */
+.home-refresh .home-hero{isolation:isolate}
+.home-refresh .home-hero-backdrop{background-repeat:no-repeat;background-size:cover;will-change:auto}
+.home-refresh .home-hero-inner{width:min(1200px,calc(100% - 64px));}
+.home-refresh .home-hero-copy{position:relative;max-width:690px}
+.home-refresh .hero-script{display:inline-flex;align-items:center;gap:8px;max-width:100%;padding:7px 11px;border:1px solid rgba(255,255,255,.26);border-radius:999px;background:rgba(8,24,43,.28);backdrop-filter:blur(8px)}
+/* 2. Improve headline rhythm without forcing awkward CJK breaks. */
+.home-refresh .home-hero h1{max-width:12ch;text-wrap:balance;overflow-wrap:anywhere}
+.home-refresh .home-hero .hero-intro{max-width:54ch;text-wrap:pretty}
+html[lang="ja"] .home-refresh .home-hero h1,
+html[lang="zh-TW"] .home-refresh .home-hero h1{max-width:15em;line-break:strict;word-break:normal;letter-spacing:0}
+html[lang="ja"] .home-refresh .home-hero .hero-intro,
+html[lang="zh-TW"] .home-refresh .home-hero .hero-intro{line-break:strict;overflow-wrap:anywhere}
+/* 3. Make primary and secondary hero actions read as a clear action hierarchy. */
+.home-refresh .showcase-hero-actions{align-items:center;gap:10px}
+.home-refresh .showcase-primary{min-height:50px;padding-inline:22px;border-radius:8px;box-shadow:0 10px 24px rgba(4,16,31,.2)}
+.home-refresh .showcase-secondary{min-height:50px;padding-inline:18px;border-radius:8px;border-color:rgba(255,255,255,.62);backdrop-filter:blur(5px)}
+.home-refresh .showcase-primary:focus-visible,.home-refresh .showcase-secondary:focus-visible{outline:3px solid #fff;outline-offset:3px}
+/* 4. Search field: stronger affordance, visible keyboard state and comfortable touch target. */
+.home-refresh .site-search{min-height:56px;height:auto;box-sizing:border-box}
+.home-refresh .site-search input{min-height:42px;min-width:0}
+.home-refresh .site-search input:focus-visible{outline:2px solid #1769aa;outline-offset:3px;border-radius:3px}
+.home-refresh .site-search button{min-width:44px;min-height:44px;transition:background .18s,transform .18s}
+.home-refresh .site-search button:active{transform:scale(.96)}
+/* 5. Desktop header: align logo, navigation and language/search controls on one baseline. */
+@media(min-width:901px){
+ .home-refresh .nav-wrap{display:flex;align-items:center;gap:clamp(16px,2vw,28px)}
+ .home-refresh .brand-lockup{flex:0 1 220px;min-width:145px;max-width:22%}
+ .home-refresh .site-header nav{justify-content:flex-end;gap:clamp(12px,1.55vw,23px)}
+ .home-refresh .site-header nav a{padding-block:18px}
+ .home-refresh .header-actions{gap:7px}
+}
+.home-refresh .site-header nav a:focus-visible,.home-refresh .header-actions a:focus-visible{outline:2px solid #ed765f;outline-offset:4px;border-radius:4px}
+/* 6. Discovery shortcuts: consistent icon, label and focus alignment at every width. */
+.home-refresh .showcase-quick-item{position:relative;min-width:0}
+.home-refresh .showcase-quick-icon{flex:none;transition:transform .2s,background .2s}
+.home-refresh .showcase-quick-item:hover .showcase-quick-icon{transform:translateY(-2px);background:#f8e8e2}
+.home-refresh .showcase-quick-item:focus-visible{outline:3px solid #ed765f;outline-offset:-4px}
+.home-refresh .showcase-quick-item>span:not(.showcase-quick-icon){text-wrap:balance;overflow-wrap:anywhere}
+/* 7. Bento cards: coherent image-first hierarchy with stable title and credit placement. */
+.home-refresh .showcase-bento{align-items:stretch}
+.home-refresh .showcase-pick{min-height:0;background-color:#1c3048}
+.home-refresh .showcase-pick::after{position:absolute;inset:0;z-index:-1;content:"";background:linear-gradient(0deg,rgba(5,17,32,.2),transparent 65%);pointer-events:none}
+.home-refresh .showcase-pick-copy{position:relative;z-index:1}
+.home-refresh .showcase-pick-tag{backdrop-filter:blur(9px)}
+.home-refresh .showcase-photo-credit{font-variant-numeric:tabular-nums}
+.home-refresh .showcase-pick-arrow{z-index:2}
+/* 8. Booking/planning cards: improve scanning and make the whole card feel actionable. */
+.home-refresh .home-conversion-card{min-width:0;align-items:flex-start;transition:transform .2s,box-shadow .2s,border-color .2s}
+.home-refresh a.home-conversion-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(16,27,53,.1);border-color:#d4dce8}
+.home-refresh .home-conversion-card>span:last-child{min-width:0}
+.home-refresh .home-conversion-card strong{overflow-wrap:anywhere}
+.home-refresh .home-conversion-card .conversion-cta{min-height:38px;align-items:center;border-radius:8px}
+.home-refresh .home-conversion-card:focus-visible{outline:3px solid #ed765f;outline-offset:3px}
+/* 9. Destination photography: use a consistent editorial caption treatment and avoid crop jumps. */
+.home-refresh .home-photo-grid>a{position:relative;overflow:hidden;background:#1b3048}
+.home-refresh .home-photo-grid>a img{display:block;width:100%;height:100%;min-height:inherit;object-fit:cover}
+.home-refresh .home-photo-grid>a span{left:0;right:0;bottom:0;box-sizing:border-box}
+.home-refresh .home-photo-grid>a strong{display:block;text-wrap:balance}
+.home-refresh .home-photo-grid>a small{display:block;max-width:42ch;line-height:1.55}
+.home-refresh .home-photo-grid>a:focus-visible{outline-offset:3px}
+/* 10. Events, FAQs and section transitions: one editorial rhythm from top to footer. */
+.home-refresh .seasonal-events-heading{align-items:flex-end}
+.home-refresh .seasonal-events-heading>div{max-width:760px}
+.home-refresh .seasonal-events-heading h2{max-width:18ch;text-wrap:balance}
+.home-refresh .seasonal-event-copy{gap:2px}
+.home-refresh .seasonal-event-copy p{line-height:1.65}
+.home-refresh .home-faq-grid>div{border-radius:13px;transition:border-color .18s,box-shadow .18s}
+.home-refresh .home-faq-grid>div:hover{border-color:#d5deea;box-shadow:0 8px 22px rgba(16,27,53,.06)}
+.home-refresh .home-faq-grid h3{ text-wrap:balance }
+.home-refresh .home-faq-grid a:focus-visible{outline:2px solid #ed765f;outline-offset:3px}
+@media(max-width:900px){
+ .home-refresh .home-hero-inner{width:calc(100% - 40px)}
+ .home-refresh .home-hero-copy{max-width:620px}
+ .home-refresh .showcase-hero-actions{gap:8px}
+ .home-refresh .home-conversion-grid{align-items:stretch}
+}
+@media(max-width:600px){
+ .home-refresh .home-hero-inner{width:calc(100% - 32px)}
+ .home-refresh .home-hero-copy{max-width:100%}
+ .home-refresh .hero-script{font-size:9px;letter-spacing:.13em}
+ .home-refresh .showcase-hero-actions{display:grid;grid-template-columns:1fr;max-width:420px}
+ .home-refresh .showcase-primary,.home-refresh .showcase-secondary{width:100%;box-sizing:border-box}
+ .home-refresh .site-search{width:100%;min-height:54px;padding-left:13px}
+ .home-refresh .site-search input{font-size:12px}
+ .home-refresh .home-conversion-card{gap:12px}
+ .home-refresh .home-conversion-icon{width:40px;height:40px;border-radius:12px;font-size:21px}
+ .home-refresh .seasonal-events-heading h2{font-size:clamp(24px,7vw,31px)}
+ .home-refresh .home-faq-grid>div{padding:17px}
+}
+@media(max-width:390px){
+ .home-refresh .home-hero h1{font-size:clamp(36px,10.4vw,42px)}
+ .home-refresh .showcase-primary,.home-refresh .showcase-secondary{font-size:11px;padding-inline:12px}
+ .home-refresh .home-photo-grid>a strong{font-size:19px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .home-refresh .showcase-quick-icon,.home-refresh .home-conversion-card,
+ .home-refresh .home-faq-grid>div{transition:none!important}
+}

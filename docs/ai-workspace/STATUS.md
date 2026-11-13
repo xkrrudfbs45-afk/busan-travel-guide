@@ -74,3 +74,125 @@ Use one of:
 | Affiliate measurement | Blocked | Owner | Code done (#268/#270); GA4 Viewer access needed to verify live events |
 
 Update this table after each meaningful work session. Include PR numbers, commit SHAs, test results, and blockers where known.
+
+
+## Verified state (2026-11-13, ChatGPT — editorial design Phase 1)
+
+- **PR #404:** [Establish premium Go2Busan editorial design system — Phase 1](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/404), open Draft, base main, branch design/busan-editorial-system-phase1-20261113. Three commits ahead of main; zero commits behind at last comparison. Not merged or deployed.
+- **Changed files:** assets/styles.css (shared non-homepage editorial styling), assets/editorial-design-system.css (reusable tokens/components for later template adoption), and docs/design/GO2BUSAN-EDITORIAL-DESIGN-SYSTEM.md.
+- **CI evidence:** GitHub Actions run 43424881559, Technical SEO audit, completed successfully. Its public-site build and dependency-free audit steps both succeeded. This is not a substitute for visual QA.
+- **Template coverage checked:** EN/JA/zh-TW guide index pages all load /assets/styles.css and contain the directory classes targeted by Phase 1. Homepage has a separate homepage-editorial.css system and remains intentionally outside the non-homepage selector scope.
+- **Not yet verified:** screenshots or browser rendering at 360/390/768/1280; individual restaurant/neighborhood pages across all languages; keyboard/focus/contrast review; production deployment SHA/version. Do not describe the visual rollout as complete.
+- **Next:** perform representative page/template QA, then build the food/place detail-page module as a separate reviewed phase. Owner approval is required before merge/deploy.
+
+
+## Full-site editorial redesign — 2026-11-13 (ChatGPT)
+
+- **Status:** In progress; Draft PR to be reviewed. This is a shared visual-system rollout, not a claim that every page has received bespoke layout work.
+- **Branch:** `design/full-site-editorial-redesign-20261113`.
+- **Implemented:** appended a unified non-homepage editorial layer to `assets/styles.css`, covering shared header/language controls, article hero/deck/meta, reading column and headings, cover imagery/credits, callouts, jump navigation, directory cards, sidebars, tables, footer, keyboard focus and reduced-motion behavior. Existing homepage EN/JA/zh-TW showcase styles remain isolated via `.home-refresh` and are not overridden by this layer.
+- **Preserved by design:** page content, routes, canonical/hreflang, JSON-LD, analytics scripts, affiliate destinations and image attribution are not intentionally changed in this CSS-only rollout.
+- **Not yet verified:** production screenshots, full 360/390/768/1280 visual QA across page templates and all three locales, build/SEO audits on the final PR head, and visual interaction checks. Do not merge or deploy until these pass and owner approves.
+- **Next:** Claude verification-only review; expand page-specific layout and image modules after template inventory, without changing facts or inventing venue details.
+
+
+### Full-site redesign progress — additional module pass (2026-11-13)
+- Extended shared styles for guide-directory link rows, local-food scorecards, verification badges, local-tip panels, sidebar cards and FAQ accordions.
+- Refreshed the Busan Map page's inline module styles: map panel, category filters, place cards, selected state, action controls, sticky desktop map and mobile filter scrolling. No map data, place claims, links or behavior changed.
+- Static source sanity check: shared stylesheet brace counts balanced (1,264 opening / 1,264 closing); map HTML closes correctly and retains its script block. This is not a substitute for build/CI or browser QA.
+- PR #406 remains Draft and unmerged. CI must be checked against the latest head after these commits.
+
+
+## Claude functional QA and corrective pass — 2026-11-13
+
+- Claude's browser QA of PRs #404/#405/#406: build and 13/13 CI audits passed on the inspected #406 head; canonical, hreflang, JSON-LD, analytics, consent and affiliate links unchanged. Chromium review covered 360/390/768/1280 across EN/JA/zh-TW home, guide index, food, area, transit and article templates.
+- Verified defects reported: homepage mobile-menu contrast/visibility and Escape behavior; EN Dongnae card used a Nampo photo with Dongnae alt/credit; incorrect Gwangan Bridge credit; fake "Watch Busan in 1 Min" anchor; JA/zh-TW quick links misrouted; header control overlap; untranslated JA/zh-TW homepage labels; CJK heading breaks; incomplete reduced-motion rules. Inner-page mobile navigation remains a separate follow-up.
+- ChatGPT corrective pass on this branch: corrected the Dongnae photo to the registered Bukmun image and restored its matching photographer credit; corrected Gwangan Bridge credit to Glabb / Public domain across EN/JA/zh-TW; replaced the fake video CTA with a real guide link; fixed JA/zh-TW airport and transit quick links; localized homepage section labels; added mobile nav contrast/visibility and Escape-key close behavior, CJK word-break safeguards and comprehensive reduced-motion overrides.
+- Claude's image-crop check was blocked because Wikimedia images did not load in its sandbox. Real-device and Lighthouse/CWV checks were not performed. Do not claim these as passed.
+- Current branch requires a fresh build and full CI run after the corrective commits. PR #406 remains Draft, unmerged and undeployed.
+- SEO strategy correction: do not add FAQ/HowTo markup solely to chase Google rich results. Google removed FAQ rich results in May 2026 and deprecated HowTo rich results; retain visible useful Q&A content, accurate Article/BreadcrumbList and other page-relevant schema. Source: https://developers.google.com/search/updates.
+
+
+## Full visual direction implementation — 2026-11-13 (homepage composition batch)
+
+- Implemented one coordinated EN/JA/zh-TW homepage composition inspired by the approved BUSAN EDITORIAL mockup: panoramic Gwangan Bridge hero, six quick category tiles, asymmetric editorial bento picks, booking/experience cards, local photo-spot links, social share actions and a mobile sticky Busan Map / Busan Pass dock.
+- Added localized conversion panels for Visit Busan Pass, accommodation discovery and a large Korean taxi show-card with copy action. Taxi text: `해운대 블루라인파크 청사포역으로 가주세요`.
+- Repositioned conversion and sharing modules directly below Editor's Picks; preserved existing seasonal stories, neighborhood planner, content and analytics.
+- Updated homepage stylesheet cache-busting query strings and refined desktop hero proportions, card grid and mobile responsive layouts.
+- Corrected booking/map destinations to existing project routes where identified. Klook uses the project's existing Visit Busan Pass affiliate destination; Agoda uses the existing Busan city listing.
+- The new homepage additions are localized for English, Japanese and Traditional Chinese. The wider shared editorial layer from the same PR continues to style article, directory, guide and map page families.
+- No generated screenshot was substituted for live content photography. The homepage hero retains the existing Wikimedia Busan skyline/Gwangan Bridge image; editorial cards retain existing credited destination images. Generated design mockups were created as visual references only and must not be presented as documentary Busan photography.
+- Static source checks: each localized homepage has balanced main tags; booking/share/taxi modules appear before seasonal content; mobile dock, taxi copy action and share action are present; no invalid pass-guide path remains. Browser, build and CI still need a fresh run on the latest head.
+- PR #406 remains Draft, unmerged and undeployed.
+
+
+## Multilingual guide directory and shared editorial batch — 2026-11-13
+
+- Extended the shared non-homepage editorial layer for EN, JA and zh-TW guide/article templates: balanced multilingual headings, cover and figure sizing, image captions, article blockquotes/dividers, responsive callouts, directory navigation and reduced-motion behavior.
+- Completed a dedicated visual polish pass on all three travel-guide directory pages: editorial card surfaces, accent rail, refined typography, separated link rows, clear hover states and horizontally scrollable mobile category navigation.
+- Refreshed the shared stylesheet cache key on EN/JA/zh-TW guide directory pages to `20261113-directory-polish` so all three receive the current design.
+- Static internal-link audit of the three guide directories: EN 74, JA 54 and zh-TW 57 unique internal destinations checked; no missing local targets found in the repository tree.
+- This is source/static verification only. Latest-head build, 13 audits and browser QA at 360/390/768/1280 remain pending. PR #406 remains Draft, unmerged and undeployed.
+
+
+## Homepage QA correction batch — 2026-11-13
+- Fixed the mobile homepage navigation so all navigation links are available when the menu is opened, while the closed mobile header keeps the navigation out of the crowded header row.
+- Added Japanese-specific natural line wrapping to avoid the reported 360/390px and desktop heading overflow.
+- Standardized outbound booking-link rel attributes to sponsored nofollow noopener noreferrer across EN / JA / zh-TW.
+- Added a concise, localized affiliate disclosure directly beneath the homepage booking cards in all three locales.
+- Corrected the Korean taxi destination phrase to “해운대 블루라인파크 청사포정거장으로 가주세요” in the three localized homepages and their copy actions.
+- Agoda homepage links still use the generic Busan landing URL without a verified account-specific cid; no tracking parameter was fabricated. Japanese and Traditional Chinese Klook links still point to the existing en-US activity destination and require verified locale-specific destinations before changing.
+- Verification status: code updated; fresh build, audit and browser QA are pending on the latest branch head. PR remains Draft; no merge or deployment.
+
+
+## Responsive and food/transport page batch — 2026-11-14
+- Refined homepage header spacing at tablet/mobile widths to separate the search control and language pills; retained all locale links.
+- Refined Japanese homepage hero title width and line treatment to keep punctuation away from the viewport edge.
+- Added safe-area-aware footer clearance beneath the fixed mobile travel dock on localized homepages.
+- Added tablet-specific no-wrap rules for language switchers on non-homepage guide pages, including Traditional Chinese.
+- Updated stylesheet cache keys on the homepage, guide directories and selected food/transport pages in EN / JA / zh-TW where the files were successfully updated. A final pass is still needed for the two localized transit-card pages whose cache key was not updated in this batch.
+- Reviewed food guide content structure: neighborhood-led choices, dish context, practical cautions, scorecard caveat and image source/license captions are present in sampled EN/JA/zh-TW pages. Reviewed transit-card pages: practical card/transfer guidance and locale-specific Article metadata are present; no speculative fare values or unverified route claims added.
+- Verification is pending against the latest head. Claude should retest the prior 360/390/768/1280 findings and verify food/transport page templates. PR remains Draft; no merge/deploy.
+
+
+## Follow-up batch — 2026-11-14 (ChatGPT)
+
+Applied to the existing #406 Draft branch; no overlapping PR created.
+
+- Tablet header (561–820px): moved non-homepage navigation to a dedicated second row, preserving utility/language controls and preventing nav labels from colliding with search/bookmark/language controls.
+- Japanese homepage hero: constrained the heading width and enabled balanced, strict Japanese line breaking so punctuation no longer hugs the viewport edge at desktop widths.
+- Mobile travel dock: increased footer bottom clearance on EN/JA/zh-TW homepages, including device safe-area inset, to keep the final footer links tappable and visible above the fixed dock.
+- Homepage photography: refined the per-card focal positions for the four editorial picks; source images and verified credits remain unchanged.
+- Bumped homepage stylesheet cache keys on all three locale homepages to `20261114-visual-batch2`.
+
+Pending: build, full audit suite, and cross-locale browser QA at 360/390/768/1280. Keep Draft; do not merge or deploy until verified.
+
+- Responsive hero preload: split preload hints by viewport in EN/JA/zh-TW. Desktop/tablet preloads the 1800 request (1920px delivery tier); phones preload the same 1000 request used by the mobile hero CSS, avoiding a desktop-sized LCP preload on small screens.
+
+
+## Homepage design batch 3 — 2026-11-14 (10 grouped improvements)
+- Matched the mobile hero CSS background to the 1000px image preload; retained the desktop 1800 request.
+- Normalized remaining oversized homepage neighborhood/editorial image requests (1200/1400) to 960 where those card dimensions are used.
+- Improved editorial photo-credit chips, bento card crop/focus treatment and locale-safe title wrapping.
+- Reworked the narrow-phone discovery shortcut bar into a thumb-friendly horizontal snap rail.
+- Refined mobile bento hierarchy and neighborhood photo-card hover/focus behavior.
+- Standardized seasonal-event card image framing, spacing and interaction states.
+- Added a dedicated responsive editorial treatment to the Traditional Chinese Taiwan-traveler feature panel.
+- Updated all three homepage stylesheet cache keys to `20261114-visual-batch3`.
+- Preserved photo subjects, attribution text/links, routes, article copy, canonical/hreflang, metadata, JSON-LD, analytics and affiliate destinations.
+- Verification is pending on this exact head: build, technical audits and Playwright screenshots at 360/390/768/1280. PR #406 remains Draft; no merge or deployment.
+
+
+## Homepage design batch 4 — 2026-11-14 (10 coordinated refinements)
+- Unified hero composition, copy width and headline wrapping across EN / JA / Traditional Chinese.
+- Clarified hero primary/secondary actions and improved touch/keyboard states.
+- Improved search field affordance, focus visibility and minimum touch target.
+- Aligned desktop header logo, navigation and utility controls.
+- Refined discovery shortcut icon/label alignment and focus states.
+- Improved editorial bento card layering, title and photo-credit placement.
+- Strengthened booking/planning card hierarchy, hover and focus treatment.
+- Standardized destination photo caption behavior and image container sizing.
+- Refined seasonal event and FAQ card typography, rhythm and interaction.
+- Added responsive adjustments for narrow phones and CJK line wrapping; bumped all three homepage stylesheet cache keys to `20261114-visual-batch4`.
+
+Preserved existing images, attribution records, page copy, routes, canonical/hreflang, metadata, JSON-LD, analytics and affiliate destinations. Verification on this exact head is pending; keep PR #406 Draft and do not merge/deploy before CI and visual QA.
