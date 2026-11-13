@@ -78,3 +78,28 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Approval needed
 - Owner approval before merging PR #404 or deploying any design changes.
+
+
+## Current handoff — 2026-11-13 (ChatGPT, full-site editorial redesign)
+
+### Completed
+- Created branch `design/full-site-editorial-redesign-20261113` from the Phase 1 editorial branch.
+- Applied a shared visual refresh to the common stylesheet `assets/styles.css`, targeting all non-homepage pages while keeping the dedicated EN/JA/zh-TW homepage showcase layer isolated.
+- Unified editorial typography, reading widths, hero/deck/meta hierarchy, cover treatment, callouts, sidebars, navigation chips, directory cards, tables, footer, focus visibility and reduced-motion behavior.
+
+### Verification
+- Source files inspected: English homepage, Japanese homepage, Traditional Chinese homepage, guide directory, neighborhood food guide, transit-card guide, accommodation guide and Haeundae neighborhood guide.
+- This change is CSS-only; no page copy, URLs, SEO metadata, JSON-LD, analytics or affiliate markup intentionally changed.
+- Build, CI, screenshots and production deployment have not yet been verified for this branch.
+
+### Open issues / blockers
+- Run the full build and technical SEO/image-credit audits.
+- Visually inspect 360/390/768/1280 widths across home, directory, food, neighborhood, transport, accommodation and trip-planning templates in EN/JA/zh-TW.
+- Check translated long headings, mobile navigation, image credit legibility, sticky navigation, tables, keyboard focus and reduced-motion behavior.
+- Existing homepage CSS has overlapping editorial/showcase layers; verify visual consistency without overriding its language-specific design.
+
+### Recommended next action
+- Claude performs verification only; no code edits, push, merge or deploy. ChatGPT continues the full-site rollout after the QA report.
+
+### Approval needed
+- Owner approval before merge or production deployment.
