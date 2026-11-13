@@ -1569,3 +1569,105 @@ body:not(.home-refresh) .site-footer .footer-disclosure{
 @media(prefers-reduced-motion:reduce){
   body:not(.home-refresh) .guide-directory-section:hover{transform:none}
 }
+
+
+/* Travel guide directory — editorial card finish */
+.guide-directory-section{
+  position:relative;
+  overflow:hidden;
+  border:1px solid #e4e8ee;
+  border-radius:14px;
+  background:linear-gradient(155deg,#fff 0%,#fff 72%,#f8fafc 100%);
+  padding:clamp(20px,2.4vw,28px);
+  box-shadow:0 8px 26px rgba(10,25,47,.045);
+  transition:border-color .2s ease,box-shadow .2s ease,transform .2s ease;
+}
+.guide-directory-section:before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:3px;
+  background:linear-gradient(180deg,var(--teal),var(--coral));
+  opacity:.72;
+}
+.guide-directory-section:hover{
+  border-color:#cbd5e1;
+  box-shadow:0 14px 34px rgba(10,25,47,.075);
+  transform:translateY(-2px);
+}
+.guide-directory-section h2{
+  font-size:clamp(23px,2.4vw,28px);
+  letter-spacing:-.025em;
+}
+.guide-directory-section>p{
+  max-width:52ch;
+  line-height:1.7;
+}
+.guide-directory-section ul{
+  list-style:none;
+  padding:0;
+  margin-top:15px;
+}
+.guide-directory-section li{
+  position:relative;
+  padding:0;
+  margin:0;
+  border-top:1px solid #edf0f4;
+}
+.guide-directory-section li:first-child{border-top:0}
+.guide-directory-section li a{
+  display:block;
+  position:relative;
+  padding:10px 22px 10px 0;
+  color:var(--ink);
+  font-size:13px;
+  line-height:1.55;
+  font-weight:600;
+  text-decoration:none;
+  transition:color .18s ease,padding .18s ease;
+}
+.guide-directory-section li a:after{
+  content:"↗";
+  position:absolute;
+  right:2px;
+  top:50%;
+  color:#9aa6b5;
+  font-size:12px;
+  transform:translateY(-50%);
+}
+.guide-directory-section li a:hover{
+  padding-left:5px;
+  color:var(--coral);
+}
+.guide-directory-jumps{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  padding-top:20px;
+}
+.guide-directory-jumps a{
+  border:1px solid #e1e7ee;
+  border-radius:999px;
+  padding:8px 13px;
+  background:#fff;
+  color:var(--ink);
+  font-size:11px;
+  font-weight:700;
+  text-decoration:none;
+  transition:background .18s ease,border-color .18s ease,color .18s ease;
+}
+.guide-directory-jumps a:hover{
+  border-color:var(--ink);
+  background:var(--ink);
+  color:#fff;
+}
+@media(max-width:680px){
+  .guide-directory-section{border-radius:12px;padding:19px 19px 17px}
+  .guide-directory-section li a{padding-block:11px;font-size:13px}
+  .guide-directory-jumps{flex-wrap:nowrap;overflow-x:auto;padding-bottom:12px;scrollbar-width:thin}
+  .guide-directory-jumps a{flex:0 0 auto}
+}
+@media(prefers-reduced-motion:reduce){
+  .guide-directory-section,.guide-directory-section li a,.guide-directory-jumps a{transition:none}
+  .guide-directory-section:hover{transform:none}
+}
