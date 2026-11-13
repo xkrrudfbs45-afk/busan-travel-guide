@@ -112,6 +112,17 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
       "button": "在 Klook 查看釜山通行證 ↗"
+    },
+    {
+      "path": "zh-tw/guides/busan-family-travel/index.html",
+      "before": "<h2 id=\"museum\"",
+      "id": "cta-family-lotteworld",
+      "kicker": "機張・主題樂園門票",
+      "title": "打算帶孩子去樂天世界冒險釜山嗎？",
+      "body": "Klook 有販售釜山樂天世界門票。購買前請比較票種、使用日期與取消規定，並先確認孩子能否搭乘想玩的設施（身高、年齡限制）。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/75094-lotte-world-busan/",
+      "button": "在 Klook 查看樂天世界門票 ↗"
     }
   ]
 }
