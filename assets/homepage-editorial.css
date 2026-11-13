@@ -415,3 +415,29 @@ html[lang="ja"] .home-refresh .showcase-pick-copy{
   .home-refresh .site-header nav.is-open{display:flex!important}
   .home-refresh .site-header .mobile-menu-toggle{display:flex!important}
 }
+
+/* Final responsive polish — owner QA follow-up 2026-11-14 */
+@media (max-width:820px){
+  .home-refresh .nav-wrap{gap:10px}
+  .home-refresh .brand-lockup{min-width:0;flex:1 1 auto}
+  .home-refresh .header-actions{display:flex!important;flex:0 0 auto;align-items:center;gap:9px!important;margin-left:auto}
+  .home-refresh .header-actions .search-icon{flex:0 0 42px;width:42px;min-width:42px;margin-right:2px}
+  .home-refresh .header-actions .language-pill{flex:0 0 auto;min-width:42px;padding-inline:9px}
+  .home-refresh .site-header .mobile-menu-toggle{order:2;flex:0 0 40px;margin-left:2px}
+  .home-refresh .site-header nav{order:4;flex-basis:100%}
+}
+@media (max-width:560px){
+  .home-refresh .nav-wrap{flex-wrap:nowrap!important;gap:8px!important}
+  .home-refresh .brand-lockup{width:auto;max-width:none;flex:1 1 0}
+  .home-refresh .header-actions{gap:7px!important}
+  .home-refresh .header-actions .search-icon{width:38px;min-width:38px;flex-basis:38px}
+  .home-refresh .header-actions .language-pill{min-width:34px;padding:6px 7px;font-size:9px}
+  .home-refresh .home-hero h1{max-width:calc(100vw - 42px);width:100%;font-size:clamp(40px,10.4vw,54px);letter-spacing:-.035em;line-height:1.12;overflow-wrap:anywhere}
+  html[lang="ja"] .home-refresh .home-hero h1{font-size:clamp(34px,9.2vw,48px);letter-spacing:-.045em;line-height:1.22;max-width:calc(100vw - 48px)}
+  .home-refresh .mobile-travel-dock{bottom:calc(10px + env(safe-area-inset-bottom))}
+  .home-refresh .site-footer{padding-bottom:calc(94px + env(safe-area-inset-bottom))}
+  .home-refresh .footer-inner{padding-bottom:calc(28px + env(safe-area-inset-bottom))}
+}
+@media (min-width:561px) and (max-width:820px){
+  .home-refresh .home-hero h1{max-width:90%;font-size:clamp(46px,7vw,62px)}
+}
