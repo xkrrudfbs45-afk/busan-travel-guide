@@ -224,3 +224,13 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Updated the shared search index tags and November acquisition playbook with verified facts and editorial guardrails.
 - Previous homepage design batch 4 exact-head Technical SEO workflow `43525561647` passed. The Busan Now refresh is a later change and still requires its own CI and visual QA.
 - These new commits are additional to merged PR #406 and need a separate PR against main; do not treat them as deployed.
+
+
+## Evergreen Busan experiences — 2026-11-14
+- Added a three-card editorial discovery row to EN / JA / Traditional Chinese homepages: Yeongdo coast, Busan night views and BTS public fan route.
+- Expanded all three Things to Do in Busan guides with dedicated Yeongdo coastal walk, night-view and BTS route sections, localized for Japanese and Traditional Chinese readers.
+- Added official tourism references, map links, residential-neighborhood etiquette, and explicit seasonal Saturday schedule for the Gwangalli M Drone Light Show.
+- Added three verified Wikimedia Commons photos with visible author/license credits; responsive desktop grid becomes a swipeable snap rail on mobile.
+- Expanded search-index keywords for Yeongdo, Hwangnyeongsan, Cheonghak Reservoir, Gwangalli drone show and BTS fan searches.
+- This is a stacked follow-up to Draft PR #407; its base is the #407 branch so the two batches can merge in order without conflicting homepage edits. No merge or production deployment.
+- Exact-head CI and screenshot QA pending.
