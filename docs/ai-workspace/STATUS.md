@@ -111,3 +111,16 @@ Update this table after each meaningful work session. Include PR numbers, commit
 - Claude's image-crop check was blocked because Wikimedia images did not load in its sandbox. Real-device and Lighthouse/CWV checks were not performed. Do not claim these as passed.
 - Current branch requires a fresh build and full CI run after the corrective commits. PR #406 remains Draft, unmerged and undeployed.
 - SEO strategy correction: do not add FAQ/HowTo markup solely to chase Google rich results. Google removed FAQ rich results in May 2026 and deprecated HowTo rich results; retain visible useful Q&A content, accurate Article/BreadcrumbList and other page-relevant schema. Source: https://developers.google.com/search/updates.
+
+
+## Full visual direction implementation — 2026-11-13 (homepage composition batch)
+
+- Implemented one coordinated EN/JA/zh-TW homepage composition inspired by the approved BUSAN EDITORIAL mockup: panoramic Gwangan Bridge hero, six quick category tiles, asymmetric editorial bento picks, booking/experience cards, local photo-spot links, social share actions and a mobile sticky Busan Map / Busan Pass dock.
+- Added localized conversion panels for Visit Busan Pass, accommodation discovery and a large Korean taxi show-card with copy action. Taxi text: `해운대 블루라인파크 청사포역으로 가주세요`.
+- Repositioned conversion and sharing modules directly below Editor's Picks; preserved existing seasonal stories, neighborhood planner, content and analytics.
+- Updated homepage stylesheet cache-busting query strings and refined desktop hero proportions, card grid and mobile responsive layouts.
+- Corrected booking/map destinations to existing project routes where identified. Klook uses the project's existing Visit Busan Pass affiliate destination; Agoda uses the existing Busan city listing.
+- The new homepage additions are localized for English, Japanese and Traditional Chinese. The wider shared editorial layer from the same PR continues to style article, directory, guide and map page families.
+- No generated screenshot was substituted for live content photography. The homepage hero retains the existing Wikimedia Busan skyline/Gwangan Bridge image; editorial cards retain existing credited destination images. Generated design mockups were created as visual references only and must not be presented as documentary Busan photography.
+- Static source checks: each localized homepage has balanced main tags; booking/share/taxi modules appear before seasonal content; mobile dock, taxi copy action and share action are present; no invalid pass-guide path remains. Browser, build and CI still need a fresh run on the latest head.
+- PR #406 remains Draft, unmerged and undeployed.
