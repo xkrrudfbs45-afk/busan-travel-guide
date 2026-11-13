@@ -85,6 +85,9 @@ const TIME_SENSITIVE = [
   [/(the best|最高の|No\.?\s?1|secret|穴場|最好吃|最棒|第一名|私房|祕境|秘境)/i, "superlative / unverifiable claim"],
 ];
 
+// Same simplified-only glyph guard as the Instagram renderer (scripts/instagram/card-v2.mjs).
+const SIMPLIFIED_ONLY = /[这个们来时国说会对开关车门东买网页书页间电话钟饭楼边测试宝贵费]/;
+
 export function checkPost(p) {
   const issues = [], flags = [];
   if (!p.text) issues.push("empty text");
@@ -92,6 +95,7 @@ export function checkPost(p) {
   if (p.market === "JP" && !/[\u3040-\u30ff\u4e00-\u9fff]/.test(p.text)) issues.push("JP post is not Japanese");
   if (p.market === "US" && /[\u3040-\u30ff]/.test(p.text)) issues.push("US post contains Japanese");
   if (p.market === "TW" && (!/[\u4e00-\u9fff]/.test(p.text) || /[\u3040-\u30ff]/.test(p.text))) issues.push("TW post is not Traditional Chinese");
+  if (p.market === "TW" && SIMPLIFIED_ONLY.test(p.text)) issues.push("TW post contains simplified-only characters");
   for (const [re, label] of TIME_SENSITIVE) if (re.test(p.text)) flags.push(label);
   const urls = p.text.match(URL_RE) || [];
   if (urls.length) flags.push("contains URL (checked live before publish)");

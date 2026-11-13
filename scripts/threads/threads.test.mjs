@@ -278,3 +278,10 @@ test("stale-retry cutoff is measured from the scheduled slot: exactly 12h still 
   assert.equal(log.posts["d01-jp-1"].status, "missed");
   assert.ok(!s.published.some((x) => x.startsWith("d01-jp-1")));
 });
+
+test("TW posts with simplified-only characters are blocked before publishing", () => {
+  assert.ok(checkPost({ market: "TW", text: "釜山这个市场很好逛" }).issues.some((i) => /simplified/.test(i)));
+  assert.deepEqual(checkPost({ market: "TW", text: "釜山這個市場很好逛" }).issues, []);
+  const sched = JSON.parse(readFileSync("content/social/threads-30day/schedule.json", "utf8"));
+  for (const p of (sched.posts || sched).filter((x) => x.market === "TW")) assert.ok(!checkPost(p).issues.some((i) => /simplified/.test(i)), p.id);
+});

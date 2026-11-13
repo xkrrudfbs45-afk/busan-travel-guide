@@ -17,6 +17,7 @@ const unverifiedApprovedPost = { ...scheduledPost, status: "approved" };
 const unverifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === scheduledPost.id ? unverifiedApprovedPost : p) };
 const post = { ...unverifiedApprovedPost, verification: { ...unverifiedApprovedPost.verification, status: "verified" } };
 const verifiedSchedule = { ...schedule, posts: schedule.posts.map((p) => p.id === post.id ? post : p) };
+const qaOk = () => ({ ok: true, problems: [] });
 const after = new Date(new Date(post.publish_at_utc).getTime() + 60000);
 
 test("schedule never labels an unverified post approved", () => {
@@ -29,7 +30,7 @@ test("unverified approved post is blocked from rendering and publishing", async 
   const s = await run({
     now: after, schedule: unverifiedSchedule, log: { posts: {} },
     env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" },
-    baseUrl: "https://x",
+    baseUrl: "https://x", qaFor: qaOk,
     mkClient: () => { throw new Error("unverified post must not call Instagram API"); }
   });
   assert.equal(s.published.length, 0);
@@ -42,12 +43,12 @@ test("render planned only for approved unpublished posts", () => {
   assert.equal(dueForRender(verifiedSchedule, { posts: { [post.id]: { status: "published" } } }, after).filter((x) => x.id === post.id).length, 0);
 });
 test("dry run publishes nothing", async () => {
-  const s = await run({ now: after, schedule: verifiedSchedule, log: { posts: {} }, env: { INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x" });
+  const s = await run({ now: after, schedule: verifiedSchedule, log: { posts: {} }, env: { INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", qaFor: qaOk });
   assert.equal(s.dry_run.length, 1); assert.equal(s.published.length, 0);
 });
 test("live: wrong account token is refused", async () => {
   const mk = () => ({ me: async () => ({ username: "someone.else", user_id: "1" }) });
-  const s = await run({ now: after, schedule: verifiedSchedule, log: { posts: {} }, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk });
+  const s = await run({ now: after, schedule: verifiedSchedule, log: { posts: {} }, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", qaFor: qaOk, mkClient: mk });
   assert.equal(s.published.length, 0); assert.match(s.failed[0], /expected @go2busan.us/);
 });
 test("live: publishes carousel in order and logs it", async () => {
@@ -61,7 +62,7 @@ test("live: publishes carousel in order and logs it", async () => {
   });
   const f = async () => ({ status: 200, headers: { get: () => "image/jpeg" } });
   const log = { posts: {} };
-  const s = await run({ now: after, schedule: verifiedSchedule, log, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", mkClient: mk, fetchImpl: f, waitMs: 0 });
+  const s = await run({ now: after, schedule: verifiedSchedule, log, env: { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" }, baseUrl: "https://x", qaFor: qaOk, mkClient: mk, fetchImpl: f, waitMs: 0 });
   assert.equal(s.published.length, 1); assert.equal(log.posts[post.id].status, "published");
   assert.deepEqual(calls.map((c) => c[0]), ["child", "child", "carousel", "publish"]);
 });
@@ -109,4 +110,42 @@ test("art gate limits generation to listed sets", () => {
   const one = artTodo(realSchedule, "/nonexistent", ["d01-fireworks-v2"]).filter((t) => /^d\d\d-/.test(t.file));
   assert.equal(all, 35);
   assert.equal(one.length, 5);
+});
+
+test("QA gate: missing or failed qa.json blocks publishing without using an attempt", async () => {
+  const env = { INSTAGRAM_LIVE: "true", INSTAGRAM_US_ACCESS_TOKEN: "t" };
+  const mk = () => { throw new Error("must not reach the API"); };
+  for (const qaFor of [() => null, () => ({ ok: false, problems: ["card 5: .body text overflows horizontally"] }), () => ({ problems: [] })]) {
+    const log = { posts: {} };
+    const s = await run({ now: after, schedule: verifiedSchedule, log, env, baseUrl: "https://x", mkClient: mk, qaFor });
+    assert.equal(s.published.length, 0);
+    assert.equal(s.blocked_qa.length, 1);
+    assert.equal(log.posts[post.id].attempts, 0);
+    assert.ok(!["published", "failed"].includes(log.posts[post.id].status));
+  }
+});
+
+test("QA gate: localQa reads <cards>/<id>/qa.json and treats unreadable files as missing", async () => {
+  const { mkdtempSync, mkdirSync, writeFileSync } = await import("node:fs");
+  const { localQa } = await import("./publish.mjs");
+  const dir = mkdtempSync("/tmp/igqa-");
+  mkdirSync(`${dir}/a`); writeFileSync(`${dir}/a/qa.json`, JSON.stringify({ ok: true, problems: [] }));
+  mkdirSync(`${dir}/b`); writeFileSync(`${dir}/b/qa.json`, "{not json");
+  const q = localQa(dir);
+  assert.equal(q("a").ok, true); assert.equal(q("b"), null); assert.equal(q("missing"), null);
+});
+
+test("QA gate: failed render keeps previews out of the publishable path", async () => {
+  const { mkdtempSync, existsSync, readFileSync, writeFileSync, mkdirSync } = await import("node:fs");
+  const { writeCards } = await import("./render.mjs");
+  const dir = mkdtempSync("/tmp/igcards-");
+  const shots = [["01", Buffer.from("a")], ["02", Buffer.from("b")]];
+  assert.equal(writeCards(dir, "p", shots, []), true);
+  assert.ok(existsSync(`${dir}/p/01.jpg`));
+  assert.equal(writeCards(dir, "p", shots, ["p card 2: overflow"]), false);
+  assert.ok(!existsSync(`${dir}/p/01.jpg`) && !existsSync(`${dir}/p/02.jpg`), "stale publishable cards removed");
+  assert.ok(existsSync(`${dir}/p/qa-failed/02.jpg`));
+  assert.equal(JSON.parse(readFileSync(`${dir}/p/qa.json`, "utf8")).ok, false);
+  assert.equal(writeCards(dir, "p", shots, []), true);
+  assert.ok(existsSync(`${dir}/p/02.jpg`) && !existsSync(`${dir}/p/qa-failed`), "fixed render restores cards");
 });
