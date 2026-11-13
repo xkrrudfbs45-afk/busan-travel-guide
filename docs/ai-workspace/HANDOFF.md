@@ -124,3 +124,21 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Add clear, evidence-based labels (e.g. solo-friendly, fixed-price only when confirmed); do not apply generic trust badges without source evidence.
 - Improve long-tail search coverage with intent-led titles, visible concise answers, useful warnings and FAQ content. Do not add FAQ/HowTo schema to chase deprecated Google rich results.
 - Preserve owner approval requirement for merge/deploy.
+## Latest handoff — full visual design batch (2026-11-13)
+
+### Design batch delivered on the PR branch
+- Completed a coordinated homepage visual composition for EN / JA / zh-TW: panoramic Busan hero, six travel shortcuts, asymmetric Editor’s Picks bento grid, conversion cards, photo-spot shortcuts, Facebook/LINE/native share, Korean taxi show-card with copy action, and mobile fixed Busan Map / Busan Pass dock.
+- Repositioned the conversion/share modules directly under Editor’s Picks and preserved the existing events, neighborhood planner, editorial content, SEO metadata, analytics and existing route structure.
+- Refined responsive design and cache-busting for the homepage stylesheets.
+- The shared editorial styles in this PR continue to apply to guide articles, directories, map pages, sidebars, tables and FAQ presentation.
+
+### Important content and asset handling
+- Existing Wikimedia hero and image-credit records remain the source of documentary location photography. Generated mockups are design references, not real-location photographs.
+- Klook link reuses the existing Visit Busan Pass affiliate destination. Hotel CTA uses the existing Agoda Busan listing.
+- Taxi show-card is a visible Korean phrase that can be copied; the sample destination is Cheongsapo Station at Haeundae Blueline Park.
+- Map and attraction links should be checked against live page routes before release.
+
+### Verification status
+- Static source checks passed for the three localized homepages (balanced main tags; modules placed below Editor’s Picks; share and taxi controls present; invalid pass path removed).
+- No latest-head CI/browser run is available yet. Request Claude to run a fresh full verification of PR #406 after these commits. Do not claim final QA or deployment.
+- PR #406 remains Draft and awaits owner approval before merge/deploy.
