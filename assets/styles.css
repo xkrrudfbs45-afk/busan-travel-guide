@@ -1412,3 +1412,154 @@ body:not(.home-refresh) .guide-faq details p{color:#526174}
  body:not(.home-refresh) .guide-directory-section{padding:19px}
  body:not(.home-refresh) .local-scorecard-heading{align-items:flex-start;flex-direction:column}
 }
+
+
+/* =========================================================
+   GO2BUSAN — ALL LOCALE / ALL GUIDE TEMPLATE FINISHING LAYER
+   Applies to EN, JA and zh-TW article, directory, food,
+   neighborhood, transport, lodging and planning pages.
+   ========================================================= */
+body:not(.home-refresh) .article-hero{
+  position:relative;
+  isolation:isolate;
+  padding-bottom:clamp(30px,4vw,48px);
+}
+body:not(.home-refresh) .article-hero:after{
+  content:"";
+  position:absolute;
+  z-index:-1;
+  left:calc((1180px - 100vw)/2);
+  right:calc((1180px - 100vw)/2);
+  top:0;
+  bottom:0;
+  background:linear-gradient(115deg,rgba(241,245,249,.96),rgba(248,250,252,.72) 62%,rgba(255,255,255,.2));
+  pointer-events:none;
+}
+body:not(.home-refresh) .article-hero h1{
+  text-wrap:balance;
+  overflow-wrap:anywhere;
+}
+body:not(.home-refresh) .article-cover,
+body:not(.home-refresh) figure.spa-photo,
+body:not(.home-refresh) main>figure{
+  position:relative;
+}
+body:not(.home-refresh) .article-cover img,
+body:not(.home-refresh) figure.spa-photo img,
+body:not(.home-refresh) main>figure img{
+  display:block;
+  width:100%;
+  max-height: min(62vw,560px);
+  object-fit:cover;
+  background:#e8edf3;
+}
+body:not(.home-refresh) .article-body figure{
+  margin:30px 0;
+}
+body:not(.home-refresh) .article-body figure img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:520px;
+  object-fit:cover;
+  border-radius:14px;
+}
+body:not(.home-refresh) .article-body figcaption{
+  margin-top:8px;
+  color:#718096;
+  font-size:11px;
+  line-height:1.65;
+}
+body:not(.home-refresh) .article-body blockquote{
+  margin:28px 0;
+  padding:20px 24px;
+  border-left:3px solid var(--g2b-coral);
+  border-radius:0 12px 12px 0;
+  background:#fff8f5;
+  color:#344256;
+}
+body:not(.home-refresh) .article-body hr{
+  margin:38px 0;
+  border:0;
+  border-top:1px solid var(--g2b-line);
+}
+body:not(.home-refresh) .article-body :is(img,video,iframe){
+  max-width:100%;
+}
+body:not(.home-refresh) .article-body a,
+body:not(.home-refresh) .guide-directory-section a{
+  text-underline-offset:3px;
+}
+body:not(.home-refresh) .article-aside .aside-box,
+body:not(.home-refresh) .article-sidebar .sidebar-card{
+  overflow:hidden;
+}
+body:not(.home-refresh) .article-aside a,
+body:not(.home-refresh) .article-sidebar a{
+  text-underline-offset:3px;
+}
+body:not(.home-refresh) .callout,
+body:not(.home-refresh) .quick-summary,
+body:not(.home-refresh) .local-scorecard,
+body:not(.home-refresh) .local-tip-panel{
+  margin-block:26px;
+}
+body:not(.home-refresh) .article-end{
+  padding-bottom:12px;
+}
+body:not(.home-refresh) .article-end a,
+body:not(.home-refresh) .article-body .button,
+body:not(.home-refresh) .article-body .pass-cta-primary{
+  min-height:44px;
+}
+body:not(.home-refresh) .guide-directory-section{
+  min-width:0;
+}
+body:not(.home-refresh) .guide-directory-section h2,
+body:not(.home-refresh) .article-body h2,
+body:not(.home-refresh) .article-body h3{
+  text-wrap:balance;
+  overflow-wrap:anywhere;
+}
+body:not(.home-refresh) .guide-directory-jumps{
+  position:relative;
+  z-index:1;
+  padding-bottom:12px;
+}
+body:not(.home-refresh) .guide-directory-jumps a{
+  min-height:36px;
+  display:inline-flex;
+  align-items:center;
+}
+body:not(.home-refresh) .site-footer .footer-disclosure{
+  line-height:1.7;
+}
+@media(max-width:820px){
+  body:not(.home-refresh) .article-hero:after{
+    left:-24px;
+    right:-24px;
+  }
+  body:not(.home-refresh) .article-cover img,
+  body:not(.home-refresh) figure.spa-photo img,
+  body:not(.home-refresh) main>figure img{
+    max-height:420px;
+  }
+}
+@media(max-width:600px){
+  body:not(.home-refresh) .article-hero:after{
+    left:-17px;
+    right:-17px;
+  }
+  body:not(.home-refresh) .article-cover img,
+  body:not(.home-refresh) figure.spa-photo img,
+  body:not(.home-refresh) main>figure img{
+    max-height:330px;
+    border-radius:12px;
+  }
+  body:not(.home-refresh) .article-body figure img{border-radius:10px}
+  body:not(.home-refresh) .article-body blockquote{padding:16px 18px}
+  body:not(.home-refresh) .guide-directory-jumps{scroll-margin-top:80px}
+}
+@media(prefers-reduced-motion:reduce){
+  body:not(.home-refresh) .guide-directory-section:hover{transform:none}
+}
