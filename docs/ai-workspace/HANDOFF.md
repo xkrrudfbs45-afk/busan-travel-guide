@@ -103,3 +103,24 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Approval needed
 - Owner approval before merge or production deployment.
+## Current handoff — 2026-11-13 (ChatGPT, Claude QA corrections and market UX)
+
+### Completed
+- Reviewed Claude's browser QA report for #404/#405/#406 and implemented the homepage corrections on `design/full-site-editorial-redesign-20261113`.
+- Fixed the verified Dongnae photo/alt/credit mismatch using the registered Bukmun image; corrected Gwangan Bridge photo attribution to Glabb / Public domain across all three locales.
+- Removed the nonfunctional "Watch Busan in 1 Min" CTA and linked it to the first-trip guide.
+- Corrected Japanese and Traditional Chinese airport-arrival and transit quick links; translated homepage editorial labels and accessibility labels.
+- Added high-contrast mobile menu styling, Escape-to-close behavior, CJK heading line-break safeguards and full homepage reduced-motion overrides.
+
+### Verification
+- Claude's pre-fix QA: build + 13/13 audits passed on the inspected #406 head; browser review across 360/390/768/1280 and EN/JA/zh-TW. This does not verify the corrective commits.
+- Current corrective branch still requires fresh CI and repeat browser QA. Photo crop checks were blocked by Wikimedia image loading in Claude's sandbox; real-device and Lighthouse/CWV checks remain outstanding.
+- PR #406 remains Draft, unmerged and undeployed.
+
+### Next implementation batch
+- Add localized Facebook/LINE sharing near the end of high-intent guides, with native share fallback and no tracking claims.
+- Add Google Maps deep links only where a verified place name/address is present; never fabricate map destinations.
+- Add useful taxi/show cards with large Korean destination text on airport, attraction and neighborhood guides.
+- Add clear, evidence-based labels (e.g. solo-friendly, fixed-price only when confirmed); do not apply generic trust badges without source evidence.
+- Improve long-tail search coverage with intent-led titles, visible concise answers, useful warnings and FAQ content. Do not add FAQ/HowTo schema to chase deprecated Google rich results.
+- Preserve owner approval requirement for merge/deploy.
