@@ -1,6 +1,6 @@
 // Renders Instagram carousel cards (1080x1350 JPEG) from a real, licensed photo.
 // Runs in GitHub Actions: the photo is downloaded on the runner and the credit line is always drawn.
-import { readFileSync, mkdirSync, writeFileSync, existsSync } from "node:fs";
+import { readFileSync, mkdirSync, writeFileSync, existsSync, rmSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { SCHEDULE_FILE, checkPost } from "./lib.mjs";
 import { cardV2Html, layoutProbe, langIssues, SAFE, BRIGHT_VERSION } from "./card-v2.mjs";
@@ -47,6 +47,22 @@ export function dueForRender(schedule, log, now, horizonH = 36) {
     (p.status === "draft" || new Date(p.publish_at_utc) - now < horizonH * 3600e3));
 }
 
+// Fail-closed QA gate: cards are only published at <id>/NN.jpg when layout QA passed.
+// A failed post keeps reviewable previews under <id>/qa-failed/ and any stale publishable cards are removed,
+// so the publisher (which also checks qa.json) can never pick them up.
+export function writeCards(outDir, id, shots, problems) {
+  const dir = `${outDir}/${id}`;
+  mkdirSync(dir, { recursive: true });
+  const ok = problems.length === 0;
+  rmSync(`${dir}/qa-failed`, { recursive: true, force: true });
+  for (const [n] of shots) rmSync(`${dir}/${n}.jpg`, { force: true });
+  const target = ok ? dir : `${dir}/qa-failed`;
+  mkdirSync(target, { recursive: true });
+  for (const [n, buf] of shots) writeFileSync(`${target}/${n}.jpg`, buf);
+  writeFileSync(`${dir}/qa.json`, JSON.stringify({ ok, problems }, null, 1));
+  return ok;
+}
+
 // Skip posts whose cards are already rendered for the current spec.
 export function needsRender(p, outDir) {
   const f = `${outDir}/${p.id}/.hash`;
@@ -77,6 +93,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       const files = artFiles(p);
       const texts = p.cards.flatMap((c) => [c.title, c.body, c.cta, c.cat]).filter(Boolean).concat(p.caption);
       const problems = langIssues(p.lang, texts).map((m) => `${p.id}: ${m}`);
+      const shots = [];
       for (let i = 0; i < p.cards.length; i++) {
         const bg = `data:image/jpeg;base64,${readFileSync(`${artDir}/${files[i].file}`).toString("base64")}`;
         await page.setContent(cardV2Html(p.cards[i], { bgDataUri: bg, lang: p.lang, index: i, total: p.cards.length, credit: p.art.credit, theme: p.theme }), { waitUntil: "networkidle" });
@@ -85,9 +102,9 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         bad.forEach((m) => problems.push(`${p.id} card ${i + 1}: ${m}`));
         const n = String(i + 1).padStart(2, "0");
         if (pngOut) { mkdirSync(`${pngOut}/${p.id}`, { recursive: true }); writeFileSync(`${pngOut}/${p.id}/${n}.png`, await page.screenshot({ type: "png" })); }
-        writeFileSync(`${outDir}/${p.id}/${n}.jpg`, await page.screenshot({ type: "jpeg", quality: 94 })); // Instagram accepts JPEG only
+        shots.push([n, await page.screenshot({ type: "jpeg", quality: 94 })]); // Instagram accepts JPEG only
       }
-      writeFileSync(`${outDir}/${p.id}/qa.json`, JSON.stringify({ ok: problems.length === 0, problems }, null, 1));
+      writeCards(outDir, p.id, shots, problems);
       if (problems.length) { qaFailed++; problems.forEach((m) => console.log(`QA FAIL ${m}`)); }
     } else {
       const photo = p.art ? `data:image/jpeg;base64,${readFileSync(`${artDir}/${p.id}.jpg`).toString("base64")}` : await fetchPhoto(p.photo.url);
@@ -97,11 +114,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         await page.evaluate(() => document.fonts.ready);
         writeFileSync(`${outDir}/${p.id}/${String(i + 1).padStart(2, "0")}.jpg`, await page.screenshot({ type: "jpeg", quality: 92 }));
       }
+      writeFileSync(`${outDir}/${p.id}/qa.json`, JSON.stringify({ ok: true, problems: [], note: "photo template has no layout probe" }, null, 1));
     }
     writeFileSync(`${outDir}/${p.id}/.hash`, specHash(p));
     await page.close();
     console.log(`rendered ${p.id}: ${p.cards.length} cards`);
   }
   await browser.close();
-  if (qaFailed) { console.log(`${qaFailed} post(s) failed layout QA (kept as draft previews).`); process.exit(0); }
+  if (qaFailed) { console.log(`${qaFailed} post(s) failed layout QA (previews kept under <id>/qa-failed/, not publishable).`); process.exit(0); }
 }

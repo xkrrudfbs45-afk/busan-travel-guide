@@ -2,13 +2,18 @@
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { SCHEDULE_FILE, ACCOUNTS, LATE_WINDOW_MIN, MAX_ATTEMPTS, checkPost, client, redact } from "./lib.mjs";
 
+export const localQa = (cardsDir) => (id) => {
+  const f = `${cardsDir}/${id}/qa.json`;
+  try { return existsSync(f) ? JSON.parse(readFileSync(f, "utf8")) : null; } catch (_) { return null; }
+};
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const norm = (s) => String(s || "").replace(/\s+/g, " ").trim().slice(0, 80);
 
 export async function run({ now = new Date(), schedule, log, env = process.env, fetchImpl = fetch, mkClient = client,
-  baseUrl, waitMs = 5000, save = () => {} }) {
+  baseUrl, waitMs = 5000, save = () => {}, qaFor = localQa("state/cards") }) {
   const live = env.INSTAGRAM_LIVE === "true";
-  const out = { live, published: [], dry_run: [], waiting: [], failed: [], missed: [], not_configured: [] };
+  const out = { live, published: [], dry_run: [], waiting: [], failed: [], missed: [], not_configured: [], blocked_qa: [] };
   log.posts ||= {};
   const entry = (id) => (log.posts[id] ||= { status: "pending", attempts: 0 });
   for (const p of schedule.posts) {
@@ -21,6 +26,15 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
     if ((now - new Date(p.publish_at_utc)) / 60000 > LATE_WINDOW_MIN) {
       if (live) { Object.assign(entry(p.id), { status: "missed", missed_at: now.toISOString() }); save(log); }
       out.missed.push(p.id); continue;
+    }
+    // Fail-closed QA gate: publish only cards whose render QA passed (qa.json ok === true).
+    // Missing or failed QA blocks the post without using an attempt, so a fixed re-render can still go out in time.
+    const qa = qaFor(p.id);
+    if (!qa || qa.ok !== true) {
+      const why = !qa ? "qa.json missing" : (qa.problems || []).slice(0, 3).join("; ") || "qa.ok is not true";
+      out.blocked_qa.push(`${p.id}: ${why}`);
+      if (live) { Object.assign(entry(p.id), { qa_blocked_at: now.toISOString(), qa_error: redact(why) }); save(log); }
+      continue;
     }
     const acc = ACCOUNTS[p.account];
     const token = env[acc.tokenEnv];
@@ -76,6 +90,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const log = existsSync(logPath) ? JSON.parse(readFileSync(logPath, "utf8")) : { posts: {} };
   const repo = process.env.GITHUB_REPOSITORY || "xkrrudfbs45-afk/busan-travel-guide";
   const baseUrl = process.env.INSTAGRAM_CARDS_BASE_URL || `https://raw.githubusercontent.com/${repo}/instagram-state/cards`;
-  const s = await run({ schedule, log, baseUrl, save: (l) => writeFileSync(logPath, JSON.stringify(l, null, 2)) });
-  if (s.failed.length || (s.live && s.not_configured.length)) process.exit(1);
+  const cardsDir = opt("--cards") || "state/cards";
+  const s = await run({ schedule, log, baseUrl, qaFor: localQa(cardsDir), save: (l) => writeFileSync(logPath, JSON.stringify(l, null, 2)) });
+  if (s.failed.length || s.blocked_qa.length || (s.live && s.not_configured.length)) process.exit(1);
 }
