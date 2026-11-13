@@ -54,3 +54,27 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Approval needed
 - [Any merge, deployment, spend, partner, or policy decision]
+
+
+## Current handoff — 2026-11-13 (ChatGPT, editorial design Phase 1)
+
+### Completed
+- Opened Draft PR #404: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/404
+- Added a shared non-homepage editorial layer in assets/styles.css, reusable design tokens/components in assets/editorial-design-system.css, and the design-system specification in docs/design/GO2BUSAN-EDITORIAL-DESIGN-SYSTEM.md.
+- Confirmed EN/JA/zh-TW guide indexes load the shared stylesheet and contain the targeted directory classes.
+
+### Verification
+- PR branch compares cleanly with main: 3 commits ahead, 0 behind at last check; GitHub reports mergeable.
+- Actions run 43424881559 completed successfully. Public-site build and dependency-free technical SEO audit passed.
+- No visual browser QA or production deployment has been performed. PR remains Draft and unmerged.
+
+### Open issues / blockers
+- Confirm the editorial CSS at 360/390/768/1280 and inspect representative food, neighborhood, transport and guide detail templates in EN/JA/zh-TW.
+- Confirm homepage remains visually unchanged and check keyboard focus, contrast, long translated headings, tables and sticky navigation.
+- The standalone token/component stylesheet is a foundation for later explicit template adoption; do not assume its .g2b-* components are already used on live pages.
+
+### Recommended next action
+- Complete representative visual/template QA; then create a separate food/place profile module with image-led cards, menu/price/location facts, source/visit-status labels, and related neighborhood/transport links.
+
+### Approval needed
+- Owner approval before merging PR #404 or deploying any design changes.
