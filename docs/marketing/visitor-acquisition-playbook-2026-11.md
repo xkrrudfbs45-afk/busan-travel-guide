@@ -517,3 +517,25 @@ Editorial rules:
 - Do not describe a generic beach photo as a current festival installation.
 - Keep Bukangi available as a local story, but do not let a past viral moment occupy the primary Busan Now homepage slot after its peak.
 - Recheck schedules, hours, ticketing and weather notices before future seasonal rotations.
+
+
+## Evergreen experience expansion — Yeongdo, night views and BTS fan routes (2026-11-14)
+
+Prioritize three evergreen visitor intents in Busan discovery content:
+1. **Yeongdo coastal walk:** Huinnyeoul Culture Village + Jeoryeong Coastal Trail; position Taejongdae as a separate half-day because it is a larger nature park. Official references: https://visitbusan.net/index.do?lang_cd=en&menuCd=DOM_000000601001001000&uc_seq=255 and https://english.visitkorea.or.kr/svc/whereToGo/hdrdslt/hdrdsltView.do?crsSn=348659
+2. **Busan night views:** Hwangnyeongsan Observatory (KTO lists 24-hour, year-round access), Gwangalli Beach, and Cheonghak Reservoir Observatory on Yeongdo. Official references: https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=351&vcontsId=184971 and https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA006099
+3. **BTS fan route:** use public tourism stops only. KTO's 2026 visitor feature identifies Busan Citizens Park (V), Busan Museum of Art (RM), Gwangandaegyo Bridge (Jimin), Oryukdo, Dadaepo and Gamcheon. Keep the residential/private-home boundary explicit. Source: https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&page=1&sContsTtl=&sort=regDt&vcontsId=1589997
+
+The Gwangalli M Drone Light Show is not a nightly event. The KTO listing for 2026 specifies Saturdays: 19:00 and 21:00 in winter (Oct–Feb), 20:00 and 22:00 in summer (Mar–Sep); free viewing, subject to weather and organizer changes: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=35656
+
+Homepage image sources added with visible credits:
+- Huinnyeoul Culture Village, Choi2451, CC0: https://commons.wikimedia.org/wiki/File:Huinnyeoul_culture_village,_Busan_on_October_25th,_2019.jpg
+- Busan Gwangalli Night, Carey Ciuro, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Busan_Gwangalli_Night.jpg
+- Gamcheon Culture Village in Busan, South Korea, VN.NguyenDucDuy, CC BY-SA 4.0: https://commons.wikimedia.org/wiki/File:Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg
+
+Editorial rules:
+- Separate Huinnyeoul/Jeoryeong walking from the larger Taejongdae visit.
+- State the Gwangalli drone show schedule by season and weekday; never imply nightly performances.
+- Do not route visitors to private residences, schools or non-public locations for BTS content.
+- Treat all business hours and transport as subject to change; verify on the day of travel.
+- Keep local residential etiquette visible in the Huinnyeoul and Gamcheon copy.
