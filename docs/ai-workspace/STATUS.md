@@ -101,3 +101,13 @@ Update this table after each meaningful work session. Include PR numbers, commit
 - Refreshed the Busan Map page's inline module styles: map panel, category filters, place cards, selected state, action controls, sticky desktop map and mobile filter scrolling. No map data, place claims, links or behavior changed.
 - Static source sanity check: shared stylesheet brace counts balanced (1,264 opening / 1,264 closing); map HTML closes correctly and retains its script block. This is not a substitute for build/CI or browser QA.
 - PR #406 remains Draft and unmerged. CI must be checked against the latest head after these commits.
+
+
+## Claude functional QA and corrective pass — 2026-11-13
+
+- Claude's browser QA of PRs #404/#405/#406: build and 13/13 CI audits passed on the inspected #406 head; canonical, hreflang, JSON-LD, analytics, consent and affiliate links unchanged. Chromium review covered 360/390/768/1280 across EN/JA/zh-TW home, guide index, food, area, transit and article templates.
+- Verified defects reported: homepage mobile-menu contrast/visibility and Escape behavior; EN Dongnae card used a Nampo photo with Dongnae alt/credit; incorrect Gwangan Bridge credit; fake "Watch Busan in 1 Min" anchor; JA/zh-TW quick links misrouted; header control overlap; untranslated JA/zh-TW homepage labels; CJK heading breaks; incomplete reduced-motion rules. Inner-page mobile navigation remains a separate follow-up.
+- ChatGPT corrective pass on this branch: corrected the Dongnae photo to the registered Bukmun image and restored its matching photographer credit; corrected Gwangan Bridge credit to Glabb / Public domain across EN/JA/zh-TW; replaced the fake video CTA with a real guide link; fixed JA/zh-TW airport and transit quick links; localized homepage section labels; added mobile nav contrast/visibility and Escape-key close behavior, CJK word-break safeguards and comprehensive reduced-motion overrides.
+- Claude's image-crop check was blocked because Wikimedia images did not load in its sandbox. Real-device and Lighthouse/CWV checks were not performed. Do not claim these as passed.
+- Current branch requires a fresh build and full CI run after the corrective commits. PR #406 remains Draft, unmerged and undeployed.
+- SEO strategy correction: do not add FAQ/HowTo markup solely to chase Google rich results. Google removed FAQ rich results in May 2026 and deprecated HowTo rich results; retain visible useful Q&A content, accurate Article/BreadcrumbList and other page-relevant schema. Source: https://developers.google.com/search/updates.
