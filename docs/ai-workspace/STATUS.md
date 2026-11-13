@@ -168,3 +168,16 @@ Applied to the existing #406 Draft branch; no overlapping PR created.
 Pending: build, full audit suite, and cross-locale browser QA at 360/390/768/1280. Keep Draft; do not merge or deploy until verified.
 
 - Responsive hero preload: split preload hints by viewport in EN/JA/zh-TW. Desktop/tablet preloads the 1800 request (1920px delivery tier); phones preload the same 1000 request used by the mobile hero CSS, avoiding a desktop-sized LCP preload on small screens.
+
+
+## Homepage design batch 3 — 2026-11-14 (10 grouped improvements)
+- Matched the mobile hero CSS background to the 1000px image preload; retained the desktop 1800 request.
+- Normalized remaining oversized homepage neighborhood/editorial image requests (1200/1400) to 960 where those card dimensions are used.
+- Improved editorial photo-credit chips, bento card crop/focus treatment and locale-safe title wrapping.
+- Reworked the narrow-phone discovery shortcut bar into a thumb-friendly horizontal snap rail.
+- Refined mobile bento hierarchy and neighborhood photo-card hover/focus behavior.
+- Standardized seasonal-event card image framing, spacing and interaction states.
+- Added a dedicated responsive editorial treatment to the Traditional Chinese Taiwan-traveler feature panel.
+- Updated all three homepage stylesheet cache keys to `20261114-visual-batch3`.
+- Preserved photo subjects, attribution text/links, routes, article copy, canonical/hreflang, metadata, JSON-LD, analytics and affiliate destinations.
+- Verification is pending on this exact head: build, technical audits and Playwright screenshots at 360/390/768/1280. PR #406 remains Draft; no merge or deployment.
