@@ -174,7 +174,7 @@ jobs:
           fi
           fails=""
           sh scripts/build-static.sh > /tmp/build.log 2>&1 || fails="build"
-          for a in "public-quality-audit.mjs public" "seo-audit.mjs" "sitemap-hreflang-audit.mjs" "outbound-link-image-audit.mjs" "homepage-food-image-audit.mjs" "image-credit-audit.mjs --strict" "analytics-navigation-audit.mjs" "build-social-calendar.mjs --check" "social-content-audit.mjs" "social-content-audit.mjs --self-test" "language-switch-audit.mjs" "inject-affiliate-cta.mjs --check" "enhance-images.mjs --check"; do
+          for a in "public-quality-audit.mjs public" "seo-audit.mjs" "sitemap-hreflang-audit.mjs" "outbound-link-image-audit.mjs" "homepage-food-image-audit.mjs" "image-credit-audit.mjs --strict" "analytics-navigation-audit.mjs" "build-social-calendar.mjs --check" "social-content-audit.mjs" "social-content-audit.mjs --self-test" "language-switch-audit.mjs" "inject-affiliate-cta.mjs --check" "enhance-images.mjs --check" "enhance-social-meta.mjs --check public"; do
             if node scripts/$a > /tmp/a.log 2>&1; then echo "- ✅ $a" >> /tmp/audits.md; else echo "- ❌ $a: $(tail -2 /tmp/a.log | tr '\n' ' ' | cut -c1-200)" >> /tmp/audits.md; fails="$fails $a"; fi
           done
           node scripts/growth/scan.mjs --public public --out /tmp/after --offline > /dev/null 2>&1 && sed -n '/### Technical SEO/,/### CI audit/p' /tmp/after/report.md | head -12 >> /tmp/audits.md || true
