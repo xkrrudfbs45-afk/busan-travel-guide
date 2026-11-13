@@ -222,3 +222,25 @@ html:lang(ja) .home-refresh h1,html:lang(zh-TW) .home-refresh h1{
 .home-refresh .home-conversion-card .conversion-cta{border:0;cursor:pointer;font-family:inherit}
 .home-refresh .home-conversion-card .conversion-cta:hover{filter:brightness(.94)}
 @media(max-width:600px){.home-refresh .taxi-korean{font-size:13px}.home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:570px}}
+
+
+/* Locale-specific art direction and mobile dock clearance — QA batch 2. */
+html[lang="ja"] .home-refresh .home-hero h1{
+  max-width:min(100%,11em);
+  text-wrap:balance;
+  word-break:normal;
+  overflow-wrap:normal;
+  line-break:strict;
+}
+.home-refresh .pick-1{background-position:center 58%}
+.home-refresh .pick-2{background-position:center 62%}
+.home-refresh .pick-3{background-position:center 48%}
+.home-refresh .pick-4{background-position:center 55%}
+@media(max-width:600px){
+  .home-refresh .site-footer{
+    padding-bottom:calc(122px + env(safe-area-inset-bottom));
+  }
+  .home-refresh .footer-inner{
+    padding-bottom:calc(32px + env(safe-area-inset-bottom));
+  }
+}
