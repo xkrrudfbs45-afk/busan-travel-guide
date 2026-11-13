@@ -112,3 +112,34 @@ html:lang(zh-TW) .home-refresh .showcase-quick-item{line-height:1.5;overflow-wra
 
 .home-refresh .showcase-photo-credit{position:absolute;right:14px;top:52px;max-width:58%;color:rgba(255,255,255,.82);font-size:8px;line-height:1.35;text-align:right;text-shadow:0 1px 5px rgba(0,0,0,.8)}
 @media(max-width:768px){.home-refresh .showcase-photo-credit{font-size:8px;max-width:64%}}
+
+
+/* Functional QA fixes — mobile navigation, locale controls and readable CJK headings */
+@media(max-width:900px){
+ .home-refresh .nav-wrap{display:flex;flex-wrap:nowrap;align-items:center;gap:7px;width:calc(100% - 24px)}
+ .home-refresh .brand-lockup{flex:0 1 142px;width:142px;min-width:0}
+ .home-refresh .mobile-menu-toggle{display:flex;flex:0 0 42px;width:42px;height:42px}
+ .home-refresh .site-header nav{display:none;position:absolute;top:calc(100% - 4px);left:12px;right:12px;z-index:60;flex-direction:column;align-items:stretch;gap:0;padding:8px 14px;border:1px solid rgba(255,255,255,.2);border-radius:9px;background:#14243a!important;box-shadow:0 16px 35px rgba(0,0,0,.28)}
+ .home-refresh .site-header nav.is-open{display:flex!important}
+ .home-refresh .site-header nav a{display:flex;align-items:center;min-height:44px;padding:11px 6px;color:#fff!important;background:transparent!important;border-bottom:1px solid rgba(255,255,255,.14);white-space:normal}
+ .home-refresh .site-header nav a:last-child{border-bottom:0}
+ .home-refresh .header-actions{display:flex;flex:0 0 auto;align-items:center;gap:4px;margin-left:auto}
+ .home-refresh .header-actions .search-icon,.home-refresh .header-actions .language-pill{min-width:36px;min-height:40px;padding:4px 6px;font-size:9px;white-space:nowrap}
+}
+@media(max-width:390px){
+ .home-refresh .brand-lockup{flex-basis:108px;width:108px}
+ .home-refresh .header-actions .search-icon{min-width:34px;width:34px}
+ .home-refresh .header-actions .language-pill{min-width:34px;padding-inline:4px;font-size:8px}
+}
+.home-refresh h1,.home-refresh h2,.home-refresh h3,
+html:lang(ja) .home-refresh h1,html:lang(zh-TW) .home-refresh h1{
+ word-break:keep-all;overflow-wrap:normal;line-break:strict;
+}
+.home-refresh .showcase-pick-copy strong{word-break:keep-all;overflow-wrap:anywhere}
+@media(prefers-reduced-motion:reduce){
+ .home-refresh *, .home-refresh *::before, .home-refresh *::after{
+  scroll-behavior:auto!important;animation:none!important;transition:none!important;
+ }
+ .home-refresh .showcase-pick:hover,.home-refresh .showcase-primary:hover,
+ .home-refresh .showcase-quick-item:hover{transform:none!important}
+}
