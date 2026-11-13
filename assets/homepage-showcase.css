@@ -364,3 +364,105 @@ html[lang="zh-Hant-TW"] .home-refresh .showcase-section-head h2{
   .home-refresh .showcase-pick:hover,.home-refresh .home-photo-grid>a:hover,
   .home-refresh .seasonal-event-card:hover{transform:none!important}
 }
+
+
+/* Homepage design batch 4 — ten coordinated visual refinements, 2026-11-14 */
+/* 1. A consistent, high-contrast hero composition across all language homepages. */
+.home-refresh .home-hero{isolation:isolate}
+.home-refresh .home-hero-backdrop{background-repeat:no-repeat;background-size:cover;will-change:auto}
+.home-refresh .home-hero-inner{width:min(1200px,calc(100% - 64px));}
+.home-refresh .home-hero-copy{position:relative;max-width:690px}
+.home-refresh .hero-script{display:inline-flex;align-items:center;gap:8px;max-width:100%;padding:7px 11px;border:1px solid rgba(255,255,255,.26);border-radius:999px;background:rgba(8,24,43,.28);backdrop-filter:blur(8px)}
+/* 2. Improve headline rhythm without forcing awkward CJK breaks. */
+.home-refresh .home-hero h1{max-width:12ch;text-wrap:balance;overflow-wrap:anywhere}
+.home-refresh .home-hero .hero-intro{max-width:54ch;text-wrap:pretty}
+html[lang="ja"] .home-refresh .home-hero h1,
+html[lang="zh-TW"] .home-refresh .home-hero h1{max-width:15em;line-break:strict;word-break:normal;letter-spacing:0}
+html[lang="ja"] .home-refresh .home-hero .hero-intro,
+html[lang="zh-TW"] .home-refresh .home-hero .hero-intro{line-break:strict;overflow-wrap:anywhere}
+/* 3. Make primary and secondary hero actions read as a clear action hierarchy. */
+.home-refresh .showcase-hero-actions{align-items:center;gap:10px}
+.home-refresh .showcase-primary{min-height:50px;padding-inline:22px;border-radius:8px;box-shadow:0 10px 24px rgba(4,16,31,.2)}
+.home-refresh .showcase-secondary{min-height:50px;padding-inline:18px;border-radius:8px;border-color:rgba(255,255,255,.62);backdrop-filter:blur(5px)}
+.home-refresh .showcase-primary:focus-visible,.home-refresh .showcase-secondary:focus-visible{outline:3px solid #fff;outline-offset:3px}
+/* 4. Search field: stronger affordance, visible keyboard state and comfortable touch target. */
+.home-refresh .site-search{min-height:56px;height:auto;box-sizing:border-box}
+.home-refresh .site-search input{min-height:42px;min-width:0}
+.home-refresh .site-search input:focus-visible{outline:2px solid #1769aa;outline-offset:3px;border-radius:3px}
+.home-refresh .site-search button{min-width:44px;min-height:44px;transition:background .18s,transform .18s}
+.home-refresh .site-search button:active{transform:scale(.96)}
+/* 5. Desktop header: align logo, navigation and language/search controls on one baseline. */
+@media(min-width:901px){
+ .home-refresh .nav-wrap{display:flex;align-items:center;gap:clamp(16px,2vw,28px)}
+ .home-refresh .brand-lockup{flex:0 1 220px;min-width:145px;max-width:22%}
+ .home-refresh .site-header nav{justify-content:flex-end;gap:clamp(12px,1.55vw,23px)}
+ .home-refresh .site-header nav a{padding-block:18px}
+ .home-refresh .header-actions{gap:7px}
+}
+.home-refresh .site-header nav a:focus-visible,.home-refresh .header-actions a:focus-visible{outline:2px solid #ed765f;outline-offset:4px;border-radius:4px}
+/* 6. Discovery shortcuts: consistent icon, label and focus alignment at every width. */
+.home-refresh .showcase-quick-item{position:relative;min-width:0}
+.home-refresh .showcase-quick-icon{flex:none;transition:transform .2s,background .2s}
+.home-refresh .showcase-quick-item:hover .showcase-quick-icon{transform:translateY(-2px);background:#f8e8e2}
+.home-refresh .showcase-quick-item:focus-visible{outline:3px solid #ed765f;outline-offset:-4px}
+.home-refresh .showcase-quick-item>span:not(.showcase-quick-icon){text-wrap:balance;overflow-wrap:anywhere}
+/* 7. Bento cards: coherent image-first hierarchy with stable title and credit placement. */
+.home-refresh .showcase-bento{align-items:stretch}
+.home-refresh .showcase-pick{min-height:0;background-color:#1c3048}
+.home-refresh .showcase-pick::after{position:absolute;inset:0;z-index:-1;content:"";background:linear-gradient(0deg,rgba(5,17,32,.2),transparent 65%);pointer-events:none}
+.home-refresh .showcase-pick-copy{position:relative;z-index:1}
+.home-refresh .showcase-pick-tag{backdrop-filter:blur(9px)}
+.home-refresh .showcase-photo-credit{font-variant-numeric:tabular-nums}
+.home-refresh .showcase-pick-arrow{z-index:2}
+/* 8. Booking/planning cards: improve scanning and make the whole card feel actionable. */
+.home-refresh .home-conversion-card{min-width:0;align-items:flex-start;transition:transform .2s,box-shadow .2s,border-color .2s}
+.home-refresh a.home-conversion-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(16,27,53,.1);border-color:#d4dce8}
+.home-refresh .home-conversion-card>span:last-child{min-width:0}
+.home-refresh .home-conversion-card strong{overflow-wrap:anywhere}
+.home-refresh .home-conversion-card .conversion-cta{min-height:38px;align-items:center;border-radius:8px}
+.home-refresh .home-conversion-card:focus-visible{outline:3px solid #ed765f;outline-offset:3px}
+/* 9. Destination photography: use a consistent editorial caption treatment and avoid crop jumps. */
+.home-refresh .home-photo-grid>a{position:relative;overflow:hidden;background:#1b3048}
+.home-refresh .home-photo-grid>a img{display:block;width:100%;height:100%;min-height:inherit;object-fit:cover}
+.home-refresh .home-photo-grid>a span{left:0;right:0;bottom:0;box-sizing:border-box}
+.home-refresh .home-photo-grid>a strong{display:block;text-wrap:balance}
+.home-refresh .home-photo-grid>a small{display:block;max-width:42ch;line-height:1.55}
+.home-refresh .home-photo-grid>a:focus-visible{outline-offset:3px}
+/* 10. Events, FAQs and section transitions: one editorial rhythm from top to footer. */
+.home-refresh .seasonal-events-heading{align-items:flex-end}
+.home-refresh .seasonal-events-heading>div{max-width:760px}
+.home-refresh .seasonal-events-heading h2{max-width:18ch;text-wrap:balance}
+.home-refresh .seasonal-event-copy{gap:2px}
+.home-refresh .seasonal-event-copy p{line-height:1.65}
+.home-refresh .home-faq-grid>div{border-radius:13px;transition:border-color .18s,box-shadow .18s}
+.home-refresh .home-faq-grid>div:hover{border-color:#d5deea;box-shadow:0 8px 22px rgba(16,27,53,.06)}
+.home-refresh .home-faq-grid h3{ text-wrap:balance }
+.home-refresh .home-faq-grid a:focus-visible{outline:2px solid #ed765f;outline-offset:3px}
+@media(max-width:900px){
+ .home-refresh .home-hero-inner{width:calc(100% - 40px)}
+ .home-refresh .home-hero-copy{max-width:620px}
+ .home-refresh .showcase-hero-actions{gap:8px}
+ .home-refresh .home-conversion-grid{align-items:stretch}
+}
+@media(max-width:600px){
+ .home-refresh .home-hero-inner{width:calc(100% - 32px)}
+ .home-refresh .home-hero-copy{max-width:100%}
+ .home-refresh .hero-script{font-size:9px;letter-spacing:.13em}
+ .home-refresh .showcase-hero-actions{display:grid;grid-template-columns:1fr;max-width:420px}
+ .home-refresh .showcase-primary,.home-refresh .showcase-secondary{width:100%;box-sizing:border-box}
+ .home-refresh .site-search{width:100%;min-height:54px;padding-left:13px}
+ .home-refresh .site-search input{font-size:12px}
+ .home-refresh .home-conversion-card{gap:12px}
+ .home-refresh .home-conversion-icon{width:40px;height:40px;border-radius:12px;font-size:21px}
+ .home-refresh .seasonal-events-heading h2{font-size:clamp(24px,7vw,31px)}
+ .home-refresh .home-faq-grid>div{padding:17px}
+}
+@media(max-width:390px){
+ .home-refresh .home-hero h1{font-size:clamp(36px,10.4vw,42px)}
+ .home-refresh .showcase-primary,.home-refresh .showcase-secondary{font-size:11px;padding-inline:12px}
+ .home-refresh .home-photo-grid>a strong{font-size:19px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .home-refresh .showcase-quick-icon,.home-refresh .home-conversion-card,
+ .home-refresh .home-faq-grid>div{transition:none!important}
+}
