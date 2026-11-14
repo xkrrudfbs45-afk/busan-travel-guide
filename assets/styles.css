@@ -1770,3 +1770,16 @@ body:not(.home-refresh) .site-footer .footer-disclosure{
 .pnu-photo-note{margin:9px 2px 0;color:var(--muted);font-size:11px;line-height:1.55}
 @media(max-width:760px){.pnu-photo-grid{grid-template-columns:1fr;gap:12px}.pnu-photo-card{display:grid;grid-template-columns:42% 1fr;align-items:stretch}.pnu-photo-card img,.pnu-photo-food img{height:100%;min-height:145px;max-height:190px}.pnu-photo-card figcaption{align-self:center;padding:12px}}
 @media(max-width:420px){.pnu-photo-card{grid-template-columns:1fr}.pnu-photo-card img,.pnu-photo-food img{height:190px;min-height:0;max-height:none}}
+
+/* Agoda accommodation affiliate cards — localized, editorial, mobile-first. */
+.agoda-stay-cta{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:22px;margin:28px 0;padding:22px 24px;border:1px solid #d9d2c6;border-radius:18px;background:linear-gradient(135deg,#fbf8f1 0%,#f3eee4 100%);color:#242a2b}
+.agoda-stay-cta__eyebrow{margin:0 0 7px;color:#68736f;font-size:10px;font-weight:750;letter-spacing:.13em}
+.agoda-stay-cta h2{margin:0 0 8px;color:#202829;font-size:clamp(18px,2.2vw,23px);line-height:1.35}
+.agoda-stay-cta__copy>p:not(.agoda-stay-cta__eyebrow):not(.agoda-stay-cta__disclosure){margin:0;color:#4e5857;font-size:14px;line-height:1.7}
+.agoda-stay-cta__disclosure{margin:10px 0 0;color:#68716e;font-size:11px;line-height:1.6}
+.agoda-stay-cta__disclosure a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.agoda-stay-cta__action a{display:inline-flex;min-height:46px;align-items:center;justify-content:center;padding:0 18px;border-radius:999px;background:#243b38;color:#fff;font-size:13px;font-weight:700;text-align:center;text-decoration:none;white-space:normal;transition:background .2s ease,transform .2s ease}
+.agoda-stay-cta__action a:hover{background:#172b29;transform:translateY(-1px)}
+.agoda-stay-cta__action a:focus-visible{outline:3px solid #a77b3f;outline-offset:3px}
+@media(max-width:680px){.agoda-stay-cta{grid-template-columns:1fr;gap:15px;margin:22px 0;padding:18px;border-radius:15px}.agoda-stay-cta__action a{width:100%;min-height:48px}.agoda-stay-cta h2{font-size:19px}}
+@media(max-width:360px){.agoda-stay-cta{padding:15px}.agoda-stay-cta__action a{padding:0 12px;font-size:12px}}
