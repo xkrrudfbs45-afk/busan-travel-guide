@@ -2,12 +2,12 @@
 
 ### Completed in branch feat/agoda-stay-affiliate-ctas-20261114
 - Added owner-supplied Agoda search links with CID 1979955, Busan city ID 17172, and locale mapping EN en-us, JA ja-jp, zh-TW zh-tw.
-- Added 12 build-time CTA placements across four accommodation decision pages per locale: where-to-stay-busan, where-to-stay-songjeong-gijang, Haeundae neighborhood, and Seomyeon neighborhood.
+- Added 18 build-time CTA placements across six accommodation decision pages per locale: where-to-stay-busan, where-to-stay-songjeong-gijang, Haeundae, Seomyeon, Gwangalli and Nampo neighborhood guides.
 - Added responsive editorial CTA styling, localized near-link commission disclosures, and Agoda-specific GA4 placement context agoda_stay_search while retaining the existing opt-in consent gate and numeric-CID attribution rule.
 - Updated EN / JA / zh-TW disclosure pages and the static build + Technical SEO audit workflows.
 
 ### Required before merge
-1. Inspect the exact PR diff and confirm all 12 CTA insertion anchors pass node scripts/inject-agoda-cta.mjs --check.
+1. Inspect the exact PR diff and confirm all 18 CTA insertion anchors pass node scripts/inject-agoda-cta.mjs --check.
 2. Run sh scripts/build-static.sh and the full Technical SEO audit on the exact PR head.
 3. Check 360px, 390px and desktop layouts; ensure CTA copy wraps without horizontal overflow and buttons remain thumb-friendly.
 4. Test outbound URLs retain CID 1979955, city 17172, and the correct locale. Verify click events only after analytics consent.
