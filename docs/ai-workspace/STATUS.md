@@ -360,3 +360,23 @@ Ten coordinated refinements applied to the shared homepage visual layer across E
 - The organizer poster remains recorded as `needs_review` in the image registry and must not be reused until permission is documented.
 - No change to event dates, article claims, page routes, structured data, analytics or affiliate links.
 - Included in Draft PR #421; exact-head CI and browser screenshot QA remain pending. No merge/deployment.
+
+
+## Homepage design batch 6 — 2026-11-14 (10 improvements)
+
+Applied a second grouped pass on the existing homepage design branch:
+1. Hero image fallback color and repeat/cover rendering.
+2. Mobile primary shortcut grid reflow to 3 × 2.
+3. Search suggestion chips become horizontally scrollable on phones.
+4. Live search results receive a distinct high-contrast panel and focus treatment.
+5. Editorial bento card labels gain more robust image contrast.
+6. Signature Yeongdo / Gwangalli / Gamcheon photos receive intentional focal crops.
+7. Seasonal event photo panels receive consistent aspect ratios and subtle lower contrast veil.
+8. Busan Now night image and photo-credit legibility refined.
+9. Trip shortlist/map controls receive thumb-sized targets and focus outlines.
+10. Neighborhood photo cards and FAQ links are refined for narrow screens and keyboard use.
+
+- Shared stylesheet affects EN / JA / Traditional Chinese homepages through the existing cache-busted stylesheet reference.
+- No new image sources, licenses, claims, routes, metadata, structured data, analytics or affiliate destinations changed.
+- Verification is static source review only. No browser screenshots claimed. Exact-head CI is pending after this commit.
+- PR #421 remains Draft and unmerged; no production deploy.
