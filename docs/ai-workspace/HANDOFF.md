@@ -423,3 +423,10 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Existing image sources and credits are unchanged; no rights-unverified seasonal poster is included.
 - Static source review only; no browser screenshot claim. Exact-head CI and 360 / 390 / 768 / 1280 visual QA remain outstanding.
 - Keep PR Draft; do not merge or deploy without explicit owner approval.
+
+
+## Image rights correction — 2026-11-14
+
+- In Draft PR #421, replaced the English homepage's rights-unverified Market Chango Christmas Village poster with the verified Wikimedia Commons Gwangalli night photograph already used on JA / zh-TW homepages.
+- Credit: Carey Ciuro, CC BY 2.0; the visible credit links to the license. The photo is presented as a Busan night atmosphere image, not as an event-specific festival photograph.
+- Original organizer poster remains `needs_review` in the image registry and is excluded from homepage markup.
