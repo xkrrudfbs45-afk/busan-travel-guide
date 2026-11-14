@@ -233,7 +233,7 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 
 ## Practical local-experience content batch — 2026-11-14 (ChatGPT)
 - Expanded Busan milmyeon history guide in EN / JA / zh-TW with a practical first-time eating section: mul vs bibim, taste before seasoning, vinegar/mustard optional, gradual spice adjustment, scissors, Korean phrases and wheat / meat-stock dietary notes.
-- Expanded Geumjeongsanseong village food guide in EN / JA / zh-TW using Busan tourism's documented black-goat bulgogi, duck bulgogi, duck soup and Busan City's Sanseong makgeolli information. Official route pages differ on bus 203 / 90 stop names (Geopark Korean vs Geumjeong-gu English); the guide links both and tells readers to confirm the stop for their chosen trail.
+- Expanded Geumjeongsanseong village food guide in EN / JA / zh-TW using the official Visit Busan listing for Sanseongjip (black-goat charcoal grill, duck bulgogi, native chicken, acorn jelly and seasonal mountain greens) and the Busan City makgeolli page. Menu items are attributed to that specific restaurant, not generalized across the village. Official route pages differ on bus 203 / 90 stop names (Geopark Korean vs Geumjeong-gu English); the guide links both and tells readers to confirm the stop for their chosen trail.
 - Expanded Things to Do in Busan in EN / JA / zh-TW with Mipo Station access: Jung-dong Station Exit 7, 15–20 minute walk allowance; listed local buses; no unsupported claim that the parking lot is always full.
 - Expanded Songdo Beach guide with live cable-car status, seasonal hours, ticket cutoff and weather suspension caveats; no invented wind-speed threshold.
 - Updated search-index metadata and tags for new practical queries across 10 page/index files.
