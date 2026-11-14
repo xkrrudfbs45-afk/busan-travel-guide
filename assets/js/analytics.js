@@ -201,6 +201,11 @@
             if (['en-US', 'ja', 'zh-TW'].includes(locale)) eventParams.affiliate_destination_locale = locale;
           } catch (_) { /* Ignore malformed destination URLs. */ }
         }
+      } else if (affiliatePartner === 'agoda') {
+        const placement = link.closest('.agoda-stay-cta')?.dataset.affiliatePlacement;
+        if (placement) eventParams.affiliate_placement = placement;
+        const destinationLocale = affiliateUrl.searchParams.get('hl');
+        if (destinationLocale) eventParams.affiliate_destination_locale = destinationLocale;
       }
 
       window.gtag('event', 'affiliate_click', eventParams);
