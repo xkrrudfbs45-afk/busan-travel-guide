@@ -229,3 +229,14 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Source anchors: Busan City ZeroPay notice (2026-10-08) https://www.busan.go.kr/eng/bsnews01/1758410 ; Visit Busan transit guide https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000 ; Busan Metro transfer rules https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202 ; Busan City Jagalchi guide https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food .
 - Draft branch remains PR #408, stacked on #407. No merge or production deployment. Exact-head CI must be rerun after this batch; visual browser QA remains separate.
 - Next: verify the newly expanded sections in all three locales, then handle Geumjeongsanseong, Mipo access, Songdo weather, milmyeon ordering and BIFF Square cash/card caveats in a separate grouped pass.
+
+
+## Practical local-experience content batch — 2026-11-14 (ChatGPT)
+- Expanded Busan milmyeon history guide in EN / JA / zh-TW with a practical first-time eating section: mul vs bibim, taste before seasoning, vinegar/mustard optional, gradual spice adjustment, scissors, Korean phrases and wheat / meat-stock dietary notes.
+- Expanded Geumjeongsanseong village food guide in EN / JA / zh-TW with official transit routes: bus 203 from Oncheonjang area to East/South Gate; bus 90 from Beomeosa Station to the Beomeosa ticket-office stop. Return service and trail conditions are explicitly date-dependent.
+- Expanded Things to Do in Busan in EN / JA / zh-TW with Mipo Station access: Jung-dong Station Exit 7, 15–20 minute walk allowance; listed local buses; no unsupported claim that the parking lot is always full.
+- Expanded Songdo Beach guide with live cable-car status, seasonal hours, ticket cutoff and weather suspension caveats; no invented wind-speed threshold.
+- Updated search-index metadata and tags for new practical queries across 10 page/index files.
+- Added social draft pack at content/social/2026-11-14-practical-local-experience-drafts.md. Draft only; no scheduled posts or publisher settings changed.
+- Official sources: Busan Geopark https://www.busan.go.kr/geopark_en/geumjeongsan ; Geumjeong-gu https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000001302001001004 ; Haeundae Blueline Park https://www.bluelinepark.com/eng/mapList.do ; Visit Busan https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000303011001000&uc_seq=1026 ; Busan Air Cruise live status https://en.busanaircruise.co.kr/info/use ; seasonal hours https://en.busanaircruise.co.kr/info/time ; Busan City milmyeon history https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=69886&srchCl=Food .
+- New PR based on main. Draft only; exact-head CI, link checks and browser QA required. No merge or deployment.
