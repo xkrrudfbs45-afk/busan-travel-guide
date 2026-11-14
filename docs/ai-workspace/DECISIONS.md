@@ -1,3 +1,10 @@
+## 2026-11-14 — Agoda hotel search affiliate integration
+
+- **Decision:** Use the project-owner-supplied Agoda partner-search URLs (CID 1979955, Busan city 17172) in localized EN, JA, and zh-TW accommodation decision points. Preserve the exact partner CID, city ID, and locale parameter; do not invent property-specific deep links.
+- **Rationale:** Add a useful accommodation booking path while keeping recommendations editorially independent and measuring commission-attributable clicks separately from bookings/revenue.
+- **Implementation:** Build-time data-driven CTAs on the main Busan accommodation guide, Songjeong/Gijang stay guide, Haeundae neighborhood guide, and Seomyeon neighborhood guide in all three languages. Localized disclosures appear beside each CTA and on the disclosure pages. GA4 uses the existing consent gate and classifies numeric Agoda CID links as affiliate clicks with placement context agoda_stay_search.
+- **Condition:** Partner approval and account/site mapping remain owner-managed. Verify Agoda Partner Center approval, actual click attribution, and bookings in the partner dashboard; code-level click tracking does not prove bookings or commission. Do not merge or deploy without owner approval.
+
 # Go2Busan Decision Log
 
 Record material product, editorial, technical, and commercial decisions here. Add newest decisions at the top. Include date, decision, rationale, owner, and any condition for revisiting.

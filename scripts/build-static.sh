@@ -47,6 +47,8 @@ node scripts/enhance-public.mjs public
 node scripts/enhance-public-extras.mjs public
 # Data-driven zh-TW affiliate CTAs (content/affiliate/zh-tw-cta.json); runs before UX so TOC/skip rules apply.
 node scripts/inject-affiliate-cta.mjs public
+# Data-driven Agoda hotel search CTAs for EN / JA / zh-TW accommodation decision pages.
+node scripts/inject-agoda-cta.mjs public
 # Data-driven cover photos + cover image loading priority (content/images/cover-photos.json, docs/IMAGE_QUALITY_STANDARD.md).
 node scripts/enhance-images.mjs public
 # Complete share-preview tags (twitter:title/description/image:alt, localized og:image:alt, image size) after covers are set.

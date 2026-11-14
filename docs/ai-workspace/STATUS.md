@@ -1,3 +1,12 @@
+# Current task update — Agoda hotel affiliate integration (2026-11-14)
+
+- **Work branch:** feat/agoda-stay-affiliate-ctas-20261114 (PR pending at time of update).
+- **Owner-supplied tracking:** Agoda partner-search URLs use CID 1979955, Busan city ID 17172, and locale values en-us, ja-jp, zh-tw. The exact values are preserved in content/affiliate/agoda-placements.json.
+- **Coverage:** 18 localized placements across the main accommodation comparison guide, Songjeong/Gijang stay guide, Haeundae, Seomyeon, Gwangalli and Nampo neighborhood guides (six pages × three languages). Gwangalli and Nampo now have their own localized area-specific hotel CTAs; airport and general itinerary pages remain intentionally free of generic hotel CTAs because booking intent is weaker.
+- **Implementation:** Build-time CTA injection; responsive editorial-style CTA cards; sponsored/nofollow outbound links; localized affiliate disclosure beside every CTA and on EN/JA/zh-TW disclosure pages; GA4 click classification uses existing opt-in consent and affiliate_click with agoda_stay_search placement context.
+- **Measurement boundary:** Link clicks are not Agoda bookings or revenue. Partner approval/site mapping and attributed bookings remain to be confirmed in Agoda Partner Center.
+- **Verification pending:** PR exact-head Technical SEO workflow, build and affiliate anchor audit, mobile visual QA at 360/390px and desktop. No merge or Render deployment performed; owner approval remains required.
+
 # Go2Busan Project Status
 
 _Last updated: 2026-11-12 — ChatGPT growth run / Claude handoff_

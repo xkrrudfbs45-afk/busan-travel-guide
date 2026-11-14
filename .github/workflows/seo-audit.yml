@@ -42,5 +42,6 @@ jobs:
           node scripts/social-content-audit.mjs --self-test
           node scripts/language-switch-audit.mjs
           node scripts/inject-affiliate-cta.mjs --check
+          node scripts/inject-agoda-cta.mjs --check
           node scripts/enhance-images.mjs --check
           node scripts/enhance-social-meta.mjs --check public
