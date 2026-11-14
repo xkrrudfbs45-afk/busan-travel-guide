@@ -722,6 +722,40 @@
       "reply_container_created_at": "2026-11-14T13:50:54.496Z",
       "reply_id": "17868730086680420",
       "reply_error": null
+    },
+    "d12-jp-1": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-14T23:35:24.784Z",
+      "creation_id": "18012215171796884",
+      "container_created_at": "2026-11-14T23:35:24.784Z",
+      "thread_id": "18397055596167910",
+      "permalink": "https://www.threads.com/@go2busan.jp/post/DfvZizoCYqs",
+      "published_at": "2026-11-14T23:35:24.784Z",
+      "last_error": null,
+      "reply_attempts": 1,
+      "reply_status": "done",
+      "reply_creation_id": "18012215603796884",
+      "reply_container_created_at": "2026-11-14T23:35:24.784Z",
+      "reply_id": "17899675983411795",
+      "reply_error": null
+    },
+    "d11-us-2": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-14T23:35:24.784Z",
+      "creation_id": "18045831578656190",
+      "container_created_at": "2026-11-14T23:35:24.784Z",
+      "thread_id": "18116128097125870",
+      "permalink": "https://www.threads.com/@go2busan.us/post/DfvZvi4CWv1",
+      "published_at": "2026-11-14T23:35:24.784Z",
+      "last_error": null,
+      "reply_attempts": 1,
+      "reply_status": "done",
+      "reply_creation_id": "18045832013656190",
+      "reply_container_created_at": "2026-11-14T23:35:24.784Z",
+      "reply_id": "17895202923617676",
+      "reply_error": null
     }
   }
 }
