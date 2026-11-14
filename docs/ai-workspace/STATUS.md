@@ -229,3 +229,11 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Source anchors: Busan City ZeroPay notice (2026-10-08) https://www.busan.go.kr/eng/bsnews01/1758410 ; Visit Busan transit guide https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000 ; Busan Metro transfer rules https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202 ; Busan City Jagalchi guide https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food .
 - Draft branch remains PR #408, stacked on #407. No merge or production deployment. Exact-head CI must be rerun after this batch; visual browser QA remains separate.
 - Next: verify the newly expanded sections in all three locales, then handle Geumjeongsanseong, Mipo access, Songdo weather, milmyeon ordering and BIFF Square cash/card caveats in a separate grouped pass.
+
+
+## Busan Now homepage readability and event image review (2026-11-14)
+- Opened a focused draft branch to fix the Winter 2026 Busan Now block: replaced low-contrast dark teal styling with a warm off-white panel, dark body copy, high-contrast date rows and a dark CTA; mobile typography and poster fit are explicitly adjusted.
+- Found the organizer's official Christmas Village Busan 2026 poster (Market Chango, event dates Nov 26–Dec 25) and used it as the seasonal visual rather than the unrelated Gwangalli skyline.
+- Important rights gate: the organizer page does not state image reuse or commercial-use terms. The poster is registered as `needs_review`; it must not be merged/deployed until written permission or a properly licensed alternative is confirmed.
+- Official event date references: Busan City calendar for Millak Luce Festa (Nov 14, 2026–Jan 10, 2027) and Haeundae Light Festival (Nov 28, 2026–Jan 10, 2027); organizer page for Christmas Village Busan 2026.
+- Visual browser QA at 360/390/768/1280 remains outstanding.
