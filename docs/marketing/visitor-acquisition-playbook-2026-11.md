@@ -539,3 +539,24 @@ Editorial rules:
 - Do not route visitors to private residences, schools or non-public locations for BTS content.
 - Treat all business hours and transport as subject to change; verify on the day of travel.
 - Keep local residential etiquette visible in the Huinnyeoul and Gamcheon copy.
+
+
+## Visitor-question content pass — 2026-11-14
+
+### Published-in-PR content enhancements (EN / JA / zh-TW)
+- Transit-card guide: explain physical T-money / Cashbee-EZL use, cash top-ups, bus tap-out and transfer conditions; distinguish the September 21, 2026 Busan ZeroPay QR service for city buses from metro payment. The QR fare is KRW 1,700 per passenger and does not receive transit-card transfer discounts. Do not imply that QR payment works at metro gates or that overseas Apple Pay / Google Pay wallets are universally accepted.
+- Jagalchi guide: add the market-to-table explanation of first-floor seafood purchase and second-floor chojangjib dining. Explain that table-setting, preparation, rice, drinks and maeuntang charges can vary; never present an old per-person amount as a universal current price.
+- Rainy-day guide: add ARTE MUSEUM Busan, F1963 and Spa Land as indoor anchors with official links; require readers to confirm hours, age/admission rules and last entry before visiting.
+
+### Next content queue (do not publish until route and facts are checked)
+1. Geumjeongsanseong / Dongmun fortress walk: trail difficulty, access and seasonal foliage; distinguish official fortress facts from social-media anecdotes about hiking popularity and goat-meat restaurants.
+2. Mipo Station / Haeundae Blueline Park: use the official Visit Busan access description (Jung-dong Station Exit 7, about 18 minutes on foot); avoid unsupported claims about parking occupancy or a “serious shortage.”
+3. Songdo Marine Cable Car: link to the operator's live status and weather notice; say operations may be suspended in bad weather, not that a specific wind threshold applies unless published.
+4. Busan milmyeon: expand the existing history article with first-time ordering guidance (mul-milmyeon vs bibim-milmyeon, seasoning gradually, vinegar/mustard to taste); do not claim a single canonical recipe.
+5. BIFF Square seed hotteok: advise carrying a small amount of cash as a backup, but do not claim all stalls reject cards.
+6. Busan fish-market chojangjib content: keep fees venue-specific and tell visitors to confirm the complete total before seafood is prepared.
+
+### Editorial verification rules
+- Social listening summaries are discovery signals, not evidence of “viral” growth unless platform metrics and dated source posts are captured.
+- Do not invent Reddit/Instagram/TikTok reaction volume, search-question frequency or review counts.
+- For route/access details, prioritize Busan City, Visit Busan, Korea Tourism Organization and venue operators. For prices and temporary schedules, state the date checked and link to the live operator page.
