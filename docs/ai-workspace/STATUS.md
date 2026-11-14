@@ -13,6 +13,11 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 - Existing languages include English, Japanese, and Traditional Chinese.
 - Deployment platform documented in repository README: Render.
 
+## Instagram QA gate (2026-11-14, Claude, PR #412 draft)
+
+- Publisher is fail-closed on `qa.json` (`ok`, `spec_hash`, `card_count`), stored `.hash` and the exact `NN.jpg` set; blocked posts use no attempt and make no API call.
+- Render cleans stale numeric JPEGs; failed QA is retried for approved posts and held for drafts. Tests 20/20; build + 14 audits pass locally. Exact-head CI pending; not merged or deployed.
+
 ## Verified state (2026-11-12, Claude — Taiwan plan Phase 0)
 
 - **main = production:** `19e8150` (go2busan.com/version.txt matches). Baseline, PR triage and measurement findings: `docs/ai-workspace/BASELINE-TAIWAN-2026-11-12.md`.

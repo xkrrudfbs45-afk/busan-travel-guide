@@ -196,6 +196,22 @@ test("QA gate: failed render keeps previews out of the publishable path", async 
   assert.ok(existsSync(`${dir}/p/02.jpg`) && !existsSync(`${dir}/p/qa-failed`), "fixed render restores cards");
 });
 
+test("render: shrinking a carousel (4 -> 3) removes the stale extra card, on both the ok and QA-failed paths", async () => {
+  const { mkdtempSync, existsSync, writeFileSync } = await import("node:fs");
+  const { writeCards } = await import("./render.mjs");
+  const mk = (n) => Array.from({ length: n }, (_, i) => [String(i + 1).padStart(2, "0"), Buffer.from("x")]);
+  for (const problems of [[], ["p card 1: overflow"]]) {
+    const dir = mkdtempSync("/tmp/igshrink-");
+    writeCards(dir, "p", mk(4), []);
+    assert.ok(existsSync(`${dir}/p/04.jpg`));
+    writeFileSync(`${dir}/p/notes.txt`, "keep");
+    writeCards(dir, "p", mk(3), problems, { spec_hash: "h", card_count: 3 });
+    assert.ok(!existsSync(`${dir}/p/04.jpg`), `stale 04.jpg removed (problems=${problems.length})`);
+    assert.equal(existsSync(`${dir}/p/03.jpg`), problems.length === 0);
+    assert.ok(existsSync(`${dir}/p/notes.txt`), "non-card files untouched");
+  }
+});
+
 test("render planner: legacy or stale QA identity forces a re-render", async () => {
   const { mkdtempSync, mkdirSync, writeFileSync } = await import("node:fs");
   const { needsRender } = await import("./render.mjs");
@@ -207,4 +223,15 @@ test("render planner: legacy or stale QA identity forces a re-render", async () 
   qa({ ok: true, problems: [] }); assert.equal(needsRender(post, dir), true); // legacy qa
   qa({ ok: true, problems: [], spec_hash: "000000000000", card_count: post.cards.length }); assert.equal(needsRender(post, dir), true);
   qa({ ok: true, problems: [], spec_hash: h, card_count: post.cards.length }); assert.equal(needsRender(post, dir), false);
+});
+
+test("render planner: failed QA with a current hash is retried for approved posts and held for drafts", async () => {
+  const { mkdtempSync, mkdirSync, writeFileSync } = await import("node:fs");
+  const { needsRender } = await import("./render.mjs");
+  const dir = mkdtempSync("/tmp/igretry-"); mkdirSync(`${dir}/${post.id}`);
+  const h = specHash(post);
+  writeFileSync(`${dir}/${post.id}/.hash`, h);
+  writeFileSync(`${dir}/${post.id}/qa.json`, JSON.stringify({ ok: false, problems: ["x"], spec_hash: h, card_count: post.cards.length }));
+  assert.equal(needsRender({ ...post, status: "approved" }, dir), true, "approved: retry failed QA");
+  assert.equal(needsRender({ ...post, status: "draft" }, dir), false, "draft: hold until spec changes");
 });
