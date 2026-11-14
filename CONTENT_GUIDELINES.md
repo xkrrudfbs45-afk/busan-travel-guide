@@ -28,6 +28,19 @@ These rules apply to human contributors, Claude Code, Codex, and automated conte
 - For food, lodging, and event content, give concrete local decision criteria and transparent caveats. Avoid unsupported accusations against individual businesses; explain how to check menus, minimum orders, fees, receipts, and cancellation terms.
 - Do not copy another publisher's article. Use source material for verification, then write original guidance with links to primary sources.
 
+### Venue-level verification and first-hand status
+For every named restaurant, cafe, hotel, shop, attraction operator, or bookable venue, record the following in the working source notes before publication:
+- Exact Korean business / venue name and branch identity; include the localized display name without replacing the Korean name needed for map searches.
+- Full address and a direct place pin or exact map destination. A generic map search link is navigation assistance, not proof that the address or business identity was verified.
+- Source for business identity and address. Prefer the operator's official channel or an authoritative tourism / government listing; label third-party directory data as such.
+- Menu, service, price, opening-hour, queue, booking, payment, minimum-order, and closure claims only when the corresponding source supports them. Record a checked date for each volatile detail.
+- First-hand status using one of: `visited by editor`, `visited by contributor`, `not personally visited`, or `not yet confirmed`.
+- Verification status using one of: `officially verified`, `cross-checked listing`, `editor-provided local tip`, or `unverified lead`.
+
+A page-level “reviewed” date does not prove that every venue detail was rechecked on that date. Keep the source and checked date in editorial notes, and display a concise caveat to readers when current details cannot be confirmed. Never infer a first-hand visit from a recommendation, local knowledge, or a user's mention of a place. Do not describe an editor-provided tip as a personal visit unless the contributor explicitly confirms it.
+
+For Taiwan Traditional Chinese pages, preserve the Korean venue name for map searches and use natural Taiwan Traditional Chinese explanations. Do not assume that a translated business name is the name shown in Korean map services.
+
 ## 5. Required checks before PR
 - Confirm the proposed URL and topic do not duplicate an existing guide.
 - Validate JSON and JSON-LD, sitemap XML, canonical and hreflang reciprocity, search-index coverage, and internal links.

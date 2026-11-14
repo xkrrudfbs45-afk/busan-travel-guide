@@ -598,6 +598,48 @@
       "checked_on": "2026-11-14",
       "status": "verified",
       "note": "Night photograph of Gwangalli Beach and Gwangan Bridge. Commons file page confirms Flickr source by Carey Ciuro under CC BY 2.0; visible credit is shown on EN / JA / zh-TW homepages."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Korean_Tonkatsu_Mayodon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korean_Tonkatsu_Mayodon.jpg",
+      "author": "Shene81",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Special:FilePath only",
+      "checked_on": "2026-11-11",
+      "status": "verified",
+      "note": "Generic Korean tonkatsu reference photo, not photographed at Tonshou or any named Busan restaurant. Used only as a dish-type illustration."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Korean_Spicy_Charcoal-grilled_Chicken.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korean_Spicy_Charcoal-grilled_Chicken.jpg",
+      "author": "Real rism",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Special:FilePath only",
+      "checked_on": "2026-11-11",
+      "status": "verified",
+      "note": "Generic Korean spicy charcoal-grilled chicken photograph, not photographed at New Charcoal Tongdak or any named Busan restaurant. Used only as a dish-type illustration."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Pusan_Natl_Univ_by_Ficell_001.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pusan_Natl_Univ_by_Ficell_001.jpg",
+      "author": "Hansol Jeong",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "commercial_use": true,
+      "attribution_required": false,
+      "modified": "resized via Wikimedia Special:FilePath only",
+      "checked_on": "2026-11-11",
+      "status": "verified",
+      "note": "Main entrance of Pusan National University, Jangjeon campus; public domain release by the author."
     }
   ]
 }

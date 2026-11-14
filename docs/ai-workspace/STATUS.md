@@ -1,8 +1,26 @@
 # Go2Busan Project Status
 
-_Last updated: 2026-11-12 — Claude (Taiwan plan #359, Phase 0)_
+_Last updated: 2026-11-12 — ChatGPT growth run / Claude handoff_
 
 This file is an operational snapshot, not a substitute for checking GitHub and production at the start of each task.
+
+## Verified state (2026-11-12, ChatGPT growth run)
+
+- **GitHub main:** `60146784d5563ed4628afcb8c58eb272028ed536` (confirmed through the main branch API; commit time 2026-11-12 10:32:18 UTC). PR #383, “Image quality batch 1,” merged at that time. Its Technical SEO audit and Growth ops checks completed successfully.
+- **Production deployment:** not verified in this run. The public `/version.txt` endpoint could not be read, and no Render workspace was selected. Do not treat the GitHub main SHA as a confirmed production SHA.
+- **Search Console (2026-10-13–2026-11-09):** 353 impressions / 2 clicks overall. Taiwan 43 impressions, 0 clicks, average position 19.4; USA 28 / 0 / 26.2; Japan 20 / 0 / 8.5. These market samples are small.
+- **GA4 (2026-10-15–2026-11-11, Asia/Seoul):** 40 sessions / 8 active users; direct 26, ChatGPT 9, (not set) 3, Google organic 1, Instagram referral 1. `affiliate_click` 5 key events / 3 users; transactions 0 and purchase revenue 0. The recorded country breakdown contains South Korea only; analytics is opt-in, so this is not proof that overseas visitors are absent.
+- **Organic measurement:** one organic session in the period. GSC–GA4 opportunity matching is sparse (1 matched GSC page; 42 unmatched GSC pages), so opportunity scores must not be treated as conversion or revenue evidence.
+- **Site audit:** 50-page crawl completed; 50 pages returned HTTP 200; zero missing-alt findings among crawled pages. The crawl stopped at its 50-page limit with 127 URLs not crawled. The audit found 17 long titles, 10 short meta descriptions, 7 long meta descriptions, one heading-order skip, and the page-limit warning. A second Lighthouse-enabled audit completed 20/20 Lighthouse runs with 0 failures, but the available result endpoints exposed only completion counts—not numeric Lighthouse/Core Web Vitals metrics. Performance scores therefore remain unverified. Neither crawl verifies image licensing, visual crop, or actual OG rendering.
+- **Open PR portfolio:** 46 open PRs were visible. Confirmed file overlap: #320/#311 share the JA and zh-TW PNU food-guide HTML files; #314/#315 share the EN Haeundae food guide; #316/#321 overlap on 31 files. Consolidate and rebase before creating parallel content/metadata work.
+- **Image quality:** PR #383 is merged in main. Its pre-merge audit baseline (175 indexable pages) found body-photo gaps on 40/49 zh-TW guides, 33/67 EN guides, and 39/47 JA guides; generic skyline share-image fallback on 18 zh-TW, 23 EN, and 18 JA pages; and five EN first-screen covers using lazy loading. #383 fixed the seven core zh-TW/JA guide covers, Seomyeon share images in all three languages, and EN cover loading priority. These counts are pre-#383 baseline, not current remaining counts. Next candidates: zh-TW/JA first-trip, taiwan-travelers-busan, things-to-do-in-busan; EN dialect/local-culture/Bukangi/things-to-do illustration-vs-photo decisions; Bukmun image marked needs_review; repeated Gimhae/Haeundae photos. PR #382 remains a Draft policy/document PR. PR #320 needs consolidation with #311 before JA/TW PNU image work is considered complete.
+
+### Next actions
+1. Rebase and consolidate overlapping PRs before new content creation.
+2. Prioritize Taiwan landing-page discovery and existing stay/itinerary/transport guide connections, while maintaining English and Japanese coverage.
+3. Re-audit image gaps after #383 using the pre-merge baseline in IMAGE-AUDIT-2026-11-12.md; prioritize first-trip, Taiwan traveler, things-to-do, EN illustration/photo choices, Bukmun needs_review, and image reuse.
+4. Obtain numeric Lighthouse/Core Web Vitals metrics through a report view or separate test; manual visual/image-source checks remain open. Do not infer these from the 50-page crawl.
+5. Keep bookings and revenue unverified until partner-side conversion data is available.
 
 ## Known project context
 
@@ -38,6 +56,12 @@ This file is an operational snapshot, not a substitute for checking GitHub and p
 - **Search Console:** indexing requested 2026-11-06 for 7 core URLs, then the map, Haeundae, Seomyeon and Nampo hubs. Quota hit at the Gwangalli hub; remaining: Gwangalli hub and the JA/TW hubs.
 - **Affiliate:** Klook CTAs with `affiliate_cta_view`; `affiliate_click` unchanged. Agoda pending. Clicks are not bookings.
 - **GA4:** owner needs to add Viewer access for Claude's browser account.
+
+## PR #297 — PNU food guide, Gaya Park pork soup (Claude, 2026-11-06)
+
+- **Fixed:** JA `<title>`/og:title/twitter:title/Article headline 5選→6選 (now match the H1); `search-index.json` JA and zh-TW titles/tags/summaries now say 6 and mention the Gaya Park pork soup; JA and zh-TW meta descriptions mention it too. zh-TW og/twitter/headline were already 6.
+- **Checked by reading only:** no remaining "5選/5 選" in the JA/zh-TW pages. Gaya Park is a user recommendation; no hours, prices or visit claims added.
+- **Not verified:** build and the 11 audits were not run in this session (Bash approval); rely on the PR's GitHub Actions results. 360px/390px overflow: **not verified**. EN/JA/zh-TW body text not native-reviewed. Not merged, not deployed.
 
 ## Open PRs from Claude (not merged)
 
@@ -229,3 +253,41 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Source anchors: Busan City ZeroPay notice (2026-10-08) https://www.busan.go.kr/eng/bsnews01/1758410 ; Visit Busan transit guide https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000 ; Busan Metro transfer rules https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202 ; Busan City Jagalchi guide https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food .
 - Draft branch remains PR #408, stacked on #407. No merge or production deployment. Exact-head CI must be rerun after this batch; visual browser QA remains separate.
 - Next: verify the newly expanded sections in all three locales, then handle Geumjeongsanseong, Mipo access, Songdo weather, milmyeon ordering and BIFF Square cash/card caveats in a separate grouped pass.
+
+
+## Owner-controlled execution and PR #297 follow-up — 2026-11-07 (ChatGPT)
+
+- **Automation paused:** the recurring Go2Busan weekly review is disabled at the owner's request. No new Claude runs will be triggered unless the owner explicitly asks for Claude on a specific task.
+- **Claude guardrail:** added a project-owner execution gate to `CLAUDE.md` on the PR #297 branch. It requires explicit task-specific invocation and immediate stop on owner instruction; no self-triggering or scheduled Claude work.
+- **PR #297 metadata consistency:** EN/JA/zh-TW meta descriptions, Open Graph descriptions, Twitter descriptions where present, Article descriptions, and all three language search-index entries now identify Gaya Park pork soup as part of the six-place guide.
+- **Verification:** Claude's latest report says `sh scripts/build-static.sh` passed. The Technical SEO audit workflow for commit `2d880ca` is `action_required` (no completed audit result available). 360px/390px overflow remains unverified. This follow-up text-only metadata change has not yet had a fresh build.
+- **Release state:** PR #297 remains open and unmerged. Production deployment has not been requested or performed.
+
+
+## PR #297 mobile navigation follow-up — 2026-11-07 (ChatGPT)
+
+- Updated EN/JA/zh-TW Pusan National University food guide deck copy to describe all six food choices, including Gaya Park pork soup.
+- Completed JA and zh-TW quick-jump navigation: added links to New Charcoal Tongdak and Hoho Chicken House; confirmed each quick-jump fragment points to an existing section ID. EN quick-jump already covered all six.
+- Added a mobile-only horizontally scrollable quick-jump row (<=680px) with non-shrinking links and scroll snapping to avoid a tall wrapped navigation block.
+- Latest PR head: `d981226a176dacb398ff162f1a58640133e918af`. Technical SEO audit passed on earlier head `8887e94`; no CI status checks or fresh workflow run are currently reported for the latest head. 360px/390px visual viewport testing and fresh build remain unverified.
+- PR #297 remains open, unmerged and undeployed. No production change made.
+
+
+## Search visibility check + Nampo food SEO update — 2026-11-07
+
+### Visibility evidence
+- The latest available Search Console figures previously shared by the owner (Nov 3) showed 0 impressions and 0 clicks for the last 28 days while data processing was still underway. No newer Search Console report is connected/available in this session; do not claim an upward trend.
+- Public search queries for `site:go2busan.com` did not return a clear Go2Busan result in the sampled web search. This is a discovery spot-check, not a definitive Google index report.
+- Render HTTP request metrics for Oct 8–Nov 7 returned no data points; they cannot be used as traffic evidence.
+- Repository sitemap contains 167 URLs; all hreflang targets referenced in the sitemap resolve to a URL present in the same sitemap (0 broken targets). 26 URL entries have no hreflang alternates, generally single-language content or localized-only pages; review individually before changing.
+
+### Nampo content changes on this PR branch
+- Expanded EN/JA/zh-TW Nampo neighborhood guide food sections with three relevant local tips: Nampo Jjukkumi, the BIFF Square Nampo branch of 18beon Wandangjip, and Kkangtong Golmok Halmae Yubu Jeongol Main Store.
+- Added Google Maps search links and translated long-tail search tags in `assets/data/search-index.json`.
+- Avoids publishing opening hours/prices. The yubu-jeongol restaurant is described as a local tip with a reminder to check current service; no claim that the editor visited it.
+- Validated the three page language attributes, presence of the three restaurant names in all versions, no broken in-page anchors, and JSON parsing of the 131-record search index.
+
+### Release / validation
+- PR #297 remains open and unmerged. Latest head at this note: `52969674e03a053c9c6fc6dfcdd898d0b4443104`; mergeable true at last check.
+- No CI status checks are currently reported for the latest head. Earlier Technical SEO audit success applies only to the earlier commit `8887e94...`; it is not a fresh pass for these changes.
+- No merge or production deployment performed.

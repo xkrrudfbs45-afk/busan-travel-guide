@@ -6,11 +6,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const root = process.argv[2] || 'public';
-const file = path.join(root, 'guides', 'busan-map', 'index.html');
+const files = ['guides', 'ja/guides', 'zh-tw/guides'].map((d) => path.join(root, d, 'busan-map', 'index.html'));
 const key = (process.env.GOOGLE_MAPS_EMBED_KEY || '').trim();
 const META = '<meta name="g2b-maps-embed-key" content="">';
 
-if (!fs.existsSync(file)) {
+const present = files.filter((f) => fs.existsSync(f));
+if (!present.length) {
   console.log('inject-maps-key: map page not found, skipped');
   process.exit(0);
 }
@@ -22,10 +23,14 @@ if (!/^AIza[0-9A-Za-z_-]{35}$/.test(key)) {
   console.log('inject-maps-key: GOOGLE_MAPS_EMBED_KEY has an unexpected format, skipped');
   process.exit(0);
 }
-const html = fs.readFileSync(file, 'utf8');
-if (!html.includes(META)) {
-  console.log('inject-maps-key: key placeholder not found, skipped');
-  process.exit(0);
+let injected = 0;
+for (const file of present) {
+  const html = fs.readFileSync(file, 'utf8');
+  if (!html.includes(META)) {
+    console.log(`inject-maps-key: key placeholder not found in ${file}, skipped`);
+    continue;
+  }
+  fs.writeFileSync(file, html.replace(META, `<meta name="g2b-maps-embed-key" content="${key}">`));
+  injected++;
 }
-fs.writeFileSync(file, html.replace(META, `<meta name="g2b-maps-embed-key" content="${key}">`));
-console.log('inject-maps-key: key injected into the map page');
+console.log(`inject-maps-key: key injected into ${injected} map page(s)`);

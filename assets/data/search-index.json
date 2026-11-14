@@ -1,5 +1,93 @@
 [
   {
+    "title": "釜山聖誕村 2026",
+    "url": "/zh-tw/guides/christmas-village-busan-2026/",
+    "summary": "確認 21 個營業日、分時段門票、一般票價與釜山電影殿堂交通。",
+    "tags": [
+      "釜山聖誕村",
+      "釜山聖誕市集",
+      "釜山冬季活動",
+      "釜山電影殿堂",
+      "釜山 12 月活動",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "甘川洞文化村攻略",
+    "url": "/zh-tw/guides/gamcheon-culture-village-guide/",
+    "summary": "整理社區巴士交通、坡道步行、旅遊服務中心時間與住宅區參觀禮儀。",
+    "tags": [
+      "甘川洞文化村",
+      "釜山景點",
+      "釜山自由行",
+      "土城站",
+      "槐亭站",
+      "社區巴士",
+      "釜山拍照景點",
+      "甘川文化村"
+    ]
+  },
+  {
+    "title": "釜山クリスマスビレッジ2026",
+    "url": "/ja/guides/christmas-village-busan-2026/",
+    "summary": "全21営業日、時間指定チケット、通常料金、映画の殿堂へのアクセスを確認。",
+    "tags": [
+      "釜山クリスマス",
+      "クリスマスビレッジ",
+      "釜山冬イベント",
+      "映画の殿堂",
+      "釜山旅行 12月"
+    ]
+  },
+  {
+    "title": "甘川文化村ガイド",
+    "url": "/ja/guides/gamcheon-culture-village-guide/",
+    "summary": "村バスでのアクセス、坂道の散策、観光案内所の時間と訪問マナーを紹介。",
+    "tags": [
+      "甘川文化村",
+      "釜山観光",
+      "釜山旅行",
+      "土城駅",
+      "槐亭駅",
+      "村バス",
+      "釜山フォトスポット"
+    ]
+  },
+  {
+    "title": "Christmas Village Busan 2026",
+    "url": "/guides/christmas-village-busan-2026/",
+    "summary": "Check the 21 operating days, timed-entry tickets, standard prices and access to Busan Cinema Center.",
+    "tags": [
+      "Christmas Village Busan 2026",
+      "Busan Christmas",
+      "Busan winter events",
+      "Busan Christmas market",
+      "Busan Cinema Center",
+      "Busan events November 2026",
+      "Busan events December 2026",
+      "크리스마스 빌리지 부산",
+      "釜山聖誕村",
+      "釜山聖誕市集"
+    ]
+  },
+  {
+    "title": "Gamcheon Culture Village: Busan Visitor Guide",
+    "url": "/guides/gamcheon-culture-village-guide/",
+    "summary": "Plan the village-bus route, hillside walk, information-centre hours and respectful visit to Busan's residential cultural village.",
+    "tags": [
+      "Gamcheon Culture Village",
+      "Gamcheon",
+      "Busan attractions",
+      "Busan itinerary",
+      "Toseong Station",
+      "Goejeong Station",
+      "village bus",
+      "감천문화마을",
+      "甘川文化村",
+      "Busan photo spots"
+    ]
+  },
+  {
     "title": "Busan for First-Time Visitors",
     "url": "/guides/busan-first-time-guide/",
     "summary": "Choose a base, plan transport and organize your first few days.",
@@ -108,6 +196,34 @@
     ]
   },
   {
+    "title": "釜山マップ：地元グルメ・市場・見どころ",
+    "url": "/ja/guides/busan-map/",
+    "summary": "ガイドで紹介した釜山の場所をまとめた地図。エリア別の絞り込みとGoogleマップのルート案内つき。",
+    "tags": [
+      "釜山 地図",
+      "釜山 マップ",
+      "釜山 グルメ マップ",
+      "釜山 市場",
+      "Googleマップ",
+      "エリア別",
+      "busan map"
+    ]
+  },
+  {
+    "title": "釜山地圖：在地美食、市場與景點",
+    "url": "/zh-tw/guides/busan-map/",
+    "summary": "整理指南中介紹的釜山地點，可依地區篩選，並附 Google 地圖路線。",
+    "tags": [
+      "釜山地圖",
+      "釜山 地圖",
+      "釜山美食地圖",
+      "釜山 市場",
+      "Google 地圖",
+      "依地區",
+      "busan map"
+    ]
+  },
+  {
     "title": "Where to Stay in Busan",
     "url": "/guides/where-to-stay-busan/",
     "summary": "Compare Seomyeon, Haeundae and other areas by travel style and transport access.",
@@ -169,7 +285,7 @@
   {
     "title": "Where to Eat by Neighborhood",
     "url": "/guides/busan-neighborhood-food-guide/",
-    "summary": "Match local dishes and food stops with the neighborhood you are exploring.",
+    "summary": "Find what to eat near your Busan itinerary: Seomyeon pork soup, Nampo market snacks, Jagalchi seafood, Haeundae food stalls, Dongnae pajeon and PNU local picks.",
     "tags": [
       "food",
       "restaurants",
@@ -180,7 +296,18 @@
       "where to eat",
       "restaurants by area",
       "food map",
-      "dining"
+      "dining",
+      "Seomyeon food",
+      "Seomyeon restaurants",
+      "Seomyeon pork soup",
+      "Nampo food",
+      "Jagalchi seafood",
+      "Haeundae food",
+      "Dongnae pajeon",
+      "Pusan National University food",
+      "Busan food by area",
+      "釜山美食地圖",
+      "釜山各區美食"
     ]
   },
   {
@@ -462,9 +589,9 @@
     ]
   },
   {
-    "title": "Pusan National University Food Guide",
+    "title": "Where to Eat Near Pusan National University: 5 Local Picks",
     "url": "/guides/pusan-national-university-food-guide/",
-    "summary": "Find Japanese home-style meals, tonkatsu, spicy bulgogi and charcoal chicken around Pusan National University.",
+    "summary": "Compare five local food picks near Pusan National University: Yamabento Japanese home-style meals, Tonshou tonkatsu, Daegil spicy bulgogi, New Charcoal Tongdak and Hoho curry chicken.",
     "tags": [
       "food",
       "restaurants",
@@ -529,7 +656,13 @@
       "fried pork galbi",
       "market snacks",
       "street food in Busan",
-      "No. 18 Wandang"
+      "No. 18 Wandang",
+      "Nampo food walk",
+      "Nampo walking route",
+      "Busan market food route",
+      "BIFF Square food",
+      "Bupyeong Kkangtong night market",
+      "Nampo market itinerary"
     ]
   },
   {
@@ -1805,7 +1938,29 @@
       "희망통닭",
       "Huimang Tongdak",
       "Huimang Tongdak Busan",
-      "Dongnae fried chicken"
+      "Dongnae fried chicken",
+      "nampo",
+      "nampo-dong",
+      "nampo jjukkumi",
+      "jjukkumi",
+      "spicy octopus",
+      "18 beon wandang",
+      "18beon wandang",
+      "wandang",
+      "wantang",
+      "biff square",
+      "local food nampo",
+      "nampo food",
+      "nampo restaurants",
+      "Busan food by neighborhood",
+      "what to eat in Busan",
+      "Busan spicy food",
+      "Busan comfort food",
+      "Busan local soup",
+      "Busan tonkatsu",
+      "Busan Japanese home-style food",
+      "Busan food map",
+      "Busan food recommendations by area"
     ]
   },
   {
@@ -2124,6 +2279,679 @@
       "廣安里",
       "広安里",
       "광안리"
+    ]
+  },
+  {
+    "title": "Where to Eat in Haeundae, Busan",
+    "url": "/guides/haeundae-food-guide/",
+    "summary": "Plan Haeundae meals by area: traditional market snacks, seaside seafood stalls, Haeridan-gil cafés and Korean BBQ.",
+    "tags": [
+      "Haeundae food",
+      "where to eat in Haeundae",
+      "Haeundae restaurants",
+      "Haeundae Market food",
+      "Haeundae Traditional Market",
+      "Haeundae seafood",
+      "Haeundae Food Stall Town",
+      "Haeridan-gil cafes",
+      "Haeridan-gil restaurants",
+      "Palpal Yangdaechang",
+      "Haeundae Korean BBQ",
+      "해운대 맛집",
+      "해운대 시장 먹거리",
+      "해리단길 카페"
+    ]
+  },
+  {
+    "title": "Gamcheon Culture Village: New Visiting Rules for 2027",
+    "url": "/guides/gamcheon-culture-village-visiting-rules/",
+    "summary": "Official visitor guidance for Gamcheon’s special-management area: residential-zone hours, group map rules, tourist-vehicle restrictions and the 2027 start date.",
+    "tags": [
+      "Gamcheon Culture Village",
+      "Gamcheon visiting hours",
+      "Gamcheon rules",
+      "Gamcheon map",
+      "special management area",
+      "Gamnae 2-ro",
+      "Gamcheon tour bus",
+      "Busan attractions",
+      "Korea travel tips"
+    ]
+  },
+  {
+    "title": "甘川文化村の新ルール：訪問時間と注意点",
+    "url": "/ja/guides/gamcheon-culture-village-visiting-rules/",
+    "summary": "甘川文化村の特別管理地域ルールを解説。住宅密集地域の訪問時間、団体向け地図、観光車両の規制、2027年の本格施行を確認できます。",
+    "tags": [
+      "甘川文化村",
+      "訪問時間",
+      "特別管理地域",
+      "団体旅行",
+      "釜山観光"
+    ]
+  },
+  {
+    "title": "甘川文化村新規定與參觀時間",
+    "url": "/zh-tw/guides/gamcheon-culture-village-visiting-rules/",
+    "summary": "整理甘川文化村特別管理區規定：住宅密集區參觀時間、團體導覽地圖、觀光車輛管制與2027年正式實施日期。",
+    "tags": [
+      "甘川文化村",
+      "參觀時間",
+      "特別管理區",
+      "團體旅遊",
+      "釜山景點"
+    ]
+  },
+  {
+    "title": "Arriving at Busan Station After 9 PM: How to Reach Your Hotel",
+    "url": "/guides/busan-station-late-arrival/",
+    "summary": "Compare the subway, bus 1003 and taxis after a late KTX arrival; check exact last-train and live bus information before leaving.",
+    "tags": [
+      "Busan Station late arrival",
+      "Busan Station to Haeundae at night",
+      "late KTX Busan",
+      "last train Busan",
+      "bus 1003",
+      "Busan taxi",
+      "night transport",
+      "釜山駅 夜",
+      "Busan Station hotel transfer"
+    ]
+  },
+  {
+    "title": "夜21時以降に釜山駅へ到着：ホテルまでの行き方",
+    "url": "/ja/guides/busan-station-late-arrival/",
+    "summary": "夜遅く釜山駅に到着したときの地下鉄、1003番バス、タクシーの選び方と終電確認方法。",
+    "tags": [
+      "釜山駅 深夜",
+      "釜山駅 海雲台 夜",
+      "KTX 夜 到着",
+      "終電",
+      "1003番バス"
+    ]
+  },
+  {
+    "title": "晚上9點後抵達釜山站：如何前往飯店",
+    "url": "/zh-tw/guides/busan-station-late-arrival/",
+    "summary": "整理釜山站深夜抵達後搭乘地鐵、1003公車或計程車的方式，並說明末班車與即時公車資訊查詢。",
+    "tags": [
+      "釜山站 深夜",
+      "釜山站 海雲台 夜間交通",
+      "KTX 晚上抵達",
+      "末班車",
+      "1003公車"
+    ]
+  },
+  {
+    "title": "Yeongdo Half-Day Route: Huinnyeoul, Coastal Walk and Taejongdae",
+    "url": "/guides/yeongdo-half-day-coastal-route/",
+    "summary": "Plan a realistic half-day on Yeongdo with village lanes, a coastal walk and a separate transfer to Taejongdae.",
+    "tags": [
+      "yeongdo",
+      "huinnyeoul",
+      "huinnyeoul culture village",
+      "jeoryeong coastal trail",
+      "taejongdae",
+      "danubi train",
+      "coastal walk",
+      "island",
+      "busan itinerary",
+      "影島",
+      "흰여울문화마을",
+      "白淺文化村",
+      "絕影海岸散步路",
+      "太宗臺",
+      "影島半日遊"
+    ]
+  },
+  {
+    "title": "Busan Winter Lights & Christmas 2026–27",
+    "url": "/guides/busan-winter-lights-christmas-2026/",
+    "summary": "Plan a winter visit to Busan with confirmed 2026–27 dates for Haeundae Light Festival and Christmas Village, plus what is still unconfirmed for Gwangbok-ro.",
+    "tags": [
+      "Busan",
+      "winter",
+      "lights",
+      "christmas",
+      "travel guide",
+      "travel planning"
+    ]
+  },
+  {
+    "title": "Day Trips from Busan: Gyeongju, Ulsan and Tongyeong",
+    "url": "/guides/day-trips-from-busan-gyeongju-ulsan-tongyeong/",
+    "summary": "Compare three day trips from Busan: Gyeongju's Silla heritage, Ulsan's coast and riverside gardens, and Tongyeong's harbor and cable car.",
+    "tags": [
+      "Busan",
+      "day",
+      "trips",
+      "gyeongju",
+      "ulsan",
+      "tongyeong",
+      "travel guide",
+      "travel planning"
+    ]
+  },
+  {
+    "title": "Homigot Sunrise Festival 2027: Dates, Location & Planning",
+    "url": "/guides/homigot-sunrise-festival-2027/",
+    "summary": "Plan for the 29th Homigot Sunrise Festival on December 31, 2026–January 1, 2027. Official dates, location in Pohang and practical planning from Busan.",
+    "tags": [
+      "Busan",
+      "homigot",
+      "sunrise",
+      "festival",
+      "travel guide",
+      "travel planning"
+    ]
+  },
+  {
+    "title": "Seoul to Busan: KTX, Express Bus or Flight?",
+    "url": "/guides/seoul-to-busan-transport-comparison/",
+    "summary": "Compare KTX, express bus and flights from Seoul to Busan by departure point, total journey, arrival location and booking steps.",
+    "tags": [
+      "Busan",
+      "seoul",
+      "to",
+      "transport",
+      "comparison",
+      "travel guide",
+      "travel planning"
+    ]
+  },
+  {
+    "title": "釜山草梁 OCHORYANG 歷史宅邸與庭園",
+    "url": "/zh-tw/guides/ochoryang/",
+    "summary": "規劃參觀釜山草梁 OCHORYANG：認識歷史宅邸與庭園、交通方式，以及出發前確認預約與最新開放資訊的方法。",
+    "tags": [
+      "OCHORYANG",
+      "草梁 OCHORYANG",
+      "釜山歷史宅邸",
+      "釜山庭園",
+      "釜山景點",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "釜山站到南浦洞：草梁在地散步路線",
+    "url": "/zh-tw/guides/busan-station-local-walk/",
+    "summary": "串連釜山站、草梁與南浦洞的彈性散步路線，從港都歷史、市場美食到交通安排，提供釜山在地視角的實用建議。",
+    "tags": [
+      "釜山站到南浦洞",
+      "草梁散步",
+      "釜山站附近景點",
+      "釜山自由行",
+      "釜山在地路線",
+      "釜山步行行程"
+    ]
+  },
+  {
+    "title": "釜山煙火節住宿名單：市府公布34家業者（歷史資料）",
+    "url": "/zh-tw/guides/busan-fireworks-festival-fair-price-stays/",
+    "summary": "釜山市府於2026年煙火節期間公布的34家住宿歷史名單；公告期已於11月8日結束，不代表目前房價、空房或有效推薦。",
+    "tags": [
+      "釜山煙火節住宿",
+      "廣安里住宿",
+      "釜山住宿價格",
+      "釜山煙火節2026",
+      "釜山訂房",
+      "釜山自由行住宿"
+    ]
+  },
+  {
+    "title": "釜山 BTS 相關景點與在地旅遊指南",
+    "url": "/zh-tw/guides/bts-in-busan/",
+    "summary": "從 BTS 與釜山的連結出發，走訪甘川文化村、書洞市場、萬德洞與海岸景點，搭配釜山在地美食和交通規劃。粉絲與一般旅客都適合。",
+    "tags": [
+      "釜山 BTS 景點",
+      "BTS 釜山",
+      "釜山防彈少年團景點",
+      "釜山追星自由行",
+      "釜山粉絲旅遊",
+      "釜山景點"
+    ]
+  },
+  {
+    "title": "釜山東萊半日遊｜虛心廳溫泉、東萊邑城與在地美食",
+    "url": "/zh-tw/guides/dongnae-hot-spring-half-day/",
+    "summary": "安排釜山東萊半日行程：體驗大型溫泉設施虛心廳、走訪東萊邑城與東萊市場，並依口味選擇韓式、中式或泰式料理。",
+    "tags": [
+      "釜山東萊一日遊",
+      "東萊半日遊",
+      "虛心廳",
+      "釜山溫泉",
+      "東萊邑城",
+      "東萊市場美食",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "台灣人釜山自由行攻略｜入境、交通付款與行程規劃",
+    "url": "/zh-tw/guides/taiwan-travelers-busan/",
+    "summary": "第一次從台灣到釜山自由行？整理2026年入境申報、K-ETA暫免、金海機場交通、釜山市區公車QR付款、交通卡與三日行程。",
+    "tags": [
+      "台灣人釜山自由行",
+      "釜山自由行攻略",
+      "台灣去釜山",
+      "釜山入境",
+      "釜山交通付款",
+      "釜山公車 QR 付款",
+      "金海機場交通",
+      "釜山三日遊"
+    ]
+  },
+  {
+    "title": "海雲台天空膠囊售完怎麼辦？訂票、海外刷卡與現場購票攻略",
+    "url": "/zh-tw/guides/haeundae-blueline-park-sold-out/",
+    "summary": "海雲台藍線公園天空膠囊訂不到？整理官方開賣時間、海外信用卡付款限制、Klook 台灣票券、現場少量售票與海岸列車替代方案。",
+    "tags": [
+      "海雲台天空膠囊",
+      "天空膠囊訂票",
+      "天空膠囊售完",
+      "海雲台藍線公園",
+      "釜山景點預約",
+      "釜山自由行",
+      "海外信用卡刷不過",
+      "Klook釜山",
+      "海岸列車",
+      "尾浦青沙浦"
+    ]
+  },
+  {
+    "title": "富平罐頭市場美食指南：炸豬排骨與夜市小吃",
+    "url": "/zh-tw/guides/kkangtong-market-food-guide/",
+    "summary": "走訪南浦洞富平罐頭市場，認識깡돼후炸豬排骨、辣炒年糕、魚板與夜市小吃，並串連市場周邊的在地餐廳與交通資訊。",
+    "tags": [
+      "釜山罐頭市場美食",
+      "富平罐頭市場",
+      "釜山夜市",
+      "南浦洞美食",
+      "깡돼후",
+      "韓式炸豬排骨",
+      "釜山街頭小吃",
+      "釜山魚板",
+      "南浦洞自由行"
+    ]
+  },
+  {
+    "title": "釜山富平罐頭市場浴場用品購物指南",
+    "url": "/zh-tw/guides/kkangtong-market-bath-shopping/",
+    "summary": "想買韓國澡堂、汗蒸幕常見用品？整理富平罐頭市場周邊浴場用品店、搓澡巾、澡堂肥皂、沐浴鹽與按摩工具，以及購物前注意事項。",
+    "tags": [
+      "釜山澡堂用品",
+      "韓國搓澡巾",
+      "韓國澡堂肥皂",
+      "韓國汗蒸幕用品",
+      "富平罐頭市場購物",
+      "釜山伴手禮",
+      "南浦洞購物",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "Visit Busan Pass 釜山通行證攻略：票價、BIG3/BIG5與交通卡功能",
+    "url": "/zh-tw/guides/visit-busan-pass-guide/",
+    "summary": "比較釜山通行證 24H、48H、BIG3、BIG5 官方票價，說明實體卡與手機版差異、啟用時間、交通卡功能與回本試算。",
+    "tags": [
+      "釜山通行證",
+      "Visit Busan Pass",
+      "釜山Pass",
+      "釜山自由行",
+      "釜山景點門票",
+      "釜山交通卡",
+      "釜山票券",
+      "BIG3",
+      "BIG5",
+      "24小時通行證",
+      "48小時通行證"
+    ]
+  },
+  {
+    "title": "釜山咖啡指南：MOMOS COFFEE、溫泉場與影島烘豆所",
+    "url": "/zh-tw/guides/busan-coffee-guide/",
+    "summary": "釜山咖啡自由行指南，整理 MOMOS COFFEE 溫泉場旗艦店、影島烘豆所、海雲台 Marine City 與 Domoheon 分店，附地址、官方營業資訊與咖啡伴手禮提醒。",
+    "tags": [
+      "釜山咖啡",
+      "釜山咖啡廳",
+      "MOMOS COFFEE",
+      "模模斯咖啡",
+      "釜山精品咖啡",
+      "影島咖啡",
+      "溫泉場咖啡",
+      "海雲台咖啡",
+      "釜山咖啡地圖",
+      "釜山伴手禮"
+    ]
+  },
+  {
+    "title": "海雲台美食地圖：市場小吃、海鮮與韓式烤肉",
+    "url": "/zh-tw/guides/haeundae-food-guide/",
+    "summary": "海雲台吃什麼？整理海雲台傳統市場小吃、海邊海鮮攤、海리단길咖啡餐廳與 팔팔양대창 韓式烤牛腸，附地址、交通與點餐提醒。",
+    "tags": [
+      "海雲台美食",
+      "海雲台市場",
+      "海雲台傳統市場",
+      "海雲台海鮮",
+      "海리단길",
+      "海雲台咖啡",
+      "釜山烤腸",
+      "팔팔양대창",
+      "釜山美食",
+      "海雲台自由行"
+    ]
+  },
+  {
+    "title": "Yeongdo, Busan: One-Day Coastal Walk",
+    "url": "/guides/yeongdo-one-day/",
+    "summary": "Plan a day in Yeongdo with Huinnyeoul Culture Village, Jeoryeong Coastal Walk, Haneul Observatory and Taejongdae.",
+    "tags": [
+      "Yeongdo",
+      "Busan itinerary",
+      "Huinnyeoul Culture Village",
+      "Taejongdae",
+      "coastal walk",
+      "Busan map"
+    ]
+  },
+  {
+    "title": "釜山影島一日遊｜白淺灘文化村、海岸步道與太宗臺",
+    "url": "/zh-tw/guides/yeongdo-one-day/",
+    "summary": "釜山影島一日遊路線：白淺灘文化村、絕影海岸散步路、天空展望台與太宗臺。整理步行距離、交通安排與行程節奏。",
+    "tags": [
+      "釜山影島",
+      "影島一日遊",
+      "白淺灘文化村",
+      "絕影海岸散步路",
+      "太宗臺",
+      "釜山海景",
+      "釜山自由行",
+      "釜山散步路線"
+    ]
+  },
+  {
+    "title": "Jeonpo Cafe Street, Busan: Cafes & Side Streets",
+    "url": "/guides/jeonpo-cafe-street/",
+    "summary": "Explore Jeonpo Cafe Street in Busan, with specialty coffee, dessert shops, converted workshops and practical neighborhood walking tips.",
+    "tags": [
+      "Jeonpo Cafe Street",
+      "Busan cafes",
+      "Busan coffee",
+      "Seomyeon",
+      "cafe guide"
+    ]
+  },
+  {
+    "title": "釜山田浦咖啡街攻略｜特色咖啡、甜點與巷弄小店",
+    "url": "/zh-tw/guides/jeonpo-cafe-street/",
+    "summary": "釜山田浦咖啡街怎麼逛？介紹特色咖啡、甜點店、老工廠改造空間與田浦工具街，附上街區位置與散步建議。",
+    "tags": [
+      "釜山田浦咖啡街",
+      "田浦咖啡街",
+      "釜山咖啡廳",
+      "釜山甜點",
+      "西面咖啡",
+      "田浦工具街",
+      "釜山咖啡地圖",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "釜山廣安里無人機秀攻略：演出時間、觀賞位置與取消公告",
+    "url": "/zh-tw/guides/gwangalli-drone-show-viewing-tips/",
+    "summary": "釜山廣安里無人機秀怎麼看？整理每週六演出時間、季節時刻、無人機與雷射特別場次、廣安里海灘觀賞位置、天候取消與散場交通提醒。",
+    "tags": [
+      "釜山無人機秀",
+      "廣安里無人機秀",
+      "廣安里無人機表演",
+      "釜山夜間活動",
+      "釜山夜景",
+      "廣安里海灘",
+      "釜山自由行",
+      "廣安里雷射秀"
+    ]
+  },
+  {
+    "title": "釜山親子自由行攻略：住宿區域、交通、三日行程與雨天備案",
+    "url": "/zh-tw/guides/busan-with-kids/",
+    "summary": "帶孩子去釜山怎麼安排？整理親子住宿區域選擇、地鐵與推車交通、用餐休息、雨天備案及彈性三日行程。",
+    "tags": [
+      "釜山親子自由行",
+      "釜山親子旅遊",
+      "釜山帶小孩",
+      "釜山親子行程",
+      "釜山親子住宿",
+      "釜山推車交通",
+      "釜山雨天備案",
+      "釜山三日遊",
+      "釜山家庭旅行"
+    ]
+  },
+  {
+    "title": "釜山夜景攻略：黃領山、影島青鶴排水池與夜間交通",
+    "url": "/zh-tw/guides/busan-night-views-local-tips/",
+    "summary": "釜山夜景去哪裡看？比較黃領山、影島青鶴排水池與市區海岸景點，整理山路交通、能見度、夜間安全與回程安排。",
+    "tags": [
+      "釜山夜景",
+      "釜山夜景景點",
+      "黃領山夜景",
+      "影島夜景",
+      "青鶴排水池展望台",
+      "釜山港夜景",
+      "釜山夜間交通",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "釜山搭計程車還是地鐵？暈車、行李與交通路線比較",
+    "url": "/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/",
+    "summary": "釜山自由行搭計程車還是地鐵？依照塞車、山路暈車、行李、轉乘與末班車情況比較，整理門到門路線評估與搭車提醒。",
+    "tags": [
+      "釜山計程車",
+      "釜山地鐵",
+      "釜山交通",
+      "釜山暈車",
+      "釜山計程車還是地鐵",
+      "釜山自由行交通",
+      "釜山行李交通",
+      "釜山末班車"
+    ]
+  },
+  {
+    "title": "釜山機張美食：기장끝집 鮑魚粥與 죽성 海岸一日遊",
+    "url": "/zh-tw/guides/gijang-kkeutjip-abalone-porridge/",
+    "summary": "到釜山機張吃鮑魚粥？整理 기장끝집 죽성본점 地址、雙人起點餐、排隊與休息時間提醒，以及如何搭配機張海岸行程。",
+    "tags": [
+      "釜山機張美食",
+      "機張鮑魚粥",
+      "기장끝집",
+      "釜山鮑魚粥",
+      "機張죽성",
+      "釜山海鮮",
+      "釜山在地美食",
+      "釜山自由行美食"
+    ]
+  },
+  {
+    "title": "釜山松島海水浴場一日遊：海景散步、纜車與鱈魚湯早餐",
+    "url": "/zh-tw/guides/songdo-beach-local-breakfast/",
+    "summary": "釜山松島海水浴場怎麼玩？安排海邊散步、松島天空步道、海上纜車與鱈魚湯早餐，附交通、店家韓文名稱與天候提醒。",
+    "tags": [
+      "釜山松島",
+      "松島海水浴場",
+      "釜山松島纜車",
+      "松島天空步道",
+      "釜山鱈魚湯",
+      "속시원해대구탕",
+      "釜山早餐",
+      "西釜山景點",
+      "釜山海岸散步"
+    ]
+  },
+  {
+    "title": "釜山自由行預算怎麼抓？住宿、美食、交通與景點票券",
+    "url": "/zh-tw/guides/busan-travel-budget/",
+    "summary": "釜山自由行預算怎麼安排？從住宿、餐費、地鐵公車、計程車、景點門票到行李寄放，整理預算分類與省錢方法。",
+    "tags": [
+      "釜山自由行預算",
+      "釜山旅費",
+      "釜山住宿費",
+      "釜山餐費",
+      "釜山交通費",
+      "釜山景點門票",
+      "Visit Busan Pass",
+      "釜山省錢",
+      "釜山旅遊費用"
+    ]
+  },
+  {
+    "title": "釜山方言入門：5 句常聽到的 Busan Satoori",
+    "url": "/zh-tw/guides/busan-street-dialect-guide/",
+    "summary": "認識 어데 가노、온나、묵으라、우짜노、맞다 五句常見釜山方言，附標準韓語替代說法與旅客使用提醒。",
+    "tags": [
+      "釜山方言",
+      "釜山話",
+      "釜山腔",
+      "Busan Satoori",
+      "韓國方言",
+      "釜山文化",
+      "韓語旅遊用語",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "釜山站 Zimcarry 行李寄放與配送：預約前必看",
+    "url": "/zh-tw/guides/zimcarry-busan-station/",
+    "summary": "釜山站附近想寄放行李或配送到飯店？整理 Zimcarry 分店查詢、寄放與配送差異、行李尺寸、收件時間、價格和預約前確認事項。",
+    "tags": [
+      "釜山站行李寄放",
+      "Zimcarry",
+      "釜山行李配送",
+      "釜山站寄物",
+      "釜山行李寄存",
+      "釜山自由行行李",
+      "釜山站交通",
+      "釜山機場行李配送"
+    ]
+  },
+  {
+    "title": "釜山在地文化指南：方言、飲食習慣與港口城市日常",
+    "url": "/zh-tw/guides/busan-local-culture/",
+    "summary": "從釜山方言、豬肉湯飯和海鮮市場，到港口、坡地與街區生活，認識熱門海灘以外的釜山日常文化。",
+    "tags": [
+      "釜山在地文化",
+      "釜山文化",
+      "釜山方言",
+      "釜山飲食文化",
+      "釜山港口城市",
+      "釜山日常生活",
+      "釜山自由行"
+    ]
+  },
+  {
+    "title": "釜山人的日常與文化：旅客常注意到的 4 個地方",
+    "url": "/zh-tw/guides/busan-local-traits-culture/",
+    "summary": "釜山人的方言、城市節奏、豬肉湯飯吃法與港口生活有什麼特色？用四個日常觀察認識釜山，避免把地方文化簡化成刻板印象。",
+    "tags": [
+      "釜山人的個性",
+      "釜山文化",
+      "釜山日常",
+      "釜山方言",
+      "豬肉湯飯吃法",
+      "釜山港口",
+      "釜山旅行文化"
+    ]
+  },
+  {
+    "title": "釜山在地美食推薦：炸雞、辣炒章魚牛腸鍋與市場小吃",
+    "url": "/zh-tw/guides/busan-local-food-picks/",
+    "summary": "釜山除了豬肉湯飯還吃什麼？整理在地編輯推薦的咖哩炸雞、傳統炸全雞、辣炒章魚牛腸鍋、河豚湯、鮑魚粥、冷麵與市場小吃。",
+    "tags": [
+      "釜山在地美食",
+      "釜山美食推薦",
+      "釜山炸雞",
+      "釜山辣炒章魚牛腸鍋",
+      "釜山市場小吃",
+      "釜山河豚湯",
+      "釜山冷麵",
+      "釜山美食地圖",
+      "釜山自由行美食"
+    ]
+  },
+  {
+    "title": "釜山北港鯊魚 부캉이 最新消息：還看得到嗎？",
+    "url": "/zh-tw/guides/bukangi-busan-north-port-shark/",
+    "summary": "釜山北港鯊魚 부캉이 還在嗎？整理 2026 年 9 月首次發現、10 月 21 日離開人工水道、10 月 27 日最後目擊與 11 月最新公開資訊。",
+    "tags": [
+      "釜山北港鯊魚",
+      "부캉이",
+      "Bukangi",
+      "釜山北港親水公園",
+      "釜山最新消息",
+      "釜山自由行景點",
+      "釜山港"
+    ]
+  },
+  {
+    "title": "釜山花火祭りの宿泊先｜市選定34施設の記録",
+    "url": "/ja/guides/busan-fireworks-festival-fair-price-stays/",
+    "summary": "釜山市が2026年花火祭り期間に公表した34施設の記録。掲載期間は11月8日に終了し、現在の空室・料金や推薦を示すものではありません。",
+    "tags": [
+      "釜山 花火 宿泊",
+      "釜山 広安里 ホテル",
+      "釜山 適正価格 宿泊",
+      "釜山 花火 2026",
+      "釜山 ホテル 料金"
+    ]
+  },
+  {
+    "title": "Busan Fireworks Festival: 34 Historical Stays",
+    "url": "/guides/busan-fireworks-festival-fair-price-stays/",
+    "summary": "Historical record of Busan City's 34 accommodation selections for the 2026 festival period; list ended Nov 8 and is not a current booking recommendation.",
+    "tags": [
+      "Busan fireworks accommodation",
+      "Gwangalli stays",
+      "Busan hotel prices",
+      "2026 fireworks festival",
+      "Busan accommodation"
+    ]
+  },
+  {
+    "title": "Busan Coffee Guide: MOMOS and Local Roasteries",
+    "url": "/guides/busan-coffee-guide/",
+    "summary": "Plan a specialty coffee stop at MOMOS COFFEE in Oncheonjang or Yeongdo, with local coffee culture and route advice.",
+    "tags": [
+      "busan coffee",
+      "momos coffee",
+      "specialty coffee busan",
+      "coffee roastery",
+      "yeongdo cafe",
+      "전포 카페",
+      "부산 커피"
+    ]
+  },
+  {
+    "title": "海雲台グルメガイド",
+    "url": "/ja/guides/haeundae-food-guide/",
+    "summary": "海雲台市場、海辺の海鮮、海理団通りのカフェ、韓国式ホルモン焼き。エリア別に食事を選べます。",
+    "tags": [
+      "海雲台 グルメ",
+      "海雲台 市場",
+      "釜山 海鮮",
+      "海理団通り",
+      "釜山 焼肉",
+      "釜山旅行"
+    ]
+  },
+  {
+    "title": "釜山コーヒーガイド",
+    "url": "/ja/guides/busan-coffee-guide/",
+    "summary": "釜山発のMOMOS COFFEE。温泉場本店と影島ロースタリーの違い、注文のヒント、街歩きとの組み合わせを紹介。",
+    "tags": [
+      "釜山 コーヒー",
+      "MOMOS COFFEE",
+      "釜山 カフェ",
+      "影島 カフェ",
+      "スペシャルティコーヒー"
     ]
   }
 ]
