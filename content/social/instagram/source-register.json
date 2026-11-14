@@ -205,19 +205,24 @@
     },
     "ig-fresh15-7": {
       "facts": [
-        "Gwangalli faces Gwangan Bridge, between Seomyeon and Haeundae.",
-        "Gwangan and Geumnyeonsan stations (Line 2) are the usual beach stops.",
-        "Drone show: recurring Saturday event; times vary by season; can be cancelled for weather."
+        "Gwangalli Beach faces Gwangan Bridge; Gwangan and Geumnyeonsan stations on Metro Line 2 are the usual beach stops.",
+        "Visit Busan's official November 2026 programme lists 11/14, 11/21 and 11/28. The 11/21 programme is '성의 수호자 with 레이저쇼'; the 11/28 programme is '어벤져스: 둠스데이 in 광안리'.",
+        "The official page warns that rain, strong wind, typhoon conditions or communications can cancel or delay a show.",
+        "The Visit Busan page does not state exact show times; do not add unverified times."
       ],
       "urls": [
-        "https://go2busan.com/guides/gwangalli-neighborhood-guide/"
+        "https://go2busan.com/guides/gwangalli-neighborhood-guide/",
+        "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=6449&menuCd=DOM_000000204012000000"
       ],
       "volatile": [
-        "opening hours",
-        "fares",
-        "service status"
+        "event dates",
+        "programme",
+        "weather and cancellation",
+        "transport"
       ],
-      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+      "recheck": "2026-11-20 and morning of 2026-11-21; 2026-11-27 and morning of 2026-11-28",
+      "checked_on": "2026-11-14",
+      "note": "The 2026-11-18 scheduled post is proposed to name only the remaining November dates; no exact show time is claimed."
     },
     "ig-fresh15-8": {
       "facts": [
@@ -346,6 +351,27 @@
         "service status"
       ],
       "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+    },
+    "ig-fresh15-16": {
+      "facts": [
+        "Visit Busan's official November listing shows the Gwangbok-ro Balcony Music Show on 2026-11-28 (Saturday), 19:00-21:00, in the Gwangbok-ro area of Jung-gu, Busan.",
+        "Official listed set times: 19:30-20:00 써니문 재즈밴드; 20:00-20:30 모던사운즈 재즈빅밴드.",
+        "The official source gives performer names in Korean; English names in the draft are working transliterations, not separately confirmed organizer titles.",
+        "This draft does not claim the separate 2026-12-05 Street Festa date."
+      ],
+      "urls": [
+        "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=6437&menuCd=DOM_000000204012000000",
+        "https://go2busan.com/guides/nampo-neighborhood-guide/"
+      ],
+      "volatile": [
+        "event date and time",
+        "performer lineup",
+        "weather or operational changes",
+        "access point and traffic"
+      ],
+      "recheck": "2026-11-27 and morning of 2026-11-28",
+      "checked_on": "2026-11-14",
+      "note": "Draft-only localized Instagram proposal. AI illustrations are not actual event photos. No external account posting or schedule activation."
     }
   }
 }
