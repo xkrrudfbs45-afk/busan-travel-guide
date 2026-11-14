@@ -654,6 +654,20 @@
       "checked_on": "2026-11-14",
       "status": "needs_review",
       "note": "Official 2026 poster retrieved from the organizer's event page. Subject/date match confirmed; copyright and commercial reuse permission are not stated. Do not merge to production until permission or an approved replacement is documented."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Rainy_street_in_Haeundae_(34014053390).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rainy_street_in_Haeundae_(34014053390).jpg",
+      "author": "Anton Strogonoff",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-15",
+      "status": "verified",
+      "note": "Rainy street in Haeundae, Busan, photographed 12 July 2016 (camera location 35.159N 129.158E, Haeundae). Flickr original reviewed as cc-by-2.0 by FlickreviewR 2."
     }
   ]
 }
