@@ -2,20 +2,7 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
-## Handoff — 2026-11-14 (Claude, Instagram stale-spec QA gate, issue #371)
-
-### Completed
-- Draft PR adds a spec-bound fail-closed gate: `scripts/instagram/render.mjs` writes `spec_hash`/`card_count` into `qa.json`; `scripts/instagram/publish.mjs` `renderBlockReason()` checks QA, `.hash` and the full JPEG set against the current `specHash(p)` before any API call.
-- Regression tests added in `scripts/instagram/instagram.test.mjs` (18/18 pass).
-
-### Open / risks
-- Existing rendered cards on the `instagram-state` branch have legacy `qa.json` and are blocked at publish until re-rendered; `needsRender` now detects this and the next render pass should re-render them (unobserved — confirm in the next workflow run before the next approved post's window, e.g. the Japanese Nov 25 carousel).
-- Branch CI not yet observed; workflow files untouched.
-
-### Approval needed
-- Merge of the PR; No deploy/publish performed.
-
-## Previous handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
+## Current handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
 
 ### Completed
 - Reconciled main/production/open PRs: `docs/ai-workspace/BASELINE-TAIWAN-2026-11-12.md` (45 open PRs triaged into close / clean / conflicting).
