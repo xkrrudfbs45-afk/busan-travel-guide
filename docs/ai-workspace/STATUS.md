@@ -322,3 +322,11 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Kept the 2026 Christmas Village poster on the draft only, registered as `needs_review`; it remains a hard merge/deploy blocker pending permission or replacement with a verified commercially reusable image.
 - Fixed invalid nested-anchor markup in the visual credit so the source link is independently clickable.
 - Exact-head SEO audit passed; screenshot QA at 360/390/768/1280 remains outstanding.
+
+
+### Busan Now winter contrast refresh — 2026-11-14
+- Rebased the contrast-only follow-up on current `main` after PR #413 became stale against later homepage/content integrations.
+- Restyled the winter panel to a warm off-white surface with dark body copy, stronger event-date emphasis, and a high-contrast CTA; retained the current main-branch Wikimedia Gwangalli night photograph and its existing credit rather than reintroducing the unlicensed Christmas Village poster.
+- Mobile adjustments preserve the current photo crop and credit while increasing copy readability.
+- PR #413 is superseded for the contrast change; do not merge it. Its poster remains rights-unverified.
+- Validation still required on this new head: exact-head CI, mergeability, and screenshots at 360 / 390 / 768 / 1280. No merge or production deployment performed.
