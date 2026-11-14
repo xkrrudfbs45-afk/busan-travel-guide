@@ -263,7 +263,7 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Geumjeongsanseong village food guide (EN / JA / zh-TW): attributed black-goat charcoal grill, duck bulgogi, native chicken, acorn jelly and seasonal mountain greens to the specific Sanseongjip listing on Visit Busan; linked the Busan City makgeolli page separately. Added the official-source discrepancy for bus 203 / 90 stop names and a same-day confirmation caveat.
 - Things to Do in Busan (EN / JA / zh-TW): added Mipo Station transit-first access and a 15–20 minute walking buffer, grounded in operator and Visit Busan descriptions.
 - Songdo Beach guide (EN): added live operating-status and seasonal-hours checks for the marine cable car, including bad-weather suspension caveat.
-- Search index updated for milmyeon, Geumjeongsanseong, Mipo and Songdo long-tail queries.
+- Search-index title/summary alignment for the revised Geumjeongsanseong food copy remains pending with Claude; existing route and locale URLs are unchanged.
 - Social copy pack created at content/social/2026-11-14-practical-local-experience-drafts.md. It is not scheduled or approved.
 
 ### Required before merge
