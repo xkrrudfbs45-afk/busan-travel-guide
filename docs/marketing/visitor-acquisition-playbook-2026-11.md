@@ -549,7 +549,7 @@ Editorial rules:
 - Rainy-day guide: add ARTE MUSEUM Busan, F1963 and Spa Land as indoor anchors with official links; require readers to confirm hours, age/admission rules and last entry before visiting.
 
 ### Next content queue (do not publish until route and facts are checked)
-1. Geumjeongsanseong / Dongmun fortress walk: trail difficulty, access and seasonal foliage; distinguish official fortress facts from social-media anecdotes about hiking popularity and goat-meat restaurants.
+1. Geumjeongsanseong / Dongmun fortress walk: trail difficulty, access and seasonal foliage. Use the official Busan tourism food-area listing for black-goat bulgogi, duck bulgogi and duck soup, and the Busan City page for Sanseong makgeolli. Official bus-stop names for 203 / 90 differ between the Korean Geopark and Geumjeong-gu English pages; explain the discrepancy rather than choosing one as universal.
 2. Mipo Station / Haeundae Blueline Park: use the official Visit Busan access description (Jung-dong Station Exit 7, about 18 minutes on foot); avoid unsupported claims about parking occupancy or a “serious shortage.”
 3. Songdo Marine Cable Car: link to the operator's live status and weather notice; say operations may be suspended in bad weather, not that a specific wind threshold applies unless published.
 4. Busan milmyeon: expand the existing history article with first-time ordering guidance (mul-milmyeon vs bibim-milmyeon, seasoning gradually, vinegar/mustard to taste); do not claim a single canonical recipe.
@@ -566,7 +566,7 @@ Editorial rules:
 
 ### Guide enhancements (EN / JA / zh-TW)
 - Milmyeon: add first-time ordering advice for mul and bibim styles, taste-before-seasoning, optional vinegar/mustard, spice adjustment, scissors, Korean phrases and dietary notes.
-- Geumjeongsanseong Village: add bus 203 from Oncheonjang area to East/South Gate and bus 90 from Beomeosa Station to the Beomeosa ticket-office stop. Tell readers to confirm return service and route conditions.
+- Geumjeongsanseong Village: cite both official route descriptions because bus 203 / 90 stop names differ between Busan Geopark Korean and Geumjeong-gu English pages. Tell readers to confirm the exact stop for their chosen trail and return service.
 - Mipo Station: explain Jung-dong Station Exit 7 and a 15–20 minute walking buffer; include official bus options. Avoid asserting that parking is always unavailable.
 - Songdo Marine Cable Car: direct readers to live operating status and seasonal hours; bad weather can change hours or suspend service. Do not invent a wind-speed closure threshold.
 
