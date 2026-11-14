@@ -12,7 +12,7 @@ Format: 7 cards, 1080 × 1350. Use real, licensed food photography where possibl
 4. 醋和芥末不是必加，先少量試味道。
 5. 怕辣可先不要把辣醬全部拌開，也可說「덜 맵게 해 주세요」。
 6. 麵太長可以用桌上的剪刀剪開。
-7. 收藏這篇，下次到釜山照著吃。完整攻略：go2busan.com/zh-tw/guides/busan-milmyeon-history/
+7. 收藏這篇，下次到釜山照著吃。完整攻略：https://go2busan.com/zh-tw/guides/busan-milmyeon-history/?utm_source=instagram&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=tw_milmyeon_carousel
 
 Caption: 第一次到釜山吃 밀면，不知道該怎麼點、醋和芥末要不要加？先選 물밀면（水冷麵）或 비빔밀면（拌麵），第一口先吃原味，再依自己的口味慢慢調整。怕辣可以說「덜 맵게 해 주세요」。各店湯頭和配方不同，這份入門吃法先收藏起來！
 #釜山美食 #釜山自由行 #釜山小麥冷麵 #韓國美食 #Go2Busan
@@ -24,7 +24,7 @@ Caption: 第一次到釜山吃 밀면，不知道該怎麼點、醋和芥末要�
 4. 酢とからしは必須ではありません。少しずつ。
 5. 辛さが心配なら「덜 맵게 해 주세요」と伝えてみて。
 6. 長い麺はテーブルのハサミで切っても大丈夫。
-7. 次の釜山旅行のために保存。詳しくはプロフィールのリンクへ。
+7. 次の釜山旅行のために保存。プロフィールのリンクから詳しく確認できます。\nプロフィールリンク用URL: https://go2busan.com/ja/guides/busan-milmyeon-history/?utm_source=instagram&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=ja_milmyeon_carousel
 
 Caption: 初めて釜山でミルミョンを食べるなら、まず水ミルミョンかビビンミルミョンを選びましょう。酢やからしは必須ではないので、最初はそのまま一口。辛さが心配なら「덜 맵게 해 주세요」と伝えてみてください。店によって味は違うので、自分好みに調整して楽しんでください。
 #釜山グルメ #釜山旅行 #ミルミョン #韓国グルメ #Go2Busan
@@ -36,7 +36,7 @@ Caption: 初めて釜山でミルミョンを食べるなら、まず水ミル�
 4. Vinegar and mustard are optional. Add a little at a time.
 5. Prefer less heat? Keep some red sauce unmixed or ask “deol maepge hae juseyo.”
 6. Scissors are normal: cut the long noodles once or twice if needed.
-7. Save this for your Busan food trip. Full guide: go2busan.com/guides/busan-milmyeon-history/
+7. Save this for your Busan food trip. Full guide: https://go2busan.com/guides/busan-milmyeon-history/?utm_source=instagram&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=en_milmyeon_carousel
 
 Caption: First bowl of milmyeon in Busan? Choose mul milmyeon for chilled broth or bibim milmyeon for a sweet-spicy sauce. Taste it before adding vinegar or mustard — both are optional. If you prefer less heat, ask for “deol maepge hae juseyo.” Recipes vary by restaurant, so make the bowl your own.
 #BusanFood #Milmyeon #BusanTravel #KoreaFood #Go2Busan
@@ -44,19 +44,19 @@ Caption: First bowl of milmyeon in Busan? Choose mul milmyeon for chilled broth 
 ## Threads drafts — Taiwan first
 
 ### Taiwan (zh-TW)
-- 金井山城不只有城牆和山景，也有鴨肉料理、山菜拌飯與傳統飲食文化。從溫泉場站可轉乘 203 號公車前往東門或南門；出發前記得確認回程班次。完整指南：go2busan.com/zh-tw/guides/geumjeongsanseong-village-food/
-- 海雲台天空膠囊要從尾浦站搭乘？中洞站 7 號出口步行約 15–18 分鐘，建議預留 20 分鐘，別把預約時間排得太緊。官方交通資訊：bluelinepark.com/eng/mapList.do
-- 松島海上纜車可能因天候調整或暫停營運。出發前先看即時運行狀態，不要只依賴天氣 App 或舊文章。官方狀態：en.busanaircruise.co.kr/info/use
+- 釜山觀光資料介紹金井山城村的黑山羊烤肉、鴨肉烤肉、鴨肉湯與山城馬格利酒。203、90 號公車的停靠站名稱在官方資料中略有不同，出發前請確認當日站名與回程班次。完整指南：https://go2busan.com/zh-tw/guides/geumjeongsanseong-village-food/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=tw_geumjeongsanseong
+- 海雲台天空膠囊要從尾浦站搭乘？中洞站 7 號出口步行約 15 分鐘，Visit Busan 約 18 分鐘，建議預留 20 分鐘。完整指南：https://go2busan.com/zh-tw/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=tw_mipo_access 。官方交通資訊：https://www.bluelinepark.com/eng/mapList.do
+- 松島海上纜車可能因天候調整或暫停營運。出發前先看即時運行狀態，不要只依賴天氣 App 或舊文章。完整指南：https://go2busan.com/zh-tw/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=tw_songdo 。官方狀態：https://en.busanaircruise.co.kr/info/use
 
 ### Japan (ja)
-- 金井山城は城壁と山の景色だけでなく、鴨料理や山菜料理も楽しめる山里です。温泉場駅から203番バスで東門・南門方面へ。帰りの便も先に確認しましょう。go2busan.com/ja/guides/geumjeongsanseong-village-food/
-- 海雲台スカイカプセルのミポ駅へは、中洞駅7番出口から徒歩約15〜18分。予約時間ぎりぎりではなく、20分ほど余裕を見て移動を。bluelinepark.com/eng/mapList.do
-- 松島海上ケーブルカーは悪天候などで運行時間が変わったり、運休したりすることがあります。出発前に公式の運行状況を確認してください。en.busanaircruise.co.kr/info/use
+- 釜山観光案内では、金井山城マウルの黒ヤギのプルコギ、鴨プルコギ、鴨のスープ、山城マッコリが紹介されています。203番・90番バスの停留所名は公式案内によって異なるため、当日の停留所と帰りの便を確認しましょう。詳しくはこちら：https://go2busan.com/ja/guides/geumjeongsanseong-village-food/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=ja_geumjeongsanseong
+- 海雲台スカイカプセルのミポ駅へは、中洞駅7番出口から徒歩約15分、Visit Busanの案内では約18分です。予約時間ぎりぎりではなく20分ほど余裕を。ガイド：https://go2busan.com/ja/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=ja_mipo_access 。公式交通案内：https://www.bluelinepark.com/eng/mapList.do
+- 松島海上ケーブルカーは悪天候などで運行時間が変わったり、運休したりすることがあります。出発前に公式の運行状況を確認してください。ガイド：https://go2busan.com/ja/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=ja_songdo 。公式運行状況：https://en.busanaircruise.co.kr/info/use
 
 ### English
-- Geumjeongsanseong is more than a fortress walk: the mountain village is known for duck dishes and seasonal mountain greens. Bus 203 serves the East and South Gate area; check your return service before you go. go2busan.com/guides/geumjeongsanseong-village-food/
-- Taking the Haeundae Sky Capsule from Mipo? Jung-dong Station Exit 7 is about a 15–18 minute walk. Leave around 20 minutes, especially if you have a timed ticket. bluelinepark.com/eng/mapList.do
-- Songdo Marine Cable Car operations can change or pause in bad weather. Check the operator’s live status before travelling; an old timetable or weather app is not enough. en.busanaircruise.co.kr/info/use
+- Busan tourism lists black-goat bulgogi, duck bulgogi, duck soup and Sanseong makgeolli in the Geumjeongsanseong village food area. Official guides use different stop names for buses 203 and 90, so check the stop for your trail and the return service. Guide: https://go2busan.com/guides/geumjeongsanseong-village-food/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=en_geumjeongsanseong
+- Taking the Haeundae Sky Capsule from Mipo? Jung-dong Station Exit 7 is about 15 minutes on the operator's guide and about 18 minutes on Visit Busan's page. Leave around 20 minutes for a timed ticket. Guide: https://go2busan.com/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=en_mipo_access . Operator: https://www.bluelinepark.com/eng/mapList.do
+- Songdo Marine Cable Car operations can change or pause in bad weather. Check the operator’s live status before travelling; an old timetable or weather app is not enough. Guide: https://go2busan.com/guides/things-to-do-in-busan/?utm_source=threads&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=en_songdo . Operator status: https://en.busanaircruise.co.kr/info/use
 
 ## Image and publishing QA
 - Prefer real photos: a bowl of milmyeon, Geumjeongsanseong East Gate / fortress wall, Mipo Station entrance, and Songdo cable-car cabins.
