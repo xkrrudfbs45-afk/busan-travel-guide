@@ -260,7 +260,7 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 
 ### Completed in branch content/busan-practical-guides-20261114
 - Milmyeon guide (EN / JA / zh-TW): added first-time order and seasoning tips, Korean phrases and dietary notes; updated SEO titles/descriptions.
-- Geumjeongsanseong village food guide (EN / JA / zh-TW): added official bus 203 / bus 90 access routes and return-trip / trail cautions.
+- Geumjeongsanseong village food guide (EN / JA / zh-TW): replaced unsupported mountain-greens / acorn-jelly claims with the documented black-goat bulgogi, duck bulgogi, duck soup and Sanseong makgeolli list. Added the official-source discrepancy for bus 203 / 90 stop names and a same-day confirmation caveat.
 - Things to Do in Busan (EN / JA / zh-TW): added Mipo Station transit-first access and a 15–20 minute walking buffer, grounded in operator and Visit Busan descriptions.
 - Songdo Beach guide (EN): added live operating-status and seasonal-hours checks for the marine cable car, including bad-weather suspension caveat.
 - Search index updated for milmyeon, Geumjeongsanseong, Mipo and Songdo long-tail queries.
