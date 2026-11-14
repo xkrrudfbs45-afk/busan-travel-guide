@@ -370,3 +370,10 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - PR #297 branch adds Nampo Jjukkumi, 18beon Wandangjip (BIFF Square branch) and Kkangtong Golmok Halmae Yubu Jeongol Main Store to EN/JA/zh-TW Nampo neighborhood guides; Google Maps links and translated search-index tags added. No hours/prices asserted.
 - Basic validation passed for language attributes, restaurant name presence, in-page anchors and JSON syntax. Fresh build/mobile/CI verification still pending.
 - Latest known PR head `52969674e03a053c9c6fc6dfcdd898d0b4443104`; PR open, unmerged. Do not merge/deploy without explicit owner approval.
+
+
+### Current task handoff — Busan Now contrast
+- Work branch: `fix/busan-now-contrast-current-main-20261114`.
+- Contrast-only CSS refresh is based on current `main`; current Wikimedia Gwangalli night image and attribution are retained.
+- Earlier PR #413 is stale/conflicted after intervening main integrations. Do not merge #413; it also contains a poster whose commercial reuse rights are unconfirmed.
+- Before merge: inspect exact diff, run CI on the latest head, and complete responsive visual QA at 360 / 390 / 768 / 1280. Do not deploy until those checks pass.
