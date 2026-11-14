@@ -1,36 +1,182 @@
 {
   "_note": "Build-time cover photos for guides that have no in-page photo (docs/IMAGE_QUALITY_STANDARD.md). Injected into public/ by scripts/enhance-images.mjs; page HTML is not edited. Every file must be status=verified in assets/data/image-credits.json. `og: true` also replaces a mismatched og:image/twitter:image. Width/height are the original Commons dimensions (checked 2026-11-12 via the Commons API).",
   "files": {
-    "Haeundae_District_and_Beach.jpg": { "w": 4431, "h": 3215 },
-    "Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg": { "w": 4032, "h": 2268 },
-    "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg": { "w": 5712, "h": 4284 },
-    "Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg": { "w": 4000, "h": 2250 },
-    "Inside_Jagalchi_Fish_Market,_Busan.jpg": { "w": 2560, "h": 1920 },
-    "Busan_Milmyeon_20200522_001.jpg": { "w": 6000, "h": 4000 },
-    "Seomyeon_Street.jpg": { "w": 4301, "h": 3305 },
-    "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg": { "w": 4624, "h": 2604 },
-    "Nampo-dong_Busy_Street.JPG": { "w": 3456, "h": 2592 },
-    "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg": { "w": 6000, "h": 4000 }
+    "Haeundae_District_and_Beach.jpg": {
+      "w": 4431,
+      "h": 3215
+    },
+    "Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg": {
+      "w": 4032,
+      "h": 2268
+    },
+    "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg": {
+      "w": 5712,
+      "h": 4284
+    },
+    "Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg": {
+      "w": 4000,
+      "h": 2250
+    },
+    "Inside_Jagalchi_Fish_Market,_Busan.jpg": {
+      "w": 2560,
+      "h": 1920
+    },
+    "Busan_Milmyeon_20200522_001.jpg": {
+      "w": 6000,
+      "h": 4000
+    },
+    "Seomyeon_Street.jpg": {
+      "w": 4301,
+      "h": 3305
+    },
+    "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg": {
+      "w": 4624,
+      "h": 2604
+    },
+    "Nampo-dong_Busy_Street.JPG": {
+      "w": 3456,
+      "h": 2592
+    },
+    "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg": {
+      "w": 6000,
+      "h": 4000
+    }
   },
   "pages": [
-    { "path": "zh-tw/guides/where-to-stay-busan/index.html", "file": "Haeundae_District_and_Beach.jpg", "alt": "海雲台海水浴場與後方的高樓群", "caption": "海雲台海灘與市區，本文比較的住宿區域之一" },
-    { "path": "ja/guides/where-to-stay-busan/index.html", "file": "Haeundae_District_and_Beach.jpg", "alt": "海雲台海水浴場と背後の高層ビル群", "caption": "比較エリアのひとつ、海雲台のビーチと街並み" },
-    { "path": "zh-tw/guides/airport-to-haeundae/index.html", "file": "Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg", "alt": "金海國際機場國際線航廈出境大廳", "caption": "金海國際機場國際線航廈" },
-    { "path": "ja/guides/airport-to-haeundae/index.html", "file": "Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg", "alt": "金海国際空港 国際線ターミナルの出発ロビー", "caption": "金海国際空港 国際線ターミナル" },
-    { "path": "zh-tw/guides/three-days/index.html", "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg", "alt": "釜山甘川文化村依山而建的彩色房屋", "caption": "甘川文化村" },
-    { "path": "ja/guides/three-days/index.html", "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg", "alt": "斜面に並ぶ釜山・甘川文化村のカラフルな家々", "caption": "甘川文化村" },
-    { "path": "zh-tw/guides/transit-card/index.html", "file": "Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg", "alt": "釜山地鐵 1 號線多大浦海水浴場站月台", "caption": "釜山地鐵 1 號線多大浦海水浴場站" },
-    { "path": "ja/guides/transit-card/index.html", "file": "Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg", "alt": "釜山地下鉄1号線 多大浦海水浴場駅のホーム", "caption": "釜山地下鉄1号線 多大浦海水浴場駅" },
-    { "path": "zh-tw/guides/jagalchi-market/index.html", "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg", "alt": "釜山札嘎其市場內的海鮮攤位", "caption": "札嘎其市場內部" },
-    { "path": "ja/guides/jagalchi-market/index.html", "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg", "alt": "釜山・チャガルチ市場の店内に並ぶ鮮魚店", "caption": "チャガルチ市場の店内" },
-    { "path": "zh-tw/guides/local-food-by-neighborhood/index.html", "file": "Busan_Milmyeon_20200522_001.jpg", "alt": "一碗釜山小麥冷麵（밀면）", "caption": "釜山小麥冷麵（밀면）" },
-    { "path": "ja/guides/local-food-by-neighborhood/index.html", "file": "Busan_Milmyeon_20200522_001.jpg", "alt": "釜山名物の小麦冷麺ミルミョン", "caption": "釜山のミルミョン（小麦冷麺）" },
-    { "path": "zh-tw/guides/seomyeon-neighborhood-guide/index.html", "file": "Seomyeon_Street.jpg", "alt": "釜山西面商圈街道與兩側商店招牌", "caption": "西面商圈街道", "og": true },
-    { "path": "ja/guides/seomyeon-neighborhood-guide/index.html", "file": "Seomyeon_Street.jpg", "alt": "店の看板が並ぶ釜山・西面の通り", "caption": "西面の繁華街", "og": true },
-    { "path": "guides/seomyeon-neighborhood-guide/index.html", "file": "Seomyeon_Street.jpg", "alt": "Shopping street in Seomyeon, Busan, lined with shop signs", "caption": "A shopping street in Seomyeon", "og": true },
-    { "path": "zh-tw/guides/first-trip/index.html", "file": "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg", "alt": "釜山水營灣：廣安大橋、Marine City 與海雲台高樓群", "caption": "廣安大橋與海雲台一帶的釜山天際線" },
-    { "path": "ja/guides/first-trip/index.html", "file": "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg", "alt": "釜山・水営湾に架かる広安大橋とマリンシティ、海雲台の高層ビル群", "caption": "広安大橋と海雲台周辺の釜山の街並み" },
-    { "path": "zh-tw/guides/things-to-do-in-busan/index.html", "file": "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg", "alt": "釜山廣安里海水浴場與廣安大橋", "caption": "廣安里海水浴場與廣安大橋" },
-    { "path": "ja/guides/things-to-do-in-busan/index.html", "file": "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg", "alt": "釜山・広安里海水浴場と広安大橋", "caption": "広安里海水浴場と広安大橋" }
+    {
+      "path": "zh-tw/guides/where-to-stay-busan/index.html",
+      "file": "Haeundae_District_and_Beach.jpg",
+      "alt": "海雲台海水浴場與後方的高樓群",
+      "caption": "海雲台海灘與市區，本文比較的住宿區域之一"
+    },
+    {
+      "path": "ja/guides/where-to-stay-busan/index.html",
+      "file": "Haeundae_District_and_Beach.jpg",
+      "alt": "海雲台海水浴場と背後の高層ビル群",
+      "caption": "比較エリアのひとつ、海雲台のビーチと街並み"
+    },
+    {
+      "path": "zh-tw/guides/airport-to-haeundae/index.html",
+      "file": "Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg",
+      "alt": "金海國際機場國際線航廈出境大廳",
+      "caption": "金海國際機場國際線航廈"
+    },
+    {
+      "path": "ja/guides/airport-to-haeundae/index.html",
+      "file": "Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg",
+      "alt": "金海国際空港 国際線ターミナルの出発ロビー",
+      "caption": "金海国際空港 国際線ターミナル"
+    },
+    {
+      "path": "zh-tw/guides/three-days/index.html",
+      "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg",
+      "alt": "釜山甘川文化村依山而建的彩色房屋",
+      "caption": "甘川文化村"
+    },
+    {
+      "path": "ja/guides/three-days/index.html",
+      "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg",
+      "alt": "斜面に並ぶ釜山・甘川文化村のカラフルな家々",
+      "caption": "甘川文化村"
+    },
+    {
+      "path": "zh-tw/guides/transit-card/index.html",
+      "file": "Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg",
+      "alt": "釜山地鐵 1 號線多大浦海水浴場站月台",
+      "caption": "釜山地鐵 1 號線多大浦海水浴場站"
+    },
+    {
+      "path": "ja/guides/transit-card/index.html",
+      "file": "Busan-subway-095-Dadaepo-beach-station-platform-20180401-135958.jpg",
+      "alt": "釜山地下鉄1号線 多大浦海水浴場駅のホーム",
+      "caption": "釜山地下鉄1号線 多大浦海水浴場駅"
+    },
+    {
+      "path": "zh-tw/guides/jagalchi-market/index.html",
+      "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg",
+      "alt": "釜山札嘎其市場內的海鮮攤位",
+      "caption": "札嘎其市場內部"
+    },
+    {
+      "path": "ja/guides/jagalchi-market/index.html",
+      "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg",
+      "alt": "釜山・チャガルチ市場の店内に並ぶ鮮魚店",
+      "caption": "チャガルチ市場の店内"
+    },
+    {
+      "path": "zh-tw/guides/local-food-by-neighborhood/index.html",
+      "file": "Busan_Milmyeon_20200522_001.jpg",
+      "alt": "一碗釜山小麥冷麵（밀면）",
+      "caption": "釜山小麥冷麵（밀면）"
+    },
+    {
+      "path": "ja/guides/local-food-by-neighborhood/index.html",
+      "file": "Busan_Milmyeon_20200522_001.jpg",
+      "alt": "釜山名物の小麦冷麺ミルミョン",
+      "caption": "釜山のミルミョン（小麦冷麺）"
+    },
+    {
+      "path": "zh-tw/guides/seomyeon-neighborhood-guide/index.html",
+      "file": "Seomyeon_Street.jpg",
+      "alt": "釜山西面商圈街道與兩側商店招牌",
+      "caption": "西面商圈街道",
+      "og": true
+    },
+    {
+      "path": "ja/guides/seomyeon-neighborhood-guide/index.html",
+      "file": "Seomyeon_Street.jpg",
+      "alt": "店の看板が並ぶ釜山・西面の通り",
+      "caption": "西面の繁華街",
+      "og": true
+    },
+    {
+      "path": "guides/seomyeon-neighborhood-guide/index.html",
+      "file": "Seomyeon_Street.jpg",
+      "alt": "Shopping street in Seomyeon, Busan, lined with shop signs",
+      "caption": "A shopping street in Seomyeon",
+      "og": true
+    },
+    {
+      "path": "zh-tw/guides/first-trip/index.html",
+      "file": "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg",
+      "alt": "釜山水營灣：廣安大橋、Marine City 與海雲台高樓群",
+      "caption": "廣安大橋與海雲台一帶的釜山天際線"
+    },
+    {
+      "path": "ja/guides/first-trip/index.html",
+      "file": "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg",
+      "alt": "釜山・水営湾に架かる広安大橋とマリンシティ、海雲台の高層ビル群",
+      "caption": "広安大橋と海雲台周辺の釜山の街並み"
+    },
+    {
+      "path": "zh-tw/guides/things-to-do-in-busan/index.html",
+      "file": "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg",
+      "alt": "釜山廣安里海水浴場與廣安大橋",
+      "caption": "廣安里海水浴場與廣安大橋"
+    },
+    {
+      "path": "ja/guides/things-to-do-in-busan/index.html",
+      "file": "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg",
+      "alt": "釜山・広安里海水浴場と広安大橋",
+      "caption": "広安里海水浴場と広安大橋"
+    },
+    {
+      "path": "guides/bts-in-busan/index.html",
+      "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg",
+      "alt": "Gamcheon Culture Village in Busan, one of the public stops featured in this BTS travel guide",
+      "caption": "Gamcheon Culture Village — a public Busan stop featured in the fan-friendly route"
+    },
+    {
+      "path": "ja/guides/bts-in-busan/index.html",
+      "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg",
+      "alt": "釜山・甘川文化村のカラフルな街並み。BTSゆかりの旅で立ち寄れる公開スポット",
+      "caption": "甘川文化村 — BTSゆかりの釜山旅行で立ち寄れる公開スポット"
+    },
+    {
+      "path": "zh-tw/guides/bts-in-busan/index.html",
+      "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg",
+      "alt": "釜山甘川文化村的彩色街景，是本篇 BTS 旅遊指南介紹的公開景點之一",
+      "caption": "甘川文化村：BTS 釜山粉絲旅行可安排的公開景點之一"
+    }
   ]
 }
