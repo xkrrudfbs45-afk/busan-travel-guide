@@ -2,12 +2,6 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
-## Instagram render/publish integrity follow-up (2026-11-14, Claude, PR #412)
-
-- `writeCards()` now deletes every numeric `NN.jpg` before writing, so a 4→3 carousel leaves no stale `04.jpg` (ok and QA-failed paths).
-- `needsRender()` retry policy: stale/legacy QA → re-render; QA failed with a current hash → re-render for `approved` posts (local Playwright only, no publish attempt, no API call), hold for `draft` posts until the spec changes. Persistent failure needs an operator fix to the card copy/art in `schedule.json`.
-- Verified: `node --test scripts/instagram/instagram.test.mjs` 20/20; `sh scripts/build-static.sh` and all 14 audits in `seo-audit.yml` exit 0. No schedule, publish log, secret, LIVE variable or external post changed. Exact-head CI pending.
-
 ## Current handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
 
 ### Completed
