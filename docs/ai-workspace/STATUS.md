@@ -1,6 +1,6 @@
 # Go2Busan Project Status
 
-_Last updated: 2026-11-12 — Claude (Taiwan plan #359, Phase 0)_
+_Last updated: 2026-11-14 — ChatGPT (practical local-experience batch)_
 
 This file is an operational snapshot, not a substitute for checking GitHub and production at the start of each task.
 
@@ -228,7 +228,7 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Expanded rainy-day guides in EN / JA / zh-TW with official links for ARTE MUSEUM Busan, F1963 and Spa Land; hours, admission and last entry remain subject to venue confirmation.
 - Source anchors: Busan City ZeroPay notice (2026-10-08) https://www.busan.go.kr/eng/bsnews01/1758410 ; Visit Busan transit guide https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000 ; Busan Metro transfer rules https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202 ; Busan City Jagalchi guide https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food .
 - Draft branch remains PR #408, stacked on #407. No merge or production deployment. Exact-head CI must be rerun after this batch; visual browser QA remains separate.
-- Next: verify the newly expanded sections in all three locales, then handle Geumjeongsanseong, Mipo access, Songdo weather, milmyeon ordering and BIFF Square cash/card caveats in a separate grouped pass.
+- Next: finish technical title/meta/OG/JSON-LD/search-index alignment for the revised Geumjeongsanseong page, rerun exact-head CI and 360/390/1280 visual QA, then review remaining BIFF Square cash/card caveats. Do not duplicate the completed Mipo, Songdo or milmyeon work.
 
 
 ## Practical local-experience content batch — 2026-11-14 (ChatGPT)
@@ -238,5 +238,5 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Expanded Songdo Beach guide with live cable-car status, seasonal hours, ticket cutoff and weather suspension caveats; no invented wind-speed threshold.
 - Updated search-index metadata and tags for new practical queries across 10 page/index files.
 - Added social draft pack at content/social/2026-11-14-practical-local-experience-drafts.md. Draft only; no scheduled posts or publisher settings changed.
-- Official sources: Busan Geopark https://www.busan.go.kr/geopark_en/geumjeongsan ; Geumjeong-gu https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000001302001001004 ; Haeundae Blueline Park https://www.bluelinepark.com/eng/mapList.do ; Visit Busan https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000303011001000&uc_seq=1026 ; Busan Air Cruise live status https://en.busanaircruise.co.kr/info/use ; seasonal hours https://en.busanaircruise.co.kr/info/time ; Busan City milmyeon history https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=69886&srchCl=Food .
+- Official sources: Busan Geopark Korean route page https://www.busan.go.kr/geopark/geumjeongsan ; Busan Geopark English trail page https://www.busan.go.kr/geopark_en/geumjeongsan ; Geumjeong-gu English transport page https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000001302001001004 ; Visit Busan / Sanseongjip listing https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=561 ; Busan City / Geumjeongsanseong Makgeolli https://www.busan.go.kr/depart/ahliquor ; Haeundae Blueline Park https://www.bluelinepark.com/eng/mapList.do ; Visit Busan / Mipo access https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000303011001000&uc_seq=1026 ; Busan Air Cruise live status https://en.busanaircruise.co.kr/info/use ; seasonal hours https://en.busanaircruise.co.kr/info/time ; Busan City milmyeon history https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=69886&srchCl=Food .
 - New PR based on main. Draft only; exact-head CI, link checks and browser QA required. No merge or deployment.
