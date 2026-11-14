@@ -254,3 +254,12 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Busan Metro publishes transfer conditions: https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202
 - Busan City describes Jagalchi's first-floor seafood and second-floor chojangjib arrangement: https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food
 - Code updated; exact-head CI and page-level browser QA still required. PR #408 remains Draft, stacked on #407; no merge or deployment.
+
+
+## Active focused fix — Busan Now winter block (2026-11-14)
+- Branch: `fix/busan-now-contrast-event-images-20261114`
+- Contrast updated to warm light panel / dark text and clear event date rows; mobile poster sizing is constrained to avoid cropping.
+- Official Christmas Village Busan 2026 poster located on Market Chango's event page and referenced in homepage feature.
+- Rights blocker: organizer page does not publish image reuse/commercial license terms. Registry status is `needs_review`; do not merge/deploy until permission is documented or replace with a commercially licensed image.
+- Current event dates cross-checked against Busan City event calendar and the Christmas Village organizer page.
+- Remaining QA: exact-head CI and screenshot review at 360/390/768/1280.
