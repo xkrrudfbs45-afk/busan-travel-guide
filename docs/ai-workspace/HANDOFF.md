@@ -238,3 +238,19 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Added the Gwangalli M Drone Light Show to Busan Now in all three locales with the 2026 winter Saturday times (19:00 / 21:00), free admission note, official schedule link and weather-change caveat.
 - Registered the Huinnyeoul (Choi2451 / CC0 1.0) and Gwangalli night (Carey Ciuro / CC BY 2.0) images in `assets/data/image-credits.json` after license verification; social metadata for the expanded guide now matches its new subject coverage.
 - Initial exact-head build passed; strict audit identified two missing image registry records. Registry entries and Busan Now callouts have now been corrected; rerun CI before considering this batch verified.
+
+
+## Visitor-question content batch — 2026-11-14 (ChatGPT)
+
+### Completed
+- Updated existing transit-card pages in English, Japanese and Traditional Chinese with the 2026 Busan city-bus ZeroPay QR payment distinction, fare and transfer limitations, practical physical-card advice and official links.
+- Added a localized Jagalchi chojangjib explainer to all three language versions, including the first-floor purchase / second-floor dining sequence and a clear warning that table and preparation fees vary by venue.
+- Added a localized rainy-day indoor shortlist to all three versions, linking ARTE MUSEUM Busan, F1963 and Spa Land official sites and prompting visitors to confirm current hours and admission conditions.
+- Updated the November acquisition playbook with a verified follow-up queue for Geumjeongsanseong, Mipo Station, Songdo cable car, milmyeon and BIFF Square.
+
+### Verification and source notes
+- Official Busan City notice confirms ZeroPay QR payment on city buses from September 21, 2026; KRW 1,700 per passenger; no transit-card transfer discount. This is not a metro-gate payment method: https://www.busan.go.kr/eng/bsnews01/1758410
+- Visit Busan describes transit passes and top-up options: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000
+- Busan Metro publishes transfer conditions: https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202
+- Busan City describes Jagalchi's first-floor seafood and second-floor chojangjib arrangement: https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food
+- Code updated; exact-head CI and page-level browser QA still required. PR #408 remains Draft, stacked on #407; no merge or deployment.
