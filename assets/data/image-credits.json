@@ -598,6 +598,20 @@
       "checked_on": "2026-11-14",
       "status": "verified",
       "note": "Night photograph of Gwangalli Beach and Gwangan Bridge. Commons file page confirms Flickr source by Carey Ciuro under CC BY 2.0; visible credit is shown on EN / JA / zh-TW homepages."
+    },
+    {
+      "source": "official_event_organizer",
+      "file": "christmas-village-busan-2026-official-poster.png",
+      "source_url": "https://www.marketchango.com/CHRISTMAS_VILLAGE_BUSAN_2026",
+      "author": "Market Chango / Foodtravel",
+      "license": "Official promotional artwork; reuse terms not stated on event page",
+      "license_url": "https://www.marketchango.com/CHRISTMAS_VILLAGE_BUSAN_2026",
+      "commercial_use": false,
+      "attribution_required": true,
+      "modified": "remote image displayed with object-fit:contain; no edits",
+      "checked_on": "2026-11-14",
+      "status": "needs_review",
+      "note": "Official 2026 poster retrieved from the organizer's event page. Subject/date match confirmed; copyright and commercial reuse permission are not stated. Do not merge to production until permission or an approved replacement is documented."
     }
   ]
 }
