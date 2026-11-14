@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync, existsSync } from "node:fs";
 const args = process.argv.slice(2);
 const CHECK = args.includes("--check");
 const ROOT = CHECK ? "." : (args.find((a) => !a.startsWith("--")) || "public");
-const data = JSON.parse(readFileSync("content/affiliate/agoda-cta.json", "utf8"));
+const data = JSON.parse(readFileSync("content/affiliate/agoda-placements.json", "utf8"));
 const localeParams = { en: "en-us", ja: "ja-jp", "zh-tw": "zh-tw" };
 const copy = (s) => String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const problems = [];
