@@ -40,6 +40,19 @@ The same latest build reports six English titles over the audit's 65-character r
 
 Shorten without losing the main search intent; this is a SERP-truncation review, not a build failure.
 
+## P1 — Instagram QA can reuse stale cards after an art-generation error
+
+**Affected scheduled groups:** the 11/15 transit-card, 11/18 Gwangalli, 11/19 Haeundae and 11/26 Taejongdae carousels, each localized to EN/JA/zh-TW (12 posts). PR #409 changed their art-set specifications; its body explicitly says the existing state-branch images are not overwritten by that PR and new assets are generated only after merge.
+
+**Evidence in the current pipeline:**
+- `.github/workflows/instagram-publisher.yml` runs AI art generation with `continue-on-error: true`.
+- `scripts/instagram/render.mjs` skips a post when its current art files are missing; that path does not rewrite the existing `qa.json`.
+- `scripts/instagram/publish.mjs` accepts `qa.json` when `ok === true`, but does not compare the stored `.hash` with the current `specHash(p)`.
+
+If art generation fails for a changed art set, an old `qa.json` and old public JPEG cards can remain. The publish gate could then accept the old QA result and publish stale artwork. This is a code-path risk, not evidence that any of these 12 posts has already been published with stale art.
+
+**Safe proposal:** before publishing, require the card directory's `.hash` to equal the current `specHash(p)`, require the expected card files to exist, and require QA to be tied to that same hash. A changed spec with missing art or stale QA must be blocked per post. Keep art generation non-blocking for unrelated posts, but never let a failed art generation fall back to previously approved cards for the changed spec.
+
 ## P2 — Image licence restriction: Dongnae Eupseong gate photograph
 
 **Asset:** `Bukmun_of_Dongnae_eupseong_in_2018.jpg`
