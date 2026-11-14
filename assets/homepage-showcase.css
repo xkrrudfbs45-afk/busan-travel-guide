@@ -744,3 +744,6 @@ body .busan-now-credit a{color:#fff;text-decoration:underline}
  .home-refresh .home-photo-grid>a,.home-refresh .home-photo-grid>a img{transition:none!important}
  .home-refresh .home-photo-grid>a:hover{transform:none!important}
 }
+
+/* Functional fix: the 16/10 aspect-ratio plus a fixed height made the event photo a fixed 328px wide, covering the card copy on mobile and leaving a gap on desktop. */
+.home-refresh .seasonal-event-photo{width:100%}

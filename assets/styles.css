@@ -1096,7 +1096,7 @@
 .seasonal-event-card{overflow:hidden;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 8px 26px rgba(15,23,42,.055);transition:transform .2s ease,box-shadow .2s ease}
 .seasonal-event-card:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(15,23,42,.1)}
 .seasonal-event-photo{height:155px;background-color:#dbeafe;background-size:cover;background-position:center}
-.seasonal-event-haeundae{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Pojangmacha_in_Haeundae%2C_Busan.jpg?width=1000")}
+.seasonal-event-haeundae{background-image:url("/assets/images/events/haeundae-light-festival-800.jpg")}
 .seasonal-event-gwangalli{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg?width=1000")}
 .seasonal-event-bexco{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_BEXCO.jpg?width=1000")}
 .seasonal-event-copy{padding:17px 18px 19px}
