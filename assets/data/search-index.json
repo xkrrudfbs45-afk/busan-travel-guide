@@ -65,7 +65,11 @@
       "Gwangalli Drone Light Show",
       "Busan drone show",
       "BTS in Busan",
-      "BTS fan route"
+      "BTS fan route",
+      "Mipo Station directions",
+      "Haeundae Blueline Park public transport",
+      "Jung-dong Station Exit 7",
+      "Mipo parking"
     ]
   },
   {
@@ -376,14 +380,17 @@
   {
     "title": "Songdo Beach and a Local Breakfast",
     "url": "/guides/songdo-beach-local-breakfast/",
-    "summary": "Plan a slower seaside morning with coastal walks and a Korean cod-soup breakfast.",
+    "summary": "Plan a Songdo Beach morning and check live Songdo Marine Cable Car status, seasonal hours and weather-related suspensions before travelling.",
     "tags": [
       "songdo",
       "beach",
       "breakfast",
       "cod soup",
       "west busan",
-      "food"
+      "food",
+      "Songdo cable car live status",
+      "Songdo cable car weather closure",
+      "Busan Air Cruise operating hours"
     ]
   },
   {
@@ -880,7 +887,10 @@
       "荒嶺山展望台",
       "青鶴貯水池展望台",
       "広安里 ドローンショー",
-      "釜山 BTS 聖地"
+      "釜山 BTS 聖地",
+      "ミポ駅 アクセス",
+      "海雲台ブルーラインパーク 行き方",
+      "中洞駅 7番出口"
     ]
   },
   {
@@ -1101,7 +1111,10 @@
       "青鶴蓄水池觀景台",
       "廣安里無人機燈光秀",
       "釜山 BTS 景點",
-      "BTS 粉絲路線"
+      "BTS 粉絲路線",
+      "尾浦站交通",
+      "海雲台藍線公園怎麼去",
+      "中洞站7號出口"
     ]
   },
   {
@@ -1392,35 +1405,45 @@
   {
     "title": "What to Eat in Geumjeongsanseong Village",
     "url": "/guides/geumjeongsanseong-village-food/",
-    "summary": "A local guide to duck dishes, mountain vegetable bibimbap, acorn jelly and traditional makgeolli in Busan.",
+    "summary": "Plan a mountain-village food visit with duck dishes, mountain greens, traditional makgeolli and official bus access from Oncheonjang.",
     "tags": [
       "Geumjeongsanseong Village food",
       "Busan duck bulgogi",
       "sanchae bibimbap",
       "Busan mountain village food",
-      "Geumjeongsanseong makgeolli"
+      "Geumjeongsanseong makgeolli",
+      "Geumjeongsanseong bus 203",
+      "Geumjeongsanseong East Gate",
+      "Oncheonjang Station bus 203",
+      "Geumjeongsanseong village access"
     ]
   },
   {
     "title": "金井山城マウルで食べたいもの",
     "url": "/ja/guides/geumjeongsanseong-village-food/",
-    "summary": "鴨料理、山菜ビビンバ、どんぐり寒天、伝統マッコリなど山里グルメを紹介。",
+    "summary": "鴨料理や山菜料理に加え、温泉場駅から203番バスで向かう金井山城マウルのアクセスも紹介。",
     "tags": [
       "金井山城マウル グルメ",
       "釜山 鴨料理",
       "山菜ビビンバ",
-      "釜山 マッコリ"
+      "釜山 マッコリ",
+      "金井山城 行き方",
+      "温泉場駅 203番バス",
+      "金井山城 東門 アクセス"
     ]
   },
   {
     "title": "金井山城村吃什麼？鴨肉、山菜拌飯與馬格利酒",
     "url": "/zh-tw/guides/geumjeongsanseong-village-food/",
-    "summary": "整理金井山城村的鴨肉料理、山菜拌飯、橡實涼粉與傳統馬格利酒。",
+    "summary": "除了鴨肉與山菜料理，也整理從溫泉場站搭乘 203 號公車前往金井山城村的方式。",
     "tags": [
       "金井山城村美食",
       "釜山鴨肉",
       "山菜拌飯",
-      "釜山馬格利酒"
+      "釜山馬格利酒",
+      "金井山城交通",
+      "溫泉場站 203 公車",
+      "金井山城東門怎麼去"
     ]
   },
   {
@@ -1460,7 +1483,7 @@
   {
     "title": "Busan Milmyeon: The Refugee History Behind a Local Noodle",
     "url": "/guides/busan-milmyeon-history/",
-    "summary": "Explore how Korean War displacement, flour relief supplies and northern cold-noodle traditions shaped Busan milmyeon, with sources and careful context on origin stories.",
+    "summary": "Explore Busan milmyeon’s refugee-era history, mul vs bibim styles, and practical first-time ordering and seasoning tips.",
     "tags": [
       "Busan milmyeon",
       "milmyeon history",
@@ -1472,13 +1495,21 @@
       "Busan food history",
       "밀면",
       "부산 밀면 유래",
-      "부산 향토음식"
+      "부산 향토음식",
+      "how to eat milmyeon",
+      "mul milmyeon",
+      "bibim milmyeon",
+      "Busan wheat noodles",
+      "milmyeon vs naengmyeon",
+      "釜山 밀면 怎麼吃",
+      "물밀면",
+      "비빔밀면"
     ]
   },
   {
     "title": "釜山ミルミョンの歴史｜避難民の暮らしから生まれた麺料理",
     "url": "/ja/guides/busan-milmyeon-history/",
-    "summary": "朝鮮戦争期の避難、救援物資の小麦粉、北部の冷麺文化から釜山ミルミョンの成り立ちを紹介。",
+    "summary": "釜山ミルミョンの歴史、水ミルミョンとビビンミルミョンの違い、初めての注文・味付け方法を紹介。",
     "tags": [
       "釜山 ミルミョン",
       "ミルミョン 歴史",
@@ -1487,13 +1518,17 @@
       "小麦粉 救援物資",
       "ネホ冷麺",
       "牛岩洞",
-      "釜山 食文化"
+      "釜山 食文化",
+      "ミルミョン 食べ方",
+      "水ミルミョン",
+      "ビビンミルミョン",
+      "ミルミョン 冷麺 違い"
     ]
   },
   {
     "title": "釜山 밀면 的歷史：從避難生活走來的在地麵食",
     "url": "/zh-tw/guides/busan-milmyeon-history/",
-    "summary": "從韓戰避難、救濟麵粉與北方冷麵文化，認識釜山 밀면 的形成背景與不同起源說法。",
+    "summary": "認識釜山 밀면 的歷史、水冷麵與拌麵差異，以及第一次點餐和調味方式。",
     "tags": [
       "釜山美食",
       "釜山 밀면",
@@ -1502,7 +1537,11 @@
       "救濟麵粉",
       "內湖冷麵",
       "牛岩洞",
-      "釜山飲食歷史"
+      "釜山飲食歷史",
+      "釜山 밀면 怎麼吃",
+      "물밀면",
+      "비빔밀면",
+      "釜山小麥冷麵吃法"
     ]
   },
   {
