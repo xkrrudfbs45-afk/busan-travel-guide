@@ -50,7 +50,8 @@ export function dueForRender(schedule, log, now, horizonH = 36) {
 // Fail-closed QA gate: cards are only published at <id>/NN.jpg when layout QA passed.
 // A failed post keeps reviewable previews under <id>/qa-failed/ and any stale publishable cards are removed,
 // so the publisher (which also checks qa.json) can never pick them up.
-export function writeCards(outDir, id, shots, problems) {
+// qa.json carries the identity of the render it vouches for (spec_hash + card_count) so the publisher can reject stale results.
+export function writeCards(outDir, id, shots, problems, identity = {}) {
   const dir = `${outDir}/${id}`;
   mkdirSync(dir, { recursive: true });
   const ok = problems.length === 0;
@@ -59,14 +60,19 @@ export function writeCards(outDir, id, shots, problems) {
   const target = ok ? dir : `${dir}/qa-failed`;
   mkdirSync(target, { recursive: true });
   for (const [n, buf] of shots) writeFileSync(`${target}/${n}.jpg`, buf);
-  writeFileSync(`${dir}/qa.json`, JSON.stringify({ ok, problems }, null, 1));
+  writeFileSync(`${dir}/qa.json`, JSON.stringify({ ok, problems, ...identity }, null, 1));
   return ok;
 }
 
 // Skip posts whose cards are already rendered for the current spec.
 export function needsRender(p, outDir) {
-  const f = `${outDir}/${p.id}/.hash`;
-  return !(existsSync(f) && readFileSync(f, "utf8").trim() === specHash(p));
+  const f = `${outDir}/${p.id}/.hash`, want = specHash(p);
+  if (!(existsSync(f) && readFileSync(f, "utf8").trim() === want)) return true;
+  // Legacy or mismatched qa.json (no spec_hash/card_count for this spec) must be re-rendered so the publish gate can pass.
+  try {
+    const qa = JSON.parse(readFileSync(`${outDir}/${p.id}/qa.json`, "utf8"));
+    return !(qa.spec_hash === want && qa.card_count === p.cards.length);
+  } catch (_) { return true; }
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -89,6 +95,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   for (const p of todo) {
     const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
     mkdirSync(`${outDir}/${p.id}`, { recursive: true });
+    rmSync(`${outDir}/${p.id}/.hash`, { force: true }); // an interrupted render must never look current
     if (p.design === "v2") {
       const files = artFiles(p);
       const texts = p.cards.flatMap((c) => [c.title, c.body, c.cta, c.cat]).filter(Boolean).concat(p.caption);
@@ -104,7 +111,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         if (pngOut) { mkdirSync(`${pngOut}/${p.id}`, { recursive: true }); writeFileSync(`${pngOut}/${p.id}/${n}.png`, await page.screenshot({ type: "png" })); }
         shots.push([n, await page.screenshot({ type: "jpeg", quality: 94 })]); // Instagram accepts JPEG only
       }
-      writeCards(outDir, p.id, shots, problems);
+      writeCards(outDir, p.id, shots, problems, { spec_hash: specHash(p), card_count: p.cards.length });
       if (problems.length) { qaFailed++; problems.forEach((m) => console.log(`QA FAIL ${m}`)); }
     } else {
       const photo = p.art ? `data:image/jpeg;base64,${readFileSync(`${artDir}/${p.id}.jpg`).toString("base64")}` : await fetchPhoto(p.photo.url);
@@ -114,7 +121,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
         await page.evaluate(() => document.fonts.ready);
         writeFileSync(`${outDir}/${p.id}/${String(i + 1).padStart(2, "0")}.jpg`, await page.screenshot({ type: "jpeg", quality: 92 }));
       }
-      writeFileSync(`${outDir}/${p.id}/qa.json`, JSON.stringify({ ok: true, problems: [], note: "photo template has no layout probe" }, null, 1));
+      writeFileSync(`${outDir}/${p.id}/qa.json`, JSON.stringify({ ok: true, problems: [], spec_hash: specHash(p), card_count: p.cards.length, note: "photo template has no layout probe" }, null, 1));
     }
     writeFileSync(`${outDir}/${p.id}/.hash`, specHash(p));
     await page.close();
