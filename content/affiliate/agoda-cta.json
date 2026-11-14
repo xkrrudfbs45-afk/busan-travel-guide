@@ -1,0 +1,115 @@
+{
+  "_note": "Build-time Agoda hotel-search CTAs. Links and CID were supplied by the project owner. Keep the exact CID, city and locale parameters; do not invent property-level deep links. Injected into public/ by scripts/inject-agoda-cta.mjs.",
+  "cid": "1979955",
+  "city": "17172",
+  "pages": [
+    {
+      "path": "guides/where-to-stay-busan/index.html",
+      "before": "<h2 id=\"before-you-go\">A simple hotel checklist</h2>",
+      "id": "agoda-stay-main",
+      "locale": "en",
+      "title": "Compare Busan hotels for your travel dates",
+      "body": "Check accommodation options across Seomyeon, Haeundae, Gwangalli and Nampo. Compare the total price, location, recent reviews and cancellation terms for the same dates and room type.",
+      "button": "Compare Busan hotels on Agoda"
+    },
+    {
+      "path": "guides/where-to-stay-songjeong-gijang/index.html",
+      "before": "<h2 id=\"booking-checklist\">5. Hotel booking checklist</h2>",
+      "id": "agoda-stay-east",
+      "locale": "en",
+      "title": "Looking for a coastal stay in eastern Busan?",
+      "body": "Compare accommodation around Songjeong, Gijang and Osiria, then check the actual walking route, included facilities and transport for your dates.",
+      "button": "Compare eastern Busan stays"
+    },
+    {
+      "path": "guides/haeundae-neighborhood-guide/index.html",
+      "before": "<h2 id=\"eat\">What to eat</h2>",
+      "id": "agoda-stay-haeundae",
+      "locale": "en",
+      "title": "Planning to stay near Haeundae Beach?",
+      "body": "Compare hotels by their real walking distance to the beach and subway station. Check room type, total price and cancellation conditions before booking.",
+      "button": "Compare Haeundae-area hotels"
+    },
+    {
+      "path": "guides/seomyeon-neighborhood-guide/index.html",
+      "before": "<h2 id=\"eat\">What to eat</h2>",
+      "id": "agoda-stay-seomyeon",
+      "locale": "en",
+      "title": "Want a convenient base for exploring Busan?",
+      "body": "Compare stays around Seomyeon and check the walk from each hotel to the subway exit, especially if you are travelling with luggage.",
+      "button": "Compare Busan hotels"
+    },
+    {
+      "path": "ja/guides/where-to-stay-busan/index.html",
+      "before": "<h2 id=\"booking-checklist\">ホテル予約前のチェックリスト</h2>",
+      "id": "agoda-stay-main",
+      "locale": "ja",
+      "title": "旅行日程に合わせて釜山のホテルを比較",
+      "body": "西面・海雲台・広安里・南浦など、旅程に合うエリアの宿泊先を比較できます。同じ日程・人数・部屋タイプで、総額、立地、最近の口コミ、キャンセル条件を確認しましょう。",
+      "button": "Agodaで釜山のホテルを比較"
+    },
+    {
+      "path": "ja/guides/where-to-stay-songjeong-gijang/index.html",
+      "before": "<h2 id=\"booking-checklist\">宿泊予約のチェックリスト</h2>",
+      "id": "agoda-stay-east",
+      "locale": "ja",
+      "title": "東釜山の海辺に泊まりたい方へ",
+      "body": "松亭・機張・オシリア周辺の宿泊先を比較し、実際の徒歩ルート、宿泊プランに含まれる設備、日程に合わせた交通を確認しましょう。",
+      "button": "東釜山の宿泊先を比較"
+    },
+    {
+      "path": "ja/guides/haeundae-neighborhood-guide/index.html",
+      "before": "<h2 id=\"eat\">食事</h2>",
+      "id": "agoda-stay-haeundae",
+      "locale": "ja",
+      "title": "海雲台ビーチの近くに泊まるなら",
+      "body": "ホテル名だけで決めず、ビーチや地下鉄駅までの実際の徒歩距離を比較しましょう。部屋タイプ、合計料金、キャンセル条件も予約前に確認してください。",
+      "button": "海雲台周辺のホテルを比較"
+    },
+    {
+      "path": "ja/guides/seomyeon-neighborhood-guide/index.html",
+      "before": "<h2 id=\"eat\">食事</h2>",
+      "id": "agoda-stay-seomyeon",
+      "locale": "ja",
+      "title": "釜山観光の拠点を西面にするなら",
+      "body": "西面周辺の宿泊先を比較し、荷物を持って駅出口から歩くルートや坂道の有無も確認しましょう。",
+      "button": "釜山のホテルを比較"
+    },
+    {
+      "path": "zh-tw/guides/where-to-stay-busan/index.html",
+      "before": "<h2 id=\"booking-checklist\">訂房前檢查清單</h2>",
+      "id": "agoda-stay-main",
+      "locale": "zh-tw",
+      "title": "依照旅遊日期比較釜山住宿",
+      "body": "可比較西面、海雲台、廣安里與南浦等住宿區域。請用相同日期、人數和房型比較含稅總價、實際位置、近期評價與取消規定。",
+      "button": "前往 Agoda 比較釜山住宿"
+    },
+    {
+      "path": "zh-tw/guides/where-to-stay-songjeong-gijang/index.html",
+      "before": "<h2 id=\"booking-checklist\">訂房前檢查清單</h2>",
+      "id": "agoda-stay-east",
+      "locale": "zh-tw",
+      "title": "想住在釜山東側的海岸嗎？",
+      "body": "可比較松亭、機張與 Osiria 一帶的住宿，並確認實際步行路線、房價包含的設施，以及入住日期的交通方式。",
+      "button": "比較東釜山住宿"
+    },
+    {
+      "path": "zh-tw/guides/haeundae-neighborhood-guide/index.html",
+      "before": "<h2 id=\"eat\">吃什麼</h2>",
+      "id": "agoda-stay-haeundae",
+      "locale": "zh-tw",
+      "title": "想住在海雲台海灘附近嗎？",
+      "body": "選住宿時別只看飯店名稱，請比較走到海灘與地鐵站的實際距離，並確認房型、含稅總價和取消規定。",
+      "button": "比較海雲台周邊住宿"
+    },
+    {
+      "path": "zh-tw/guides/seomyeon-neighborhood-guide/index.html",
+      "before": "<h2 id=\"eat\">吃什麼</h2>",
+      "id": "agoda-stay-seomyeon",
+      "locale": "zh-tw",
+      "title": "想找方便搭地鐵遊釜山的住宿嗎？",
+      "body": "可比較西面商圈周邊住宿，並確認從飯店到地鐵出口的實際步行路線，尤其要留意行李移動與坡道。",
+      "button": "比較釜山住宿"
+    }
+  ]
+}
