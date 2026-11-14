@@ -24,7 +24,8 @@ Caption: 第一次到釜山吃 밀면，不知道該怎麼點、醋和芥末要�
 4. 酢とからしは必須ではありません。少しずつ。
 5. 辛さが心配なら「덜 맵게 해 주세요」と伝えてみて。
 6. 長い麺はテーブルのハサミで切っても大丈夫。
-7. 次の釜山旅行のために保存。プロフィールのリンクから詳しく確認できます。\nプロフィールリンク用URL: https://go2busan.com/ja/guides/busan-milmyeon-history/?utm_source=instagram&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=ja_milmyeon_carousel
+7. 次の釜山旅行のために保存。プロフィールのリンクから詳しく確認できます。
+プロフィールリンク用URL: https://go2busan.com/ja/guides/busan-milmyeon-history/?utm_source=instagram&utm_medium=social&utm_campaign=20261114_local_experience&utm_content=ja_milmyeon_carousel
 
 Caption: 初めて釜山でミルミョンを食べるなら、まず水ミルミョンかビビンミルミョンを選びましょう。酢やからしは必須ではないので、最初はそのまま一口。辛さが心配なら「덜 맵게 해 주세요」と伝えてみてください。店によって味は違うので、自分好みに調整して楽しんでください。
 #釜山グルメ #釜山旅行 #ミルミョン #韓国グルメ #Go2Busan
