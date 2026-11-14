@@ -254,3 +254,22 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Busan Metro publishes transfer conditions: https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202
 - Busan City describes Jagalchi's first-floor seafood and second-floor chojangjib arrangement: https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food
 - Code updated; exact-head CI and page-level browser QA still required. PR #408 remains Draft, stacked on #407; no merge or deployment.
+
+
+## Current handoff — practical local-experience batch (2026-11-14, ChatGPT)
+
+### Completed in branch content/busan-practical-guides-20261114
+- Milmyeon guide (EN / JA / zh-TW): added first-time order and seasoning tips, Korean phrases and dietary notes; updated SEO titles/descriptions.
+- Geumjeongsanseong village food guide (EN / JA / zh-TW): added official bus 203 / bus 90 access routes and return-trip / trail cautions.
+- Things to Do in Busan (EN / JA / zh-TW): added Mipo Station transit-first access and a 15–20 minute walking buffer, grounded in operator and Visit Busan descriptions.
+- Songdo Beach guide (EN): added live operating-status and seasonal-hours checks for the marine cable car, including bad-weather suspension caveat.
+- Search index updated for milmyeon, Geumjeongsanseong, Mipo and Songdo long-tail queries.
+- Social copy pack created at content/social/2026-11-14-practical-local-experience-drafts.md. It is not scheduled or approved.
+
+### Required before merge
+1. Run exact-head technical SEO / build workflow and inspect every job.
+2. Verify the nine localized guide pages and Songdo guide return correct content and canonical/hreflang tags.
+3. Validate all outbound official links.
+4. Review mobile typography and heading wrapping at 360 / 390 px; no screenshot QA has yet been performed.
+5. Confirm all external photo assets are licensed and credited before producing the Instagram cards.
+6. Keep PR Draft; do not merge or deploy without owner approval.
