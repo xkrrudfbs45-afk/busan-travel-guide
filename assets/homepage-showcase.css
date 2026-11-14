@@ -1,5 +1,4 @@
 /* Go2Busan homepage showcase — editorial visual system */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap');
 .home-refresh{--show-ink:#17243a;--show-muted:#687487;--show-paper:#faf8f4;--show-coral:#e97861;--show-line:#e9e4dc;font-family:'DM Sans',Inter,Arial,sans-serif;background:var(--show-paper);color:var(--show-ink)}
 .home-refresh .site-header{position:absolute;inset:0 0 auto;z-index:50;background:linear-gradient(180deg,rgba(9,22,39,.72),transparent);border:0;color:#fff}
 .home-refresh .nav-wrap{min-height:86px}
