@@ -110,6 +110,60 @@
       "title": "想找方便搭地鐵遊釜山的住宿嗎？",
       "body": "可比較西面商圈周邊住宿，並確認從飯店到地鐵出口的實際步行路線，尤其要留意行李移動與坡道。",
       "button": "比較釜山住宿"
+    },
+    {
+      "path": "guides/gwangalli-neighborhood-guide/index.html",
+      "before": "<h2 id=\"events\">Events and evening views</h2>",
+      "id": "agoda-stay-gwangalli",
+      "locale": "en",
+      "title": "Want to wake up near Gwangalli Beach?",
+      "body": "Compare stays around Gwangalli and check the actual walk to the beach, Gwangan Bridge viewpoints and the nearest subway station. Review room type, total price and cancellation terms.",
+      "button": "Compare Gwangalli-area stays"
+    },
+    {
+      "path": "ja/guides/gwangalli-neighborhood-guide/index.html",
+      "before": "<h2 id=\"events\">イベントと夜景</h2>",
+      "id": "agoda-stay-gwangalli",
+      "locale": "ja",
+      "title": "広安里ビーチの近くに泊まりたい方へ",
+      "body": "広安里周辺の宿泊先を比較し、ビーチや広安大橋の眺望スポット、最寄り駅までの実際の徒歩距離を確認しましょう。部屋タイプ、総額、キャンセル条件もチェックしてください。",
+      "button": "広安里周辺の宿泊先を比較"
+    },
+    {
+      "path": "zh-tw/guides/gwangalli-neighborhood-guide/index.html",
+      "before": "<h2 id=\"events\">活動與夜景</h2>",
+      "id": "agoda-stay-gwangalli",
+      "locale": "zh-tw",
+      "title": "想住在廣安里海灘附近嗎？",
+      "body": "比較廣安里周邊住宿時，請確認步行到海灘、廣安大橋觀景點與最近地鐵站的實際距離，也要留意房型、含稅總價和取消規定。",
+      "button": "比較廣安里周邊住宿"
+    },
+    {
+      "path": "guides/nampo-neighborhood-guide/index.html",
+      "before": "<h2 id=\"half-day\">A simple Nampo half day</h2>",
+      "id": "agoda-stay-nampo",
+      "locale": "en",
+      "title": "Planning to stay around Nampo and Jagalchi?",
+      "body": "Compare accommodation around Nampo, Jagalchi and Busan Station. Check the walk to the nearest subway exit, late-night arrival options and luggage access before choosing.",
+      "button": "Compare Nampo-area stays"
+    },
+    {
+      "path": "ja/guides/nampo-neighborhood-guide/index.html",
+      "before": "<h2 id=\"half-day\">南浦洞で過ごす半日モデル</h2>",
+      "id": "agoda-stay-nampo",
+      "locale": "ja",
+      "title": "南浦洞・チャガルチ周辺に泊まるなら",
+      "body": "南浦洞、チャガルチ、釜山駅周辺の宿泊先を比較し、最寄り駅出口からの徒歩ルート、夜遅い到着時の移動、荷物の運びやすさを確認しましょう。",
+      "button": "南浦洞周辺の宿泊先を比較"
+    },
+    {
+      "path": "zh-tw/guides/nampo-neighborhood-guide/index.html",
+      "before": "<h2 id=\"half-day\">南浦洞半日行程</h2>",
+      "id": "agoda-stay-nampo",
+      "locale": "zh-tw",
+      "title": "想住在南浦洞或札嘎其附近嗎？",
+      "body": "可比較南浦洞、札嘎其與釜山站周邊住宿，並確認從地鐵出口步行的路線、深夜抵達時的交通，以及行李移動是否方便。",
+      "button": "比較南浦洞周邊住宿"
     }
   ]
 }
