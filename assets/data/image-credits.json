@@ -570,6 +570,34 @@
       "checked_on": "2026-11-12",
       "status": "verified",
       "note": "Commons API extmetadata checked 2026-11-12: own work by Minseong Kim, taken 7 Jan 2015, 'Seomyeon Street' (shopping street, Busanjin-gu). Replaces the unrelated Busanhang Bridge share image on the Seomyeon hubs. Street scene from 2015: shop signs may have changed; caption must not name current shops."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Huinnyeoul_culture_village,_Busan_on_October_25th,_2019.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Huinnyeoul_culture_village,_Busan_on_October_25th,_2019.jpg",
+      "author": "Choi2451",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_use": true,
+      "attribution_required": false,
+      "modified": "resized by Wikimedia Special:FilePath (?width=960)",
+      "checked_on": "2026-11-14",
+      "status": "verified",
+      "note": "Depicts Huinnyeoul Culture Village in Yeongdo. Commons file page confirms own work by Choi2451 and CC0 1.0."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_Gwangalli_Night.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Gwangalli_Night.jpg",
+      "author": "Carey Ciuro",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized by Wikimedia Special:FilePath (?width=960)",
+      "checked_on": "2026-11-14",
+      "status": "verified",
+      "note": "Night photograph of Gwangalli Beach and Gwangan Bridge. Commons file page confirms Flickr source by Carey Ciuro under CC BY 2.0; visible credit is shown on EN / JA / zh-TW homepages."
     }
   ]
 }

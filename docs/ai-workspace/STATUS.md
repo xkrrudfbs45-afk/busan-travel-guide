@@ -196,3 +196,36 @@ Pending: build, full audit suite, and cross-locale browser QA at 360/390/768/128
 - Added responsive adjustments for narrow phones and CJK line wrapping; bumped all three homepage stylesheet cache keys to `20261114-visual-batch4`.
 
 Preserved existing images, attribution records, page copy, routes, canonical/hreflang, metadata, JSON-LD, analytics and affiliate destinations. Verification on this exact head is pending; keep PR #406 Draft and do not merge/deploy before CI and visual QA.
+
+
+## Busan Now winter refresh — 2026-11-14
+- Replaced the English homepage's Bukangi-first Busan Now feature with a seasonal visitor-interest feature covering Millak Luce Festa, Busan Christmas Village and Haeundae Light Festival; added equivalent native Japanese and Traditional Chinese sections.
+- Expanded the existing Things to Do in Busan guide in EN / JA / zh-TW with five useful experiences: three official winter events, ARTE MUSEUM Busan and Haewol Observatory.
+- Added verified date windows, admission status, official information links and map links; avoided presenting generic Gwangalli photography as festival imagery.
+- Added adjacent attribution for the Gwangalli Beach and Gwangan Bridge photo (Masterhatch, CC BY-SA 4.0), and refined the responsive Busan Now feature layout.
+- Updated the shared search index tags and November acquisition playbook with verified facts and editorial guardrails.
+- Previous homepage design batch 4 exact-head Technical SEO workflow `43525561647` passed. The Busan Now refresh is a later change and still requires its own CI and visual QA.
+- These new commits are additional to merged PR #406 and need a separate PR against main; do not treat them as deployed.
+
+
+## Evergreen Busan experiences — 2026-11-14
+- Added a three-card editorial discovery row to EN / JA / Traditional Chinese homepages: Yeongdo coast, Busan night views and BTS public fan route.
+- Expanded all three Things to Do in Busan guides with dedicated Yeongdo coastal walk, night-view and BTS route sections, localized for Japanese and Traditional Chinese readers.
+- Added official tourism references, map links, residential-neighborhood etiquette, and explicit seasonal Saturday schedule for the Gwangalli M Drone Light Show.
+- Added three verified Wikimedia Commons photos with visible author/license credits; responsive desktop grid becomes a swipeable snap rail on mobile.
+- Expanded search-index keywords for Yeongdo, Hwangnyeongsan, Cheonghak Reservoir, Gwangalli drone show and BTS fan searches.
+- This is a stacked follow-up to Draft PR #407; its base is the #407 branch so the two batches can merge in order without conflicting homepage edits. No merge or production deployment.
+- Exact-head CI and screenshot QA pending.
+
+- Added the Gwangalli M Drone Light Show to Busan Now in all three locales with the 2026 winter Saturday times (19:00 / 21:00), free admission note, official schedule link and weather-change caveat.
+- Registered the Huinnyeoul (Choi2451 / CC0 1.0) and Gwangalli night (Carey Ciuro / CC BY 2.0) images in `assets/data/image-credits.json` after license verification; social metadata for the expanded guide now matches its new subject coverage.
+- Initial exact-head build passed; strict audit identified two missing image registry records. Registry entries and Busan Now callouts have now been corrected; rerun CI before considering this batch verified.
+
+
+## Visitor-question content batch — 2026-11-14 (ChatGPT)
+- Updated the existing transit-card guides in EN / JA / zh-TW with the 2026 Busan city-bus ZeroPay QR option, its KRW 1,700 per-person fare and lack of transfer discount; clearly separated bus QR payment from metro transit-card use and avoided promising universal Apple Pay / Google Pay acceptance.
+- Expanded the Jagalchi market guides in all three locales with the first-floor seafood purchase → second-floor chojangjib dining flow, variable table/preparation charges and questions to ask before ordering.
+- Expanded rainy-day guides in EN / JA / zh-TW with official links for ARTE MUSEUM Busan, F1963 and Spa Land; hours, admission and last entry remain subject to venue confirmation.
+- Source anchors: Busan City ZeroPay notice (2026-10-08) https://www.busan.go.kr/eng/bsnews01/1758410 ; Visit Busan transit guide https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000 ; Busan Metro transfer rules https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202 ; Busan City Jagalchi guide https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food .
+- Draft branch remains PR #408, stacked on #407. No merge or production deployment. Exact-head CI must be rerun after this batch; visual browser QA remains separate.
+- Next: verify the newly expanded sections in all three locales, then handle Geumjeongsanseong, Mipo access, Songdo weather, milmyeon ordering and BIFF Square cash/card caveats in a separate grouped pass.

@@ -466,3 +466,55 @@ html[lang="zh-TW"] .home-refresh .home-hero .hero-intro{line-break:strict;overfl
  .home-refresh .showcase-quick-icon,.home-refresh .home-conversion-card,
  .home-refresh .home-faq-grid>div{transition:none!important}
 }
+
+
+/* Busan Now seasonal feature — winter experiences, 2026-11-14 */
+.home-refresh .busan-now-band{grid-template-columns:1.04fr .96fr;gap:0;overflow:hidden;border:1px solid rgba(255,255,255,.18);border-radius:16px;background:linear-gradient(115deg,#102b45 0%,#14516c 64%,#1b6173 100%);box-shadow:0 14px 34px rgba(13,35,54,.16)}
+.home-refresh .busan-now-copy{padding:clamp(20px,3vw,34px);color:#fff}
+.home-refresh .busan-now-copy .eyebrow{background:rgba(237,118,95,.96);letter-spacing:.1em}
+.home-refresh .busan-now-copy h2{max-width:18ch;font-family:'Playfair Display',Georgia,serif;font-weight:500;line-height:1.08;letter-spacing:-.025em}
+.home-refresh .busan-now-copy>p:not(.eyebrow){max-width:56ch;font-size:13px;line-height:1.7}
+.home-refresh .busan-now-highlights{display:grid;gap:8px;margin:14px 0 18px;padding:0;list-style:none}
+.home-refresh .busan-now-highlights li{display:grid;grid-template-columns:minmax(105px,.62fr) 1.38fr;gap:10px;padding:8px 10px;border:1px solid rgba(255,255,255,.18);border-radius:8px;background:rgba(255,255,255,.08);font-size:11px;line-height:1.45}
+.home-refresh .busan-now-highlights strong{color:#ffd5c9;font-size:10px}
+.home-refresh .busan-now-highlights span{color:rgba(255,255,255,.9)}
+.home-refresh .busan-now-art{position:relative;min-height:100%;align-self:stretch}
+.home-refresh .busan-now-art img{width:100%;height:100%;min-height:260px;aspect-ratio:auto;object-fit:cover;object-position:center 50%}
+.home-refresh .busan-now-art>span{display:block;top:14px;right:14px}
+.home-refresh .busan-now-credit{position:absolute;right:10px;bottom:10px;max-width:calc(100% - 20px);padding:5px 8px;border-radius:6px;background:rgba(7,19,34,.72);color:#fff;font-size:9px;line-height:1.4}
+.home-refresh .busan-now-link{min-height:40px;padding:10px 16px;background:#fff;color:#102b45;border-radius:999px}
+@media(max-width:700px){
+ .home-refresh .busan-now-band{grid-template-columns:1fr}
+ .home-refresh .busan-now-art{order:-1;min-height:0;max-height:190px}
+ .home-refresh .busan-now-art img{min-height:190px;max-height:190px}
+ .home-refresh .busan-now-copy{padding:20px}
+ .home-refresh .busan-now-highlights li{grid-template-columns:1fr;gap:3px}
+}
+
+
+/* Evergreen experience discovery row — 2026-11-14 */
+.home-refresh .home-experiences{padding:34px 0 28px}
+.home-refresh .home-experiences-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;margin:0 0 17px}
+.home-refresh .home-experiences-heading>div{max-width:700px}
+.home-refresh .home-experiences-heading h2{margin:0 0 7px;font-family:var(--serif);font-size:clamp(25px,3.2vw,35px);font-weight:500;line-height:1.16;letter-spacing:-.02em}
+.home-refresh .home-experiences-heading p:not(.eyebrow){margin:0;color:var(--show-muted);font-size:13px;line-height:1.65}
+.home-refresh .home-experiences-all{flex:0 0 auto;color:var(--show-ink);font-size:12px;font-weight:700;text-decoration:none}
+.home-refresh .home-experiences-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.home-refresh .home-experience-card{position:relative;display:block;min-width:0;min-height:250px;overflow:hidden;border-radius:12px;background:#142b42;color:#fff;text-decoration:none;isolation:isolate}
+.home-refresh .home-experience-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .45s ease}
+.home-refresh .home-experience-card:hover img{transform:scale(1.045)}
+.home-refresh .home-experience-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,17,30,.02) 18%,rgba(5,17,30,.78) 100%);z-index:1}
+.home-refresh .home-experience-copy{position:absolute;inset:auto 0 0;z-index:2;display:flex;flex-direction:column;gap:7px;padding:18px}
+.home-refresh .home-experience-copy small{font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#ffd4c7}
+.home-refresh .home-experience-copy strong{font-family:var(--serif);font-size:clamp(19px,2vw,25px);font-weight:500;line-height:1.13;text-wrap:balance}
+.home-refresh .home-experience-copy em{font-size:11px;font-style:normal;color:rgba(255,255,255,.86);line-height:1.45}
+.home-refresh .home-experience-card:focus-visible{outline:3px solid #ed765f;outline-offset:3px}
+.home-refresh .home-experience-credits{margin:9px 0 0;color:var(--show-muted);font-size:10px;line-height:1.6}
+.home-refresh .home-experience-credits a{color:inherit;text-underline-offset:2px}
+@media(max-width:760px){
+ .home-refresh .home-experiences{padding:26px 0 22px}
+ .home-refresh .home-experiences-heading{align-items:flex-start;flex-direction:column;gap:9px}
+ .home-refresh .home-experiences-grid{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;padding:0 1px 9px;scrollbar-width:thin}
+ .home-refresh .home-experience-card{flex:0 0 min(82vw,340px);min-height:220px;scroll-snap-align:start}
+}
+@media(prefers-reduced-motion:reduce){.home-refresh .home-experience-card img{transition:none}}
