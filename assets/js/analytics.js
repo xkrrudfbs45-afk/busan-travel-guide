@@ -161,19 +161,21 @@
       if (!partnerLink) return;
       const affiliatePartner = partnerLink.partner;
 
-      const affiliatePlacementContext = link.closest('.pass-conversion-cta')
-        ? 'visit_busan_pass_conversion_panel'
-        : (link.closest('.partner-cta-grid')
-          ? 'partner_cta_grid'
-          : (link.closest('.callout')
-            ? 'article_callout'
-            : (link.closest('.article-end')
-              ? 'article_end'
-              : (link.closest('.article-aside')
-                ? 'article_sidebar'
-                : (link.closest('.article-hero')
-                  ? 'article_hero'
-                  : 'inline_content')))));
+      const affiliatePlacementContext = link.closest('.agoda-stay-cta')
+        ? 'agoda_stay_search'
+        : (link.closest('.pass-conversion-cta')
+          ? 'visit_busan_pass_conversion_panel'
+          : (link.closest('.partner-cta-grid')
+            ? 'partner_cta_grid'
+            : (link.closest('.callout')
+              ? 'article_callout'
+              : (link.closest('.article-end')
+                ? 'article_end'
+                : (link.closest('.article-aside')
+                  ? 'article_sidebar'
+                  : (link.closest('.article-hero')
+                    ? 'article_hero'
+                    : 'inline_content'))))));
       const eventParams = {
         affiliate_partner: affiliatePartner,
         affiliate_placement_context: affiliatePlacementContext,
