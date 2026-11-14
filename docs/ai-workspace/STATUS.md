@@ -350,3 +350,13 @@ Ten coordinated refinements applied to the shared homepage visual layer across E
 - No image source, attribution, image license, article copy, routes, canonical/hreflang, metadata, JSON-LD, analytics or affiliate destination was changed.
 - Image policy: keep existing verified source credits; no rights-uncleared event poster introduced.
 - Verification: static review only at commit time. Exact-head build/SEO checks and browser screenshots at 360 / 390 / 768 / 1280 remain required. No merge or production deployment.
+
+
+## Homepage image-rights correction — 2026-11-14
+
+- Found the Market Chango Christmas Village 2026 poster had been carried into the English homepage during the earlier #411/#413 integration despite its `needs_review` rights status.
+- Replaced that English homepage image with the same verified Wikimedia Commons Gwangalli night photograph already used by the Japanese and Traditional Chinese homepages: Carey Ciuro, CC BY 2.0, with visible author and license link.
+- The photograph is an atmospheric Busan night image, not represented as a photograph of any of the three winter festivals.
+- The organizer poster remains recorded as `needs_review` in the image registry and must not be reused until permission is documented.
+- No change to event dates, article claims, page routes, structured data, analytics or affiliate links.
+- Included in Draft PR #421; exact-head CI and browser screenshot QA remain pending. No merge/deployment.
