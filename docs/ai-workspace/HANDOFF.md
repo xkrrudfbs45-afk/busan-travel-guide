@@ -406,3 +406,10 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Millak 2025 official gallery photos are KOGL Type 2 (non-commercial use prohibition), not appropriate for commercial reuse.
 - Current homepage draft retains the Christmas Village 2026 poster as `needs_review`, with visible source attribution. Do not merge/deploy without permission or a verified alternative.
 - Corrected the image credit's nested-anchor HTML. SEO audit for the prior exact head passed; rerun after this commit. Responsive screenshot QA remains outstanding.
+
+
+### Current task handoff — Busan Now contrast
+- Work branch: `fix/busan-now-contrast-current-main-20261114`.
+- Contrast-only CSS refresh is based on current `main`; current Wikimedia Gwangalli night image and attribution are retained.
+- Earlier PR #413 is stale/conflicted after intervening main integrations. Do not merge #413; it also contains a poster whose commercial reuse rights are unconfirmed.
+- Before merge: inspect exact diff, run CI on the latest head, and complete responsive visual QA at 360 / 390 / 768 / 1280. Do not deploy until those checks pass.

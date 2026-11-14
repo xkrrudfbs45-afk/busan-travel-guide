@@ -571,3 +571,31 @@ html[lang="zh-TW"] .home-refresh .home-hero .hero-intro{line-break:strict;overfl
   .home-refresh .busan-now-copy h2{font-size:28px;line-height:1.18}
   .home-refresh .busan-now-copy>p:not(.eyebrow){font-size:14px}
 }
+
+
+/* Busan Now: accessible winter-event contrast — refreshed on current main, 2026-11-14 */
+body .busan-now-band{
+  background:#fffaf4;
+  border:1px solid #e8d8c8;
+  box-shadow:0 12px 30px rgba(31,42,55,.08);
+}
+body .busan-now-copy{color:#17243a}
+body .busan-now-copy .eyebrow{background:#8f352c;color:#fff}
+body .busan-now-copy h2{color:#17243a}
+body .busan-now-copy>p:not(.eyebrow){color:#344256;font-size:14px;line-height:1.7}
+body .busan-now-copy .busan-now-extra,
+body .busan-now-copy .busan-now-extra a{color:#263b55}
+body .busan-now-copy .busan-now-extra a{font-weight:800;text-decoration:underline;text-underline-offset:3px}
+body .busan-now-highlights li{background:#fff;border:1px solid #e5d8ca;color:#263449}
+body .busan-now-highlights strong{color:#8f352c;font-size:11px}
+body .busan-now-highlights span{color:#263449}
+body .busan-now-link{background:#173b58;color:#fff;border:1px solid #173b58;font-weight:800}
+body .busan-now-credit{background:rgba(20,30,42,.9);color:#fff}
+body .busan-now-credit a{color:#fff;text-decoration:underline}
+@media(max-width:700px){
+  body .busan-now-copy{padding:20px}
+  body .busan-now-copy h2{font-size:28px;line-height:1.18}
+  body .busan-now-copy>p:not(.eyebrow){font-size:14px}
+  body .busan-now-art{max-height:220px}
+  body .busan-now-art img{min-height:190px;max-height:220px;object-fit:cover}
+}
