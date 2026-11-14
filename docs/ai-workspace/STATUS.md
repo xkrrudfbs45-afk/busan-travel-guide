@@ -1,6 +1,7 @@
 # Go2Busan Project Status
 
 _Last updated: 2026-11-12 — ChatGPT growth run / Claude handoff_
+_Last updated: 2026-11-14 — ChatGPT (practical local-experience batch)_
 
 This file is an operational snapshot, not a substitute for checking GitHub and production at the start of each task.
 
@@ -291,3 +292,33 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - PR #297 remains open and unmerged. Latest head at this note: `52969674e03a053c9c6fc6dfcdd898d0b4443104`; mergeable true at last check.
 - No CI status checks are currently reported for the latest head. Earlier Technical SEO audit success applies only to the earlier commit `8887e94...`; it is not a fresh pass for these changes.
 - No merge or production deployment performed.
+- Next: finish technical title/meta/OG/JSON-LD/search-index alignment for the revised Geumjeongsanseong page, rerun exact-head CI and 360/390/1280 visual QA, then review remaining BIFF Square cash/card caveats. Do not duplicate the completed Mipo, Songdo or milmyeon work.
+
+
+## Practical local-experience content batch — 2026-11-14 (ChatGPT)
+- Expanded Busan milmyeon history guide in EN / JA / zh-TW with a practical first-time eating section: mul vs bibim, taste before seasoning, vinegar/mustard optional, gradual spice adjustment, scissors, Korean phrases and wheat / meat-stock dietary notes.
+- Expanded Geumjeongsanseong village food guide in EN / JA / zh-TW using the official Visit Busan listing for Sanseongjip (black-goat charcoal grill, duck bulgogi, native chicken, acorn jelly and seasonal mountain greens) and the Busan City makgeolli page. Menu items are attributed to that specific restaurant, not generalized across the village. Official route pages differ on bus 203 / 90 stop names (Geopark Korean vs Geumjeong-gu English); the guide links both and tells readers to confirm the stop for their chosen trail.
+- Expanded Things to Do in Busan in EN / JA / zh-TW with Mipo Station access: Jung-dong Station Exit 7, 15–20 minute walk allowance; listed local buses; no unsupported claim that the parking lot is always full.
+- Expanded Songdo Beach guide with live cable-car status, seasonal hours, ticket cutoff and weather suspension caveats; no invented wind-speed threshold.
+- Updated search-index metadata and tags for new practical queries across 10 page/index files.
+- Added social draft pack at content/social/2026-11-14-practical-local-experience-drafts.md. Draft only; no scheduled posts or publisher settings changed.
+- Official sources: Busan Geopark Korean route page https://www.busan.go.kr/geopark/geumjeongsan ; Busan Geopark English trail page https://www.busan.go.kr/geopark_en/geumjeongsan ; Geumjeong-gu English transport page https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000001302001001004 ; Visit Busan / Sanseongjip listing https://www.visitbusan.net/index.do?menuCd=DOM_000000201002001000&uc_seq=561 ; Busan City / Geumjeongsanseong Makgeolli https://www.busan.go.kr/depart/ahliquor ; Haeundae Blueline Park https://www.bluelinepark.com/eng/mapList.do ; Visit Busan / Mipo access https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000303011001000&uc_seq=1026 ; Busan Air Cruise live status https://en.busanaircruise.co.kr/info/use ; seasonal hours https://en.busanaircruise.co.kr/info/time ; Busan City milmyeon history https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=69886&srchCl=Food .
+- New PR based on main. Draft only; exact-head CI, link checks and browser QA required. No merge or deployment.
+
+
+## Busan Now homepage readability and event image review (2026-11-14)
+- Opened a focused draft branch to fix the Winter 2026 Busan Now block: replaced low-contrast dark teal styling with a warm off-white panel, dark body copy, high-contrast date rows and a dark CTA; mobile typography and poster fit are explicitly adjusted.
+- Found the organizer's official Christmas Village Busan 2026 poster (Market Chango, event dates Nov 26–Dec 25) and used it as the seasonal visual rather than the unrelated Gwangalli skyline.
+- Important rights gate: the organizer page does not state image reuse or commercial-use terms. The poster is registered as `needs_review`; it must not be merged/deployed until written permission or a properly licensed alternative is confirmed.
+- Official event date references: Busan City calendar for Millak Luce Festa (Nov 14, 2026–Jan 10, 2027) and Haeundae Light Festival (Nov 28, 2026–Jan 10, 2027); organizer page for Christmas Village Busan 2026.
+- Visual browser QA at 360/390/768/1280 remains outstanding.
+
+
+## Additional winter-event image research (2026-11-14)
+- Confirmed official Busan City event listings and date windows for the 3rd Millak Luce Festa (Nov 14, 2026–Jan 10, 2027) and 13th Haeundae Light Festival (Nov 28, 2026–Jan 10, 2027).
+- Located event-specific visual candidates: Suyeong District Office illustration for the 2026 Millak Luce Festa (reported by Haps on Nov 12); official Busan City Haeundae 2026 event poster; Market Chango's Christmas Village Busan 2026 poster.
+- Rights review: the Market Chango page does not state reuse terms; the Haps-hosted Suyeong District illustration and Busan City event poster also need explicit license confirmation before local hosting or commercial reuse. Do not copy images from the publishers' pages into production merely because they are publicly viewable.
+- The previous Millak Luce Festa official photo-gallery item is marked KOGL Type 2 (non-commercial use only), so it is not a suitable default for a potentially commercial travel site.
+- Kept the 2026 Christmas Village poster on the draft only, registered as `needs_review`; it remains a hard merge/deploy blocker pending permission or replacement with a verified commercially reusable image.
+- Fixed invalid nested-anchor markup in the visual credit so the source link is independently clickable.
+- Exact-head SEO audit passed; screenshot QA at 360/390/768/1280 remains outstanding.
