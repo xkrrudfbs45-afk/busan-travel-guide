@@ -93,6 +93,7 @@ page = f'''<!doctype html>
 <title>{e(title)} | Go2Busan</title>
 <meta name="description" content="{e(desc)}">
 <link rel="canonical" href="{url}">
+<link rel="alternate" hreflang="en" href="{url}"><link rel="alternate" hreflang="ja" href="{B}/ja/guides/busan-map/"><link rel="alternate" hreflang="zh-TW" href="{B}/zh-tw/guides/busan-map/"><link rel="alternate" hreflang="x-default" href="{url}">
 <link rel="stylesheet" href="/assets/styles.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="g2b-maps-embed-key" content="">
 <meta property="og:site_name" content="Go2Busan"><meta property="og:type" content="website">
@@ -138,7 +139,7 @@ page = f'''<!doctype html>
 </style>
 </head>
 <body><a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header"><div class="shell nav-wrap"><a class="brand" href="/"><span class="brand-mark brand-mark-image"><img src="/assets/go2busan-mark.svg" alt=""></span><span>Go2Busan</span></a><nav aria-label="Main navigation"><a href="/guides/">Travel guides</a><a href="/about.html">Our approach</a></nav><div style="display:flex;gap:8px;align-items:center"><a class="language-pill" href="/ja/">日本語</a><a class="language-pill" href="/zh-tw/">繁體中文</a></div></div></header>
+<header class="site-header"><div class="shell nav-wrap"><a class="brand" href="/"><span class="brand-mark brand-mark-image"><img src="/assets/go2busan-mark.svg" alt=""></span><span>Go2Busan</span></a><nav aria-label="Main navigation"><a href="/guides/">Travel guides</a><a href="/about.html">Our approach</a></nav><div style="display:flex;gap:8px;align-items:center"><a class="language-pill" href="/ja/guides/busan-map/" lang="ja">日本語</a><a class="language-pill" href="/zh-tw/guides/busan-map/" lang="zh-Hant-TW">繁體中文</a></div></div></header>
 <main id="main">
 <section class="article-hero shell"><div class="breadcrumbs"><a href="/">Home</a> / <a href="/guides/">Travel guides</a> / Busan map</div><p class="eyebrow">TRIP PLANNING · MAP</p><h1>{e(h1)}</h1><p class="article-deck">Every place on this map appears in a Go2Busan guide. Filter by area or type, open a place in Google Maps for directions, then read the guide before you go.</p><div class="article-meta"><span>{len(P)} PLACES</span><span>8 AREAS</span><span>CHECK HOURS BEFORE VISITING</span></div></section>
 <section class="quick-summary shell" aria-label="How to use this map"><p class="quick-summary-title">How to use this map</p><ul><li>This is a short, curated list, not every venue in Busan. “Local pick” marks places our guides describe as a Busan-based contributor’s recommendation.</li><li>“Directions” opens Google Maps with the place as your destination, so you can choose subway, bus, taxi or walking.</li><li>Hours, prices and queues change. Check the place’s current listing before you travel.</li></ul></section>
