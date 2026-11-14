@@ -413,3 +413,13 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Contrast-only CSS refresh is based on current `main`; current Wikimedia Gwangalli night image and attribution are retained.
 - Earlier PR #413 is stale/conflicted after intervening main integrations. Do not merge #413; it also contains a poster whose commercial reuse rights are unconfirmed.
 - Before merge: inspect exact diff, run CI on the latest head, and complete responsive visual QA at 360 / 390 / 768 / 1280. Do not deploy until those checks pass.
+
+
+## Current homepage design task — image-led mobile batch 5 (2026-11-14)
+
+- Branch: `design/homepage-image-mobile-batch-20261114`.
+- Applied ten coordinated shared CSS refinements across EN / JA / Traditional Chinese homepages: hero photo/overlay and viewport sizing, headline wrapping, CTA touch/focus, search focus, discovery shortcuts, editorial photo-credit legibility, experience image proportions/swipe sizing, conversion-card reflow, and winter/FAQ compact-width behavior.
+- Stylesheet cache key bumped to `20261114-visual-batch5` on all three homepage entry points.
+- Existing image sources and credits are unchanged; no rights-unverified seasonal poster is included.
+- Static source review only; no browser screenshot claim. Exact-head CI and 360 / 390 / 768 / 1280 visual QA remain outstanding.
+- Keep PR Draft; do not merge or deploy without explicit owner approval.
