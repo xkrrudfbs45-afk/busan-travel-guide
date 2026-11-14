@@ -370,3 +370,39 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - PR #297 branch adds Nampo Jjukkumi, 18beon Wandangjip (BIFF Square branch) and Kkangtong Golmok Halmae Yubu Jeongol Main Store to EN/JA/zh-TW Nampo neighborhood guides; Google Maps links and translated search-index tags added. No hours/prices asserted.
 - Basic validation passed for language attributes, restaurant name presence, in-page anchors and JSON syntax. Fresh build/mobile/CI verification still pending.
 - Latest known PR head `52969674e03a053c9c6fc6dfcdd898d0b4443104`; PR open, unmerged. Do not merge/deploy without explicit owner approval.
+
+
+## Current handoff — practical local-experience batch (2026-11-14, ChatGPT)
+
+### Completed in branch content/busan-practical-guides-20261114
+- Milmyeon guide (EN / JA / zh-TW): added first-time order and seasoning tips, Korean phrases and dietary notes; updated SEO titles/descriptions.
+- Geumjeongsanseong village food guide (EN / JA / zh-TW): attributed black-goat charcoal grill, duck bulgogi, native chicken, acorn jelly and seasonal mountain greens to the specific Sanseongjip listing on Visit Busan; linked the Busan City makgeolli page separately. Added the official-source discrepancy for bus 203 / 90 stop names and a same-day confirmation caveat.
+- Things to Do in Busan (EN / JA / zh-TW): added Mipo Station transit-first access and a 15–20 minute walking buffer, grounded in operator and Visit Busan descriptions.
+- Songdo Beach guide (EN): added live operating-status and seasonal-hours checks for the marine cable car, including bad-weather suspension caveat.
+- Search-index title/summary alignment for the revised Geumjeongsanseong food copy remains pending with Claude; existing route and locale URLs are unchanged.
+- Social copy pack created at content/social/2026-11-14-practical-local-experience-drafts.md. It is not scheduled or approved.
+
+### Required before merge
+1. Run exact-head technical SEO / build workflow and inspect every job.
+2. Verify the nine localized guide pages and Songdo guide return correct content and canonical/hreflang tags.
+3. Validate all outbound official links.
+4. Review mobile typography and heading wrapping at 360 / 390 px; no screenshot QA has yet been performed.
+5. Confirm all external photo assets are licensed and credited before producing the Instagram cards.
+6. Keep PR Draft; do not merge or deploy without owner approval.
+
+
+## Active focused fix — Busan Now winter block (2026-11-14)
+- Branch: `fix/busan-now-contrast-event-images-20261114`
+- Contrast updated to warm light panel / dark text and clear event date rows; mobile poster sizing is constrained to avoid cropping.
+- Official Christmas Village Busan 2026 poster located on Market Chango's event page and referenced in homepage feature.
+- Rights blocker: organizer page does not publish image reuse/commercial license terms. Registry status is `needs_review`; do not merge/deploy until permission is documented or replace with a commercially licensed image.
+- Current event dates cross-checked against Busan City event calendar and the Christmas Village organizer page.
+- Remaining QA: exact-head CI and screenshot review at 360/390/768/1280.
+
+
+## Winter event image licensing review (2026-11-14)
+- Candidate set: 2026 Millak Luce Festa Suyeong District illustration (via Haps, Nov 12); 2026 Haeundae Light Festival official Busan City poster; Christmas Village Busan 2026 organizer poster.
+- No candidate is cleared for reuse based only on public visibility. Confirm explicit rights before local hosting / commercial use.
+- Millak 2025 official gallery photos are KOGL Type 2 (non-commercial use prohibition), not appropriate for commercial reuse.
+- Current homepage draft retains the Christmas Village 2026 poster as `needs_review`, with visible source attribution. Do not merge/deploy without permission or a verified alternative.
+- Corrected the image credit's nested-anchor HTML. SEO audit for the prior exact head passed; rerun after this commit. Responsive screenshot QA remains outstanding.
