@@ -1107,7 +1107,7 @@
 .seasonal-events-credits{margin:12px 0 0;color:var(--muted);font-size:11px;line-height:1.6}
 .seasonal-events-credits a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:760px){.seasonal-events{padding-top:22px;padding-bottom:26px}.seasonal-events-heading{align-items:flex-start;flex-direction:column;gap:10px}.seasonal-events-grid{grid-template-columns:1fr;gap:12px}.seasonal-event-card{display:grid;grid-template-columns:34% 1fr}.seasonal-event-photo{height:100%;min-height:175px}.seasonal-event-copy{padding:14px}.seasonal-event-copy p{min-height:0;font-size:12px}.seasonal-event-copy h3{font-size:16px}}
-@media(max-width:420px){.seasonal-event-card{grid-template-columns:1fr}.seasonal-event-photo{height:150px;min-height:0}}
+@media(max-width:480px){.seasonal-event-card{grid-template-columns:1fr}.seasonal-event-photo{height:150px;min-height:0}}
 
 
 /* Go2Busan JP/TW referral and travel-decision components — 2026-11 */
