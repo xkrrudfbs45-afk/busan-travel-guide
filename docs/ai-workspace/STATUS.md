@@ -220,3 +220,12 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Added the Gwangalli M Drone Light Show to Busan Now in all three locales with the 2026 winter Saturday times (19:00 / 21:00), free admission note, official schedule link and weather-change caveat.
 - Registered the Huinnyeoul (Choi2451 / CC0 1.0) and Gwangalli night (Carey Ciuro / CC BY 2.0) images in `assets/data/image-credits.json` after license verification; social metadata for the expanded guide now matches its new subject coverage.
 - Initial exact-head build passed; strict audit identified two missing image registry records. Registry entries and Busan Now callouts have now been corrected; rerun CI before considering this batch verified.
+
+
+## Visitor-question content batch — 2026-11-14 (ChatGPT)
+- Updated the existing transit-card guides in EN / JA / zh-TW with the 2026 Busan city-bus ZeroPay QR option, its KRW 1,700 per-person fare and lack of transfer discount; clearly separated bus QR payment from metro transit-card use and avoided promising universal Apple Pay / Google Pay acceptance.
+- Expanded the Jagalchi market guides in all three locales with the first-floor seafood purchase → second-floor chojangjib dining flow, variable table/preparation charges and questions to ask before ordering.
+- Expanded rainy-day guides in EN / JA / zh-TW with official links for ARTE MUSEUM Busan, F1963 and Spa Land; hours, admission and last entry remain subject to venue confirmation.
+- Source anchors: Busan City ZeroPay notice (2026-10-08) https://www.busan.go.kr/eng/bsnews01/1758410 ; Visit Busan transit guide https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000 ; Busan Metro transfer rules https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202 ; Busan City Jagalchi guide https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food .
+- Draft branch remains PR #408, stacked on #407. No merge or production deployment. Exact-head CI must be rerun after this batch; visual browser QA remains separate.
+- Next: verify the newly expanded sections in all three locales, then handle Geumjeongsanseong, Mipo access, Songdo weather, milmyeon ordering and BIFF Square cash/card caveats in a separate grouped pass.
