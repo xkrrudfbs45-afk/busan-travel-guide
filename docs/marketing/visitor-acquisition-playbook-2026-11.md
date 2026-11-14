@@ -560,3 +560,17 @@ Editorial rules:
 - Social listening summaries are discovery signals, not evidence of “viral” growth unless platform metrics and dated source posts are captured.
 - Do not invent Reddit/Instagram/TikTok reaction volume, search-question frequency or review counts.
 - For route/access details, prioritize Busan City, Visit Busan, Korea Tourism Organization and venue operators. For prices and temporary schedules, state the date checked and link to the live operator page.
+
+
+## Practical local-experience content batch — 2026-11-14
+
+### Guide enhancements (EN / JA / zh-TW)
+- Milmyeon: add first-time ordering advice for mul and bibim styles, taste-before-seasoning, optional vinegar/mustard, spice adjustment, scissors, Korean phrases and dietary notes.
+- Geumjeongsanseong Village: add bus 203 from Oncheonjang area to East/South Gate and bus 90 from Beomeosa Station to the Beomeosa ticket-office stop. Tell readers to confirm return service and route conditions.
+- Mipo Station: explain Jung-dong Station Exit 7 and a 15–20 minute walking buffer; include official bus options. Avoid asserting that parking is always unavailable.
+- Songdo Marine Cable Car: direct readers to live operating status and seasonal hours; bad weather can change hours or suspend service. Do not invent a wind-speed closure threshold.
+
+### Social drafts
+- Added Taiwan-first Instagram milmyeon carousel copy and Threads drafts for Geumjeongsanseong, Mipo and Songdo in zh-TW / JA / EN.
+- Draft-only: no scheduled post or automated publisher configuration changed.
+- Source and photo QA required before approval.
