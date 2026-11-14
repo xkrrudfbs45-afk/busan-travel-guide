@@ -330,3 +330,23 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Mobile adjustments preserve the current photo crop and credit while increasing copy readability.
 - PR #413 is superseded for the contrast change; do not merge it. Its poster remains rights-unverified.
 - Validation still required on this new head: exact-head CI, mergeability, and screenshots at 360 / 390 / 768 / 1280. No merge or production deployment performed.
+
+
+## Homepage image-led mobile design batch 5 — 2026-11-14 (ChatGPT)
+
+Ten coordinated refinements applied to the shared homepage visual layer across English, Japanese and Traditional Chinese:
+1. Improved hero-image overlay so the skyline remains visible while text stays readable.
+2. Replaced a rigid hero height with viewport-aware sizing.
+3. Balanced hero headline and intro measure for English and CJK wrapping.
+4. Standardized hero CTA touch targets and keyboard focus.
+5. Improved search input sizing and visible focus-within state.
+6. Standardized discovery shortcut tap areas and focus treatment.
+7. Added a restrained backing surface to photo credits and protected editorial card text/focal framing.
+8. Standardized experience-card image proportions and mobile swipe-card width.
+9. Reflowed booking/planning conversion cards for tablet and narrow mobile widths.
+10. Refined winter-feature, image-credit and FAQ compact-width behavior.
+
+- Updated homepage stylesheet cache keys to `20261114-visual-batch5` in EN / JA / Traditional Chinese.
+- No image source, attribution, image license, article copy, routes, canonical/hreflang, metadata, JSON-LD, analytics or affiliate destination was changed.
+- Image policy: keep existing verified source credits; no rights-uncleared event poster introduced.
+- Verification: static review only at commit time. Exact-head build/SEO checks and browser screenshots at 360 / 390 / 768 / 1280 remain required. No merge or production deployment.
