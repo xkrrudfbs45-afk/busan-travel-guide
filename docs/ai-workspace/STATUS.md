@@ -330,3 +330,40 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Mobile adjustments preserve the current photo crop and credit while increasing copy readability.
 - PR #413 is superseded for the contrast change; do not merge it. Its poster remains rights-unverified.
 - Validation still required on this new head: exact-head CI, mergeability, and screenshots at 360 / 390 / 768 / 1280. No merge or production deployment performed.
+
+
+## Growth + production audit — 2026-11-14 (ChatGPT run 8)
+
+### Release state
+- GitHub main: `840c332d79edac1c55ccbd763d1087945011c167`.
+- Render service `busan-travel-guide` latest deploy: `dep-dbru5t6i0phs73bihth0`, status `live`, commit `840c332d79edac1c55ccbd763d1087945011c167`, finished 2026-11-14 04:26:39 UTC. Render auto-deploy is off.
+- Direct HTTP reads of the public homepage and `/version.txt` were unavailable in this run. The Render deploy record confirms the live deploy commit; do not state that the public version endpoint was independently checked.
+- PR #414 merged the 41-PR integration batch; its report records build success, 14 CI audits passed, and 576 Playwright checks across 144 changed pages at 360/390/768/1280 with zero reported issues. PR #416 integrated the practical local-experience batch (#411/#413); PR #418 integrated the winter-panel contrast fix. No open PRs were returned by the repository PR searches in this run.
+
+### Search Console — final data, 2026-10-15 to 2026-11-11 (Pacific Time)
+- Overall device rows: 453 impressions / 3 clicks / 0.66% CTR.
+- Mobile: 319 impressions / 3 clicks / 0.94% CTR; desktop: 130 / 0; tablet: 4 / 0.
+- Taiwan: 50 impressions / 0 clicks / average position 19.4. United States: 39 / 0 / 29.7. Japan: 26 / 0 / 8.0.
+- Samples are small. Country aggregates and the returned page/query rows are not a complete page-level inventory; do not infer market growth or demand from these counts.
+
+### GA4 — 2026-10-17 to 2026-11-13 (Asia/Seoul)
+- 47 sessions / 8 active users / 68.1% engagement rate. Source/medium: direct 32, ChatGPT 9, (not set) 4, Google organic 1, Instagram referral 1.
+- `affiliate_click`: 5 key events / 3 users. Transactions: 0. Purchase revenue: KRW 0. Affiliate clicks are not bookings or commissions.
+- Web stream was created 2026-11-02 and analytics is opt-in/consent-based. Country breakdown returned South Korea only; this is not evidence that overseas visitors are absent. Four sessions (8.5%) have `(not set)` attribution. No custom dimensions are configured, so partner / placement / locale attribution is not currently available.
+- GSC–GA4 opportunity join: 43 GSC candidates, 1 matched page, 42 unmatched; only one organic GA4 landing-page session. Source time zones differ (GSC Pacific, GA4 Asia/Seoul).
+
+### Fresh site audit — 2026-11-14
+- Audit `d1645faf-a25e-4510-b8ea-f27dabf72f31`: 50 pages crawled; 186 URLs remained beyond the 50-page budget. All 50 returned HTTP 200; zero missing-alt findings. EN / JA / zh-TW late-arrival pages returned 200, were indexable and in the sitemap, and each had one H1.
+- Ten non-critical crawl findings: four long titles, two long meta descriptions, one short meta description, two heading-order skips (JA and zh-TW map pages), plus the page-limit warning. No broken-page or missing-alt issue was reported in the 50-page sample.
+- Lighthouse completed 7/20 checks; 13 failed with `INSUFFICIENT_CREDITS`. EN homepage mobile: performance 79, LCP 5,347 ms, CLS 0.0155, TTFB 185 ms. Desktop: performance 92, LCP 1,677 ms, CLS 0.0008. Mobile homepage lab trace estimates 1.66 MB image-delivery savings, 9.87 MB total page weight, 630 ms render-blocking savings, and 16 KB unused CSS. Accessibility findings include contrast, touch-target size, accessible-name mismatch, and a generic “Learn more” link. These are lab findings, not field/CrUX metrics; JA homepage metrics were not available because of the credit failure.
+
+### Official local-fact recheck — 2026-11-14
+- Korea Airports Corporation Gimhae Airport page: Seomyeon/Bujeon limousine, Platform 3 on floor 1 at both terminals, KRW 6,000, credit-card only, first 07:20 / last 21:30, approx. 70-minute interval. Haeundae/Gijang limousine: KRW 9,500, credit-card only, Platform 3; Jangsan branch last departure 16:50, Gijang branch last departure 21:40. Do not describe 21:40 as the last bus serving every Haeundae stop. The airport warns that timetables/fares may change.
+- Busan Port Authority: KTX Busan Station exit 10 → moving walkway → pedestrian deck → International Passenger Terminal, approx. 10–15 minutes. Subway Busan Station exit 6 to KTX station exit 10 and then the deck, approx. 20 minutes; Choryang Station exit 6 route, approx. 20 minutes. Current deck opening hours are not stated on the official directions page.
+- Busan City taxi table: night surcharge 23:00–04:00 (30% from 00:00–02:00, 20% in the other hours); published base fare is KRW 4,800 for 2 km, effective 2023-06-01. Do not treat the base fare as an airport-route quote.
+- Competitor benchmark: Tourism Busan's airport guide uses a destination-by-neighborhood comparison; some third-party pages retain the old Seomyeon fare of KRW 7,500 or publish broad late-night / ride-hailing claims. Go2Busan's existing late-arrival guide now distinguishes the Jangsan and Gijang branches and uses the airport's current published figures.
+
+### Decision and next priority
+- No new content PR was justified by the small country/query samples; the late-arrival and practical local-experience updates are already integrated in main and the latest Render deploy.
+- Next technical priority: isolate the mobile homepage LCP / image payload / render-blocking CSS and accessibility findings, then rerun Lighthouse when sufficient audit credits are available. Do not replace images without checking location match and commercial-use rights.
+- No SNS post, schedule, LIVE setting, affiliate agreement, GA4 consent setting, secret, merge, or deployment was changed by this run.
