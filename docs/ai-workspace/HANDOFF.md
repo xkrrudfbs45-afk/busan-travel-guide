@@ -1,3 +1,19 @@
+## Current handoff — Agoda hotel affiliate integration (2026-11-14)
+
+### Completed in branch feat/agoda-stay-affiliate-ctas-20261114
+- Added owner-supplied Agoda search links with CID 1979955, Busan city ID 17172, and locale mapping EN en-us, JA ja-jp, zh-TW zh-tw.
+- Added 12 build-time CTA placements across four accommodation decision pages per locale: where-to-stay-busan, where-to-stay-songjeong-gijang, Haeundae neighborhood, and Seomyeon neighborhood.
+- Added responsive editorial CTA styling, localized near-link commission disclosures, and Agoda-specific GA4 placement context agoda_stay_search while retaining the existing opt-in consent gate and numeric-CID attribution rule.
+- Updated EN / JA / zh-TW disclosure pages and the static build + Technical SEO audit workflows.
+
+### Required before merge
+1. Inspect the exact PR diff and confirm all 12 CTA insertion anchors pass node scripts/inject-agoda-cta.mjs --check.
+2. Run sh scripts/build-static.sh and the full Technical SEO audit on the exact PR head.
+3. Check 360px, 390px and desktop layouts; ensure CTA copy wraps without horizontal overflow and buttons remain thumb-friendly.
+4. Test outbound URLs retain CID 1979955, city 17172, and the correct locale. Verify click events only after analytics consent.
+5. Owner to confirm Agoda Partner Center shows the correct approved site/domain for this CID. The provided links are implemented as supplied, but this code change does not independently verify partner approval or bookings.
+6. Keep PR Draft; no merge or production deploy without explicit owner approval.
+
 # Go2Busan Contributor Handoff
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
