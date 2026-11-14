@@ -237,3 +237,13 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Important rights gate: the organizer page does not state image reuse or commercial-use terms. The poster is registered as `needs_review`; it must not be merged/deployed until written permission or a properly licensed alternative is confirmed.
 - Official event date references: Busan City calendar for Millak Luce Festa (Nov 14, 2026–Jan 10, 2027) and Haeundae Light Festival (Nov 28, 2026–Jan 10, 2027); organizer page for Christmas Village Busan 2026.
 - Visual browser QA at 360/390/768/1280 remains outstanding.
+
+
+## Additional winter-event image research (2026-11-14)
+- Confirmed official Busan City event listings and date windows for the 3rd Millak Luce Festa (Nov 14, 2026–Jan 10, 2027) and 13th Haeundae Light Festival (Nov 28, 2026–Jan 10, 2027).
+- Located event-specific visual candidates: Suyeong District Office illustration for the 2026 Millak Luce Festa (reported by Haps on Nov 12); official Busan City Haeundae 2026 event poster; Market Chango's Christmas Village Busan 2026 poster.
+- Rights review: the Market Chango page does not state reuse terms; the Haps-hosted Suyeong District illustration and Busan City event poster also need explicit license confirmation before local hosting or commercial reuse. Do not copy images from the publishers' pages into production merely because they are publicly viewable.
+- The previous Millak Luce Festa official photo-gallery item is marked KOGL Type 2 (non-commercial use only), so it is not a suitable default for a potentially commercial travel site.
+- Kept the 2026 Christmas Village poster on the draft only, registered as `needs_review`; it remains a hard merge/deploy blocker pending permission or replacement with a verified commercially reusable image.
+- Fixed invalid nested-anchor markup in the visual credit so the source link is independently clickable.
+- Exact-head SEO audit passed; screenshot QA at 360/390/768/1280 remains outstanding.
