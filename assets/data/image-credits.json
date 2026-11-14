@@ -668,6 +668,20 @@
       "checked_on": "2026-11-15",
       "status": "verified",
       "note": "Rainy street in Haeundae, Busan, photographed 12 July 2016 (camera location 35.159N 129.158E, Haeundae). Flickr original reviewed as cc-by-2.0 by FlickreviewR 2."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_International_Passenger_Terminal.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_International_Passenger_Terminal.jpg",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized using Wikimedia Special:FilePath only",
+      "checked_on": "2026-11-14",
+      "status": "verified",
+      "note": "Commons file page checked 2026-11-14: own work by Christophe95, 4032×3024, CC BY-SA 4.0. Used as the subject-matched terminal cover photo in the EN/JA/zh-TW ferry arrival guide; each visible caption credits the author and links the license."
     }
   ]
 }
