@@ -1,6 +1,6 @@
 # Image operations audit — 2026-11-14
 
-**Scope:** repository main merge commit `070a6634b75c55bff807677286fc8c775bde24cd` (PRs #409, #408 and #407 merged at 2026-11-14 00:10–00:12 UTC). The newest available full technical-SEO job is run #1309 on PR #408 head `c1341477dcf7432bc0faf276d9d1e8ea121a681c`, completed 2026-11-14 00:11 UTC, immediately before the merge. This is a pre-merge build audit, not a fresh crawl of the final deployed main or a real-device screenshot.
+**Scope:** repository main merge commit `070a6634b75c55bff807677286fc8c775bde24cd` (PRs #409, #408 and #407 merged at 2026-11-14 00:10–00:12 UTC). The latest full technical-SEO job is run #1311 on the current-main-based Draft PR #410 head, completed 2026-11-14 00:23 UTC. That job builds the current main snapshot plus this documentation-only audit; it is not a production-domain crawl or a real-device screenshot.
 
 ## Current build checks
 
