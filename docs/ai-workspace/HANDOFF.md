@@ -263,3 +263,11 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Rights blocker: organizer page does not publish image reuse/commercial license terms. Registry status is `needs_review`; do not merge/deploy until permission is documented or replace with a commercially licensed image.
 - Current event dates cross-checked against Busan City event calendar and the Christmas Village organizer page.
 - Remaining QA: exact-head CI and screenshot review at 360/390/768/1280.
+
+
+## Winter event image licensing review (2026-11-14)
+- Candidate set: 2026 Millak Luce Festa Suyeong District illustration (via Haps, Nov 12); 2026 Haeundae Light Festival official Busan City poster; Christmas Village Busan 2026 organizer poster.
+- No candidate is cleared for reuse based only on public visibility. Confirm explicit rights before local hosting / commercial use.
+- Millak 2025 official gallery photos are KOGL Type 2 (non-commercial use prohibition), not appropriate for commercial reuse.
+- Current homepage draft retains the Christmas Village 2026 poster as `needs_review`, with visible source attribution. Do not merge/deploy without permission or a verified alternative.
+- Corrected the image credit's nested-anchor HTML. SEO audit for the prior exact head passed; rerun after this commit. Responsive screenshot QA remains outstanding.
