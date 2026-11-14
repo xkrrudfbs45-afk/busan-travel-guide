@@ -481,3 +481,12 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 
 ### Approval boundary
 - No merge, production deploy, external SNS publication/schedule change, GA4 consent or measurement-ID change, secret/token change, partner contract, paid activation, or personal-data collection was performed.
+
+
+## Homepage mobile payload — Claude technical lane (2026-11-15)
+
+- Branch `perf/homepage-lazy-backgrounds` (Draft PR, owner approval required before merge).
+- Finding: on EN/JA/zh-TW homepages ~27 CSS background photos (`.trend-image` guide cards at ~9,900px+ and `.seasonal-event-photo`) were requested at first load, competing with the hero. Wikimedia `Special:FilePath?width=1000/1600` also rounds up to 1280/1920 px thumbnails (e.g. hero 1000 → 1280px, 208 KB; 960 → 118 KB) and adds a redirect per image.
+- Change: small inline head script adds `html.g2b-bg-lazy` only when IntersectionObserver exists; those backgrounds load once within 900px of the viewport. No-JS and print keep the original behaviour. Google Fonts stylesheet now loads via `preload` + `onload` (with `<noscript>` fallback) instead of render-blocking.
+- Local Playwright (external hosts blocked): images requested at load 29–31 → 7–9 (EN/JA/zh-TW, 390/1280); after scrolling every card background is applied; no-JS path unchanged. All audits + 47 SNS tests pass; no new layout overflow (existing 1280 hero-backdrop / 360–390 button wide-element notes are unchanged from main).
+- Not changed (design/quality decisions for ChatGPT/owner): hero image width steps, switching to direct thumb URLs, image choice.
