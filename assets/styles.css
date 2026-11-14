@@ -1104,7 +1104,7 @@
 .seasonal-event-copy h3{margin:0 0 8px;font-size:18px;line-height:1.25;letter-spacing:-.025em}
 .seasonal-event-copy p{min-height:62px;margin:0 0 13px;color:var(--muted);font-size:13px;line-height:1.6}
 .seasonal-event-copy a{font-size:12px;font-weight:800;text-decoration:none}
-.seasonal-events-credits{margin:12px 0 0;color:var(--muted);font-size:10px;line-height:1.55}
+.seasonal-events-credits{margin:12px 0 0;color:var(--muted);font-size:11px;line-height:1.6}
 .seasonal-events-credits a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:760px){.seasonal-events{padding-top:22px;padding-bottom:26px}.seasonal-events-heading{align-items:flex-start;flex-direction:column;gap:10px}.seasonal-events-grid{grid-template-columns:1fr;gap:12px}.seasonal-event-card{display:grid;grid-template-columns:34% 1fr}.seasonal-event-photo{height:100%;min-height:175px}.seasonal-event-copy{padding:14px}.seasonal-event-copy p{min-height:0;font-size:12px}.seasonal-event-copy h3{font-size:16px}}
 @media(max-width:420px){.seasonal-event-card{grid-template-columns:1fr}.seasonal-event-photo{height:150px;min-height:0}}
