@@ -413,3 +413,28 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Contrast-only CSS refresh is based on current `main`; current Wikimedia Gwangalli night image and attribution are retained.
 - Earlier PR #413 is stale/conflicted after intervening main integrations. Do not merge #413; it also contains a poster whose commercial reuse rights are unconfirmed.
 - Before merge: inspect exact diff, run CI on the latest head, and complete responsive visual QA at 360 / 390 / 768 / 1280. Do not deploy until those checks pass.
+
+
+## Current homepage design task — image-led mobile batch 5 (2026-11-14)
+
+- Branch: `design/homepage-image-mobile-batch-20261114`.
+- Applied ten coordinated shared CSS refinements across EN / JA / Traditional Chinese homepages: hero photo/overlay and viewport sizing, headline wrapping, CTA touch/focus, search focus, discovery shortcuts, editorial photo-credit legibility, experience image proportions/swipe sizing, conversion-card reflow, and winter/FAQ compact-width behavior.
+- Stylesheet cache key bumped to `20261114-visual-batch5` on all three homepage entry points.
+- Existing image sources and credits are unchanged; no rights-unverified seasonal poster is included.
+- Static source review only; no browser screenshot claim. Exact-head CI and 360 / 390 / 768 / 1280 visual QA remain outstanding.
+- Keep PR Draft; do not merge or deploy without explicit owner approval.
+
+
+## Image rights correction — 2026-11-14
+
+- In Draft PR #421, replaced the English homepage's rights-unverified Market Chango Christmas Village poster with the verified Wikimedia Commons Gwangalli night photograph already used on JA / zh-TW homepages.
+- Credit: Carey Ciuro, CC BY 2.0; the visible credit links to the license. The photo is presented as a Busan night atmosphere image, not as an event-specific festival photograph.
+- Original organizer poster remains `needs_review` in the image registry and is excluded from homepage markup.
+
+
+## Homepage design batch 6 — 2026-11-14
+
+- Continued on `design/homepage-image-mobile-batch-20261114`, PR #421.
+- Added ten shared CSS refinements: hero image fallback; mobile 3×2 shortcut grid; horizontally scrolling search suggestion chips; high-contrast live search results; editorial bento text contrast; distinct experience-photo focal crops; seasonal-event image aspect/overlay; Busan Now photo-credit legibility; thumb-sized shortlist/map controls; neighborhood photo and FAQ mobile/keyboard refinements.
+- No new image assets or unverified image sources introduced.
+- Static source checks only; latest exact-head CI and responsive screenshot QA remain required. Keep Draft; do not merge/deploy without explicit owner approval.

@@ -599,3 +599,149 @@ body .busan-now-credit a{color:#fff;text-decoration:underline}
   body .busan-now-art{max-height:220px}
   body .busan-now-art img{min-height:190px;max-height:220px;object-fit:cover}
 }
+
+
+/* Homepage image-led mobile refinement — batch 5, 2026-11-14 */
+/* 1. Keep the hero photograph legible without hiding the skyline on narrow screens. */
+.home-refresh .home-hero-backdrop{background-position:center 54%;will-change:auto}
+.home-refresh .home-hero-backdrop::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,20,37,.78),rgba(7,20,37,.34) 66%,rgba(7,20,37,.12)),linear-gradient(0deg,rgba(7,20,37,.28),transparent 58%);pointer-events:none}
+/* 2. Let the hero height follow the viewport rather than forcing a tall first screen. */
+.home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:clamp(560px,78svh,720px)}
+.home-refresh .home-hero-inner{padding-top:clamp(108px,14vh,142px);padding-bottom:clamp(76px,10vh,108px)}
+/* 3. Improve headline and intro rhythm across English and CJK locales. */
+.home-refresh .home-hero h1{max-width:12ch;text-wrap:balance}
+.home-refresh .home-hero .hero-intro{max-width:48ch;text-wrap:pretty}
+/* 4. Make both hero actions reliably tappable and visually distinct. */
+.home-refresh .showcase-hero-actions a{min-height:48px;touch-action:manipulation}
+.home-refresh .showcase-primary:focus-visible,.home-refresh .showcase-secondary:focus-visible{outline:3px solid #fff;outline-offset:4px}
+/* 5. Improve search affordance, input sizing and visible keyboard focus. */
+.home-refresh .site-search{box-sizing:border-box;min-height:56px}
+.home-refresh .site-search input{min-width:0;min-height:48px;font-size:14px}
+.home-refresh .site-search button{flex:0 0 46px;min-width:46px;min-height:46px}
+.home-refresh .site-search:focus-within{outline:3px solid rgba(255,210,198,.95);outline-offset:3px}
+/* 6. Give discovery shortcuts consistent tap areas and a calmer hover/focus response. */
+.home-refresh .showcase-quick-item{min-height:104px;touch-action:manipulation}
+.home-refresh .showcase-quick-item:focus-visible{position:relative;z-index:2;outline:3px solid #d36552;outline-offset:-4px}
+.home-refresh .showcase-quick-icon{flex:0 0 37px}
+/* 7. Protect editorial photo cards from text collisions and preserve focal points. */
+.home-refresh .showcase-pick{background-position:center;background-repeat:no-repeat}
+.home-refresh .showcase-pick-copy{max-width:min(88%,34ch);padding-bottom:2px}
+.home-refresh .showcase-pick-tag{z-index:1}
+.home-refresh .showcase-photo-credit{z-index:1;padding:4px 7px;border-radius:4px;background:rgba(8,20,34,.58);backdrop-filter:blur(5px)}
+/* 8. Keep experience photography immersive while preserving the swipe cue on phones. */
+.home-refresh .home-experience-card{aspect-ratio:4/3;min-height:0}
+.home-refresh .home-experience-card img{object-position:center}
+.home-refresh .home-experience-copy{padding:clamp(14px,2vw,20px)}
+.home-refresh .home-experience-copy strong{max-width:25ch;text-wrap:balance}
+/* 9. Keep conversion cards readable and prevent CTA text from wrapping awkwardly. */
+.home-refresh .home-conversion-card{min-width:0;align-items:flex-start}
+.home-refresh .home-conversion-card>span:last-child{min-width:0}
+.home-refresh .home-conversion-card .conversion-cta{min-height:36px;align-items:center;box-sizing:border-box}
+.home-refresh .home-conversion-card.taxi .taxi-korean{overflow-wrap:anywhere;line-height:1.65}
+/* 10. Keep winter feature, credits and FAQ transitions legible at compact widths. */
+.home-refresh .busan-now-band{min-width:0}
+.home-refresh .busan-now-copy{min-width:0}
+.home-refresh .busan-now-highlights li{align-items:start}
+.home-refresh .busan-now-credit{max-width:calc(100% - 24px);font-size:9px;text-shadow:0 1px 2px rgba(0,0,0,.35)}
+.home-refresh .home-faq-grid>div{min-width:0}
+@media(max-width:900px){
+ .home-refresh .home-conversion-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .home-refresh .home-conversion-card.taxi{grid-column:1/-1}
+ .home-refresh .home-experience-card{aspect-ratio:5/4}
+}
+@media(max-width:600px){
+ .home-refresh .home-hero,.home-refresh .home-hero-inner{min-height:clamp(540px,82svh,660px)}
+ .home-refresh .home-hero-inner{padding-top:104px;padding-bottom:78px}
+ .home-refresh .home-hero-backdrop{background-position:61% center}
+ .home-refresh .home-hero-backdrop::after{background:linear-gradient(90deg,rgba(7,20,37,.82),rgba(7,20,37,.4) 78%),linear-gradient(0deg,rgba(7,20,37,.36),transparent 60%)}
+ .home-refresh .home-hero h1{max-width:11ch;font-size:clamp(40px,10.6vw,58px);line-height:1.04}
+ .home-refresh .home-hero .hero-intro{max-width:38ch;font-size:14px;line-height:1.7}
+ .home-refresh .showcase-quick-item{min-height:76px}
+ .home-refresh .showcase-pick{min-height:218px}
+ .home-refresh .home-experience-card{flex-basis:min(84vw,350px);aspect-ratio:5/4}
+ .home-refresh .home-conversion-grid{grid-template-columns:1fr;gap:10px}
+ .home-refresh .home-conversion-card.taxi{grid-column:auto}
+ .home-refresh .home-conversion-card{min-height:unset;padding:16px}
+ .home-refresh .busan-now-art{max-height:220px}
+}
+@media(max-width:360px){
+ .home-refresh .home-hero-inner{width:calc(100% - 28px)}
+ .home-refresh .home-hero h1{font-size:40px}
+ .home-refresh .hero-script{letter-spacing:.1em}
+ .home-refresh .showcase-quick-item{gap:7px;padding-inline:8px;font-size:9px}
+ .home-refresh .showcase-quick-icon{flex-basis:29px;width:29px;height:29px}
+ .home-refresh .showcase-pick{padding:15px}
+ .home-refresh .home-experience-card{flex-basis:88vw}
+ .home-refresh .home-conversion-card strong{font-size:21px}
+}
+@media(prefers-reduced-motion:reduce){
+ .home-refresh .home-experience-card img{transition:none!important}
+ .home-refresh .showcase-quick-item,.home-refresh .showcase-pick{scroll-behavior:auto}
+}
+
+
+/* Homepage design batch 6 — ten image-led usability refinements, 2026-11-14 */
+/* 1. Stabilize hero image rendering and retain a graceful color fallback while the photo loads. */
+.home-refresh .home-hero-backdrop{background-color:#142a43;background-repeat:no-repeat;background-size:cover}
+/* 2. Reflow six primary discovery destinations into a clear two-row mobile grid. */
+@media(max-width:600px){
+ .home-refresh .showcase-quickbar{grid-template-columns:repeat(3,minmax(0,1fr));overflow:hidden}
+ .home-refresh .showcase-quick-item{min-height:86px;padding:12px 7px;border-right:1px solid var(--show-line);border-bottom:1px solid var(--show-line)}
+ .home-refresh .showcase-quick-item:nth-child(3n){border-right:0}
+ .home-refresh .showcase-quick-item:nth-last-child(-n+3){border-bottom:0}
+ .home-refresh .showcase-quick-item> b{display:none}
+}
+/* 3. Keep search suggestions usable without consuming the whole first screen on phones. */
+@media(max-width:600px){
+ .home-refresh .search-quick-links{display:flex;flex-wrap:nowrap;gap:7px;overflow-x:auto;max-width:100%;padding:8px 1px 10px;scroll-snap-type:x proximity;overscroll-behavior-x:contain;scrollbar-width:thin}
+ .home-refresh .search-quick-links>span{flex:0 0 auto;align-self:center}
+ .home-refresh .search-quick-links button{flex:0 0 auto;min-height:34px;white-space:nowrap;scroll-snap-align:start}
+}
+/* 4. Make live search results distinct from the hero image and easy to scan. */
+.home-refresh .site-search-results{position:relative;z-index:6;max-width:510px;margin:10px 0 0;padding:12px 14px;border:1px solid rgba(255,255,255,.72);border-radius:8px;background:#fff;color:#17243a;box-shadow:0 12px 30px rgba(0,0,0,.18);text-align:left}
+.home-refresh .site-search-results a{display:block;padding:10px 2px;color:#173b58;text-decoration:underline;text-underline-offset:3px}
+.home-refresh .site-search-results a+a{border-top:1px solid #e7eaf0}
+.home-refresh .site-search-results:focus-visible{outline:3px solid #f3c8bb;outline-offset:3px}
+/* 5. Preserve image-card hierarchy and readable labels in the compact editorial bento. */
+.home-refresh .showcase-pick{background-color:#24364b;background-position:center;background-size:cover}
+.home-refresh .showcase-pick-copy strong{display:block;text-shadow:0 2px 10px rgba(0,0,0,.35)}
+.home-refresh .showcase-pick-copy small{display:block;text-shadow:0 1px 7px rgba(0,0,0,.45)}
+/* 6. Give the three signature experience photos distinct, deliberate focal crops. */
+.home-refresh .home-experiences-grid .home-experience-card:nth-child(1) img{object-position:50% 48%}
+.home-refresh .home-experiences-grid .home-experience-card:nth-child(2) img{object-position:50% 52%}
+.home-refresh .home-experiences-grid .home-experience-card:nth-child(3) img{object-position:54% 46%}
+/* 7. Improve seasonal event image panels: consistent visual height and safe text contrast. */
+.home-refresh .seasonal-event-photo{position:relative;min-height:190px;aspect-ratio:16/10;background-color:#dce4eb;background-repeat:no-repeat}
+.home-refresh .seasonal-event-photo::after{content:"";position:absolute;inset:55% 0 0;background:linear-gradient(transparent,rgba(9,24,40,.18));pointer-events:none}
+.home-refresh .seasonal-event-copy{min-width:0}
+.home-refresh .seasonal-event-copy p{line-height:1.65}
+/* 8. Keep the Busan Now image credit legible without obscuring the main night view. */
+.home-refresh .busan-now-art{background-color:#142a43}
+.home-refresh .busan-now-art img{object-position:center 48%}
+.home-refresh .busan-now-credit{line-height:1.5;overflow-wrap:anywhere}
+/* 9. Make the neighborhood shortlist and map actions comfortable thumb targets. */
+.home-refresh .my-trip-planner button,.home-refresh .trip-stop-toggle,.home-refresh .my-trip-map{min-height:44px;touch-action:manipulation}
+.home-refresh .trip-stop-toggle:focus-visible,.home-refresh .trip-clear:focus-visible,.home-refresh .my-trip-map:focus-visible{outline:3px solid #d36552;outline-offset:3px}
+.home-refresh .my-trip-list{overflow-wrap:anywhere}
+/* 10. Improve FAQ card readability and keyboard navigation on narrow screens. */
+.home-refresh .home-faq-grid>div{min-width:0;overflow-wrap:anywhere}
+.home-refresh .home-faq-grid a{display:inline-block;min-height:36px;padding-top:6px;text-underline-offset:3px}
+.home-refresh .home-faq-grid>div:focus-within{outline:2px solid #d36552;outline-offset:3px}
+@media(max-width:600px){
+ .home-refresh .seasonal-event-photo{min-height:170px;aspect-ratio:16/10}
+ .home-refresh .home-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:10px!important}
+ .home-refresh .home-photo-grid>a{min-width:0;border-radius:12px}
+ .home-refresh .home-photo-grid>a img{height:174px!important}
+ .home-refresh .home-photo-grid>a span{padding:34px 11px 12px!important}
+ .home-refresh .home-photo-grid>a strong{font-size:17px!important}
+}
+@media(max-width:360px){
+ .home-refresh .showcase-quick-item{min-height:78px;font-size:9px}
+ .home-refresh .showcase-quick-icon{width:27px;height:27px}
+ .home-refresh .home-photo-grid{grid-template-columns:1fr!important}
+ .home-refresh .home-photo-grid>a img{height:190px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ .home-refresh .home-photo-grid>a,.home-refresh .home-photo-grid>a img{transition:none!important}
+ .home-refresh .home-photo-grid>a:hover{transform:none!important}
+}

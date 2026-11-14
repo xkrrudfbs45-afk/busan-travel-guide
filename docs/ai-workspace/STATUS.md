@@ -330,3 +330,53 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Mobile adjustments preserve the current photo crop and credit while increasing copy readability.
 - PR #413 is superseded for the contrast change; do not merge it. Its poster remains rights-unverified.
 - Validation still required on this new head: exact-head CI, mergeability, and screenshots at 360 / 390 / 768 / 1280. No merge or production deployment performed.
+
+
+## Homepage image-led mobile design batch 5 — 2026-11-14 (ChatGPT)
+
+Ten coordinated refinements applied to the shared homepage visual layer across English, Japanese and Traditional Chinese:
+1. Improved hero-image overlay so the skyline remains visible while text stays readable.
+2. Replaced a rigid hero height with viewport-aware sizing.
+3. Balanced hero headline and intro measure for English and CJK wrapping.
+4. Standardized hero CTA touch targets and keyboard focus.
+5. Improved search input sizing and visible focus-within state.
+6. Standardized discovery shortcut tap areas and focus treatment.
+7. Added a restrained backing surface to photo credits and protected editorial card text/focal framing.
+8. Standardized experience-card image proportions and mobile swipe-card width.
+9. Reflowed booking/planning conversion cards for tablet and narrow mobile widths.
+10. Refined winter-feature, image-credit and FAQ compact-width behavior.
+
+- Updated homepage stylesheet cache keys to `20261114-visual-batch5` in EN / JA / Traditional Chinese.
+- No image source, attribution, image license, article copy, routes, canonical/hreflang, metadata, JSON-LD, analytics or affiliate destination was changed.
+- Image policy: keep existing verified source credits; no rights-uncleared event poster introduced.
+- Verification: static review only at commit time. Exact-head build/SEO checks and browser screenshots at 360 / 390 / 768 / 1280 remain required. No merge or production deployment.
+
+
+## Homepage image-rights correction — 2026-11-14
+
+- Found the Market Chango Christmas Village 2026 poster had been carried into the English homepage during the earlier #411/#413 integration despite its `needs_review` rights status.
+- Replaced that English homepage image with the same verified Wikimedia Commons Gwangalli night photograph already used by the Japanese and Traditional Chinese homepages: Carey Ciuro, CC BY 2.0, with visible author and license link.
+- The photograph is an atmospheric Busan night image, not represented as a photograph of any of the three winter festivals.
+- The organizer poster remains recorded as `needs_review` in the image registry and must not be reused until permission is documented.
+- No change to event dates, article claims, page routes, structured data, analytics or affiliate links.
+- Included in Draft PR #421; exact-head CI and browser screenshot QA remain pending. No merge/deployment.
+
+
+## Homepage design batch 6 — 2026-11-14 (10 improvements)
+
+Applied a second grouped pass on the existing homepage design branch:
+1. Hero image fallback color and repeat/cover rendering.
+2. Mobile primary shortcut grid reflow to 3 × 2.
+3. Search suggestion chips become horizontally scrollable on phones.
+4. Live search results receive a distinct high-contrast panel and focus treatment.
+5. Editorial bento card labels gain more robust image contrast.
+6. Signature Yeongdo / Gwangalli / Gamcheon photos receive intentional focal crops.
+7. Seasonal event photo panels receive consistent aspect ratios and subtle lower contrast veil.
+8. Busan Now night image and photo-credit legibility refined.
+9. Trip shortlist/map controls receive thumb-sized targets and focus outlines.
+10. Neighborhood photo cards and FAQ links are refined for narrow screens and keyboard use.
+
+- Shared stylesheet affects EN / JA / Traditional Chinese homepages through the existing cache-busted stylesheet reference.
+- No new image sources, licenses, claims, routes, metadata, structured data, analytics or affiliate destinations changed.
+- Verification is static source review only. No browser screenshots claimed. Exact-head CI is pending after this commit.
+- PR #421 remains Draft and unmerged; no production deploy.
