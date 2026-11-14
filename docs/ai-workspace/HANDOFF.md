@@ -430,3 +430,11 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - In Draft PR #421, replaced the English homepage's rights-unverified Market Chango Christmas Village poster with the verified Wikimedia Commons Gwangalli night photograph already used on JA / zh-TW homepages.
 - Credit: Carey Ciuro, CC BY 2.0; the visible credit links to the license. The photo is presented as a Busan night atmosphere image, not as an event-specific festival photograph.
 - Original organizer poster remains `needs_review` in the image registry and is excluded from homepage markup.
+
+
+## Homepage design batch 6 — 2026-11-14
+
+- Continued on `design/homepage-image-mobile-batch-20261114`, PR #421.
+- Added ten shared CSS refinements: hero image fallback; mobile 3×2 shortcut grid; horizontally scrolling search suggestion chips; high-contrast live search results; editorial bento text contrast; distinct experience-photo focal crops; seasonal-event image aspect/overlay; Busan Now photo-credit legibility; thumb-sized shortlist/map controls; neighborhood photo and FAQ mobile/keyboard refinements.
+- No new image assets or unverified image sources introduced.
+- Static source checks only; latest exact-head CI and responsive screenshot QA remain required. Keep Draft; do not merge/deploy without explicit owner approval.
