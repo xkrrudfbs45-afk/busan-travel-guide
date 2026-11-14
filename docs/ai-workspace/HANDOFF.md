@@ -2,6 +2,41 @@
 
 Use this file to hand work between the project owner, ChatGPT, and Claude. Keep the current handoff concise and replace the previous handoff when a new task becomes active. Preserve longer-term decisions in `DECISIONS.md`.
 
+## Addendum — PR #297 count fixes (2026-11-06, Claude)
+
+- Completed: JA title/og/twitter/headline set to 6選; search-index JA/zh-TW entries updated to 6 and Gaya Park pork soup; JA/zh-TW meta descriptions updated.
+- Verification: Claude reports `sh scripts/build-static.sh` passed. The 11 audits did not complete; the Technical SEO audit workflow is `action_required`, with no completed result available. 360/390px overflow remains unverified. Deployment not verified.
+- Approval needed: owner review and merge decision; native review of JA/zh-TW wording.
+
+## Current handoff — 2026-11-12 (ChatGPT growth and image audit)
+
+### Completed
+- Confirmed GitHub main at `60146784d5563ed4628afcb8c58eb272028ed536`; PR #383 image quality batch 1 merged and its Technical SEO audit / Growth ops checks passed.
+- Reviewed `docs/ai-workspace/IMAGE-AUDIT-2026-11-12.md`: pre-#383 baseline found no body photo on 40/49 zh-TW, 33/67 EN, 39/47 JA guides; generic skyline OG fallback on 18/23/18 pages; and five EN covers lazy-loaded. #383 fixed seven core zh-TW/JA guide covers, all-language Seomyeon share image, and EN cover loading priority.
+- Re-read connected GSC and GA4. GSC 2026-10-13–11-09: 353 impressions / 2 clicks; Taiwan 43, USA 28, Japan 20 impressions, with zero clicks in each target market. GA4 2026-10-15–11-11: 40 sessions, 8 users, 1 organic session, 5 affiliate_click events from 3 users, 0 transactions/revenue.
+- Completed a 50-page SEO crawl: no missing alt among crawled pages; 127 URLs not crawled. A separate Lighthouse-enabled audit completed 20/20 with 0 failures; available audit endpoints did not expose numeric Lighthouse/Core Web Vitals metrics, so performance remains unverified.
+- Updated the global growth, SNS, and operations automations with recurring image-quality checks covering source/license, real-place/menu fit, alt, OG/social imagery, mobile crop, responsive delivery, file weight, LCP/CLS, and approval safeguards.
+- Added evidence and rebase/consolidation notes to PR #359, #382, and #320.
+
+### Verification and limitations
+- The current main SHA is verified from GitHub. Production `version.txt` was not readable in this run and Render workspace selection was not available; production deployment SHA remains unverified.
+- GA4 is opt-in and undercounts; recorded countries show Korea only. Do not infer that no overseas users visited.
+- GSC samples are small. Do not overinterpret positions or zero clicks at market level.
+- The crawl checks alt and page-level SEO but not image licensing, visual crop, or full image delivery. Lighthouse ran 20/20 with 0 failures, but numeric performance metrics are not exposed by the available audit result endpoints.
+
+### Open conflicts / next actions
+- #320 and #311 overlap on JA/TW PNU food-guide HTML files.
+- #314 and #315 overlap on EN Haeundae food guide.
+- #316 and #321 overlap on 31 files. Consolidate each pair before further edits.
+- Re-audit the pre-#383 image gaps after the batch: zh-TW/JA first-trip, Taiwan-travelers-busan, things-to-do; EN dialect/local-culture/Bukangi/things-to-do illustration-vs-photo decisions; Bukmun needs_review; and repeated Gimhae/Haeundae images.
+- Rebase stale work onto current main and rerun build, all repository audits, and 360/390/1280 visual checks.
+- Review PR #382 after current-main rebase; do not merge or deploy without owner approval.
+
+### Approval needed
+- Any PR merge or production deployment.
+- Any change to GA4 consent/measurement configuration.
+- Any external Instagram/Threads publishing or schedule change.
+
 ## Current handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
 
 ### Completed
@@ -254,3 +289,84 @@ Preserved existing images, attribution records, page copy, routes, canonical/hre
 - Busan Metro publishes transfer conditions: https://data.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=100601040202
 - Busan City describes Jagalchi's first-floor seafood and second-floor chojangjib arrangement: https://www.busan.go.kr/bige/food/view?bbsNo=10&dataNo=70537&srchCl=Food
 - Code updated; exact-head CI and page-level browser QA still required. PR #408 remains Draft, stacked on #407; no merge or deployment.
+# Go2Busan Contributor Handoff
+
+Use this file as the shared continuity point for the project owner, ChatGPT, and Claude. Keep the active task and blockers current; preserve long-term decisions in DECISIONS.md.
+
+## Working agreement
+
+- ChatGPT leads product/marketing, prioritization, SEO, content strategy, research, review, and continuity. It should directly perform useful supported work, including GitHub issues, documentation, editorial work, and safe repository changes/PRs.
+- Claude handles code-heavy implementation, local builds, automated audits, visual QA, and deployment preparation when available.
+- Claude usage exhaustion must not stop the project: ChatGPT continues tasks it can perform and leaves engineering-only work queued here and in GitHub.
+- Owner's short continuation command: “읽고 진행해”. Recover priorities from this workspace and GitHub; do not ask the owner to repeat context or paste long prompts.
+- Be precise about execution: an issue is assigned work, a PR is proposed work, a merged commit is repository work, and a verified production SHA is deployed work. Never conflate them.
+- No merge, deployment, secret change, paid activation, or irreversible action without explicit owner approval.
+
+## Current handoff — 2026-11-06
+
+### Active priorities
+1. Claude: inspect and report on issue #272, including whether a safe Claude Code GitHub workflow can be configured with the available repository permissions/secrets. Do not imply an autonomous Claude runner exists until verified.
+2. Claude: inspect PR #269, current checks, mergeability, and documented SEO/mobile audits. Do not merge.
+3. Claude: implement the free Google Maps Embed MVP described in issue #273. The map must show only Go2Busan-curated, verified/review-status-labelled places—not every Busan venue. Provide place cards, area/category discovery where supported, and Google Maps directions links. Avoid paid Maps JavaScript/Places/Directions APIs.
+4. ChatGPT: continue product decisions, curated-place data review, content/SEO improvements, and safe GitHub work without waiting for Claude.
+
+### Constraints
+- Read AGENTS.md, CONTENT_GUIDELINES.md, and the shared workspace before repository changes.
+- Do not invent addresses, coordinates, hours, prices, visits, map markers, or deployment status.
+- Keep mobile UX first and preserve existing URLs and multilingual SEO.
+- Use focused branches and PRs; run documented build and audits before review.
+- Do not merge or deploy without explicit project-owner approval.
+
+## Handoff template
+
+### Date and contributor
+[YYYY-MM-DD — name/agent]
+
+### Completed
+- [Specific changes and links]
+
+### Verification
+- [Commands/tests and outcomes]
+- [Visual checks and viewport sizes]
+- [PR number and commit SHA]
+
+### Open issues / blockers
+- [Issue, impact, owner]
+
+### Recommended next action
+- [One clear next step]
+
+### Approval needed
+- [Any merge, deployment, spend, partner, or policy decision]
+
+
+## Owner-controlled execution — 2026-11-07 (ChatGPT)
+
+- Paused the recurring Go2Busan weekly automation at the owner's request.
+- Added an explicit owner-invocation / immediate-stop gate to `CLAUDE.md` on the #297 branch. Do not mention or trigger Claude unless the owner explicitly requests it for a specific task.
+- Updated EN/JA/zh-TW social and structured descriptions and all three search-index entries so the six-place guide consistently includes Gaya Park pork soup.
+- Latest known build result: `sh scripts/build-static.sh` passed in Claude's report. Technical SEO audit workflow is `action_required`; no successful CI audit result is confirmed. 360/390px remains unverified.
+- PR #297 remains open; do not merge or deploy without owner approval.
+
+
+## Current handoff — 2026-11-07 (ChatGPT, PR #297 mobile navigation)
+
+### Completed in branch `chatgpt/jangjeon-gayapark-gukbap`
+- EN/JA/zh-TW intro decks now reflect the six included recommendations, including Gaya Park pork soup.
+- JA and zh-TW quick-jump menus now include all six restaurant sections; each fragment target was checked against an existing section ID.
+- Added a <=680px horizontal-scroll treatment for article quick-jump links to keep navigation compact on mobile.
+
+### Verification and release boundary
+- Technical SEO audit success is confirmed for prior head `8887e94c54f2ae1fc3fbe699a40a17250fc86f89` only.
+- Latest head is `d981226a176dacb398ff162f1a58640133e918af`; no CI checks are currently reported for this head. Fresh build and 360px/390px viewport/overflow checks remain unverified.
+- PR #297 is open. Do not merge or deploy without explicit owner approval.
+
+
+## Handoff update — 2026-11-07: search visibility + Nampo food
+
+- Do not report that search impressions are increasing. The owner's latest shared Search Console report (Nov 3) had 0 clicks/0 impressions for 28 days and still showed data processing. No newer GSC data is available in the current session.
+- Render HTTP request metrics for the last 30 days returned an empty series. Public `site:go2busan.com` search spot-check did not return a clear domain result; this does not prove deindexing.
+- Sitemap audit: 167 URLs, zero hreflang links pointing to a URL absent from the sitemap; 26 entries lack alternates and should be reviewed based on whether translations exist.
+- PR #297 branch adds Nampo Jjukkumi, 18beon Wandangjip (BIFF Square branch) and Kkangtong Golmok Halmae Yubu Jeongol Main Store to EN/JA/zh-TW Nampo neighborhood guides; Google Maps links and translated search-index tags added. No hours/prices asserted.
+- Basic validation passed for language attributes, restaurant name presence, in-page anchors and JSON syntax. Fresh build/mobile/CI verification still pending.
+- Latest known PR head `52969674e03a053c9c6fc6dfcdd898d0b4443104`; PR open, unmerged. Do not merge/deploy without explicit owner approval.

@@ -30,7 +30,6 @@
     { "path": "guides/seomyeon-neighborhood-guide/index.html", "file": "Seomyeon_Street.jpg", "alt": "Shopping street in Seomyeon, Busan, lined with shop signs", "caption": "A shopping street in Seomyeon", "og": true },
     { "path": "zh-tw/guides/first-trip/index.html", "file": "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg", "alt": "釜山水營灣：廣安大橋、Marine City 與海雲台高樓群", "caption": "廣安大橋與海雲台一帶的釜山天際線" },
     { "path": "ja/guides/first-trip/index.html", "file": "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg", "alt": "釜山・水営湾に架かる広安大橋とマリンシティ、海雲台の高層ビル群", "caption": "広安大橋と海雲台周辺の釜山の街並み" },
-    { "path": "zh-tw/guides/taiwan-travelers-busan/index.html", "file": "Nampo-dong_Busy_Street.JPG", "alt": "釜山南浦洞的主要商店街", "caption": "南浦洞的主要街道" },
     { "path": "zh-tw/guides/things-to-do-in-busan/index.html", "file": "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg", "alt": "釜山廣安里海水浴場與廣安大橋", "caption": "廣安里海水浴場與廣安大橋" },
     { "path": "ja/guides/things-to-do-in-busan/index.html", "file": "Gwangalli_Beach_and_Gwangan_Bridge_Busan.jpg", "alt": "釜山・広安里海水浴場と広安大橋", "caption": "広安里海水浴場と広安大橋" }
   ]
