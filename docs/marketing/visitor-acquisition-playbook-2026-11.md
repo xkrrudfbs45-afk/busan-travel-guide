@@ -1,5 +1,5 @@
 # Go2Busan visitor acquisition playbook
-**Research checked:** 2026-11-05  
+**Research checked:** 2026-11-14  
 **Scope:** External community participation drafts, seasonal editorial calendar, and social acquisition measurement.  
 **Publishing status:** Research and drafts only. No external account was accessed, no post/comment/message was published, and no live site URL, redirect, affiliate ID, structured data, or GA4 event was changed.
 
