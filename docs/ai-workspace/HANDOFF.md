@@ -438,3 +438,30 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Added ten shared CSS refinements: hero image fallback; mobile 3×2 shortcut grid; horizontally scrolling search suggestion chips; high-contrast live search results; editorial bento text contrast; distinct experience-photo focal crops; seasonal-event image aspect/overlay; Busan Now photo-credit legibility; thumb-sized shortlist/map controls; neighborhood photo and FAQ mobile/keyboard refinements.
 - No new image assets or unverified image sources introduced.
 - Static source checks only; latest exact-head CI and responsive screenshot QA remain required. Keep Draft; do not merge/deploy without explicit owner approval.
+
+
+## Current handoff — growth, measurement and mobile performance (2026-11-14, ChatGPT run 8)
+
+### Completed / verified
+- GSC baseline (final, 2026-10-15–11-11 PT): 453 impressions / 3 clicks overall; Taiwan 50 / 0 / pos 19.4, US 39 / 0 / 29.7, Japan 26 / 0 / 8.0. Mobile accounts for 319 impressions and all three clicks. Market samples remain small.
+- GA4 baseline (2026-10-17–11-13 KST): 47 sessions / 8 active users / 68.1% engagement; 5 `affiliate_click` events / 3 users; transactions and purchase revenue 0. Analytics stream created Nov 2, opt-in measurement; country report only returned South Korea. `(not set)` is 4 sessions (8.5%); custom dimensions 0.
+- Current site crawl `d1645faf-a25e-4510-b8ea-f27dabf72f31`: 50/50 pages crawled, 186 URLs not reached because of the page budget, 0 HTTP errors and 0 missing-alt findings. Ten non-critical SEO/heading findings.
+- Lighthouse on that audit: 7/20 checks completed; 13 returned `INSUFFICIENT_CREDITS`. EN homepage mobile LCP 5.35 s / performance 79 / CLS 0.0155; desktop LCP 1.68 s / performance 92. Mobile lab trace estimates 9.87 MB total payload and 1.66 MB image-delivery savings; render-blocking resources estimate 630 ms. Accessibility findings include color contrast, touch-target size and accessible-name mismatch.
+- GitHub main and Render latest live deploy commit: `840c332d79edac1c55ccbd763d1087945011c167`; deploy `dep-dbru5t6i0phs73bihth0` finished live at 04:26:39 UTC. Render auto-deploy is off. Direct public `/version.txt` and homepage fetch could not be independently read in this run.
+- PR #414 reports 14 CI audits passed and 576 Playwright checks across 144 changed pages at 360/390/768/1280 with zero reported issues. #416 and #418 are merged integrations. No open PRs were returned by PR search.
+
+### Remaining limitations / blockers
+- GSC country samples are small; page/query row coverage is incomplete. Do not infer a market-level CTR problem from a handful of impressions.
+- GA4 is consent-gated and only one organic session is visible in the 28-day window; GSC–GA4 join matched 1 of 43 candidates. Affiliate clicks are not partner bookings or revenue.
+- Lighthouse credit exhaustion prevented JA homepage and 13 other device/page results. No 360/390/1280 browser screenshots were captured in this run.
+- Public site HTTP access was unavailable to the direct web/container clients; Render's deploy record is the production commit evidence.
+
+### Recommended next action (Claude technical lane)
+1. Reproduce the EN homepage mobile LCP with a credit-backed Lighthouse run and inspect the LCP element and network waterfall; current lab estimate is 5.35 s.
+2. Reduce the homepage's 9.87 MB mobile payload, especially the image candidates with estimated 1.66 MB savings; preserve source/license credits and use correctly sized responsive assets.
+3. Inspect render-blocking homepage CSS and the Google Fonts request (estimated 630 ms savings); avoid regressions to the current hero preload and layout.
+4. Resolve homepage contrast, touch-target and accessible-name findings, plus the generic “Learn more” disclosure link; validate keyboard and screen-reader names.
+5. Re-run representative EN / JA / zh-TW mobile and desktop Lighthouse checks and visual QA at 360 / 390 / 1280. Keep all work in an independent Draft PR; no merge or deploy without owner approval.
+
+### Approval boundary
+- No merge, production deploy, external SNS publication/schedule change, GA4 consent or measurement-ID change, secret/token change, partner contract, paid activation, or personal-data collection was performed.
