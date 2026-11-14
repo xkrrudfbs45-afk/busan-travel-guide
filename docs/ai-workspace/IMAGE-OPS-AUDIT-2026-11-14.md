@@ -13,7 +13,32 @@
 | Homepage food cards | 10 distinct image URLs | Topic-card image audit passed |
 | Image credits | 36 images in use / 43 registered | 8 warnings, 0 errors |
 
-The source-level SEO audit still emits missing OG/Twitter metadata warnings on source HTML (including some pages with missing OG alt). These are not equivalent to deployed-output gaps: the post-build social metadata check reports **0 gaps** after `enhance-social-meta.mjs` runs. Do not reopen the old 72-page OG gap as a production defect without checking the built output.
+The source-level SEO audit still emits 75 missing OG/Twitter tag warnings and 3 missing OG-alt warnings on source HTML. These are not equivalent to deployed-output gaps: the post-build social metadata check reports **0 missing-tag gaps** after `enhance-social-meta.mjs` runs. However, the three SVG social-preview warnings below remain real format warnings because the post-build check does not convert SVG to raster. Do not reopen the source-only missing-tag count as a production defect without checking the built output.
+
+## P1 — SVG social-preview image remains on three language pages
+
+**Asset:** `/assets/busan-local-culture-illustration.svg`
+
+**Affected URLs:**
+- EN: `/guides/busan-station-local-walk/`
+- JA: `/ja/guides/busan-station-local-walk/`
+- zh-TW: `/zh-tw/guides/busan-station-local-walk/`
+
+**Evidence:** the latest SEO audit on the current-main-based Draft PR #410 build reports the same SVG as both `og:image` and `twitter:image` on all three pages (6 format warnings). The post-build `social-meta check` reports 0 missing tags, but that check confirms tag presence, not raster format. The existing illustration is also not a documentary photograph of Busan Station.
+
+**Safe proposal:** replace the three social-preview references with one topic-matched, licensed PNG/JPEG/WebP image that actually depicts Busan Station / Choryang, or export a clearly labelled raster illustration if no suitable photo is licensed. Keep EN/JA/zh-TW alt text localized and make the OG/Twitter image pair consistent. Do not imply the illustration is a real photograph.
+
+## P2 — Remaining English title-length warnings
+
+The same latest build reports six English titles over the audit's 65-character review threshold:
+- `/guides/busan-city-tour-bus-guide/` — 70 characters
+- `/guides/busan-luggage-storage/` — 66 characters
+- `/guides/busan-station-local-walk/` — 69 characters
+- `/guides/gwangalli-parking-guide/` — 71 characters
+- `/guides/nampo-neighborhood-guide/` — 68 characters
+- `/guides/things-to-do-in-busan/` — 73 characters
+
+Shorten without losing the main search intent; this is a SERP-truncation review, not a build failure.
 
 ## P2 — Image licence restriction: Dongnae Eupseong gate photograph
 
