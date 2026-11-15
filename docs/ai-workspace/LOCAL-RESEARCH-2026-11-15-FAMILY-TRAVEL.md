@@ -87,6 +87,28 @@ Target URL: `/ja/guides/busan-with-kids/`
 
 12. Naver Blog search pages were blocked by robots in this pass. Searches of DC Inside, Theqoo, Clien and Ppomppu did not return a directly usable, current Busan family-trip discussion. No login or access-control workaround was attempted.
 
+## Competitor and search-result structure
+
+13. KoreaTripAdvisor — “Busan with Kids: Beaches, Sky Capsule, Aquarium and Easy Family Days”, published 2026-10-21:
+    https://www.koreatripadvisor.com/en/guides/busan-with-kids-family-guide
+    - Strong structure: one main activity per half-day, area clusters, age/height checks, weather alternatives and a family packing/food checklist.
+    - Some transport, stroller, facility and operating claims are variable and require official verification; none were copied.
+
+14. KRINAVI Japanese — “子連れ釜山2泊3日” planning guide, last month in search results; page states a 2026-09-04 check:
+    https://krinavi.com/ja/guides/busan-family-three-day-travel-plan/
+    - Useful planning framework: count usable time rather than calendar days; separate arrival, one full sightseeing day and departure; account for hotel rest, meals, luggage and transport.
+    - This is the closest Japanese-language search competitor. Go2Busan adds a clearer Haeundae / Seomyeon / Nampo accommodation comparison, area-specific route grouping, Korean order phrase and links to existing local transport/food guides. No wording was copied.
+
+15. Busan-trip — “Busan with Toddlers: Honest Family Travel Diary”, search result published about five months ago:
+    https://www.busan-trip.com/blog/busan-with-toddlers-diary/
+    - Detailed stroller sections and station-elevator considerations are useful UX patterns.
+    - Specific claims about elevator availability, baby-changing facilities, walking times and rush-hour conditions were not reused without official confirmation.
+
+16. Korea Go Now — “Busan with Kids (2026)”:
+    https://koreagonow.com/busan-with-kids-family-guide/
+    - Age bands, facility comparisons and current-looking prices/hours are prominent.
+    - Variable price, operating-hour and age/height claims should be checked against operators; none were copied into the Japanese page.
+
 ## Synthesis and editorial response
 
 - The most consistent problem is not a lack of attractions; it is overloading a short stay with distant areas.
