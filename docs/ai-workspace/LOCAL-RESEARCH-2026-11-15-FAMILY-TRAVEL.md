@@ -100,9 +100,9 @@ Target URL: `/ja/guides/busan-with-kids/`
 ## Image and licensing
 
 - A first candidate, `Haeundae_District_and_Beach.jpg` (Masterhatch, CC BY-SA 4.0), was rejected after a fresh Commons review surfaced a South Korea freedom-of-panorama copyright warning concerning architecture in the image. The warning makes it unsuitable for this commercial use without further rights review.
-- Used the already registered `Busanhang_Bridge_taken_from_Yeongdo.jpg` instead.
-- Author: Choi2451. Licence: CC0 1.0; commercial reuse is permitted without attribution. Commons file page was checked on 2026-11-15 and shows no architecture copyright warning.
-- Kept a courtesy Japanese source/CC0 credit beside the in-page cover. The photo is accurately described as a harbour/bridge view from Yeongdo; it is not represented as a family photograph or a child-specific facility.
+- Selected `Haeundae_Busan_South_Korea_01.jpg` (Hankook12), photographed 2024-02-09. The Commons file page was checked on 2026-11-15: CC0 1.0, commercial reuse permitted, and no South Korea panorama warning shown.
+- Added the file to `assets/data/image-credits.json` with its source URL, author, licence, commercial-use flag and check date.
+- Added a courtesy Japanese source/CC0 credit beside the in-page cover. The image accurately shows Haeundae beach and its coastal skyline; it is not represented as a family photograph or a child-specific facility.
 - No new image was generated or downloaded. Actual browser crop/focal-point inspection remains outstanding.
 
 ## Change set
