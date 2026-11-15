@@ -104,7 +104,7 @@ for (const f of files) {
   for (const host of HOSTS) {
     const used = new RegExp(`(?:src|srcset)="https://${host.replace(/\./g, "\\.")}/|url\\(["']?https://${host.replace(/\./g, "\\.")}/`).test(h);
     if (used && !h.includes(`rel="preconnect" href="https://${host}"`)) {
-      h = insertHead(h, `<link rel="preconnect" href="https://${host}"${host.startsWith("upload") ? " crossorigin" : ""}>`);
+      h = insertHead(h, `<link rel="preconnect" href="https://${host}">`);
       bump("5 preconnect added");
     }
   }
