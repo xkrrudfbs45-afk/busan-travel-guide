@@ -47,8 +47,8 @@ Update the existing EN, JA and zh-TW luggage-storage guides rather than create a
   3. Line 1 subway lockers as a separate facility, with official dimensions and base price.
 - Added a direct warning that the new KTX locker bank's price and live availability are not confirmed by the cited report.
 - Corrected the Line 1 small-locker width from 42 cm to the official 43 cm.
-- Updated JA and zh-TW guides with a licensed reference photograph and localized caption. The photograph is from Busan Central Bus Terminal, not KTX Busan Station, and is explicitly labelled as an illustrative example.
-- The EN cover image is no longer lazy-loaded: it now includes width/height attributes, eager loading and high fetch priority. JA/zh-TW use the same verified image with the same loading hints.
+- Added the existing verified reference photograph to JA and zh-TW with localized captions. The photograph is from Busan Central Bus Terminal, not KTX Busan Station, and is explicitly labelled as an illustrative example.
+- Technical metadata (title/description/OG/JSON-LD) and cover-image delivery (LCP/CLS, eager loading, dimensions, responsive formats) are intentionally delegated to Claude in issue #455; this content PR does not change those implementation details.
 - No new page was created because the existing three-language luggage-storage guides already cover the search intent.
 
 ## Image provenance
