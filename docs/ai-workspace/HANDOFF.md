@@ -525,3 +525,31 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 
 - Metadata work is already on main; remaining optional item is intrinsic `width`/`height` for the cover. Add the verified Commons dimensions to `content/images/cover-photos.json` (and emit them in `scripts/enhance-images.mjs`) once someone can read the file page. Do not use an unlicensed KTX locker photo.
 - Visual QA at 360/390/1280 and LCP/CLS measurement are still outstanding.
+
+
+## Winter-night events and foreign-taxi clarity — 2026-11-15 (ChatGPT content batch)
+
+### Ten content pages updated
+1. EN / JA / zh-TW winter travel guides: added Haeundae Light Festival hours and opening ceremony, Gwangalli winter drone-show schedule and laser-session distinction, Gwangbok-ro Street Festa date/time, and a caution against assuming a same-evening transfer is comfortable.
+2. EN / JA / zh-TW late-arrival guides: clarified that k.ride's Google / Apple / email sign-up options do not guarantee every overseas phone number will pass verification without another step; advised testing registration and payment before travel. Clarified that the app documents automatic post-ride payment, not an assumed switch to direct driver payment.
+3. EN / zh-TW Gwangalli drone-show guides updated; a new JA guide created to close the missing Japanese-language page.
+4. EN winter lights guide updated with Haeundae 18:00–23:00 hours, 11/28 18:00 lighting ceremony, Gwangalli drone show, and Gwangbok-ro Street Festa 12/5 16:00–20:00.
+
+### Official facts used (checked 2026-11-15)
+- Busan City event listing and MCST: Haeundae Light Festival 2026-11-28 to 2027-01-10, 18:00–23:00, free; lighting ceremony 11/28 18:00.
+- Busan City November drone programme: 11/21 laser session and 11/28 regular drone programme; winter Saturday sessions 19:00 and 21:00.
+- Official drone-show organizer: first/third Saturday laser format, 24-minute sequence (6-minute opening laser, about 14-minute drone segment, 4-minute closing laser); regular drone show about 12 minutes. December 5 and 19 are described only as expected dates under the recurring rule pending the monthly programme.
+- Visit Busan / Busan City: Gwangbok-ro Street Festa 12/5 16:00–20:00; separate Balcony Music Show listing includes 11/28 19:00–21:00.
+- k.ride official service page and app listing: Google / Apple / email or social sign-up options, foreign-card / mobile payment support, and automatic payment after ride. Neither source guarantees no phone/device verification for every foreign number.
+
+### Editorial safeguards
+- Gwangbok-ro 2026–27 winter light-tree festival dates and hours remain unconfirmed; prior-year dates were not reused.
+- December laser dates are labelled expected, not confirmed, until the monthly programme is published.
+- No fixed metro last-train time or Nampo-to-Gwangalli transfer duration was invented. Users are directed to check the route and last service for their destination.
+- VisitKorea's separate Haeundae event page currently shows a conflicting date range; the article cites the newer Busan City and MCST listings for this edition and flags the conflict.
+- No drone-show photo was copied from KOGL Type 2 / non-commercial sources. Existing verified imagery remains; replace only after confirming commercial-use rights and location accuracy.
+
+### SEO and release
+- Added Japanese drone-show page, reciprocal EN/JA/zh-TW hreflang links, sitemap entries, search-index entries, and Japanese guide-directory link.
+- Draft PR only. No merge, deployment, SNS publishing or schedule change performed by this batch.
+- Exact-head CI and browser screenshot QA at 360 / 390 / 768 / 1280 remain required.

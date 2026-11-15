@@ -1012,7 +1012,27 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/food-etiquette/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-food-etiquette-tips/" />
   </url>
-  <url><loc>https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/</loc></url>
+    <url>
+    <loc>https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/gwangalli-drone-show-viewing-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/gwangalli-drone-show-viewing-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gwangalli-drone-show-viewing-tips/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gwangalli-drone-show-viewing-tips/" />
+  </url>
   <url>
     <loc>https://go2busan.com/guides/taejongdae-danubi-train-tips/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
