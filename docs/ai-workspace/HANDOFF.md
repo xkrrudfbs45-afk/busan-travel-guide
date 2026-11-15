@@ -596,3 +596,13 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Create dedicated localized Saju pages at `/en/k-saju/` and `/ja/k-saju/`, modeled on the existing `/tw/k-saju/` experience but with natural English and Japanese localization.
 - Once live and verified, replace the EN/JA Korean-name second links in Go2Busan PR #471 with those dedicated Saju URLs, retaining the `-saju` UTM suffix.
 - This follow-up is not included in the current Go2Busan PR and must be tracked separately in the GoodDay Unse repository.
+
+
+## Haeundae local food expansion — 2026-11-16
+
+- Branch: `content/haeundae-local-food-20261116`.
+- Existing EN / JA / zh-TW Haeundae food guide pages expanded in place with two bokguk specialists (Geumsubokguk and Park Okhee Halmaejip Original Bokguk) and one local-recommended gukbap stop (Haeundae Wonjo Halmae Gukbap).
+- Confirmed Wonjo Halmae Gukbap address: 33 Gunam-ro 21beon-gil, Haeundae-gu, Busan. Similar nearby listing at number 27 is not the same address; copy tells visitors to verify number 33.
+- Licensed generic Busan bokguk photo added with CC BY-SA 3.0 attribution; it is not presented as a restaurant-specific photograph.
+- Updated `assets/data/search-index.json`, `assets/data/image-credits.json`, `scripts/generate-busan-map.py`, and generated `guides/busan-map/index.html` (30 places).
+- Required QA: run `python3 scripts/generate-busan-map.py` and confirm no generated diff; run `sh scripts/build-static.sh` and every workflow audit; validate new Visit Busan / Google Maps / DiningCode links; inspect 360 / 390 / 768 / 1280 px. Keep PR Draft; no merge/deploy without owner approval.
