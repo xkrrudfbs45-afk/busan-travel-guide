@@ -66,7 +66,9 @@ A visitor searching for Busan Station luggage storage needs to know which buildi
 ## Validation status and remaining risks
 
 - Source HTML changes are committed on a dedicated branch; no merge or production deployment has occurred.
-- GitHub CI, static build, strict image-credit audit, SEO crawl and link checks must pass on the exact PR head.
-- Manual visual checks at 360 px, 390 px and 1280 px remain required; no browser screenshot QA is claimed in this report.
+- Exact PR head `070aea5c293f28976d368dcb2f9a3870e9ff3431` passed the Technical SEO audit on 15 November 2026. The same public-site build script and dependency-free audit both passed.
+- Strict image-credit audit: 41 images in use, 49 registered, 9 warnings, 0 errors. The warnings concern existing unrelated needs-review/unused registry entries; no missing image-credit entry was reported for this change.
+- Other checks: social-meta gaps 0; language-switch links 633 checked / 0 findings; affiliate CTA 15 entries; Agoda CTA 18 placements; cover-image audit 22 entries; homepage food-card audit 10 cards / 10 distinct image URLs.
+- Manual visual checks at 360 px, 390 px and 1280 px remain outstanding; no browser screenshot QA is claimed in this report.
 - The 2F KTX lockers' live price, exact dimensions, availability and operator-specific aggregate capacity remain unverified. The guide tells readers to use the kiosk and does not publish a guessed figure.
 - Subway locker availability is not guaranteed by the public directory; the guide retains an on-site availability warning.
