@@ -118,7 +118,8 @@ Target URL: `/ja/guides/busan-with-kids/`
 - The most consistent problem is not a lack of attractions; it is overloading a short stay with distant areas.
 - Japanese family travel has an identifiable content gap: EN and zh-TW family guides existed, but there was no JA equivalent and no Japanese hreflang destination.
 - The Japanese page is adapted for Japanese search language and practical questions: `釜山 子連れ旅行`, `釜山 子連れ 2泊3日`, `ベビーカー 釜山 地下鉄`, and `釜山 親子旅行`. These are intent phrases, not measured search-volume claims.
-- The page explains arrival/departure-day limits, Haeundae vs Seomyeon vs Nampo as accommodation choices, area grouping, stroller/transfer checks, a Korean non-spicy request phrase, meal/rest planning, weather backups and a flexible three-day framework.
+- The page explains arrival/departure-day limits, Haeundae vs Seomyeon vs Nampo as accommodation choices, area grouping, stroller/transfer checks, Korean phrases for non-spicy food and asking about a child seat, meal/rest planning, weather backups and a flexible three-day framework.
+- The child-seat phrase was added after the July Reddit family report noted that high chairs were unavailable in many restaurants. The page says availability differs by venue and tells visitors to ask before arriving; it does not claim that all restaurants lack high chairs.
 - It does not name a restaurant as personally visited, claim that a facility suits every age, or introduce variable prices, hours, transit schedules or reservation facts.
 - Existing KTX/SRT guidance remains the integrated rail guide; this work does not create a separate SRT process.
 - The existing EN and zh-TW pages remain the source equivalents; no duplicate URL or new itinerary intent was created.
