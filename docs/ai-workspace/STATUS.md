@@ -515,3 +515,13 @@ Applied a second grouped pass on the existing homepage design branch:
 - Added Japanese drone-show page, reciprocal EN/JA/zh-TW hreflang links, sitemap entries, search-index entries, and Japanese guide-directory link.
 - Draft PR only. No merge, deployment, SNS publishing or schedule change performed by this batch.
 - Exact-head CI and browser screenshot QA at 360 / 390 / 768 / 1280 remain required.
+
+
+## GoodDay Unse contextual recommendation cards — 2026-11-15 (ChatGPT, issue #470)
+
+- Draft PR #471: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/471
+- Added six contextual cards: EN local-culture + local-traits; zh-TW local-culture + local-traits; JA food-stories + food-etiquette (the proposed JA local-culture/dialect slugs do not exist in the current tree).
+- Links are language-matched to GoodDay Unse tarot and Korean-name pages; zh-TW also links to K-Saju. Every destination carries the agreed source / medium / campaign / page-slug UTM values.
+- No global header/footer/menu placement, homepage placement, affiliate claim, canonical/hreflang, sitemap, search-index, JSON-LD, consent, or existing affiliate-link changes.
+- A compact warm-paper card style was added to the shared stylesheet; mobile actions stack vertically.
+- Source-level review only. Build, required audits, outbound HTTP 200 checks, and 360/390/768/1280 browser QA remain pending. PR is Draft; no merge or deployment.

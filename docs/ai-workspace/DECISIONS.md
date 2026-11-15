@@ -1,3 +1,11 @@
+## 2026-11-15 — Contextual GoodDay Unse cross-promotion (issue #470)
+
+- **Decision:** Test GoodDay Unse as a contextual Korean-culture recommendation on existing Go2Busan culture-related guides, not as a global navigation item or site merge.
+- **Placements:** Two pages per language (EN, JA, zh-TW). Use only pages whose subject naturally supports a Korean tarot, Korean-name or K-Saju experience. The JA site lacks exact local-culture/dialect slug counterparts, so use its existing food-stories and food-etiquette guides.
+- **Tracking:** Use `utm_source=go2busan&utm_medium=referral&utm_campaign=kculture_card&utm_content=<page-slug>` on each outbound destination. No affiliate or paid-product claim.
+- **Design:** Compact, visually secondary editorial card; mobile-first stacked links; no header/footer/homepage-wide placement.
+- **Release condition:** Keep Draft until build, all required audits, destination HTTP checks and responsive browser QA pass. Owner approval required before merge/deploy.
+
 ## 2026-11-14 — Agoda hotel search affiliate integration
 
 - **Decision:** Use the project-owner-supplied Agoda partner-search URLs (CID 1979955, Busan city 17172) in localized EN, JA, and zh-TW accommodation decision points. Preserve the exact partner CID, city ID, and locale parameter; do not invent property-specific deep links.

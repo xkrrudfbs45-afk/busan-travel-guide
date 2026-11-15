@@ -553,3 +553,22 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Added Japanese drone-show page, reciprocal EN/JA/zh-TW hreflang links, sitemap entries, search-index entries, and Japanese guide-directory link.
 - Draft PR only. No merge, deployment, SNS publishing or schedule change performed by this batch.
 - Exact-head CI and browser screenshot QA at 360 / 390 / 768 / 1280 remain required.
+
+
+## Current handoff — GoodDay Unse K-culture cards (2026-11-15, ChatGPT)
+
+### Completed
+- Opened Draft PR #471 for issue #470: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/471
+- Added six contextual placements across EN / JA / zh-TW existing culture-related guides, two per language.
+- Added localized card copy and restrained mobile-first styling. Links use the exact GoodDay Unse locale destinations and agreed UTM structure.
+- Existing global navigation, canonical/hreflang, sitemap, search index, JSON-LD, analytics consent and affiliate URLs were left untouched.
+
+### Verification still required
+1. Run `sh scripts/build-static.sh` and every audit listed in `.github/workflows/seo-audit.yml` on the exact PR head.
+2. Verify every linked GoodDay Unse destination returns HTTP 200 and retains UTM parameters after redirects.
+3. Browser QA at 360 / 390 / 768 / 1280 px for card wrapping, contrast, focus visibility and existing booking CTA hierarchy.
+4. Confirm card placement and localized wording in rendered EN / JA / zh-TW pages.
+
+### Release boundary
+- PR #471 is Draft and unmerged. No production deployment, site-wide placement, or reverse-direction GoodDay Unse → Go2Busan change was made.
+- Owner approval is required before merge/deployment.
