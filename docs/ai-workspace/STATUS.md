@@ -536,3 +536,12 @@ Applied a second grouped pass on the existing homepage design branch:
 - UTM content now differentiates destination type with `<page-slug>-2027` and `<page-slug>-saju`.
 - Increased card eyebrow from 9px to 11px, body copy from 12px to 14px, and link text from 11px to 13px; emphasized the first 2027 link.
 - PR remains Draft. Claude should recheck actual destination responses, exact-head CI/audits, and 360/390/768/1280 layout. No merge or production deploy.
+
+
+## Haeundae local food expansion — 2026-11-16
+
+- Draft PR adds bokguk and gukbap coverage to the existing EN / JA / zh-TW Haeundae food guide; no duplicate guide URLs created.
+- Added Geumsubokguk and Park Okhee Halmaejip Original Bokguk using Visit Busan listing addresses; added Haeundae Wonjo Halmae Gukbap as a local recommendation at 33 Gunam-ro 21beon-gil. The similarly named listing at number 27 is explicitly distinguished.
+- Added a licensed Wikimedia Commons Busan bokguk image (Junho Jung, CC BY-SA 3.0) with visible attribution; it is identified as illustrative, not a photo of a named restaurant.
+- Updated search-index tags and the Busan map generator / generated map with two additional Haeundae restaurant pins. Existing Geumsubokguk pin now links to the Haeundae guide.
+- Build, SEO audits, generated-map reproducibility, outbound link checks, and mobile screenshot QA remain pending on the PR head. Draft only; no merge or deployment without owner approval.
