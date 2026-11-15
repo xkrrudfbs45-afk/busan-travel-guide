@@ -130,6 +130,7 @@ Target URL: `/ja/guides/busan-with-kids/`
 - Selected `Haeundae_Busan_South_Korea_01.jpg` (Hankook12), photographed 2024-02-09. The Commons file page was checked on 2026-11-15: CC0 1.0, commercial reuse permitted, and no South Korea panorama warning shown.
 - Added the file to `assets/data/image-credits.json` with its source URL, author, licence, commercial-use flag and check date.
 - Registered the image in `content/images/cover-photos.json` with Japanese alt/caption and `og: true`; the shared build pipeline emits 640/1000/1600px responsive sources, intrinsic dimensions, `fetchpriority=high`, async decoding and localized author/licence credit.
+- The same CI image audit found a cover/OG mismatch on the priority zh-TW `taiwan-travelers-busan` guide (Haeundae cover vs Yeongdo OG). The cover and OG/Twitter images are now aligned to the same 2024 CC0 Haeundae photo through the shared responsive cover manifest, removing one additional use of the older Haeundae file with the South Korea architecture warning.
 - The current pipeline uses resized JPEGs; it does not convert this external Wikimedia source to WebP/AVIF. No new image was generated or downloaded. Actual browser crop/focal-point inspection remains outstanding.
 
 ## Change set
