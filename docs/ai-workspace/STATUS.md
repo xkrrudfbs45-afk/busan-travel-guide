@@ -434,3 +434,39 @@ Applied a second grouped pass on the existing homepage design branch:
 - No new content PR was justified by the small country/query samples; the late-arrival and practical local-experience updates are already integrated in main and the latest Render deploy.
 - Next technical priority: isolate the mobile homepage LCP / image payload / render-blocking CSS and accessibility findings, then rerun Lighthouse when sufficient audit credits are available. Do not replace images without checking location match and commercial-use rights.
 - No SNS post, schedule, LIVE setting, affiliate agreement, GA4 consent setting, secret, merge, or deployment was changed by this run.
+
+
+## Growth / content / image operations review — 2026-11-15 (ChatGPT)
+
+### Main-branch integrations verified
+- Latest main commit observed: `f64a1220ea3dea65c3dcdcd8393173ca7bf87de4` (PR #457).
+- PR #449: 10-page airport-limousine / pork-soup ordering / Sky Capsule return guidance batch merged; exact-head Technical SEO audit #43656136316 passed.
+- PR #451: local pork-soup taste context and Busan-specific licensed imagery merged; exact-head Technical SEO audit #43660218648 passed. Community evidence is anecdotal and the page explicitly avoids treating taste preference as a formal style taxonomy.
+- PR #453: Instagram place-specific visual and Japanese card overflow remediation merged; Instagram content tests and Technical SEO audit both passed on exact head.
+- PR #454: Busan Station luggage-locker guidance in three languages merged; exact-head Technical SEO audit #43678346150 passed.
+- PR #456: luggage-guide SEO metadata in EN / JA / zh-TW merged; exact-head Technical SEO audit #43678435408 passed.
+- PR #457: Spa Land English meta-description CTR test merged; exact-head Technical SEO audit #43678546685 passed.
+- PR #458: Busan Station local-walk OG/Twitter photo and four homepage image-size fixes merged; exact-head Technical SEO audit #43680100440 passed.
+- PR #452 was closed unmerged and superseded by the integrated #458. Do not treat #452 as an outstanding release.
+
+### Image operations review (#450 / issue #444)
+- Busan Station social-preview mismatch was addressed by #458 using a subject-matched station-sign photograph with visible CC BY-SA 4.0 credit.
+- Haeundae panorama warning remains a rights/subject-match review, not a finding of infringement. A CC0 Haeundae beach candidate was checked and used only in PR #459's new Japanese family guide and the zh-TW Taiwan-traveller guide; do not bulk-replace other pages without page-by-page crop and subject review.
+- Dongnae north-gate photo remains restricted to current website use pending rights clarification; do not reuse in newspaper/Facebook/Instagram/Threads or paid creative.
+- Instagram visual review identified place/season mismatches and a Nov 25 Japanese card overflow. #453 remediation is merged, but future scheduled sets still require exact-art QA; do not publish or alter schedule state without owner approval.
+- Static image audit is not a substitute for real-browser crop QA. The 11/15 audit's Lighthouse checks were blocked by credits; no numeric LCP result should be inferred.
+
+### Open content / SEO work
+- PR #459 remains Draft/open: adds the Japanese family-travel guide and updates the zh-TW Taiwan guide cover. Its code head passed Technical SEO audit #1456; the later docs-only head has not yet had a separate workflow. Browser QA at 360 / 390 / 1280 and Lighthouse remain unperformed.
+- Growth scan issue #375 flagged non-reciprocal Kkangtong Market food-guide hreflang and sitemap omissions. PR #461 adds reciprocal EN / zh-TW / x-default signals, both localized sitemap URLs, and fixes the EN page's Traditional Chinese language-switch destination. Exact-head Technical SEO audit #1461 passed on head `9170ecdae71834f76f55a15b9f70834b1698932a`; language-switch audit checked 633 links with 0 findings. The Kkangtong-specific reciprocity issue is cleared. The wider audit still reports 14 other canonical URLs missing from sitemap and 6 non-reciprocal pairs on other page groups (Yeongdo, Haeundae food and Busan coffee), which need separate page-by-page repair.
+- The broader site audit still reports sitemap / hreflang / social-image metadata gaps. Fix in measured batches; do not add a Japanese Kkangtong page solely to complete a hreflang set when no localized page exists.
+
+### Next priorities
+1. Re-run the exact-head audit for #461; inspect hreflang reciprocity and sitemap inclusion in the built output.
+2. Complete the visual QA requested in #459 before merge consideration.
+3. Continue the mobile image-delivery work from PR #448: obtain numeric Lighthouse evidence when credits are available and validate image loading / crops at 360 / 390 / 1280.
+4. Continue page-by-page image-rights and subject-match review; preserve visible attribution and do not use AI artwork as documentary photography.
+5. Reconcile the remaining sitemap / hreflang / OG metadata warnings against current main before opening further fixes.
+
+### Release boundary
+- No merge, Render deployment, SNS publishing/scheduling, analytics consent change, credential change, or affiliate-link parameter change performed by this review.
