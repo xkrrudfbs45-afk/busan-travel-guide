@@ -2384,14 +2384,14 @@
       "publish_at_utc": "2026-11-18T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-7-bright-v2",
+        "set": "ig-fresh15-7-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: a clearly visible formation of individual small drones making a simple geometric pattern above a night beach and a lit suspension bridge; show distinct drone points in the sky, no fireworks, no abstract light ribbons, no text. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Gwangalli Beach in Busan: broad crescent sandy beach facing the recognizable Gwangan Bridge across the water. Late-autumn daylight, vertical 4:5, no cherry blossoms, no readable text or logos, no hillside village.",
+          "Stylized editorial illustration of Gwangalli: an urban approach from a Line 2 metro station toward the beachfront, pedestrian crossing and beach direction, no invented station signage. Vertical 4:5, no readable text or logos.",
+          "Stylized editorial illustration of Gwangalli Beach: beachfront café terrace and pedestrian promenade with sea directly beyond and Gwangan Bridge in the distance; no cable car or hillside village. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of the Gwangalli drone show: distinct individual drone lights forming a simple geometric pattern above Gwangalli Beach, with illuminated Gwangan Bridge behind; not a continuous light ribbon, not fireworks, not laser beams. Vertical 4:5 night scene.",
+          "Stylized editorial illustration of a Gwangalli stay: view from a modern beachfront hotel window toward Gwangan Bridge across the water, unmistakably coastal beach view. Vertical 4:5, late-autumn dusk."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2428,8 +2428,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-7",
-        "checked_on": "2026-11-14",
-        "note": "2026-11-14 visual and fact audit: the old card 4 was an abstract light ribbon rather than a visible drone formation. Official Visit Busan's November programme lists 11/21 and 11/28 as the remaining show dates; 11/21 includes a laser show, and weather, strong wind, typhoon or communication conditions can cancel or delay. Exact show times are not stated on the official page.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-18, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261118",
@@ -2444,14 +2444,14 @@
       "publish_at_utc": "2026-11-18T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-7-bright-v2",
+        "set": "ig-fresh15-7-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: a clearly visible formation of individual small drones making a simple geometric pattern above a night beach and a lit suspension bridge; show distinct drone points in the sky, no fireworks, no abstract light ribbons, no text. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Gwangalli Beach in Busan: broad crescent sandy beach facing the recognizable Gwangan Bridge across the water. Late-autumn daylight, vertical 4:5, no cherry blossoms, no readable text or logos, no hillside village.",
+          "Stylized editorial illustration of Gwangalli: an urban approach from a Line 2 metro station toward the beachfront, pedestrian crossing and beach direction, no invented station signage. Vertical 4:5, no readable text or logos.",
+          "Stylized editorial illustration of Gwangalli Beach: beachfront café terrace and pedestrian promenade with sea directly beyond and Gwangan Bridge in the distance; no cable car or hillside village. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of the Gwangalli drone show: distinct individual drone lights forming a simple geometric pattern above Gwangalli Beach, with illuminated Gwangan Bridge behind; not a continuous light ribbon, not fireworks, not laser beams. Vertical 4:5 night scene.",
+          "Stylized editorial illustration of a Gwangalli stay: view from a modern beachfront hotel window toward Gwangan Bridge across the water, unmistakably coastal beach view. Vertical 4:5, late-autumn dusk."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2488,8 +2488,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-7",
-        "checked_on": "2026-11-14",
-        "note": "2026-11-14 visual and fact audit: the old card 4 was an abstract light ribbon rather than a visible drone formation. Official Visit Busan's November programme lists 11/21 and 11/28 as the remaining show dates; 11/21 includes a laser show, and weather, strong wind, typhoon or communication conditions can cancel or delay. Exact show times are not stated on the official page.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-18, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261118",
@@ -2504,14 +2504,14 @@
       "publish_at_utc": "2026-11-18T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-7-bright-v2",
+        "set": "ig-fresh15-7-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: long suspension bridge seen across a calm beach at dusk. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro platform edge with a line-2 colour stripe, no signage text. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: beachfront café terrace facing the sea in daylight. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: a clearly visible formation of individual small drones making a simple geometric pattern above a night beach and a lit suspension bridge; show distinct drone points in the sky, no fireworks, no abstract light ribbons, no text. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: hotel window framing a bridge silhouette. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Gwangalli Beach in Busan: broad crescent sandy beach facing the recognizable Gwangan Bridge across the water. Late-autumn daylight, vertical 4:5, no cherry blossoms, no readable text or logos, no hillside village.",
+          "Stylized editorial illustration of Gwangalli: an urban approach from a Line 2 metro station toward the beachfront, pedestrian crossing and beach direction, no invented station signage. Vertical 4:5, no readable text or logos.",
+          "Stylized editorial illustration of Gwangalli Beach: beachfront café terrace and pedestrian promenade with sea directly beyond and Gwangan Bridge in the distance; no cable car or hillside village. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of the Gwangalli drone show: distinct individual drone lights forming a simple geometric pattern above Gwangalli Beach, with illuminated Gwangan Bridge behind; not a continuous light ribbon, not fireworks, not laser beams. Vertical 4:5 night scene.",
+          "Stylized editorial illustration of a Gwangalli stay: view from a modern beachfront hotel window toward Gwangan Bridge across the water, unmistakably coastal beach view. Vertical 4:5, late-autumn dusk."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2548,8 +2548,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-7",
-        "checked_on": "2026-11-14",
-        "note": "2026-11-14 visual and fact audit: the old card 4 was an abstract light ribbon rather than a visible drone formation. Official Visit Busan's November programme lists 11/21 and 11/28 as the remaining show dates; 11/21 includes a laser show, and weather, strong wind, typhoon or communication conditions can cancel or delay. Exact show times are not stated on the official page.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-18, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/gwangalli-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261118",
@@ -2564,14 +2564,14 @@
       "publish_at_utc": "2026-11-19T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-8-bright-v2",
+        "set": "ig-fresh15-8-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Haeundae Beach shoreline with the tall LCT towers behind the sand and the Dongbaekseom headland at one end; keep the scene recognisably Haeundae, no Gamcheon hillside houses, no Songdo cable car, no lighthouse. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: Haeundae Blue Line Park Sky Capsule cars, small colourful enclosed capsule vehicles running on an elevated coastal rail with visible wheels and track, beach and LCT towers in the background; not cable gondolas, not a tram, no hanging cableway. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: Haeundae Beach promenade with sandy shore, modern LCT towers and a coastal walking path; no hillside village, no cable car, no lighthouse, no Gamcheon houses, no Gwangan Bridge. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding."
+          "Stylized editorial illustration of Haeundae Beach: wide sandy beach and calm sea with recognizable tall LCT towers behind the shoreline. Vertical 4:5, late-autumn daylight, no cherry blossoms.",
+          "Stylized editorial illustration of Busan transit to Haeundae: two metro line colours meeting at a central transfer diagram, urban station context, no beach or coastal scenery. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Beach: long sandy shoreline, LCT towers and Dongbaekseom wooded headland visible together; no Gamcheon houses, Songdo cable car or lighthouse. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Blue Line Park: small colourful enclosed Sky Capsule cars on an elevated coastal rail with visible wheels and track above the shoreline, LCT towers in the distance; not hanging gondolas, cableway or street tram. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Beach promenade: sandy shore, modern LCT towers and coastal walking path with sea clearly visible; no hillside village, cable car, lighthouse, Gamcheon houses or Gwangan Bridge. Vertical 4:5."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2608,8 +2608,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-8",
-        "checked_on": "2026-11-13",
-        "note": "2026-11-14 visual audit: cards 3-5 used mixed coastal and hillside scenes resembling other Busan districts, not Haeundae. This draft proposes Haeundae-specific beach, LCT and Sky Capsule illustrations; no existing asset is replaced unless this PR is merged and the new render passes QA.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-19, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261119",
@@ -2624,14 +2624,14 @@
       "publish_at_utc": "2026-11-19T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-8-bright-v2",
+        "set": "ig-fresh15-8-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Haeundae Beach shoreline with the tall LCT towers behind the sand and the Dongbaekseom headland at one end; keep the scene recognisably Haeundae, no Gamcheon hillside houses, no Songdo cable car, no lighthouse. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: Haeundae Blue Line Park Sky Capsule cars, small colourful enclosed capsule vehicles running on an elevated coastal rail with visible wheels and track, beach and LCT towers in the background; not cable gondolas, not a tram, no hanging cableway. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: Haeundae Beach promenade with sandy shore, modern LCT towers and a coastal walking path; no hillside village, no cable car, no lighthouse, no Gamcheon houses, no Gwangan Bridge. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding."
+          "Stylized editorial illustration of Haeundae Beach: wide sandy beach and calm sea with recognizable tall LCT towers behind the shoreline. Vertical 4:5, late-autumn daylight, no cherry blossoms.",
+          "Stylized editorial illustration of Busan transit to Haeundae: two metro line colours meeting at a central transfer diagram, urban station context, no beach or coastal scenery. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Beach: long sandy shoreline, LCT towers and Dongbaekseom wooded headland visible together; no Gamcheon houses, Songdo cable car or lighthouse. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Blue Line Park: small colourful enclosed Sky Capsule cars on an elevated coastal rail with visible wheels and track above the shoreline, LCT towers in the distance; not hanging gondolas, cableway or street tram. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Beach promenade: sandy shore, modern LCT towers and coastal walking path with sea clearly visible; no hillside village, cable car, lighthouse, Gamcheon houses or Gwangan Bridge. Vertical 4:5."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2668,8 +2668,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-8",
-        "checked_on": "2026-11-13",
-        "note": "2026-11-14 visual audit: cards 3-5 used mixed coastal and hillside scenes resembling other Busan districts, not Haeundae. This draft proposes Haeundae-specific beach, LCT and Sky Capsule illustrations; no existing asset is replaced unless this PR is merged and the new render passes QA.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-19, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261119",
@@ -2684,14 +2684,14 @@
       "publish_at_utc": "2026-11-19T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-8-bright-v2",
+        "set": "ig-fresh15-8-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: wide sandy beach with high-rise towers behind it. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: two metro line colours meeting at a transfer arrow. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: Haeundae Beach shoreline with the tall LCT towers behind the sand and the Dongbaekseom headland at one end; keep the scene recognisably Haeundae, no Gamcheon hillside houses, no Songdo cable car, no lighthouse. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: Haeundae Blue Line Park Sky Capsule cars, small colourful enclosed capsule vehicles running on an elevated coastal rail with visible wheels and track, beach and LCT towers in the background; not cable gondolas, not a tram, no hanging cableway. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: Haeundae Beach promenade with sandy shore, modern LCT towers and a coastal walking path; no hillside village, no cable car, no lighthouse, no Gamcheon houses, no Gwangan Bridge. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding."
+          "Stylized editorial illustration of Haeundae Beach: wide sandy beach and calm sea with recognizable tall LCT towers behind the shoreline. Vertical 4:5, late-autumn daylight, no cherry blossoms.",
+          "Stylized editorial illustration of Busan transit to Haeundae: two metro line colours meeting at a central transfer diagram, urban station context, no beach or coastal scenery. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Beach: long sandy shoreline, LCT towers and Dongbaekseom wooded headland visible together; no Gamcheon houses, Songdo cable car or lighthouse. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Blue Line Park: small colourful enclosed Sky Capsule cars on an elevated coastal rail with visible wheels and track above the shoreline, LCT towers in the distance; not hanging gondolas, cableway or street tram. Vertical 4:5.",
+          "Stylized editorial illustration of Haeundae Beach promenade: sandy shore, modern LCT towers and coastal walking path with sea clearly visible; no hillside village, cable car, lighthouse, Gamcheon houses or Gwangan Bridge. Vertical 4:5."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2728,8 +2728,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-8",
-        "checked_on": "2026-11-13",
-        "note": "2026-11-14 visual audit: cards 3-5 used mixed coastal and hillside scenes resembling other Busan districts, not Haeundae. This draft proposes Haeundae-specific beach, LCT and Sky Capsule illustrations; no existing asset is replaced unless this PR is merged and the new render passes QA.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-19, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/haeundae-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261119",
@@ -2744,14 +2744,14 @@
       "publish_at_utc": "2026-11-20T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-9-bright",
+        "set": "ig-fresh15-9-locality-v2",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Nampo-dong old downtown Busan: compact pedestrian shopping street with Korean low-rise storefronts and layered awnings typical of Gwangbok-ro; no beach, Gwangan Bridge or Marine City skyline. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of Jagalchi Market in Busan: covered urban fish-market setting with seafood tanks, fresh fish counters and market roof structure; no open-ocean panorama, yacht harbour or luxury marina. Vertical 4:5.",
+          "Stylized editorial illustration of BIFF Square in Nampo-dong: pedestrian food-stall lane with Korean street-food griddle and a small queue, intimate old-downtown street scale; no generic lantern night market or coastal scenery. Vertical 4:5.",
+          "Stylized editorial illustration of Gwangbok-ro shopping street: walkable downtown retail street with close storefronts and pedestrian paving; no beach, bridge, hillside village or waterfront skyline. Vertical 4:5, late-autumn afternoon.",
+          "Stylized editorial illustration of Yongdusan Park: Busan Tower rising above compact Nampo-dong rooftops from a green hillside park viewpoint; recognizable slender observation tower, not suspension bridge, cable car or generic pagoda. Vertical 4:5, late-autumn foliage."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2788,8 +2788,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-9",
-        "checked_on": "2026-11-13",
-        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-20, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261120",
@@ -2804,14 +2804,14 @@
       "publish_at_utc": "2026-11-20T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-9-bright",
+        "set": "ig-fresh15-9-locality-v2",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Nampo-dong old downtown Busan: compact pedestrian shopping street with Korean low-rise storefronts and layered awnings typical of Gwangbok-ro; no beach, Gwangan Bridge or Marine City skyline. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of Jagalchi Market in Busan: covered urban fish-market setting with seafood tanks, fresh fish counters and market roof structure; no open-ocean panorama, yacht harbour or luxury marina. Vertical 4:5.",
+          "Stylized editorial illustration of BIFF Square in Nampo-dong: pedestrian food-stall lane with Korean street-food griddle and a small queue, intimate old-downtown street scale; no generic lantern night market or coastal scenery. Vertical 4:5.",
+          "Stylized editorial illustration of Gwangbok-ro shopping street: walkable downtown retail street with close storefronts and pedestrian paving; no beach, bridge, hillside village or waterfront skyline. Vertical 4:5, late-autumn afternoon.",
+          "Stylized editorial illustration of Yongdusan Park: Busan Tower rising above compact Nampo-dong rooftops from a green hillside park viewpoint; recognizable slender observation tower, not suspension bridge, cable car or generic pagoda. Vertical 4:5, late-autumn foliage."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -2848,8 +2848,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-9",
-        "checked_on": "2026-11-13",
-        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-20, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261120",
@@ -2864,14 +2864,14 @@
       "publish_at_utc": "2026-11-20T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-9-bright",
+        "set": "ig-fresh15-9-locality-v2",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: old downtown shopping street with layered shop awnings. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: metro line heading south toward a harbor. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: street-food stall steam rising under market lights. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: seafood on ice beside a scale, no prices shown. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: harbor map linking an island bridge and a hillside village. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Nampo-dong old downtown Busan: compact pedestrian shopping street with Korean low-rise storefronts and layered awnings typical of Gwangbok-ro; no beach, Gwangan Bridge or Marine City skyline. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of Jagalchi Market in Busan: covered urban fish-market setting with seafood tanks, fresh fish counters and market roof structure; no open-ocean panorama, yacht harbour or luxury marina. Vertical 4:5.",
+          "Stylized editorial illustration of BIFF Square in Nampo-dong: pedestrian food-stall lane with Korean street-food griddle and a small queue, intimate old-downtown street scale; no generic lantern night market or coastal scenery. Vertical 4:5.",
+          "Stylized editorial illustration of Gwangbok-ro shopping street: walkable downtown retail street with close storefronts and pedestrian paving; no beach, bridge, hillside village or waterfront skyline. Vertical 4:5, late-autumn afternoon.",
+          "Stylized editorial illustration of Yongdusan Park: Busan Tower rising above compact Nampo-dong rooftops from a green hillside park viewpoint; recognizable slender observation tower, not suspension bridge, cable car or generic pagoda. Vertical 4:5, late-autumn foliage."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -2908,8 +2908,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-9",
-        "checked_on": "2026-11-13",
-        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-20, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261120",
@@ -2924,14 +2924,14 @@
       "publish_at_utc": "2026-11-21T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-10-bright",
+        "set": "ig-fresh15-10-locality-v2",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Seomyeon, Busan: dense central-city intersection with mid-rise commercial buildings, pedestrians and storefronts, distinctly inland; no beach, sea, bridge or coastal skyline. Vertical 4:5.",
+          "Stylized editorial illustration of Seomyeon Station: two metro routes meeting at a central underground transfer concourse, clear crossing line-colour motif; no coastal scenery, readable station names or invented signs. Vertical 4:5.",
+          "Stylized editorial illustration of Seomyeon shopping district: lively urban pedestrian street with Korean fashion storefronts, restaurants and evening lights, dense city blocks; no waterfront, beach promenade or coastal towers. Vertical 4:5.",
+          "Stylized editorial illustration of a Seomyeon hotel approach: realistic sloping side street rising from a busy central commercial road toward a modest hotel entrance, pedestrians with luggage; no seaside view or mountain village. Vertical 4:5.",
+          "Stylized editorial illustration of Busan local food in Seomyeon: one steaming bowl of dwaeji-gukbap with side condiments beside a bowl of milmyeon cold wheat noodles; no ramen, sushi or generic Asian noodle soup. Vertical 4:5."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -2968,8 +2968,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-10",
-        "checked_on": "2026-11-13",
-        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-21, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261121",
@@ -2984,14 +2984,14 @@
       "publish_at_utc": "2026-11-21T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-10-bright",
+        "set": "ig-fresh15-10-locality-v2",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Seomyeon, Busan: dense central-city intersection with mid-rise commercial buildings, pedestrians and storefronts, distinctly inland; no beach, sea, bridge or coastal skyline. Vertical 4:5.",
+          "Stylized editorial illustration of Seomyeon Station: two metro routes meeting at a central underground transfer concourse, clear crossing line-colour motif; no coastal scenery, readable station names or invented signs. Vertical 4:5.",
+          "Stylized editorial illustration of Seomyeon shopping district: lively urban pedestrian street with Korean fashion storefronts, restaurants and evening lights, dense city blocks; no waterfront, beach promenade or coastal towers. Vertical 4:5.",
+          "Stylized editorial illustration of a Seomyeon hotel approach: realistic sloping side street rising from a busy central commercial road toward a modest hotel entrance, pedestrians with luggage; no seaside view or mountain village. Vertical 4:5.",
+          "Stylized editorial illustration of Busan local food in Seomyeon: one steaming bowl of dwaeji-gukbap with side condiments beside a bowl of milmyeon cold wheat noodles; no ramen, sushi or generic Asian noodle soup. Vertical 4:5."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -3028,8 +3028,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-10",
-        "checked_on": "2026-11-13",
-        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-21, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261121",
@@ -3044,14 +3044,14 @@
       "publish_at_utc": "2026-11-21T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-10-bright",
+        "set": "ig-fresh15-10-locality-v2",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: two metro lines crossing at a central hub. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: split arrow pointing to an old harbor and a beach. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: busy city street with restaurant lights after dark. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: station exit stairs leading to an uphill street. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: bowl of pork-and-rice soup beside a bowl of cold wheat noodles. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Seomyeon, Busan: dense central-city intersection with mid-rise commercial buildings, pedestrians and storefronts, distinctly inland; no beach, sea, bridge or coastal skyline. Vertical 4:5.",
+          "Stylized editorial illustration of Seomyeon Station: two metro routes meeting at a central underground transfer concourse, clear crossing line-colour motif; no coastal scenery, readable station names or invented signs. Vertical 4:5.",
+          "Stylized editorial illustration of Seomyeon shopping district: lively urban pedestrian street with Korean fashion storefronts, restaurants and evening lights, dense city blocks; no waterfront, beach promenade or coastal towers. Vertical 4:5.",
+          "Stylized editorial illustration of a Seomyeon hotel approach: realistic sloping side street rising from a busy central commercial road toward a modest hotel entrance, pedestrians with luggage; no seaside view or mountain village. Vertical 4:5.",
+          "Stylized editorial illustration of Busan local food in Seomyeon: one steaming bowl of dwaeji-gukbap with side condiments beside a bowl of milmyeon cold wheat noodles; no ramen, sushi or generic Asian noodle soup. Vertical 4:5."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3088,8 +3088,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-10",
-        "checked_on": "2026-11-13",
-        "note": "Bright-theme cards reviewed on instagram-state b91033d (all 5 cards per post): copy matches the linked guide, AI illustration label on every card, stylised art only, no readable text or logos in the art; guide_url and bio link are existing pages in the same language. Template v2 adds a label pill and earlier cream fade (layout QA locally 0 issues).",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-21, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/seomyeon-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261121",
@@ -3704,7 +3704,7 @@
       "publish_at_utc": "2026-11-25T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-14-bright",
+        "set": "ig-fresh15-14-jp-locality-v2",
         "stylized": true,
         "prompts": [
           "Stylized editorial Busan travel illustration, card 1/5: bowl of pork soup with small side dishes of condiments. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
@@ -3748,8 +3748,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-14",
-        "checked_on": "2026-11-13",
-        "note": "2026-11-14: the current state-branch QA file still flags card 5 body width. Manual image review shows the phrase is readable but long; this draft shortens the Japanese gloss. Re-render and fresh QA must pass before the scheduled post can publish; the fail-closed publisher gate remains active.",
+        "checked_on": "2026-11-15",
+        "note": "Japanese card 5 gloss shortened on 2026-11-15. Existing state-branch QA still reports horizontal overflow; fresh render and qa.json ok=true are mandatory before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/food-etiquette/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261125",
@@ -3824,14 +3824,14 @@
       "publish_at_utc": "2026-11-26T17:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-15-bright-v2",
+        "set": "ig-fresh15-15-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: a small open-air multi-car sightseeing shuttle tram on a winding coastal park road, low-speed park vehicle with connected passenger carriages and open sides; not a steam locomotive, not a commuter subway, no railway station. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Taejongdae, Busan: rugged coastal cliffs, pine-covered headland and a lighthouse above open sea; no city skyline, suspension bridge or cable car. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of the Taejongdae Danubi sightseeing train: small low-speed open-sided multi-car park shuttle with connected passenger carriages on a winding coastal park road; clearly a park sightseeing vehicle, not a steam locomotive or commuter train. Vertical 4:5.",
+          "Stylized editorial illustration of Taejongdae: narrow walking path through dense coastal pine trees with rugged sea cliffs visible beyond the railing; no city buildings, bridge or bus stop. Vertical 4:5, late-autumn foliage.",
+          "Stylized editorial illustration of a Taejongdae viewpoint: safe public lookout over rocky coastline and open sea, pine branches framing the view and a distant lighthouse; no Marine City skyline or Gwangan Bridge. Vertical 4:5.",
+          "Stylized editorial illustration of the Taejongdae Danubi train: open-sided connected sightseeing shuttle cars on a curving park road bordered by pine forest, sea visible between trees; not a city bus, locomotive or subway. Vertical 4:5."
         ],
         "credit": "Illustration: AI-generated · Go2Busan"
       },
@@ -3868,8 +3868,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-15",
-        "checked_on": "2026-11-13",
-        "note": "2026-11-14 visual audit: the old card 2 train looked like a generic locomotive. This draft proposes a low-speed open-sided coastal park shuttle illustration; no existing asset is replaced unless this PR is merged and the new render passes QA.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-26, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126",
@@ -3884,14 +3884,14 @@
       "publish_at_utc": "2026-11-26T03:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-15-bright-v2",
+        "set": "ig-fresh15-15-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: a small open-air multi-car sightseeing shuttle tram on a winding coastal park road, low-speed park vehicle with connected passenger carriages and open sides; not a steam locomotive, not a commuter subway, no railway station. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Taejongdae, Busan: rugged coastal cliffs, pine-covered headland and a lighthouse above open sea; no city skyline, suspension bridge or cable car. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of the Taejongdae Danubi sightseeing train: small low-speed open-sided multi-car park shuttle with connected passenger carriages on a winding coastal park road; clearly a park sightseeing vehicle, not a steam locomotive or commuter train. Vertical 4:5.",
+          "Stylized editorial illustration of Taejongdae: narrow walking path through dense coastal pine trees with rugged sea cliffs visible beyond the railing; no city buildings, bridge or bus stop. Vertical 4:5, late-autumn foliage.",
+          "Stylized editorial illustration of a Taejongdae viewpoint: safe public lookout over rocky coastline and open sea, pine branches framing the view and a distant lighthouse; no Marine City skyline or Gwangan Bridge. Vertical 4:5.",
+          "Stylized editorial illustration of the Taejongdae Danubi train: open-sided connected sightseeing shuttle cars on a curving park road bordered by pine forest, sea visible between trees; not a city bus, locomotive or subway. Vertical 4:5."
         ],
         "credit": "イラスト：AI生成 · Go2Busan"
       },
@@ -3928,8 +3928,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-15",
-        "checked_on": "2026-11-13",
-        "note": "2026-11-14 visual audit: the old card 2 train looked like a generic locomotive. This draft proposes a low-speed open-sided coastal park shuttle illustration; no existing asset is replaced unless this PR is merged and the new render passes QA.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-26, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/ja/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126",
@@ -3944,14 +3944,14 @@
       "publish_at_utc": "2026-11-26T04:00:00.000Z",
       "art": {
         "type": "ai",
-        "set": "ig-fresh15-15-bright-v2",
+        "set": "ig-fresh15-15-locality-v3",
         "stylized": true,
         "prompts": [
-          "Stylized editorial Busan travel illustration, card 1/5: sea cliffs and a lighthouse on a wooded coastal headland. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 2/5: a small open-air multi-car sightseeing shuttle tram on a winding coastal park road, low-speed park vehicle with connected passenger carriages and open sides; not a steam locomotive, not a commuter subway, no railway station. Vertical 4:5 composition, bright cheerful daytime palette of sky blue, turquoise, sunny yellow, coral and cream, clear daylight, airy and lively, subtle grain, simplified vector shapes, no readable text, no letters, no numbers, no logos, no signs, no fabricated branding.",
-          "Stylized editorial Busan travel illustration, card 3/5: coastal path with stairs and a gentle slope. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 4/5: visitor stepping aside on a viewpoint to keep the path clear. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding.",
-          "Stylized editorial Busan travel illustration, card 5/5: return route arrow looping back to a bus stop. Vertical 4:5 composition, bright, cheerful daytime palette of sky blue, turquoise sea, sunny yellow and coral with soft white highlights, airy and lively mood, strong single focal point, no readable text, no logos, no fabricated business branding."
+          "Stylized editorial illustration of Taejongdae, Busan: rugged coastal cliffs, pine-covered headland and a lighthouse above open sea; no city skyline, suspension bridge or cable car. Vertical 4:5, late-autumn daylight.",
+          "Stylized editorial illustration of the Taejongdae Danubi sightseeing train: small low-speed open-sided multi-car park shuttle with connected passenger carriages on a winding coastal park road; clearly a park sightseeing vehicle, not a steam locomotive or commuter train. Vertical 4:5.",
+          "Stylized editorial illustration of Taejongdae: narrow walking path through dense coastal pine trees with rugged sea cliffs visible beyond the railing; no city buildings, bridge or bus stop. Vertical 4:5, late-autumn foliage.",
+          "Stylized editorial illustration of a Taejongdae viewpoint: safe public lookout over rocky coastline and open sea, pine branches framing the view and a distant lighthouse; no Marine City skyline or Gwangan Bridge. Vertical 4:5.",
+          "Stylized editorial illustration of the Taejongdae Danubi train: open-sided connected sightseeing shuttle cars on a curving park road bordered by pine forest, sea visible between trees; not a city bus, locomotive or subway. Vertical 4:5."
         ],
         "credit": "插畫：AI 生成 · Go2Busan"
       },
@@ -3988,8 +3988,8 @@
       "verification": {
         "status": "verified",
         "register": "ig-fresh15-15",
-        "checked_on": "2026-11-13",
-        "note": "2026-11-14 visual audit: the old card 2 train looked like a generic locomotive. This draft proposes a low-speed open-sided coastal park shuttle illustration; no existing asset is replaced unless this PR is merged and the new render passes QA.",
+        "checked_on": "2026-11-15",
+        "note": "Locality remediation 2026-11-15: new place-specific artwork for 2026-11-26, shared across EN/JA/zh-TW. Existing state-branch artwork remains unchanged; fresh render and passing image QA required before publication.",
         "approved_by": "탁경륜 2026-11-13 (\"올려줘\", \"진행\")"
       },
       "bio_link_url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=instagram&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126",
