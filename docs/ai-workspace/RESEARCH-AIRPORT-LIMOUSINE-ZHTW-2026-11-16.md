@@ -6,9 +6,9 @@ Base commit: `ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03`
 
 ## Why this change
 
-The Traditional Chinese page said Airport Limousine 1 ran from 07:10 to 21:40 as though it were one continuous Haeundae service, and described payment as credit-card-only. The official Busan City timetable separates Airport Limousine 1 into Gijang and Jangsan operating patterns. The official payment instructions also allow Bustago QR reservations, airport kiosk tickets, and transit-card or credit-card boarding when seats remain. Cash is not accepted.
+The Traditional Chinese page gave the combined 07:10–21:40 window without clearly explaining the two Airport Limousine 1 destinations, and described payment as credit-card-only. The official Busan City timetable separates the airport departures into Jangsan and Gijang patterns: 07:10 / 16:50 for Jangsan, and 10:10 / 21:40 for Gijang. Both patterns run through the Haeundae area, but the terminal destination differs; travellers continuing to the East Busan Tourism Complex or Gijang need the Gijang pattern. The official payment instructions allow Bustago QR reservations, airport kiosk tickets, and transit-card or credit-card boarding when seats remain. Cash is not accepted.
 
-These details materially affect Taiwanese visitors choosing a late airport arrival, deciding whether to take a bus to Haeundae, and preparing a payment method.
+These details materially affect Taiwanese visitors choosing a late airport arrival, deciding whether they need the Jangsan or Gijang destination, and preparing a payment method.
 
 ## Community and travel-demand signals
 
@@ -34,6 +34,7 @@ These details materially affect Taiwanese visitors choosing a late airport arriv
 1. Busan Metropolitan City, Gimhae Airport Limousine route and fare table (page last updated 2026-01-05): https://www.busan.go.kr/depart/khairportlm
    - Airport Limousine 1 has separate Gijang–Haeundae–Airport and Jangsan–Haeundae–Airport service patterns.
    - Airport-origin first/last times: Gijang pattern 10:10 / 21:40; Jangsan pattern 07:10 / 16:50.
+   - The operator's airport-to-Haeundae/Gijang stop list includes the Haeundae-area stops; the branch destination differs after the shared Haeundae section. Visitors continuing to the East Busan Tourism Complex / Gijang need the Gijang pattern.
    - Adult / youth / child fares: KRW 9,500 / 7,600 / 4,800.
    - No free transfer; cash is not accepted.
    - Bustago app QR reservation, airport ticket kiosk at 1F Gate 4, or transit-card boarding if seats remain.
@@ -46,13 +47,13 @@ These details materially affect Taiwanese visitors choosing a late airport arriv
 ## Page change
 
 Before:
-- One combined 07:10–21:40 window appeared beside Haeundae stops.
-- Payment was described as credit-card-only.
+- The combined time window did not explain the Jangsan and Gijang destination patterns clearly.
+- Payment was described as credit-card-only, omitting Bustago QR, the airport kiosk and transit-card boarding when seats remain.
 - No child-fare, baggage or transfer information was given in this route-specific block.
 
 After:
-- Clearly separates the Gijang and Jangsan airport-origin schedules.
-- Warns readers not to assume 21:40 is the last departure for every Haeundae stop; the exact stop and service pattern must be checked.
+- Clearly separates the Gijang and Jangsan airport-origin schedules and explains that both pass through the Haeundae area but have different terminal destinations.
+- Explains that 21:40 is the Gijang-pattern last departure, while the Jangsan-pattern last departure is 16:50; visitors continuing to Gijang / East Busan need the Gijang pattern.
 - Explains Bustago QR, Gate 4 kiosk, transit-card / credit-card boarding when seats remain, and no cash.
 - Adds youth/child fares, preschool-child rule, luggage allowance and no free transfer.
 - Adds Busan City's route-and-timetable page alongside the English notice and airport page.
@@ -73,5 +74,6 @@ Expected value: fewer missed-service and payment surprises, better confidence ch
 - The change is limited to the existing Traditional Chinese airport-to-Haeundae guide and this research note. EN and JA pages were checked and already distinguish the two service patterns.
 - CI must run against the exact PR head. No local repository build was run in this environment.
 - Actual browser checks at 360 px, 390 px and 1280 px remain pending; do not describe them as completed.
-- Stop-level timetables and service patterns can change. The official city page was last updated 2026-01-05; visitors should verify their exact stop and departure on the travel date.
+- Stop-level timetables and service patterns can change. The official city page was last updated 2026-01-05; visitors should verify their exact stop and destination on the travel date.
+- Boarding-platform information is inconsistent across third-party Taiwan travel pages (one says 2, others say 3); the current edit therefore retains the terminal floor and Gate 4 ticket-kiosk location but tells readers to follow the airport's current terminal signage instead of hard-coding a platform number.
 - No GA4/GSC query was run in this automation pass. No SNS posts or schedules were changed.
