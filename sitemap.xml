@@ -566,6 +566,24 @@
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-with-kids/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-with-kids/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/busan-with-kids/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-with-kids/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-with-kids/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-with-kids/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-with-kids/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-spa-land-guide/</loc>
