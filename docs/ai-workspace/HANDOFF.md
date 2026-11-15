@@ -1,3 +1,11 @@
+## Current handoff — contrast remediation — 2026-11-15 (Claude, issue #462)
+
+- Branch `claude/issue-462-20261115-1241`, Draft PR against main. CSS-only: `assets/homepage-showcase.css`, `assets/styles.css`. No copy, URL, metadata, analytics, consent, affiliate or SNS changes.
+- Contrast (computed WCAG ratios): CTA white text `#e97861` 2.87 -> `#c4492f` 4.84; hover `#d96550` 3.54 -> `#a63a24` 6.46. Kicker on `#faf8f4`: `#b76552` 3.96 and `#d36552` 3.44 -> `#a8412c` 5.73 (both rules). Breadcrumb links keep `#52677a` (5.87 on white) and now have a persistent 1px underline, 3px offset, 2px on hover, plus a visible `:focus-visible` outline.
+- `--show-coral` also feeds the search button and arrow hover fill; both get darker, which is intended.
+- Verification: `sh scripts/build-static.sh` and every audit in seo-audit.yml run on this head, 0 errors (existing WARN/INFO unchanged).
+- Not done: axe re-run, 360/390/1280 screenshots and keyboard/hover QA were not performed (no browser automation driver in this runner). Secondary CTA and mobile nav CSS were read but not changed. `.article-hero .breadcrumbs` (styles.css ~1328) sets non-link breadcrumb text to `#7a8798` (about 3.6:1, not 4.5:1); out of this issue's scope, left as a follow-up. No merge or deploy.
+
 ## Current handoff — luggage metadata (2026-11-15, Claude, issue #455)
 
 - Branch `claude/issue-455-20261115-0447`, Draft PR against main. Based on main, not on PR #454; #454 untouched.
