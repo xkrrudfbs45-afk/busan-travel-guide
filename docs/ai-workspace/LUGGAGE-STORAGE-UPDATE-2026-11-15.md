@@ -37,7 +37,7 @@ Update the existing EN, JA and zh-TW luggage-storage guides rather than create a
   - Line 1 extra-large locker: 43 × 90 × 60 cm (width × height × depth), base price KRW 6,000. Time-based charges vary by line; the kiosk remains the final price source.
 - [Busan CBS, 26 July 2026](https://bs.nocutnews.co.kr/news/6553408): reports that blue extra-large lockers were added to the 2F waiting hall (바다맞이방) at KTX Busan Station and began operating on 24 July 2026.
 - [Busan Ilbo, 26 July 2026](https://v.daum.net/v/20260726181904782): independently reports the 2F installation. Other local reporting on 31 July attributes a separate 144-unit installation to Korail Distribution, with a different total. The operator/scope and totals are not sufficiently reconciled; this update deliberately does not quote an aggregate locker count or an unverified price for the new KTX bank.
-- The 2F KTX locker bank, the 1F Zimcarry staffed counter and the B1 Line 1 subway locker bank are treated as separate options. The KTX bank's live price and availability must be checked at its kiosk.
+- The 2F KTX locker bank, the 1F Zimcarry staffed counter and the Line 1 subway locker bank are treated as separate options. K-Rambles' station-level guide places the Line 1 lockers on B1 near exits 3, 4 and 6; Busan City's page confirms dimensions and base prices but does not state that exact floor/exit location. The KTX bank's live price and availability must be checked at its kiosk.
 
 ## Changes in this PR
 
