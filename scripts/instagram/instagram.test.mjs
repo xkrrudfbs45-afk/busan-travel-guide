@@ -105,10 +105,18 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
   const bySet = {};
   for (const p of v2) (bySet[p.art.set] ??= []).push(p);
   for (const [set, ps] of Object.entries(bySet)) {
-    assert.equal(ps.length, 3, set);
-    assert.equal(new Set(ps.map((p) => JSON.stringify(p.art.prompts))).size, 1, `${set} backgrounds identical across languages`);
+    // A locale-specific remediation may intentionally split one language into a fresh art set.
+    // Keep the original set's remaining locales together and require each split set to be registered.
+    const expectedCount = set === "ig-fresh15-14-bright" ? 2
+      : set === "ig-fresh15-14-jp-locality-v2" ? 1
+      : 3;
+    assert.equal(ps.length, expectedCount, set);
+    assert.equal(new Set(ps.map((p) => JSON.stringify(p.art.prompts))).size, 1, `${set} backgrounds identical within the art set`);
     assert.equal(new Set(ps.map((p) => p.art.prompts.join("|"))).size, 1);
   }
+  assert.equal(bySet["ig-fresh15-14-bright"].length, 2);
+  assert.equal(bySet["ig-fresh15-14-jp-locality-v2"].length, 1);
+  assert.equal(bySet["ig-fresh15-14-jp-locality-v2"][0].id, "ig-fresh15-1125-jp");
 });
 
 test("art gate limits generation to listed sets", () => {
