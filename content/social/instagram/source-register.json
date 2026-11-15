@@ -221,8 +221,8 @@
         "transport"
       ],
       "recheck": "2026-11-20 and morning of 2026-11-21; 2026-11-27 and morning of 2026-11-28",
-      "checked_on": "2026-11-14",
-      "note": "The 2026-11-18 scheduled post is proposed to name only the remaining November dates; no exact show time is claimed."
+      "checked_on": "2026-11-15",
+      "note": "Visual refresh 2026-11-15: Gwangalli card art shows distinct drone points above Gwangalli Beach and Gwangan Bridge, not abstract ribbons or fireworks. Event facts remain separately sourced and subject to day-of recheck."
     },
     "ig-fresh15-8": {
       "facts": [
@@ -238,7 +238,8 @@
         "fares",
         "service status"
       ],
-      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+      "note": "Visual refresh 2026-11-15: Haeundae card art is limited to Haeundae Beach, LCT, Dongbaekseom and elevated Sky Capsule rail; exclude Songdo/Gamcheon motifs.",
+      "checked_on": "2026-11-15"
     },
     "ig-fresh15-9": {
       "facts": [
@@ -255,7 +256,8 @@
         "fares",
         "service status"
       ],
-      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+      "note": "Visual refresh 2026-11-15: Nampo card art identifies Jagalchi Market, BIFF Square, Gwangbok-ro and Yongdusan/Busan Tower; exclude Gwangan Bridge and Marine City.",
+      "checked_on": "2026-11-15"
     },
     "ig-fresh15-10": {
       "facts": [
@@ -271,7 +273,8 @@
         "fares",
         "service status"
       ],
-      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+      "note": "Visual refresh 2026-11-15: Seomyeon card art is inland dense urban streets and Line 1/2 transfer context; exclude beaches and coastal scenery.",
+      "checked_on": "2026-11-15"
     },
     "ig-fresh15-11": {
       "facts": [
@@ -334,7 +337,8 @@
         "fares",
         "service status"
       ],
-      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+      "note": "Japanese card 5 phrase shortened 2026-11-15; fresh render and passing layout QA required before publication.",
+      "checked_on": "2026-11-15"
     },
     "ig-fresh15-15": {
       "facts": [
@@ -350,7 +354,8 @@
         "fares",
         "service status"
       ],
-      "note": "Localized JA/TW cards draw on the matching /ja/ and /zh-tw/ guides. Checked by Claude 2026-11-12; posts stay draft until owner approval."
+      "note": "Visual refresh 2026-11-15: Taejongdae card art shows cliffs, pine forest, lighthouse and open-sided Danubi park shuttle; exclude Marine City and generic city buses.",
+      "checked_on": "2026-11-15"
     },
     "ig-fresh15-16": {
       "facts": [
