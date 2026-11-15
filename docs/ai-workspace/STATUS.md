@@ -1,3 +1,11 @@
+## Luggage-storage metadata and cover delivery — 2026-11-15 (Claude, issue #455)
+
+- Branch `claude/issue-455-20261115-0447`, Draft PR against main. Based on main, not on PR #454; #454 untouched.
+- Changed only head metadata in EN/JA/zh-TW luggage-storage pages: `<title>`, meta description, og/twitter title+description, og:image:alt (twitter:image:alt is derived at build), Article JSON-LD headline/description. Canonical, hreflang, nav, affiliate, consent and analytics untouched. Descriptions follow the issue's suggested EN/JA/zh-TW text; social descriptions and image alts state that the photo is Busan Central Bus Terminal, not KTX Busan Station.
+- Cover delivery: the build already removes `loading="lazy"`, adds `fetchpriority="high"`, `decoding="async"` and a 640/1000/1600 srcset for article covers, and no `rel="preload"` is emitted, so no double preload. Checked in built EN output. The JA/zh-TW cover figures exist only on the #454 branch, so they were not edited here.
+- Not done: intrinsic `width`/`height` on the cover (the Commons dimensions for `Busan_Central_Bus_Terminal_Locker.jpg` are not in `content/images/cover-photos.json` and could not be fetched here; not guessed). `.article-cover` already has a fixed CSS height, which limits CLS. WebP/AVIF not added: Special:FilePath does not offer it. No KTX locker photo used.
+- Verification: `sh scripts/build-static.sh` and every audit in seo-audit.yml run on this head, 0 errors (existing hreflang/image-reuse WARN/INFO unchanged). No browser, screenshot, LCP/CLS or 360/390/1280 check was performed. No merge or deploy.
+
 # Current task update — Agoda hotel affiliate integration (2026-11-14)
 
 - **Work branch:** feat/agoda-stay-affiliate-ctas-20261114 (PR pending at time of update).
