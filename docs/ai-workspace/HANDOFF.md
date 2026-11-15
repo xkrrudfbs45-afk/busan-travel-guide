@@ -553,3 +553,46 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Added Japanese drone-show page, reciprocal EN/JA/zh-TW hreflang links, sitemap entries, search-index entries, and Japanese guide-directory link.
 - Draft PR only. No merge, deployment, SNS publishing or schedule change performed by this batch.
 - Exact-head CI and browser screenshot QA at 360 / 390 / 768 / 1280 remain required.
+
+
+## Current handoff — GoodDay Unse K-culture cards (2026-11-15, ChatGPT)
+
+### Completed
+- Opened Draft PR #471 for issue #470: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/471
+- Added six contextual placements across EN / JA / zh-TW existing culture-related guides, two per language.
+- Added localized card copy and restrained mobile-first styling. Links use the exact GoodDay Unse locale destinations and agreed UTM structure.
+- Existing global navigation, canonical/hreflang, sitemap, search index, JSON-LD, analytics consent and affiliate URLs were left untouched.
+
+### Verification still required
+1. Run `sh scripts/build-static.sh` and every audit listed in `.github/workflows/seo-audit.yml` on the exact PR head.
+2. Verify every linked GoodDay Unse destination returns HTTP 200 and retains UTM parameters after redirects.
+3. Browser QA at 360 / 390 / 768 / 1280 px for card wrapping, contrast, focus visibility and existing booking CTA hierarchy.
+4. Confirm card placement and localized wording in rendered EN / JA / zh-TW pages.
+
+### Release boundary
+- PR #471 is Draft and unmerged. No production deployment, site-wide placement, or reverse-direction GoodDay Unse → Go2Busan change was made.
+- Owner approval is required before merge/deployment.
+
+
+## Owner-requested revision — GoodDay Unse card priority (2026-11-15)
+
+### Changes made to Draft PR #471
+- All six cards now lead with **2027 New Year fortune**, followed by **Saju**. Tarot removed from all six cards.
+- EN: `/en/2027/` then Saju-based Korean-name experience at `/en/korean-name/`.
+- JA: `/ja/2027/` then Saju-based Korean-name experience at `/ja/korean-name/`.
+- zh-TW: `/tw/2027/` then dedicated `/tw/k-saju/`.
+- Tracking: each destination uses `utm_source=go2busan&utm_medium=referral&utm_campaign=kculture_card&utm_content=<page-slug>-2027` or `<page-slug>-saju`.
+- Six placements and article-end positions preserved. Primary 2027 link has stronger visual emphasis.
+- Typography enlarged: eyebrow 11px, descriptive copy 14px, links 13px.
+
+### Claude verification checklist
+1. Verify every new destination returns HTTP 200, correct locale and valid page content; verify UTM parameters survive redirects.
+2. Run `sh scripts/build-static.sh` and every command in `.github/workflows/seo-audit.yml` on the latest PR head.
+3. Inspect rendered cards at 360 / 390 / 768 / 1280 px, including text wrapping, tap targets, contrast, and article-end placement.
+4. Confirm exactly six cards, two per locale; no tarot URLs remain in these cards; 2027 link precedes Saju link.
+5. Keep PR #471 Draft until owner approval. Do not merge or deploy.
+
+### Separate follow-up proposal — GoodDay Unse
+- Create dedicated localized Saju pages at `/en/k-saju/` and `/ja/k-saju/`, modeled on the existing `/tw/k-saju/` experience but with natural English and Japanese localization.
+- Once live and verified, replace the EN/JA Korean-name second links in Go2Busan PR #471 with those dedicated Saju URLs, retaining the `-saju` UTM suffix.
+- This follow-up is not included in the current Go2Busan PR and must be tracked separately in the GoodDay Unse repository.

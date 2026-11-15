@@ -1,3 +1,20 @@
+## 2026-11-15 — GoodDay Unse promotion priority revision
+
+- **Decision:** Promote Korean Saju and 2027 New Year fortune as the card's primary experience; remove tarot from the six Go2Busan cards.
+- **Order:** 2027 New Year fortune first and visually emphasized; Saju second. EN/JA use the birth-date Saju-based Korean-name experience until dedicated localized Saju pages exist. zh-TW uses its dedicated K-Saju page.
+- **Tracking:** Separate link types with `utm_content=<page-slug>-2027` and `<page-slug>-saju`, retaining source, medium and campaign values.
+- **Presentation:** Preserve six contextual placements and article-end position; enlarge small typography for mobile readability.
+- **Release:** Keep PR #471 Draft pending Claude's destination, CI, SEO and four-width visual QA; owner approval required before merge/deploy.
+- **Follow-up:** Propose dedicated `/en/k-saju/` and `/ja/k-saju/` pages in the GoodDay Unse repository. Switch the EN/JA card Saju destinations after those pages are published and verified.
+
+## 2026-11-15 — Contextual GoodDay Unse cross-promotion (issue #470)
+
+- **Decision:** Test GoodDay Unse as a contextual Korean-culture recommendation on existing Go2Busan culture-related guides, not as a global navigation item or site merge.
+- **Placements:** Two pages per language (EN, JA, zh-TW). Use only pages whose subject naturally supports a Korean tarot, Korean-name or K-Saju experience. The JA site lacks exact local-culture/dialect slug counterparts, so use its existing food-stories and food-etiquette guides.
+- **Tracking:** Use `utm_source=go2busan&utm_medium=referral&utm_campaign=kculture_card&utm_content=<page-slug>` on each outbound destination. No affiliate or paid-product claim.
+- **Design:** Compact, visually secondary editorial card; mobile-first stacked links; no header/footer/homepage-wide placement.
+- **Release condition:** Keep Draft until build, all required audits, destination HTTP checks and responsive browser QA pass. Owner approval required before merge/deploy.
+
 ## 2026-11-14 — Agoda hotel search affiliate integration
 
 - **Decision:** Use the project-owner-supplied Agoda partner-search URLs (CID 1979955, Busan city 17172) in localized EN, JA, and zh-TW accommodation decision points. Preserve the exact partner CID, city ID, and locale parameter; do not invent property-specific deep links.
