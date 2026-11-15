@@ -135,6 +135,42 @@
       "aff_adid": "1539681",
       "dest": "https://www.klook.com/zh-TW/activity/5825-airport-luggage-services-busan",
       "button": "在 Klook 查看行李服務 ↗"
+    },
+    {
+      "path": "zh-tw/guides/haeundae-blueline-park-sold-out/index.html",
+      "en_counterpart": "guides/haeundae-blueline-park-sold-out/index.html",
+      "before": "<h2 id=\"route\"",
+      "id": "cta-blueline-ticket",
+      "kicker": "藍線公園・票券",
+      "title": "決定好日期與時段了嗎？",
+      "body": "天空膠囊列車每班座位有限，熱門時段可能很快額滿；海岸列車是另一項服務，票券分開販售。請依出發日期比較票種、時段、價格與取消條款再預訂。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/133293-haeundae-blueline-park-ticket-in-busan/",
+      "button": "在 Klook 查看藍線公園票券 ↗"
+    },
+    {
+      "path": "zh-tw/guides/gwangalli-drone-show-viewing-tips/index.html",
+      "en_counterpart": "guides/gwangalli-drone-show-viewing-tips/index.html",
+      "before": "<h2 id=\"checklist\"",
+      "id": "cta-drone-yacht",
+      "kicker": "廣安里・海上觀賞",
+      "title": "想從海上看廣安大橋與夜景嗎？",
+      "body": "Klook 有販售海雲台出發、行經廣安大橋一帶的遊艇行程。是否能看到無人機表演依當天航線與時間而定，請先比較出發時間、集合地點、價格與取消條款；天候不佳時行程可能取消。",
+      "aff_adid": "1539682",
+      "dest": "https://www.klook.com/zh-TW/activity/223315-busan-yacht-tour-haeundae-sunset-gwangan-bridge-catamaran-cruise/",
+      "button": "在 Klook 查看遊艇行程 ↗"
+    },
+    {
+      "path": "zh-tw/guides/rainy-day/index.html",
+      "en_counterpart": "guides/busan-rainy-day-guide/index.html",
+      "before": "<h2 id=\"area-based-options\"",
+      "id": "cta-rainy-spaland",
+      "kicker": "雨天・室內選擇",
+      "title": "雨天想去 Spa Land 嗎？",
+      "body": "新世界百貨 Centum City 店內的 Spa Land 是雨天常見的室內選擇。購買前請確認票種、使用時間、休館日與取消條款，現場規定以設施公告為準。",
+      "aff_adid": "1539682",
+      "dest": "https://www.klook.com/zh-TW/activity/33180-spa-land-centum-city-ticket-busan/",
+      "button": "在 Klook 查看 Spa Land 門票 ↗"
     }
   ]
 }
