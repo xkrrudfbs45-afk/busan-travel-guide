@@ -416,7 +416,6 @@
   background-size:cover;background-position:center 48%;
 }
 .home-refresh .home-image-credit{margin:9px 0 0;color:#52647b;font-size:9px;line-height:1.4}
-.home-refresh .trend-food{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Dwaeji-gukbap_1.jpg?width=1000")}
 .home-refresh .trend-songdo{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Busan_-_Songdo_beach.jpg?width=1000")}
 .home-refresh .trend-jagalchi{background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Inside_Jagalchi_Fish_Market%2C_Busan.jpg/960px-Inside_Jagalchi_Fish_Market%2C_Busan.jpg")}
 .home-refresh .trend-songjeong{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Songjeong_Beach.jpg?width=1000")}
@@ -702,7 +701,7 @@
 
 
 /* Distinct homepage food card images for reliable auditing and cache refresh. */
-.home-refresh .trend-pork-soup{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Dwaeji-gukbap_1.jpg?width=1000");background-position:center 52%}
+.home-refresh .trend-pork-soup{background-image:url("https://commons.wikimedia.org/wiki/Special:FilePath/Dwaeji_Gukbap_a0.jpg?width=1000");background-position:center 52%}
 .home-refresh .trend-neighborhood-food{background-image:url("/assets/busan-local-food-illustration.svg");background-position:center 52%}
 
 /* Neighborhood planner and booking discovery cards */
