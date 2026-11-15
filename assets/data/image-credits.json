@@ -685,6 +685,20 @@
     },
     {
       "source": "wikimedia",
+      "file": "Dwaeji_Gukbap_a0.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dwaeji_Gukbap_a0.jpg",
+      "author": "CYAN",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized using Wikimedia Special:FilePath only; no crop or image editing",
+      "checked_on": "2026-11-15",
+      "status": "verified",
+      "note": "Commons file page checked 2026-11-15. Description identifies the subject as pork soup in Busan; camera location is 35.133606, 129.092022. Do not imply that the photograph depicts any of the three award-listed restaurants. Visible captions credit CYAN and link the CC BY-SA 4.0 license."
+    },
+    {
+      "source": "wikimedia",
       "file": "Busan_Station_20200523_001.jpg",
       "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Station_20200523_001.jpg",
       "author": "Mobius6",
