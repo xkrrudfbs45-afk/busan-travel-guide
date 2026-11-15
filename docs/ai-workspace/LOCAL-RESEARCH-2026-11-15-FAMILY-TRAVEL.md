@@ -141,9 +141,14 @@ Target URL: `/ja/guides/busan-with-kids/`
 - Added reciprocal EN/JA/zh-TW sitemap entries with x-default pointing to EN.
 - No new analytics events, affiliate links, external posts, booking claims, prices or operational facts.
 
-## Verification required
+## Verification status
 
-- Run the public build, technical SEO audit, sitemap/hreflang audit and link checks in CI.
-- Verify all three language pages return the correct canonical and reciprocal hreflang.
-- Inspect 360px, 390px and 1280px layouts, Japanese line wrapping, image crop, caption readability, navigation and internal links in a real browser.
-- No production browser session, Lighthouse run or deployment was performed in this research pass.
+- **Technical SEO audit workflow #1456 passed** on PR head `3d238f1421892e2645f7d0fc61440f2ebb2d5062`. The public build and dependency-free audit both completed successfully.
+- Public-quality audit: 242 built pages checked, 0 findings.
+- Technical link/meta audit: 6,828 local links, 0 broken; no missing descriptions/canonicals; 0 images missing alt.
+- Language switch audit: 639 links checked, 0 findings. The family guide's EN/JA/zh-TW pages each contain reciprocal `en`, `ja`, `zh-TW`, and `x-default` alternates; all three sitemap entries are present.
+- Image pipeline: 24 cover entries validated. Strict image-credit audit: 44 images in use, 52 registered, 9 warnings and 0 errors. The 9 warnings are existing rights-review/unused-registry items; the new CC0 image is verified.
+- The priority zh-TW `taiwan-travelers-busan` cover/OG mismatch is fixed in the PR head. Outbound audit now reports 14 informational repeated CSS background URLs and no cover/OG mismatch warning.
+- Site-wide follow-up is still needed: sitemap audit reports 226 URL entries for 241 canonical pages, 14 missing zh-TW pages and 6 non-reciprocal hreflang pairs. Source SEO audit reports 117 WARN / 31 INFO, including 98 pages without explicit social-image metadata in source HTML (build enhancements fill many generated tags). These are recorded in issue #365; image follow-up is in #384.
+- The current production deployment remains main SHA `f64a1220ea3dea65c3dcdcd8393173ca7bf87de4`; Deploy run #269 confirmed `version.txt` matched that SHA and smoke-tested core routes at HTTP 200. PR #459 remains Draft and is not deployed.
+- Real-browser checks at 360px, 390px and 1280px, image focal crop, caption legibility, keyboard focus and Lighthouse metrics were **not performed**. Do not report them as complete.
