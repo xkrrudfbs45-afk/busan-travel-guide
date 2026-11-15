@@ -131,7 +131,7 @@ Target URL: `/ja/guides/busan-with-kids/`
 
 - Added `ja/guides/busan-with-kids/index.html`.
 - Added Japanese language alternates and direct language-switch links to the EN and zh-TW family pages.
-- Added the Japanese page to the Japanese guide directory and the homepage's all-guides list.
+- Added the Japanese page to the Japanese guide directory, the homepage's all-guides list and `assets/data/search-index.json` with natural Japanese query tags.
 - Added reciprocal EN/JA/zh-TW sitemap entries with x-default pointing to EN.
 - No new analytics events, affiliate links, external posts, booking claims, prices or operational facts.
 
