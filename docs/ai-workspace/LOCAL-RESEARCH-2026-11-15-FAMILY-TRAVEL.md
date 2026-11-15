@@ -13,29 +13,31 @@ Target URL: `/ja/guides/busan-with-kids/`
 
 ### English-language communities
 
-1. Reddit r/koreatravel — “Winter - itinerary help”, posted 2026-11-11, currently 1 visible vote:
+1. Reddit r/koreatravel — “Winter - itinerary help”, posted 2026-11-11, 1 visible vote in search result:
    https://www.reddit.com/r/koreatravel/comments/1xtbrwu/winter_itinerary_help/
    - A family travelling with two children plans to arrive in Busan from Seoul on Dec 4, stay around Haeundae, and leave Dec 6.
    - Their wish list spans Haeundae/east Busan (Luge, temple, X the Sky, aquarium) and the old-city/western-coast side (Jagalchi, Nampo/BIFF, Huinnyeoul, Gamcheon, Songdo).
    - The author explicitly says the list may not fit the short stay.
+   - The public page could not be opened in this pass, so comments/replies were not verified.
    - Signal: visitors need realistic area grouping and permission to drop attractions, not another exhaustive “must-see” list.
    - Limitation: one planning question with a low visible vote count; not a measure of market size or consensus.
 
-2. Reddit r/koreatravel — “Report: Seoul and Busan with a baby (15 months)”, posted 2026-07-20, 21 visible votes:
+2. Reddit r/koreatravel — “Report: Seoul and Busan with a baby (15 months)”, posted 2026-07-20, 21 visible votes in search result:
    https://www.reddit.com/r/koreatravel/comments/1v1mczk/report_seoul_and_busan_with_a_baby_15_months/
-   - First-hand 8-day trip report with a 15-month-old.
-   - The author describes doing the main activity in the morning and returning to the hotel for a rest after lunch; meal planning was the most challenging part.
-   - Signal: daytime pacing, hotel rest and meal planning deserve explicit attention.
+   - First-hand 8-day trip report with a 15-month-old; the family stayed in Haeundae and did not leave the Haeundae area during its Busan segment.
+   - The author describes doing the main activity in the morning and returning to the hotel soon after lunch; meal planning was the hardest part. They found that high chairs were not available in many restaurants, had limited baby-food flexibility in Busan, and carried familiar snacks/food.
+   - A few comments thanked the author and asked about car seats/airport transfers; no broad disagreement or consensus was visible.
+   - Signal: daytime pacing, hotel rest, child-seat/high-chair availability and meal planning deserve explicit attention.
    - Limitation: one family’s July experience; not a universal recommendation.
 
 ### Japanese travel communities
 
-3. 4travel — “夏休み4歳&0歳連れ釜山”, trip dates 2026-08-24 to 2026-08-27; 28 likes and 107 accesses shown in the search result:
+3. 4travel — “夏休み4歳&0歳連れ釜山”, trip dates 2026-08-24 to 2026-08-27; 30 likes, 107 accesses and 0 comments on the opened page:
    https://4travel.jp/travelogue/12070971
-   - First-hand family trip with children aged four and zero.
-   - The family centred its stay on a hotel in Haeundae.
-   - Signal: a Haeundae-based, lower-movement family stay is a real trip pattern.
-   - Limitation: a single travelogue; no inference about all Japanese family preferences.
+   - First-hand family trip with children aged four and zero; the author says the trip centred on a Haeundae resort/hotel stay and that travelling with two children was tiring but enjoyable.
+   - The page also describes airport child space/nursing-room discovery and the family’s use of a kids zone.
+   - Signal: a Haeundae-based, lower-movement family stay is a real trip pattern; airport/facility details can differ from the traveller’s expectation.
+   - Limitation: one travelogue with no comments; no inference about all Japanese family preferences.
 
 4. 4travel — “2026年４月 釜山家族旅行 その１”, trip dates 2026-04-04 to 2026-04-06:
    https://4travel.jp/travelogue/12043504
@@ -43,9 +45,10 @@ Target URL: `/ja/guides/busan-with-kids/`
    - Signal: short stays and mixed transport are relevant planning contexts.
    - Limitation: the search snippet does not establish a repeatable itinerary pattern.
 
-5. Yahoo!知恵袋 — 3 nights/4 days, mother-and-child trip considering both Seoul and Busan; question posted 2026-01-18, six answers shown:
+5. Yahoo!知恵袋 — 3 nights/4 days, mother-and-child trip considering both Seoul and Busan; question posted 2026-01-18, six human answers and 1,792 views shown:
    https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q13324430408
-   - The discussion includes a response warning that fitting both cities and Lotte World into the short trip would be too rushed.
+   - Human replies are mixed: one recommends spending all three nights in Haeundae/Busan; another suggests Seoul first, an evening KTX transfer, then two Busan nights; two replies explicitly warn that combining Seoul, Busan and Lotte World in three nights is too much.
+   - The questioner asks about KTX after receiving the warning. The page also includes a generated AI answer; it was excluded from the evidence.
    - Signal: Japanese family travellers need help distinguishing hotel nights from usable sightseeing days and accounting for intercity transfers.
    - Limitation: mixed individual opinions; do not present one answer as official travel advice.
 
@@ -54,7 +57,8 @@ Target URL: `/ja/guides/busan-with-kids/`
 6. PTT Korea_Travel — “釜山4天3夜 行程請益”, posted 2024-11-12:
    https://www.ptt.cc/bbs/Korea_Travel/M.1731382389.A.57C.html
    - A traveller asks for feedback on a four-day/three-night Busan plan for older family members, including 8,000–17,000 daily steps and a schedule spanning Gamcheon, Nampo, Haeundae, Centum, Gwangalli and Yeongdo.
-   - Signal: walking load and area separation are recurring planning concerns in an older thread.
+   - Replies recommend choosing one lodging base, note that west/east transfers can take around two hours, and mention January wind/cold. The author says they will look for accommodation near Haeundae.
+   - Signal: walking load, accommodation base and area separation are recurring planning concerns in an older thread.
    - Limitation: two years old; used only as historical intent evidence, not current service information.
 
 7. PTT Korea_Travel — “首爾+釜山 自由行交通規劃請益”, posted 2026-07-23:
