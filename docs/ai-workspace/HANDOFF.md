@@ -500,3 +500,14 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Change: small inline head script adds `html.g2b-bg-lazy` only when IntersectionObserver exists; those backgrounds load once within 900px of the viewport. No-JS and print keep the original behaviour. Google Fonts stylesheet now loads via `preload` + `onload` (with `<noscript>` fallback) instead of render-blocking.
 - Local Playwright (external hosts blocked): images requested at load 29–31 → 7–9 (EN/JA/zh-TW, 390/1280); after scrolling every card background is applied; no-JS path unchanged. All audits + 47 SNS tests pass; no new layout overflow (existing 1280 hero-backdrop / 360–390 button wide-element notes are unchanged from main).
 - Not changed (design/quality decisions for ChatGPT/owner): hero image width steps, switching to direct thumb URLs, image choice.
+
+
+## Accessibility — keyboard access to wide tables (Claude, 2026-11-15)
+
+- axe-core check (EN/JA/zh-TW homepages and key guides, 390/1280): 44 `.table-wrap` horizontal-scroll containers on 37 pages could not be reached by keyboard (`scrollable-region-focusable`, serious).
+- Fix: `tabindex="0" role="region"` plus a localized `aria-label` (Scrollable table / スクロールできる表 / 可左右捲動的表格). Keyboard arrows now scroll the table, and the default focus outline is visible. No visual change otherwise.
+- Remaining axe findings for ChatGPT (design lane):
+  - Colour contrast: e.g. homepage `.showcase-primary` white on #e97861 = 2.86:1; `.showcase-kicker` #d36552 on #faf8f4 = 3.44:1.
+  - Breadcrumb links are only 1.6:1 against the surrounding text (`link-in-text-block`).
+  - Nested `aside` landmarks.
+- Instagram: a local layout probe of all 37 upcoming v2 posts passed. The stale `ig-fresh15-1125-jp` QA failure (rendered 2026-11-12, before the copy fix) re-renders automatically within 36 h of its publish time.
