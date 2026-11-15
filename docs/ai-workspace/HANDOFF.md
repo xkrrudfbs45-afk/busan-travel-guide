@@ -500,3 +500,9 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Change: small inline head script adds `html.g2b-bg-lazy` only when IntersectionObserver exists; those backgrounds load once within 900px of the viewport. No-JS and print keep the original behaviour. Google Fonts stylesheet now loads via `preload` + `onload` (with `<noscript>` fallback) instead of render-blocking.
 - Local Playwright (external hosts blocked): images requested at load 29–31 → 7–9 (EN/JA/zh-TW, 390/1280); after scrolling every card background is applied; no-JS path unchanged. All audits + 47 SNS tests pass; no new layout overflow (existing 1280 hero-backdrop / 360–390 button wide-element notes are unchanged from main).
 - Not changed (design/quality decisions for ChatGPT/owner): hero image width steps, switching to direct thumb URLs, image choice.
+
+
+## Handoff — issue #455 luggage cover/metadata (2026-11-15)
+
+- Metadata work is already on main; remaining optional item is intrinsic `width`/`height` for the cover. Add the verified Commons dimensions to `content/images/cover-photos.json` (and emit them in `scripts/enhance-images.mjs`) once someone can read the file page. Do not use an unlicensed KTX locker photo.
+- Visual QA at 360/390/1280 and LCP/CLS measurement are still outstanding.

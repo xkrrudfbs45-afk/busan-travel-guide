@@ -434,3 +434,12 @@ Applied a second grouped pass on the existing homepage design branch:
 - No new content PR was justified by the small country/query samples; the late-arrival and practical local-experience updates are already integrated in main and the latest Render deploy.
 - Next technical priority: isolate the mobile homepage LCP / image payload / render-blocking CSS and accessibility findings, then rerun Lighthouse when sufficient audit credits are available. Do not replace images without checking location match and commercial-use rights.
 - No SNS post, schedule, LIVE setting, affiliate agreement, GA4 consent setting, secret, merge, or deployment was changed by this run.
+
+
+## Luggage-storage technical SEO re-check — issue #455 (Claude, 2026-11-15)
+
+- The earlier metadata commit (`8319061` on `claude/issue-455-20261115-0447`) was cherry-picked onto main `f64a122`; it applied as an empty change because the EN/JA/zh-TW title, description, OG/Twitter text, image alt and Article JSON-LD already match it on main. No page files were changed in this PR.
+- Built output (`sh scripts/build-static.sh`) for all three pages: cover `<img>` has `fetchpriority="high"`, no `loading="lazy"`, `decoding="async"`, and a 640/1000/1600 `srcset`. No `rel="preload"` for the cover, so nothing is preloaded twice. Social alt/description keep the "Busan Central Bus Terminal, not KTX" wording.
+- Not done: intrinsic `width`/`height` (Commons dimensions for `Busan_Central_Bus_Terminal_Locker.jpg` are not recorded in `content/images/cover-photos.json` and could not be fetched; not guessed). WebP/AVIF (`Special:FilePath` does not offer them).
+- Checks run on this head: build plus every audit in `seo-audit.yml` — 0 errors (existing hreflang WARN and image-reuse INFO lines unchanged). `public/` removed.
+- No browser run: no 360/390/1280 screenshots, no LCP/CLS numbers. No merge or deploy.
