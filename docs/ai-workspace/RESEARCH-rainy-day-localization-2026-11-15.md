@@ -33,6 +33,7 @@ The existing copy already advises visitors to choose one indoor anchor and avoid
 - National Maritime Museum: [official website notice](https://www.mmk.or.kr/eng/) says online service is temporarily suspended from 2026-10-26 through 2026-12-28. The notice says individual Children's Museum visits are handled on-site on a first-come basis; groups use phone reservations. Busan City's [English visitor listing](https://www.busan.go.kr/eng/bsfacility01/795637) describes general admission as free. The page explicitly labels the website interruption as checked 2026-11-15 and does not describe it as a museum closure.
 - Jagalchi Market: [Busan City official listing](https://www.busan.go.kr/geopark_en/dudo) confirms the modern market building and Line 1 access. The copy distinguishes the building from surrounding open-air stalls and alleys.
 - ARTE Museum Busan: [official page](https://kr.artemuseum.com/busan) lists daily 10:00–20:00 operation and last entry at 19:00 at the time checked. No price was copied.
+- Korea Meteorological Administration: [English short-range forecast](https://www.weather.go.kr/neng/forecast/short-term.do) supports local-area selection; linked from the coastal-weather advice in all three locales.
 
 ## Changes made
 
@@ -54,7 +55,8 @@ The existing copy already advises visitors to choose one indoor anchor and avoid
 
 - Source HTML changes are body-only; canonical, hreflang, OG, JSON-LD, sitemap and search-index records were not changed.
 - The existing EN OG image alt text says “Busan City Hall on a rainy day”, while the registered photo is a rainy Haeundae street. This metadata mismatch is intentionally left for the technical lane / Claude.
-- Static build, link audit and exact-head CI are pending on the Draft PR.
+- HTML structure check passed for all three edited pages: opening/closing list counts balance, the KMA source is inside the source list, and no orphan list item remains. All newly added local links were checked against existing main-branch paths.
+- First audit run failed on a JA link to an unpublished family guide; that link was corrected to the existing Japanese accommodation guide and the next audit run passed. Final-head audit after the KMA source-list cleanup is still running.
 - No live browser QA was performed at 360, 390 or 1280px in this run.
 - National Maritime Museum online-service interruption is time-limited through 2026-12-28 and must be refreshed after that date.
 - No merge, main change, production deployment, affiliate destination change or SNS schedule change was made.
