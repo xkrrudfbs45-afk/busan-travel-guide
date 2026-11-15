@@ -123,6 +123,18 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/zh-TW/activity/75094-lotte-world-busan/",
       "button": "在 Klook 查看樂天世界門票 ↗"
+    },
+    {
+      "path": "zh-tw/guides/zimcarry-busan-station/index.html",
+      "en_counterpart": "guides/zimcarry-busan-station/index.html",
+      "before": "<h2 id=\"important\"",
+      "id": "cta-zimcarry-luggage",
+      "kicker": "行李・預約前",
+      "title": "想比較釜山的行李配送或寄放服務嗎？",
+      "body": "Klook 有販售釜山機場行李服務。預約前請比較服務範圍、行李限制、交件與領件時間，以及取消規定，並對照上方的六項確認事項。",
+      "aff_adid": "1539681",
+      "dest": "https://www.klook.com/zh-TW/activity/5825-airport-luggage-services-busan",
+      "button": "在 Klook 查看行李服務 ↗"
     }
   ]
 }
