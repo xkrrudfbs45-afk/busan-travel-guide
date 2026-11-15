@@ -40,6 +40,10 @@
     "Skyline_of_Busan_Including_Gwangan_Bridge,_Marine_City_and_LCT_Skyscrapers.jpg": {
       "w": 6000,
       "h": 4000
+    },
+    "Haeundae_Busan_South_Korea_01.jpg": {
+      "w": 1931,
+      "h": 1600
     }
   },
   "pages": [
@@ -177,6 +181,20 @@
       "file": "Gamcheon_Culture_Village_in_Busan,_South_Korea.jpg",
       "alt": "釜山甘川文化村的彩色街景，是本篇 BTS 旅遊指南介紹的公開景點之一",
       "caption": "甘川文化村：BTS 釜山粉絲旅行可安排的公開景點之一"
+    },
+    {
+      "path": "ja/guides/busan-with-kids/index.html",
+      "file": "Haeundae_Busan_South_Korea_01.jpg",
+      "alt": "釜山・海雲台の砂浜と海沿いの街並み",
+      "caption": "海雲台の砂浜と街並み。釜山の家族旅行を計画する際のエリアイメージ",
+      "og": true
+    },
+    {
+      "path": "zh-tw/guides/taiwan-travelers-busan/index.html",
+      "file": "Haeundae_Busan_South_Korea_01.jpg",
+      "alt": "釜山海雲台海灘與沿海街景",
+      "caption": "釜山海雲台海灘與沿海街景，作為釜山自由行的城市景觀參考",
+      "og": true
     }
   ]
 }
