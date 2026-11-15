@@ -121,8 +121,9 @@ export function pageQuality(html, url, loc) {
   // c. Favicon where missing.
   if (h.includes("</head>") && !/<link rel="icon"/.test(head())) { h = h.replace("</head>", '<link rel="icon" href="/favicon.svg" type="image/svg+xml"></head>'); bump("14 favicon"); }
   // d. Warm up connections to Wikimedia when the page shows Wikimedia images.
-  if (/<img\b[^>]*src="https:\/\/(?:commons|upload)\.wikimedia\.org/.test(h) && !head().includes('rel="preconnect" href="https://upload.wikimedia.org"')) {
-    h = h.replace(/(<meta charset="utf-8">)/i, '$1<link rel="preconnect" href="https://commons.wikimedia.org"><link rel="preconnect" href="https://upload.wikimedia.org">');
+  // Special:FilePath on commons redirects to thumb.wikimedia.org, so warm both (skip if a commons hint already exists).
+  if (/<img\b[^>]*src="https:\/\/(?:commons|upload)\.wikimedia\.org/.test(h) && !head().includes('rel="preconnect" href="https://commons.wikimedia.org"')) {
+    h = h.replace(/(<meta charset="utf-8">)/i, '$1<link rel="preconnect" href="https://commons.wikimedia.org"><link rel="preconnect" href="https://thumb.wikimedia.org">');
     bump("14 wikimedia preconnect");
   }
   // e. Lazy images decode off the main thread.
