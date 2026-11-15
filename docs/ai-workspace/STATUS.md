@@ -458,7 +458,7 @@ Applied a second grouped pass on the existing homepage design branch:
 
 ### Open content / SEO work
 - PR #459 remains Draft/open: adds the Japanese family-travel guide and updates the zh-TW Taiwan guide cover. Its code head passed Technical SEO audit #1456; the later docs-only head has not yet had a separate workflow. Browser QA at 360 / 390 / 1280 and Lighthouse remain unperformed.
-- Growth scan issue #375 flagged non-reciprocal Kkangtong Market food-guide hreflang and sitemap omissions. PR #461 now adds reciprocal EN / zh-TW / x-default signals and both localized sitemap URLs. It remains Draft; exact-head CI is pending.
+- Growth scan issue #375 flagged non-reciprocal Kkangtong Market food-guide hreflang and sitemap omissions. PR #461 adds reciprocal EN / zh-TW / x-default signals, both localized sitemap URLs, and fixes the EN page's Traditional Chinese language-switch destination. Exact-head Technical SEO audit #1461 passed on head `9170ecdae71834f76f55a15b9f70834b1698932a`; language-switch audit checked 633 links with 0 findings. The Kkangtong-specific reciprocity issue is cleared. The wider audit still reports 14 other canonical URLs missing from sitemap and 6 non-reciprocal pairs on other page groups (Yeongdo, Haeundae food and Busan coffee), which need separate page-by-page repair.
 - The broader site audit still reports sitemap / hreflang / social-image metadata gaps. Fix in measured batches; do not add a Japanese Kkangtong page solely to complete a hreflang set when no localized page exists.
 
 ### Next priorities
