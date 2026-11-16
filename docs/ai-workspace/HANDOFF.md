@@ -680,3 +680,10 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 
 - EN map cards now use the generator's consistent three-newline separator; the checked-in page has been normalized. JA/zh-TW remain one-newline separators, matching their generator.
 - Latest code commit before this note: `b217f347bb9419747dc7d8d4f85d2fd63869b92b`. Exact-head CI pending.
+
+
+### Validation status — 2026-11-17
+
+- Code head `b217f347bb9419747dc7d8d4f85d2fd63869b92b` passed CI run #1590: deterministic EN/JA/zh-TW generation twice with no diff; 30 matching place IDs; CollectionPage counts and URLs equal visible guide links; every local guide file and fragment exists; English fallbacks carry hreflang; static build and dependency-free audit passed.
+- Latest PR head `09d536e3ff6bacc502b618a7e389c273a82d64fc` contains only STATUS/HANDOFF documentation updates after the passing code head.
+- PR #498 remains Draft/open. No merge, production deploy, or browser QA at 360/390/1280 has occurred.
