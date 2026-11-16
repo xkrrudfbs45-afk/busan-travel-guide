@@ -121,7 +121,7 @@ The strict publisher will block a post if any required check is missing or stale
 - Verification: 89 evergreen; one `needs_check` (`d28-us-1`). Its “the best plan” wording is subjective reflection, not a factual ranking; the stored note says the owner accepted it.
 - All 57 link replies have the correct locale path and all four UTM fields.
 - Of 33 linkless posts, 15 are question-led and 18 are declarative. Add a natural question or reply invitation to some of the 18 declarative posts when they are next edited; do not rewrite approved posts in this pass.
-- 19 topic clusters; largest cluster has six posts. Same-market exact duplicates: 0. High-similarity pairs at Jaccard >=0.65: 0.
+- 20 topic clusters; largest cluster has six posts. Same-market exact duplicates: 0. High-similarity pairs at Jaccard >=0.65: 0.
 - No expired event or date-specific offer was found in the 15-day future window.
 
 ## 4. Publish-log reconciliation
