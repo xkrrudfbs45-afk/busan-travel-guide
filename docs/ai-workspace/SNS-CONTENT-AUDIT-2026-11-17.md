@@ -72,7 +72,7 @@ Official source: https://japanese1.visitkorea.or.kr/jpn/AKR/AK_JPN_3_2.jsp
 
 ### Taiwan-first visual review
 
-All 55 Taiwan cards (11 five-card sets) were opened and visually reviewed. They are 4:5 vertical cards with high-contrast dark text, cream lower panels and an AI-illustration footer. No external stock-photo asset was used in these reviewed Taiwan sets. The AI-generated label is present and must remain; these are illustrations, not documentary photographs.
+All 55 Taiwan cards (11 five-card sets) were opened and visually reviewed. They are 4:5 vertical cards with high-contrast dark text, cream lower panels and an AI-illustration footer. No external stock-photo asset was used in these reviewed Taiwan sets. The AI-generated label is present and must remain; these are illustrations, not documentary photographs. Cross-market JA/EN visual checks sampled the high-risk cards across all 11 themes, and QA metadata was checked for every locale. The same underlying compositions recur across languages, so the location and season mismatches noted below also affect JA/EN. This is not a claim that all 110 JA/EN JPEGs were individually opened.
 
 The typography and mobile crop are generally readable. The primary issue is subject/location mismatch and repeated Gwangan Bridge/Marine City scenery:
 
