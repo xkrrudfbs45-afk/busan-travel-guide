@@ -668,3 +668,9 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 
 - JA and zh-TW share one verified 2,532-character CSS block, now stored as `STYLE_JA_TW`. Keep this constant and both generated localized pages synchronized when the localized map design changes. EN remains independently styled.
 - Current code head at handoff: `a65f5772e458363f19acc8f15264323a3066004c`. Exact-head CI is pending; the earlier dynamic-style attempt failed and should not be treated as final validation.
+
+
+### EN generator formatting alignment — 2026-11-17
+
+- EN map generator now matches the checked-in EN CSS block boundaries exactly and preserves its three-newline card spacing. JA/zh-TW retain their shared localized CSS and one-newline card spacing.
+- Code commit at this handoff: `aa4deda46f901ade40b45f573d4e1772f748b5cd`. CI on this exact code head is pending; do not report the map generator as validated until the no-diff and link/anchor checks pass.
