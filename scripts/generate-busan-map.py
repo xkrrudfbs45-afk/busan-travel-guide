@@ -110,7 +110,6 @@ page = f'''<!doctype html>
 <script type="application/ld+json">{json.dumps(page_ld, ensure_ascii=False, separators=(',', ':'))}</script>
 <script type="application/ld+json">{json.dumps(bc, ensure_ascii=False)}</script>
 <style>
-
 .g2b-map-layout{{display:grid;gap:22px;padding-bottom:64px}}
 .g2b-map-panel{{border:1px solid #dce5ef;border-radius:18px;overflow:hidden;background:#f1f5f9;box-shadow:0 14px 34px rgba(10,25,47,.08)}}
 .g2b-map-frame{{display:block;width:100%;height:min(60vh,460px);border:0}}
@@ -144,7 +143,6 @@ page = f'''<!doctype html>
 @media (max-width:899px){{.g2b-filter-row{{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:3px 0 7px;scrollbar-width:thin}}.g2b-filter-row button{{flex:0 0 auto}}.g2b-map-sticky{{position:relative}}}}
 @media (min-width:900px){{.g2b-map-layout{{grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);align-items:start;gap:28px}}.g2b-map-sticky{{position:sticky;top:94px}}.g2b-map-frame{{height:560px}}}}
 @media(prefers-reduced-motion:reduce){{.g2b-place{{transition:none}}}}
-
 </style>
 </head>
 <body><a class="skip-link" href="#main">Skip to content</a>
@@ -174,7 +172,7 @@ page = f'''<!doctype html>
 <h2 id="all-places">Explore all {len(P)} places</h2>
 <h2 class="section-title">Browse {len(P)} places in Busan</h2>
 <ul class="g2b-place-list" data-place-list>
-{chr(10).join(cards)}
+{(chr(10) * 3).join(cards)}
 </ul>
 <p data-map-empty hidden>No places match both filters. Try “All areas” or “All types”.</p>
 </div>
