@@ -116,9 +116,41 @@ jobs:
         run: |
           fail=0
           check() { code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$SITE$1?ts=$(date +%s)"); [ "$code" = "$2" ] && echo "ok   $code $1" || { echo "FAIL $code $1 (expected $2)"; fail=1; }; }
-          for p in / /ja/ /zh-tw/ /guides/ /sitemap.xml /robots.txt /googlec9cefb1fa4149979.html /assets/js/analytics.js /privacy.html; do check "$p" 200; done
+          for p in / /ja/ /zh-tw/ /guides/ /sitemap.xml /robots.txt /googlec9cefb1fa4149979.html /a758829879725e06ae68f58149b9355b.txt /assets/js/analytics.js /privacy.html; do check "$p" 200; done
           for p in /marketing/organic-growth-90-day-plan.md /README.md /render.yaml /docs/affiliate-cta-template.html; do check "$p" 404; done
           urls=$(curl -fsS "$SITE/sitemap.xml?ts=$(date +%s)" | grep -o '<loc>[^<]*' | sed 's/<loc>//')
           n=0; for u in $urls; do n=$((n+1)); code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 20 "$u"); [ "$code" = 200 ] || { echo "FAIL $code $u"; fail=1; }; done
           echo "Sitemap URLs checked: $n"
           exit $fail
+
+      # IndexNow tells Bing (and other participating engines such as Naver and Yandex) about
+      # changed pages right away. The key is public by design: it is served at /<key>.txt.
+      # Only URLs whose sitemap <lastmod> is within the last 2 days are sent. A failure here
+      # never fails the deploy; the site is already live at this point.
+      - name: Notify IndexNow about recently updated URLs
+        if: steps.gate.outputs.deploy == 'true'
+        continue-on-error: true
+        env:
+          INDEXNOW_KEY: a758829879725e06ae68f58149b9355b
+        run: |
+          curl -fsS "$SITE/sitemap.xml?ts=$(date +%s)" -o sitemap.xml
+          python3 - <<'PY'
+          import json, os, re, urllib.request, datetime
+          key = os.environ["INDEXNOW_KEY"]
+          site = os.environ["SITE"]
+          xml = open("sitemap.xml", encoding="utf-8").read()
+          since = (datetime.datetime.now(datetime.timezone.utc).date() - datetime.timedelta(days=2)).isoformat()
+          urls = []
+          for block in re.findall(r"<url>(.*?)</url>", xml, re.S):
+              loc = re.search(r"<loc>([^<]+)</loc>", block)
+              mod = re.search(r"<lastmod>(\d{4}-\d{2}-\d{2})", block)
+              if loc and mod and mod.group(1) >= since:
+                  urls.append(loc.group(1).strip())
+          print(f"URLs updated since {since}: {len(urls)}")
+          if not urls:
+              raise SystemExit(0)
+          body = json.dumps({"host": "go2busan.com", "key": key, "keyLocation": f"{site}/{key}.txt", "urlList": urls[:10000]}).encode()
+          req = urllib.request.Request("https://api.indexnow.org/indexnow", data=body, headers={"Content-Type": "application/json; charset=utf-8"})
+          with urllib.request.urlopen(req, timeout=30) as r:
+              print("IndexNow HTTP status:", r.status)
+          PY
