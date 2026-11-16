@@ -32,7 +32,7 @@ Add a row to the `P` list in `scripts/generate-busan-map.py`, add one localized 
 - Use the same Google Maps query that the guide uses.
 - "Local pick" only where the guide itself says a Busan-based contributor recommends it. Otherwise "In our guide".
 - No hours, prices, coordinates or visit claims that the guide does not already source.
-- Keep both localized description arrays exactly the same length as `P`; the generator asserts this. Localized guide mappings are resolved from the source path before its `#section` fragment, and valid fragments are preserved. If a locale has no equivalent guide, it links to the English guide and labels it accordingly. CI runs the one-command generator twice and checks that the three generated pages produce no diff.
+- Keep both localized description arrays exactly the same length as `P`; the generator asserts this. Localized guide mappings are resolved from the source path before its `#section` fragment. Locale-specific anchor aliases are checked against the actual JA/zh-TW section IDs; the Dongnae half-day guide exposes stable anchors for Hurshimchung, Dongnae Eupseong and food. Where a locale has no matching section, the localized link opens the guide root rather than a dead fragment. If a locale has no equivalent guide, it links to the English guide and labels it accordingly. CI runs the one-command generator twice and checks that the three generated pages produce no diff.
 
 ## GA4 events (new, optional, consent-gated through `gtag`)
 
