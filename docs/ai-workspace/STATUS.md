@@ -505,7 +505,7 @@ Applied a second grouped pass on the existing homepage design branch:
 - k.ride official service page and app listing: Google / Apple / email or social sign-up options, foreign-card / mobile payment support, and automatic payment after ride. Neither source guarantees no phone/device verification for every foreign number.
 
 ### Editorial safeguards
-- Busan Jung-gu's 2026-09-08 re-notice specifies a planned Gwangbok-ro lighting period of 2026-12-04–2027-01-31, 17:30–22:30. This is a procurement / operations schedule, not the final visitor programme; performances, ceremony, admission and parking remain unconfirmed and the schedule may change. See Draft PR #487; do not present the planned period as a final public programme.
+- Busan Jung-gu's 2026-09-08 re-notice specifies a planned Gwangbok-ro lighting period of 2026-12-04–2027-01-31, 17:30–22:30. This is a procurement / operations schedule, not the final visitor programme; performances, ceremony, admission and parking remain unconfirmed and the schedule may change. PR #487 was merged by the repository owner and deployed on 2026-11-16 (main/live SHA e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3).
 - December laser dates are labelled expected, not confirmed, until the monthly programme is published.
 - No fixed metro last-train time or Nampo-to-Gwangalli transfer duration was invented. Users are directed to check the route and last service for their destination.
 - VisitKorea's separate Haeundae event page currently shows a conflicting date range; the article cites the newer Busan City and MCST listings for this edition and flags the conflict.
@@ -513,8 +513,8 @@ Applied a second grouped pass on the existing homepage design branch:
 
 ### SEO and release
 - Added Japanese drone-show page, reciprocal EN/JA/zh-TW hreflang links, sitemap entries, search-index entries, and Japanese guide-directory link.
-- Draft PR only. No merge, deployment, SNS publishing or schedule change performed by this batch.
-- Exact-head CI and browser screenshot QA at 360 / 390 / 768 / 1280 remain required.
+- PR #487 was merged and deployed on 2026-11-16; Render run #43784672075 verified live SHA e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3 and 229 sitemap URLs returned HTTP 200. No SNS publishing or schedule changes were made.
+- Browser screenshot QA at 360 / 390 / 768 / 1280 remains unperformed; the Gwangbok-ro lighting dates remain a planned procurement window, not the final visitor programme.
 
 
 ## GoodDay Unse contextual recommendation cards — 2026-11-15 (ChatGPT, issue #470)
@@ -555,3 +555,15 @@ Applied a second grouped pass on the existing homepage design branch:
 - Added EN/JA/zh-TW Beomeosa-area transport instructions: Metro Line 1 to Beomeosa Station, exits 5/7, about five minutes to bus terminal, bus 90; distinguished the separate bus 203 and Geumjeong Village Bus 1 routes for Geumjeongsanseong.
 - Updated the localized search-index summaries and tags for the food-story hub to include kkomjangeo, grilled hagfish, Jagalchi and Gijang terms in EN/JA/zh-TW. No new URL, sitemap, canonical/hreflang, social schedule, analytics, affiliate or booking changes.
 - Pending verification: static build, SEO/link/localization/image-credit audits on exact PR head; inspect 360/390/768/1280 layouts and confirm image loading. No browser QA, production deployment or merge is claimed.
+
+
+## Production snapshot — 2026-11-16 10:12 KST
+
+- Main and live version.txt: e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3.
+- PR #485 (Jagalchi / Millak comparison) merged by owner; merge commit cbd7df752dd31a8e0735ac140a1c43ce15dab41a. EN / JA / zh-TW pages include store-specific fee cautions and a direct Suyeong-gu report link for the Millak Waterside Park alcohol-free designation.
+- PR #487 (Gwangbok-ro planned winter-light schedule) merged by owner; merge commit e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3. Existing EN / JA / zh-TW winter pages and search index updated; no duplicate festival page created.
+- Render deploy run #43784672075 succeeded. Live version matched main, cached entry pages matched, core endpoints returned HTTP 200, and all 229 sitemap URLs returned HTTP 200.
+- Main Technical SEO audit #1538 passed with existing warnings: 12 zh-TW canonical pages missing from sitemap and 6 non-reciprocal hreflang relationships. Track in issue #365.
+- Main branch endpoint still reports required status-check enforcement off and empty required-check contexts; detailed protection endpoint returns 403 to this integration. Track in issue #474; no protection settings changed.
+- No open PRs at this snapshot. No GA4 / GSC data was queried in this run, and no SNS publishing or scheduling changes were made.
+- No browser screenshot QA at 360 / 390 / 1280 was performed. Image audit: 45 in use, 53 registered, 9 warnings, 0 errors; no new event photo was added.
