@@ -29,6 +29,7 @@ for (const p of s.posts) {
   if (p.verification.status === "blocked") { skipped.push(`${p.id} (blocked: ${p.verification.issues.join("; ")})`); continue; }
   if (p.verification.status === "needs_check") {
     if (!opt("--verified")) { skipped.push(`${p.id} (needs fact check: ${p.verification.flags.join(", ")})`); continue; }
+    p.verification.status = "verified";
     p.verification.verified_by = by; p.verification.verified_at = now; p.verification.note = opt("--verified");
   }
   if (p.status === "draft") { p.status = "approved"; p.approval = { approved_by: by, approved_at: now }; changed++; }
