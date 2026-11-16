@@ -615,3 +615,9 @@ Applied a second grouped pass on the existing homepage design branch:
 
 - JA and zh-TW map pages share the same verified 2,532-character CSS block. The generator now stores that exact block in `STYLE_JA_TW`; EN retains its separate current CSS template. This prevents generator runs from replacing the localized visual system with EN styling.
 - Latest code commit: `a65f5772e458363f19acc8f15264323a3066004c`. Exact-head CI has not yet appeared in the Actions API; previous run #1583 failed on the earlier dynamic-style implementation and is not the final result.
+
+
+### EN generator formatting alignment — 2026-11-17
+
+- The latest CI diff isolated remaining EN-only formatting drift: the script had two extra newlines around the copied CSS block and used one newline between cards, while the checked-in EN page uses the existing CSS block boundaries and three newline separators. The generator now matches those exact formatting invariants.
+- Latest code commit before this doc update: `aa4deda46f901ade40b45f573d4e1772f748b5cd`. Exact-head CI had not yet started; earlier failures are not passing validation.
