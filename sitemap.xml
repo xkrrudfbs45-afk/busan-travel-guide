@@ -63,8 +63,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/bukangi-busan-north-port-shark/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/bukangi-busan-north-port-shark/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/bukangi-busan-north-port-shark/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/bukangi-busan-north-port-shark/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/bukangi-soju-busan/</loc>
@@ -80,14 +89,32 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/first-trip/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-first-time-guide/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/busan-local-culture/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-culture/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-local-culture/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-culture/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-local-culture/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-culture/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-local-culture/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-culture/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-local-food-guide/</loc>
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/busan-local-traits-culture/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-traits-culture/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-local-traits-culture/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-traits-culture/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-local-traits-culture/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-traits-culture/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-local-traits-culture/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-traits-culture/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-luggage-storage/</loc>
@@ -96,8 +123,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/luggage-storage/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-luggage-storage/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/busan-local-food-picks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-food-picks/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-local-food-picks/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-food-picks/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-local-food-picks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-local-food-picks/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-local-food-picks/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-local-food-picks/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-neighborhood-food-guide/</loc>
@@ -113,11 +149,29 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/rainy-day/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-rainy-day-guide/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/busan-street-dialect-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-street-dialect-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-street-dialect-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-street-dialect-guide/" />
   </url>
   <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-street-dialect-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-street-dialect-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-street-dialect-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-street-dialect-guide/" />
+  </url>
+    <url>
     <loc>https://go2busan.com/guides/busan-travel-budget/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-travel-budget/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-travel-budget/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-travel-budget/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-travel-budget/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-travel-budget/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-travel-budget/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-travel-budget/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/busan-winter-travel-guide/</loc>
@@ -224,8 +278,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-blueline-park-sold-out/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-blueline-park-sold-out/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/gijang-kkeutjip-abalone-porridge/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/gijang-kkeutjip-abalone-porridge/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/gijang-kkeutjip-abalone-porridge/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/jagalchi-market-no-surprise-bill/</loc>
@@ -262,8 +325,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/late-arrival/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/late-arrival-gimhae-airport/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/songdo-beach-local-breakfast/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/songdo-beach-local-breakfast/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/songdo-beach-local-breakfast/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/songdo-beach-local-breakfast/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/things-to-do-in-busan/</loc>
@@ -272,8 +344,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/things-to-do-in-busan/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/things-to-do-in-busan/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/visit-busan-pass-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/visit-busan-pass-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/visit-busan-pass-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/visit-busan-pass-guide/" />
   </url>
   <url>
     <loc>https://go2busan.com/guides/pusan-national-university-food-guide/</loc>
@@ -396,8 +477,17 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/where-to-stay-songjeong-gijang/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/where-to-stay-songjeong-gijang/" />
   </url>
-  <url>
+    <url>
     <loc>https://go2busan.com/guides/zimcarry-busan-station/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/zimcarry-busan-station/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/zimcarry-busan-station/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/zimcarry-busan-station/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/zimcarry-busan-station/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/zimcarry-busan-station/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/zimcarry-busan-station/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/zimcarry-busan-station/" />
   </url>
   <url>
     <loc>https://go2busan.com/ja/guides/airport-to-haeundae/</loc>
@@ -1054,7 +1144,18 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/taejongdae/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/taejongdae-danubi-train-tips/" />
   </url>
-  <url><loc>https://go2busan.com/guides/busan-night-views-local-tips/</loc></url>
+    <url>
+    <loc>https://go2busan.com/guides/busan-night-views-local-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-night-views-local-tips/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-night-views-local-tips/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-night-views-local-tips/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-night-views-local-tips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-night-views-local-tips/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-night-views-local-tips/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-night-views-local-tips/" />
+  </url>
   <url>
     <loc>https://go2busan.com/guides/haedong-yonggungsa-visit-tips/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
@@ -1076,7 +1177,18 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haedong-yonggungsa/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haedong-yonggungsa-visit-tips/" />
   </url>
-  <url><loc>https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/</loc></url>
+    <url>
+    <loc>https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/" />
+  </url>
   <url><loc>https://go2busan.com/guides/busan-fireworks-festival-fair-price-stays/</loc></url>
   <url><loc>https://go2busan.com/ja/guides/busan-fireworks-festival-fair-price-stays/</loc></url>
   <url><loc>https://go2busan.com/zh-tw/guides/busan-fireworks-festival-fair-price-stays/</loc></url>
@@ -1122,8 +1234,20 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/dongnae-hot-spring-half-day/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/dongnae-hot-spring-half-day/" />
   </url>
-  <url><loc>https://go2busan.com/guides/busan-coffee-guide/</loc></url>
-  <url><loc>https://go2busan.com/guides/haeundae-food-guide/</loc></url>
+    <url>
+    <loc>https://go2busan.com/guides/busan-coffee-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-coffee-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-coffee-guide/" />
+  </url>
+    <url>
+    <loc>https://go2busan.com/guides/haeundae-food-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/haeundae-food-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/haeundae-food-guide/" />
+  </url>
 
     <url>
     <loc>https://go2busan.com/guides/kkangtong-market-food-guide/</loc>
@@ -1262,8 +1386,20 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/yeongdo-half-day/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/yeongdo-half-day-coastal-route/" />
   </url>
-  <url><loc>https://go2busan.com/ja/guides/yeongdo-half-day/</loc></url>
-  <url><loc>https://go2busan.com/zh-tw/guides/yeongdo-half-day/</loc></url>
+    <url>
+    <loc>https://go2busan.com/ja/guides/yeongdo-half-day/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/yeongdo-half-day-coastal-route/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/yeongdo-half-day/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/yeongdo-half-day/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/yeongdo-half-day-coastal-route/" />
+  </url>
+    <url>
+    <loc>https://go2busan.com/zh-tw/guides/yeongdo-half-day/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/yeongdo-half-day-coastal-route/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/yeongdo-half-day/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/yeongdo-half-day/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/yeongdo-half-day-coastal-route/" />
+  </url>
   <url>
     <loc>https://go2busan.com/guides/busan-autumn-foliage/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-autumn-foliage/" />
