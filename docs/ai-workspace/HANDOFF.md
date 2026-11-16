@@ -642,3 +642,13 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Render run #43784672075 completed successfully: live version.txt matched main, cached entry pages matched, core endpoints returned HTTP 200, and all 229 sitemap URLs returned HTTP 200.
 - Main audit #1538 passed; 12 zh-TW sitemap omissions and 6 non-reciprocal hreflang warnings remain in issue #365. Branch-protection enforcement remains unverified / apparently off in issue #474.
 - No 360 / 390 / 1280 browser screenshot QA was performed. No GA4 / GSC query or SNS schedule change.
+
+
+## Map generator consistency — 2026-11-17
+
+- PR #498 (Draft): https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/498
+- Use `python3 scripts/generate-busan-map.py` as the only map-generation command. It now writes EN, JA and zh-TW from the same canonical `P` list.
+- The localized generator has 30 JA descriptions and 30 zh-TW descriptions, and maps localized guide paths before applying section fragments. It preserves valid anchors for common localized guide slugs and uses the actual `haeundae-food-guide` slug.
+- JA/zh-TW map metadata now says 30 places; map cards and CollectionPage ItemList URLs use the corresponding localized guides where available.
+- CI now runs the one-command generator twice and checks no diff, identical place IDs, and JSON-LD ItemList counts.
+- Exact-head CI still pending. Browser checks at 360 / 390 / 1280, map filters and marker interaction remain unverified. No merge or deployment.
