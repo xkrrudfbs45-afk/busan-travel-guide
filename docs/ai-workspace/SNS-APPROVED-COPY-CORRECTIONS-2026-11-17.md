@@ -36,7 +36,7 @@ Weather, strong winds, typhoon conditions or communications may cause cancellati
 
 Visual correction: replace the abstract ribbon with a recognizable drone formation over Gwangalli Beach and Gwangan Bridge. Do not use fireworks as a substitute for drones. Keep the weather/communications cancellation caveat.
 
-Official source: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=6449&menuCd=DOM_000000204012000000
+Official source: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6450&menuCd=DOM_000000304003000000
 
 ## 2. Nov 24 — Korea plug and voltage
 
