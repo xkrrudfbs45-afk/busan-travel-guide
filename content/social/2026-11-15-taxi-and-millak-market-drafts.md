@@ -106,19 +106,19 @@ Use a generic, clearly illustrative Busan street scene with a traveler holding a
 These are not Instagram-caption copies and have no scheduled slot.
 
 ### zh-TW
-到釜山搭計程車前，你最想先確認哪一件事：海外信用卡、手機號碼驗證，還是目的地翻譯？k.ride 官方列出海外發行卡與多語搜尋／司機聊天，但現行個資政策仍列手機號碼為必填。你會先測試哪一步？
+到釜山搭計程車前，你最想先確認哪一件事：海外信用卡、手機號碼驗證，還是目的地翻譯？k.ride 現行個資政策要求註冊時提供手機號碼，但沒有說明是否必須是韓國門號、哪些海外國碼可用。你會先測試哪一步？
 
 Link reply:
 https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/?utm_source=threads&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_tw
 
 ### ja
-釜山でタクシーを使う前に、海外カードだけでなく電話番号の認証も確認しておきたいところ。k.ride は多言語検索・チャットを案内していますが、現行の個人情報方針では携帯番号が必須です。みなさんは出発前にどこまで設定しますか？
+釜山でタクシーを使う前に、海外カードだけでなく電話番号の認証も確認しておきたいところ。k.ride の現行プライバシーポリシーでは登録時に携帯電話番号が必須ですが、韓国の番号が必要か、どの海外番号が使えるかは明記されていません。出発前にどこまで確認しますか？
 
 Link reply:
 https://go2busan.com/ja/guides/airport-to-seomyeon/?utm_source=threads&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_ja
 
 ### en
-Planning a taxi ride in Busan? k.ride lists overseas-issued cards and multilingual destination search/chat, but its current privacy policy still lists a mobile number as required. Test your own number before you depend on the app. What's the one setup step you'd do before landing?
+Planning a taxi ride in Busan? k.ride's current privacy policy requires a mobile number for email or social sign-up, but it does not say whether it must be Korean or which overseas country codes are accepted. Check your own number in the app before relying on it. What's the one setup step you'd do before landing?
 
 Link reply:
 https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/?utm_source=threads&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_en
