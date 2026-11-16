@@ -616,3 +616,12 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Draft PR #487 updates the existing EN winter-lights guide and EN / JA / zh-TW winter-travel guides, plus the search index and research log: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/487
 - PR head: `2103ab45d7817b0376b404b45beab70ebc9c0e5f`; Technical SEO audit #1534 passed. PR remains Draft, unmerged and undeployed.
 - No new event photo was added; current-edition image rights were not verified. Browser QA at 360 / 390 / 1280 remains pending.
+
+
+## Current handoff — local research content batch (2026-11-16)
+
+- Branch: `content/busan-local-research-batch-20261116` (base main `e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3`).
+- Scope: taxi-app practical details in EN/zh-TW taxi comparison and JA late-arrival guide; hagfish history/photo in EN/JA/zh-TW food-story hubs; Beomeosa/Geumjeongsanseong transport clarification in EN/JA/zh-TW Beomeosa food guides.
+- Image: Haeundae Market hagfish photo by Junho Jung, Wikimedia Commons CC BY-SA 3.0. Caption and image registry updated; do not describe it as a specific restaurant photo.
+- Fact boundaries: k.ride does not guarantee registration without a phone number or extra verification; automatic post-ride payment only. Bus 90 serves Beomeosa; bus 203 and Geumjeong Village Bus 1 are separate Geumjeongsanseong approaches. Gijang jipbul gomjangeo is a distinct straw-roasted style.
+- Localized search-index summaries and tags now include hagfish/kkomjangeo search terms in EN/JA/zh-TW. Next: run build and full relevant audits, review exact diff and verify responsive layout/image loading. Keep PR Draft; do not merge or deploy without owner approval.

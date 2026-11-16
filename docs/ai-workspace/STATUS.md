@@ -545,3 +545,13 @@ Applied a second grouped pass on the existing homepage design branch:
 - Added a licensed Wikimedia Commons Busan bokguk image (Junho Jung, CC BY-SA 3.0) with visible attribution; it is identified as illustrative, not a photo of a named restaurant.
 - Updated search-index tags and the Busan map generator / generated map with two additional Haeundae restaurant pins. Existing Geumsubokguk pin now links to the Haeundae guide.
 - Build, SEO audits, generated-map reproducibility, outbound link checks, and mobile screenshot QA remain pending on the PR head. Draft only; no merge or deployment without owner approval.
+
+
+## Local research batch — taxi, hagfish and Beomeosa access (2026-11-16)
+
+- Work branch: `content/busan-local-research-batch-20261116`, based on main after PR #487 merge (`e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3`).
+- Updated EN and zh-TW taxi-vs-subway guides with practical k.ride details: 4 interface languages, 133-language destination/chat translation, overseas-card support, phone-number/verification caveat, automatic post-ride payment, and limited Busan DiDi context. Updated the JA late-arrival guide with the 133-language detail and official privacy / DiDi links.
+- Expanded EN/JA/zh-TW Busan Food Stories hubs with the municipal account of post-Korean War Jagalchi hagfish grilling and the separately documented Gijang straw-roasted style. Added a Haeundae Market hagfish photo credited to Junho Jung, CC BY-SA 3.0; caption identifies the market and does not imply a named restaurant.
+- Added EN/JA/zh-TW Beomeosa-area transport instructions: Metro Line 1 to Beomeosa Station, exits 5/7, about five minutes to bus terminal, bus 90; distinguished the separate bus 203 and Geumjeong Village Bus 1 routes for Geumjeongsanseong.
+- Updated the localized search-index summaries and tags for the food-story hub to include kkomjangeo, grilled hagfish, Jagalchi and Gijang terms in EN/JA/zh-TW. No new URL, sitemap, canonical/hreflang, social schedule, analytics, affiliate or booking changes.
+- Pending verification: static build, SEO/link/localization/image-credit audits on exact PR head; inspect 360/390/768/1280 layouts and confirm image loading. No browser QA, production deployment or merge is claimed.
