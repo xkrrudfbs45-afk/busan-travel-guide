@@ -1,3 +1,10 @@
+## Current handoff — localized photo expansion — 2026-11-16 (ChatGPT)
+
+- Branch `images/localized-guide-photo-batch-20261116`, issue #493. Added licensed, localized body photos to EN/JA/zh-TW Taejongdae Danubi, Busan City Tour Bus and Haedong Yonggungsa guides (9 pages). Added 3 verified Wikimedia records to `assets/data/image-credits.json`.
+- City Tour Bus image is an archival photograph from 13 Oct 2012; every localized caption says it is not the current fleet. Danubi photo is 480×854 and kept portrait/inline; temple image is 2017 photo of the actual temple.
+- OG/Twitter image and alt metadata added to City Tour Bus and Haedong Yonggungsa pages; Danubi portrait is not used as a wide social image.
+- Pending: build + full audit suite, check exact PR head, responsive visual QA 360/390/768/1280. Draft PR only; no merge/deploy without owner approval.
+
 ## Current handoff — contrast remediation — 2026-11-15 (Claude, issue #462)
 
 - Branch `claude/issue-462-20261115-1241`, Draft PR against main. CSS-only: `assets/homepage-showcase.css`, `assets/styles.css`. No copy, URL, metadata, analytics, consent, affiliate or SNS changes.

@@ -1,3 +1,10 @@
+## Localized photo expansion — 2026-11-16 (ChatGPT, image quality batch)
+
+- Added subject-matched Wikimedia Commons photos to the EN/JA/zh-TW Taejongdae Danubi, Busan City Tour Bus and Haedong Yonggungsa guides (9 localized pages). Danubi is a native-size portrait inline image; the City Tour Bus photo is explicitly labelled archival (13 Oct 2012), not current fleet; the temple photo is from 12 Oct 2017.
+- Registered all three files in `assets/data/image-credits.json` with author, source, commercial-use status, license, attribution and restrictions. Visible captions link to the Commons file page and license. City Tour Bus and temple images also receive matching OG/Twitter image + localized alt metadata.
+- Source verification: Wikimedia Commons file pages reviewed 2026-11-16. CC BY-SA 3.0 (Danubi), CC BY-SA 2.0 (City Tour Bus archival), CC BY-SA 4.0 (Haedong Yonggungsa).
+- PR #493 is Draft; build and image-credit strict audit pending. No merge or production deploy.
+
 ## Discovery boost: under-linked guides + IndexNow — 2026-11-16 (Claude, owner-requested)
 
 - Context: Search Console shows ~66 URLs as "Discovered - currently not indexed". Owner registered go2busan.com in Bing Webmaster Tools and submitted the sitemap on 2026-11-16. Google indexing was requested manually for 11 priority URLs on 2026-11-16 (daily quota hit at /guides/ktx-booking-guide/).
