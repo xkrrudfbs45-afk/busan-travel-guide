@@ -52,11 +52,7 @@ ANCHOR_MAP = {
 # Places whose EN guide differs from the best localized page.
 PLACE_LOC = {
  'Gaemi-jip (Beomil-dong)': {'ja': 'beomil-dong-nakgopsae', 'zh-tw': 'beomil-dong-nakgopsae'},
-} from the best localized page.
-PLACE_LOC = {
- 'Gaemi-jip (Beomil-dong)': {'ja': 'beomil-dong-nakgopsae', 'zh-tw': 'beomil-dong-nakgopsae'},
-} from the best JA/TW page (checked against the localized pages).
-PLACE_LOC = {'Gaemi-jip (Beomil-dong)': 'beomil-dong-nakgopsae', 'Soksihwonhae Daegutang (Songdo)': 'local-food-by-neighborhood'}
+}
 
 LANGS = {
  'ja': dict(
