@@ -179,20 +179,14 @@ LANGS = {
  ),
 }
 
-# Resolve all paths from the repository root, independent of the caller's working directory.
+# The existing JA and zh-TW maps intentionally retain their own visual system.
+# Keep this shared CSS in sync with both localized map pages; EN has a separate design.
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-# Preserve each locale's existing map CSS; use EN CSS only when creating a locale page for the first time.
-en_page = open(os.path.join(ROOT, 'guides/busan-map/index.html'), encoding='utf-8').read()
-STYLE_EN = re.search(r'<style>.*?</style>', en_page, re.S).group(0)
+STYLE_JA_TW = "\n.g2b-map-layout{display:grid;gap:20px;padding-bottom:48px}\n.g2b-map-panel{border:1px solid rgba(0,0,0,.1);border-radius:16px;overflow:hidden;background:#eef3f2}\n.g2b-map-frame{display:block;width:100%;height:min(60vh,420px);border:0}\n.g2b-map-placeholder{padding:20px;display:grid;gap:12px;min-height:180px;align-content:center}\n.g2b-map-placeholder p{margin:0}\n.g2b-map-load{justify-self:start;min-height:44px;padding:10px 18px;border-radius:999px;border:0;background:#155e57;color:#fff;font:inherit;font-weight:600;cursor:pointer}\n.g2b-map-note{font-size:.9rem;opacity:.8;margin:0;padding:10px 14px;background:#fff}\n.g2b-filters{display:grid;gap:10px}\n.g2b-filter-row{display:flex;flex-wrap:wrap;gap:8px}\n.g2b-filter-row button{min-height:40px;padding:6px 14px;border-radius:999px;border:1px solid rgba(0,0,0,.18);background:#fff;font:inherit;font-size:.92rem;cursor:pointer}\n.g2b-filter-row button.is-active{background:#155e57;border-color:#155e57;color:#fff}\n.g2b-place-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}\n.g2b-place{border:1px solid rgba(0,0,0,.1);border-radius:14px;padding:14px 16px;background:#fff}\n.g2b-place.is-selected{border-color:#155e57;box-shadow:0 0 0 2px rgba(21,94,87,.25)}\n.g2b-place h3{margin:6px 0 2px;font-size:1.1rem;overflow-wrap:anywhere}\n.g2b-place h3 span{font-weight:400;font-size:.9rem;opacity:.75;word-break:keep-all;display:inline-block}\n.g2b-place p{margin:4px 0}\n.g2b-place-area{font-size:.88rem;opacity:.75}\n.g2b-place-top{display:flex;gap:8px;flex-wrap:wrap;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}\n.g2b-place-badge{padding:2px 8px;border-radius:999px;background:#eef3f2}\n.g2b-place-badge.is-local{background:#fde7c8}\n.g2b-place-actions{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px;align-items:center}\n.g2b-place-actions a,.g2b-place-actions button{min-height:40px;display:inline-flex;align-items:center;font:inherit;font-size:.95rem}\n.g2b-place-show{padding:6px 14px;border-radius:999px;border:1px solid #155e57;background:#fff;color:#155e57;font-weight:600;cursor:pointer}\n.g2b-map-count{margin:0;font-size:.92rem}\n.g2b-map-layout [hidden]{display:none!important}\n@media (max-width:899px){.g2b-filter-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px;scrollbar-width:thin}.g2b-filter-row button{flex:0 0 auto}}\n@media (min-width:900px){.g2b-map-layout{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:start}.g2b-map-sticky{position:sticky;top:84px}.g2b-map-frame{height:560px}}\n"
 
 def build(code, L):
     locale_page_path = os.path.join(ROOT, L['dir'], 'guides', 'busan-map', 'index.html')
-    try:
-        locale_page = open(locale_page_path, encoding='utf-8').read()
-        style_match = re.search(r'<style>.*?</style>', locale_page, re.S)
-        style = style_match.group(0) if style_match else STYLE_EN
-    except FileNotFoundError:
-        style = STYLE_EN
+    style = f"<style>{STYLE_JA_TW}</style>"
     assert len(L['why']) == len(P), f'{code}: {len(L["why"])} descriptions for {len(P)} places'
     url = f"{B}/{L['dir']}/guides/busan-map/"
     en_url, ja_url, tw_url = f'{B}/guides/busan-map/', f'{B}/ja/guides/busan-map/', f'{B}/zh-tw/guides/busan-map/'
