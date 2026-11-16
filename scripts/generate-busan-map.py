@@ -1,5 +1,5 @@
 # Generates guides/busan-map/index.html. Run from the repo root: python3 scripts/generate-busan-map.py
-import json, html, os, urllib.parse
+import json, html, os, urllib.parse, subprocess, sys
 B = 'https://go2busan.com'
 e = lambda s: html.escape(s, quote=True)
 OG = 'https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1600'
@@ -180,3 +180,5 @@ page = f'''<!doctype html>
 os.makedirs('guides/busan-map', exist_ok=True)
 open('guides/busan-map/index.html', 'w').write(page)
 print('places', len(P), 'title', len(title) + 10)
+# Keep EN, JA and zh-TW maps generated from the same canonical P dataset.
+subprocess.run([sys.executable, os.path.join(os.path.dirname(__file__), 'generate-busan-map-i18n.py')], check=True)
