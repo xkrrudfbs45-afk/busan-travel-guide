@@ -674,3 +674,9 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 
 - EN map generator now matches the checked-in EN CSS block boundaries exactly and preserves its three-newline card spacing. JA/zh-TW retain their shared localized CSS and one-newline card spacing.
 - Code commit at this handoff: `aa4deda46f901ade40b45f573d4e1772f748b5cd`. CI on this exact code head is pending; do not report the map generator as validated until the no-diff and link/anchor checks pass.
+
+
+### EN card-spacing parity — 2026-11-17
+
+- EN map cards now use the generator's consistent three-newline separator; the checked-in page has been normalized. JA/zh-TW remain one-newline separators, matching their generator.
+- Latest code commit before this note: `b217f347bb9419747dc7d8d4f85d2fd63869b92b`. Exact-head CI pending.
