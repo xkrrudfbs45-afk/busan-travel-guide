@@ -82,6 +82,38 @@ function approved(start = "2026-11-05") {
 const quiet = () => {};
 const ENV = { THREADS_LIVE: "true", THREADS_JP_ACCESS_TOKEN: "jp", THREADS_US_ACCESS_TOKEN: "us" };
 
+test("approved needs_check post is blocked without consuming an attempt", async () => {
+  const p = {
+    id: "d28-us-1", market: "US", local_date: "2026-12-01", local_time: "08:00",
+    publish_at_utc: "2026-12-01T13:00:00.000Z", status: "approved",
+    text: "Before you finalize your Busan itinerary, group nearby stops, add meal breaks, and leave a buffer.",
+    verification: { status: "needs_check" },
+  };
+  const { fetchImpl, calls } = fakeApi();
+  const log = { posts: {} };
+  const result = await run({ now: new Date(p.publish_at_utc), schedule: { posts: [p] }, log,
+    env: ENV, fetchImpl, waitMs: 0, save: quiet, out: quiet });
+  assert.equal(result.blocked_verification.length, 1);
+  assert.match(result.blocked_verification[0], /d28-us-1/);
+  assert.equal(log.posts[p.id]?.attempts || 0, 0);
+  assert.ok(!calls.some((c) => c.includes("threads_publish")));
+});
+
+test("verified post can publish after the verification gate", async () => {
+  const p = {
+    id: "verified-us-test", market: "US", local_date: "2026-12-01", local_time: "08:00",
+    publish_at_utc: "2026-12-01T13:00:00.000Z", status: "approved",
+    text: "Before you finalize your Busan itinerary, group nearby stops, add meal breaks, and leave a buffer.",
+    verification: { status: "verified" },
+  };
+  const { fetchImpl } = fakeApi();
+  const log = { posts: {} };
+  const result = await run({ now: new Date(p.publish_at_utc), schedule: { posts: [p] }, log,
+    env: ENV, fetchImpl, waitMs: 0, save: quiet, out: quiet });
+  assert.equal(result.published.length, 1);
+  assert.equal(log.posts[p.id].status, "published");
+});
+
 test("dry run never publishes or writes log (only reads /me to verify the account)", async () => {
   const api = fakeApi(); const log = { posts: {} };
   const s = await run({ now: new Date("2026-11-04T23:05:00Z"), schedule: approved(), log, env: { THREADS_JP_ACCESS_TOKEN: "jp" }, fetchImpl: api.fetchImpl, waitMs: 0, out: quiet });
