@@ -505,7 +505,7 @@ Applied a second grouped pass on the existing homepage design branch:
 - k.ride official service page and app listing: Google / Apple / email or social sign-up options, foreign-card / mobile payment support, and automatic payment after ride. Neither source guarantees no phone/device verification for every foreign number.
 
 ### Editorial safeguards
-- Gwangbok-ro 2026–27 winter light-tree festival dates and hours remain unconfirmed; prior-year dates were not reused.
+- Busan Jung-gu's 2026-09-08 re-notice specifies a planned Gwangbok-ro lighting period of 2026-12-04–2027-01-31, 17:30–22:30. This is a procurement / operations schedule, not the final visitor programme; performances, ceremony, admission and parking remain unconfirmed and the schedule may change. See Draft PR #487; do not present the planned period as a final public programme.
 - December laser dates are labelled expected, not confirmed, until the monthly programme is published.
 - No fixed metro last-train time or Nampo-to-Gwangalli transfer duration was invented. Users are directed to check the route and last service for their destination.
 - VisitKorea's separate Haeundae event page currently shows a conflicting date range; the article cites the newer Busan City and MCST listings for this edition and flags the conflict.

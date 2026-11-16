@@ -543,7 +543,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - k.ride official service page and app listing: Google / Apple / email or social sign-up options, foreign-card / mobile payment support, and automatic payment after ride. Neither source guarantees no phone/device verification for every foreign number.
 
 ### Editorial safeguards
-- Gwangbok-ro 2026–27 winter light-tree festival dates and hours remain unconfirmed; prior-year dates were not reused.
+- Gwangbok-ro's 2026–27 lighting period is now specified as a **planned** 2026-12-04–2027-01-31, 17:30–22:30 window in Jung-gu's 2026-09-08 re-notice. This is a procurement / operations schedule, not the final visitor programme; ceremony, performances, admission and parking remain unconfirmed. See Draft PR #487 and recheck the latest district notice before travel.
 - December laser dates are labelled expected, not confirmed, until the monthly programme is published.
 - No fixed metro last-train time or Nampo-to-Gwangalli transfer duration was invented. Users are directed to check the route and last service for their destination.
 - VisitKorea's separate Haeundae event page currently shows a conflicting date range; the article cites the newer Busan City and MCST listings for this edition and flags the conflict.
@@ -606,3 +606,13 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Licensed generic Busan bokguk photo added with CC BY-SA 3.0 attribution; it is not presented as a restaurant-specific photograph.
 - Updated `assets/data/search-index.json`, `assets/data/image-credits.json`, `scripts/generate-busan-map.py`, and generated `guides/busan-map/index.html` (30 places).
 - Required QA: run `python3 scripts/generate-busan-map.py` and confirm no generated diff; run `sh scripts/build-static.sh` and every workflow audit; validate new Visit Busan / Google Maps / DiningCode links; inspect 360 / 390 / 768 / 1280 px. Keep PR Draft; no merge/deploy without owner approval.
+
+
+## Gwangbok-ro planned lighting schedule — 2026-11-16
+
+- Official Busan Jung-gu re-notice dated 2026-09-08 specifies a **planned lighting period of 2026-12-04 to 2027-01-31, 17:30–22:30**, covering Gwangbok-ro, Gwangbokjungang-ro and hillside-road sections in Bosu-dong, Daecheong-dong and Yeongju-dong.
+- This is a procurement / operations schedule, not the final visitor programme. Do not imply that the lighting ceremony, performances, admission, parking or all visitor arrangements are confirmed. The notice allows changes; recheck the district's latest public announcement before travel.
+- Official e-minwon notice: https://eminwon.bsjunggu.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?context=NTIS&homepage_pbs_yn=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&not_ancmt_mgt_no=30073&subCheck=Y
+- Draft PR #487 updates the existing EN winter-lights guide and EN / JA / zh-TW winter-travel guides, plus the search index and research log: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/487
+- PR head: `2103ab45d7817b0376b404b45beab70ebc9c0e5f`; Technical SEO audit #1534 passed. PR remains Draft, unmerged and undeployed.
+- No new event photo was added; current-edition image rights were not verified. Browser QA at 360 / 390 / 1280 remains pending.
