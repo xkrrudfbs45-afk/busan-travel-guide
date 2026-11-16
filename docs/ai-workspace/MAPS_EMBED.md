@@ -41,3 +41,6 @@ Add a row to the `P` list in `scripts/generate-busan-map.py`, add one localized 
 - `map_directions_click` (`place_name`, `place_area`)
 
 Existing `affiliate_click` and other events are unchanged.
+
+
+JA and zh-TW currently share the same localized map CSS. The localized generator keeps this in `STYLE_JA_TW`; update that constant and both localized pages together when changing their visual design. EN uses its separate CSS template in `scripts/generate-busan-map.py`.
