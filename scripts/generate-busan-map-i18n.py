@@ -179,12 +179,14 @@ LANGS = {
  ),
 }
 
-# Use each locale's existing style block so the generator preserves its visual design.
-en_page = open('guides/busan-map/index.html', encoding='utf-8').read()
+# Resolve all paths from the repository root, independent of the caller's working directory.
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+# Preserve each locale's existing map CSS; use EN CSS only when creating a locale page for the first time.
+en_page = open(os.path.join(ROOT, 'guides/busan-map/index.html'), encoding='utf-8').read()
 STYLE_EN = re.search(r'<style>.*?</style>', en_page, re.S).group(0)
 
 def build(code, L):
-    locale_page_path = f"{L['dir']}/guides/busan-map/index.html"
+    locale_page_path = os.path.join(ROOT, L['dir'], 'guides', 'busan-map', 'index.html')
     try:
         locale_page = open(locale_page_path, encoding='utf-8').read()
         style_match = re.search(r'<style>.*?</style>', locale_page, re.S)
@@ -294,7 +296,7 @@ def build(code, L):
 '''
 
 for code, L in LANGS.items():
-    d = f"{L['dir']}/guides/busan-map"
-    os.makedirs(d, exist_ok=True)
-    open(f'{d}/index.html', 'w', encoding='utf-8').write(build(code, L))
+    locale_page_path = os.path.join(ROOT, L['dir'], 'guides', 'busan-map', 'index.html')
+    os.makedirs(os.path.dirname(locale_page_path), exist_ok=True)
+    open(locale_page_path, 'w', encoding='utf-8').write(build(code, L))
     print(code, 'title chars', len(L['title']) + 10)
