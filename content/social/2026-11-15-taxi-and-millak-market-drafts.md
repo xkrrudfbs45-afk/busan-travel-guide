@@ -32,7 +32,7 @@ K.Ride is a distinct global service. Do not imply its payment, language or suppo
    先確認當天公車、地鐵與轉乘方式。深夜、行李多或轉乘不方便時，再比較計程車預估車資；不是每一段都需要搭計程車。
 
 5. **行程中途意外結束時**  
-   若 App 提前結束行程，或車資顯示與預期不同，先確認行程紀錄、車內計價器與付款金額。單一網路經驗不能直接當成常見詐騙手法。
+   若 App 提前結束行程，或車資顯示與預期不同，先查看 App 行程紀錄、最終車資與收據。單一網路經驗不能直接當成常見詐騙手法。
 
 6. **留下紀錄，再找官方客服**  
    記下時間、上下車地點、車資和收據；需要時先到安全的公共場所，再透過 App 內官方客服反映。收藏清單，出發前比較交通方式。
@@ -58,7 +58,7 @@ https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/?utm_sour
    まず当日のバス・地下鉄と乗り継ぎを確認。夜遅い時間、荷物が多いとき、乗り継ぎにくい場合はタクシーの見積もり料金と比べて選びましょう。
 
 5. **途中でアプリの運行が終わったら**  
-   予期せず終了したり料金表示が違ったりした場合は、まずアプリの履歴、車内メーター、決済額を確認。ひとつの体験談だけで一般的な詐欺と決めつけないことが大切です。
+   予期せず終了したり料金表示が違ったりした場合は、まずアプリの利用履歴、最終料金、領収書を確認。ひとつの体験談だけで一般的な詐欺と決めつけないことが大切です。
 
 6. **記録を残して公式サポートへ**  
    時刻、乗降場所、料金、領収書を保存し、必要なら安全な公共の場所からアプリ内の公式サポートに連絡。出発前に移動手段を比べるガイドも確認してください。
@@ -86,7 +86,7 @@ Note: this is an airport-to-Seomyeon route guide, not a dedicated Japanese K.Rid
    Check bus and subway service and transfers first. If it is late, you have heavy bags or a difficult transfer, compare the taxi estimate. A taxi is not always necessary.
 
 5. **If an app ride ends unexpectedly**  
-   If a trip ends early or the fare display changes, check the trip record, in-car meter and payment amount. One online anecdote is not proof of a common scam.
+   If a trip ends early or the fare display changes, check the in-app trip record, final fare and receipt. One online anecdote is not proof of a common scam.
 
 6. **Keep the record and contact support**  
    Save the time, pickup/drop-off, fare and receipt. If needed, move to a safe public place and contact official in-app support. Compare route options before booking.
