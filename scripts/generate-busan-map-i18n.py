@@ -179,11 +179,18 @@ LANGS = {
  ),
 }
 
-# Reuse the exact <style> block of the English page so all three versions look the same.
+# Use each locale's existing style block so the generator preserves its visual design.
 en_page = open('guides/busan-map/index.html', encoding='utf-8').read()
-STYLE = re.search(r'<style>.*?</style>', en_page, re.S).group(0)
+STYLE_EN = re.search(r'<style>.*?</style>', en_page, re.S).group(0)
 
 def build(code, L):
+    locale_page_path = f"{L['dir']}/guides/busan-map/index.html"
+    try:
+        locale_page = open(locale_page_path, encoding='utf-8').read()
+        style_match = re.search(r'<style>.*?</style>', locale_page, re.S)
+        style = style_match.group(0) if style_match else STYLE_EN
+    except FileNotFoundError:
+        style = STYLE_EN
     assert len(L['why']) == len(P), f'{code}: {len(L["why"])} descriptions for {len(P)} places'
     url = f"{B}/{L['dir']}/guides/busan-map/"
     en_url, ja_url, tw_url = f'{B}/guides/busan-map/', f'{B}/ja/guides/busan-map/', f'{B}/zh-tw/guides/busan-map/'
@@ -247,7 +254,7 @@ def build(code, L):
 <meta name="twitter:image" content="{OG}">
 <script type="application/ld+json">{json.dumps(page_ld, ensure_ascii=False, separators=(',', ':'))}</script>
 <script type="application/ld+json">{json.dumps(bc, ensure_ascii=False)}</script>
-{STYLE}
+{style}
 </head>
 <body><a class="skip-link" href="#main">{e(L['skip'])}</a>
 <header class="site-header"><div class="shell nav-wrap"><a class="brand" href="/{L['dir']}/"><span class="brand-mark brand-mark-image"><img src="/assets/go2busan-mark.svg" alt=""></span><span>Go2Busan</span></a><nav aria-label="{e(L['nav'][2])}"><a href="/{L['dir']}/guides/">{e(L['nav'][0])}</a><a href="/about.html">{e(L['nav'][1])}</a></nav><div style="display:flex;gap:8px;align-items:center">{pills}</div></div></header>
