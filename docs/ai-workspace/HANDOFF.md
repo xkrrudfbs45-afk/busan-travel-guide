@@ -662,3 +662,9 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Both localized maps show 30 places and use the same 30-item CollectionPage URL list as the visible cards. The canonical Korean address queries and local badge metadata for the two Haeundae additions match the P dataset.
 - CI includes deterministic two-pass generation, ID/count parity, JSON-LD URL parity, local target-file and fragment checks, and fallback hreflang validation. Earlier attempts detected and exposed template/style drift; the latest absolute-path style fix is awaiting exact-head CI.
 - Browser QA at 360 / 390 / 1280 and map filter/marker interaction are still outstanding. No merge or deployment.
+
+
+### Localized map CSS ownership — 2026-11-17
+
+- JA and zh-TW share one verified 2,532-character CSS block, now stored as `STYLE_JA_TW`. Keep this constant and both generated localized pages synchronized when the localized map design changes. EN remains independently styled.
+- Current code head at handoff: `a65f5772e458363f19acc8f15264323a3066004c`. Exact-head CI is pending; the earlier dynamic-style attempt failed and should not be treated as final validation.
