@@ -44,3 +44,6 @@ Existing `affiliate_click` and other events are unchanged.
 
 
 JA and zh-TW currently share the same localized map CSS. The localized generator keeps this in `STYLE_JA_TW`; update that constant and both localized pages together when changing their visual design. EN uses its separate CSS template in `scripts/generate-busan-map.py`.
+
+
+Generated HTML formatting is intentional: EN keeps its current CSS and card spacing; JA/zh-TW share the existing localized CSS block. Avoid hand-formatting generated map pages; the two-pass CI check enforces idempotence.
