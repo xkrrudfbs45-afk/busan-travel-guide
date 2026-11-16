@@ -543,7 +543,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - k.ride official service page and app listing: Google / Apple / email or social sign-up options, foreign-card / mobile payment support, and automatic payment after ride. Neither source guarantees no phone/device verification for every foreign number.
 
 ### Editorial safeguards
-- Gwangbok-ro's 2026–27 lighting period is now specified as a **planned** 2026-12-04–2027-01-31, 17:30–22:30 window in Jung-gu's 2026-09-08 re-notice. This is a procurement / operations schedule, not the final visitor programme; ceremony, performances, admission and parking remain unconfirmed. See Draft PR #487 and recheck the latest district notice before travel.
+- Gwangbok-ro's 2026–27 lighting period is specified as a **planned** 2026-12-04–2027-01-31, 17:30–22:30 window in Jung-gu's 2026-09-08 re-notice. PR #487 is merged and deployed on main `e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3`; the period remains a procurement / operations schedule, not the final visitor programme. Ceremony, performances, admission and parking remain unconfirmed; recheck the latest district notice before travel.
 - December laser dates are labelled expected, not confirmed, until the monthly programme is published.
 - No fixed metro last-train time or Nampo-to-Gwangalli transfer duration was invented. Users are directed to check the route and last service for their destination.
 - VisitKorea's separate Haeundae event page currently shows a conflicting date range; the article cites the newer Busan City and MCST listings for this edition and flags the conflict.
@@ -551,8 +551,8 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 
 ### SEO and release
 - Added Japanese drone-show page, reciprocal EN/JA/zh-TW hreflang links, sitemap entries, search-index entries, and Japanese guide-directory link.
-- Draft PR only. No merge, deployment, SNS publishing or schedule change performed by this batch.
-- Exact-head CI and browser screenshot QA at 360 / 390 / 768 / 1280 remain required.
+- PR #487 was merged and deployed; Render run #43784672075 verified live SHA `e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3` and all 229 sitemap URLs returned HTTP 200. No SNS publishing or schedule change was made.
+- Browser screenshot QA at 360 / 390 / 768 / 1280 remains unperformed.
 
 
 ## Current handoff — GoodDay Unse K-culture cards (2026-11-15, ChatGPT)
