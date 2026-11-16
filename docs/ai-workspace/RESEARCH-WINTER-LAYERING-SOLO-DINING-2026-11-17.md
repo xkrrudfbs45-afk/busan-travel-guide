@@ -37,7 +37,7 @@
 
 - **Reddit — “Solo Gejang in Busan”**  
   https://www.reddit.com/r/koreatravel/comments/1wxvdyf/solo_gejang_in_busan/  
-  When opened on 2026-11-17, the page displayed “3d ago”. The traveler asks for a specific crab restaurant that accepts one diner because Naver/Google search and booking results are inconclusive. Comments contain venue suggestions, but those suggestions are user-generated and were not independently verified; none were copied into Go2Busan. The existing food-etiquette page is the safe next step until a business confirms current solo service.
+  The search result dated it 2026-10-05; when opened on 2026-11-17, the page displayed “1mo ago”. The traveler asks for a specific crab restaurant that accepts one diner because Naver/Google search and booking results are inconclusive. Comments contain venue suggestions, but those suggestions are user-generated and were not independently verified; none were copied into Go2Busan. The existing food-etiquette page is the safe next step until a business confirms current solo service.
 - **Reddit — “Winter - itinerary help”**  
   https://www.reddit.com/r/koreatravel/comments/1xtbrwu/winter_itinerary_help/  
   Search result dated 2026-11-11 describes a family with two children trying to combine Haeundae, Nampo, Yeongdo and East Busan. Page open was unavailable in this pass; treat it as a search-result signal only. It supports area-based planning as a useful theme, not a verified itinerary.
@@ -49,7 +49,7 @@
   Posted 2026-01-22; page showed 447 views and 4 comments. A one-night solo traveler compares Haeundae/Mipo, Busan Station–Seomyeon/Nampo, and Gwangalli/drone-show options around a performance schedule. Useful evidence of a real planning question, but one thread only.
 - **DCInside domestic travel gallery — “부산 혼자 1박2일 코스”**  
   https://gall.dcinside.com/board/view/?id=travel&no=75500&page=8  
-  Posted 2026-06-02; 742 views and 0 comments. One proposed route runs Gimhae Airport → Haedong Yonggungsa → Haeundae → Gwangalli. Treat as a single itinerary example, not a repeated trend.
+  Posted 2026-06-02; 760 views and 0 comments. One proposed route runs Gimhae Airport → Haedong Yonggungsa → Haeundae → Gwangalli. Treat as a single itinerary example, not a repeated trend.
 - **Other Korean community searches:** TheQoo and DCInside produced the relevant examples above. Clien and Ppomppu searches did not surface a useful current Busan travel discussion in this pass. Naver Blog access was blocked by robots; no login or access-control bypass was attempted. No useful public Instagram/YouTube comment thread was verified.
 
 ## Official facts and competitor check
