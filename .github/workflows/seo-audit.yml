@@ -36,23 +36,45 @@ jobs:
           import json, re
           from pathlib import Path
 
-          paths = [
-              Path("guides/busan-map/index.html"),
-              Path("ja/guides/busan-map/index.html"),
-              Path("zh-tw/guides/busan-map/index.html"),
+          pages = [
+              (Path("guides/busan-map/index.html"), ""),
+              (Path("ja/guides/busan-map/index.html"), "ja"),
+              (Path("zh-tw/guides/busan-map/index.html"), "zh-tw"),
           ]
           expected_ids = None
-          for path in paths:
-              html = path.read_text(encoding="utf-8")
-              ids = re.findall(r'<li class="g2b-place" id="(place-\d+)"', html)
-              assert len(ids) == 30, f"{path}: expected 30 cards, found {len(ids)}"
+          for page_path, locale in pages:
+              html = page_path.read_text(encoding="utf-8")
+              blocks = re.findall(r'(<li class="g2b-place" id="place-\d+".*?</li>)', html, re.S)
+              ids = [re.search(r'id="(place-\d+)"', block).group(1) for block in blocks]
+              assert len(ids) == 30, f"{page_path}: expected 30 cards, found {len(ids)}"
               if expected_ids is None:
                   expected_ids = ids
-              assert ids == expected_ids, f"{path}: place IDs differ from other locales"
+              assert ids == expected_ids, f"{page_path}: place IDs differ from other locales"
+
+              guide_hrefs = []
+              for block in blocks:
+                  links = re.findall(r'<a href="([^"]+)"([^>]*)>(.*?)</a>', block, re.S)
+                  assert len(links) >= 3, f"{page_path}: card is missing its guide link"
+                  href, attrs, _ = links[-1]
+                  guide_hrefs.append(href)
+                  target_path, marker, fragment = href.partition("#")
+                  assert target_path.startswith("/"), f"{page_path}: non-local guide link {href}"
+                  target_file = Path(target_path.lstrip("/").rstrip("/")) / "index.html"
+                  assert target_file.is_file(), f"{page_path}: missing guide target {target_file}"
+                  if marker:
+                      target_html = target_file.read_text(encoding="utf-8")
+                      assert re.search(r'\bid="' + re.escape(fragment) + r'"', target_html), f"{page_path}: missing anchor #{fragment} in {target_file}"
+                  if locale and target_path.startswith("/guides/"):
+                      assert 'hreflang="en"' in attrs and 'lang="en"' in attrs, f"{page_path}: English fallback not labelled"
+                  if locale and target_path.startswith(f"/{locale}/"):
+                      assert 'hreflang="en"' not in attrs, f"{page_path}: localized guide incorrectly labelled English"
+
               scripts = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
               page = next(json.loads(item) for item in scripts if json.loads(item).get("@type") == "CollectionPage")
               item_list = page["mainEntity"]
-              assert item_list["numberOfItems"] == len(ids) == len(item_list["itemListElement"]), f"{path}: ItemList count mismatch"
+              assert item_list["numberOfItems"] == len(ids) == len(item_list["itemListElement"]), f"{page_path}: ItemList count mismatch"
+              item_urls = [item["url"].replace("https://go2busan.com", "") for item in item_list["itemListElement"]]
+              assert item_urls == guide_hrefs, f"{page_path}: ItemList URLs differ from visible guide links"
           PY
 
       - name: Build the public site (same script Render runs)
