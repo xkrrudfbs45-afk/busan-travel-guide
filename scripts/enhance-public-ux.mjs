@@ -64,22 +64,53 @@ function readGuide(file) {
   return { file, url, loc: localeOf(url), title, desc, date, linked, tf, html: h };
 }
 
+function vec(tf, idf) {
+  let s = 0; const v = new Map();
+  for (const [t, c] of tf) { const w = c * (idf.get(t) || 0); v.set(t, w); s += w * w; }
+  return { v, n: Math.sqrt(s) || 1 };
+}
+function similarity(a, b) {
+  let dot = 0;
+  for (const [t, w] of a.v) if (b.v.has(t)) dot += w * b.v.get(t);
+  return dot / (a.n * b.n);
+}
+
 function related(guide, pool, idf) {
-  const norm = (tf) => {
-    let s = 0; const v = new Map();
-    for (const [t, c] of tf) { const w = c * (idf.get(t) || 0); v.set(t, w); s += w * w; }
-    return { v, n: Math.sqrt(s) || 1 };
-  };
-  const a = norm(guide.tf);
+  const a = vec(guide.tf, idf);
   return pool.filter((g) => g.url !== guide.url && !guide.linked.has(g.url))
-    .map((g) => {
-      const b = norm(g.tf); let dot = 0;
-      for (const [t, w] of a.v) if (b.v.has(t)) dot += w * b.v.get(t);
-      return { g, score: dot / (a.n * b.n) };
-    })
+    .map((g) => ({ g, score: similarity(a, vec(g.tf, idf)) }))
     .filter((x) => x.score > 0)
     .sort((x, y) => y.score - x.score || x.g.url.localeCompare(y.g.url))
     .slice(0, 3).map((x) => x.g);
+}
+
+// Under-linked guides (few in-body or related links from other guides of the same language)
+// are hard for search engines to discover. Give each one extra "Keep exploring" slots on
+// its most similar guides until it reaches MIN_INBOUND. Each source page gets at most one
+// extra link, so a block never grows beyond 4 items. Deterministic for stable builds.
+const MIN_INBOUND = 4;
+export function boostUnderLinked(pool, idf, rels) {
+  const inbound = new Map(pool.map((g) => [g.url, 0]));
+  for (const g of pool) {
+    for (const u of g.linked) if (inbound.has(u) && u !== g.url) inbound.set(u, inbound.get(u) + 1);
+    for (const r of rels.get(g.url) || []) inbound.set(r.url, inbound.get(r.url) + 1);
+  }
+  const vecs = new Map(pool.map((g) => [g.url, vec(g.tf, idf)]));
+  const extra = new Map();
+  const weak = pool.filter((g) => inbound.get(g.url) < MIN_INBOUND)
+    .sort((a, b) => inbound.get(a.url) - inbound.get(b.url) || a.url.localeCompare(b.url));
+  for (const target of weak) {
+    const sources = pool.filter((s) => s.url !== target.url && !extra.has(s.url) && !s.linked.has(target.url)
+        && !(rels.get(s.url) || []).some((r) => r.url === target.url) && (rels.get(s.url) || []).length >= 2)
+      .map((s) => ({ s, score: similarity(vecs.get(s.url), vecs.get(target.url)) }))
+      .filter((x) => x.score > 0)
+      .sort((x, y) => y.score - x.score || x.s.url.localeCompare(y.s.url));
+    for (const { s } of sources) {
+      if (inbound.get(target.url) >= MIN_INBOUND) break;
+      extra.set(s.url, target); inbound.set(target.url, inbound.get(target.url) + 1);
+    }
+  }
+  return extra;
 }
 
 function feedXml(loc, items) {
@@ -208,9 +239,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
       feedLocs.add(loc); bump("2 feeds written");
     }
     const social = (SOCIAL[loc] || []).map((s) => `<a href="${s.url}" rel="noopener" target="_blank">${s.name}</a>`).join(" · ");
+    const rels = new Map(pool.map((g) => [g.url, related(g, pool, idf)]));
+    const extra = boostUnderLinked(pool, idf, rels);
     for (const g of pool) {
       let h = g.html;
-      const rel = related(g, pool, idf);
+      const rel = [...rels.get(g.url)];
+      if (extra.has(g.url) && rel.length >= 2) { rel.push(extra.get(g.url)); bump("1b under-linked boosts"); }
       if (rel.length >= 2 && !h.includes('class="shell keep-exploring"') && h.includes("</main>")) {
         const t = T[loc];
         const block = `<section class="shell keep-exploring" aria-labelledby="keep-exploring-title"><h2 id="keep-exploring-title">${t.keep}</h2><ul>${rel.map((r) => link(r, false, loc)).join("")}</ul>${social ? `<p class="keep-follow">${t.follow}: ${social}</p>` : ""}</section>`;

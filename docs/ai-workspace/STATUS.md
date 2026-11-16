@@ -1,3 +1,10 @@
+## Discovery boost: under-linked guides + IndexNow — 2026-11-16 (Claude, owner-requested)
+
+- Context: Search Console shows ~66 URLs as "Discovered - currently not indexed". Owner registered go2busan.com in Bing Webmaster Tools and submitted the sitemap on 2026-11-16. Google indexing was requested manually for 11 priority URLs on 2026-11-16 (daily quota hit at /guides/ktx-booking-guide/).
+- `scripts/enhance-public-ux.mjs`: the "Keep exploring" block now gets a 4th link on the most similar pages for guides with fewer than 4 in-language inbound links (article body + related blocks). Each page gains at most one extra item. Built result: minimum in-body inbound links per guide rose from 1 to 4; 120 pages gained a 4th item. Deterministic.
+- IndexNow: public key file `/a758829879725e06ae68f58149b9355b.txt` (copied by build-static.sh, smoke-tested in deploy.yml). After a successful deploy, deploy.yml posts sitemap URLs with lastmod in the last 2 days to api.indexnow.org (Bing, Naver, Yandex). `continue-on-error`, so it never fails a deploy. The key is public by design and is not a secret.
+- Verification: build + every seo-audit.yml audit with SEO_AUDIT_STRICT=1, 0 failures; 375/1280 screenshot of the block, no horizontal overflow; IndexNow payload dry-run (no POST sent).
+
 ## Contrast remediation — 2026-11-15 (Claude, issue #462)
 
 - Branch `claude/issue-462-20261115-1241`, Draft PR against main. CSS-only: `assets/homepage-showcase.css`, `assets/styles.css`. No copy, URL, metadata, analytics, consent, affiliate or SNS changes.
