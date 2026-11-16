@@ -107,37 +107,44 @@ page = f'''<!doctype html>
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(title)}">
 <meta name="twitter:description" content="{e(desc)}">
 <meta name="twitter:image" content="{OG}">
-<script type="application/ld+json">{json.dumps(page_ld, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(page_ld, ensure_ascii=False, separators=(',', ':'))}</script>
 <script type="application/ld+json">{json.dumps(bc, ensure_ascii=False)}</script>
 <style>
-.g2b-map-layout{{display:grid;gap:20px;padding-bottom:48px}}
-.g2b-map-panel{{border:1px solid rgba(0,0,0,.1);border-radius:16px;overflow:hidden;background:#eef3f2}}
-.g2b-map-frame{{display:block;width:100%;height:min(60vh,420px);border:0}}
-.g2b-map-placeholder{{padding:20px;display:grid;gap:12px;min-height:180px;align-content:center}}
+
+.g2b-map-layout{{display:grid;gap:22px;padding-bottom:64px}}
+.g2b-map-panel{{border:1px solid #dce5ef;border-radius:18px;overflow:hidden;background:#f1f5f9;box-shadow:0 14px 34px rgba(10,25,47,.08)}}
+.g2b-map-frame{{display:block;width:100%;height:min(60vh,460px);border:0}}
+.g2b-map-placeholder{{padding:clamp(22px,4vw,34px);display:grid;gap:13px;min-height:210px;align-content:center}}
 .g2b-map-placeholder p{{margin:0}}
-.g2b-map-load{{justify-self:start;min-height:44px;padding:10px 18px;border-radius:999px;border:0;background:#155e57;color:#fff;font:inherit;font-weight:600;cursor:pointer}}
-.g2b-map-note{{font-size:.9rem;opacity:.8;margin:0;padding:10px 14px;background:#fff}}
-.g2b-filters{{display:grid;gap:10px}}
+.g2b-map-load{{justify-self:start;min-height:46px;padding:11px 20px;border-radius:8px;border:0;background:#0a192f;color:#fff;font:inherit;font-weight:700;cursor:pointer}}
+.g2b-map-load:hover{{background:#1769e0}}
+.g2b-map-note{{font-size:.85rem;color:#526174;margin:0;padding:12px 16px;background:#fff;border-top:1px solid #e2e8f0}}
+.g2b-filters{{display:grid;gap:11px;margin:18px 0}}
 .g2b-filter-row{{display:flex;flex-wrap:wrap;gap:8px}}
-.g2b-filter-row button{{min-height:40px;padding:6px 14px;border-radius:999px;border:1px solid rgba(0,0,0,.18);background:#fff;font:inherit;font-size:.92rem;cursor:pointer}}
-.g2b-filter-row button.is-active{{background:#155e57;border-color:#155e57;color:#fff}}
-.g2b-place-list{{list-style:none;margin:0;padding:0;display:grid;gap:12px}}
-.g2b-place{{border:1px solid rgba(0,0,0,.1);border-radius:14px;padding:14px 16px;background:#fff}}
-.g2b-place.is-selected{{border-color:#155e57;box-shadow:0 0 0 2px rgba(21,94,87,.25)}}
-.g2b-place h3{{margin:6px 0 2px;font-size:1.1rem;overflow-wrap:anywhere}}
-.g2b-place h3 span{{font-weight:400;font-size:.9rem;opacity:.75;word-break:keep-all;display:inline-block}}
-.g2b-place p{{margin:4px 0}}
-.g2b-place-area{{font-size:.88rem;opacity:.75}}
-.g2b-place-top{{display:flex;gap:8px;flex-wrap:wrap;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}}
-.g2b-place-badge{{padding:2px 8px;border-radius:999px;background:#eef3f2}}
-.g2b-place-badge.is-local{{background:#fde7c8}}
-.g2b-place-actions{{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px;align-items:center}}
-.g2b-place-actions a,.g2b-place-actions button{{min-height:40px;display:inline-flex;align-items:center;font:inherit;font-size:.95rem}}
-.g2b-place-show{{padding:6px 14px;border-radius:999px;border:1px solid #155e57;background:#fff;color:#155e57;font-weight:600;cursor:pointer}}
-.g2b-map-count{{margin:0;font-size:.92rem}}
+.g2b-filter-row button{{min-height:40px;padding:7px 15px;border-radius:999px;border:1px solid #dce5ef;background:#fff;color:#344256;font:inherit;font-size:.86rem;font-weight:650;cursor:pointer}}
+.g2b-filter-row button:hover{{border-color:#1769e0;color:#1769e0}}
+.g2b-filter-row button.is-active{{background:#0a192f;border-color:#0a192f;color:#fff}}
+.g2b-place-list{{list-style:none;margin:0;padding:0;display:grid;gap:13px}}
+.g2b-place{{border:1px solid #e2e8f0;border-radius:14px;padding:17px 18px;background:#fff;transition:border-color .18s ease,box-shadow .18s ease}}
+.g2b-place:hover{{border-color:#c6d5e8;box-shadow:0 8px 24px rgba(10,25,47,.06)}}
+.g2b-place.is-selected{{border-color:#1769e0;box-shadow:0 0 0 2px rgba(23,105,224,.16)}}
+.g2b-place h3{{margin:8px 0 3px;color:#0a192f;font-family:Georgia,"Times New Roman",serif;font-size:1.22rem;line-height:1.3;overflow-wrap:anywhere}}
+.g2b-place h3 span{{font-family:inherit;font-weight:400;font-size:.88rem;color:#617084;word-break:keep-all;display:inline-block}}
+.g2b-place p{{margin:5px 0;color:#43536a;font-size:.92rem;line-height:1.65}}
+.g2b-place-area{{font-size:.82rem!important;color:#718096!important}}
+.g2b-place-top{{display:flex;gap:7px;flex-wrap:wrap;font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;font-weight:750}}
+.g2b-place-badge{{padding:4px 9px;border-radius:999px;background:#eff4fa;color:#43536a}}
+.g2b-place-badge.is-local{{background:#fff2e8;color:#96512e}}
+.g2b-place-actions{{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:13px;align-items:center}}
+.g2b-place-actions a,.g2b-place-actions button{{min-height:40px;display:inline-flex;align-items:center;font:inherit;font-size:.88rem;font-weight:650}}
+.g2b-place-show{{padding:7px 14px;border-radius:8px;border:1px solid #1769e0;background:#fff;color:#145bc5;font-weight:700;cursor:pointer}}
+.g2b-place-show:hover{{background:#f2f7ff}}
+.g2b-map-count{{margin:0;font-size:.88rem;color:#617084}}
 .g2b-map-layout [hidden]{{display:none!important}}
-@media (max-width:899px){{.g2b-filter-row{{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px;scrollbar-width:thin}}.g2b-filter-row button{{flex:0 0 auto}}}}
-@media (min-width:900px){{.g2b-map-layout{{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:start}}.g2b-map-sticky{{position:sticky;top:84px}}.g2b-map-frame{{height:560px}}}}
+@media (max-width:899px){{.g2b-filter-row{{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding:3px 0 7px;scrollbar-width:thin}}.g2b-filter-row button{{flex:0 0 auto}}.g2b-map-sticky{{position:relative}}}}
+@media (min-width:900px){{.g2b-map-layout{{grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);align-items:start;gap:28px}}.g2b-map-sticky{{position:sticky;top:94px}}.g2b-map-frame{{height:560px}}}}
+@media(prefers-reduced-motion:reduce){{.g2b-place{{transition:none}}}}
+
 </style>
 </head>
 <body><a class="skip-link" href="#main">Skip to content</a>
@@ -164,6 +171,8 @@ page = f'''<!doctype html>
 <div class="g2b-filter-row" role="group" aria-label="Filter by type">{cat_chips}</div>
 <p class="g2b-map-count" aria-live="polite" data-map-count>{len(P)} places</p>
 </div>
+<h2 id="all-places">Explore all {len(P)} places</h2>
+<h2 class="section-title">Browse {len(P)} places in Busan</h2>
 <ul class="g2b-place-list" data-place-list>
 {chr(10).join(cards)}
 </ul>
