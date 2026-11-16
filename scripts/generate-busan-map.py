@@ -25,7 +25,7 @@ P = [
  ('Haeundae Food Stall Town', '해운대 포장마차촌', 'haeundae', 'food', 'Seafood by the shore in the evening. Check the menu and total price first.', '/guides/haeundae-food-guide/#seafood', 'Haeundae Food Stall Town Busan', False),
  ('Haeridan-gil', '해리단길', 'haeundae', 'cafe', 'Cafés and independent restaurants behind Haeundae Station.', '/guides/haeundae-food-guide/#haeridan', 'Haeridan-gil Busan', False),
  ('Palpal Yangdaechang', '팔팔양대창', 'haeundae', 'food', 'Grilled beef offal for a Korean barbecue dinner.', '/guides/haeundae-food-guide/#bbq', '팔팔양대창 해운대본점', False),
- ('Geumsubokguk', '금수복국', 'haeundae', 'food', 'Bokguk, Korean pufferfish soup, beyond barbecue and chicken.', '/guides/busan-local-food-picks/#geumsubokguk', 'Geumsubokguk Haeundae Busan', False),
+ ('Geumsubokguk', '금수복국', 'haeundae', 'food', 'A long-running Haeundae specialist for bokguk (Korean pufferfish soup).', '/guides/haeundae-food-guide/#bokguk', '금수복국 부산 해운대구 중동1로43번길 23', False),
  # Seomyeon
  ('Seomyeon food streets', '서면', 'seomyeon', 'food', 'A central base for pork soup and casual meals.', '/guides/busan-neighborhood-food-guide/#seomyeon', 'Seomyeon Busan', False),
  # Nampo
@@ -55,6 +55,8 @@ P = [
  ('Dadaepo Beach', '다대포해수욕장', 'west', 'sight', 'A broad beach known for its sunset atmosphere.', '/guides/bts-in-busan/', 'Dadaepo Beach, Busan', False),
  # Yeongdo
  ('MOMOS Coffee Yeongdo Roastery', '모모스커피 영도 로스터리', 'yeongdo', 'cafe', 'Coffee with the atmosphere of Busan’s old harbor district.', '/guides/busan-coffee-guide/', 'MOMOS COFFEE Yeongdo Roastery Coffee Bar', False),
+ ('Park Okhee Halmaejip Original Bokguk', '박옥희할매집원조복국', 'haeundae', 'food', 'A Haeundae bokguk specialist near Dalmaji-gil; confirm fish type and price before ordering.', '/guides/haeundae-food-guide/#bokguk', '박옥희할매집원조복국 부산 해운대구 달맞이길62번길 28', False),
+ ('Haeundae Wonjo Halmae Gukbap', '해운대원조할매국밥', 'haeundae', 'food', 'A local-recommended stop for beef and seonji gukbap. Confirm the address at number 33.', '/guides/haeundae-food-guide/#gukbap', '해운대원조할매국밥 부산 해운대구 구남로21번길 33', True),
 ]
 
 AREA = dict(AREAS); CAT = dict(CATS)
