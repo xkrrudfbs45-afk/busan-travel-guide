@@ -652,3 +652,13 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - JA/zh-TW map metadata now says 30 places; map cards and CollectionPage ItemList URLs use the corresponding localized guides where available.
 - CI now runs the one-command generator twice and checks no diff, identical place IDs, and JSON-LD ItemList counts.
 - Exact-head CI still pending. Browser checks at 360 / 390 / 1280, map filters and marker interaction remain unverified. No merge or deployment.
+
+
+### PR #498 technical follow-up — 2026-11-17
+
+- Keep locale-specific map styles. `generate-busan-map-i18n.py` now reads the existing JA/zh-TW style block using a repository-root absolute path, with EN style only as a first-creation fallback.
+- Localized guide paths are matched before fragments. Section aliases map EN anchors to real JA/zh-TW IDs; Dongnae localized guide now exposes stable `hurshimchung`, `history`, and `food` IDs.
+- zh-TW uses its localized Kkangtong Market and Songdo guides; JA uses the available local-food neighborhood guide for Songdo and explicitly labelled English fallback where no equivalent exists.
+- Both localized maps show 30 places and use the same 30-item CollectionPage URL list as the visible cards. The canonical Korean address queries and local badge metadata for the two Haeundae additions match the P dataset.
+- CI includes deterministic two-pass generation, ID/count parity, JSON-LD URL parity, local target-file and fragment checks, and fallback hreflang validation. Earlier attempts detected and exposed template/style drift; the latest absolute-path style fix is awaiting exact-head CI.
+- Browser QA at 360 / 390 / 1280 and map filter/marker interaction are still outstanding. No merge or deployment.
