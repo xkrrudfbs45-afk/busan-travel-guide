@@ -1,3 +1,9 @@
+## Sitemap and hreflang repair — 2026-11-16 (ChatGPT)
+
+- Added 12 canonical Traditional Chinese guide URLs to `sitemap.xml` and supplied reciprocal EN/zh-TW/x-default alternate groups matching the actual HTML heads; no Japanese variants were invented.
+- Repaired reciprocal sitemap alternate groups for Haeundae food and Busan coffee (EN/JA/zh-TW), plus JA and zh-TW Yeongdo half-day entries.
+- Source: technical SEO audit on 2026-11-16 reported 12 canonical pages absent from sitemap and six non-reciprocal hreflang warnings. Sitemap/hreflang audit pending on PR #494. No merge/deploy.
+
 ## Discovery boost: under-linked guides + IndexNow — 2026-11-16 (Claude, owner-requested)
 
 - Context: Search Console shows ~66 URLs as "Discovered - currently not indexed". Owner registered go2busan.com in Bing Webmaster Tools and submitted the sitemap on 2026-11-16. Google indexing was requested manually for 11 priority URLs on 2026-11-16 (daily quota hit at /guides/ktx-booking-guide/).
