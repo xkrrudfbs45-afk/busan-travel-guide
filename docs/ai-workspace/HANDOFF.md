@@ -613,6 +613,16 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Official Busan Jung-gu re-notice dated 2026-09-08 specifies a **planned lighting period of 2026-12-04 to 2027-01-31, 17:30–22:30**, covering Gwangbok-ro, Gwangbokjungang-ro and hillside-road sections in Bosu-dong, Daecheong-dong and Yeongju-dong.
 - This is a procurement / operations schedule, not the final visitor programme. Do not imply that the lighting ceremony, performances, admission, parking or all visitor arrangements are confirmed. The notice allows changes; recheck the district's latest public announcement before travel.
 - Official e-minwon notice: https://eminwon.bsjunggu.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?context=NTIS&homepage_pbs_yn=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&not_ancmt_mgt_no=30073&subCheck=Y
-- Draft PR #487 updates the existing EN winter-lights guide and EN / JA / zh-TW winter-travel guides, plus the search index and research log: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/487
-- PR head: `2103ab45d7817b0376b404b45beab70ebc9c0e5f`; Technical SEO audit #1534 passed. PR remains Draft, unmerged and undeployed.
+- PR #487 was merged by the repository owner at 2026-11-16 10:09 KST (merge commit e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3): https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/487
+- Merged PR head 74c9a2297903eb0bb29a066bea6570d94b3f536e; exact-head Technical SEO audit #1536 passed. Render deploy run #43784672075 succeeded; production version.txt matched main e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3, cached entry pages matched, and all 229 sitemap URLs returned HTTP 200.
+- The planned lighting period is now live in EN / JA / zh-TW, but it remains a procurement schedule rather than the final visitor programme. Browser screenshot QA at 360 / 390 / 1280 was not performed.
 - No new event photo was added; current-edition image rights were not verified. Browser QA at 360 / 390 / 1280 remains pending.
+
+
+## Production verification — 2026-11-16 10:12 KST
+
+- PR #485 merged by owner at 10:09 KST (merge commit cbd7df752dd31a8e0735ac140a1c43ce15dab41a). Jagalchi / Millak comparison is live in EN / JA / zh-TW. The Millak Waterside Park alcohol-free answer links Suyeong-gu's official report documenting the 2023-05-23 designation notice and 2023-07-01 effective date.
+- PR #487 merged by owner at 10:09 KST (merge commit e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3). Gwangbok-ro planned lighting dates and caveats are live in the existing EN / JA / zh-TW winter guides; no new festival URL was created.
+- Render run #43784672075 completed successfully: live version.txt matched main, cached entry pages matched, core endpoints returned HTTP 200, and all 229 sitemap URLs returned HTTP 200.
+- Main audit #1538 passed; 12 zh-TW sitemap omissions and 6 non-reciprocal hreflang warnings remain in issue #365. Branch-protection enforcement remains unverified / apparently off in issue #474.
+- No 360 / 390 / 1280 browser screenshot QA was performed. No GA4 / GSC query or SNS schedule change.
