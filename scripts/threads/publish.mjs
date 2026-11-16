@@ -25,7 +25,7 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
   save = () => {}, out = console.log } = {}) {
   const live = env.THREADS_LIVE === "true";
   log.posts ||= {};
-  const summary = { live, verified: [], published: [], replies: [], missed: [], failed: [], waiting: [], dry_run: [], not_configured: [] };
+  const summary = { live, verified: [], published: [], replies: [], missed: [], failed: [], waiting: [], dry_run: [], not_configured: [], blocked_verification: [] };
   const entry = (id) => (log.posts[id] ||= { status: "pending", attempts: 0 });
   const persist = () => save(log);
 
@@ -104,6 +104,16 @@ export async function run({ now = new Date(), schedule, log, env = process.env, 
     const sameDay = Object.entries(log.posts).filter(([id, e]) => e.status === "published" &&
       schedule.posts.find((x) => x.id === id && x.market === market && x.local_date === p.local_date)).length;
     if (sameDay >= MAX_PER_LOCAL_DAY) { summary.waiting.push(`${p.id}: daily cap reached`); continue; }
+
+    const verificationStatus = p.verification?.status;
+    if (!["verified", "evergreen"].includes(verificationStatus)) {
+      const reason = `verification.status must be verified or evergreen (got ${verificationStatus || "missing"})`;
+      summary.blocked_verification.push(`${p.id}: ${reason}`);
+      // Non-terminal block: after a human fact-check updates the schedule, the same slot may still publish
+      // within the normal late window. No API publish attempt is consumed.
+      if (live) { Object.assign(entry(p.id), { verification_blocked_at: now.toISOString(), verification_error: reason }); persist(); }
+      continue;
+    }
 
     const { issues, urls } = checkPost(p);
     if (issues.length) { summary.failed.push(`${p.id}: ${issues.join("; ")}`); if (live) { Object.assign(entry(p.id), { status: "failed", last_error: issues.join("; ") }); persist(); } continue; }
