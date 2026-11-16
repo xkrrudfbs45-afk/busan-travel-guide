@@ -60,6 +60,15 @@
 - Visit Busan's event/calendar surfaces are useful for event discovery, but the city’s edition-specific event listing is the source of record for the date and hours above. Do not substitute an undated or mismatched calendar snippet.
 - No volatile weather average was added. The guide continues to tell visitors to check the forecast for their exact travel dates.
 
+## Winter-events competitor benchmark and localization coverage
+
+- The repository's English-only `guides/busan-winter-lights-christmas-2026/` is an aggregation page for Haeundae Light Festival, Gwangalli M Drone Light Show, Gwangbok-ro Street Festa / planned winter lights, and Christmas Village.
+- The existing EN / JA / zh-TW winter-travel guides already localize the 13th Haeundae Light Festival dates and 18:00–23:00 hours. JA and zh-TW also link to their own localized Christmas Village 2026 pages; those pages contain the 21 operating days, time-slot rules, standard ticket prices, YES24 ticket link, and a caution that overseas booking/payment conditions must be checked through the organizer's “For International Visitors” route. Therefore no duplicate winter-event page or extra event block was added in this run.
+- The competitor Busan.net's article published 2026-11-13 uses a useful “at a glance” event table, map pins with nearest subway stations, a one-evening Centum City → Haeundae route, ticket price table and FAQ: https://busan.net/en/guide/busan-winter-lights/
+- Our EN hub has deeper caveats around confirmed vs planned schedules, especially Gwangbok-ro procurement dates and unconfirmed December drone-show dates. The competitor's page is more scannable, but its Seomyeon Light Festival dates (29 Oct 2026–14 Feb 2027) were not confirmed by an edition-specific official source in this pass. Busan City currently lists “2026 Seomyeon Light Festival” as an upcoming event without dates; the public Visit Busan page found in this pass describes the **2025** edition (13 Oct 2025–14 Feb 2026). Do not copy the competitor's 2026–27 Seomyeon dates until Busanjin-gu or the organizer publishes a current notice.
+- Busan Metropolitan City's current Haeundae listing confirms 28 Nov 2026–10 Jan 2027 and 18:00–23:00, while the competitor article still says the nightly hours have not been announced. Our localized pages already use the current city information.
+- Christmas Village's organizer page provides a separate “For International Visitors” route, and YES24's official notice confirms the standard prices and time slots. The existing localized guides correctly avoid assuming that Korean ticketing accounts or payment methods work for overseas visitors. Do not infer the international booking URL from a non-clickable button; keep the current organizer route and caution.
+
 ## Image review
 
 - The winter guide hero remains the Busanhang Bridge viewed from Yeongdo, photographed in October 2019; credit: Choi2451 / Wikimedia Commons, CC0 1.0, recorded in `assets/data/image-credits.json`.
