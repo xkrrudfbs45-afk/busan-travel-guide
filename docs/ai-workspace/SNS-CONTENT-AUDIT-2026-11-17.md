@@ -131,6 +131,7 @@ The strict publisher will block a post if any required check is missing or stale
 - `published=18`, `missed=0`, `failed=0`.
 - All 18 published records have permalinks.
 - Market totals: EN 8, zh-TW 6, JA 4.
+- Actual `published_at` versus scheduled time: average 47.2 minutes late; 17/18 were more than five minutes late; maximum delay 78 minutes. All remained within the three-hour late window.
 - Latest recorded URLs:
   - EN: https://www.instagram.com/p/Dfz9cSYGKHe/
   - zh-TW: https://www.instagram.com/p/DfyexWEEVcZ/
@@ -144,7 +145,8 @@ The future Nov 17 posts are scheduled for 12:00 local and are not due at the aud
 - All 55 published records have permalinks.
 - Published by market: JA 20, zh-TW 18, EN 17.
 - Missed by market: JA 6, zh-TW 6, EN 8.
-- All 20 missed records have `attempts=0`, no permalink and no API error. They were marked on Nov 10–11. The log establishes that no API attempt occurred; a workflow execution gap is more plausible than an API rejection, but the exact Actions/platform cause is not proven by `publish-log.json` alone.
+- Actual `published_at` versus scheduled time: average 48.2 minutes late; 52/55 were more than five minutes late; maximum delay 128 minutes. All remained within the three-hour late window.
+- All 20 missed records have `attempts=0`, no permalink and no API error. Eighteen posts scheduled Nov 7–10 were marked missed at 2026-11-10 12:51:43Z; one Nov 10 US post at 2026-11-11 00:44:34Z; and one Nov 11 US post at 2026-11-11 22:50:28Z. The log establishes that no API attempt occurred; a workflow execution/runner gap is more plausible than an API rejection, but the exact Actions/platform cause is not proven by `publish-log.json` alone.
 - Do not retry or bulk-republish the 20 missed posts.
 - Latest recorded URLs:
   - JA: https://www.threads.com/@go2busan.jp/post/DfzUQ8qG5DK
