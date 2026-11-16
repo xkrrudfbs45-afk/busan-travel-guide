@@ -567,3 +567,13 @@ Applied a second grouped pass on the existing homepage design branch:
 - Main branch endpoint still reports required status-check enforcement off and empty required-check contexts; detailed protection endpoint returns 403 to this integration. Track in issue #474; no protection settings changed.
 - No open PRs at this snapshot. No GA4 / GSC data was queried in this run, and no SNS publishing or scheduling changes were made.
 - No browser screenshot QA at 360 / 390 / 1280 was performed. Image audit: 45 in use, 53 registered, 9 warnings, 0 errors; no new event photo was added.
+
+
+## Taiwan traveler practical guide — 2026-11-16 (ChatGPT, issue #490)
+
+- Branch: `content/taiwan-traveler-practical-guide-20261116` (based on current main `81433148e5ef851c86ca3b000a81985f888584de`).
+- Updated the existing Traditional Chinese Taiwan-traveler guide: clarified Busan city-bus-only ZeroPay scope, official app list (WeChat Pay, UnionPay, Alipay+, 全支付), per-passenger KRW 1,700 fare, no transfer discount, scan-and-show boarding flow, and app/account eligibility caveat.
+- Added Taiwan-market note not to assume EasyCard/iPASS work in Busan; recommended Korea-compatible T-money/EZL for metro and transfers. Linked the taxi-vs-subway guide and the Chinese 1330 travel-help page.
+- Added contextual links from the Traditional Chinese first-trip and transit-card guides; expanded the Taiwan page's localized search-index summary and tags. Existing URL, canonical, hreflang, sitemap and image pipeline preserved.
+- Official sources: Busan City ZeroPay notice (2026-10-08) and KTO Chinese 1330 page. No claim that every payment account is eligible. Build, SEO/link audits, image-credit checks and responsive visual QA remain pending on exact PR head.
+- Draft PR only. No merge, production deployment, SNS schedule or analytics change.
