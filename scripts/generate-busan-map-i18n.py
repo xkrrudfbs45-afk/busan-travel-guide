@@ -27,7 +27,6 @@ LOC = {
  '/guides/bts-in-busan/': 'bts-in-busan',
  '/guides/busan-coffee-guide/': 'busan-coffee-guide',
 }
-# Locale-specific pages that do not exist in every language.
 LOC_BY_LANG = {
  'ja': {'/guides/songdo-beach-local-breakfast/': 'local-food-by-neighborhood'},
  'zh-tw': {
@@ -35,7 +34,25 @@ LOC_BY_LANG = {
   '/guides/songdo-beach-local-breakfast/': 'songdo-beach-local-breakfast',
  },
 }
+# Translate EN section anchors to the actual IDs used by localized pages.
+ANCHOR_MAP = {
+ 'ja': {
+  '/guides/busan-three-days/': {'day-two': 'section-2', 'day-three': 'section-3'},
+  '/guides/busan-neighborhood-food-guide/': {'seomyeon': 'section-2', 'nampo': 'section-3'},
+  '/guides/dongnae-hot-spring-half-day/': {'hurshimchung': 'hurshimchung', 'history': 'history', 'food': 'food'},
+  '/guides/songdo-beach-local-breakfast/': {'breakfast': None},
+ },
+ 'zh-tw': {
+  '/guides/busan-three-days/': {'day-two': 'section-2', 'day-three': 'section-3'},
+  '/guides/busan-neighborhood-food-guide/': {'seomyeon': 'section-2', 'nampo': 'section-3'},
+  '/guides/dongnae-hot-spring-half-day/': {'hurshimchung': 'hurshimchung', 'history': 'history', 'food': 'food'},
+  '/guides/kkangtong-market-food-guide/': {'market-favorites': 'market'},
+ },
+}
 # Places whose EN guide differs from the best localized page.
+PLACE_LOC = {
+ 'Gaemi-jip (Beomil-dong)': {'ja': 'beomil-dong-nakgopsae', 'zh-tw': 'beomil-dong-nakgopsae'},
+} from the best localized page.
 PLACE_LOC = {
  'Gaemi-jip (Beomil-dong)': {'ja': 'beomil-dong-nakgopsae', 'zh-tw': 'beomil-dong-nakgopsae'},
 } from the best JA/TW page (checked against the localized pages).
@@ -182,7 +199,10 @@ def build(code, L):
         if place_slug:
             href, lang_attr, label = f"/{L['dir']}/guides/{place_slug}/", '', L['read']
         elif guide_slug:
-            suffix = f"#{guide_fragment}" if has_fragment else ''
+            anchor = guide_fragment
+            if has_fragment:
+                anchor = ANCHOR_MAP.get(L['dir'], {}).get(guide_path, {}).get(guide_fragment, guide_fragment)
+            suffix = f"#{anchor}" if anchor else ''
             href, lang_attr, label = f"/{L['dir']}/guides/{guide_slug}/{suffix}", '', L['read']
         else:
             href, lang_attr, label = guide, ' hreflang="en" lang="en"', L['read_en']
