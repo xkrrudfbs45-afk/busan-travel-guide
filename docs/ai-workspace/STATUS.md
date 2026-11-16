@@ -627,3 +627,10 @@ Applied a second grouped pass on the existing homepage design branch:
 
 - The checked-in EN map had mixed card separators (28 boundaries with one newline and one with three). The generator now uses three newlines consistently; the EN page was normalized to the same output. This is formatting-only and does not change map content.
 - Latest code commit before this note: `b217f347bb9419747dc7d8d4f85d2fd63869b92b`. Exact-head CI is pending; run #1589 failed on the previous head because of this spacing drift.
+
+
+### Exact code-head validation — 2026-11-17
+
+- <PRIVATE_PERSON> PR #498 code head `b217f347bb9419747dc7d8d4f85d2fd63869b92b` passed Technical SEO CI run #1590. The deterministic generator step, 30-place ID parity, JSON-LD count/URL parity, local guide target and fragment checks, English-fallback hreflang checks, static build, and dependency-free audit all completed successfully.
+- PR head subsequently advanced to `09d536e3ff6bacc502b618a7e389c273a82d64fc` only through STATUS/HANDOFF documentation updates; no map-generator or generated-page code changed after the passing run.
+- Draft PR remains unmerged and undeployed. Browser viewport/interaction QA remains outstanding.
