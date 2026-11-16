@@ -642,3 +642,48 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Render run #43784672075 completed successfully: live version.txt matched main, cached entry pages matched, core endpoints returned HTTP 200, and all 229 sitemap URLs returned HTTP 200.
 - Main audit #1538 passed; 12 zh-TW sitemap omissions and 6 non-reciprocal hreflang warnings remain in issue #365. Branch-protection enforcement remains unverified / apparently off in issue #474.
 - No 360 / 390 / 1280 browser screenshot QA was performed. No GA4 / GSC query or SNS schedule change.
+
+
+## Map generator consistency — 2026-11-17
+
+- PR #498 (Draft): https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/498
+- Use `python3 scripts/generate-busan-map.py` as the only map-generation command. It now writes EN, JA and zh-TW from the same canonical `P` list.
+- The localized generator has 30 JA descriptions and 30 zh-TW descriptions, and maps localized guide paths before applying section fragments. It preserves valid anchors for common localized guide slugs and uses the actual `haeundae-food-guide` slug.
+- JA/zh-TW map metadata now says 30 places; map cards and CollectionPage ItemList URLs use the corresponding localized guides where available.
+- CI now runs the one-command generator twice and checks no diff, identical place IDs, and JSON-LD ItemList counts.
+- Exact-head CI still pending. Browser checks at 360 / 390 / 1280, map filters and marker interaction remain unverified. No merge or deployment.
+
+
+### PR #498 technical follow-up — 2026-11-17
+
+- Keep locale-specific map styles. `generate-busan-map-i18n.py` now reads the existing JA/zh-TW style block using a repository-root absolute path, with EN style only as a first-creation fallback.
+- Localized guide paths are matched before fragments. Section aliases map EN anchors to real JA/zh-TW IDs; Dongnae localized guide now exposes stable `hurshimchung`, `history`, and `food` IDs.
+- zh-TW uses its localized Kkangtong Market and Songdo guides; JA uses the available local-food neighborhood guide for Songdo and explicitly labelled English fallback where no equivalent exists.
+- Both localized maps show 30 places and use the same 30-item CollectionPage URL list as the visible cards. The canonical Korean address queries and local badge metadata for the two Haeundae additions match the P dataset.
+- CI includes deterministic two-pass generation, ID/count parity, JSON-LD URL parity, local target-file and fragment checks, and fallback hreflang validation. Earlier attempts detected and exposed template/style drift; the latest absolute-path style fix is awaiting exact-head CI.
+- Browser QA at 360 / 390 / 1280 and map filter/marker interaction are still outstanding. No merge or deployment.
+
+
+### Localized map CSS ownership — 2026-11-17
+
+- JA and zh-TW share one verified 2,532-character CSS block, now stored as `STYLE_JA_TW`. Keep this constant and both generated localized pages synchronized when the localized map design changes. EN remains independently styled.
+- Current code head at handoff: `a65f5772e458363f19acc8f15264323a3066004c`. Exact-head CI is pending; the earlier dynamic-style attempt failed and should not be treated as final validation.
+
+
+### EN generator formatting alignment — 2026-11-17
+
+- EN map generator now matches the checked-in EN CSS block boundaries exactly and preserves its three-newline card spacing. JA/zh-TW retain their shared localized CSS and one-newline card spacing.
+- Code commit at this handoff: `aa4deda46f901ade40b45f573d4e1772f748b5cd`. CI on this exact code head is pending; do not report the map generator as validated until the no-diff and link/anchor checks pass.
+
+
+### EN card-spacing parity — 2026-11-17
+
+- EN map cards now use the generator's consistent three-newline separator; the checked-in page has been normalized. JA/zh-TW remain one-newline separators, matching their generator.
+- Latest code commit before this note: `b217f347bb9419747dc7d8d4f85d2fd63869b92b`. Exact-head CI pending.
+
+
+### Validation status — 2026-11-17
+
+- Code head `b217f347bb9419747dc7d8d4f85d2fd63869b92b` passed CI run #1590: deterministic EN/JA/zh-TW generation twice with no diff; 30 matching place IDs; CollectionPage counts and URLs equal visible guide links; every local guide file and fragment exists; English fallbacks carry hreflang; static build and dependency-free audit passed.
+- Latest PR head `09d536e3ff6bacc502b618a7e389c273a82d64fc` contains only STATUS/HANDOFF documentation updates after the passing code head.
+- PR #498 remains Draft/open. No merge, production deploy, or browser QA at 360/390/1280 has occurred.

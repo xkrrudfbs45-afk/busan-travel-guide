@@ -19,21 +19,49 @@ q = lambda s: urllib.parse.quote_plus(s)
 # Anything not listed falls back to the English guide, labelled as English.
 LOC = {
  '/guides/busan-three-days/': 'three-days',
- '/guides/haeundae-food-guide/': 'haeundae-neighborhood-guide',
+ '/guides/haeundae-food-guide/': 'haeundae-food-guide',
  '/guides/busan-neighborhood-food-guide/': 'local-food-by-neighborhood',
  '/guides/jagalchi-market-no-surprise-bill/': 'jagalchi-market',
  '/guides/dongnae-hot-spring-half-day/': 'dongnae-hot-spring-half-day',
  '/guides/pusan-national-university-food-guide/': 'pusan-national-university-food-guide',
  '/guides/bts-in-busan/': 'bts-in-busan',
+ '/guides/busan-coffee-guide/': 'busan-coffee-guide',
 }
-# Places whose EN guide differs from the best JA/TW page (checked against the localized pages).
-PLACE_LOC = {'Gaemi-jip (Beomil-dong)': 'beomil-dong-nakgopsae', 'Soksihwonhae Daegutang (Songdo)': 'local-food-by-neighborhood'}
+LOC_BY_LANG = {
+ 'ja': {'/guides/songdo-beach-local-breakfast/': 'local-food-by-neighborhood'},
+ 'zh-tw': {
+  '/guides/kkangtong-market-food-guide/': 'kkangtong-market-food-guide',
+  '/guides/songdo-beach-local-breakfast/': 'songdo-beach-local-breakfast',
+ },
+}
+# Translate EN section anchors to the actual IDs used by localized pages.
+ANCHOR_MAP = {
+ 'ja': {
+  '/guides/busan-three-days/': {'day-two': 'section-2', 'day-three': 'section-3'},
+  '/guides/busan-neighborhood-food-guide/': {'seomyeon': 'section-2', 'nampo': 'section-3'},
+  '/guides/dongnae-hot-spring-half-day/': {'hurshimchung': 'hurshimchung', 'history': 'history', 'food': 'food'},
+  '/guides/songdo-beach-local-breakfast/': {'breakfast': None},
+ },
+ 'zh-tw': {
+  '/guides/busan-three-days/': {'day-two': 'section-2', 'day-three': 'section-3'},
+  '/guides/busan-neighborhood-food-guide/': {'seomyeon': 'section-2', 'nampo': 'section-3'},
+  '/guides/dongnae-hot-spring-half-day/': {'hurshimchung': 'hurshimchung', 'history': 'history', 'food': 'food'},
+  '/guides/kkangtong-market-food-guide/': {'market-favorites': 'market'},
+ },
+}
+# Places whose EN guide differs from the best localized page.
+PLACE_LOC = {
+ 'Gaemi-jip (Beomil-dong)': {'ja': 'beomil-dong-nakgopsae', 'zh-tw': 'beomil-dong-nakgopsae'},
+}
 
 LANGS = {
  'ja': dict(
   dir='ja', htmllang='ja', locale='ja_JP', gmaps='ja', pill=[('/guides/busan-map/', 'EN', 'en'), ('/zh-tw/guides/busan-map/', '繁體中文', 'zh-Hant-TW')],
   areas=['海雲台', '西面', '南浦・中区', '東莱・温泉場', '凡一洞', '釜山大学', '甘川・松島・沙下', '影島'],
   cats=['レストラン', '市場', 'カフェ', '見どころ', '温泉'],
+  name_overrides={'Park Okhee Halmaejip Original Bokguk': '朴玉姫ハルメチプ元祖ポックク', 'Haeundae Wonjo Halmae Gukbap': '海雲台元祖ハルメクッパ'},
+  cat_overrides={'Park Okhee Halmaejip Original Bokguk': 'フグスープ', 'Haeundae Wonjo Halmae Gukbap': 'クッパ'},
+  area_overrides={'Park Okhee Halmaejip Original Bokguk': '海雲台・尾浦', 'Haeundae Wonjo Halmae Gukbap': '海雲台駅周辺'},
   badge_local='地元おすすめ', badge_guide='ガイド掲載',
   show='地図で表示', open='Googleマップで開く', dirs='ルート', read='ガイドを読む', read_en='英語ガイドを読む',
   why=[
@@ -65,6 +93,8 @@ LANGS = {
    '松島ビーチ近くで、朝食にタラのスープ。',
    '夕日の雰囲気で知られる広いビーチ。',
    '港町の古い雰囲気が残る影島で味わうコーヒー。',
+   '魚種によって価格が異なるフグスープ専門店。注文前に魚種と金額を確認してください。',
+   '牛肉クッパとソンジクッパの候補。似た店名が近くにあるため、住所の33番地を確認してください。',
   ],
   title='釜山マップ：地元グルメ・市場・見どころ',
   desc='Go2Busanのガイドで紹介した釜山のレストラン・市場・カフェ・見どころをまとめた地図。エリアと種類で絞り込み、Googleマップのルート案内と各ガイドへのリンクつき。',
@@ -90,6 +120,9 @@ LANGS = {
   dir='zh-tw', htmllang='zh-Hant-TW', locale='zh_TW', gmaps='zh-TW', pill=[('/guides/busan-map/', 'EN', 'en'), ('/ja/guides/busan-map/', '日本語', 'ja')],
   areas=['海雲臺', '西面', '南浦洞・中區', '東萊・溫泉場', '凡一洞', '釜山大學', '甘川・松島・沙下', '影島'],
   cats=['餐廳', '市場', '咖啡館', '景點', '溫泉'],
+  name_overrides={'Park Okhee Halmaejip Original Bokguk': '朴玉姬奶奶家元祖河豚湯', 'Haeundae Wonjo Halmae Gukbap': '海雲台元祖奶奶湯飯'},
+  cat_overrides={'Park Okhee Halmaejip Original Bokguk': '河豚湯', 'Haeundae Wonjo Halmae Gukbap': '湯飯'},
+  area_overrides={'Park Okhee Halmaejip Original Bokguk': '海雲台・尾浦', 'Haeundae Wonjo Halmae Gukbap': '海雲台站周邊'},
   badge_local='在地推薦', badge_guide='指南收錄',
   show='在地圖上顯示', open='在 Google 地圖開啟', dirs='路線', read='閱讀指南', read_en='閱讀英文版指南',
   why=[
@@ -121,6 +154,8 @@ LANGS = {
    '松島海水浴場附近，早餐可以喝鱈魚湯。',
    '以夕陽氛圍聞名的寬闊海灘。',
    '在影島舊港區的氛圍中喝咖啡。',
+   '位於尾浦、達摩吉一帶的河豚湯專門店；點餐前請確認魚種與價格。',
+   '可選牛肉湯飯或牛血塊湯飯。附近另有相似店名，請確認地址為33號。',
   ],
   title='釜山地圖：在地美食、市場與景點',
   desc='整理 Go2Busan 指南中介紹的釜山餐廳、市場、咖啡館與景點，可依地區與類型篩選，附 Google 地圖路線與各篇指南連結。',
@@ -144,33 +179,47 @@ LANGS = {
  ),
 }
 
-# Reuse the exact <style> block of the English page so all three versions look the same.
-en_page = open('guides/busan-map/index.html', encoding='utf-8').read()
-STYLE = re.search(r'<style>.*?</style>', en_page, re.S).group(0)
+# The existing JA and zh-TW maps intentionally retain their own visual system.
+# Keep this shared CSS in sync with both localized map pages; EN has a separate design.
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+STYLE_JA_TW = "\n.g2b-map-layout{display:grid;gap:20px;padding-bottom:48px}\n.g2b-map-panel{border:1px solid rgba(0,0,0,.1);border-radius:16px;overflow:hidden;background:#eef3f2}\n.g2b-map-frame{display:block;width:100%;height:min(60vh,420px);border:0}\n.g2b-map-placeholder{padding:20px;display:grid;gap:12px;min-height:180px;align-content:center}\n.g2b-map-placeholder p{margin:0}\n.g2b-map-load{justify-self:start;min-height:44px;padding:10px 18px;border-radius:999px;border:0;background:#155e57;color:#fff;font:inherit;font-weight:600;cursor:pointer}\n.g2b-map-note{font-size:.9rem;opacity:.8;margin:0;padding:10px 14px;background:#fff}\n.g2b-filters{display:grid;gap:10px}\n.g2b-filter-row{display:flex;flex-wrap:wrap;gap:8px}\n.g2b-filter-row button{min-height:40px;padding:6px 14px;border-radius:999px;border:1px solid rgba(0,0,0,.18);background:#fff;font:inherit;font-size:.92rem;cursor:pointer}\n.g2b-filter-row button.is-active{background:#155e57;border-color:#155e57;color:#fff}\n.g2b-place-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}\n.g2b-place{border:1px solid rgba(0,0,0,.1);border-radius:14px;padding:14px 16px;background:#fff}\n.g2b-place.is-selected{border-color:#155e57;box-shadow:0 0 0 2px rgba(21,94,87,.25)}\n.g2b-place h3{margin:6px 0 2px;font-size:1.1rem;overflow-wrap:anywhere}\n.g2b-place h3 span{font-weight:400;font-size:.9rem;opacity:.75;word-break:keep-all;display:inline-block}\n.g2b-place p{margin:4px 0}\n.g2b-place-area{font-size:.88rem;opacity:.75}\n.g2b-place-top{display:flex;gap:8px;flex-wrap:wrap;font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}\n.g2b-place-badge{padding:2px 8px;border-radius:999px;background:#eef3f2}\n.g2b-place-badge.is-local{background:#fde7c8}\n.g2b-place-actions{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px;align-items:center}\n.g2b-place-actions a,.g2b-place-actions button{min-height:40px;display:inline-flex;align-items:center;font:inherit;font-size:.95rem}\n.g2b-place-show{padding:6px 14px;border-radius:999px;border:1px solid #155e57;background:#fff;color:#155e57;font-weight:600;cursor:pointer}\n.g2b-map-count{margin:0;font-size:.92rem}\n.g2b-map-layout [hidden]{display:none!important}\n@media (max-width:899px){.g2b-filter-row{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px;scrollbar-width:thin}.g2b-filter-row button{flex:0 0 auto}}\n@media (min-width:900px){.g2b-map-layout{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-items:start}.g2b-map-sticky{position:sticky;top:84px}.g2b-map-frame{height:560px}}\n"
 
 def build(code, L):
+    locale_page_path = os.path.join(ROOT, L['dir'], 'guides', 'busan-map', 'index.html')
+    style = f"<style>{STYLE_JA_TW}</style>"
     assert len(L['why']) == len(P), f'{code}: {len(L["why"])} descriptions for {len(P)} places'
     url = f"{B}/{L['dir']}/guides/busan-map/"
     en_url, ja_url, tw_url = f'{B}/guides/busan-map/', f'{B}/ja/guides/busan-map/', f'{B}/zh-tw/guides/busan-map/'
     cards, items = [], []
     for i, (name, ko, area, cat, why, guide, query, local) in enumerate(P, 1):
-        slug = PLACE_LOC.get(name) or LOC.get(guide)
-        if slug:
-            href, lang_attr, label = f"/{L['dir']}/guides/{slug}/", '', L['read']
+        guide_path, has_fragment, guide_fragment = guide.partition('#')
+        place_slug = PLACE_LOC.get(name, {}).get(L['dir'])
+        guide_slug = LOC_BY_LANG.get(L['dir'], {}).get(guide_path) or LOC.get(guide_path)
+        if place_slug:
+            href, lang_attr, label = f"/{L['dir']}/guides/{place_slug}/", '', L['read']
+        elif guide_slug:
+            anchor = guide_fragment
+            if has_fragment:
+                anchor = ANCHOR_MAP.get(L['dir'], {}).get(guide_path, {}).get(guide_fragment, guide_fragment)
+            suffix = f"#{anchor}" if anchor else ''
+            href, lang_attr, label = f"/{L['dir']}/guides/{guide_slug}/{suffix}", '', L['read']
         else:
-            href, lang_attr, label = guide.split('#')[0], ' hreflang="en" lang="en"', L['read_en']
+            href, lang_attr, label = guide, ' hreflang="en" lang="en"', L['read_en']
         badge = f'<span class="g2b-place-badge is-local">{e(L["badge_local"])}</span>' if local else f'<span class="g2b-place-badge">{e(L["badge_guide"])}</span>'
         ai = [k for k, _ in AREAS].index(area); ci = [k for k, _ in CATS].index(cat)
+        name_out = L.get('name_overrides', {}).get(name, name)
+        cat_out = L.get('cat_overrides', {}).get(name, L['cats'][ci])
+        area_out = L.get('area_overrides', {}).get(name, L['areas'][ai])
         search = f'https://www.google.com/maps/search/?api=1&query={q(query)}'
         dirs = f'https://www.google.com/maps/dir/?api=1&destination={q(query)}'
         cards.append(f'''<li class="g2b-place" id="place-{i}" data-area="{area}" data-cat="{cat}" data-query="{e(query)}">
-<div class="g2b-place-top"><span class="g2b-place-cat">{e(L['cats'][ci])}</span>{badge}</div>
-<h3>{e(name)} <span lang="ko">{e(ko)}</span></h3>
-<p class="g2b-place-area">{e(L['areas'][ai])}</p>
+<div class="g2b-place-top"><span class="g2b-place-cat">{e(cat_out)}</span>{badge}</div>
+<h3>{e(name_out)} <span lang="ko">{e(ko)}</span></h3>
+<p class="g2b-place-area">{e(area_out)}</p>
 <p>{e(L['why'][i-1])}</p>
 <div class="g2b-place-actions"><button type="button" class="g2b-place-show" data-map-show hidden>{e(L['show'])}</button><a href="{e(search)}" target="_blank" rel="noopener noreferrer" data-map-open>{e(L['open'])}</a><a href="{e(dirs)}" target="_blank" rel="noopener noreferrer" data-map-directions>{e(L['dirs'])}</a><a href="{e(href)}"{lang_attr}>{e(label)}</a></div>
 </li>''')
-        items.append({"@type": "ListItem", "position": i, "name": name, "url": B + href})
+        items.append({"@type": "ListItem", "position": i, "name": name_out, "url": B + href})
     area_chips = f'<button type="button" class="is-active" data-filter-area="all" aria-pressed="true">{e(L["all_areas"])}</button>' + ''.join(f'<button type="button" data-filter-area="{k}" aria-pressed="false">{e(L["areas"][j])}</button>' for j, (k, _) in enumerate(AREAS))
     cat_chips = f'<button type="button" class="is-active" data-filter-cat="all" aria-pressed="true">{e(L["all_cats"])}</button>' + ''.join(f'<button type="button" data-filter-cat="{k}" aria-pressed="false">{e(L["cats"][j])}</button>' for j, (k, _) in enumerate(CATS))
     page_ld = {"@context": "https://schema.org", "@type": "CollectionPage", "@id": url + "#page", "name": L['h1'], "description": L['desc'], "url": url, "inLanguage": L['htmllang'], "isPartOf": {"@type": "WebSite", "name": "Go2Busan", "url": B + "/"}, "mainEntity": {"@type": "ItemList", "numberOfItems": len(items), "itemListElement": items}}
@@ -199,9 +248,9 @@ def build(code, L):
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(L['title'])}">
 <meta name="twitter:description" content="{e(L['desc'])}">
 <meta name="twitter:image" content="{OG}">
-<script type="application/ld+json">{json.dumps(page_ld, ensure_ascii=False)}</script>
+<script type="application/ld+json">{json.dumps(page_ld, ensure_ascii=False, separators=(',', ':'))}</script>
 <script type="application/ld+json">{json.dumps(bc, ensure_ascii=False)}</script>
-{STYLE}
+{style}
 </head>
 <body><a class="skip-link" href="#main">{e(L['skip'])}</a>
 <header class="site-header"><div class="shell nav-wrap"><a class="brand" href="/{L['dir']}/"><span class="brand-mark brand-mark-image"><img src="/assets/go2busan-mark.svg" alt=""></span><span>Go2Busan</span></a><nav aria-label="{e(L['nav'][2])}"><a href="/{L['dir']}/guides/">{e(L['nav'][0])}</a><a href="/about.html">{e(L['nav'][1])}</a></nav><div style="display:flex;gap:8px;align-items:center">{pills}</div></div></header>
@@ -241,7 +290,7 @@ def build(code, L):
 '''
 
 for code, L in LANGS.items():
-    d = f"{L['dir']}/guides/busan-map"
-    os.makedirs(d, exist_ok=True)
-    open(f'{d}/index.html', 'w', encoding='utf-8').write(build(code, L))
+    locale_page_path = os.path.join(ROOT, L['dir'], 'guides', 'busan-map', 'index.html')
+    os.makedirs(os.path.dirname(locale_page_path), exist_ok=True)
+    open(locale_page_path, 'w', encoding='utf-8').write(build(code, L))
     print(code, 'title chars', len(L['title']) + 10)

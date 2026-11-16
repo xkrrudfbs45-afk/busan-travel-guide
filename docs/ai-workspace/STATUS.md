@@ -591,3 +591,46 @@ Applied a second grouped pass on the existing homepage design branch:
 - Added contextual links from the Traditional Chinese first-trip and transit-card guides; expanded the Taiwan page's localized search-index summary and tags. Existing URL, canonical, hreflang, sitemap and image pipeline preserved.
 - Official sources: Busan City ZeroPay notice (2026-10-08) and KTO Chinese 1330 page. No claim that every payment account is eligible. Build, SEO/link audits, image-credit checks and responsive visual QA remain pending on exact PR head.
 - Draft PR only. No merge, production deployment, SNS schedule or analytics change.
+
+
+## Multilingual Busan map generator — 2026-11-17
+
+- Draft PR #498: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/498
+- Main baseline: `0ad092ad30ab35cc87ef2534add21b3907c187ab`; Render deploy `dep-dbtbsb6k1f9s73betvo0` was independently verified as `live` on that exact commit (2026-11-16 08:26:32 UTC).
+- Root cause: canonical `P` has 30 places, but JA/zh-TW description arrays had 28; localized guide lookup compared URLs including section fragments against path-only keys, so several available localized guides fell back to English. The Haeundae food mapping also pointed to the neighborhood guide.
+- PR #498 makes the EN generator invoke the JA/zh-TW generator, adds the missing two localized descriptions, resolves localized guide paths before fragments, preserves valid section anchors, corrects the Haeundae food slug, updates JA/zh-TW visible counts and ItemList URLs, and adds deterministic generation / ID / JSON-LD checks to CI.
+- Exact-head CI pending at documentation update. Real browser QA at 360 / 390 / 1280 and map interaction testing not performed. Draft only; no merge or production deployment.
+
+
+### PR #498 follow-up — 2026-11-17
+
+- Preserved the existing EN, JA and zh-TW map CSS independently; localized generator resolves each target page from an absolute repository-root path, so it does not overwrite JA/zh-TW styling with EN CSS.
+- Added per-locale guide routing and verified section-anchor aliases: three-day sections map to localized section-2/section-3; Seomyeon/Nampo map to section-2/section-3; Dongnae guide now has stable Hurshimchung/history/food IDs; zh-TW Kkangtong market-favorites maps to the existing market anchor; zh-TW Songdo uses its dedicated guide.
+- Localized map cards and CollectionPage URLs were aligned; Korean business queries for Geumsubokguk and Haeundae Wonjo Halmae Gukbap use the canonical Korean name/address from the shared P dataset.
+- CI now checks target-file existence, fragment IDs, hreflang labels, visible-card IDs/counts, JSON-LD counts/URLs, and two-pass deterministic generation.
+- Earlier CI attempts failed on stale template/style drift; those findings were corrected. Latest head CI is pending. No merge or production deployment.
+
+
+### Localized map CSS ownership — 2026-11-17
+
+- JA and zh-TW map pages share the same verified 2,532-character CSS block. The generator now stores that exact block in `STYLE_JA_TW`; EN retains its separate current CSS template. This prevents generator runs from replacing the localized visual system with EN styling.
+- Latest code commit: `a65f5772e458363f19acc8f15264323a3066004c`. Exact-head CI has not yet appeared in the Actions API; previous run #1583 failed on the earlier dynamic-style implementation and is not the final result.
+
+
+### EN generator formatting alignment — 2026-11-17
+
+- The latest CI diff isolated remaining EN-only formatting drift: the script had two extra newlines around the copied CSS block and used one newline between cards, while the checked-in EN page uses the existing CSS block boundaries and three newline separators. The generator now matches those exact formatting invariants.
+- Latest code commit before this doc update: `aa4deda46f901ade40b45f573d4e1772f748b5cd`. Exact-head CI had not yet started; earlier failures are not passing validation.
+
+
+### EN card-spacing parity — 2026-11-17
+
+- The checked-in EN map had mixed card separators (28 boundaries with one newline and one with three). The generator now uses three newlines consistently; the EN page was normalized to the same output. This is formatting-only and does not change map content.
+- Latest code commit before this note: `b217f347bb9419747dc7d8d4f85d2fd63869b92b`. Exact-head CI is pending; run #1589 failed on the previous head because of this spacing drift.
+
+
+### Exact code-head validation — 2026-11-17
+
+- <PRIVATE_PERSON> PR #498 code head `b217f347bb9419747dc7d8d4f85d2fd63869b92b` passed Technical SEO CI run #1590. The deterministic generator step, 30-place ID parity, JSON-LD count/URL parity, local guide target and fragment checks, English-fallback hreflang checks, static build, and dependency-free audit all completed successfully.
+- PR head subsequently advanced to `09d536e3ff6bacc502b618a7e389c273a82d64fc` only through STATUS/HANDOFF documentation updates; no map-generator or generated-page code changed after the passing run.
+- Draft PR remains unmerged and undeployed. Browser viewport/interaction QA remains outstanding.
