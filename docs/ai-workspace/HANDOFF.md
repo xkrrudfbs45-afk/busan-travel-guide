@@ -1,3 +1,9 @@
+## Current handoff — sitemap and hreflang repair — 2026-11-16 (ChatGPT)
+
+- Branch `seo/sitemap-hreflang-repair-20261116`, issue #494. Added 12 omitted zh-TW canonical URLs and reciprocal EN/zh-TW/x-default groups to sitemap.xml. Fixed Haeundae food, Busan coffee and Yeongdo half-day alternate groups to match existing HTML hreflang tags.
+- No page content, canonical URL, metadata or language variant was changed. No JA alternates were invented for the 12 pages.
+- Pending: technical SEO audit and sitemap/hreflang audit on exact PR head. Draft PR only; no merge/deploy without owner approval.
+
 ## Current handoff — contrast remediation — 2026-11-15 (Claude, issue #462)
 
 - Branch `claude/issue-462-20261115-1241`, Draft PR against main. CSS-only: `assets/homepage-showcase.css`, `assets/styles.css`. No copy, URL, metadata, analytics, consent, affiliate or SNS changes.
