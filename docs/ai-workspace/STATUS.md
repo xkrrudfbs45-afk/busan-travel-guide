@@ -609,3 +609,9 @@ Applied a second grouped pass on the existing homepage design branch:
 - Localized map cards and CollectionPage URLs were aligned; Korean business queries for Geumsubokguk and Haeundae Wonjo Halmae Gukbap use the canonical Korean name/address from the shared P dataset.
 - CI now checks target-file existence, fragment IDs, hreflang labels, visible-card IDs/counts, JSON-LD counts/URLs, and two-pass deterministic generation.
 - Earlier CI attempts failed on stale template/style drift; those findings were corrected. Latest head CI is pending. No merge or production deployment.
+
+
+### Localized map CSS ownership — 2026-11-17
+
+- JA and zh-TW map pages share the same verified 2,532-character CSS block. The generator now stores that exact block in `STYLE_JA_TW`; EN retains its separate current CSS template. This prevents generator runs from replacing the localized visual system with EN styling.
+- Latest code commit: `a65f5772e458363f19acc8f15264323a3066004c`. Exact-head CI has not yet appeared in the Actions API; previous run #1583 failed on the earlier dynamic-style implementation and is not the final result.
