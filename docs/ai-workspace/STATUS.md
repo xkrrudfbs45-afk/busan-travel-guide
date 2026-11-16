@@ -621,3 +621,9 @@ Applied a second grouped pass on the existing homepage design branch:
 
 - The latest CI diff isolated remaining EN-only formatting drift: the script had two extra newlines around the copied CSS block and used one newline between cards, while the checked-in EN page uses the existing CSS block boundaries and three newline separators. The generator now matches those exact formatting invariants.
 - Latest code commit before this doc update: `aa4deda46f901ade40b45f573d4e1772f748b5cd`. Exact-head CI had not yet started; earlier failures are not passing validation.
+
+
+### EN card-spacing parity — 2026-11-17
+
+- The checked-in EN map had mixed card separators (28 boundaries with one newline and one with three). The generator now uses three newlines consistently; the EN page was normalized to the same output. This is formatting-only and does not change map content.
+- Latest code commit before this note: `b217f347bb9419747dc7d8d4f85d2fd63869b92b`. Exact-head CI is pending; run #1589 failed on the previous head because of this spacing drift.
