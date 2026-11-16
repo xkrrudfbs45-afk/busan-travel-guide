@@ -13,14 +13,14 @@ The requested taxi story has seven information points: (1) K.Ride sign-up and ve
 
 The current Instagram v2 validator accepts five or six cards. The six-card versions below retain all seven points by combining the unexpected-termination and evidence-recording steps on card 5, while keeping the CTA as card 6. Do not add a seven-card object to the active schedule unless the renderer/validator is separately extended and tested.
 
-K.Ride is a distinct global service. Do not imply its payment, language or support features are Kakao T features. The current official K.Ride pages list Google, Apple or email sign-up, overseas-issued cards and selected mobile payments. They do not state that a Korean number is required or guarantee that every overseas number will pass device or identity verification. Do not make either claim; advise travelers to check their own sign-up and payment setup in the app before relying on it.
+K.Ride is a distinct global service. Do not imply its payment, language or support features are Kakao T features. The current K.Ride service page lists Google, Apple or email sign-up, overseas-issued cards and selected mobile payments. The current K.Ride privacy policy lists a mobile phone number as required for email or social sign-up, but does not say whether it must be a Korean number or which overseas country codes are accepted. Do not claim either that a Korean number is required or that a foreign number will work; advise travelers to check their own number in the app before relying on it.
 
 ## 1. Instagram candidate — Nov 27: taxi-app preparation
 
 ### zh-TW — six cards
 
-1. **出發前先確認註冊方式**  
-   k.ride 官方列出 Google、Apple 或電子郵件註冊。官方資料沒有保證每一種海外門號都能完成裝置或身分驗證；出發前先在 App 內確認自己的註冊方式與付款設定。
+1. **出發前先確認註冊與門號**  
+   k.ride 官方列出 Google、Apple 或電子郵件註冊。現行個資政策要求以電子郵件或社群帳號註冊時提供手機號碼，但沒有說明是否必須是韓國門號，也未列出哪些海外國碼可用。出發前先在 App 內確認自己的門號能否完成驗證。
 
 2. **海外卡與多語功能**  
    官方列出海外發行信用卡與部分行動支付。App 介面支援英文、日文、中文繁體／簡體；目的地搜尋與司機聊天支援 133 種語言，預約前也能查看預估車資。
@@ -38,15 +38,15 @@ K.Ride is a distinct global service. Do not imply its payment, language or suppo
    記下時間、上下車地點、車資和收據；需要時先到安全的公共場所，再透過 App 內官方客服反映。收藏清單，出發前比較交通方式。
 
 Caption:
-釜山搭計程車前，先確認 k.ride App 提供的註冊方式與付款設定。官方列出海外發行卡、133 種語言的目的地搜尋／司機聊天，以及預估車資；但沒有保證每一種海外門號都能通過驗證。東釜山最後一段也可先比較公車、地鐵和計程車。遇到行程異常時，保留行程與付款紀錄，再透過 App 內 Support 聯絡官方客服。
+釜山搭計程車前，先確認 k.ride 的註冊方式與手機驗證。現行個資政策要求以電子郵件或社群帳號註冊時提供手機號碼，但沒有說明韓國門號是否必須、哪些海外國碼可用。官方服務頁列出海外發行卡、133 種語言的目的地搜尋／司機聊天及預估車資。東釜山最後一段也可先比較公車、地鐵和計程車；遇到行程異常時，保留行程與付款紀錄，再透過 App 內 Support 聯絡官方客服。
 
 CTA link:
 https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/?utm_source=instagram&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_tw
 
 ### ja — six cards
 
-1. **登録方法を出発前に確認**  
-   k.ride は Google・Apple・メールでの登録を案内しています。海外の電話番号がすべて認証できるとは公式に保証されていないため、出発前にアプリで登録方法と支払い設定を確認してください。
+1. **登録と電話番号を事前に確認**  
+   k.ride は Google・Apple・メールでの登録を案内しています。現行の公式プライバシーポリシーでは、メールまたはSNSログインの登録時に携帯電話番号が必須ですが、韓国の番号が必要か、どの海外番号が使えるかは明記されていません。出発前に自分の番号で確認しましょう。
 
 2. **海外カードと多言語機能**  
    公式案内では海外発行カードと一部のモバイル決済に対応。アプリ表示は英語・日本語・中国語（繁体字／簡体字）、目的地検索とドライバーとのチャットは133言語に対応し、予約前に予想料金も確認できます。
@@ -64,7 +64,7 @@ https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/?utm_sour
    時刻、乗降場所、料金、領収書を保存し、必要なら安全な公共の場所からアプリ内の公式サポートに連絡。出発前に移動手段を比べるガイドも確認してください。
 
 Caption:
-釜山でタクシーを使う前に、k.ride の登録方法と支払い設定をアプリで確認しましょう。公式案内では海外発行カード、133言語の目的地検索・ドライバーとのチャット、事前の予想料金を紹介していますが、すべての海外番号で認証できるとは保証していません。東釜山の最後の区間は、バスや地下鉄も含めて選びましょう。
+釜山でタクシーを使う前に、k.ride の登録方法と電話番号認証を確認しましょう。現行の公式プライバシーポリシーでは、メールまたはSNSログインの登録時に携帯電話番号が必須ですが、韓国の番号が必要か、どの海外番号が使えるかは明記されていません。公式サービスページでは海外発行カード、133言語の目的地検索・ドライバーとのチャット、事前の予想料金を案内しています。東釜山の最後の区間はバスや地下鉄も含めて選びましょう。
 
 CTA link:
 https://go2busan.com/ja/guides/airport-to-seomyeon/?utm_source=instagram&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_ja
@@ -73,8 +73,8 @@ Note: this is an airport-to-Seomyeon route guide, not a dedicated Japanese K.Rid
 
 ### en — six cards
 
-1. **Check sign-up before you travel**  
-   k.ride lists Google, Apple or email sign-up. Its public service information does not guarantee that every overseas number will pass device or identity verification, so check your own sign-up and payment setup in the app before relying on it.
+1. **Check sign-up and phone verification before you travel**  
+   k.ride lists Google, Apple or email sign-up. Its current privacy policy requires a mobile number for email or social sign-up, but does not say whether it must be Korean or which foreign country codes are accepted. Test your own number in the app before relying on it.
 
 2. **Foreign cards and multilingual help**  
    Kakao Mobility lists overseas-issued cards and selected mobile payments. The app interface supports English, Japanese and Chinese (traditional/simplified); destination search and driver chat support 133 languages. You can check an estimated fare before booking.
@@ -92,7 +92,7 @@ Note: this is an airport-to-Seomyeon route guide, not a dedicated Japanese K.Rid
    Save the time, pickup/drop-off, fare and receipt. If needed, move to a safe public place and contact official in-app support. Compare route options before booking.
 
 Caption:
-Before relying on a taxi app in Busan, check k.ride's sign-up and payment setup in the app. Its official service page lists overseas-issued cards, 133-language destination search and driver chat, plus an estimated fare before booking; it does not guarantee that every overseas number will pass verification. For East Busan's last leg, compare bus, subway and taxi rather than assuming a car is always needed.
+Before relying on a taxi app in Busan, check k.ride's sign-up and phone verification in the app. Its current privacy policy requires a mobile number for email or social sign-up, but does not say whether it must be Korean or which foreign country codes are accepted. The service page lists overseas-issued cards, 133-language destination search and driver chat, and an estimated fare before booking. For East Busan's last leg, compare bus, subway and taxi rather than assuming a car is always needed.
 
 CTA link:
 https://go2busan.com/guides/busan-taxi-vs-subway-motion-sickness/?utm_source=instagram&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_en
@@ -222,10 +222,12 @@ https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm
 
 ## 5. Fact sources and limits (checked 2026-11-17)
 
-- K.Ride official website: https://kride.kakaomobility.com/
-  - Current public service page lists four app-interface languages (English, Japanese, Traditional Chinese and Simplified Chinese), 133 languages for destination search and driver chat, estimated fares before booking, and card/mobile-payment options.
+- K.Ride official website: https://kride.kakaomobility.com/?lang=en
+  - Lists four app-interface languages (English, Japanese, Traditional Chinese and Simplified Chinese), 133 languages for destination search and driver chat, estimated fares before booking, overseas-issued cards and mobile-payment options.
 - Kakao Mobility K.Ride service page: https://www.kakaomobility.com/k-ride
-  - Google, Apple or email sign-up; overseas-issued cards and selected mobile payments. Public service information does not establish whether a Korean phone number is required or whether every overseas country code passes verification.
+  - Lists Google, Apple or email sign-up, overseas-issued cards and selected mobile payments.
+- Current K.Ride-specific privacy policy: https://policy.kakaomobility.com/viewer/?languageCode=ko&pageCode=PRIVACY_POLICY&subPageCode=index&version=177
+  - Lists a mobile phone number as required for email and social sign-up. It does not specify whether the number must be Korean or which overseas country codes are accepted.
 - K.Ride App Store listing: https://apps.apple.com/kr/app/k-ride-taxi-cab-travel/id6474654222
   - Current listing describes mobile-device authentication or social-account linking; it does not promise acceptance of every country code.
 - VisitKorea Millak Hoe Center listing: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=84951
@@ -238,7 +240,7 @@ https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm
 ## 6. Approval gates
 
 Before either candidate is moved into an active schedule:
-- Do not infer whether a Korean number is required. Keep the official-source wording above and advise travelers to test their own sign-up and payment setup in the app before relying on it.
+- State that a mobile number is required for email/social sign-up, but do not claim that a Korean number is required or that every foreign number is accepted. Keep the country-code caveat until official support confirms specific countries.
 - Confirm the exact Millak floor sequence on site or with the operator. Keep prices, minimum order and opening hours out until current stall-level evidence is available.
 - Review Japanese taxi CTA wording; the linked page is a route guide, not a dedicated K.Ride tutorial.
 - Generate images as illustrations, label them clearly, and run the actual 4:5 mobile card QA.
