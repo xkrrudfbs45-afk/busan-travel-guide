@@ -50,7 +50,7 @@ These nine candidates remain outside the active schedule. Dec 1 is deliberately 
 
 **Nov 18 — Gwangalli drone show (approved; not edited)**
 
-The three approved cards use Korean-only show names in TW, JA and EN. The official Visit Busan English notice provides:
+The approved TW and JA cards retain Korean-only show names; the EN card uses a generic “Saturday drone show” label and omits the official program titles. The official Visit Busan English notice provides:
 - Nov 21: “Guardians of the Castle with laser show”
 - Nov 28: “Avengers: Doomsday in Gwangalli”
 
