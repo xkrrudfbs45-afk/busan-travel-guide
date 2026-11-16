@@ -56,7 +56,7 @@ The approved TW and JA cards retain Korean-only show names; the EN card uses a g
 
 The card 4 artwork is an abstract light ribbon rather than a recognizable drone formation. Proposed localized replacement copy is in `docs/ai-workspace/SNS-APPROVED-COPY-CORRECTIONS-2026-11-17.md`. Do not edit the approved schedule item without owner approval.
 
-Official source: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=6449&menuCd=DOM_000000204012000000
+Official source: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6450&menuCd=DOM_000000304003000000
 
 **Nov 24 — Korea plug/voltage (approved; not edited)**
 
@@ -164,7 +164,7 @@ Account-level LIVE configuration is not exposed by the schedule or publish-log f
 
 ## 5. Local fact-check notes for draft candidates
 
-- K.Ride: current official service information lists Google/Apple/email sign-up, overseas-issued cards and selected mobile payments, four interface languages, 133 languages for destination search/chat and estimated fares before booking. Public official information does not establish that a Korean number is required or guarantee every overseas number. The taxi draft was corrected to avoid either claim.
+- K.Ride: current official service information lists Google/Apple/email sign-up, overseas-issued cards and selected mobile payments, four interface languages, 133 languages for destination search/chat and estimated fares before booking. The current K.Ride-specific privacy policy requires a mobile number for email/social sign-up, but does not specify whether it must be Korean or which overseas country codes are accepted. The taxi draft was corrected to avoid either claim.
   - https://www.kakaomobility.com/k-ride
   - https://kride.kakaomobility.com/
   - https://apps.apple.com/kr/app/k-ride-taxi-cab-travel/id6474654222
@@ -177,7 +177,7 @@ Account-level LIVE configuration is not exposed by the schedule or publish-log f
 
 ## 6. Changes in this Draft PR
 
-- Corrected the Nov 27 taxi candidate's K.Ride facts: removed the unsupported inference from the general Kakao Mobility privacy policy, changed language support from 100+ to 133, and replaced meter claims with trip record/final fare/receipt evidence.
+- Corrected the Nov 27 taxi candidate's K.Ride facts: corrected the phone-verification wording against the K.Ride-specific privacy policy (mobile number required; Korean-versus-foreign country-code acceptance unspecified), changed language support from 100+ to 133, and replaced meter claims with trip record/final fare/receipt evidence.
 - Updated the three already-draft Nov 28 Gwangbok-ro posts to use the official English performer names in TW, JA and EN.
 - Updated the Gwangbok-ro source register with the current official English event page and an explicit inland-street art direction.
 - Added an approved-copy correction proposal for Nov 18 and Nov 24. Those already-approved schedule entries remain unchanged.
