@@ -591,3 +591,12 @@ Applied a second grouped pass on the existing homepage design branch:
 - Added contextual links from the Traditional Chinese first-trip and transit-card guides; expanded the Taiwan page's localized search-index summary and tags. Existing URL, canonical, hreflang, sitemap and image pipeline preserved.
 - Official sources: Busan City ZeroPay notice (2026-10-08) and KTO Chinese 1330 page. No claim that every payment account is eligible. Build, SEO/link audits, image-credit checks and responsive visual QA remain pending on exact PR head.
 - Draft PR only. No merge, production deployment, SNS schedule or analytics change.
+
+
+## Multilingual Busan map generator — 2026-11-17
+
+- Draft PR #498: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/498
+- Main baseline: `0ad092ad30ab35cc87ef2534add21b3907c187ab`; Render deploy `dep-dbtbsb6k1f9s73betvo0` was independently verified as `live` on that exact commit (2026-11-16 08:26:32 UTC).
+- Root cause: canonical `P` has 30 places, but JA/zh-TW description arrays had 28; localized guide lookup compared URLs including section fragments against path-only keys, so several available localized guides fell back to English. The Haeundae food mapping also pointed to the neighborhood guide.
+- PR #498 makes the EN generator invoke the JA/zh-TW generator, adds the missing two localized descriptions, resolves localized guide paths before fragments, preserves valid section anchors, corrects the Haeundae food slug, updates JA/zh-TW visible counts and ItemList URLs, and adds deterministic generation / ID / JSON-LD checks to CI.
+- Exact-head CI pending at documentation update. Real browser QA at 360 / 390 / 1280 and map interaction testing not performed. Draft only; no merge or production deployment.
