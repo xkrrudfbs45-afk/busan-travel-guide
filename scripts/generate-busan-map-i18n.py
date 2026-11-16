@@ -19,12 +19,13 @@ q = lambda s: urllib.parse.quote_plus(s)
 # Anything not listed falls back to the English guide, labelled as English.
 LOC = {
  '/guides/busan-three-days/': 'three-days',
- '/guides/haeundae-food-guide/': 'haeundae-neighborhood-guide',
+ '/guides/haeundae-food-guide/': 'haeundae-food-guide',
  '/guides/busan-neighborhood-food-guide/': 'local-food-by-neighborhood',
  '/guides/jagalchi-market-no-surprise-bill/': 'jagalchi-market',
  '/guides/dongnae-hot-spring-half-day/': 'dongnae-hot-spring-half-day',
  '/guides/pusan-national-university-food-guide/': 'pusan-national-university-food-guide',
  '/guides/bts-in-busan/': 'bts-in-busan',
+ '/guides/busan-coffee-guide/': 'busan-coffee-guide',
 }
 # Places whose EN guide differs from the best JA/TW page (checked against the localized pages).
 PLACE_LOC = {'Gaemi-jip (Beomil-dong)': 'beomil-dong-nakgopsae', 'Soksihwonhae Daegutang (Songdo)': 'local-food-by-neighborhood'}
@@ -65,6 +66,8 @@ LANGS = {
    '松島ビーチ近くで、朝食にタラのスープ。',
    '夕日の雰囲気で知られる広いビーチ。',
    '港町の古い雰囲気が残る影島で味わうコーヒー。',
+   '月見路近くのフグスープ専門店。注文前に魚種と価格を確認しましょう。',
+   '牛肉クッパとソンジクッパを扱う店。似た店名が近くにあるため、住所の33番地を確認してください。',
   ],
   title='釜山マップ：地元グルメ・市場・見どころ',
   desc='Go2Busanのガイドで紹介した釜山のレストラン・市場・カフェ・見どころをまとめた地図。エリアと種類で絞り込み、Googleマップのルート案内と各ガイドへのリンクつき。',
@@ -121,6 +124,8 @@ LANGS = {
    '松島海水浴場附近，早餐可以喝鱈魚湯。',
    '以夕陽氛圍聞名的寬闊海灘。',
    '在影島舊港區的氛圍中喝咖啡。',
+   '位於迎月路附近的河豚湯專門店。點餐前請確認魚種與價格。',
+   '提供牛肉湯飯與牛血塊湯飯。附近有相似店名，請確認地址門牌為33號。',
   ],
   title='釜山地圖：在地美食、市場與景點',
   desc='整理 Go2Busan 指南中介紹的釜山餐廳、市場、咖啡館與景點，可依地區與類型篩選，附 Google 地圖路線與各篇指南連結。',
@@ -154,11 +159,16 @@ def build(code, L):
     en_url, ja_url, tw_url = f'{B}/guides/busan-map/', f'{B}/ja/guides/busan-map/', f'{B}/zh-tw/guides/busan-map/'
     cards, items = [], []
     for i, (name, ko, area, cat, why, guide, query, local) in enumerate(P, 1):
-        slug = PLACE_LOC.get(name) or LOC.get(guide)
-        if slug:
-            href, lang_attr, label = f"/{L['dir']}/guides/{slug}/", '', L['read']
+        guide_path, has_fragment, guide_fragment = guide.partition('#')
+        place_slug = PLACE_LOC.get(name)
+        guide_slug = LOC.get(guide_path)
+        if place_slug:
+            href, lang_attr, label = f"/{L['dir']}/guides/{place_slug}/", '', L['read']
+        elif guide_slug:
+            suffix = f"#{guide_fragment}" if has_fragment else ''
+            href, lang_attr, label = f"/{L['dir']}/guides/{guide_slug}/{suffix}", '', L['read']
         else:
-            href, lang_attr, label = guide.split('#')[0], ' hreflang="en" lang="en"', L['read_en']
+            href, lang_attr, label = guide, ' hreflang="en" lang="en"', L['read_en']
         badge = f'<span class="g2b-place-badge is-local">{e(L["badge_local"])}</span>' if local else f'<span class="g2b-place-badge">{e(L["badge_guide"])}</span>'
         ai = [k for k, _ in AREAS].index(area); ci = [k for k, _ in CATS].index(cat)
         search = f'https://www.google.com/maps/search/?api=1&query={q(query)}'
