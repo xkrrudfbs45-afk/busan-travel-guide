@@ -26,6 +26,35 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Verify deterministic EN/JA/zh-TW Busan map generation
+        run: |
+          python3 scripts/generate-busan-map.py
+          git diff --exit-code -- guides/busan-map/index.html ja/guides/busan-map/index.html zh-tw/guides/busan-map/index.html
+          python3 scripts/generate-busan-map.py
+          git diff --exit-code -- guides/busan-map/index.html ja/guides/busan-map/index.html zh-tw/guides/busan-map/index.html
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          paths = [
+              Path("guides/busan-map/index.html"),
+              Path("ja/guides/busan-map/index.html"),
+              Path("zh-tw/guides/busan-map/index.html"),
+          ]
+          expected_ids = None
+          for path in paths:
+              html = path.read_text(encoding="utf-8")
+              ids = re.findall(r'<li class="g2b-place" id="(place-\d+)"', html)
+              assert len(ids) == 30, f"{path}: expected 30 cards, found {len(ids)}"
+              if expected_ids is None:
+                  expected_ids = ids
+              assert ids == expected_ids, f"{path}: place IDs differ from other locales"
+              scripts = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+              page = next(json.loads(item) for item in scripts if json.loads(item).get("@type") == "CollectionPage")
+              item_list = page["mainEntity"]
+              assert item_list["numberOfItems"] == len(ids) == len(item_list["itemListElement"]), f"{path}: ItemList count mismatch"
+          PY
+
       - name: Build the public site (same script Render runs)
         run: sh scripts/build-static.sh
       - name: Run dependency-free audit
