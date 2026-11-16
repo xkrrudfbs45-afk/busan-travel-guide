@@ -359,13 +359,13 @@
     },
     "ig-fresh15-16": {
       "facts": [
-        "Visit Busan's official November listing shows the Gwangbok-ro Balcony Music Show on 2026-11-28 (Saturday), 19:00-21:00, in the Gwangbok-ro area of Jung-gu, Busan.",
-        "Official listed set times: 19:30-20:00 써니문 재즈밴드; 20:00-20:30 모던사운즈 재즈빅밴드.",
-        "The official source gives performer names in Korean; English names in the draft are working transliterations, not separately confirmed organizer titles.",
+        "Visit Busan's official English listing shows the Gwangbok-ro Balcony Music Show on 2026-11-28 (Saturday), 19:00-21:00, at Gwangbok-ro, Jung-gu, Busan.",
+        "Official English set times and names: 19:30-20:00 Sunny Moon Jazz Band; 20:00-20:30 Modern Sounds Jazz Big Band.",
+        "The 2026-11-17 English listing provides the official English artist names; do not leave Korean-only names in the TW or JA cards.",
         "This draft does not claim the separate 2026-12-05 Street Festa date."
       ],
       "urls": [
-        "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=6437&menuCd=DOM_000000204012000000",
+        "https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6438&menuCd=DOM_000000304010000000",
         "https://go2busan.com/guides/nampo-neighborhood-guide/"
       ],
       "volatile": [
@@ -375,8 +375,8 @@
         "access point and traffic"
       ],
       "recheck": "2026-11-27 and morning of 2026-11-28",
-      "checked_on": "2026-11-14",
-      "note": "Draft-only localized Instagram proposal. AI illustrations are not actual event photos. No external account posting or schedule activation."
+      "checked_on": "2026-11-17",
+      "note": "Draft-only localized Instagram proposal. Use official English band names in TW/JA/EN. AI illustrations are not actual event photos. Required art direction: Gwangbok-ro pedestrian shopping street in Jung-gu with low-rise storefronts and balcony performers; no beach, Gwangan Bridge, Marine City or coastal skyline. No external account posting or schedule activation."
     }
   }
 }
