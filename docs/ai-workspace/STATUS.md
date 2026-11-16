@@ -600,3 +600,12 @@ Applied a second grouped pass on the existing homepage design branch:
 - Root cause: canonical `P` has 30 places, but JA/zh-TW description arrays had 28; localized guide lookup compared URLs including section fragments against path-only keys, so several available localized guides fell back to English. The Haeundae food mapping also pointed to the neighborhood guide.
 - PR #498 makes the EN generator invoke the JA/zh-TW generator, adds the missing two localized descriptions, resolves localized guide paths before fragments, preserves valid section anchors, corrects the Haeundae food slug, updates JA/zh-TW visible counts and ItemList URLs, and adds deterministic generation / ID / JSON-LD checks to CI.
 - Exact-head CI pending at documentation update. Real browser QA at 360 / 390 / 1280 and map interaction testing not performed. Draft only; no merge or production deployment.
+
+
+### PR #498 follow-up — 2026-11-17
+
+- Preserved the existing EN, JA and zh-TW map CSS independently; localized generator resolves each target page from an absolute repository-root path, so it does not overwrite JA/zh-TW styling with EN CSS.
+- Added per-locale guide routing and verified section-anchor aliases: three-day sections map to localized section-2/section-3; Seomyeon/Nampo map to section-2/section-3; Dongnae guide now has stable Hurshimchung/history/food IDs; zh-TW Kkangtong market-favorites maps to the existing market anchor; zh-TW Songdo uses its dedicated guide.
+- Localized map cards and CollectionPage URLs were aligned; Korean business queries for Geumsubokguk and Haeundae Wonjo Halmae Gukbap use the canonical Korean name/address from the shared P dataset.
+- CI now checks target-file existence, fragment IDs, hreflang labels, visible-card IDs/counts, JSON-LD counts/URLs, and two-pass deterministic generation.
+- Earlier CI attempts failed on stale template/style drift; those findings were corrected. Latest head CI is pending. No merge or production deployment.
