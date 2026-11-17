@@ -69,3 +69,5 @@ Before declaring image delivery fully verified:
 4. Re-run Lighthouse when sufficient credits are available.
 5. For any WebP / AVIF conversion, retain the original license/attribution metadata and verify visual quality at the actual card crop.
 
+
+This is a documentation-only baseline update. No image asset, page markup, social schedule or production file was changed.
