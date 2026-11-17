@@ -67,3 +67,8 @@ Community source:
 - Localized page edits and search-index update committed to this branch.
 - Exact-head build / Technical SEO audit, internal-link validation and responsive browser QA at 360 / 390 / 768 / 1280 remain pending.
 - Draft PR only; do not merge or deploy without owner approval.
+
+6. **All-stops ticket is not unlimited repeat boarding**
+   - The current Blue Line Park fare page says the all-stops ticket is a same-day pass and that boarding at the same station twice is not allowed.
+   - The current Visit Busan Pass listing describes the benefit as getting off and re-boarding at each of the seven stations once. The English operator guidebook also says the all-stops pass is available only once at each station.
+   - Explain this as one boarding per station, not unlimited repeat boarding from the same station. Sources: https://www.bluelinepark.com/eng/fare.do and https://visitbusanpass.com/attractions/_detail?id=GO0000000042 (checked 2026-11-17).
