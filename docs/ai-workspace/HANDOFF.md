@@ -1,4 +1,18 @@
-## Current handoff — city-bus luggage rules and airport arrivals — 2026-11-17 (ChatGPT)
+## Current handoff — 2026-11-17 14:15 KST
+
+- Production main/live SHA `af35154405aecc6e520ce6a7d38877d829067f86` is verified by GitHub Actions run #44003912824. Render deploy hook returned HTTP 200; live `version.txt` matched main; four directory cache checks passed; all 244 sitemap URLs returned HTTP 200; IndexNow accepted 120 updated URLs.
+- Recent merged work: #498, #501, #503, #504, #505, #507, #508, #510. PR #506 was superseded by #507 and closed unmerged.
+- Open Draft PR #511: Visit Busan Pass / Haeundae Beach Train clarification in EN / JA / zh-TW. It now includes the after-18:00-KST first-boarding exception from the official Pass listing. Previous exact-head CI #1693 passed; latest run #1699 on `990ace5a122fee5967018a9e07ff9f07ba3a9258` is the gate to check next. Branch base is one main commit behind but currently mergeable.
+- Open Draft PR #512: device-local first-trip checklist with progress persistence across EN / JA / zh-TW. Exact-head CI #1695 passed on `c27564149a5c18000b76d05acfaed5cf9ee1893d`.
+- Both PRs still require actual 360 / 390 / 768 / 1280 browser QA before owner review. For #512 test keyboard access, storage-disabled fallback, reset and cross-language persistence. For #511 test localized wording, the 18:00 exception, image crop and visible CC BY-SA 4.0 credit.
+- Latest completed #511 audit #1693: 245 HTML pages, 244 sitemap URLs, 892 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors, and 10 unique homepage food-card images. It also found 87 missing OG/Twitter images, 3 missing OG alt values and 16 title/meta length warnings; prioritize zh-TW share previews without using unverified images.
+- Image restrictions remain: Dongnae-eupseong photo is website-only; eight registered image assets are unused. Do not reuse restricted imagery outside the site or present AI art as documentary photography.
+- Community research: Taiwan Dcard and English Reddit both surfaced practical luggage-storage questions. Official Visit Busan currently publishes Busan Travel Lounge luggage-service hours; Busan City lists Gwangalli Tourist Information Center storage and its phone number but not fee/hours. Haeundae Platform's 2026 free-storage pop-up was only 4–30 August and is not a current option. Details and source dates: `docs/ai-workspace/RESEARCH-LUGGAGE-STORAGE-LOCATIONS-2026-11-17.md`.
+- Next: verify #511 run #1699; have Claude perform responsive browser QA for #511/#512; then address the 87 social-preview metadata gaps, starting with zh-TW pages. Do not merge or deploy without owner approval.
+
+## Previous handoffs
+
+## Historical handoff — city-bus luggage rules and airport arrivals — 2026-11-17 (ChatGPT)
 
 - Draft PR #505: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/505
 - Branch: `content/city-bus-luggage-rules-20261117`, based on main `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071`.
@@ -12,14 +26,14 @@
 - Image rights note: main image-credit audit is 49 in use / 57 registered / 9 warnings / 0 errors. One Dongnae-eupseong image is website-only under the current license review; eight registered assets are unused. Keep those restrictions.
 - Main/live snapshot: main and Render live deployment both report `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071` (`dep-dbtq0v6k1f9s739dp20g`). Direct public HTTP / `version.txt` verification was unavailable in this run, so do not claim a fresh public 200 response.
 
-## Current handoff — winter lights guide correction — 2026-11-17
+## Historical handoff — winter lights guide correction — 2026-11-17
 
 - Updated English winter-lights aggregation page and EN/JA/zh-TW winter guides against the official recurring schedule: first/third weeks are drone x laser, second/fourth weeks regular drone shows; Dec 5 / 19 fall in laser weeks under that rule, while exact themes remain subject to the monthly programme. Removed unsupported fixed 24-minute duration claims.
 - Added archival 2020 Haeundae Light Festival image (KOGL Type 1) with visible author/source/license credit and explicit note that it is not a 2026 event image. Added OG/Twitter image metadata and analytics script.
 - Updated winter guide search summary, sitemap lastmod and EN/JA/zh-TW homepage seasonal-events update labels.
 - Verify build, strict image audit, OG metadata and mobile image rendering at 360 / 390 / 768 / 1280. No merge or deploy without owner approval.
 
-## Current handoff — G-STAR 2026 international visitor guide — 2026-11-17
+## Historical handoff — G-STAR 2026 international visitor guide — 2026-11-17
 
 - Draft PR branch: content/gstar-2026-international-visitor-guide-20261117.
 - New localized pages: EN /guides/gstar-2026-busan/, JA /ja/guides/gstar-2026-busan/, zh-TW /zh-tw/guides/gstar-2026-busan/.
@@ -29,7 +43,7 @@
 - Still pending: responsive browser QA and screenshots at 360/390/768/1280. Check the BEXCO image is labelled as venue-only, not G-STAR event photography. Draft only; no merge/deploy.
 - No merge or deployment without owner approval.
 
-## Current handoff — Busan taxi fares and visitor-help content — 2026-11-17 (ChatGPT)
+## Historical handoff — Busan taxi fares and visitor-help content — 2026-11-17 (ChatGPT)
 
 - Main content PR #503 is merged and deployed. Merge commit: fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071. Render deployment: dep-dbtq0v6k1f9s739dp20g, live at 2026-11-17 00:32:43 UTC.
 - PR #503 exact-head Technical SEO audit run #1616 passed: 242 HTML pages, 6,900 local links, 0 broken local links, 0 sitemap omissions, 880 hreflang links; image-credit strict audit 49 in use / 57 registered / 9 warnings / 0 errors.
@@ -45,14 +59,14 @@
 - Research note: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
 - Do not merge or deploy PR #504 without owner approval.
 
-## Current handoff — localized photo expansion — 2026-11-16 (ChatGPT)
+## Historical handoff — localized photo expansion — 2026-11-16 (ChatGPT)
 
 - Branch `images/localized-guide-photo-batch-20261116`, issue #493. Added licensed, localized body photos to EN/JA/zh-TW Taejongdae Danubi, Busan City Tour Bus and Haedong Yonggungsa guides (9 pages). Added 3 verified Wikimedia records to `assets/data/image-credits.json`.
 - City Tour Bus image is an archival photograph from 13 Oct 2012; every localized caption says it is not the current fleet. Danubi photo is 480×854 and kept portrait/inline; temple image is 2017 photo of the actual temple.
 - OG/Twitter image and alt metadata added to City Tour Bus and Haedong Yonggungsa pages; Danubi portrait is not used as a wide social image.
 - Pending: build + full audit suite, check exact PR head, responsive visual QA 360/390/768/1280. Draft PR only; no merge/deploy without owner approval.
 
-## Current handoff — contrast remediation — 2026-11-15 (Claude, issue #462)
+## Historical handoff — contrast remediation — 2026-11-15 (Claude, issue #462)
 
 - Branch `claude/issue-462-20261115-1241`, Draft PR against main. CSS-only: `assets/homepage-showcase.css`, `assets/styles.css`. No copy, URL, metadata, analytics, consent, affiliate or SNS changes.
 - Contrast (computed WCAG ratios): CTA white text `#e97861` 2.87 -> `#c4492f` 4.84; hover `#d96550` 3.54 -> `#a63a24` 6.46. Kicker on `#faf8f4`: `#b76552` 3.96 and `#d36552` 3.44 -> `#a8412c` 5.73 (both rules). Breadcrumb links keep `#52677a` (5.87 on white) and now have a persistent 1px underline, 3px offset, 2px on hover, plus a visible `:focus-visible` outline.
@@ -60,7 +74,7 @@
 - Verification: `sh scripts/build-static.sh` and every audit in seo-audit.yml run on this head, 0 errors (existing WARN/INFO unchanged).
 - Not done: axe re-run, 360/390/1280 screenshots and keyboard/hover QA were not performed (no browser automation driver in this runner). Secondary CTA and mobile nav CSS were read but not changed. `.article-hero .breadcrumbs` (styles.css ~1328) sets non-link breadcrumb text to `#7a8798` (about 3.6:1, not 4.5:1); out of this issue's scope, left as a follow-up. No merge or deploy.
 
-## Current handoff — luggage metadata (2026-11-15, Claude, issue #455)
+## Historical handoff — luggage metadata (2026-11-15, Claude, issue #455)
 
 - Branch `claude/issue-455-20261115-0447`, Draft PR against main. Based on main, not on PR #454; #454 untouched.
 - Changed only head metadata in EN/JA/zh-TW luggage-storage pages: `<title>`, meta description, og/twitter title+description, og:image:alt (twitter:image:alt is derived at build), Article JSON-LD headline/description. Canonical, hreflang, nav, affiliate, consent and analytics untouched. Descriptions follow the issue's suggested EN/JA/zh-TW text; social descriptions and image alts state that the photo is Busan Central Bus Terminal, not KTX Busan Station.
@@ -70,7 +84,7 @@
 
 ### Next
 - Owner/ChatGPT: when #454 merges, rebase this PR; then add verified Commons width/height for the locker photo to `content/images/cover-photos.json` `files` and a build step to apply them, and run 360/390/1280 browser QA.
-## Current handoff — Agoda hotel affiliate integration (2026-11-14)
+## Historical handoff — Agoda hotel affiliate integration (2026-11-14)
 
 ### Completed in branch feat/agoda-stay-affiliate-ctas-20261114
 - Added owner-supplied Agoda search links with CID 1979955, Busan city ID 17172, and locale mapping EN en-us, JA ja-jp, zh-TW zh-tw.
@@ -96,7 +110,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Verification: Claude reports `sh scripts/build-static.sh` passed. The 11 audits did not complete; the Technical SEO audit workflow is `action_required`, with no completed result available. 360/390px overflow remains unverified. Deployment not verified.
 - Approval needed: owner review and merge decision; native review of JA/zh-TW wording.
 
-## Current handoff — 2026-11-12 (ChatGPT growth and image audit)
+## Historical handoff — 2026-11-12 (ChatGPT growth and image audit)
 
 ### Completed
 - Confirmed GitHub main at `60146784d5563ed4628afcb8c58eb272028ed536`; PR #383 image quality batch 1 merged and its Technical SEO audit / Growth ops checks passed.
@@ -125,7 +139,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Any change to GA4 consent/measurement configuration.
 - Any external Instagram/Threads publishing or schedule change.
 
-## Current handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
+## Historical handoff — 2026-11-12 (Claude, Taiwan plan #359 Phase 0)
 
 ### Completed
 - Reconciled main/production/open PRs: `docs/ai-workspace/BASELINE-TAIWAN-2026-11-12.md` (45 open PRs triaged into close / clean / conflicting).
@@ -179,7 +193,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - [Any merge, deployment, spend, partner, or policy decision]
 
 
-## Current handoff — 2026-11-13 (ChatGPT, editorial design Phase 1)
+## Historical handoff — 2026-11-13 (ChatGPT, editorial design Phase 1)
 
 ### Completed
 - Opened Draft PR #404: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/404
@@ -203,7 +217,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 - Owner approval before merging PR #404 or deploying any design changes.
 
 
-## Current handoff — 2026-11-13 (ChatGPT, full-site editorial redesign)
+## Historical handoff — 2026-11-13 (ChatGPT, full-site editorial redesign)
 
 ### Completed
 - Created branch `design/full-site-editorial-redesign-20261113` from the Phase 1 editorial branch.
@@ -226,7 +240,7 @@ Use this file to hand work between the project owner, ChatGPT, and Claude. Keep 
 
 ### Approval needed
 - Owner approval before merge or production deployment.
-## Current handoff — 2026-11-13 (ChatGPT, Claude QA corrections and market UX)
+## Historical handoff — 2026-11-13 (ChatGPT, Claude QA corrections and market UX)
 
 ### Completed
 - Reviewed Claude's browser QA report for #404/#405/#406 and implemented the homepage corrections on `design/full-site-editorial-redesign-20261113`.
@@ -390,7 +404,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Be precise about execution: an issue is assigned work, a PR is proposed work, a merged commit is repository work, and a verified production SHA is deployed work. Never conflate them.
 - No merge, deployment, secret change, paid activation, or irreversible action without explicit owner approval.
 
-## Current handoff — 2026-11-06
+## Historical handoff — 2026-11-06
 
 ### Active priorities
 1. Claude: inspect and report on issue #272, including whether a safe Claude Code GitHub workflow can be configured with the available repository permissions/secrets. Do not imply an autonomous Claude runner exists until verified.
@@ -437,7 +451,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - PR #297 remains open; do not merge or deploy without owner approval.
 
 
-## Current handoff — 2026-11-07 (ChatGPT, PR #297 mobile navigation)
+## Historical handoff — 2026-11-07 (ChatGPT, PR #297 mobile navigation)
 
 ### Completed in branch `chatgpt/jangjeon-gayapark-gukbap`
 - EN/JA/zh-TW intro decks now reflect the six included recommendations, including Gaya Park pork soup.
@@ -460,7 +474,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Latest known PR head `52969674e03a053c9c6fc6dfcdd898d0b4443104`; PR open, unmerged. Do not merge/deploy without explicit owner approval.
 
 
-## Current handoff — practical local-experience batch (2026-11-14, ChatGPT)
+## Historical handoff — practical local-experience batch (2026-11-14, ChatGPT)
 
 ### Completed in branch content/busan-practical-guides-20261114
 - Milmyeon guide (EN / JA / zh-TW): added first-time order and seasoning tips, Korean phrases and dietary notes; updated SEO titles/descriptions.
@@ -528,7 +542,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Static source checks only; latest exact-head CI and responsive screenshot QA remain required. Keep Draft; do not merge/deploy without explicit owner approval.
 
 
-## Current handoff — growth, measurement and mobile performance (2026-11-14, ChatGPT run 8)
+## Historical handoff — growth, measurement and mobile performance (2026-11-14, ChatGPT run 8)
 
 ### Completed / verified
 - GSC baseline (final, 2026-10-15–11-11 PT): 453 impressions / 3 clicks overall; Taiwan 50 / 0 / pos 19.4, US 39 / 0 / 29.7, Japan 26 / 0 / 8.0. Mobile accounts for 319 impressions and all three clicks. Market samples remain small.
@@ -609,7 +623,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Browser screenshot QA at 360 / 390 / 768 / 1280 remains unperformed.
 
 
-## Current handoff — GoodDay Unse K-culture cards (2026-11-15, ChatGPT)
+## Historical handoff — GoodDay Unse K-culture cards (2026-11-15, ChatGPT)
 
 ### Completed
 - Opened Draft PR #471 for issue #470: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/471
@@ -673,7 +687,7 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - No new event photo was added; current-edition image rights were not verified. Browser QA at 360 / 390 / 1280 remains pending.
 
 
-## Current handoff — local research content batch (2026-11-16)
+## Historical handoff — local research content batch (2026-11-16)
 
 - Branch: `content/busan-local-research-batch-20261116` (base main `e3a0f1616c43d5dcb9589b7eb22b62f7ad4535d3`).
 - Scope: taxi-app practical details in EN/zh-TW taxi comparison and JA late-arrival guide; hagfish history/photo in EN/JA/zh-TW food-story hubs; Beomeosa/Geumjeongsanseong transport clarification in EN/JA/zh-TW Beomeosa food guides.
