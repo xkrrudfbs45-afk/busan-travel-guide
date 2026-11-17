@@ -3,7 +3,7 @@
 - Draft PR branch: content/gstar-2026-international-visitor-guide-20261117.
 - New localized pages: EN /guides/gstar-2026-busan/, JA /ja/guides/gstar-2026-busan/, zh-TW /zh-tw/guides/gstar-2026-busan/.
 - Homepage G-STAR cards in EN/JA/zh-TW now link to the matching guide; directory, search-index and sitemap/hreflang updated.
-- Official facts and deliberate omissions are documented in docs/ai-workspace/RESEARCH-GSTAR-2026-11-17.md.
+- Official facts and deliberate omissions are documented in docs/ai-workspace/RESEARCH-GSTAR-2026-11-17.md. BEXCO station exits were cross-checked against BEXCO's official subway directions; the non-working G-STAR traffic-page URL was removed.
 - Verify exact-head CI, canonical / hreflang, links and image-credit strict audit. Responsive QA at 360/390/768/1280. Check the BEXCO image is labelled as venue-only, not G-STAR event photography.
 - No merge or deployment without owner approval.
 
