@@ -82,3 +82,20 @@ The localized text uses each market's natural event naming and practical context
 - JA: uses natural station and event names and emphasizes that the two venues are not within walking distance.
 - zh-TW: foregrounds the paid timed-entry condition and gives the station names used by Taiwan travelers.
 - All three versions link to the official Busan City directions, the official metro map, the Haeundae event listing and the YES24 ticket notice. No image was added or reused.
+
+
+## 7. Additional confirmed winter event: 3rd Millak Luce Festa
+
+**Checked:** 2026-11-18 (KST). This was found during the final official-calendar cross-check after the initial Seomyeon update.
+
+- Busan Metropolitan City's edition-specific event listing confirms the 3rd Millak Luce Festa runs **2026-11-14 to 2027-01-10** at **Millak Waterside Park**, with daily lighting **18:00–23:30**, free admission and Suyeong-gu as host: https://www.busan.go.kr/eng/bsevents/1762643.
+- The event was already mentioned in the homepage's seasonal feature and the EN / JA / zh-TW Things to Do guides. It was missing from the more focused winter travel guides and the EN winter-lights hub. PR #519 fills that coverage gap without creating a duplicate page.
+- The event is distinct from the Gwangalli M Drone Light Show at Gwangalli Beach. The localized copy tells visitors to check each event's location and programme separately; it does not promise that the drone show is part of Millak Luce Festa or visible from every point in the park.
+- Community searches in this pass did not verify a recent independent traveler question specifically about Millak Luce Festa. Its inclusion is based on the current official event listing and existing winter-event search intent, not a claim of demonstrated community demand.
+- Competitor check: Busan.net's 2026 winter-lights guide lists Haeundae, Christmas Village and Seomyeon but omits Millak Luce Festa: https://busan.net/en/guide/busan-winter-lights/. Hantabi's current roundup does include Millak, but Go2Busan uses the Busan City event listing as the source of record: https://hantabi.org/en/korea/articles/busan-christmas-tree-festival.
+- No event-specific image was added. The current official page's poster / artwork was not treated as a cleared commercial-use photo. A Google Maps search link points to Millak Waterside Park; it does not claim an exact entrance or route.
+
+### Localized implementation
+- EN, JA and zh-TW winter travel guides now include dates, lighting hours, free admission and a clear distinction from the drone show.
+- The EN winter-lights hub adds Millak to the at-a-glance list and a short dedicated section with official event and map links.
+- No new URL, canonical, hreflang, title/meta, OG/Twitter, JSON-LD, sitemap or affiliate CTA was changed.
