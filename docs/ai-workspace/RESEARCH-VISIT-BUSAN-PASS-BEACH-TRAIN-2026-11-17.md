@@ -40,8 +40,10 @@ Community source:
 ## Changes on this branch
 
 - EN / JA / zh-TW canonical sold-out guide: add a localized, clearly labelled section distinguishing the Visit Busan Pass Beach Train benefit from the separately paid Sky Capsule.
+- EN and zh-TW Visit Busan Pass comparison guides: add the distinction to the core pass explanation, including an inline licensed photo that identifies the Sky Capsule as a separate paid ride.
 - Explain ticket exchange, designated first boarding station/time and the 10-minute boarding cutoff.
-- Update localized metadata descriptions and search-index summaries/tags to reflect the high-intent Pass-vs-ride question.
+- Strengthen the existing EN and zh-TW Visit Busan Pass comparison guides with the same official Beach Train / Sky Capsule distinction; add a rights-cleared, subject-matched Sky Capsule photo to the EN page and clarify the existing zh-TW photo caption.
+- Update localized metadata descriptions and EN / JA / zh-TW internal-search summaries/tags to reflect the high-intent Pass-vs-ride question.
 - No new guide URL, no new image assets, and no changes to canonical/hreflang or sitemap.
 - Existing Sky Capsule imagery remains subject-matched; no generic stock or AI-generated scene was added.
 
