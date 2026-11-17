@@ -72,3 +72,8 @@ Community source:
    - The current Blue Line Park fare page says the all-stops ticket is a same-day pass and that boarding at the same station twice is not allowed.
    - The current Visit Busan Pass listing describes the benefit as getting off and re-boarding at each of the seven stations once. The English operator guidebook also says the all-stops pass is available only once at each station.
    - Explain this as one boarding per station, not unlimited repeat boarding from the same station. Sources: https://www.bluelinepark.com/eng/fare.do and https://visitbusanpass.com/attractions/_detail?id=GO0000000042 (checked 2026-11-17).
+
+7. **Image delivery / attribution check**
+   - The Sky Capsule photograph is the creator's own work, dated 29 April 2026, 5,712 × 4,284 JPEG (3.75 MB), at GPS 35.156986, 129.175003, and licensed CC BY-SA 4.0. Keep visible creator and license attribution; no AI or documentary-image ambiguity.
+   - Added Commons width variants 640 / 1000 / 1600 with `srcset` and `sizes` to the three localized sold-out pages and the EN / zh-TW Pass guide. Hero images retain high priority; in-guide images remain lazy-loaded. This is source-level responsive delivery, not proof of actual browser crop or byte savings.
+   - Source: https://commons.wikimedia.org/wiki/File:Sky_Capsule_train_at_Haeundae_Blueline_Park,_Busan.jpg (checked 2026-11-17).
