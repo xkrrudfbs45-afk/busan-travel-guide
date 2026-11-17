@@ -3,7 +3,7 @@
 - Added EN / JA / zh-TW dedicated visitor guides: /guides/gstar-2026-busan/, /ja/guides/gstar-2026-busan/, /zh-tw/guides/gstar-2026-busan/.
 - Homepage seasonal G-STAR cards now link to the dedicated guide instead of a generic Haeundae page; card copy states BTC tickets are online-only with no onsite sales.
 - Verified BTC ticket price, online-only rule, day-before 24:00 KST cutoff, booked-date-only validity, 2 tickets/person/day, wristband exchange, 17:00 verification cutoff and 17:30 last admission against G-STAR official English BTC page.
-- Added BEXCO Hall 1 / Hall 2 station exit guidance and Busan Station subway transfer notes from the organizer's traffic guide.
+- Added BEXCO Hall 1 / Hall 2 station exit guidance from BEXCO's official subway directions; Busan Station transfer notes are provided without an unverified journey-time or fare claim.
 - Existing verified BEXCO exterior image reused with visible CC BY-SA 3.0 attribution and explicit note that it is a venue photo, not an event photograph.
 - Research note: docs/ai-workspace/RESEARCH-GSTAR-2026-11-17.md.
 - Draft PR only; no merge or production deployment. Exact-head build / SEO audit and responsive QA pending.
