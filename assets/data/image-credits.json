@@ -652,8 +652,8 @@
       "attribution_required": true,
       "modified": "remote image displayed with object-fit:contain; no edits",
       "checked_on": "2026-11-14",
-      "status": "needs_review",
-      "note": "Official 2026 poster retrieved from the organizer's event page. Subject/date match confirmed; copyright and commercial reuse permission are not stated. Do not merge to production until permission or an approved replacement is documented."
+      "status": "do_not_use",
+      "note": "Official promotional artwork; reuse terms are not stated on the organizer's event page. Removed from all Go2Busan page metadata in favor of a verified licensed venue photo."
     },
     {
       "source": "wikimedia",
@@ -794,6 +794,20 @@
       "checked_on": "2026-11-16",
       "status": "verified",
       "note": "Landscape photograph of Haedong Yonggungsa Temple, Gijang, Busan; taken 12 October 2017. Camera location metadata is at the temple."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_Cinema_Center.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Cinema_Center.jpg",
+      "author": "399scout",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Special:FilePath only",
+      "checked_on": "2026-11-17",
+      "status": "verified",
+      "note": "Busan Cinema Center exterior; used only as a venue photo for Christmas Village Busan, never presented as event photography."
     }
   ]
 }
