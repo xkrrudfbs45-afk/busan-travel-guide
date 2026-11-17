@@ -11,7 +11,8 @@
 - New localized pages: EN /guides/gstar-2026-busan/, JA /ja/guides/gstar-2026-busan/, zh-TW /zh-tw/guides/gstar-2026-busan/.
 - Homepage G-STAR cards in EN/JA/zh-TW now link to the matching guide; directory, search-index and sitemap/hreflang updated.
 - Official facts and deliberate omissions are documented in docs/ai-workspace/RESEARCH-GSTAR-2026-11-17.md. BEXCO station exits were cross-checked against BEXCO's official subway directions; the non-working G-STAR traffic-page URL was removed.
-- Verify exact-head CI, canonical / hreflang, links and image-credit strict audit. Responsive QA at 360/390/768/1280. Check the BEXCO image is labelled as venue-only, not G-STAR event photography.
+- Exact-head Technical SEO audit #1675 passed on commit 1775aadaef6a11cbd8e80865128d87e4dafa6960: 245 HTML pages, 6,979 local links, 0 broken links, 0 missing descriptions/canonicals, 892 hreflang links, 0 sitemap omissions; image-credit audit 49 in use / 57 registered / 9 warnings / 0 errors.
+- Still pending: responsive browser QA and screenshots at 360/390/768/1280. Check the BEXCO image is labelled as venue-only, not G-STAR event photography. Draft only; no merge/deploy.
 - No merge or deployment without owner approval.
 
 ## Current handoff — Busan taxi fares and visitor-help content — 2026-11-17 (ChatGPT)
