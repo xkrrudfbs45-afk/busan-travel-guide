@@ -1,0 +1,37 @@
+# Busan event radar — 2026-11-18
+
+**Owner:** Go2Busan editorial / growth  
+**Review cadence:** weekly, plus a same-week official-source check before each event  
+**Lead-time rule:** major international events 6 weeks; other visitor-facing festivals at least 3 weeks. Publish a useful first version with confirmed facts, then update when tickets, hours and access details are released. Keep past-event URLs and convert them to next-edition planning pages.
+
+| Event / intent | Confirmed or current dates | Publish / update by | Existing coverage | Status and next action |
+|---|---|---:|---|---|
+| Seomyeon Light Festival | 2026-10-29–2027-02-14; opening ceremony was 2026-10-29 at 18:30; about 1.9 km / five themed zones reported after opening | Update now (2026-11-18) | EN / JA / zh-TW winter travel guides; EN winter-lights hub | Add a concise section to all four existing pages. Daily lighting hours and final installation details are not verified; do not reuse 2025's 18:00–23:00 schedule. |
+| Busan Christmas Village | 2026-11-26–12-25; 21 selected operating days, ticketed | Refresh 2026-11-24, before opening | EN / JA / zh-TW Christmas Village guides and winter guides | Existing localized pages cover dates, selected days, ticket types and overseas-booking caveats. Recheck organizer / city / YES24 notices; do not assume it opens daily. |
+| 13th Haeundae Light Festival | 2026-11-28–2027-01-10; official city listing gives 18:00–23:00 and free admission | Refresh 2026-11-25 | EN / JA / zh-TW winter travel guides and EN winter-lights hub | Existing coverage is live in source. Recheck weather, access and any programme changes before opening weekend. |
+| Gwangalli M Drone Light Show | Regular Saturday shows during Oct–Feb; usual slots 19:00 and 21:00 | Check each month's programme before the first Saturday; next check 2026-11-25 | EN / JA / zh-TW drone-show guide and winter guides | The recurring schedule is not a guarantee of a special New Year countdown show. Keep monthly themes and weather / wind / communications cancellation caveats current. |
+| Gwangbok-ro Winter Light Tree Festival | Procurement re-notice specifies a planned lighting period of 2026-12-04–2027-01-31, 17:30–22:30 | Recheck 2026-11-27 | EN winter-lights hub; JA / zh-TW winter guides | Planned installation schedule only. Do not describe performances, opening ceremony, admission, parking or final public hours as confirmed until Jung-gu publishes a visitor-facing notice. |
+| Busan New Year countdown / sunrise | 2026-12-31–2027-01-01; 2026–27 countdown, bell-ringing, drone special and extended-transit programmes not confirmed as of 2026-11-18 | Initial guide target 2026-12-01; refresh immediately when official notices appear | General winter guide; separate Homigot guide is for Pohang, not Busan | Distinct Busan search intent may justify an EN / JA / zh-TW guide. Publish confirmed geography, official programme status, sunrise calculation source, crowd / weather / return-trip planning. Clearly label previous-year examples; never infer a countdown from the regular Saturday drone show. |
+| Seollal / Korean Lunar New Year in Busan | Seollal day 2027-02-07; official 2027 calendar lists the date. Public-holiday / substitute-day details should be rechecked against the official calendar and holiday rules before publication. | 2027-01-08 | No dedicated Busan Seollal guide found in repository search | Prepare an EN / JA / zh-TW practical guide only after checking Busan attraction, market, restaurant and transport notices. Distinguish national holiday dates from each business's actual closures. |
+| Busan spring cherry blossoms | Late March–early April is a planning window only; 2027 bloom dates and event schedules are not confirmed | Research by 2027-02-08; publish by 2027-02-22 if official / local evidence supports it | No dedicated 2027 guide found in repository search | Recheck official park / district notices, transport and crowd controls. Avoid precise bloom forecasts until supported by current evidence. |
+| G-STAR 2026 | 2026-11-19–11-22, BEXCO | Missed ideal 3–6 week lead time; post-event update after 2026-11-22 | Existing EN / JA / zh-TW coverage and event hub links | Keep this season's page useful for attendees; record the next edition as soon as the organiser announces dates and schedule the guide at least 6 weeks ahead. |
+
+## Source register
+
+- Seomyeon Light Festival: Busanjin-gu official blog account (the specific notice is mirrored in the public result at https://www.welfarehello.com/community/hometownNews/2026%EB%85%84-%EB%B6%80%EC%82%B0%EC%A7%84%EA%B5%AC-%EC%84%9C%EB%A9%B4-%EB%B9%9B-%EC%B6%95%EC%A0%9C-%EA%B0%9C%EC%B5%9C-%EC%95%88%EB%82%B4--ccecfbbe-e44c-45b3-91f2-592b76994a0c); post-opening report, Newsis, 2026-10-30: https://files.newsis.com/view/NISX20261030_0003848584. The report confirms the event opened on Oct 29, runs to Feb 14, spans about 1.9 km and has five themed zones. Current daily lighting hours were not confirmed.
+- Seomyeon project scope: public procurement brief for 2026 Seomyeon Light Festival, project period and planned 1.9 km / five-zone design: https://work.00data.kr/projects/R26BK01682759. Treat tender design as planned scope, not a substitute for final visitor information.
+- Haeundae Light Festival: Busan Metropolitan City, 13th Haeundae Light Festival: https://www.busan.go.kr/eng/bsevents/1762645.
+- Christmas Village: Busan Metropolitan City events calendar https://www.busan.go.kr/eng/bsevents?curPage=3 and organiser / ticket notices linked from the existing localized pages.
+- Gwangalli M Drone Light Show: official recurring schedule https://www.gwangallimdrone.co.kr/en/overview and Busan City's monthly programme / cancellation notice https://www.busan.go.kr/eng/bsnews01/1763224.
+- Gwangbok-ro: Jung-gu's September 8, 2026 official re-notice for planned lighting installation / operation (existing localized pages retain the full official link).
+- Seollal: Korea AeroSpace Administration, 2027 Calendar Standards, announced 2026-06-29: https://www.kasa.go.kr/prog/plcyBrf/brief/kor/sub01_01_04/view.do?plcyBrfNo=431; Korea Astronomy and Space Science Institute calendar data: https://astro.kasi.re.kr/life/post/calendardata.
+- Busan event discovery competitor: Busan.net's winter lights guide, published 2026-11-13 and updated 2026-11-16: https://busan.net/en/guide/busan-winter-lights/. Useful structural ideas include an at-a-glance table, nearest subway context and one-evening routing; independently verify dates and hours before reuse.
+
+## Operating rules
+
+1. Search the repository and open PRs before creating a new URL. Prefer updating existing seasonal hubs when intent is already covered.
+2. Keep event date, ticket window, opening day, lighting hours, performance timetable and transport extension as separate facts.
+3. Use official organiser / city / district sources for volatile facts. A procurement schedule is not a public programme.
+4. Never copy event photos or posters without a documented commercial-use licence and attribution. No event image is cleared by this radar alone.
+5. For each new event page, create EN / JA / zh-TW versions together when foreign visitor intent is supported, add reciprocal technical SEO through the developer lane, and include a checked-on date.
+6. Do not alter Instagram / Threads publishing schedules or publish externally without owner approval.
