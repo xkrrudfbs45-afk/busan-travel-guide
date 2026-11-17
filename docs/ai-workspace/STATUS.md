@@ -1,3 +1,16 @@
+## Current verified production and PR state — 2026-11-17 (ChatGPT)
+
+- Main: `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071`.
+- Render static site `busan-travel-guide`: deployment `dep-dbtq0v6k1f9s739dp20g` is `live`; Render deployment metadata commit matches main exactly. The service has auto-deploy disabled.
+- Public-domain HTTP verification: direct fetch of `https://go2busan.com/version.txt`, the Render subdomain and public pages was unavailable in this runner. Report the Render deployment metadata as verified, but do not claim a fresh HTTP 200 or public `version.txt` match from this run.
+- PR #501 (JA / zh-TW first-trip arrival checklist) merged at 2026-11-17 00:29 UTC; merge commit `e225930ac6cc7199805a7335f2129705dbd6481f`.
+- PR #503 (taxi fares, 1330 visitor help and winter-show correction) merged at 2026-11-17 00:30 UTC; merge commit `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071`; this is the live Render commit.
+- PR #504 (localized taxi fare illustration / related visual work) remains open Draft. Exact-head Technical SEO audit #1625 passed on head `09bc784bf9dfe6bcf826f9c5bcbb5be67febb686`; responsive browser QA was not performed. No merge.
+- PR #505 (city-bus luggage limits and expired Route 85/307 pilot) is open Draft, based on main `fdfc0eb`; head `3ce1f4319523eccfcc5cf32270372655da31752c`. Six localized airport-route pages and one research note changed. CI and 360/390/768/1280 browser QA are pending. No merge or deployment.
+- Main Technical SEO audit #1625: sitemap 241 URLs, 242 canonical pages, 880 hreflang links; zero canonical pages missing from sitemap and zero findings in the sitemap/hreflang audit.
+- Main image-credit audit: 49 images in use, 57 registered, 9 warnings, 0 errors. One warning restricts a Dongnae-eupseong image to Go2Busan website use only; eight warnings are unused registry entries. Do not reuse the restricted photo in newspaper/Facebook creative or add unused images without rechecking rights and subject.
+- The same SEO audit still reports broad missing OG/Twitter image metadata across EN / JA / zh-TW pages, plus several long titles/descriptions. These are separate follow-up work; this luggage PR does not alter image metadata or page previews.
+
 ## Taxi fare and visitor-help expansion — 2026-11-17 (ChatGPT)
 
 - PR #503 expands the existing EN/zh-TW taxi-vs-subway pages rather than creating a duplicate taxi URL. Adds verified standard-medium taxi fares, late-night and out-of-area combined surcharges, meter checks, evidence retention and the KTO 1330 complaint route.
