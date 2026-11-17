@@ -37,6 +37,11 @@ Community source:
    - Keep the Beach Train and Sky Capsule distinct in copy, images, ticket language and route planning.
    - The Pass all-stops benefit does not mean unlimited repeat boarding at the same station; the operator's ticket rules should be checked for the specific ticket.
 
+5. **First boarding after 18:00 KST**
+   - The official Pass attraction page says the all-stops ticket cannot be used when the first Beach Train boarding is after 18:00 because the remaining operating time is too short; staff issue a ticket usable within the remaining hours instead.
+   - This is especially relevant in winter, when the official Pass listing shows departures from Mipo and Songjeong until 19:00. Do not imply that a late-arriving Pass holder receives the full all-stops ticket.
+   - Source: https://visitbusanpass.com/attractions/_detail?id=GO0000000042 (checked 2026-11-17).
+
 ## Changes on this branch
 
 - EN / JA / zh-TW canonical sold-out guide: add a localized, clearly labelled section distinguishing the Visit Busan Pass Beach Train benefit from the separately paid Sky Capsule.
