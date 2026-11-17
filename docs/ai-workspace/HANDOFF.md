@@ -7,6 +7,7 @@
 - Official sources: Visit Busan transport pages in EN / JA / zh-TW and Busan City pilot notices in EN / JA / zh-TW. Full community evidence and caveats: `docs/ai-workspace/BUSAN-CITY-BUS-LUGGAGE-RESEARCH-2026-11-17.md`.
 - No new image, URL, sitemap, canonical, hreflang, search-index, JSON-LD, affiliate, analytics or SNS schedule changes.
 - Next: wait for exact-head build / Technical SEO workflow; inspect the job log; verify all six localized blocks and official links; perform 360 / 390 / 768 / 1280 browser QA. Do not merge or deploy without owner approval.
+- Concurrent Draft PR #506 adds G-STAR 2026 visitor guides and also edits `STATUS.md` / `HANDOFF.md`; reconcile these shared docs before merging either PR.
 - Image rights note: main image-credit audit is 49 in use / 57 registered / 9 warnings / 0 errors. One Dongnae-eupseong image is website-only under the current license review; eight registered assets are unused. Keep those restrictions.
 - Main/live snapshot: main and Render live deployment both report `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071` (`dep-dbtq0v6k1f9s739dp20g`). Direct public HTTP / `version.txt` verification was unavailable in this run, so do not claim a fresh public 200 response.
 
