@@ -1,3 +1,17 @@
+## Current handoff — city-bus luggage rules and airport arrivals — 2026-11-17 (ChatGPT)
+
+- Draft PR #505: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/505
+- Branch: `content/city-bus-luggage-rules-20261117`, based on main `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071`.
+- Updated the existing Gimhae Airport → Seomyeon and Gimhae Airport → Haeundae guides in EN / JA / zh-TW (six pages). Added the ordinary city-bus baggage limit and the expiry of the 30-inch suitcase pilots on Routes 85 and 307.
+- Explicitly distinguished city bus 307 from Airport Limousine 1. The city notice published pilot dates only through 2026-09-30; no later official extension was found as of 2026-11-17.
+- Official sources: Visit Busan transport pages in EN / JA / zh-TW and Busan City pilot notices in EN / JA / zh-TW. Full community evidence and caveats: `docs/ai-workspace/BUSAN-CITY-BUS-LUGGAGE-RESEARCH-2026-11-17.md`.
+- No new image, URL, sitemap, canonical, hreflang, search-index, JSON-LD, affiliate, analytics or SNS schedule changes.
+- Exact-head Technical SEO workflow #1649 passed with all six localized page edits present: deterministic map generation, static build and dependency-free audit succeeded. Sitemap / hreflang: 241 entries, 242 canonical pages, 880 hreflang links, zero canonical pages missing. Strict image-credit audit: 49 in use, 57 registered, 9 warnings, 0 errors. Next: perform 360 / 390 / 768 / 1280 browser QA and reconcile shared docs with PR #506 before merge consideration. Do not merge or deploy without owner approval.
+- After that, the next high-value content batch is the Visit Busan Pass / Haeundae Beach Train distinction in the existing sold-out guide across EN / JA / zh-TW. Dcard reports a Beach Train sell-out despite a Pass; official Pass and Blue Line Park pages clarify inclusion and reservation rules. Research is appended to `BUSAN-CITY-BUS-LUGGAGE-RESEARCH-2026-11-17.md`; do not create a duplicate URL.
+- Concurrent Draft PR #506 adds G-STAR 2026 visitor guides and also edits `STATUS.md` / `HANDOFF.md`; reconcile these shared docs before merging either PR.
+- Image rights note: main image-credit audit is 49 in use / 57 registered / 9 warnings / 0 errors. One Dongnae-eupseong image is website-only under the current license review; eight registered assets are unused. Keep those restrictions.
+- Main/live snapshot: main and Render live deployment both report `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071` (`dep-dbtq0v6k1f9s739dp20g`). Direct public HTTP / `version.txt` verification was unavailable in this run, so do not claim a fresh public 200 response.
+
 ## Current handoff — Busan taxi fares and visitor-help content — 2026-11-17 (ChatGPT)
 
 - Main content PR #503 is merged and deployed. Merge commit: fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071. Render deployment: dep-dbtq0v6k1f9s739dp20g, live at 2026-11-17 00:32:43 UTC.
