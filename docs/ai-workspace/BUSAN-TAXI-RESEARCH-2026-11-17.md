@@ -60,3 +60,9 @@ Showtimes are 19:00 and 21:00 on Saturdays in October–February; the show is fr
 - Do not treat a high fare alone as proof of misconduct; check vehicle class, route, traffic and valid surcharges.
 - Advise travelers to preserve receipts / trip records and prioritize personal safety over confrontation.
 - Keep images documentary and licensed; do not use generic taxi stock images or misleading AI images as evidence.
+
+
+## Follow-up illustration status — 2026-11-17
+- Draft PR #504 adds original inline SVG taxi-fare illustrations to the EN and zh-TW taxi-vs-subway pages; no third-party image asset or license dependency.
+- Exact-head Technical SEO audit run #1622 passed on commit ac0cfff10a8bfcdfbd2dc88f119d116c517f87ad: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
+- PR #504 remains Draft and is not deployed. Responsive browser QA at 360 / 390 / 768 / 1280 and actual screenshots are still pending. Do not claim visual QA passed.
