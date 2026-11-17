@@ -37,11 +37,16 @@ Official K.Ride pages list multilingual app support, estimated fares before book
 - https://www.kakaomobility.com/k-ride
 - https://utility.kride.kakaomobility.com/webview/terms/11?languageCode=en
 
-## Winter event correction
-Replace the unsupported blanket rule that the first and third Saturdays are always 24-minute laser shows. The official November 2026 programme specifically lists:
+## Winter event correction and official recurring schedule
+The official Gwangalli M Drone Light Show overview states:
+- Every Saturday, two free shows in October–February at 19:00 and 21:00.
+- First and third weeks of each month: Drone x Laser Show.
+- Second and fourth weeks: regular Drone Light Show.
+The November 2026 monthly programme specifically lists:
 - Nov 21: “Guardians of the Castle with laser show”
 - Nov 28: “Avengers: Doomsday in Gwangalli”
-Showtimes are 19:00 and 21:00 on Saturdays in October–February; the show is free. Weather, strong winds, typhoon conditions or communications problems can cause cancellation or delay. Later laser dates must be checked against the monthly programme.
+Under the published recurring rule, Dec 5 and Dec 19 fall in laser-show weeks, but the exact themes and any changes should be checked against the monthly programme. Do not claim a fixed 24-minute duration unless the specific monthly programme confirms it. Weather, strong winds, typhoon conditions or communications problems can cause cancellation or delay.
+Official overview: https://www.gwangallimdrone.co.kr/en/overview
 - https://www.busan.go.kr/eng/bsnews01/1763224
 - https://www.gwangallimdrone.co.kr/en/overview
 
