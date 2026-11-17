@@ -14,7 +14,7 @@
 - Added BEXCO Hall 1 / Hall 2 station exit guidance from BEXCO's official subway directions; Busan Station transfer notes are provided without an unverified journey-time or fare claim.
 - Existing verified BEXCO exterior image reused with visible CC BY-SA 3.0 attribution and explicit note that it is a venue photo, not an event photograph.
 - Research note: docs/ai-workspace/RESEARCH-GSTAR-2026-11-17.md.
-- Draft PR only; no merge or production deployment. Exact-head build / SEO audit and responsive QA pending.
+- PR #506 exact-head build / Technical SEO audit #1675 passed on commit 1775aadaef6a11cbd8e80865128d87e4dafa6960: 245 HTML pages, 6,979 local links, 0 broken links, 0 missing descriptions/canonicals, 892 hreflang links, 0 sitemap omissions, image-credit strict audit 49 in use / 57 registered / 9 warnings / 0 errors. Responsive browser QA and screenshots remain pending; PR stays Draft and is not deployed.
 
 ## Taxi fare and visitor-help expansion — 2026-11-17 (ChatGPT)
 
