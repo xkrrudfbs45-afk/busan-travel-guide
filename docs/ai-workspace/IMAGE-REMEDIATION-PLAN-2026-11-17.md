@@ -51,12 +51,21 @@ Before declaring image delivery fully verified:
 3. Confirm first-viewport LCP candidates are eager/high-priority and below-fold images remain lazy-loaded.
 4. Re-run Lighthouse when sufficient credits are available.
 
-## Current audit baseline
+## Current audit baseline — 2026-11-17
 
-- Current-main image-credit audit: 44 images in use, 52 registered, 9 warnings, 0 errors.
-- Homepage food cards: 10 cards, 10 distinct image URLs.
-- Cover image enhancement entries: 24.
-- Social metadata gaps in the latest build audit: 0.
-- Busan Station EN/JA/zh-TW OG photo and localized alt correction is already resolved; do not reopen it.
+- Main Technical SEO audit #44003848364 (main/live SHA `af35154405aecc6e520ce6a7d38877d829067f86`): 245 canonical HTML pages, 244 sitemap URLs, 892 hreflang links, 0 canonical pages missing from sitemap, 6,979 local links checked / 0 broken.
+- Strict image-credit audit: 49 images in use, 57 registered, 9 warnings, 0 errors. The Dongnae-eupseong photo remains website-only; eight registered assets are unused.
+- Homepage food cards: 10 cards, 10 distinct image URLs. Cover image enhancement entries: 24.
+- Source-level crawl warnings: 87 pages omit explicit `og:image` / `twitter:image` declarations, 3 omit `og:image:alt`, and 16 have title/meta length warnings. The production build enhancer fills the social metadata and the final `social-meta check` reports 0 gaps; the remaining issue is subject-match quality of fallback images, not missing tags in the built output. Prioritize zh-TW pages for page-specific, licensed social images.
+- `scripts/enhance-images.mjs` emits responsive 640 / 1000 / 1600 `srcset`, intrinsic dimensions, `fetchpriority="high"` and `decoding="async"` for the 24 registered cover entries. It does not transcode remote Wikimedia `Special:FilePath` assets to WebP / AVIF. Do not bulk-convert or self-host until the file's license permits the intended use and attribution is preserved; consider a small, measured local-WebP/AVIF batch for high-priority assets.
+- Homepage hero uses responsive CSS background-image widths (1800 / 1400 / 1000) rather than an HTML `picture` / `srcset`. It remains a potential LCP optimization target, but no fresh Lighthouse result or real-browser crop review was available in this run.
+- Busan Station EN / JA / zh-TW OG photo and localized alt correction remains resolved; do not reopen it.
 
-This PR records remediation scope only. No image, content, schedule, publish-log or production change is included.
+## Verification still required
+
+1. Download and inspect every unique live image URL, including OG images, for HTTP response, content type, dimensions and unexpected redirects.
+2. Review representative 360px, 390px, 768px and 1280px crops for focal-point mismatches.
+3. Confirm first-viewport LCP candidates are eager/high-priority and below-fold images remain lazy-loaded.
+4. Re-run Lighthouse when sufficient credits are available.
+5. For any WebP / AVIF conversion, retain the original license/attribution metadata and verify visual quality at the actual card crop.
+
