@@ -34,7 +34,7 @@ Update the existing Gimhae Airport → Seomyeon and Gimhae Airport → Haeundae 
 ## Official verification
 
 - Visit Busan's English transport guide: https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000
-- Visit Busan's Japanese transport guide: https://www.visitbusan.net/ja/index.do?menuCd=DOM_000000403012002000
+- Visit Busan's Japanese transport guide: https://www.visitbusan.net/ja/index.do?menuCd=DOM_000000404012003000
 - Visit Busan's Traditional Chinese transport guide: https://www.visitbusan.net/zht/index.do?menuCd=DOM_000000603012002000
 - The three official-language guides state the ordinary city-bus hand-luggage guideline as under 20 kg per person and under 50 × 40 × 20 cm (approximately a 20-inch carry-on). Larger / bulky luggage should use the subway, airport limousine or taxi.
 - Busan City notice (2026-07-07), English: https://www.busan.go.kr/eng/bsnews01/1739074
