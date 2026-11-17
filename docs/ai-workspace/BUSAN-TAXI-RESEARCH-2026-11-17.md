@@ -63,3 +63,9 @@ Official overview: https://www.gwangallimdrone.co.kr/en/overview
 - Do not treat a high fare alone as proof of misconduct; check vehicle class, route, traffic and valid surcharges.
 - Advise travelers to preserve receipts / trip records and prioritize personal safety over confrontation.
 - Keep images documentary and licensed; do not use generic taxi stock images or misleading AI images as evidence.
+
+
+## Additional official schedule confirmation — 2026-11-17
+- Gwangalli official overview states Saturdays in October–February at 19:00 and 21:00; first/third weeks are Drone x Laser Show and second/fourth weeks regular drone-light shows: https://www.gwangallimdrone.co.kr/en/overview
+- Busan City's November 11, 2026 programme lists Nov 21 “Guardians of the Castle with Laser Show” and Nov 28 “Avengers: Doomsday in Gwangalli”; it confirms free admission and same-day weather / technical cancellation possibility: https://www.busan.go.kr/eng/bsnews01/1763224
+- Therefore Dec 5 and Dec 19 fall in the official recurring laser-show weeks, but the exact themes and any changes remain subject to the monthly programme. Do not claim a fixed 24-minute duration; the current official overview only says two performances of over 12 minutes.
