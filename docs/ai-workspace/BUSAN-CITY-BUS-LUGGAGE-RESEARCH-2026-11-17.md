@@ -62,3 +62,12 @@ Update the existing Gimhae Airport → Seomyeon and Gimhae Airport → Haeundae 
 - Official facts checked 2026-11-17. Community anecdotes are labelled as such and are not treated as official policy.
 - No image files, image credits or external creative assets were added.
 - Build, required SEO audit suite and responsive browser QA are pending on this branch. No merge or deployment has occurred.
+
+
+## Next localized content opportunity — Visit Busan Pass and Haeundae Beach Train
+
+- Dcard's October 2026 trip report (40K+ views when checked) says the writer reached Haeundae Beach Train but found it sold out despite holding a Visit Busan Pass. The report also describes confusion at the ticket / queue area. This is one traveller's experience, not proof that every pass holder will be unable to board.
+- Official Visit Busan Pass page lists Haeundae Beach Train as a Group B free attraction; Sky Capsule is not on the free-attraction list. The official Blue Line Park booking page says the weekly ticket release is Tuesday 07:00 Korea time for the week four weeks later; only a small number of same-day tickets are sold on-site and may sell out early. The official pass booking terms also state that reservations made with a pass have a separate cancellation cutoff.
+- Current Go2Busan coverage is uneven: EN says a pass does not guarantee a Sky Capsule time slot; zh-TW offers Beach Train as a separate alternative but does not clearly explain pass entitlement; JA lacks an equally explicit Pass distinction.
+- Next update should strengthen the existing canonical sold-out guide in EN / JA / zh-TW: clearly distinguish Beach Train (Pass Group B) from Sky Capsule (separate paid reservation), explain that a pass does not itself reserve a seat/time, and advise checking live availability before planning the day. Do not create a duplicate URL.
+- Official references: https://visitbusanpass.com/pass/ · https://www.bluelinepark.com/eng/booking.do
