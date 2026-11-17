@@ -699,3 +699,9 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Code head `b217f347bb9419747dc7d8d4f85d2fd63869b92b` passed CI run #1590: deterministic EN/JA/zh-TW generation twice with no diff; 30 matching place IDs; CollectionPage counts and URLs equal visible guide links; every local guide file and fragment exists; English fallbacks carry hreflang; static build and dependency-free audit passed.
 - Latest PR head `09d536e3ff6bacc502b618a7e389c273a82d64fc` contains only STATUS/HANDOFF documentation updates after the passing code head.
 - PR #498 remains Draft/open. No merge, production deploy, or browser QA at 360/390/1280 has occurred.
+
+
+## Follow-up illustration status — 2026-11-17
+- Draft PR #504 adds original inline SVG taxi-fare illustrations to the EN and zh-TW taxi-vs-subway pages; no third-party image asset or license dependency.
+- Exact-head Technical SEO audit run #1622 passed on commit ac0cfff10a8bfcdfbd2dc88f119d116c517f87ad: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
+- PR #504 remains Draft and is not deployed. Responsive browser QA at 360 / 390 / 768 / 1280 and actual screenshots are still pending. Do not claim visual QA passed.
