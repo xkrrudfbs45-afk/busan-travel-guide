@@ -14,11 +14,14 @@ name: Threads publisher (Go2Busan JP/US)
 #   US 08:00 America/New_York        -> 13:00 UTC (EST) / 12:00 UTC (EDT)
 #   US 18:00 America/New_York        -> 23:00 UTC (EST) / 22:00 UTC (EDT)
 # Every slot is picked up within about an hour; the 3h late window is only a safety net.
+# 01:07 and 14:07 are backup runs: GitHub sometimes skips scheduled runs (it skipped
+# 22:07, 23:07 and 00:07 UTC on 2026-11-16/17), and each run posts at most one post, so
+# every slot gets at least two chances inside the 3h late window.
 # scripts/threads/threads.test.mjs checks that this cron covers every scheduled post.
 
 on:
   schedule:
-    - cron: "7 0,11,12,13,22,23 * * *"  # 6 runs/day; see slot table above
+    - cron: "7 0,1,11,12,13,14,22,23 * * *"  # 8 runs/day; see slot table above
   workflow_dispatch:
 
 permissions:
