@@ -99,3 +99,9 @@ The localized text uses each market's natural event naming and practical context
 - EN, JA and zh-TW winter travel guides now include dates, lighting hours, free admission and a clear distinction from the drone show.
 - The EN winter-lights hub adds Millak to the at-a-glance list and a short dedicated section with official event and map links.
 - No new URL, canonical, hreflang, title/meta, OG/Twitter, JSON-LD, sitemap or affiliate CTA was changed.
+
+
+### Image and rights check
+- The existing winter-lights hub uses `assets/images/events/haeundae-light-festival-800.jpg` only as an archival reference. The official Busan Tourism Archive record identifies creator Lee Jeong-il (이정일), publisher Busan Metropolitan City, production year 2020 and KOGL Type 1 (source attribution; commercial use allowed): https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA003506.
+- The visible caption says this is an archive photograph, not a preview of the 2026 installation. The repository's `docs/LOCAL-PHOTO-CREDITS.md` records the file, attribution and website-use approval. Keep that caption and credit.
+- No Millak Luce Festa image or poster was added because the current official listing does not establish a reusable commercial image licence. The map link is a place search, not a claim about an exact event entrance.
