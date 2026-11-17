@@ -10,11 +10,11 @@
 
 ## Taxi fare and visitor-help expansion — 2026-11-17 (ChatGPT)
 
-- PR #503 expands the existing EN/zh-TW taxi-vs-subway pages rather than creating a duplicate taxi URL. Adds verified standard-medium taxi fares, late-night and out-of-area combined surcharges, meter checks, evidence retention and the KTO 1330 complaint route.
-- Adds taxi fare summaries to EN/JA/zh-TW transit-card guides and 1330 / evidence guidance to EN/JA/zh-TW first-trip guides.
-- Corrects the EN/JA/zh-TW winter guide's unsupported recurring first/third-Saturday 24-minute laser-show claim. Replaces it with the official Nov 21 / Nov 28 titles and same-day cancellation caveat.
+- PR #503 merged into main and deployed to Render. Merge commit fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071; deploy dep-dbtq0v6k1f9s739dp20g reached live status.
+- Exact-head technical SEO audit passed: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions; image-credit audit 49 in use / 57 registered / 9 warnings / 0 errors.
+- Merged scope: EN/zh-TW taxi-vs-subway fare and complaint blocks; EN/JA/zh-TW transit-card taxi summaries; EN/JA/zh-TW first-trip 1330 support; EN/JA/zh-TW winter drone-show corrections. No duplicate taxi URL.
+- Follow-up PR #504 adds original inline SVG fare illustrations to EN and zh-TW taxi guides. It remains Draft / not deployed; exact-head technical audit passed, but responsive browser QA and screenshots remain pending.
 - Research register: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
-- PR #503 is Draft/open; no merge or production deployment. Exact-head CI and responsive visual QA pending. Do not claim screenshots or visual QA passed.
 
 ## Prior PR state correction — 2026-11-17
 
