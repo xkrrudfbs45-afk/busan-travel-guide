@@ -12,6 +12,23 @@
 - Image rights note: main image-credit audit is 49 in use / 57 registered / 9 warnings / 0 errors. One Dongnae-eupseong image is website-only under the current license review; eight registered assets are unused. Keep those restrictions.
 - Main/live snapshot: main and Render live deployment both report `fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071` (`dep-dbtq0v6k1f9s739dp20g`). Direct public HTTP / `version.txt` verification was unavailable in this run, so do not claim a fresh public 200 response.
 
+## Current handoff — winter lights guide correction — 2026-11-17
+
+- Updated English winter-lights aggregation page and EN/JA/zh-TW winter guides against the official recurring schedule: first/third weeks are drone x laser, second/fourth weeks regular drone shows; Dec 5 / 19 fall in laser weeks under that rule, while exact themes remain subject to the monthly programme. Removed unsupported fixed 24-minute duration claims.
+- Added archival 2020 Haeundae Light Festival image (KOGL Type 1) with visible author/source/license credit and explicit note that it is not a 2026 event image. Added OG/Twitter image metadata and analytics script.
+- Updated winter guide search summary, sitemap lastmod and EN/JA/zh-TW homepage seasonal-events update labels.
+- Verify build, strict image audit, OG metadata and mobile image rendering at 360 / 390 / 768 / 1280. No merge or deploy without owner approval.
+
+## Current handoff — G-STAR 2026 international visitor guide — 2026-11-17
+
+- Draft PR branch: content/gstar-2026-international-visitor-guide-20261117.
+- New localized pages: EN /guides/gstar-2026-busan/, JA /ja/guides/gstar-2026-busan/, zh-TW /zh-tw/guides/gstar-2026-busan/.
+- Homepage G-STAR cards in EN/JA/zh-TW now link to the matching guide; directory, search-index and sitemap/hreflang updated.
+- Official facts and deliberate omissions are documented in docs/ai-workspace/RESEARCH-GSTAR-2026-11-17.md. BEXCO station exits were cross-checked against BEXCO's official subway directions; the non-working G-STAR traffic-page URL was removed.
+- Exact-head Technical SEO audit #1675 passed on commit 1775aadaef6a11cbd8e80865128d87e4dafa6960: 245 HTML pages, 6,979 local links, 0 broken links, 0 missing descriptions/canonicals, 892 hreflang links, 0 sitemap omissions; image-credit audit 49 in use / 57 registered / 9 warnings / 0 errors.
+- Still pending: responsive browser QA and screenshots at 360/390/768/1280. Check the BEXCO image is labelled as venue-only, not G-STAR event photography. Draft only; no merge/deploy.
+- No merge or deployment without owner approval.
+
 ## Current handoff — Busan taxi fares and visitor-help content — 2026-11-17 (ChatGPT)
 
 - Main content PR #503 is merged and deployed. Merge commit: fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071. Render deployment: dep-dbtq0v6k1f9s739dp20g, live at 2026-11-17 00:32:43 UTC.
@@ -21,6 +38,10 @@
 - Verified fare source: Busan City and Busan Taxi Transportation Association. Includes 4,800 KRW / 2 km, 132 m / 100 KRW, 33 sec / 100 KRW under 15 km/h, night 20% / 30%, out-of-area 30%, and combined night/out-of-area 40% / 50%. Applies only to standard medium taxis.
 - 1330: 1330 in Korea, +82-2-1330 from overseas, plus Tourist Complaint Center. Not an emergency service.
 - K.Ride caveat: no unsupported 10% fee claim; phone verification country-code acceptance remains unspecified.
+- Main PR #503 merged and deployed to Render: merge commit fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071; deploy dep-dbtq0v6k1f9s739dp20g is live.
+- Exact-head technical SEO audit passed: 242 HTML pages, 6,900 local links, 0 broken local links, 0 sitemap omissions, 880 hreflang links; image-credit audit 49 in use / 57 registered / 9 warnings / 0 errors.
+- Merged scope: EN/zh-TW taxi fare and complaint guide; EN/JA/zh-TW transit-card and first-trip support; winter event correction across all three locales.
+- Follow-up Draft PR #504: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/504. Original inline SVG fare illustrations for EN and zh-TW. Exact-head technical audit passed; responsive QA and screenshots still pending. Not merged or deployed.
 - Research note: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
 - Do not merge or deploy PR #504 without owner approval.
 

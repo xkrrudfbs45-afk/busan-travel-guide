@@ -12,12 +12,34 @@
 - Main image-credit audit: 49 images in use, 57 registered, 9 warnings, 0 errors. One warning restricts a Dongnae-eupseong image to Go2Busan website use only; eight warnings are unused registry entries. Do not reuse the restricted photo in newspaper/Facebook creative or add unused images without rechecking rights and subject.
 - The same SEO audit still reports broad missing OG/Twitter image metadata across EN / JA / zh-TW pages, plus several long titles/descriptions. These are separate follow-up work; this luggage PR does not alter image metadata or page previews.
 
+## Winter lights guide accuracy and image refresh — 2026-11-17
+
+- Updated the English-only winter-lights aggregation page and EN/JA/zh-TW winter guides against the official Gwangalli schedule: first/third weeks are drone x laser, second/fourth weeks regular drone shows. December 5 / 19 fall in laser weeks under that published rule, but exact themes remain subject to the monthly programme. Removed unsupported fixed 24-minute duration claims.
+- Added a licensed 2020 Haeundae Light Festival archive photo with visible attribution and explicit archival/not-2026 caption and alt text; added OG/Twitter image metadata.
+- Added direct official Gwangalli show link, analytics.js, updated search summary and sitemap lastmod.
+- Homepage seasonal event data freshness labels updated to November 17 in EN/JA/zh-TW.
+- Photo source: Busan Tourism Archive, Lee Jeong-il, Busan Metropolitan City, KOGL Type 1: https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA003506.
+
+## G-STAR 2026 international visitor guide — 2026-11-17
+
+- Added EN / JA / zh-TW dedicated visitor guides: /guides/gstar-2026-busan/, /ja/guides/gstar-2026-busan/, /zh-tw/guides/gstar-2026-busan/.
+- Homepage seasonal G-STAR cards now link to the dedicated guide instead of a generic Haeundae page; card copy states BTC tickets are online-only with no onsite sales.
+- Verified BTC ticket price, online-only rule, day-before 24:00 KST cutoff, booked-date-only validity, 2 tickets/person/day, wristband exchange, 17:00 verification cutoff and 17:30 last admission against G-STAR official English BTC page.
+- Added BEXCO Hall 1 / Hall 2 station exit guidance from BEXCO's official subway directions; Busan Station transfer notes are provided without an unverified journey-time or fare claim.
+- Existing verified BEXCO exterior image reused with visible CC BY-SA 3.0 attribution and explicit note that it is a venue photo, not an event photograph.
+- Research note: docs/ai-workspace/RESEARCH-GSTAR-2026-11-17.md.
+- PR #506 exact-head build / Technical SEO audit #1675 passed on commit 1775aadaef6a11cbd8e80865128d87e4dafa6960: 245 HTML pages, 6,979 local links, 0 broken links, 0 missing descriptions/canonicals, 892 hreflang links, 0 sitemap omissions, image-credit strict audit 49 in use / 57 registered / 9 warnings / 0 errors. Responsive browser QA and screenshots remain pending; PR stays Draft and is not deployed.
+
 ## Taxi fare and visitor-help expansion — 2026-11-17 (ChatGPT)
 
 - PR #503 merged into main at 2026-11-17 00:30:21 UTC. Render deploy dep-dbtq0v6k1f9s739dp20g for commit fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071 reached live status at 00:32:43 UTC.
 - Exact-head Technical SEO audit run #1616 passed: 242 HTML pages, 6,900 local links, 0 broken links, 0 missing descriptions/canonicals, 0 sitemap omissions, 880 hreflang links; image-credit strict audit 49 in use / 57 registered / 9 warnings / 0 errors. Existing social-image metadata warnings remain.
 - Merged content: EN/zh-TW taxi-vs-subway fare / complaint blocks; EN/JA/zh-TW transit-card taxi fare summaries; EN/JA/zh-TW first-trip 1330 blocks; EN/JA/zh-TW winter drone-show correction. No new URL created.
 - Follow-up PR #504 adds original inline SVG fare illustrations to EN and zh-TW taxi guides only. It remains Draft/open, not deployed; responsive browser QA pending.
+- PR #503 merged into main and deployed to Render. Merge commit fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071; deploy dep-dbtq0v6k1f9s739dp20g reached live status.
+- Exact-head technical SEO audit passed: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions; image-credit audit 49 in use / 57 registered / 9 warnings / 0 errors.
+- Merged scope: EN/zh-TW taxi-vs-subway fare and complaint blocks; EN/JA/zh-TW transit-card taxi summaries; EN/JA/zh-TW first-trip 1330 support; EN/JA/zh-TW winter drone-show corrections. No duplicate taxi URL.
+- Follow-up PR #504 adds original inline SVG fare illustrations to EN and zh-TW taxi guides. It remains Draft / not deployed; exact-head technical audit passed, but responsive browser QA and screenshots remain pending.
 - Research register: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
 
 ## Prior PR state correction — 2026-11-17
