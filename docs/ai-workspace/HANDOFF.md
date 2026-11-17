@@ -1,3 +1,10 @@
+## Current handoff — winter lights guide correction — 2026-11-17
+
+- Updated English winter-lights aggregation page: corrected unsupported recurring laser-night assumption; removed future Dec 5 / 19 predictions pending official monthly programme; added official Gwangalli source.
+- Added archival 2020 Haeundae Light Festival image (KOGL Type 1) with visible author/source/license credit and explicit note that it is not a 2026 event image. Added OG/Twitter image metadata and analytics script.
+- Updated winter guide search summary, sitemap lastmod and EN/JA/zh-TW homepage seasonal-events update labels.
+- Verify build, strict image audit, OG metadata and mobile image rendering at 360 / 390 / 768 / 1280. No merge or deploy without owner approval.
+
 ## Current handoff — G-STAR 2026 international visitor guide — 2026-11-17
 
 - Draft PR branch: content/gstar-2026-international-visitor-guide-20261117.
