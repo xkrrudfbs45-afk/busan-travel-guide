@@ -1,13 +1,14 @@
 ## Current handoff — Busan taxi fares and visitor-help content — 2026-11-17 (ChatGPT)
 
-- Draft PR #503: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/503
-- Branch: content/busan-taxi-practical-guide-20261117.
-- Existing taxi-vs-subway URL was expanded; no duplicate taxi URL created. EN + zh-TW full fare / complaint blocks; all three locales receive transit-card fare summaries and first-trip 1330 help blocks. Winter drone-show recurring-duration claim corrected across EN/JA/zh-TW.
+- Main content PR #503 is merged and deployed. Merge commit: fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071. Render deployment: dep-dbtq0v6k1f9s739dp20g, live at 2026-11-17 00:32:43 UTC.
+- PR #503 exact-head Technical SEO audit run #1616 passed: 242 HTML pages, 6,900 local links, 0 broken local links, 0 sitemap omissions, 880 hreflang links; image-credit strict audit 49 in use / 57 registered / 9 warnings / 0 errors.
+- Merged scope: EN/zh-TW taxi-vs-subway fare / complaint guidance; EN/JA/zh-TW transit-card taxi basics; EN/JA/zh-TW first-trip 1330 support; EN/JA/zh-TW winter show programme corrections. No duplicate taxi URL.
+- Follow-up Draft PR #504: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/504. It adds original inline SVG fare illustrations to EN and zh-TW pages. Not merged or deployed. Pending exact-head CI and responsive QA at 360/390/768/1280.
 - Verified fare source: Busan City and Busan Taxi Transportation Association. Includes 4,800 KRW / 2 km, 132 m / 100 KRW, 33 sec / 100 KRW under 15 km/h, night 20% / 30%, out-of-area 30%, and combined night/out-of-area 40% / 50%. Applies only to standard medium taxis.
 - 1330: 1330 in Korea, +82-2-1330 from overseas, plus Tourist Complaint Center. Not an emergency service.
 - K.Ride caveat: no unsupported 10% fee claim; phone verification country-code acceptance remains unspecified.
 - Research note: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
-- Next: run exact-head build / strict SEO audit, verify all localized internal links and table rendering, then responsive QA at 360/390/768/1280. Check OG/Twitter/schema parity. Do not merge or deploy without owner approval.
+- Do not merge or deploy PR #504 without owner approval.
 
 ## Current handoff — localized photo expansion — 2026-11-16 (ChatGPT)
 
