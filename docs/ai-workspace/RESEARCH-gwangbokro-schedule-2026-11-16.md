@@ -45,3 +45,10 @@ No new image added. Existing seasonal images remain unchanged; no 2026 Gwangbok-
 - No LCP / CLS field measurement was made in this run.
 - No new affiliate CTA, pricing, reservation, tracking or analytics changes.
 - No merge, main-branch change, production deployment or SNS schedule change.
+
+
+## Follow-up correction — winter event guide, 2026-11-17
+- Corrected the English-only winter-lights aggregation page's unsupported claim that the first and third Saturdays are normally laser sessions, and removed the unconfirmed December 5 / 19 laser-date predictions. It now reports only the official November 21 and November 28 programme titles and directs readers to the monthly schedule.
+- Added a licensed Haeundae Light Festival archive photograph from 2020 to the English aggregation page. Visible caption, alt text and social metadata explicitly label it as an archival reference image, not a preview of the 2026 installation.
+- Added a direct official Gwangalli show source, analytics script, updated date and search summary; sitemap lastmod updated to 2026-11-17.
+- Official image record: https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA003506 — author Lee Jeong-il, publisher Busan Metropolitan City, produced 2020, KOGL Type 1.
