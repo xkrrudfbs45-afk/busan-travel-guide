@@ -15,15 +15,15 @@ The homepage already featured G-STAR 2026 but its CTA led to a generic Haeundae 
 - November 19 opening time 11:00. The event operating regulations list 10:00–18:00 for other exhibition days.
 - Youth ticket holders may be asked for proof of age/student status; the official English BTC page includes passport among example documents.
 - BTC is public exhibition; BTB is separate business access, Nov 19–21.
-- BEXCO Hall 1: Centum City Station Line 2 Exit 1, approx. 50 m; Busan Museum of Art Station Exit 7, approx. 100 m.
-- BEXCO Hall 2: Centum City Station Exit 1, approx. 380 m; Busan Museum of Art Station Exit 5, approx. 453 m.
-- From Busan Station, Line 1 transfer at Seomyeon to Line 2 / Centum City; organizer estimate about 45 minutes. No fare included because the surfaced organizer fare may be stale.
+- BEXCO Hall 1: Centum City Station Line 2 Exit 1, approx. 50 m; BEXCO Station (Busan Museum of Art) Exit 7, approx. 100 m.
+- BEXCO Hall 2: Centum City Station Exit 1, approx. 380 m; BEXCO Station (Busan Museum of Art) Exit 5, approx. 453 m.
+- From Busan Station, take Line 1 to Seomyeon and transfer to Line 2 for Centum City. No journey time or fare is quoted. Hall distances are checked against BEXCO's own official subway directions: https://www.bexco.co.kr/eng/CMS/Contents/Contents.do?mCode=MN064.
 - Ticketlink receives name, email, user ID and phone number as part of ticket transaction. The public official page does not establish which overseas phone numbers or cards will pass, so the guide does not promise international checkout compatibility.
 - Child free-admission birth-year threshold differs between the English and Korean ticket pages; deliberately omitted rather than publishing a contradictory eligibility rule.
 
 ## Primary sources
 - G-STAR official BTC ticket guide (EN): https://www.gstar.or.kr/eng/part/gstar_btc_info.do
-- G-STAR official traffic guide (EN): https://www.gstar.or.kr/eng/gstar/gstar_traffic_info.do
+- BEXCO official subway directions (EN): https://www.bexco.co.kr/eng/CMS/Contents/Contents.do?mCode=MN064
 - G-STAR official BTC floor plan (EN): https://www.gstar.or.kr/eng/gstar/gstar_booth_info.do
 - G-STAR event rules (Korean): https://sites.google.com/view/g-star-2026-manual/운영규정-및-준수사항
 - Visit Busan official event listing: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=6453&menuCd=DOM_000000204012000000
