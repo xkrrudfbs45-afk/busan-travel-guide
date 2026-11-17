@@ -490,7 +490,7 @@
   {
     "title": "Haeundae Blueline Park: What If Tickets Sell Out?",
     "url": "/guides/haeundae-blueline-park-sold-out/",
-    "summary": "Check booking availability and realistic alternatives for the Beach Train and Sky Capsule.",
+    "summary": "Check Sky Capsule booking, same-day ticket limits and the Visit Busan Pass difference: Beach Train included, Sky Capsule extra.",
     "tags": [
       "sky capsule",
       "beach train",
@@ -501,7 +501,12 @@
       "sky capsule booking",
       "beach train tickets",
       "sold out tickets",
-      "reservation alternatives"
+      "reservation alternatives",
+      "Visit Busan Pass",
+      "Beach Train pass",
+      "Sky Capsule not included",
+      "ticket exchange",
+      "boarding time"
     ]
   },
   {
@@ -540,7 +545,7 @@
   {
     "title": "Visit Busan Pass Guide",
     "url": "/guides/visit-busan-pass-guide/",
-    "summary": "Understand how to compare attractions and decide whether a city pass fits your plans.",
+    "summary": "Compare Visit Busan Pass prices and rules, including the Haeundae Beach Train benefit and the separately paid Sky Capsule.",
     "tags": [
       "pass",
       "tickets",
@@ -554,7 +559,12 @@
       "busan attraction pass worth it",
       "busan tourist pass comparison",
       "visit busan pass price",
-      "busan free attractions pass"
+      "busan free attractions pass",
+      "Haeundae Beach Train",
+      "Sky Capsule not included",
+      "Beach Train Pass benefit",
+      "Busan pass attractions",
+      "ticket exchange"
     ]
   },
   {
@@ -2616,7 +2626,7 @@
   {
     "title": "海雲台天空膠囊售完怎麼辦？訂票、海外刷卡與現場購票攻略",
     "url": "/zh-tw/guides/haeundae-blueline-park-sold-out/",
-    "summary": "海雲台藍線公園天空膠囊訂不到？整理官方開賣時間、海外信用卡付款限制、Klook 台灣票券、現場少量售票與海岸列車替代方案。",
+    "summary": "整理天空膠囊訂票、現場票與 Visit Busan Pass 福利差異：免費搭海岸列車，天空膠囊需另購。",
     "tags": [
       "海雲台天空膠囊",
       "天空膠囊訂票",
@@ -2627,7 +2637,12 @@
       "海外信用卡刷不過",
       "Klook釜山",
       "海岸列車",
-      "尾浦青沙浦"
+      "尾浦青沙浦",
+      "Visit Busan Pass",
+      "海岸列車免費",
+      "天空膠囊另購",
+      "車票兌換",
+      "指定上車時間"
     ]
   },
   {
@@ -2664,7 +2679,7 @@
   {
     "title": "Visit Busan Pass 釜山通行證攻略：票價、BIG3/BIG5與交通卡功能",
     "url": "/zh-tw/guides/visit-busan-pass-guide/",
-    "summary": "比較釜山通行證 24H、48H、BIG3、BIG5 官方票價，說明實體卡與手機版差異、啟用時間、交通卡功能與回本試算。",
+    "summary": "比較 Visit Busan Pass 方案與景點福利，釐清海雲台海岸列車包含在內、天空膠囊需另購。",
     "tags": [
       "釜山通行證",
       "Visit Busan Pass",
@@ -2676,7 +2691,13 @@
       "BIG3",
       "BIG5",
       "24小時通行證",
-      "48小時通行證"
+      "48小時通行證",
+      "海雲台海岸列車",
+      "天空膠囊另購",
+      "海岸列車全站票",
+      "Pass福利",
+      "車票兌換",
+      "指定上車時間"
     ]
   },
   {
@@ -3114,6 +3135,22 @@
       "釜山 遊戲展",
       "BEXCO 交通",
       "釜山 11月 活動"
+    ]
+  },
+  {
+    "title": "海雲台スカイカプセル予約ガイド｜売り切れ時の対処法",
+    "url": "/ja/guides/haeundae-blueline-park-sold-out/",
+    "summary": "予約開始日、当日券、海外カード決済、Visit Busan Passで乗れるビーチトレインと別料金のスカイカプセルを解説。",
+    "tags": [
+      "Visit Busan Pass",
+      "釜山パス",
+      "海雲台ビーチトレイン",
+      "ビーチトレイン 予約",
+      "スカイカプセル 対象外",
+      "スカイカプセル 売り切れ",
+      "乗車券 交換",
+      "指定乗車時間",
+      "釜山旅行"
     ]
   }
 ]
