@@ -646,3 +646,9 @@ Applied a second grouped pass on the existing homepage design branch:
 - <PRIVATE_PERSON> PR #498 code head `b217f347bb9419747dc7d8d4f85d2fd63869b92b` passed Technical SEO CI run #1590. The deterministic generator step, 30-place ID parity, JSON-LD count/URL parity, local guide target and fragment checks, English-fallback hreflang checks, static build, and dependency-free audit all completed successfully.
 - PR head subsequently advanced to `09d536e3ff6bacc502b618a7e389c273a82d64fc` only through STATUS/HANDOFF documentation updates; no map-generator or generated-page code changed after the passing run.
 - Draft PR remains unmerged and undeployed. Browser viewport/interaction QA remains outstanding.
+
+
+## Follow-up illustration status — 2026-11-17
+- Draft PR #504 adds original inline SVG taxi-fare illustrations to the EN and zh-TW taxi-vs-subway pages; no third-party image asset or license dependency.
+- Exact-head Technical SEO audit run #1622 passed on commit ac0cfff10a8bfcdfbd2dc88f119d116c517f87ad: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
+- PR #504 remains Draft and is not deployed. Responsive browser QA at 360 / 390 / 768 / 1280 and actual screenshots are still pending. Do not claim visual QA passed.
