@@ -1,3 +1,11 @@
+## Winter lights guide accuracy and image refresh — 2026-11-17
+
+- Corrected the English-only winter-lights aggregation page: removed unsupported first/third-Saturday laser recurrence and unconfirmed December 5 / 19 laser predictions. Retains the official November 21 laser and November 28 regular-show titles; directs readers to the monthly programme.
+- Added a licensed 2020 Haeundae Light Festival archive photo with visible attribution and explicit archival/not-2026 caption and alt text; added OG/Twitter image metadata.
+- Added direct official Gwangalli show link, analytics.js, updated search summary and sitemap lastmod.
+- Homepage seasonal event data freshness labels updated to November 17 in EN/JA/zh-TW.
+- Photo source: Busan Tourism Archive, Lee Jeong-il, Busan Metropolitan City, KOGL Type 1: https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA003506.
+
 ## G-STAR 2026 international visitor guide — 2026-11-17
 
 - Added EN / JA / zh-TW dedicated visitor guides: /guides/gstar-2026-busan/, /ja/guides/gstar-2026-busan/, /zh-tw/guides/gstar-2026-busan/.
