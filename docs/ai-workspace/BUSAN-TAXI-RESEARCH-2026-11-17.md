@@ -51,7 +51,9 @@ Showtimes are 19:00 and 21:00 on Saturdays in October–February; the show is fr
 - EN / JA / zh-TW first-trip guides: 1330 and taxi-evidence block.
 - EN / JA / zh-TW winter guides: corrected November show titles and cancellation caveat.
 - No new URL, avoiding cannibalization.
-- No merge or production deployment. Responsive visual QA and exact-head CI remain pending at time of note.
+- PR #503 merged at 2026-11-17 00:30:21 UTC. Render deploy dep-dbtq0v6k1f9s739dp20g for commit fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071 reached status live at 00:32:43 UTC.
+- PR #503 exact-head Technical SEO audit run #1616 passed: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 0 sitemap omissions, 880 hreflang links, image-credit strict audit 49 in use / 57 registered / 9 warnings / 0 errors. Existing social-image warnings remain.
+- Follow-up PR #504 contains only original inline SVG taxi-fare illustrations for EN and zh-TW; it remains Draft and is not merged/deployed. Responsive visual QA is pending.
 
 ## Editorial safeguards
 - A reported tourist overcharge is an individual case, not evidence that all Busan taxis overcharge.
