@@ -26,6 +26,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
+      - name: Verify localized first-trip checklist
+        run: node scripts/test-first-trip-checklist.mjs
+
       - name: Verify deterministic EN/JA/zh-TW Busan map generation
         run: |
           python3 scripts/generate-busan-map.py

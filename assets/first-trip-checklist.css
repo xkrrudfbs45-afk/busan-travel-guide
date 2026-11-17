@@ -1,0 +1,25 @@
+.first-trip-checklist{margin:28px 0;padding:22px;border:1px solid #ded8ca;border-radius:12px;background:#fbfaf6;color:#2d3531}
+.first-trip-checklist__heading{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.first-trip-checklist h2{margin:0 0 8px;font-size:clamp(21px,2.5vw,27px);line-height:1.25}
+.first-trip-checklist__intro{margin:0;color:#626c66;font-size:13px;line-height:1.65}
+.first-trip-checklist__reset{min-height:44px;padding:8px 13px;border:1px solid #cfc7b8;border-radius:7px;background:#fff;color:#48564f;font:inherit;font-size:12px;font-weight:700;cursor:pointer}
+.first-trip-checklist__reset:hover{background:#f2efe8}
+.first-trip-checklist__reset:focus-visible,.first-trip-checklist__item:focus-within{outline:3px solid #a98d5e;outline-offset:3px}
+.first-trip-checklist__progress-row{display:grid;grid-template-columns:1fr;gap:7px;margin:16px 0 12px}
+.first-trip-checklist__status{margin:0;color:#59645d;font-size:12px;line-height:1.5}
+.first-trip-checklist__progress{display:block;width:100%;height:8px;border:0;border-radius:999px;overflow:hidden;appearance:none}
+.first-trip-checklist__progress::-webkit-progress-bar{background:#e9e4da;border-radius:999px}
+.first-trip-checklist__progress::-webkit-progress-value{background:#52685b;border-radius:999px}
+.first-trip-checklist__progress::-moz-progress-bar{background:#52685b;border-radius:999px}
+.first-trip-checklist__items{display:grid;gap:8px;margin:14px 0 0;padding:0;list-style:none}
+.first-trip-checklist__items li{margin:0;padding:0}
+.first-trip-checklist__item{display:flex;align-items:flex-start;gap:12px;min-height:48px;padding:12px 13px;border:1px solid #e5e0d6;border-radius:8px;background:#fff;cursor:pointer}
+.first-trip-checklist__item input{flex:0 0 18px;width:18px;height:18px;margin:2px 0 0;accent-color:#52685b}
+.first-trip-checklist__item span{min-width:0;color:#303a34;font-size:14px;line-height:1.6}
+.first-trip-checklist__item input:checked+span{color:#69736d;text-decoration:line-through;text-decoration-thickness:1px}
+.first-trip-checklist__noscript{margin:12px 0 0;color:#6a6257;font-size:12px;line-height:1.6}
+.first-trip-checklist__links{margin:14px 0 0;color:#5c655f;font-size:13px;line-height:1.7}
+.first-trip-checklist__links a{color:inherit;text-underline-offset:3px}
+@media(max-width:600px){.first-trip-checklist{padding:17px 15px;border-radius:10px}.first-trip-checklist__heading{gap:10px}.first-trip-checklist__reset{width:100%}.first-trip-checklist__item{gap:10px;padding:12px 11px}.first-trip-checklist__item span{font-size:13px}}
+@media(max-width:360px){.first-trip-checklist{padding:15px 12px}.first-trip-checklist__item{padding:11px 9px}}
+@media(prefers-reduced-motion:reduce){.first-trip-checklist *{scroll-behavior:auto}}
