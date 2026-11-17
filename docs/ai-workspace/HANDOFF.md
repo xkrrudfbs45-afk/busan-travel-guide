@@ -1,6 +1,6 @@
 ## Current handoff — winter lights guide correction — 2026-11-17
 
-- Updated English winter-lights aggregation page: corrected unsupported recurring laser-night assumption; removed future Dec 5 / 19 predictions pending official monthly programme; added official Gwangalli source.
+- Updated English winter-lights aggregation page and EN/JA/zh-TW winter guides against the official recurring schedule: first/third weeks are drone x laser, second/fourth weeks regular drone shows; Dec 5 / 19 fall in laser weeks under that rule, while exact themes remain subject to the monthly programme. Removed unsupported fixed 24-minute duration claims.
 - Added archival 2020 Haeundae Light Festival image (KOGL Type 1) with visible author/source/license credit and explicit note that it is not a 2026 event image. Added OG/Twitter image metadata and analytics script.
 - Updated winter guide search summary, sitemap lastmod and EN/JA/zh-TW homepage seasonal-events update labels.
 - Verify build, strict image audit, OG metadata and mobile image rendering at 360 / 390 / 768 / 1280. No merge or deploy without owner approval.
