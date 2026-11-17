@@ -107,7 +107,7 @@
 - 브랜치: `audit/sns-2026-11-18-15day-content-visual`
 - 베이스: PR #519 브랜치 `content/seomyeon-winter-event-radar-20261118` (미병합).
 - 수정: 11/28 Draft 3개 art set/prompt, art-gate 허용 목록 추가.
-- 추가 예정: 15개 Instagram 공백 슬롯을 위한 EN·JA·TW 초안과 점검 보고서.
+- 추가 완료: 15개 Instagram 공백 슬롯을 위한 EN·JA·TW 초안, 이미지 교정 제안, Threads CTA 제안, 점검 보고서.
 - 활성 예약의 날짜·시각·상태, 기존 승인 게시물, publish-log, Threads 스케줄은 변경하지 않음.
 - 새 이미지 생성, 외부 계정 게시, 예약 변경, PR 병합, Production 배포 없음.
 - 겨울 이벤트 초안은 PR #519의 현지화 가이드 업데이트가 먼저 main에 반영되고 링크 대상 페이지가 검증된 뒤에만 승인 후보로 전환.
@@ -126,3 +126,15 @@
 - Busan City carry-on size guidance: https://www.busan.go.kr/eng/ai-translated-press-releases/1724003
 - Gwangalli November drone-show official English titles: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6450&menuCd=DOM_000000304010000000
 - Visit Busan transit-pass exclusions (next-campaign candidate): https://www.visitbusan.net/en/index.do?menuCd=DOM_000000303012002000
+
+
+## 7. PR #522 및 CI 결과
+
+- PR: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/522
+- 상태: Open / Draft / 미병합 / mergeable clean
+- 베이스: PR #519의 미병합 브랜치 `content/seomyeon-winter-event-radar-20261118`
+- 변경 파일 6개, +613 / -22.
+- `Validate Instagram schedule and publisher`: success (2026-11-17 23:58:49 UTC).
+- `Crawl local SEO hygiene`: success (2026-11-17 23:59:10 UTC).
+- CI 통과는 코드·콘텐츠 검증 결과이며 Production 배포를 의미하지 않음. Production 배포 없음.
+- PR #519가 먼저 main에 반영되고 겨울 가이드 링크 대상이 live 검증된 뒤에만 #522를 main 대상으로 retarget/병합할 수 있음.
