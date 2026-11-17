@@ -64,3 +64,21 @@ The localized text uses each market's natural event naming and practical context
 - Run exact-head build / Technical SEO CI and inspect output before owner review.
 - No affiliate CTA, analytics, SNS schedule, live event publishing, canonical, hreflang, sitemap or URL changes.
 - Draft only; no merge or production deployment.
+
+
+## 6. One-evening route: Haeundae Light Festival + Christmas Village
+
+**Additional research checked:** 2026-11-18 (KST). This route was added to the existing EN / JA / zh-TW winter guides; no new URL or image.
+
+- Busan Metropolitan City's edition-specific Haeundae listing confirms 2026-11-28 to 2027-01-10, 18:00–23:00, free admission and the 18:00 opening ceremony: https://www.busan.go.kr/eng/bsevents/1762645.
+- YES24's official second early-bird notice confirms Christmas Village Busan runs 2026-11-26 to 2026-12-25 on 21 selected days (Thursday–Sunday plus Dec 21–25), with weekday 16:00–22:00 and weekend / Dec 24–25 11:00–22:00: https://m.ticket.yes24.com/Notice/Detail.aspx?bid=18725. The notice is in Korean; overseas ticket/payment eligibility must not be inferred from the Korean booking flow.
+- Busan City lists Busan Cinema Center at 120 Suyeonggangbyeon-daero and directs visitors to Centum City Station (Line 2), Exit 6 or 12, followed by about a five-minute walk: https://www.busan.go.kr/eng/bsfacility01/795651.
+- Busan Transportation Corporation's official cyber-station map lists the Line 2 station sequence Haeundae → Dongbaek → BEXCO → Centum City: https://work.humetro.busan.kr/homepage/cyberstation/map.do. The localized guides therefore describe three stops via Dongbaek and BEXCO and do not repeat an unverified “two stops” shorthand from competitor summaries.
+- Editorial guidance: these venues are not a walkable connection. Check the Village operating day and ticket's permitted entry window first. Visit the Village in its ticket window, then Haeundae after dark where practical; if the ticket allows only a later entry, reverse the order and reach the Village before its 22:00 close. Never imply timed tickets are valid at any hour.
+- This route is an itinerary suggestion, not an official combined event programme. No travel time estimate, crowd estimate or ticket availability claim was added.
+
+### Localization applied
+- EN: explains the selected-day / timed-entry distinction and the Line 2 transfer in plain travel language.
+- JA: uses natural station and event names and emphasizes that the two venues are not within walking distance.
+- zh-TW: foregrounds the paid timed-entry condition and gives the station names used by Taiwan travelers.
+- All three versions link to the official Busan City directions, the official metro map, the Haeundae event listing and the YES24 ticket notice. No image was added or reused.
