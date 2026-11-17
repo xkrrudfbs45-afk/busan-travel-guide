@@ -1,3 +1,15 @@
+## Taxi fare and visitor-help expansion — 2026-11-17 (ChatGPT)
+
+- PR #503 expands the existing EN/zh-TW taxi-vs-subway pages rather than creating a duplicate taxi URL. Adds verified standard-medium taxi fares, late-night and out-of-area combined surcharges, meter checks, evidence retention and the KTO 1330 complaint route.
+- Adds taxi fare summaries to EN/JA/zh-TW transit-card guides and 1330 / evidence guidance to EN/JA/zh-TW first-trip guides.
+- Corrects the EN/JA/zh-TW winter guide's unsupported recurring first/third-Saturday 24-minute laser-show claim. Replaces it with the official Nov 21 / Nov 28 titles and same-day cancellation caveat.
+- Research register: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
+- PR #503 is Draft/open; no merge or production deployment. Exact-head CI and responsive visual QA pending. Do not claim screenshots or visual QA passed.
+
+## Prior PR state correction — 2026-11-17
+
+- PR #493 (localized licensed photos) and PR #494 (sitemap/hreflang cleanup) are merged into main. Earlier notes in this file that still describe them as Draft are superseded by this correction. Production deployment state must be checked independently before claiming those merges are live.
+
 ## Localized photo expansion — 2026-11-16 (ChatGPT, image quality batch)
 
 - Added subject-matched Wikimedia Commons photos to the EN/JA/zh-TW Taejongdae Danubi, Busan City Tour Bus and Haedong Yonggungsa guides (9 localized pages). Danubi is a native-size portrait inline image; the City Tour Bus photo is explicitly labelled archival (13 Oct 2012), not current fleet; the temple photo is from 12 Oct 2017.

@@ -1,3 +1,14 @@
+## Current handoff — Busan taxi fares and visitor-help content — 2026-11-17 (ChatGPT)
+
+- Draft PR #503: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/503
+- Branch: content/busan-taxi-practical-guide-20261117.
+- Existing taxi-vs-subway URL was expanded; no duplicate taxi URL created. EN + zh-TW full fare / complaint blocks; all three locales receive transit-card fare summaries and first-trip 1330 help blocks. Winter drone-show recurring-duration claim corrected across EN/JA/zh-TW.
+- Verified fare source: Busan City and Busan Taxi Transportation Association. Includes 4,800 KRW / 2 km, 132 m / 100 KRW, 33 sec / 100 KRW under 15 km/h, night 20% / 30%, out-of-area 30%, and combined night/out-of-area 40% / 50%. Applies only to standard medium taxis.
+- 1330: 1330 in Korea, +82-2-1330 from overseas, plus Tourist Complaint Center. Not an emergency service.
+- K.Ride caveat: no unsupported 10% fee claim; phone verification country-code acceptance remains unspecified.
+- Research note: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
+- Next: run exact-head build / strict SEO audit, verify all localized internal links and table rendering, then responsive QA at 360/390/768/1280. Check OG/Twitter/schema parity. Do not merge or deploy without owner approval.
+
 ## Current handoff — localized photo expansion — 2026-11-16 (ChatGPT)
 
 - Branch `images/localized-guide-photo-batch-20261116`, issue #493. Added licensed, localized body photos to EN/JA/zh-TW Taejongdae Danubi, Busan City Tour Bus and Haedong Yonggungsa guides (9 pages). Added 3 verified Wikimedia records to `assets/data/image-credits.json`.
