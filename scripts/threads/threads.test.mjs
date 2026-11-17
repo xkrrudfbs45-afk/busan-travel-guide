@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import { CALENDAR_MD, parseCalendar, localToUtc, checkPost, redact } from "./lib.mjs";
 import { buildSchedule, validateSchedule, addMarket } from "./build-schedule.mjs";
-import { CALENDAR_TW_MD } from "./lib.mjs";
+import { CALENDAR_TW_MD, LATE_WINDOW_MIN } from "./lib.mjs";
 import { run } from "./publish.mjs";
 import { pathFor, guideUrl, checkLinkReply } from "./link-replies.mjs";
 
@@ -276,6 +276,20 @@ test("publisher cron reaches every scheduled post within 60 minutes of its slot 
     assert.ok(run, `no run after ${iso}`);
     const lateMin = (run - new Date(iso)) / 60000;
     assert.ok(lateMin <= 60, `${iso} would wait ${lateMin} min for the next run`);
+  }
+});
+
+test("every scheduled post gets a backup run inside the late window if one scheduled run is skipped", () => {
+  const cron = cronHours();
+  const sched = JSON.parse(readFileSync("content/social/threads-30day/schedule.json", "utf8"));
+  const sample = [...sched.posts.map((p) => p.publish_at_utc)];
+  for (const d of ["2027-07-01", "2027-01-15"]) for (const [tz, slots] of [["Asia/Tokyo", ["08:00", "20:00"]], ["Asia/Taipei", ["08:00", "20:00"]], ["America/New_York", ["08:00", "18:00"]]])
+    for (const s of slots) sample.push(localToUtc(d, s, tz));
+  for (const iso of sample) {
+    const first = nextRunAfter(iso, cron);
+    const second = nextRunAfter(new Date(first.getTime() + 60000).toISOString(), cron);
+    const lateMin = (second - new Date(iso)) / 60000;
+    assert.ok(lateMin < LATE_WINDOW_MIN, `${iso}: second chance only after ${lateMin} min`);
   }
 });
 
