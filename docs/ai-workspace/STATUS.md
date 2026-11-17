@@ -1,10 +1,10 @@
 ## Taxi fare and visitor-help expansion — 2026-11-17 (ChatGPT)
 
-- PR #503 expands the existing EN/zh-TW taxi-vs-subway pages rather than creating a duplicate taxi URL. Adds verified standard-medium taxi fares, late-night and out-of-area combined surcharges, meter checks, evidence retention and the KTO 1330 complaint route.
-- Adds taxi fare summaries to EN/JA/zh-TW transit-card guides and 1330 / evidence guidance to EN/JA/zh-TW first-trip guides.
-- Corrects the EN/JA/zh-TW winter guide's unsupported recurring first/third-Saturday 24-minute laser-show claim. Replaces it with the official Nov 21 / Nov 28 titles and same-day cancellation caveat.
+- PR #503 merged into main at 2026-11-17 00:30:21 UTC. Render deploy dep-dbtq0v6k1f9s739dp20g for commit fdfc0ebc7178b0d3a3816fb61d21b7cda3ed3071 reached live status at 00:32:43 UTC.
+- Exact-head Technical SEO audit run #1616 passed: 242 HTML pages, 6,900 local links, 0 broken links, 0 missing descriptions/canonicals, 0 sitemap omissions, 880 hreflang links; image-credit strict audit 49 in use / 57 registered / 9 warnings / 0 errors. Existing social-image metadata warnings remain.
+- Merged content: EN/zh-TW taxi-vs-subway fare / complaint blocks; EN/JA/zh-TW transit-card taxi fare summaries; EN/JA/zh-TW first-trip 1330 blocks; EN/JA/zh-TW winter drone-show correction. No new URL created.
+- Follow-up PR #504 adds original inline SVG fare illustrations to EN and zh-TW taxi guides only. It remains Draft/open, not deployed; responsive browser QA pending.
 - Research register: docs/ai-workspace/BUSAN-TAXI-RESEARCH-2026-11-17.md.
-- PR #503 is Draft/open; no merge or production deployment. Exact-head CI and responsive visual QA pending. Do not claim screenshots or visual QA passed.
 
 ## Prior PR state correction — 2026-11-17
 
@@ -646,3 +646,9 @@ Applied a second grouped pass on the existing homepage design branch:
 - <PRIVATE_PERSON> PR #498 code head `b217f347bb9419747dc7d8d4f85d2fd63869b92b` passed Technical SEO CI run #1590. The deterministic generator step, 30-place ID parity, JSON-LD count/URL parity, local guide target and fragment checks, English-fallback hreflang checks, static build, and dependency-free audit all completed successfully.
 - PR head subsequently advanced to `09d536e3ff6bacc502b618a7e389c273a82d64fc` only through STATUS/HANDOFF documentation updates; no map-generator or generated-page code changed after the passing run.
 - Draft PR remains unmerged and undeployed. Browser viewport/interaction QA remains outstanding.
+
+
+## Follow-up illustration status — 2026-11-17
+- Draft PR #504 adds original inline SVG taxi-fare illustrations to the EN and zh-TW taxi-vs-subway pages; no third-party image asset or license dependency.
+- Exact-head Technical SEO audit run #1622 passed on commit ac0cfff10a8bfcdfbd2dc88f119d116c517f87ad: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
+- PR #504 remains Draft and is not deployed. Responsive browser QA at 360 / 390 / 768 / 1280 and actual screenshots are still pending. Do not claim visual QA passed.
