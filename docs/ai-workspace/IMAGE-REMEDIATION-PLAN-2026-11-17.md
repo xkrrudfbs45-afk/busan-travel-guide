@@ -60,6 +60,7 @@ Before declaring image delivery fully verified:
 - `scripts/enhance-images.mjs` emits responsive 640 / 1000 / 1600 `srcset`, intrinsic dimensions, `fetchpriority="high"` and `decoding="async"` for the 24 registered cover entries. It does not transcode remote Wikimedia `Special:FilePath` assets to WebP / AVIF. Do not bulk-convert or self-host until the file's license permits the intended use and attribution is preserved; consider a small, measured local-WebP/AVIF batch for high-priority assets.
 - Homepage hero uses responsive CSS background-image widths (1800 / 1400 / 1000) rather than an HTML `picture` / `srcset`. It remains a potential LCP optimization target, but no fresh Lighthouse result or real-browser crop review was available in this run.
 - Busan Station EN / JA / zh-TW OG photo and localized alt correction remains resolved; do not reopen it.
+- PR #511 extends responsive delivery to its new inline Sky Capsule photo in five localized placements: 640 / 1000 / 1600 `srcset`, explicit `sizes`, correct 4:3 intrinsic dimensions, high-priority for article hero use and lazy loading for in-guide use. The original Commons JPEG is 5,712 × 4,284 / 3.75 MB, CC BY-SA 4.0; no byte-savings or browser-crop claim until measured.
 
 ## Verification still required
 
