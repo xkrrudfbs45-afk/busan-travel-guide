@@ -7,7 +7,7 @@ name: Threads publisher (Go2Busan JP/US)
 # Live posting happens only when the repository variable THREADS_LIVE is exactly "true".
 # Otherwise every run is a dry run that prints what would be posted.
 #
-# Targeted checks instead of polling: six runs a day at minute 7 of the UTC hours
+# Targeted checks instead of polling: runs at minute 23 (off-peak; GitHub delays runs near :00) of the UTC hours
 # where a local slot can fall, in both US daylight-saving states.
 #   JP 08:00/20:00 Asia/Tokyo        -> 23:00 / 11:00 UTC
 #   TW 08:00/20:00 Asia/Taipei       -> 00:00 / 12:00 UTC
@@ -21,7 +21,7 @@ name: Threads publisher (Go2Busan JP/US)
 
 on:
   schedule:
-    - cron: "7 0,1,11,12,13,14,22,23 * * *"  # 8 runs/day; see slot table above
+    - cron: "23 0,1,11,12,13,14,22,23 * * *"  # 8 runs/day; see slot table above
   workflow_dispatch:
 
 permissions:

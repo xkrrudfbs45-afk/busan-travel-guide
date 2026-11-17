@@ -261,7 +261,7 @@ const nextRunAfter = (iso, { minute, hours }) => {
   return null;
 };
 
-// Slots fall exactly on UTC hours listed in the cron, so the computed wait is the cron minute (7 min).
+// Slots fall exactly on UTC hours listed in the cron, so the computed wait is the cron minute (23 min).
 // The 60-minute bound leaves room for one extra slot hour being added later without hiding a missing hour.
 test("publisher cron reaches every scheduled post within 60 minutes of its slot (both US DST states)", () => {
   const cron = cronHours();
