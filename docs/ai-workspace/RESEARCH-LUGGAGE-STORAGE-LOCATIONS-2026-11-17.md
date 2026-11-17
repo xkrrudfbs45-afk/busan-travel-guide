@@ -94,3 +94,10 @@ A future “Luggage Storage in Busan: Lockers, Travel Lounges and Delivery” gu
 - Preserve the existing Central Bus Terminal locker cover as an illustrative example only; it is not a photo of KTX Busan Station or any named Blueline Park locker. No new image was added because no subject-matched commercial-use license was established in this pass.
 - Technical metadata remains unchanged in the content PR to avoid mixing content edits with the technical SEO task. The current title/description/OG/Article JSON-LD still lead with Busan Station and should be reviewed separately for citywide intent, without changing canonical URLs or hreflang.
 - Browser QA at 360 / 390 / 1280 and live availability checks remain pending. The guide describes listed services, not real-time vacancies.
+
+
+### Additional official free option — Busan Travel Lounge
+- [Visit Busan English listing](https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000301001001000&uc_seq=1900), checked 2026-11-17: free service; lounge open daily 09:00–18:00, break 12:00–13:00; address 38 Daeyeong-ro 243beon-gil, Dong-gu; phone +82-51-441-3121; about a two-minute walk from Busan Station Metro Line 1 Exit 1.
+- [Visit Busan Korean tourist-information detail](https://visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000203016001000&uio_seq=9), checked 2026-11-17: specifically lists luggage storage 10:00–17:00, break 12:00–13:00, and closure on Lunar New Year and Chuseok days.
+- The official page does not state a suitcase-size limit or maximum storage period. The guide tells visitors to call before relying on the service for oversized luggage or late collection. Do not copy the Reddit post's user-submitted 10:00–16:50/17:00 estimate over the official 10:00–17:00 service detail.
+- Implementation: added this free option as the third Busan Station alternative in all three existing localized luggage pages; renumbered the metro-locker and Choryang options; added the official Visit Busan listing to the source lists. No new URL or image.
