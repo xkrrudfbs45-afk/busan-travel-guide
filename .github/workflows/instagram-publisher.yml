@@ -6,10 +6,9 @@ name: Instagram publisher (Go2Busan)
 #   `instagram-state` branch (public URLs required by the Instagram API).
 # Live posting happens only when repository variable INSTAGRAM_LIVE is exactly "true".
 #
-# Scheduled checks: 09:23 and 21:23 Korea Standard Time (UTC 00:23 and 12:23).
 # Runs use minute 23, not :00/:10: GitHub delays or drops scheduled runs at busy times near the
-# top of the hour (on 2026-11-17 every scheduled run in this repo stopped from 00:34 to 07:06 UTC).
-# The six-hour late window in scripts/instagram/lib.mjs safely covers this cadence.
+# top of the hour. The extra 06:23, 16:23 and 21:23 UTC checks provide a third opportunity
+# inside the six-hour late window for 04:00, 12:00/16:00 and 17:00 UTC slots (including US DST).
 
 on:
   schedule:
@@ -17,7 +16,7 @@ on:
     # Publish slots used by the schedule (03:00, 04:00, 17:00 UTC). Each post must be picked up within
     # the 6-hour late window, which the 00/12 UTC runs alone do not cover for these slots.
     # 05:23 and 18:23 are backup runs so each slot gets a second chance if GitHub skips a run.
-    - cron: "23 3,4,5,17,18 * * *"
+    - cron: "23 3,4,5,6,12,16,17,18,21 * * *"
   workflow_dispatch:
 
 permissions:
