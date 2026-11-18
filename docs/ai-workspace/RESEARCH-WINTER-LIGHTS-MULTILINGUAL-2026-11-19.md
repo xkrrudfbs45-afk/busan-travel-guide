@@ -53,6 +53,8 @@ The English winter-lights page already covers the seasonal intent. Rather than c
 - Reuse the existing /assets/images/events/haeundae-light-festival-800.jpg only. The current English page captions it as a 2020 archive image by Lee Jeong-il / Busan Metropolitan City, sourced from Busan Tourism Archive and licensed KOGL Type 1.
 - Localized alt text and captions explicitly say it is an archive image, not a photograph of the 2026 installation.
 - No image file, crop, credit record, OG image or external asset was added or replaced.
+- The Japanese and Traditional Chinese guide directories already used a shared Busanhang Bridge photograph. Its Commons file page identifies the subject as the bridge photographed from Yeongdo and licenses it CC0; this PR adds localized og:image:alt and twitter:image:alt text to both directory pages. Source: https://commons.wikimedia.org/wiki/File:Busanhang_Bridge_taken_from_Yeongdo.jpg
+- The zh-TW newspaper-food-picks guide still uses that bridge image as its social preview despite being a food guide and having no in-body food photograph. No replacement was made because a subject-matched, commercially usable cover was not verified; this remains a focused follow-up under issue #384.
 
 ## Files in this Draft PR
 
