@@ -231,11 +231,12 @@
       "last_error": null
     },
     "ig-fresh15-1118-us": {
-      "status": "retry_pending",
+      "status": "missed",
       "attempts": 1,
       "last_attempt_at": "2026-11-18T20:45:49.506Z",
       "creation_id": "18136687492745304",
-      "last_error": "IG POST /17841422359116355/media_publish 403: Application request limit reached"
+      "last_error": "IG POST /17841422359116355/media_publish 403: Application request limit reached",
+      "missed_at": "2026-11-18T23:26:18.935Z"
     }
   }
 }
