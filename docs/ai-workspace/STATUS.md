@@ -1,6 +1,6 @@
 # Go2Busan — current verified status
 
-_Last checked: 2026-11-18 13:45 KST_
+_Last checked: 2026-11-18 13:48 KST_
 
 ## Repository and production
 - Repository: `xkrrudfbs45-afk/busan-travel-guide`; default branch: `main`.
@@ -11,7 +11,7 @@ _Last checked: 2026-11-18 13:45 KST_
 - No root `version.txt` file exists in the GitHub repository; runtime verification is separate.
 
 ## Open pull requests
-- **#535 Draft** — clarify that the Haeundae food Agoda CTA opens a Busan city-level search, not a Haeundae-only result set. Branch `fix/agoda-haeundae-search-scope-20261118`, based on main `90395b7ac6f1c86536c14529e897241574933ed9`. Exact-head CI and browser QA are pending.
+- **#535 Draft** — clarify that all 18 area-specific Agoda CTAs in EN / JA / zh-TW open a Busan city-level search, not neighborhood-only results. Branch `fix/agoda-haeundae-search-scope-20261118`, based on main `90395b7ac6f1c86536c14529e897241574933ed9`. Initial exact-head Technical SEO CI #1809 passed before the expanded copy update; rerun is required for the new head. Responsive browser QA remains pending.
 - **#472 Draft** — BTS title / description CTR experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03`). Re-evaluate against fresh Search Console data and current main before rebasing; do not merge automatically.
 
 ## Recently merged
@@ -29,7 +29,7 @@ _Last checked: 2026-11-18 13:45 KST_
 - #534 — corrected homepage image-credit links and excluded Agoda CTA headings from guide TOCs.
 
 ## Current follow-up work
-- #535 — correct the Haeundae food Agoda CTA wording to disclose the Busan city-level search scope; Draft, CI / mobile QA pending.
+- #535 — correct all 18 area-specific Agoda CTA placements to disclose the Busan city-level search scope; Draft. Initial CI #1809 passed before the expanded copy update; rerun and mobile QA are pending.
 - #530 — owner-approved revenue-first direction. #532 implemented the primary BTS / Haeundae CTA placements; partner dashboard and completed-booking reporting remain owner-side follow-ups. #535 fixes a destination-scope wording issue.
 - #528 — dedicated Busan New Year 2026–27 guide. PR #533 is merged; keep the issue open for responsive/mobile QA and later official timetable updates.
 - #517 — localized metadata for expanded luggage-storage coverage.
@@ -50,7 +50,7 @@ _Last checked: 2026-11-18 13:45 KST_
 - Next image work should prioritize licensed, place-matched photography, responsive crops, and real browser QA. Do not use generated images as photographs of real Busan locations.
 
 ## Release, analytics and SNS controls
-- Latest Render live deployment is verified through Render API; no deployment was initiated in this pass.
+- Latest Render live deployment is verified through Render API. The public Render subdomain homepage and EN / JA / zh-TW New Year guide pages loaded in read-only browser inspection; the custom `go2busan.com` domain and its `version.txt` endpoint were not accessible to that inspection runtime. No deployment was initiated in this pass.
 - No GA4 / Search Console query was run (separate daily operations automation owns it).
 - No Instagram / Threads post, schedule, LIVE setting, token, consent or measurement configuration was changed.
 - PR merge and production deployment are separate actions; do not merge or deploy without explicit project-owner approval.
