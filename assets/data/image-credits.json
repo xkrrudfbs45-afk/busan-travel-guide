@@ -808,6 +808,20 @@
       "checked_on": "2026-11-18",
       "status": "verified",
       "note": "Official Busan Metropolitan City photograph of Haeundae Beach, dated 2024-09-15. KOGL Type 1 allows commercial reuse with attribution. Homepage Haeundae neighborhood visual-pick card."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Bell_of_the_Citizens.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bell_of_the_Citizens.jpg",
+      "author": "Bernard Gagnon",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_use": true,
+      "attribution_required": false,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-18",
+      "status": "verified",
+      "note": "Actual Citizens' Bell at Yongdusan Park, Busan, photographed 2022-10-02. Wikimedia Commons file page confirms CC0 1.0 and Quality image status. Use as a photograph of the bell, not as a photograph of the 2026–27 ceremony."
     }
   ]
 }
