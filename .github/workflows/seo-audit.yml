@@ -95,6 +95,7 @@ jobs:
           node scripts/social-content-audit.mjs
           node scripts/social-content-audit.mjs --self-test
           node scripts/language-switch-audit.mjs
+          node scripts/guide-directory-hreflang-audit.mjs
           node scripts/inject-affiliate-cta.mjs --check
           node scripts/inject-agoda-cta.mjs --check
           node scripts/inject-place-maps.mjs --check
