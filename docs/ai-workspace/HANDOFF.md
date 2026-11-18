@@ -781,3 +781,12 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 ### Validation update — restaurant queue PR #524
 - Exact-head Technical SEO workflow #1763 passed on `5b5cf8115585f650f60d9cfcbfa74d2c1fc2ff39`: 245 HTML pages, 7,004 local links / 0 broken, 244 sitemap URLs, 892 hreflang links, 0 canonical omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
 - Responsive browser QA at 360 / 390 / 1280 remains pending. PR remains Draft; no merge or deployment.
+
+
+## Mainland China content expansion — 2026-11-18
+
+- PR #540 branch `feature/zh-cn-mainland-entry-20261118` now includes a second zh-CN article: `/zh-cn/guides/gimhae-airport-to-city/`.
+- Content covers airport light rail + Metro Line 2 via Sasang, current airport limousine routes and published fares, taxi selection, late arrivals, luggage and official source links. An original SVG route schematic is labelled as a not-to-scale diagram, not a real map or photograph.
+- Guide directory and first-trip guide cross-link to the airport guide; sitemap and `scripts/build-static.sh` smoke checks include the new URL.
+- Facts checked 2026-11-18 against Korea Airports Corporation's Gimhae Airport public transport page and Busan Metropolitan City's 2026-01-05 limousine revision notice. Airport source: https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110 ; Busan City notice: https://www.busan.go.kr/eng/bsnews01/1714674 ; VisitKorea transport overview: https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=469&vcontsId=140654
+- Exact-head CI has not yet been rerun after these commits. Keep PR #540 Draft. Native Chinese review, 360/390/tablet/desktop visual QA and mainland network reachability are still required. No merge/deploy.
