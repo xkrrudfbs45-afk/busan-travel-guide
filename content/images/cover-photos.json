@@ -44,6 +44,10 @@
     "Haeundae_Busan_South_Korea_01.jpg": {
       "w": 1931,
       "h": 1600
+    },
+    "Bell_of_the_Citizens.jpg": {
+      "w": 3701,
+      "h": 2237
     }
   },
   "pages": [
@@ -194,6 +198,27 @@
       "file": "Haeundae_Busan_South_Korea_01.jpg",
       "alt": "釜山海雲台海灘與沿海街景",
       "caption": "釜山海雲台海灘與沿海街景，作為釜山自由行的城市景觀參考",
+      "og": true
+    },
+    {
+      "path": "guides/busan-new-year-countdown-2027/index.html",
+      "file": "Bell_of_the_Citizens.jpg",
+      "alt": "The Citizens' Bell at Yongdusan Park in Busan",
+      "caption": "The Citizens' Bell at Yongdusan Park, photographed on 2 October 2022. This is a photograph of the bell, not the 2026–27 ceremony",
+      "og": true
+    },
+    {
+      "path": "ja/guides/busan-new-year-countdown-2027/index.html",
+      "file": "Bell_of_the_Citizens.jpg",
+      "alt": "釜山・龍頭山公園の市民の鐘",
+      "caption": "龍頭山公園の市民の鐘。2022年10月2日撮影。2026–27年の行事当日の写真ではありません",
+      "og": true
+    },
+    {
+      "path": "zh-tw/guides/busan-new-year-countdown-2027/index.html",
+      "file": "Bell_of_the_Citizens.jpg",
+      "alt": "釜山龍頭山公園的市民之鐘",
+      "caption": "龍頭山公園的市民之鐘，攝於2022年10月2日。此為鐘體照片，並非2026–27年跨年活動現場照片",
       "og": true
     }
   ]
