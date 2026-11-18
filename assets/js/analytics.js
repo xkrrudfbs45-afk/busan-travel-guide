@@ -131,6 +131,27 @@
       const link = target.closest('a[href]');
       if (!link) return;
 
+      // Google Maps / Naver Map / Kakao Map opens: shows which places readers act on. Not a partner or booking click.
+      let mapUrl = null;
+      try { mapUrl = new URL(link.href, window.location.href); } catch (_) { mapUrl = null; }
+      if (mapUrl) {
+        const mapHost = mapUrl.hostname.replace(/^www\./, '');
+        const mapProvider = (mapHost === 'google.com' && mapUrl.pathname.startsWith('/maps')) || mapHost === 'maps.google.com' || mapHost === 'maps.app.goo.gl'
+          ? 'google'
+          : (/(^|\.)map\.naver\.com$/.test(mapHost) || mapHost === 'naver.me' ? 'naver' : (/(^|\.)map\.kakao\.com$/.test(mapHost) ? 'kakao' : ''));
+        if (mapProvider) {
+          window.gtag('event', 'map_click', {
+            map_provider: mapProvider,
+            map_query: (mapUrl.searchParams.get('query') || '').slice(0, 100),
+            map_placement: link.closest('[data-place-map]') ? 'place_map_button' : (link.classList.contains('place-map-link') ? 'place_map_link' : 'inline_content'),
+            link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100),
+            page_location: window.location.href,
+            transport_type: 'beacon'
+          });
+          return;
+        }
+      }
+
       const guidePlacement = link.closest('[data-local-experience-card]')
         ? 'local_experience_card'
         : (link.closest('.trend-card')
