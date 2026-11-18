@@ -30,6 +30,16 @@ This is a prioritized portfolio, not authorization to implement everything at on
 
 | ID | Task | Expected outcome | Acceptance evidence |
 |---|---|---|---|
+| G2B-031 | Mainland China market-access and platform audit | Establish whether Go2Busan is reliably accessible and discoverable in mainland China | Mainland network tests for DNS/TLS, key pages, scripts, images, maps and analytics; documented blockers |
+| G2B-032 | Simplified Chinese pilot (/zh-cn/) | Launch a small, useful mainland-localized entry point without duplicating zh-TW | Reviewed zh-CN homepage plus 5–8 high-intent guides, reciprocal hreflang, sitemap, search index and language switch |
+| G2B-033 | Baidu Search Resource Platform readiness | Make eligible zh-CN pages discoverable through Baidu | Verified site ownership, crawl/robots check, sitemap or URL submission where account entitlements permit, indexation baseline |
+| G2B-034 | Xiaohongshu content pilot | Test mainland social discovery with original, useful Busan content | 15-day draft calendar, native-style copy, image/video briefs, trackable landing URLs; owner approval before posting |
+| G2B-035 | Mainland-specific visitor utility review | Remove Taiwan-only assumptions from mainland travel guidance | Verified Alipay/WeChat Pay, maps, transport, connectivity and booking guidance with dated primary sources |
+
+
+
+| ID | Task | Expected outcome | Acceptance evidence |
+|---|---|---|---|
 | G2B-011 | Local food database structure | Reusable local food content | Fields, editorial status, map and source data |
 | G2B-012 | Food discovery by neighborhood and cuisine | Better food discovery | Searchable/listed food hubs |
 | G2B-013 | Original photography workflow | Distinctive visual assets | Image checklist, credits, responsive variants |
