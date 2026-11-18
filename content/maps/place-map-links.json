@@ -1,0 +1,33 @@
+{
+  "_note": "Build-time 'Open in Google Maps' buttons for places a guide already names. Queries use Korean place names for accurate Google Maps matches. Reuses the existing .place-map-action/.place-map-link styles. Clicks are reported as the GA4 event map_click (assets/js/analytics.js).",
+  "places": {
+    "jagalchi": { "q": "자갈치시장", "en": "Jagalchi Market", "ja": "チャガルチ市場", "zh-tw": "札嘎其市場" },
+    "gamcheon": { "q": "부산 감천문화마을", "en": "Gamcheon Culture Village", "ja": "甘川文化村", "zh-tw": "甘川文化村" },
+    "haedong-yonggungsa": { "q": "해동용궁사", "en": "Haedong Yonggungsa Temple", "ja": "海東龍宮寺", "zh-tw": "海東龍宮寺" },
+    "taejongdae": { "q": "태종대유원지", "en": "Taejongdae", "ja": "太宗台", "zh-tw": "太宗台" },
+    "gwangalli-beach": { "q": "광안리해수욕장", "en": "Gwangalli Beach", "ja": "広安里ビーチ", "zh-tw": "廣安里海水浴場" },
+    "blueline-mipo": { "q": "해운대블루라인파크 미포정거장", "en": "Mipo Station (Blueline Park)", "ja": "ブルーラインパーク尾浦駅", "zh-tw": "藍線公園尾浦站" },
+    "blueline-cheongsapo": { "q": "해운대블루라인파크 청사포정거장", "en": "Cheongsapo Station (Blueline Park)", "ja": "ブルーラインパーク青沙浦駅", "zh-tw": "藍線公園青沙浦站" },
+    "blueline-songjeong": { "q": "해운대블루라인파크 송정정거장", "en": "Songjeong Station (Blueline Park)", "ja": "ブルーラインパーク松亭駅", "zh-tw": "藍線公園松亭站" },
+    "busan-station": { "q": "부산역", "en": "Busan Station", "ja": "釜山駅", "zh-tw": "釜山站" },
+    "biff-square": { "q": "BIFF광장", "en": "BIFF Square", "ja": "BIFF広場", "zh-tw": "BIFF廣場" },
+    "gukje-market": { "q": "국제시장", "en": "Gukje Market", "ja": "国際市場", "zh-tw": "國際市場" }
+  },
+  "pages": [
+    { "id": "jagalchi", "path": "guides/jagalchi-market-no-surprise-bill/index.html", "locale": "en", "before": "<h2 id=\"how-it-works\">", "places": ["jagalchi"] },
+    { "id": "gamcheon-rules", "path": "guides/gamcheon-culture-village-visiting-rules/index.html", "locale": "en", "before": "<h2 id=\"official-map\">", "places": ["gamcheon"] },
+    { "id": "gamcheon-rules", "path": "ja/guides/gamcheon-culture-village-visiting-rules/index.html", "locale": "ja", "before": "<h2 id=\"official-map\">", "places": ["gamcheon"] },
+    { "id": "gamcheon-rules", "path": "zh-tw/guides/gamcheon-culture-village-visiting-rules/index.html", "locale": "zh-tw", "before": "<h2 id=\"official-map\">", "places": ["gamcheon"] },
+    { "id": "haedong", "path": "guides/haedong-yonggungsa-visit-tips/index.html", "locale": "en", "before": "<h2 id=\"stairs\">", "places": ["haedong-yonggungsa"] },
+    { "id": "taejongdae", "path": "guides/taejongdae-danubi-train-tips/index.html", "locale": "en", "before": "<h2 id=\"train\">", "places": ["taejongdae"] },
+    { "id": "drone-show", "path": "guides/gwangalli-drone-show-viewing-tips/index.html", "locale": "en", "before": "<h2 id=\"crowds\">", "places": ["gwangalli-beach"] },
+    { "id": "drone-show", "path": "ja/guides/gwangalli-drone-show-viewing-tips/index.html", "locale": "ja", "before": "<h2 id=\"weather\">", "places": ["gwangalli-beach"] },
+    { "id": "drone-show", "path": "zh-tw/guides/gwangalli-drone-show-viewing-tips/index.html", "locale": "zh-tw", "before": "<h2 id=\"weather\">", "places": ["gwangalli-beach"] },
+    { "id": "blueline", "path": "guides/haeundae-blueline-park-sold-out/index.html", "locale": "en", "before": "<h2 id=\"check-booking\">", "places": ["blueline-mipo", "blueline-cheongsapo", "blueline-songjeong"] },
+    { "id": "blueline", "path": "ja/guides/haeundae-blueline-park-sold-out/index.html", "locale": "ja", "before": "<h2 id=\"alternatives\">", "places": ["blueline-mipo", "blueline-cheongsapo", "blueline-songjeong"] },
+    { "id": "blueline", "path": "zh-tw/guides/haeundae-blueline-park-sold-out/index.html", "locale": "zh-tw", "before": "<h2 id=\"alternatives\">", "places": ["blueline-mipo", "blueline-cheongsapo", "blueline-songjeong"] },
+    { "id": "station-walk", "path": "guides/busan-station-local-walk/index.html", "locale": "en", "before": "<h2>Step-free access", "places": ["busan-station", "biff-square", "gukje-market", "jagalchi"] },
+    { "id": "station-walk", "path": "ja/guides/busan-station-local-walk/index.html", "locale": "ja", "before": "<h2>KTX釜山駅から地下鉄1号線へ", "places": ["busan-station", "biff-square", "gukje-market", "jagalchi"] },
+    { "id": "station-walk", "path": "zh-tw/guides/busan-station-local-walk/index.html", "locale": "zh-tw", "before": "<h2>KTX 釜山站轉乘地鐵 1 號線", "places": ["busan-station", "biff-square", "gukje-market", "jagalchi"] }
+  ]
+}
