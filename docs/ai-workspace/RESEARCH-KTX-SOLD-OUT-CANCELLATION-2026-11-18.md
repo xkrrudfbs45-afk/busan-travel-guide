@@ -5,7 +5,7 @@ Improve the existing English, Japanese and Taiwan Traditional Chinese KTX bookin
 
 ## Verified official guidance
 - Korail ticket FAQ: https://www.korail.com/ticket/reserve/guide/faq
-  - Regular tickets: the FAQ currently states sales begin at 07:00 KST one month before departure.
+  - Foreign-traveller booking window: Korail's official press release dated 2026-10-08 states that from 2026-10-01 the advance booking period for foreign rail users expanded from one month to two months before departure (see https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&key=911&nttNo=27403, section “승차권 예매 2개월 전부터”, lines 342–345 in the published page). The Korail English homepage / FAQ may still display the older one-month wording; treat this as a live-source inconsistency and advise readers to check the date-specific booking form and latest notices. Do not state one month as the current foreign-traveller rule.
   - Waitlist: for sold-out trains, online requests can be made until two days before departure where the option is available; canceled seats are assigned in request order.
   - Sold-out trains: Korail FAQ says standing tickets may be purchased at station ticket counters. Availability and conditions vary.
 - Korail mobile usage guide: https://m.letskorail.com/mbt/m_guide.html
@@ -16,7 +16,7 @@ Improve the existing English, Japanese and Taiwan Traditional Chinese KTX bookin
   - Integration and additional seat supply announcements are not a guarantee of availability for an individual date or train.
 
 ## Important correction
-- The English page incorrectly stated that regular tickets open two months before departure from 2026-10-01. Current Korail FAQ states one month before departure at 07:00 KST; the page was corrected to match the current official FAQ.
+- Correction after primary-source recheck: the foreign-traveller booking window is two months before departure from 2026-10-01, according to Korail's 2026-10-08 official press release. Some Korail English homepage / FAQ text remains inconsistent and still displays one month. The EN / JA / zh-TW pages now explain both the official two-month foreign-traveller rule and the conflicting legacy display, with a direct link to the dated announcement.
 - Taiwan Traditional Chinese and Japanese pages now state the same standard release rule, with a caveat for special holiday schedules.
 
 ## What changed
