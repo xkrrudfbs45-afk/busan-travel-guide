@@ -944,6 +944,57 @@
       "status": "missed",
       "attempts": 0,
       "missed_at": "2026-11-17T19:55:39.121Z"
+    },
+    "d15-jp-1": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-18T01:05:20.787Z",
+      "creation_id": "18013333547796884",
+      "container_created_at": "2026-11-18T01:05:20.787Z",
+      "thread_id": "18360279385220401",
+      "permalink": "https://www.threads.com/@go2busan.jp/post/Df3SOOnGAiQ",
+      "published_at": "2026-11-18T01:05:20.787Z",
+      "last_error": null,
+      "reply_attempts": 1,
+      "reply_status": "done",
+      "reply_creation_id": "18013333673796884",
+      "reply_container_created_at": "2026-11-18T01:05:20.787Z",
+      "reply_id": "17921261901462525",
+      "reply_error": null
+    },
+    "d14-us-2": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-18T01:05:20.787Z",
+      "creation_id": "18046879709656190",
+      "container_created_at": "2026-11-18T01:05:20.787Z",
+      "thread_id": "18128708260906626",
+      "permalink": "https://www.threads.com/@go2busan.us/post/Df3SbOJmO5h",
+      "published_at": "2026-11-18T01:05:20.787Z",
+      "last_error": null,
+      "reply_attempts": 1,
+      "reply_status": "done",
+      "reply_creation_id": "18046879862656190",
+      "reply_container_created_at": "2026-11-18T01:05:20.787Z",
+      "reply_id": "18403008142203628",
+      "reply_error": null
+    },
+    "d14-tw-1": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-18T01:05:20.787Z",
+      "creation_id": "18077147600504979",
+      "container_created_at": "2026-11-18T01:05:20.787Z",
+      "thread_id": "18135792655685170",
+      "permalink": "https://www.threads.com/@go2busan.tw/post/Df3SoIJmIjC",
+      "published_at": "2026-11-18T01:05:20.787Z",
+      "last_error": null,
+      "reply_attempts": 1,
+      "reply_status": "done",
+      "reply_creation_id": "18077147855504979",
+      "reply_container_created_at": "2026-11-18T01:05:20.787Z",
+      "reply_id": "18091317527278384",
+      "reply_error": null
     }
   }
 }
