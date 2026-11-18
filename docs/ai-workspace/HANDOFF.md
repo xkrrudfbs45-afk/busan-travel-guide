@@ -1,3 +1,14 @@
+## 2026-11-18 — KTX booking-window correction / PR #550
+
+- Review PR #550: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/550
+- Correct fact: Korail's 2026-10-08 press release says foreign rail users can book two months ahead from 2026-10-01. Official source: https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&key=911&nttNo=27403 (section “승차권 예매 2개월 전부터”). Korail's English homepage / FAQ may still show one month; keep the discrepancy caveat and live date-specific booking-form instruction.
+- EN / JA / zh-TW guide pages and the KTX research note were corrected on branch `fix/ktx-foreign-booking-window-20261118`.
+- PR #550 is Draft, not merged or deployed. Head `a82301d44e01a1ac7e45818e57d895c0c2f54605`; GitHub reports mergeable=true. At this checkpoint no exact-head CI run was visible.
+- Next: confirm CI run for exact head; review all three language pages at 360px, 390px, tablet and desktop; inspect title/meta lengths and source links; only then request owner approval for merge and release.
+- PR #549 is closed as superseded by #550. Do not reopen or merge it.
+
+---
+
 ## 2026-11-18 — final exact-head validation checkpoint
 
 - PR #540 latest content/code head `6d328880b55b6dbd70f64210cb7996a55edcd4e5` passed exact-head Technical SEO run #1867. The subsequent handoff-only head `d6f5d8cc213163a1df8a50063839589c3c1d79c0` passed #1869, and production/PR portfolio documentation head `928b2c0858b35922705db385f134f81b27e7202d` passed #1870. All three included static build, localized first-trip checklist, deterministic map generation and dependency-free audit.
