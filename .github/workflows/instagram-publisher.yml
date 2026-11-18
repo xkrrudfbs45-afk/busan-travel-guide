@@ -8,7 +8,7 @@ name: Instagram publisher (Go2Busan)
 #
 # Runs use minute 23, not :00/:10: GitHub delays or drops scheduled runs at busy times near the
 # top of the hour. The extra 06:23, 16:23 and 21:23 UTC checks provide a third opportunity
-# inside the six-hour late window for 04:00, 12:00/16:00 and 17:00 UTC slots (including US DST).
+# inside the six-hour late window for 04:00 UTC and the US noon slots at 16:00 UTC (EDT) / 17:00 UTC (EST).
 
 on:
   schedule:
