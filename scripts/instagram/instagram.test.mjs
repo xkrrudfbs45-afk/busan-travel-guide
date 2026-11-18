@@ -248,7 +248,7 @@ test("render planner: failed QA with a current hash is retried for approved post
 // ---- schedule coverage of the Instagram publisher cron ----
 function instagramCronHours() {
   const yml = readFileSync(".github/workflows/instagram-publisher.yml", "utf8");
-  const matches = [...yml.matchAll(/cron:\\s*"23 ([\\d,]+) \\* \\* \\*"/g)];
+  const matches = [...yml.matchAll(/cron:\s*"23 ([\d,]+) \* \* \*"/g)];
   assert.ok(matches.length >= 2, "Instagram publisher must define targeted UTC cron checks");
   const hours = [...new Set(matches.flatMap((m) => m[1].split(",").map(Number)))].sort((a, b) => a - b);
   return { minute: 23, hours };
