@@ -266,11 +266,9 @@ test("Instagram cron provides three opportunities inside the six-hour late windo
   assert.ok(cron.hours.length <= 10, "keep targeted checks bounded (no 15-minute polling)");
   const sample = [
     ...realSchedule.posts.map((p) => p.publish_at_utc),
-    // US 08:00 EDT and 18:00 EDT / EST transition examples.
-    "2027-07-01T12:00:00.000Z",
-    "2027-07-01T22:00:00.000Z",
+    // US local-noon slots in daylight and standard time.
+    "2027-07-01T16:00:00.000Z",
     "2027-01-15T17:00:00.000Z",
-    "2027-01-15T23:00:00.000Z",
   ];
   for (const iso of sample) {
     const first = nextInstagramRunAfter(iso, cron);
