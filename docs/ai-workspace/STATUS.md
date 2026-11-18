@@ -1,3 +1,14 @@
+## 2026-11-18 — latest zh-CN accommodation guide QA checkpoint
+
+- Current PR #540 head: `cabcf42cd445e0edfda56dad9521035895e634a0` (Draft; not merged or deployed).
+- Exact-head Technical SEO run #1851 passed: static build, first-trip checklist validation, deterministic EN/JA/zh-TW map generation and dependency-free audit all succeeded.
+- Run #1850 identified three sitemap-level reciprocal hreflang warnings. Added the matching zh-CN alternate to the EN, JA and zh-TW accommodation-page sitemap entries. Run #1851 now reports 252 sitemap URLs, 253 canonical HTML pages, 928 hreflang links, 0 canonical pages missing from sitemap and 0 sitemap/hreflang findings.
+- Local-link audit: 7,214 checked, 0 broken. Language-switch audit: 684 checked, 0 findings. Strict image-credit audit: 51 images in use, 59 registered, 8 pre-existing unused-registry warnings, 0 errors. Other audit output includes 107 warnings / 39 informational findings in the broad local SEO audit and 14 CSS background reuse informational findings; these are not failures and are not all introduced by this PR.
+- The new zh-CN accommodation guide compares 西面、海云台、广安里、南浦洞 and 釜山站; uses a registered CC0 1.0 cover image with source/licence links; and is linked from the zh-CN homepage, guide directory and first-trip guide.
+- Remaining release gates: native Simplified Chinese editorial review; responsive visual QA at 360 / 390 / tablet / desktop; mainland-network reachability. These have not been completed. No Baidu verification/submission or Xiaohongshu publishing was performed. Keep PR Draft; no merge or deployment.
+
+---
+
 ## 2026-11-18 — zh-CN accommodation guide expansion
 
 - PR #540 branch `feature/zh-cn-mainland-entry-20261118` now includes `/zh-cn/guides/where-to-stay-busan/`, a Simplified Chinese comparison of Seomyeon, Haeundae, Gwangalli, Nampo-dong and Busan Station.
