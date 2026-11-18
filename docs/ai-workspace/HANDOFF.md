@@ -795,5 +795,5 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 ### CI follow-up — airport guide image metadata
 
 - Exact-head run #1837 (head `b954b723370f7c70dcbf33d9670fb871ac9b07b0`) built successfully and passed first-trip checklist and deterministic map-generation checks, but strict image-credit audit found one stale `Gimhae_International_Airport.jpg` OG image URL left in the new page metadata.
-- Corrected all remaining references to the already registered LERK / Wikimedia Commons airport-terminal photo (CC BY-SA 4.0). Exact-head run #1838 is now running on `ffc9825d43c1a18f6006e98512d8caf4de6a3b95`.
+- Corrected all remaining references to the already registered LERK / Wikimedia Commons airport-terminal photo (CC BY-SA 4.0). Exact-head run #1838 passed on `ffc9825d43c1a18f6006e98512d8caf4de6a3b95`; docs-only follow-up run #1839 also passed on `c05b3599915901460dce9fb252c7767f3b6a8ad3`.
 - Do not report final CI success until #1838 completes. PR #540 remains Draft.
