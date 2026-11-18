@@ -52,6 +52,13 @@
   },
   "pages": [
     {
+      "path": "zh-cn/guides/where-to-stay-busan/index.html",
+      "file": "Haeundae_Busan_South_Korea_01.jpg",
+      "alt": "釜山海云台海滩与沿海城市景观",
+      "caption": "海云台海滩与沿海街景；本文比较釜山不同住宿区域",
+      "og": true
+    },
+    {
       "path": "zh-tw/guides/where-to-stay-busan/index.html",
       "file": "Haeundae_District_and_Beach.jpg",
       "alt": "海雲台海水浴場與後方的高樓群",
