@@ -63,6 +63,15 @@ The English winter-lights page already covers the seasonal intent. Rather than c
 - ja/guides/busan-winter-travel-guide/index.html, zh-tw/guides/busan-winter-travel-guide/index.html — internal links; Traditional Chinese copy corrects the outdated statement that the Gwangbok-ro planned window is unconfirmed.
 - sitemap.xml — three-way reciprocal EN / JA / zh-TW / x-default cluster and lastmod 2026-11-19.
 
+## Current sitewide image and social-metadata baseline
+
+- Current main SHA 5e57f2c266a79a9ba72fe8ad38b7adf65ab6ccb0 passed Technical SEO audit run #44315016608 on 2026-11-18: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44315016608
+- The page-level audit reports 89 social-image warnings: EN 31, JA 26, zh-TW 32. Three pages specifically lack og:image:alt: ja/guides/index.html, zh-tw/guides/busan-newspaper-food-picks/index.html and zh-tw/guides/index.html.
+- Strict image-credit audit: 51 images in use, 59 registered, 8 warnings, 0 errors. The workflow log exposes the warning count but not per-warning detail; recheck the registry before changing assets.
+- Positive checks: 29 cover entries passed; homepage food-card audit passed at 10 cards / 10 distinct image URLs.
+- The separate social-meta check reports 0 gaps but has a different scope from the 89 page-level warnings; do not treat it as a clean bill of health.
+- The broader metadata backlog is tracked in existing issue #384; a fresh audit comment was added there. This seasonal PR does not attempt a bulk OG-image fix and does not add a generic or mismatched image.
+
 ## SEO and user-value hypothesis
 
 Search intent is seasonal and action-oriented: date, free vs paid, operating days, ticket prices, station/area and whether events fit into one evening. The new pages give Japanese and Taiwan readers native-language titles, event names, ticket caveats and neighborhood-based route planning. The update should reduce wrong-date and missed-ticket decisions and improve language-appropriate discovery; traffic or ranking impact has not been measured.
