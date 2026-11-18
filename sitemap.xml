@@ -1684,4 +1684,13 @@
     <xhtml:link rel="alternate" hreflang="zh-CN" href="https://go2busan.com/zh-cn/guides/first-trip/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-first-time-guide/" />
   </url>
-  <url>\n    <loc>https://go2busan.com/zh-cn/guides/gimhae-airport-to-city/</loc>\n  </url>\n</urlset>
+  <url>\n    <loc>https://go2busan.com/zh-cn/guides/gimhae-airport-to-city/</loc>\n  </url>\n  <url>
+    <loc>https://go2busan.com/zh-cn/guides/where-to-stay-busan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/where-to-stay-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/where-to-stay-busan/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/where-to-stay-busan/" />
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://go2busan.com/zh-cn/guides/where-to-stay-busan/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/where-to-stay-busan/" />
+    <lastmod>2026-11-18</lastmod>
+  </url>
+</urlset>
