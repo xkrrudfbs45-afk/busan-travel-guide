@@ -1,3 +1,13 @@
+## 2026-11-18 — Monetize existing high-impression pages before expanding content
+
+- **Decision:** Follow the owner direction in issue #530: prioritize conversion improvements on pages already receiving search impressions, keep Taiwan Traditional Chinese first, and slow new-page production to a small number of evidence-led exceptions.
+- **Placement rule:** Use one contextual booking CTA at a genuine decision point; do not force a partner link onto a page when no bookable product matches the visitor's intent.
+- **Verified implementation:** PR #532 added the Gamcheon Culture Village hanbok-rental Klook CTA (activity 44779; existing aid 141680 / aff_adid 1539686) to the EN / JA / zh-TW BTS route guides, and Agoda hotel-search CTAs to the three Haeundae food guides using the owner-supplied CID 1979955, Busan city ID 17172 and locale parameters.
+- **Trust correction:** All 18 neighborhood-specific Agoda CTAs in EN / JA / zh-TW use the same Busan city-level search URL and contain no neighborhood or property parameter. Their localized copy must disclose the city-wide scope and tell visitors to set their intended neighborhood as the destination before comparing; preserve the existing CID, city ID and locale parameters rather than inventing a deep link. The three general Busan-wide stay-guide CTAs remain unchanged.
+- **No forced CTA:** Keep the zh-TW Pusan National University food guide without an affiliate CTA until a bookable product genuinely serves that neighborhood's food intent.
+- **Measurement:** `affiliate_click` is an attributed outbound click, not a booking or commission. Partner dashboard access and completed-booking reporting remain owner-side follow-ups in #530.
+- **Release:** Content/config changes remain in a Draft PR. No merge, production deployment, partner-parameter change, analytics/consent change or SNS publication without owner approval.
+
 ## 2026-11-15 — GoodDay Unse promotion priority revision
 
 - **Decision:** Promote Korean Saju and 2027 New Year fortune as the card's primary experience; remove tarot from the six Go2Busan cards.
