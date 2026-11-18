@@ -2,7 +2,7 @@
 
 - Production Render static site is live on main commit `b1f829c3fe5eca58909ff2ec2ec4b1bea8c8dbb0` (deploy `dep-dbum29k9v7es739067ig`, succeeded 2026-11-18 08:26 UTC). Render auto-deploy is disabled; deployments must be explicitly triggered after an approved merge.
 - Mainland China first implementation is in [PR #540](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/540), branch `feature/zh-cn-mainland-entry-20261118`. It adds `/zh-cn/`, a guide directory and a first-trip guide; adds zh-CN language links, reciprocal hreflang, sitemap entries, build checks and language-switch audit.
-- PR #540 is open and marked ready for review; latest head `5bbf5e5d3b69e58bcbcc42abf764bd3c9b9cc0f2`. No workflow runs or status checks are visible for this exact head yet. Do not call CI passed and do not merge/deploy until the build, SEO, image-credit and responsive QA gates are satisfied.
+- PR #540 is open and remains Draft; latest previously verified code head `83900b3d74d11396027141e0a2fbe4c974414f43` passed Technical SEO runs #1831 and #1832. New airport-guide commits are now being added to the same PR branch; exact-head CI must run again before review. Do not merge/deploy until build, SEO, image-credit and responsive QA gates are satisfied.
 - Sitemap structure was programmatically checked for the three zh-CN URLs and reciprocal hreflang; no reciprocal-target issues were found in that focused check. This is not a substitute for the repository's full audit suite.
 - PR #538 remains the separate mainland-market strategy/research PR. Keep Taiwan zh-TW as the priority growth market; zh-CN is an additional pilot.
 - Mainland network reachability, Baidu account verification/submission, native-language review and Xiaohongshu publishing are not completed. No ICP, DNS, hosting, payment, analytics or social-account settings were changed.
@@ -64,3 +64,12 @@ _Last checked: 2026-11-18 13:50 KST_
 - No Instagram / Threads post, schedule, LIVE setting, token, consent or measurement configuration was changed.
 - PR merge and production deployment are separate actions; do not merge or deploy without explicit project-owner approval.
 
+
+
+## 2026-11-18 — zh-CN airport arrival content expansion
+
+- Added `/zh-cn/guides/gimhae-airport-to-city/` to PR #540: original route schematic, airport light rail + Metro Line 2 guidance, airport limousine routes to Seomyeon/Bujeon and Haeundae/Gijang, taxi decision guidance, luggage and late-arrival checks.
+- Linked the new guide from the zh-CN guide directory and first-trip guide; added the page to sitemap and static-build smoke checks.
+- Operational facts checked against Gimhae Airport's current transport page and Busan City's January 5, 2026 limousine revision notice. The page states a 2026-11-18 fact-check date and warns that fares/timetables can change.
+- No image is presented as a photograph of the airport; the route diagram is an original schematic and is explicitly labelled not to scale.
+- Exact-head CI, page-level metadata/image audit, native-language review, mobile visual QA and mainland network reachability remain pending. PR #540 stays Draft; no merge or production deploy.
