@@ -58,6 +58,10 @@ A current organizer listing was located after the initial draft. Correct the ear
 - Prior-year transport-extension and crowd-control notices are dated 2025-12-30 and apply to the event welcoming 2026 only. Do not reuse their last-train times or entry restrictions.
 - The regular Saturday Gwangalli M Drone Light Show does not establish a special New Year performance.
 
+## Dedicated New Year guide follow-up
+
+- Issue #528: https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/528. Prepare a separate EN / JA / zh-TW New Year 2026–27 guide by the six-week lead-time target, using the confirmed BFO event listing and explicitly unresolved operational details. Keep the general winter-guide status box as a short summary; do not duplicate its full seasonal content.
+
 ## Files updated in Draft PR
 - `guides/busan-winter-travel-guide/index.html`
 - `ja/guides/busan-winter-travel-guide/index.html`
