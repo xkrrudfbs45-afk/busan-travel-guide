@@ -60,7 +60,7 @@ _Last checked: 2026-11-18 13:50 KST_
 - Owner direction: begin a mainland-China market pilot in Simplified Chinese, separate from Taiwan Traditional Chinese.
 - Repository audit: no /zh-cn/ directory exists on the inspected main tree. Current localized roots are /ja/ and /zh-tw/, alongside English at /.
 - The zh-TW homepage is explicitly Taiwan-facing and must not be copied mechanically or relabeled for mainland users.
-- New market decision, backlog items and research brief are included in the mainland-China pilot Draft PR.
+- New market decision, backlog items and research brief are included in Draft PR #538: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/538.
 - Proposed initial scope: mainland access test, localized zh-CN homepage and 5–8 high-intent guides, Baidu platform readiness, Xiaohongshu draft calendar.
 - Mainland-specific live network tests, Baidu account verification, sitemap submission and social account access have not been performed. Do not claim indexation or social reach.
 - No hosting migration, ICP filing, DNS change, paid service activation, account creation or publication is authorized.
