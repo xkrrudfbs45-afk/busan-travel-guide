@@ -1,3 +1,14 @@
+## 2026-11-18 — zh-CN local food guide added and validated
+
+- Added `/zh-cn/guides/local-food-by-neighborhood/`, a mainland Simplified Chinese localized guide covering Seomyeon pork soup and milmyeon, Nampo / BIFF market snacks, Jagalchi seafood price checks, Haeundae dining, Songdo and Dongnae dishes, Korean ordering phrases, and foreign-visitor queue guidance.
+- Linked from the zh-CN guide directory, homepage food entry and first-trip guide. Added a localized cover record to the shared image manifest so the common pipeline can generate responsive variants and localized alt/caption metadata.
+- Added reciprocal EN / JA / zh-TW / zh-CN hreflang, sitemap entry, language switch links across all four guide versions, and static-build smoke check.
+- Exact-head Technical SEO run #1867 passed on commit `6d328880b55b6dbd70f64210cb7996a55edcd4e5`: static build, localized first-trip checklist, deterministic map generation and dependency-free audit succeeded; 7,252 local links checked / 0 broken; 253 sitemap URLs; 936 hreflang links; 254 canonical HTML pages / 0 sitemap omissions; 693 language-switch links / 0 findings; strict image-credit audit 51 images in use / 59 registered / 8 unused-entry warnings / 0 errors; shared image pipeline 29 cover entries.
+- Broader local SEO audit reports 106 warnings and 39 informational findings, and image-background audit reports 14 informational findings. These are existing site-wide findings and require separate triage; no claim that all are caused by this change.
+- PR #540 remains Draft, not merged or deployed. Its branch is 67 commits ahead and 3 commits behind current main (main SHA `0ef0ed7523700a0c80bcfe65b204688bddb3a1cf`); reconcile latest main changes before merge. Native Simplified Chinese editorial review, responsive visual QA at 360 / 390 / tablet / desktop, and mainland-network reachability remain open release gates. No Baidu verification/submission or Xiaohongshu publishing was performed.
+
+---
+
 ## 2026-11-18 — final image-pipeline validation for accommodation guide
 
 - Current PR #540 content head: `bd691104189e9995c2d6e522462d628d893932c9` (Draft; not merged or deployed).
