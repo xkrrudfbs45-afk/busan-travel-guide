@@ -1,19 +1,20 @@
 # Go2Busan — current verified status
 
-_Last checked: 2026-11-18 10:36 KST_
+_Last checked: 2026-11-18 13:45 KST_
 
 ## Repository and production
 - Repository: `xkrrudfbs45-afk/busan-travel-guide`; default branch: `main`.
-- Latest verified main SHA: `2a16aa811e577592e8a558174dcdbe7ed6369472` (merge commit for PR #527, 2026-11-18 00:55:57 UTC).
-- PRs #516, #518, #519, #522, #523, #524, #525 and #527 are merged into main.
-- Last independently documented Render production SHA remains `af35154405aecc6e520ce6a7d38877d829067f86` from deploy workflow #44003912824. This pass did not verify a newer Render deployment or fresh public `/version.txt` response. Do not assume current main is live.
-- The repository has no root `version.txt` file on main (GitHub contents lookup returned 404); public runtime verification is separate.
+- Latest verified main SHA: `90395b7ac6f1c86536c14529e897241574933ed9` (merged PR #534).
+- Render service: `busan-travel-guide` (`srv-dbjk4lo473hc73a3d7ag`), static site, branch `main`, auto-deploy disabled.
+- Latest Render deployment: `dep-dbuilpgm7kps73ch7m70`, status `live`, commit `90395b7ac6f1c86536c14529e897241574933ed9`, finished 2026-11-18 04:34:57 UTC.
+- Direct public-domain `/version.txt` and page fetches were not accessible to the current web inspection runtime. Render API confirms the live deploy SHA; do not claim an independently verified custom-domain HTTP response.
+- No root `version.txt` file exists in the GitHub repository; runtime verification is separate.
 
 ## Open pull requests
-- **#472 Draft** — BTS in Busan title / description CTR experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03`). Re-evaluate against fresh Search Console data and current main before rebasing; do not merge automatically.
-- No other open PR was returned by the current repository open-PR search.
+- **#535 Draft** — clarify that the Haeundae food Agoda CTA opens a Busan city-level search, not a Haeundae-only result set. Branch `fix/agoda-haeundae-search-scope-20261118`, based on main `90395b7ac6f1c86536c14529e897241574933ed9`. Exact-head CI and browser QA are pending.
+- **#472 Draft** — BTS title / description CTR experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03`). Re-evaluate against fresh Search Console data and current main before rebasing; do not merge automatically.
 
-## Recently merged content
+## Recently merged
 - #516 — localized luggage-storage options and Humetro locker fact corrections.
 - #518 — large-family / group planning advice in EN / JA / zh-TW.
 - #519 — Seomyeon and Millak winter-light event coverage and event radar.
@@ -22,29 +23,35 @@ _Last checked: 2026-11-18 10:36 KST_
 - #524 — practical restaurant queue guidance in EN / JA / zh-TW.
 - #525 — Huinnyeoul stairs, slopes, luggage and stroller access warning in EN / JA / zh-TW.
 - #527 — optional lower-strain / older-family-member planning, late-arrival guidance and corrected 2026–27 New Year status in EN / JA / zh-TW.
+- #531 — homepage and Haeundae imagery matched to the actual Busan places shown, with rights records.
+- #532 — contextual Klook CTA on BTS guides and Agoda hotel-search CTA on Haeundae food guides, EN / JA / zh-TW.
+- #533 — dedicated 2026–27 New Year guide and event radar updates.
+- #534 — corrected homepage image-credit links and excluded Agoda CTA headings from guide TOCs.
 
 ## Current follow-up work
-- #528 — dedicated Busan New Year 2026–27 guide in EN / JA / zh-TW. Confirmed listing: Busan Citizen’s Bell-tolling Ceremony, 2026-12-31 to 2027-01-01, Yongdusan Park. Exact times, detailed running order, crowd controls, extended transit and a special Gwangalli New Year drone show remain unconfirmed. Do not recycle 2025 programme details.
-- #517 — localized metadata for expanded luggage-storage guides.
-- #520 — winter-events hub metadata for Seomyeon / Millak.
-- #521 — EN / JA / zh-TW winter-guide metadata for Seomyeon / Millak.
+- #535 — correct the Haeundae food Agoda CTA wording to disclose the Busan city-level search scope; Draft, CI / mobile QA pending.
+- #530 — owner-approved revenue-first direction. #532 implemented the primary BTS / Haeundae CTA placements; partner dashboard and completed-booking reporting remain owner-side follow-ups. #535 fixes a destination-scope wording issue.
+- #528 — dedicated Busan New Year 2026–27 guide. PR #533 is merged; keep the issue open for responsive/mobile QA and later official timetable updates.
+- #517 — localized metadata for expanded luggage-storage coverage.
+- #520 / #521 — winter-events hub and localized winter-guide metadata.
 - #474 — main branch protection / required-check enforcement; owner/admin verification required.
 - #365 — historic sitemap / reciprocal hreflang warnings; recheck against current main before acting.
 
 ## Audience and editorial direction
 - Primary audience remains independent international visitors planning their own Busan trip, with young adults and 20–40s travellers an important creative focus. Do not reposition the whole site as a senior-travel service.
-- Lead with visually compelling, practical Busan experiences: coast, night views, cafes, food, shopping, neighborhoods, events and easy-to-follow itineraries.
-- Accessibility, stairs, slopes, elevators, luggage and rest-stop information should appear where relevant as useful trip-planning detail for any visitor.
-- Taiwan Traditional Chinese remains a priority market, alongside English and Japanese. Validate market prioritization with GA4 / Search Console / social performance rather than assumptions alone.
+- Taiwan Traditional Chinese is the first growth market, with English and Japanese reviewed in parallel. Prioritize local intent and natural language rather than direct translation.
+- Follow the owner direction in #530: improve existing high-impression pages and contextual conversion paths before creating more URLs. Use one relevant booking CTA at a real decision point; do not force a CTA where no matching product exists.
+- The BTS guide's Klook hanbok product is destination-matched to Gamcheon. The Haeundae food Agoda search uses Busan city ID 17172 without a Haeundae-only filter; CTA copy must state that clearly. The PNU food guide remains without an affiliate CTA until a matching bookable product is verified.
+- Affiliate clicks are not bookings or revenue. Partner dashboard data is required to confirm completed bookings and commission.
 
 ## Image and homepage baseline
-- Main homepage hero uses a Wikimedia Commons Busan skyline photograph (Gwangan Bridge / Marine City / LCT) with a dark overlay. The homepage also has a six-item quick navigation and four-card visual picks area.
-- Homepage styling is layered across `assets/homepage-editorial.css` and `assets/homepage-showcase.css`; inspect cascade order and mobile overrides before changing design.
-- Last documented strict image baseline on PR #527 exact-head audit: 49 images in use, 57 registered, 9 warnings, 0 strict errors. This is not a new image audit in this pass.
-- Next homepage visual pass should prioritize real, place-matched photography, image rights / credit verification, mobile crops, loading priority and visual consistency. Do not use generated images to misrepresent actual Busan locations.
+- Homepage photo credits and displayed-image links were corrected in merged PR #534.
+- Last strict image baseline on PR #533: 49 images in use, 57 registered, 9 warnings, 0 strict errors. This is not a new image audit in this pass.
+- Next image work should prioritize licensed, place-matched photography, responsive crops, and real browser QA. Do not use generated images as photographs of real Busan locations.
 
 ## Release, analytics and SNS controls
-- No Render deployment was initiated or verified in this pass.
-- No GA4 / Search Console query was run in this pass.
+- Latest Render live deployment is verified through Render API; no deployment was initiated in this pass.
+- No GA4 / Search Console query was run (separate daily operations automation owns it).
 - No Instagram / Threads post, schedule, LIVE setting, token, consent or measurement configuration was changed.
-- PR merge and production deployment are separate actions; do not claim a merge is live without deployment evidence.
+- PR merge and production deployment are separate actions; do not merge or deploy without explicit project-owner approval.
+
