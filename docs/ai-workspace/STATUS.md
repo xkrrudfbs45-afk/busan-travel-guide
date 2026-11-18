@@ -689,3 +689,20 @@ Applied a second grouped pass on the existing homepage design branch:
 - Draft PR #504 adds original inline SVG taxi-fare illustrations to the EN and zh-TW taxi-vs-subway pages; no third-party image asset or license dependency.
 - Exact-head Technical SEO audit run #1622 passed on commit ac0cfff10a8bfcdfbd2dc88f119d116c517f87ad: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
 - PR #504 remains Draft and is not deployed. Responsive browser QA at 360 / 390 / 768 / 1280 and actual screenshots are still pending. Do not claim visual QA passed.
+
+
+## Restaurant queue guidance — 2026-11-18 (ChatGPT)
+
+- Draft PR #524: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/524
+- Added practical restaurant queue / booking guidance to the existing EN `/guides/busan-neighborhood-food-guide/`, JA `/ja/guides/local-food-by-neighborhood/`, and zh-TW `/zh-tw/guides/local-food-by-neighborhood/` pages.
+- Coverage: Tableling / Catchtable and alternative in-store queue methods; cautious advice when Korean phone verification blocks app registration; opening-time, off-peak and break-time strategies; Korean survival phrases; queue etiquette and nearby backup planning.
+- No promise that a venue supports foreign phone numbers, overseas cards or staff-assisted registration. No fixed wait-time claims.
+- Research and localization notes: `docs/ai-workspace/RESEARCH-RESTAURANT-QUEUES-2026-11-18.md`.
+- Exact-head CI / build and responsive browser QA have not been verified. No merge, deployment, new URL, image, analytics or SNS schedule change.
+
+
+### CI result — restaurant queue PR #524
+- Exact-head Technical SEO workflow #1763 passed on commit `5b5cf8115585f650f60d9cfcbfa74d2c1fc2ff39` (run 44208763907).
+- Build and dependency-free audit passed: 245 HTML pages, 7,004 local links / 0 broken, 0 missing descriptions / canonicals, 244 sitemap URLs, 892 hreflang links, 0 canonical pages missing from sitemap.
+- Strict image audit: 49 images in use / 57 registered / 9 warnings / 0 errors. Homepage food-card audit: 10 cards / 10 distinct image URLs.
+- Responsive browser QA at 360 / 390 / 1280 remains pending. Draft only; no merge or deployment.
