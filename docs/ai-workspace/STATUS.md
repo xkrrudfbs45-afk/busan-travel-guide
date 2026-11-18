@@ -22,7 +22,7 @@ _Last checked: 2026-11-18 (ChatGPT content / operations pass)_
 
 ## Open pull requests
 
-- **#527 Draft** — older-traveller planning, late-arrival guidance and New Year status in EN / JA / zh-TW. Branch `content/senior-friendly-new-year-20261118-rebased`, based on main `d2457ae3c2972c11082622abee6a72291fcd0846`. Updated to reflect the current organizer listing for the Busan Citizen’s Bell-tolling Ceremony. Exact-head CI has not appeared after the latest documentation commit; responsive browser QA at 360 / 390 / 768 / 1280 has not been performed. Keep Draft.
+- **#527 Draft** — older-traveller planning, late-arrival guidance and New Year status in EN / JA / zh-TW. Branch `content/senior-friendly-new-year-20261118-rebased`, based on main `d2457ae3c2972c11082622abee6a72291fcd0846`. Updated to reflect the current organizer listing for the Busan Citizen’s Bell-tolling Ceremony. Latest verified exact-head Technical SEO CI #1782 passed on commit `6a52b5bc8293a18736ef23423238cd9ab9658f12`: 245 HTML pages, 7,007 local links / 0 broken, 244 sitemap URLs, 892 hreflang links, 0 canonical pages missing from sitemap, and strict image audit 49 in use / 57 registered / 9 warnings / 0 errors. Check the newest run again after any later documentation-only commit. Responsive browser QA at 360 / 390 / 768 / 1280 has not been performed. Keep Draft.
 - **#472 Draft** — old BTS title / description experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03)); hold and re-evaluate against fresh GSC data before any rebase or merge.
 
 ## Current open work / technical follow-ups
