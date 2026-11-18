@@ -1,3 +1,12 @@
+## 2026-11-18 — Mainland China implementation checkpoint
+
+- Production Render static site is live on main commit `b1f829c3fe5eca58909ff2ec2ec4b1bea8c8dbb0` (deploy `dep-dbum29k9v7es739067ig`, succeeded 2026-11-18 08:26 UTC). Render auto-deploy is disabled; deployments must be explicitly triggered after an approved merge.
+- Mainland China first implementation is in [PR #540](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/540), branch `feature/zh-cn-mainland-entry-20261118`. It adds `/zh-cn/`, a guide directory and a first-trip guide; adds zh-CN language links, reciprocal hreflang, sitemap entries, build checks and language-switch audit.
+- PR #540 is open and marked ready for review; latest head `5bbf5e5d3b69e58bcbcc42abf764bd3c9b9cc0f2`. No workflow runs or status checks are visible for this exact head yet. Do not call CI passed and do not merge/deploy until the build, SEO, image-credit and responsive QA gates are satisfied.
+- Sitemap structure was programmatically checked for the three zh-CN URLs and reciprocal hreflang; no reciprocal-target issues were found in that focused check. This is not a substitute for the repository's full audit suite.
+- PR #538 remains the separate mainland-market strategy/research PR. Keep Taiwan zh-TW as the priority growth market; zh-CN is an additional pilot.
+- Mainland network reachability, Baidu account verification/submission, native-language review and Xiaohongshu publishing are not completed. No ICP, DNS, hosting, payment, analytics or social-account settings were changed.
+
 # Go2Busan — current verified status
 
 _Last checked: 2026-11-18 13:50 KST_
