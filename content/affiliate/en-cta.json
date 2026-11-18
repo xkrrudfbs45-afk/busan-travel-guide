@@ -1,0 +1,20 @@
+{
+  "_note": "Build-time Klook CTAs for English guides (same injector as ja/zh-TW; page HTML stays untouched). Added 2026-11-18 for top-impression pages without any booking link (issue #530). Destinations verified live on klook.com; aff_adid mirrors the existing EN usage of the same destination.",
+  "locale": "en",
+  "locale_path": "/en-US/",
+  "aid": "141680",
+  "disclosure": "Prices, inclusions and availability can change; check the latest terms before you buy. This is an affiliate link — Go2Busan may earn a commission at no extra cost to you. <a href=\"/disclosure.html\">Affiliate disclosure</a>",
+  "pages": [
+    {
+      "path": "guides/bts-in-busan/index.html",
+      "before": "<h2>Respectful fan travel</h2>",
+      "id": "cta-bts-gamcheon-hanbok",
+      "kicker": "Gamcheon · Experience",
+      "title": "Want to wear hanbok in Gamcheon Culture Village?",
+      "body": "If Gamcheon is on your BTS route, a hanbok rental shop in the village lets you take photos in traditional dress. Compare time slots, what is included and cancellation terms before booking, and allow extra time — the village lanes are steep.",
+      "aff_adid": "1539686",
+      "dest": "https://www.klook.com/en-US/activity/44779-busan-gamcheon-cultural-village-hanbok-rental/",
+      "button": "See Gamcheon hanbok rental on Klook ↗"
+    }
+  ]
+}

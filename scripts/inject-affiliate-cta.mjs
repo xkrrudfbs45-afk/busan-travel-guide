@@ -16,7 +16,9 @@ for (const name of readdirSync(DIR).filter((f) => f.endsWith("-cta.json")).sort(
   const data = JSON.parse(readFileSync(`${DIR}/${name}`, "utf8"));
   const lp = data.locale_path;
   if (!/^\/[a-zA-Z-]+\/$/.test(lp || "")) { problems.push(`${name}: locale_path missing`); continue; }
-  if (!/<a href="\/[a-z-]+\/disclosure\.html">/.test(data.disclosure || "")) problems.push(`${name}: disclosure must link to the localized disclosure page`);
+  // English pages use /disclosure.html (no locale prefix); other locales use /<locale>/disclosure.html.
+  const discRe = lp === "/en-US/" ? /<a href="\/disclosure\.html">/ : /<a href="\/[a-z-]+\/disclosure\.html">/;
+  if (!discRe.test(data.disclosure || "")) problems.push(`${name}: disclosure must link to the localized disclosure page`);
   const ids = new Set();
   for (const p of data.pages) {
     total++;
