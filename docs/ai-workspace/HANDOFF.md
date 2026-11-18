@@ -790,3 +790,10 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Guide directory and first-trip guide cross-link to the airport guide; sitemap and `scripts/build-static.sh` smoke checks include the new URL.
 - Facts checked 2026-11-18 against Korea Airports Corporation's Gimhae Airport public transport page and Busan Metropolitan City's 2026-01-05 limousine revision notice. Airport source: https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?MENU_ID=110 ; Busan City notice: https://www.busan.go.kr/eng/bsnews01/1714674 ; VisitKorea transport overview: https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=469&vcontsId=140654
 - Exact-head CI has not yet been rerun after these commits. Keep PR #540 Draft. Native Chinese review, 360/390/tablet/desktop visual QA and mainland network reachability are still required. No merge/deploy.
+
+
+### CI follow-up — airport guide image metadata
+
+- Exact-head run #1837 (head `b954b723370f7c70dcbf33d9670fb871ac9b07b0`) built successfully and passed first-trip checklist and deterministic map-generation checks, but strict image-credit audit found one stale `Gimhae_International_Airport.jpg` OG image URL left in the new page metadata.
+- Corrected all remaining references to the already registered LERK / Wikimedia Commons airport-terminal photo (CC BY-SA 4.0). Exact-head run #1838 is now running on `ffc9825d43c1a18f6006e98512d8caf4de6a3b95`.
+- Do not report final CI success until #1838 completes. PR #540 remains Draft.
