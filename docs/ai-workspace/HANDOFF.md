@@ -3,7 +3,7 @@
 - Review PR #550: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/550
 - Correct fact: Korail's 2026-10-08 press release says foreign rail users can book two months ahead from 2026-10-01. Official source: https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&key=911&nttNo=27403 (section “승차권 예매 2개월 전부터”). Korail's English homepage / FAQ may still show one month; keep the discrepancy caveat and live date-specific booking-form instruction.
 - EN / JA / zh-TW guide pages and the KTX research note were corrected on branch `fix/ktx-foreign-booking-window-20261118`.
-- PR #550 is Draft, not merged or deployed. The latest recorded code + STATUS head `0cbbd57370c3550c6c973f2fd608f611843b92b4` passed Technical SEO run #1889 (static build, localized checklist, deterministic map generation and dependency-free audit). A later handoff-only commit followed; rerun CI on the final head before release.
+- PR #550 is Draft, not merged or deployed. The latest code + handoff head `a78ac88c4e38409ba536239d76b65c6a66bfebea` passed Technical SEO run #1890 (static build, localized checklist, deterministic map generation and dependency-free audit). The current follow-up is documentation-only; responsive browser visual QA remains outstanding.
 - Next: confirm CI run for exact head; review all three language pages at 360px, 390px, tablet and desktop; inspect title/meta lengths and source links; only then request owner approval for merge and release.
 - PR #549 is closed as superseded by #550. Do not reopen or merge it.
 
