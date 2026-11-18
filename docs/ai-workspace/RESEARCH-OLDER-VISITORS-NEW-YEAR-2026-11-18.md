@@ -29,6 +29,17 @@ Google Play listing: https://play.google.com/store/apps/details?hl=en_US&id=com.
 - Current listing describes service in 35 countries and confirms four UI languages.
 The official landing page and store listing differ in country count (34 vs 35); omit the number. Existing research indicates signup may require a mobile number and the official privacy policy does not confirm all foreign country codes. Do not promise that Korean-number verification is unnecessary. Advise visitors to test registration and payment before departure. Vehicle availability varies by location/time; do not guarantee Comfort or Minivan availability.
 
+## Community evidence for older-family travel (public pages checked 2026-11-18)
+
+- Dcard, 2026-03-14 (search-result date; post currently shows 87 reactions / 10 comments): a four-day Busan / Gyeongju family trip with parents and a grandmother. The author used Naver Map and buses without taxis, but described very high daily walking (around 30,000 steps); the comments include a reader considering taxis for older relatives with limited walking ability and another asking why the family split accommodation across areas. This is one detailed trip report, not a representative survey: https://www.dcard.tw/f/travel/p/261085963.
+- PTT Korea_Travel, 2026-05-27: a family planning trip with two adults, two children and two older parents asks which destination would require less walking and describes a slower food / scenery-focused itinerary. The public search result exposed the question, but the page returned HTTP 403 when opened; use only as a demand signal, not as a fully reviewed thread: https://www.ptt.cc/bbs/Korea_Travel/M.1779858070.A.A63.html.
+- Reddit r/koreatravel, 2026-08-25: a traveller planning Busan with an 81-year-old grandmother and walker / wheelchair asks about stairs and inclines. Comments discuss elevator access, shorter area-based days, buses and taxis. Treat individual comments as experiences, not official accessibility facts: https://www.reddit.com/r/koreatravel/comments/1vxozk3/travelling_to_south_korea_for_first_time_with_an/.
+- Korean public blog, 2025-03-16: a rainy-day family visit to Huinnyeoul reports narrow lanes and many steps made stroller use difficult; the family shortened the walk, rested in a sea-view café and used a car pickup near the uphill parking area. This is one older first-hand account, not a current access guarantee: https://jinylife.com/81.
+- Older Dcard (2024-07-20) and PTT (2024-11-12) family itinerary discussions also mention parents' walking capacity and lodging-area choices, but they are older context and were not treated as current demand evidence.
+- No directly relevant recent 4travel or Yahoo!知恵袋 thread was verified in this pass. Naver Café / some Korean community pages were not publicly accessible in the search results; no login or access-control workaround was attempted.
+
+Editorial implication: the current EN / JA / zh-TW winter-guide box should give choice-based advice (one main area per day, elevator / stair / slope checks, rest stops, toilets, weather exposure and return transport) without equating age with disability. Huinnyeoul's existing PR #525 access warning complements this guidance; do not repeat it as a blanket wheelchair ban.
+
 ## New Year 2026–27 status (rechecked 2026-11-18)
 
 A current organizer listing was located after the initial draft. Correct the earlier statement that the entire New Year event was unconfirmed:
@@ -54,10 +65,14 @@ A current organizer listing was located after the initial draft. Correct the ear
 - `guides/late-arrival-gimhae-airport/index.html`
 - `ja/guides/late-arrival/index.html`
 - `zh-tw/guides/late-arrival/index.html`
+- `docs/ai-workspace/RESEARCH-OLDER-VISITORS-NEW-YEAR-2026-11-18.md`
+- `docs/ai-workspace/EVENT-RADAR.md`
+- `docs/ai-workspace/STATUS.md`
+- `docs/ai-workspace/HANDOFF.md`
 
 ## Content additions
 - A short older-family-member planning box in all three winter guides: one-area planning, stairs/slopes, restrooms/seating, indoor rest stops and official accessible-route link.
-- A New Year 2026–27 status box in all three winter guides: no unconfirmed event or extended-transit claims; prior-year examples remain historical; choose one event area and plan the return trip.
+- A New Year 2026–27 status box in all three winter guides: the organizer's current listing confirms the event dates, Yongdusan Park venue and programme categories; exact times, detailed running order, crowd-control / entry arrangements, extended transit and a special Gwangalli drone performance remain unconfirmed.
 - A late-arrival box in all three languages: reduce transfers and walking after flights; check vehicle size and luggage capacity; k.ride Comfort / Minivan are categories, not guaranteed supply; test phone registration and payment; use official airport taxi stands as fallback.
 
 ## Validation / release guardrails
