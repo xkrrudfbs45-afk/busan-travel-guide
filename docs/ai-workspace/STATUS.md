@@ -1,3 +1,13 @@
+## 2026-11-18 — KTX foreign booking-window correction / PR #550
+
+- Korail's official 2026-10-08 press release (nttNo=27403) explicitly states that from 2026-10-01 the advance booking window for foreign rail users expanded from one month to two months before departure. The Korail English homepage / FAQ still contains one-month wording, so this is documented as a live-source inconsistency; visitor guidance points to the date-specific live booking form and latest notices.
+- Updated EN / JA / zh-TW KTX guide copy and the shared research note to state the two-month foreign-traveller rule and link the dated Korail announcement.
+- PR #550 is Draft / open / unmerged / undeployed. Head: `a82301d44e01a1ac7e45818e57d895c0c2f54605`. GitHub reports mergeable=true; no CI run was visible at the checkpoint. Responsive visual QA at 360 / 390 / tablet / desktop remains outstanding.
+- Original PR #549 was closed as superseded; no changes from it were merged or deployed. PR #550 is the sole review target for the KTX update.
+- Production deployment was not attempted. Do not merge until exact-head Technical SEO CI and visual QA pass, then obtain owner approval.
+
+---
+
 ## 2026-11-18 — final exact-head validation checkpoint
 
 - PR #540 latest content/code head `6d328880b55b6dbd70f64210cb7996a55edcd4e5` passed exact-head Technical SEO run #1867. The subsequent handoff-only head `d6f5d8cc213163a1df8a50063839589c3c1d79c0` passed #1869, and production/PR portfolio documentation head `928b2c0858b35922705db385f134f81b27e7202d` passed #1870. All three included static build, localized first-trip checklist, deterministic map generation and dependency-free audit.
