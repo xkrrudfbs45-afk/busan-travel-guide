@@ -67,12 +67,12 @@ The English winter-lights page already covers the seasonal intent. Rather than c
 
 ## Current sitewide image and social-metadata baseline
 
-- Current main SHA 5e57f2c266a79a9ba72fe8ad38b7adf65ab6ccb0 passed Technical SEO audit run #44315016608 on 2026-11-18: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44315016608
-- The page-level audit reports 89 social-image warnings: EN 31, JA 26, zh-TW 32. Three pages specifically lack og:image:alt: ja/guides/index.html, zh-tw/guides/busan-newspaper-food-picks/index.html and zh-tw/guides/index.html.
-- Strict image-credit audit: 51 images in use, 59 registered, 8 warnings, 0 errors. The workflow log exposes the warning count but not per-warning detail; recheck the registry before changing assets.
-- Positive checks: 29 cover entries passed; homepage food-card audit passed at 10 cards / 10 distinct image URLs.
-- The separate social-meta check reports 0 gaps but has a different scope from the 89 page-level warnings; do not treat it as a clean bill of health.
-- The broader metadata backlog is tracked in existing issue #384; a fresh audit comment was added there. This seasonal PR does not attempt a bulk OG-image fix and does not add a generic or mismatched image.
+- Baseline main SHA 5e57f2c266a79a9ba72fe8ad38b7adf65ab6ccb0 passed Technical SEO audit run #44315016608: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44315016608. It reported 89 social-image warnings (EN 31, JA 26, zh-TW 32), including three missing og:image:alt fields.
+- This PR adds localized og:image:alt and twitter:image:alt to the JA and zh-TW guide directories. The exact-head PR audit run #44394476630 passed: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44394476630. The social-image warning count is now 87 (EN 31, JA 25, zh-TW 31); only zh-tw/guides/busan-newspaper-food-picks/index.html remains missing og:image:alt.
+- The exact-head audit reports 105 total warnings: 87 social-image warnings, 13 title-length warnings and 5 meta-description-length warnings. The separate social-meta check reports 0 gaps but has a different scope; do not treat it as a clean bill of health.
+- Strict image-credit audit: 51 images in use, 59 registered, 8 warnings, 0 errors. The 8 warnings are unused registry entries, including a malformed unsplash:undefined key; verify each registry reference before removing or reusing anything.
+- Positive checks: 29 cover entries passed; homepage food-card audit passed at 10 cards / 10 distinct image URLs; 705 language-switch links checked with 0 findings; affiliate CTA, Agoda CTA and place-map checks passed.
+- The broader metadata backlog remains tracked in existing issue #384. This seasonal PR resolves only two directory alt-text gaps; it does not attempt a bulk OG-image fix or add a generic or mismatched image.
 
 ## SEO and user-value hypothesis
 
