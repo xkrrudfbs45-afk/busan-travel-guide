@@ -794,6 +794,48 @@
       "checked_on": "2026-11-16",
       "status": "verified",
       "note": "Landscape photograph of Haedong Yonggungsa Temple, Gijang, Busan; taken 12 October 2017. Camera location metadata is at the temple."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Dongnae_Hot_Spring_Outdoor_Foot_Bath.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dongnae_Hot_Spring_Outdoor_Foot_Bath.JPG",
+      "author": "Abasaa",
+      "license": "Public domain (author dedication)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Dongnae_Hot_Spring_Outdoor_Foot_Bath.JPG",
+      "commercial_use": true,
+      "attribution_required": false,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-18",
+      "status": "verified",
+      "note": "Photograph of the outdoor foot-bath entrance at Dongnae Hot Spring, Busan. Commons confirms author released it into the public domain worldwide. Homepage Dongnae hot-spring card."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Cafe_in_Huinnyeoul_Culture_Village.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cafe_in_Huinnyeoul_Culture_Village.jpg",
+      "author": "Choi2451",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "commercial_use": true,
+      "attribution_required": false,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-18",
+      "status": "verified",
+      "note": "Actual ocean-view cafe terrace in Huinnyeoul Culture Village, Yeongdo; own work dated 2019-10-25. Commons confirms CC0 1.0. Homepage coffee / coast card."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan_City_Haeundae_Beach.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_City_Haeundae_Beach.jpg",
+      "author": "Busan Metropolitan City",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized/cropped by CSS or Special:FilePath only",
+      "checked_on": "2026-11-18",
+      "status": "verified",
+      "note": "Official Busan Metropolitan City photograph of Haeundae Beach, dated 2024-09-15. KOGL Type 1 allows commercial reuse with attribution. Homepage Haeundae neighborhood visual-pick card."
     }
   ]
 }
