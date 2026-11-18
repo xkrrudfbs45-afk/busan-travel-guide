@@ -1,3 +1,13 @@
+## 2026-11-18 — final exact-head validation checkpoint
+
+- PR #540 latest content/code head `6d328880b55b6dbd70f64210cb7996a55edcd4e5` passed exact-head Technical SEO run #1867. The subsequent handoff-only head `d6f5d8cc213163a1df8a50063839589c3c1d79c0` passed #1869, and production/PR portfolio documentation head `928b2c0858b35922705db385f134f81b27e7202d` passed #1870. All three included static build, localized first-trip checklist, deterministic map generation and dependency-free audit.
+- #1867 audit: 7,252 local links / 0 broken; 253 sitemap URLs; 936 hreflang links; 254 canonical HTML pages / 0 sitemap omissions; 693 language-switch links / 0 findings; strict image-credit audit 51 images in use / 59 registered / 8 unused-entry warnings / 0 errors; 29 shared cover entries.
+- Current production main is `0ef0ed7523700a0c80bcfe65b204688bddb3a1cf`, live on Render deploy `dep-dbuns6afngtc73dc3pag`. PR #535 merged and is included in that deployment.
+- PR #540 is still Draft, open and unmerged. GitHub reports mergeable=true; its branch is 67 commits ahead / 3 behind main. The three newer main commits touch only Japanese and Traditional Chinese Haeundae food-page image metadata, but branch ancestry should still be reconciled before merge.
+- Remaining release gates: native Simplified Chinese editorial review, responsive visual QA at 360 / 390 / tablet / desktop, and mainland-network reachability. No Baidu verification/submission or Xiaohongshu publishing was performed. No PR #540 merge or production deployment.
+
+---
+
 ## 2026-11-18 — production and PR portfolio reconciliation
 
 - PR #535 was merged at 2026-11-18 08:25:07 UTC (merge commit `99d99aa9a6250c4f7560d1a38fe194423e3ca559`). Its 18 area-specific Agoda CTAs now disclose that the link opens a Busan-wide hotel search and that users should set their intended neighborhood on the partner search page.
