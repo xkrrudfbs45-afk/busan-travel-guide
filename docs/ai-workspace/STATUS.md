@@ -22,7 +22,7 @@ _Last checked: 2026-11-18 (ChatGPT content / operations pass)_
 
 ## Open pull requests
 
-- **#527 Draft** — older-traveller planning, late-arrival guidance and New Year status in EN / JA / zh-TW. Branch `content/senior-friendly-new-year-20261118-rebased`, current head `2e3dcc443188ad5f74e7a59494d667a7b39c865c`, base main `d2457ae3c2972c11082622abee6a72291fcd0846`. Updated to reflect the current organizer listing for the Busan Citizen’s Bell-tolling Ceremony. Exact-head CI has not appeared; responsive browser QA at 360 / 390 / 768 / 1280 has not been performed. Keep Draft.
+- **#527 Draft** — older-traveller planning, late-arrival guidance and New Year status in EN / JA / zh-TW. Branch `content/senior-friendly-new-year-20261118-rebased`, based on main `d2457ae3c2972c11082622abee6a72291fcd0846`. Updated to reflect the current organizer listing for the Busan Citizen’s Bell-tolling Ceremony. Exact-head CI has not appeared after the latest documentation commit; responsive browser QA at 360 / 390 / 768 / 1280 has not been performed. Keep Draft.
 - **#472 Draft** — old BTS title / description experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03)); hold and re-evaluate against fresh GSC data before any rebase or merge.
 
 ## Current open technical follow-ups
