@@ -1,3 +1,14 @@
+## 2026-11-18 — zh-CN accommodation guide expansion
+
+- PR #540 branch `feature/zh-cn-mainland-entry-20261118` now includes `/zh-cn/guides/where-to-stay-busan/`, a Simplified Chinese comparison of Seomyeon, Haeundae, Gwangalli, Nampo-dong and Busan Station.
+- The new guide uses the registered CC0 1.0 Haeundae photo by Hankook12, with visible Commons source and licence links. It includes area trade-offs, a mobile-scroll comparison table, booking checks and contextual links to the airport and first-trip guides.
+- Added directory, homepage and first-trip internal links; added the URL and reciprocal EN / JA / zh-TW / zh-CN hreflang to the sitemap; added the page to the static-build smoke checks; added reciprocal zh-CN hreflang to the existing EN / JA / zh-TW accommodation comparison pages.
+- Removed the repeated Simplified Chinese language switch from the English homepage.
+- Current latest code/content commit at this checkpoint: `80cede936434db0030a696861f7ac0c7be5b2317`. Exact-head Technical SEO run #1849 is in progress. Run #1848 passed on the immediately preceding head before the final photo-credit link adjustment; do not substitute that result for #1849.
+- PR #540 remains Draft and is not merged or deployed. Native-language editorial review, responsive visual QA at 360 / 390 / tablet / desktop, and mainland-network reachability remain outstanding. No Baidu verification/submission or Xiaohongshu publishing was performed.
+
+---
+
 ## 2026-11-18 — Mainland China implementation checkpoint
 
 - Production Render static site is live on main commit `b1f829c3fe5eca58909ff2ec2ec4b1bea8c8dbb0` (deploy `dep-dbum29k9v7es739067ig`, succeeded 2026-11-18 08:26 UTC). Render auto-deploy is disabled; deployments must be explicitly triggered after an approved merge.
