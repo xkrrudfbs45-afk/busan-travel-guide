@@ -29,13 +29,23 @@ Google Play listing: https://play.google.com/store/apps/details?hl=en_US&id=com.
 - Current listing describes service in 35 countries and confirms four UI languages.
 The official landing page and store listing differ in country count (34 vs 35); omit the number. Existing research indicates signup may require a mobile number and the official privacy policy does not confirm all foreign country codes. Do not promise that Korean-number verification is unnecessary. Advise visitors to test registration and payment before departure. Vehicle availability varies by location/time; do not guarantee Comfort or Minivan availability.
 
-## New Year 2026–27 status (checked 2026-11-18)
-No official 2026–27 notice confirming the city countdown / bell-ringing, special Gwangalli drone programme or extended transit hours was located in this check.
-Prior-edition official references:
-- Busan City English notice for the event welcoming 2026: https://www.busan.go.kr/eng/bsnews01/1712416
-- Event calendar entry: https://www.busan.go.kr/eng/bsevents/1709347
-These describe the 2025-12-31 to 2026-01-01 programme and last-year transit extensions only. Never write them as 2026-12-31 / 2027-01-01 confirmed details.
-The regular Saturday Gwangalli drone-show schedule does not prove a special New Year countdown performance. Recheck Busan City, organiser and Busan Metro notices before publishing any precise event or transport details.
+## New Year 2026–27 status (rechecked 2026-11-18)
+
+A current organizer listing was located after the initial draft. Correct the earlier statement that the entire New Year event was unconfirmed:
+
+- Busan Festivals Organization event listing: https://bfo.or.kr/event/57
+  - Event: Busan Citizen’s Bell-tolling Ceremony
+  - Listed period: 2026-12-31 to 2027-01-01
+  - Venue: Yongdusan Park
+  - Host: Busan Metropolitan City
+  - Listed programme: year-end music festival and countdown; bell-ringing ceremony and New Year’s address.
+- Official event website: https://festivalbusan.com/busanbell/
+  - The current landing page links to 2026 programme / event-flow materials, but the linked detailed programme posts currently show a 2025-12-30 publication date. Do not treat those prior-edition images as the 2026–27 timetable.
+- Busan City park FAQ: https://www.busan.go.kr/park/greencitybusan04/1687729
+  - It describes the recurring annual bell ceremony and gives a general prior pattern of 22:00–00:00 with the bell at midnight. This is not a year-specific 2026–27 schedule; do not publish those exact times as confirmed for this edition.
+- Still not confirmed in the 2026–27 notices reviewed: exact start times / detailed running order, crowd-control and entry arrangements, extended subway or bus services, and a special Gwangalli New Year drone performance.
+- Prior-year transport-extension and crowd-control notices are dated 2025-12-30 and apply to the event welcoming 2026 only. Do not reuse their last-train times or entry restrictions.
+- The regular Saturday Gwangalli M Drone Light Show does not establish a special New Year performance.
 
 ## Files updated in Draft PR
 - `guides/busan-winter-travel-guide/index.html`
