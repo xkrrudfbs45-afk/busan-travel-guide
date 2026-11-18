@@ -49,6 +49,8 @@ node scripts/enhance-public-extras.mjs public
 node scripts/inject-affiliate-cta.mjs public
 # Data-driven Agoda hotel search CTAs for EN / JA / zh-TW accommodation decision pages.
 node scripts/inject-agoda-cta.mjs public
+# Data-driven "Open in Google Maps" buttons for places a guide names (content/maps/place-map-links.json).
+node scripts/inject-place-maps.mjs public
 # Data-driven cover photos + cover image loading priority (content/images/cover-photos.json, docs/IMAGE_QUALITY_STANDARD.md).
 node scripts/enhance-images.mjs public
 # Complete share-preview tags (twitter:title/description/image:alt, localized og:image:alt, image size) after covers are set.
