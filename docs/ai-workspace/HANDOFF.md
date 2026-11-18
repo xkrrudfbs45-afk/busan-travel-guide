@@ -756,3 +756,11 @@ Use this file as the shared continuity point for the project owner, ChatGPT, and
 - Draft PR #504 adds original inline SVG taxi-fare illustrations to the EN and zh-TW taxi-vs-subway pages; no third-party image asset or license dependency.
 - Exact-head Technical SEO audit run #1622 passed on commit ac0cfff10a8bfcdfbd2dc88f119d116c517f87ad: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
 - PR #504 remains Draft and is not deployed. Responsive browser QA at 360 / 390 / 768 / 1280 and actual screenshots are still pending. Do not claim visual QA passed.
+
+
+## Handoff — restaurant queue guidance (2026-11-18)
+
+- Draft PR #524: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/524 (branch `content/restaurant-queue-help-20261118`).
+- Changed existing EN / JA / zh-TW neighborhood food guides only; no new URL. Added queue-app troubleshooting, timing strategies, Korean phrases and etiquette. See `docs/ai-workspace/RESEARCH-RESTAURANT-QUEUES-2026-11-18.md` for editorial guardrails and next research priorities.
+- PR is Draft. No CI run or combined status was available at handoff; exact-head build / Technical SEO and responsive browser QA at 360 / 390 / 1280 remain required. Do not merge or deploy until checks pass and owner approval is present.
+- No social content was scheduled or published. Do not claim that app bypass, overseas-card acceptance or staff-assisted registration is guaranteed.
