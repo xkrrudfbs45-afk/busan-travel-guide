@@ -71,7 +71,19 @@
 
 ## Current handoff — 2026-11-18 (ChatGPT)
 
-- Latest verified main SHA: `90395b7ac6f1c86536c14529e897241574933ed9` (merged PR #534).
+- Latest observed main SHA: `b1f829c3fe5eca58909ff2ec2ec4b1bea8c8dbb0` (PR #536 merge commit). Deployment on this SHA is not independently verified in this handoff.
+- Mainland-China market pilot initiated by owner direction. Separate Simplified Chinese (/zh-cn/) from Taiwan Traditional Chinese (/zh-tw/); Taiwan remains the first established growth market while mainland China becomes an active expansion track.
+- Repository audit found no /zh-cn/ directory. The existing zh-TW homepage contains Taiwan-specific positioning and terminology and must not be copied mechanically or relabeled for mainland users.
+- Baidu Search Resource Platform official documentation confirms site verification, ordinary inclusion, sitemap submission and URL submission tools. Access, quotas and tool eligibility are account-dependent; submission does not guarantee indexation. References: https://ziyuan.baidu.com/college/courseinfo?id=267 and https://ziyuan.baidu.com/college/articleinfo?id=3329.
+- First proposed pilot: test mainland access (DNS/TLS, images, fonts, maps, scripts and analytics); create a reviewed zh-CN homepage and 5–8 intent-led guides; add reciprocal zh-CN hreflang only to complete translations; prepare Baidu verification/submission; create a 15-day Xiaohongshu content calendar as drafts.
+- Do not migrate hosting to mainland China, apply for ICP, change DNS, create social accounts, activate paid services, submit URLs externally, or publish social content without explicit owner approval.
+- Current task is strategy/research documentation and a scoped pilot proposal. No zh-CN pages have been built, no Baidu account has been verified, no mainland network QA has been run, and no social post has been published.
+- Existing open PRs observed from GitHub: #472 (stale Draft CTR experiment) and #535 (Draft Agoda CTA scope clarification). New work is isolated on a separate branch.
+
+---
+## Previous handoff — 2026-11-18 (before mainland-China pilot)
+
+- Latest verified main SHA at that time: `90395b7ac6f1c86536c14529e897241574933ed9` (merged PR #534).
 - Render service `busan-travel-guide` has auto-deploy disabled. Latest deployment `dep-dbuilpgm7kps73ch7m70` is `live` on the same SHA, finished 2026-11-18 04:34:57 UTC. The public custom-domain `/version.txt` and page were not accessible to the current web inspection runtime; report Render API state, not a custom-domain HTTP check.
 - Open Draft PR #535: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/535. Branch `fix/agoda-haeundae-search-scope-20261118`, based on main `90395b7ac6f1c86536c14529e897241574933ed9`. It changes the localized copy for the three Haeundae food Agoda placements plus `DECISIONS.md` and the new research note. Agoda CID 1979955, Busan city ID 17172, locale mapping, anchor, disclosures, rel attributes, and analytics are unchanged.
 - Why #535 exists: the shared Agoda URL builder uses Busan city ID 17172 and no neighborhood or property parameter. The live Haeundae food CTA was opened from the deployed Render page and redirected to `agoda.com/search?cid=1979955&city=17172&hl=en-us&pcs=1&pslc=1`, confirming city-level scope; the final Agoda results UI remained on a loading screen. The expanded PR corrects all 18 area-specific placements (Songjeong/Gijang, Haeundae, Seomyeon, Gwangalli, Nampo and Haeundae food, EN / JA / zh-TW). The three general Busan-wide stay-guide placements remain unchanged.

@@ -75,7 +75,7 @@ _Last checked: 2026-11-18 13:50 KST_
 
 ## Repository and production
 - Repository: `xkrrudfbs45-afk/busan-travel-guide`; default branch: `main`.
-- Latest verified main SHA: `90395b7ac6f1c86536c14529e897241574933ed9` (merged PR #534).
+- Latest observed main SHA: `b1f829c3fe5eca58909ff2ec2ec4b1bea8c8dbb0` (merge commit for PR #536, 2026-11-18). Render deployment on this newer SHA has not been verified in this pass.
 - Render service: `busan-travel-guide` (`srv-dbjk4lo473hc73a3d7ag`), static site, branch `main`, auto-deploy disabled.
 - Latest Render deployment: `dep-dbuilpgm7kps73ch7m70`, status `live`, commit `90395b7ac6f1c86536c14529e897241574933ed9`, finished 2026-11-18 04:34:57 UTC.
 - Direct public-domain `/version.txt` and page fetches were not accessible to the current web inspection runtime. Render API confirms the live deploy SHA; do not claim an independently verified custom-domain HTTP response.
@@ -135,3 +135,12 @@ _Last checked: 2026-11-18 13:50 KST_
 - Operational facts checked against Gimhae Airport's current transport page and Busan City's January 5, 2026 limousine revision notice. The page states a 2026-11-18 fact-check date and warns that fares/timetables can change.
 - No image is presented as a photograph of the airport; the route diagram is an original schematic and is explicitly labelled not to scale.
 - Exact-head CI, page-level metadata/image audit, native-language review, mobile visual QA and mainland network reachability remain pending. PR #540 stays Draft; no merge or production deploy.
+
+## Mainland China expansion — initiated 2026-11-18
+- Owner direction: begin a mainland-China market pilot in Simplified Chinese, separate from Taiwan Traditional Chinese.
+- Repository audit: no /zh-cn/ directory exists on the inspected main tree. Current localized roots are /ja/ and /zh-tw/, alongside English at /.
+- The zh-TW homepage is explicitly Taiwan-facing and must not be copied mechanically or relabeled for mainland users.
+- New market decision, backlog items and research brief are included in Draft PR #538: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/538.
+- Proposed initial scope: mainland access test, localized zh-CN homepage and 5–8 high-intent guides, Baidu platform readiness, Xiaohongshu draft calendar.
+- Mainland-specific live network tests, Baidu account verification, sitemap submission and social account access have not been performed. Do not claim indexation or social reach.
+- No hosting migration, ICP filing, DNS change, paid service activation, account creation or publication is authorized.
