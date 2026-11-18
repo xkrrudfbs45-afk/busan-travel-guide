@@ -164,6 +164,33 @@
       "title": "想住在南浦洞或札嘎其附近嗎？",
       "body": "可比較南浦洞、札嘎其與釜山站周邊住宿，並確認從地鐵出口步行的路線、深夜抵達時的交通，以及行李移動是否方便。",
       "button": "比較南浦洞周邊住宿"
+    },
+    {
+      "path": "guides/haeundae-food-guide/index.html",
+      "before": "<h2 id=\"plan\">",
+      "id": "agoda-stay-haeundae-food",
+      "locale": "en",
+      "title": "Staying near Haeundae for these food stops?",
+      "body": "Most stops in this guide sit between Haeundae Station and the beach. Compare hotels by their real walk to the station and beach, the total price and cancellation terms for your dates.",
+      "button": "Compare Haeundae-area hotels"
+    },
+    {
+      "path": "ja/guides/haeundae-food-guide/index.html",
+      "before": "<h2 id=\"plan\">",
+      "id": "agoda-stay-haeundae-food",
+      "locale": "ja",
+      "title": "海雲台で食べ歩くなら、近くに泊まりませんか？",
+      "body": "このガイドの店の多くは海雲台駅とビーチの間にあります。駅やビーチまでの実際の徒歩距離、合計料金、キャンセル条件を比べてホテルを選びましょう。",
+      "button": "海雲台周辺のホテルを比較"
+    },
+    {
+      "path": "zh-tw/guides/haeundae-food-guide/index.html",
+      "before": "<h2 id=\"plan\">",
+      "id": "agoda-stay-haeundae-food",
+      "locale": "zh-tw",
+      "title": "想住在海雲台，方便吃遍這些美食嗎？",
+      "body": "本篇介紹的店家大多位在海雲台站與海灘之間。請比較走到車站與海灘的實際距離、含稅總價與取消規定，再選擇住宿。",
+      "button": "比較海雲台周邊住宿"
     }
   ]
 }

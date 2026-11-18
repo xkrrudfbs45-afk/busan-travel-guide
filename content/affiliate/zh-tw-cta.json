@@ -171,6 +171,17 @@
       "aff_adid": "1539682",
       "dest": "https://www.klook.com/zh-TW/activity/33180-spa-land-centum-city-ticket-busan/",
       "button": "在 Klook 查看 Spa Land 門票 ↗"
+    },
+    {
+      "path": "zh-tw/guides/bts-in-busan/index.html",
+      "before": "<h2>友善參訪提醒</h2>",
+      "id": "cta-bts-gamcheon-hanbok",
+      "kicker": "甘川・體驗",
+      "title": "想在甘川文化村穿韓服拍照嗎？",
+      "body": "若行程包含甘川文化村，可以在村內的韓服租借店換上傳統服裝拍照。預訂前請比較時段、包含內容與取消規定；村內坡道多，記得多預留時間。",
+      "aff_adid": "1539686",
+      "dest": "https://www.klook.com/zh-TW/activity/44779-busan-gamcheon-cultural-village-hanbok-rental/",
+      "button": "在 Klook 查看甘川韓服租借 ↗"
     }
   ]
 }

@@ -64,6 +64,17 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/ja/activity/81576-visit-busan-pass/",
       "button": "Klookでビジット釜山パスを見る ↗"
+    },
+    {
+      "path": "ja/guides/bts-in-busan/index.html",
+      "before": "<h2>マナーと訪問時の注意</h2>",
+      "id": "cta-bts-gamcheon-hanbok",
+      "kicker": "甘川・体験",
+      "title": "甘川文化村で韓服を着てみませんか？",
+      "body": "甘川文化村をルートに入れるなら、村の中の韓服レンタル店で伝統衣装を着て写真を撮ることもできます。予約前に時間帯、含まれる内容、キャンセル条件を確認しましょう。坂道が多いので時間に余裕を持ってください。",
+      "aff_adid": "1539686",
+      "dest": "https://www.klook.com/ja/activity/44779-busan-gamcheon-cultural-village-hanbok-rental/",
+      "button": "Klookで甘川の韓服レンタルを見る ↗"
     }
   ]
 }
