@@ -689,3 +689,11 @@ Applied a second grouped pass on the existing homepage design branch:
 - Draft PR #504 adds original inline SVG taxi-fare illustrations to the EN and zh-TW taxi-vs-subway pages; no third-party image asset or license dependency.
 - Exact-head Technical SEO audit run #1622 passed on commit ac0cfff10a8bfcdfbd2dc88f119d116c517f87ad: 242 HTML pages, 6,900 local links, 0 broken local links, 0 missing descriptions/canonicals, 880 hreflang links, 0 sitemap omissions, 49 images in use / 57 registered / 9 warnings / 0 strict errors.
 - PR #504 remains Draft and is not deployed. Responsive browser QA at 360 / 390 / 768 / 1280 and actual screenshots are still pending. Do not claim visual QA passed.
+
+
+## Huinnyeoul access and luggage warning — 2026-11-18 (ChatGPT)
+
+- Draft PR #525: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/525
+- Added an access note to the existing Yeongdo half-day route in EN / JA / zh-TW: narrow lanes, steep slopes and repeated stairs make large suitcases and most strollers difficult to manage; visitors should leave bulky luggage at a hotel or confirmed storage location.
+- The note is explicitly a practical walking-environment warning, not an official access ban. It does not repeat the false rumour of a blanket weekend closure of the coastal tunnel.
+- Exact-head CI / build and responsive browser QA have not been verified. No merge or deployment.
