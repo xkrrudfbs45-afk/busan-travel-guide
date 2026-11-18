@@ -35,7 +35,7 @@ for path in public/docs public/marketing public/render.yaml public/README.md; do
 done
 
 # Smoke-check the primary entry points and shared assets before deployment.
-for path in public/index.html public/ja/index.html public/zh-tw/index.html public/zh-cn/index.html public/zh-cn/guides/index.html public/zh-cn/guides/first-trip/index.html public/sitemap.xml public/assets/styles.css public/assets/js/analytics.js; do
+for path in public/index.html public/ja/index.html public/zh-tw/index.html public/zh-cn/index.html public/zh-cn/guides/index.html public/zh-cn/guides/first-trip/index.html public/zh-cn/guides/gimhae-airport-to-city/index.html public/sitemap.xml public/assets/styles.css public/assets/js/analytics.js; do
   if [ ! -f "$path" ]; then
     echo "Required built file missing: $path" >&2
     exit 1
@@ -61,4 +61,4 @@ node scripts/inject-maps-key.mjs public
 # Publish the deployed commit so the deploy workflow can confirm what is live.
 printf '%s\n' "${RENDER_GIT_COMMIT:-$(git rev-parse HEAD 2>/dev/null || echo unknown)}" > public/version.txt
 
-echo "Public static build ready: internal docs excluded; EN/JA/zh-TW/zh-CN entry points verified."
+echo "Public static build ready: internal docs excluded; EN/JA/zh-TW/zh-CN entry points and airport guide verified."
