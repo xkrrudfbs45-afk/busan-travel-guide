@@ -25,7 +25,9 @@ _Last checked: 2026-11-18 (ChatGPT content / operations pass)_
 - **#527 Draft** — older-traveller planning, late-arrival guidance and New Year status in EN / JA / zh-TW. Branch `content/senior-friendly-new-year-20261118-rebased`, based on main `d2457ae3c2972c11082622abee6a72291fcd0846`. Updated to reflect the current organizer listing for the Busan Citizen’s Bell-tolling Ceremony. Exact-head CI has not appeared after the latest documentation commit; responsive browser QA at 360 / 390 / 768 / 1280 has not been performed. Keep Draft.
 - **#472 Draft** — old BTS title / description experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03)); hold and re-evaluate against fresh GSC data before any rebase or merge.
 
-## Current open technical follow-ups
+## Current open work / technical follow-ups
+
+- #528 — dedicated Busan New Year 2026–27 guide in EN / JA / zh-TW; content / localization and technical SEO are pending. Target first useful version by 2026-11-19 if quality gates allow.
 
 - #517 — localized metadata for expanded luggage-storage guides.
 - #520 — winter-events hub metadata for Seomyeon / Millak.
