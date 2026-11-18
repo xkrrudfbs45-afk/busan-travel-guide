@@ -1,3 +1,15 @@
+## 2026-11-18 — Add a controlled mainland-China market pilot
+
+- **Decision:** Add mainland China as a separate Simplified Chinese (zh-CN) pilot market alongside the Taiwan Traditional Chinese (zh-TW) programme. Taiwan remains the first established growth market; mainland China is now an active expansion track, not a replacement.
+- **Audience:** Independent Busan travellers, with younger adults and 20–40s visitors as an important creative focus. Keep the site broadly useful and do not turn the whole product into a niche or age-specific service.
+- **Localization:** Use mainland Simplified Chinese, search intent and travel terminology. Do not convert zh-TW pages mechanically or treat Traditional and Simplified Chinese as interchangeable.
+- **Search:** Prioritize mainland crawl/access testing and Baidu Search Resource Platform readiness. Treat Bing as a secondary channel. Google is not a dependable default for users on ordinary mainland networks. Do not claim Baidu inclusion or rankings until platform data confirms them.
+- **Social:** Xiaohongshu is the first content-discovery experiment; Douyin and WeChat are subsequent channels. Draft content first; no account creation, paid campaigns, or publishing without owner approval.
+- **Technical guardrails:** Start on the existing domain under /zh-cn/. Do not move hosting to mainland China, seek an ICP filing, change DNS, or introduce mainland-specific third-party scripts without a separate feasibility review and explicit approval. Add reciprocal hreflang="zh-CN" only when a corresponding page is fully localized and reviewed.
+- **Pilot scope:** Begin with the localized homepage and 5–8 high-intent guides: first trip, airport-to-city, transport/payment, where to stay, local food, three-day itinerary, map/essential apps, and one seasonal guide where facts are current. Prioritize quality over volume.
+- **Measurement:** Establish a baseline for mainland accessibility, Baidu indexation, referral traffic, engagement and conversion before scaling. Market-share snapshots from third-party trackers are directional only and must not be presented as official Chinese government statistics.
+- **Release:** Implement on a dedicated branch and Draft PR. No merge, deployment, account verification, external submission, social publishing, paid activation, or hosting change without explicit project-owner approval.
+
 ## 2026-11-18 — Monetize existing high-impression pages before expanding content
 
 - **Decision:** Follow the owner direction in issue #530: prioritize conversion improvements on pages already receiving search impressions, keep Taiwan Traditional Chinese first, and slow new-page production to a small number of evidence-led exceptions.

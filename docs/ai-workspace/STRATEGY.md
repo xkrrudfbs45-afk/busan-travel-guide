@@ -40,8 +40,24 @@ Prioritize short trips, weekend itineraries, food, shopping, transport, airport 
 ### 3. English-speaking visitors
 Prioritize first-time Busan planning, accommodation choices, 3-day itineraries, transport, airport arrival, practical travel preparation, and neighborhood guides.
 
-### 4. Simplified Chinese and other markets
-Expand after validating demand, translation quality, and operational capacity.
+### 4. Mainland China — Simplified Chinese (pilot market)
+Run a controlled mainland-China pilot alongside the Taiwan Traditional Chinese programme. This is a separate market, not an extension of zh-TW. Use natural Simplified Chinese (zh-CN), mainland travel terminology, local discovery platforms, and mainland-specific practical guidance.
+
+Initial audience: independent travellers, especially younger adults and 20–40s visitors researching food, cafes, shopping, beaches, nightlife, K-pop routes, transport and 2–4 day itineraries. Do not reposition the whole site around one age group.
+
+Search and distribution:
+- Prioritize Baidu discoverability and verify the site is crawlable from mainland networks before investing in Baidu SEO. Treat Bing as a secondary search channel; do not assume Google is a normal domestic search route.
+- Build Xiaohongshu (小红书) as the first social discovery test, with Douyin (抖音) short-video concepts and WeChat sharing as later extensions.
+- Keep the existing global site and URL architecture initially. Do not move hosting into mainland China, pursue an ICP filing, buy ads, open accounts, or activate paid services without owner approval and a separate feasibility review.
+- Do not assume Baidu sitemap/API submission is available to every verified site; check current account entitlements and submission quotas in Baidu Search Resource Platform.
+
+Pilot sequence:
+1. Audit mainland access, DNS/TLS, page speed, third-party dependencies, fonts, maps and analytics from mainland networks.
+2. Prepare /zh-cn/ with a genuinely localized landing page and a small set of high-intent guides; do not bulk-copy zh-TW.
+3. Add reciprocal hreflang="zh-CN" only for pages that have a complete, reviewed Simplified Chinese counterpart. Preserve existing EN/JA/zh-TW alternates.
+4. Establish Baidu Search Resource Platform ownership verification and submit only eligible canonical URLs after owner account access is provided.
+5. Test Xiaohongshu content manually as drafts first; no auto-publishing or account creation without approval.
+6. Review actual impressions, visits, engagement and conversion before expanding the language to the full catalogue.
 
 Market rankings and visitor statistics are strategic inputs, not permanent facts. Recheck current official data before publishing numerical claims.
 
