@@ -13,10 +13,10 @@ name: Instagram publisher (Go2Busan)
 on:
   schedule:
     - cron: "23 0,12 * * *"
-    # Publish slots used by the schedule (03:00, 04:00, 17:00 UTC). Each post must be picked up within
-    # the 6-hour late window, which the 00/12 UTC runs alone do not cover for these slots.
-    # 05:23 and 18:23 are backup runs so each slot gets a second chance if GitHub skips a run.
-    - cron: "23 3,4,5,6,12,16,17,18,21 * * *"
+    # Publish slots used by the schedule (03:00, 04:00, 12:00/16:00, 17:00 UTC).
+    # 05:23/06:23, 16:23 and 18:23/21:23 add retries before the six-hour late window expires.
+    - cron: "23 3,4,5,17,18 * * *"
+    - cron: "23 6,16,21 * * *"
   workflow_dispatch:
 
 permissions:
