@@ -170,27 +170,27 @@
       "before": "<h2 id=\"plan\">",
       "id": "agoda-stay-haeundae-food",
       "locale": "en",
-      "title": "Staying near Haeundae for these food stops?",
-      "body": "Most stops in this guide sit between Haeundae Station and the beach. Compare hotels by their real walk to the station and beach, the total price and cancellation terms for your dates.",
-      "button": "Compare Haeundae-area hotels"
+      "title": "Looking for a hotel for your Haeundae food route?",
+      "body": "This link opens Agoda's Busan-wide hotel search, not a Haeundae-only results page. Filter to Haeundae, then compare each hotel's actual walk to the station, beach and food stops, total price and cancellation terms.",
+      "button": "Search Busan hotels on Agoda"
     },
     {
       "path": "ja/guides/haeundae-food-guide/index.html",
       "before": "<h2 id=\"plan\">",
       "id": "agoda-stay-haeundae-food",
       "locale": "ja",
-      "title": "海雲台で食べ歩くなら、近くに泊まりませんか？",
-      "body": "このガイドの店の多くは海雲台駅とビーチの間にあります。駅やビーチまでの実際の徒歩距離、合計料金、キャンセル条件を比べてホテルを選びましょう。",
-      "button": "海雲台周辺のホテルを比較"
+      "title": "海雲台の食べ歩きに便利な宿を探すなら",
+      "body": "このリンクは海雲台限定ではなく、釜山市内全体の宿泊検索を開きます。検索結果を海雲台に絞り、駅・ビーチ・掲載店までの実際の徒歩距離、合計料金、キャンセル条件を比べてください。",
+      "button": "Agodaで釜山のホテルを検索"
     },
     {
       "path": "zh-tw/guides/haeundae-food-guide/index.html",
       "before": "<h2 id=\"plan\">",
       "id": "agoda-stay-haeundae-food",
       "locale": "zh-tw",
-      "title": "想住在海雲台，方便吃遍這些美食嗎？",
-      "body": "本篇介紹的店家大多位在海雲台站與海灘之間。請比較走到車站與海灘的實際距離、含稅總價與取消規定，再選擇住宿。",
-      "button": "比較海雲台周邊住宿"
+      "title": "想安排海雲台美食行程，正在找住宿嗎？",
+      "body": "此連結會開啟釜山市區的住宿搜尋，並非只顯示海雲台。請再篩選海雲台區域，比較到地鐵站、海灘與餐廳的實際步行距離、含稅總價和取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
     }
   ]
 }
