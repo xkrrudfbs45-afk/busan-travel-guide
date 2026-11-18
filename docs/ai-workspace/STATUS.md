@@ -699,3 +699,10 @@ Applied a second grouped pass on the existing homepage design branch:
 - No promise that a venue supports foreign phone numbers, overseas cards or staff-assisted registration. No fixed wait-time claims.
 - Research and localization notes: `docs/ai-workspace/RESEARCH-RESTAURANT-QUEUES-2026-11-18.md`.
 - Exact-head CI / build and responsive browser QA have not been verified. No merge, deployment, new URL, image, analytics or SNS schedule change.
+
+
+### CI result — restaurant queue PR #524
+- Exact-head Technical SEO workflow #1763 passed on commit `5b5cf8115585f650f60d9cfcbfa74d2c1fc2ff39` (run 44208763907).
+- Build and dependency-free audit passed: 245 HTML pages, 7,004 local links / 0 broken, 0 missing descriptions / canonicals, 244 sitemap URLs, 892 hreflang links, 0 canonical pages missing from sitemap.
+- Strict image audit: 49 images in use / 57 registered / 9 warnings / 0 errors. Homepage food-card audit: 10 cards / 10 distinct image URLs.
+- Responsive browser QA at 360 / 390 / 1280 remains pending. Draft only; no merge or deployment.
