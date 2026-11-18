@@ -1,3 +1,13 @@
+## 2026-11-18 — final image-pipeline validation for accommodation guide
+
+- Current PR #540 content head: `bd691104189e9995c2d6e522462d628d893932c9` (Draft; not merged or deployed).
+- The shared cover-photo manifest now owns the zh-CN accommodation guide image. The page no longer hardcodes a second `article-cover`; the common build pipeline injects the registered Hankook12 / Wikimedia Commons CC0 1.0 photo, responsive variants, localized alt/caption and share-image metadata.
+- Exact-head Technical SEO run #1854 passed on the current content head: public static build and dependency-free audit succeeded; 7,214 local links checked / 0 broken; 252 sitemap URLs; 928 hreflang links; 253 canonical pages / 0 missing from sitemap; 684 language-switch links / 0 findings; strict image-credit audit 51 in use / 59 registered / 8 unused-registry warnings / 0 errors; shared image pipeline check 28 cover entries.
+- Existing non-blocking audit warnings remain on unrelated pages, including some older localized accommodation pages without share images. They are not introduced by the zh-CN guide.
+- Release gates still open: native Simplified Chinese editorial review; responsive visual QA at 360 / 390 / tablet / desktop; mainland-network reachability. Keep PR #540 Draft; no merge/deployment, Baidu submission or Xiaohongshu publishing.
+
+---
+
 ## 2026-11-18 — latest zh-CN accommodation guide QA checkpoint
 
 - Current PR #540 head: `cabcf42cd445e0edfda56dad9521035895e634a0` (Draft; not merged or deployed).
