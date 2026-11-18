@@ -11,7 +11,7 @@ _Last checked: 2026-11-18 13:50 KST_
 - No root `version.txt` file exists in the GitHub repository; runtime verification is separate.
 
 ## Open pull requests
-- **#535 Draft** — clarify that all 18 area-specific Agoda CTAs in EN / JA / zh-TW open a Busan city-level search, not neighborhood-only results. Branch `fix/agoda-haeundae-search-scope-20261118`, based on main `90395b7ac6f1c86536c14529e897241574933ed9`. Current head `7f2e0a3ba54a9c52499a7a4f02c5cededc6b82e4` passed Technical SEO CI #1812. Responsive browser QA remains pending.
+- **#535 Draft** — clarify that all 18 area-specific Agoda CTAs in EN / JA / zh-TW open a Busan city-level search, not neighborhood-only results. Branch `fix/agoda-haeundae-search-scope-20261118`, based on main `90395b7ac6f1c86536c14529e897241574933ed9`. The expanded CTA content/config commit `7f2e0a3ba54a9c52499a7a4f02c5cededc6b82e4` passed Technical SEO CI #1812; the subsequent docs-only head `d18515c8bd785862354b7c2fed7119640047702b` passed CI #1813. Responsive browser QA remains pending.
 - **#472 Draft** — BTS title / description CTR experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03`). Re-evaluate against fresh Search Console data and current main before rebasing; do not merge automatically.
 
 ## Recently merged
@@ -29,7 +29,7 @@ _Last checked: 2026-11-18 13:50 KST_
 - #534 — corrected homepage image-credit links and excluded Agoda CTA headings from guide TOCs.
 
 ## Current follow-up work
-- #535 — correct all 18 area-specific Agoda CTA placements to disclose the Busan city-level search scope; Draft. Exact-head CI #1812 passed on `7f2e0a3ba54a9c52499a7a4f02c5cededc6b82e4`; responsive mobile QA remains pending.
+- #535 — correct all 18 area-specific Agoda CTA placements to disclose the Busan city-level search scope; Draft. The expanded CTA content/config passed CI #1812 and the subsequent docs-only head passed CI #1813; responsive mobile QA remains pending.
 - #530 — owner-approved revenue-first direction. #532 implemented the primary BTS / Haeundae CTA placements; partner dashboard and completed-booking reporting remain owner-side follow-ups. #535 fixes a destination-scope wording issue.
 - #528 — dedicated Busan New Year 2026–27 guide. PR #533 is merged; keep the issue open for responsive/mobile QA and later official timetable updates.
 - #517 — localized metadata for expanded luggage-storage coverage.
