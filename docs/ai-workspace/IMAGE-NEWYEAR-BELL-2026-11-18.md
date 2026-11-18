@@ -31,5 +31,7 @@ The current public search sample did not surface a recent direct Dcard, PTT, 4tr
 
 - Commons source, subject, author, date, dimensions, license and image appearance verified on 2026-11-18.
 - JSON registry and cover configuration parsed before commit.
-- Exact-head build / image-credit / cover-image audit and responsive 360 / 390 / 768 / 1280 browser crop QA remain pending.
+- Exact-head Technical SEO workflow #1814 (run 44240389433) passed: build, localized checklist, deterministic map generation, dependency-free audit and cover-image checks succeeded. The image-credit audit reports 51 images in use, 59 registered, 8 warnings and 0 strict errors; cover-photo check validates 27 entries. Sitemap has 247 URLs, 904 hreflang links and 0 canonical pages missing from the sitemap.
+- The audit also surfaced a separate 78-character EN page-title warning; follow-up issue #537 tracks shortening the title without changing the URL.
+- Responsive 360 / 390 / 768 / 1280 browser crop and caption QA remain pending.
 - No main merge, Render deployment, analytics, partner link, or SNS change.
