@@ -1,3 +1,12 @@
+## 2026-11-18 — production and PR portfolio reconciliation
+
+- PR #535 was merged at 2026-11-18 08:25:07 UTC (merge commit `99d99aa9a6250c4f7560d1a38fe194423e3ca559`). Its 18 area-specific Agoda CTAs now disclose that the link opens a Busan-wide hotel search and that users should set their intended neighborhood on the partner search page.
+- Current main SHA: `0ef0ed7523700a0c80bcfe65b204688bddb3a1cf` (merge PR #541). Render's latest deploy is live on that exact SHA: deploy `dep-dbuns6afngtc73dc3pag`, finished 2026-11-18 10:29:58 UTC. Render auto-deploy remains disabled; manual deployment was triggered for approved main merges.
+- PR #540 remains Draft / open / unmerged / undeployed. Latest content includes zh-CN first-trip, airport, accommodation and neighborhood-food guides. Exact-head code run #1867 passed; docs follow-up run #1869 is in progress. Current PR branch is 67 commits ahead / 3 behind main, but GitHub currently reports mergeable=true. Do not merge until the branch is reconciled with current main and native Chinese, visual and mainland-network release gates are complete.
+- Current growth priority remains: improve existing high-impression pages and contextual booking conversion before publishing many more URLs. Taiwan zh-TW remains the primary market; zh-CN is a separate pilot.
+
+---
+
 ## 2026-11-18 — zh-CN local food guide added and validated
 
 - Added `/zh-cn/guides/local-food-by-neighborhood/`, a mainland Simplified Chinese localized guide covering Seomyeon pork soup and milmyeon, Nampo / BIFF market snacks, Jagalchi seafood price checks, Haeundae dining, Songdo and Dongnae dishes, Korean ordering phrases, and foreign-visitor queue guidance.
