@@ -54,3 +54,15 @@ These are individual planning examples, not representative demand estimates. The
 - Build / Technical SEO CI and mobile browser QA at 360 / 390 / 1280 are pending on the final PR head.
 - No affiliate click, booking, partner commission, or revenue data was available in this pass. GA4 / GSC were not queried; the separate daily operations check owns those reports.
 - No merge, deployment, partner account change, analytics/consent change, or SNS publication was performed.
+
+
+## Expanded scope audit — all area-specific Agoda placements
+
+The same build-time URL builder is used for every Agoda placement. It constructs `https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1979955&hl=<locale>&city=17172`; it does not add a neighborhood, district or property parameter.
+
+- The live Haeundae food CTA was opened from the deployed Render page on 2026-11-18. Agoda redirected to `/search?cid=1979955&city=17172&hl=en-us&pcs=1&pslc=1`. This confirms a Busan city-level search parameter, not a Haeundae-only deep link. The final search UI remained on Agoda's loading screen, so the result interface itself was not independently inspected.
+- The same URL builder applies to the 18 area-specific placements across EN / JA / zh-TW: Songjeong–Gijang / Osiria, Haeundae, Seomyeon, Gwangalli, Nampo–Jagalchi and Haeundae food.
+- The three general `where-to-stay-busan` placements are intentionally city-wide and retain their current city-level wording.
+- This PR therefore updates all 18 area-specific placements to state that the link opens a Busan-wide search and tells readers to set their preferred neighborhood as the destination before comparing walking routes, room type / facilities, total price and cancellation terms.
+- The owner-supplied CID 1979955, city ID 17172, locale parameters, source anchors, disclosure, `rel="sponsored nofollow noopener noreferrer"` and analytics implementation remain unchanged.
+- No new affiliate placement, partner parameter, property deep link, booking promise or commission claim is added.
