@@ -131,7 +131,7 @@ const Q = {
   ja: { toc: "この記事の内容", newTab: "（新しいタブで開きます）" },
   tw: { toc: "本篇內容", newTab: "（在新分頁開啟）" },
 };
-const SKIP_TOC_IDS = /^(guide-faq-title|related-guides|keep-exploring-title|help-card-title|source-box-title|pass-cta-title|cta-.+)$/;
+const SKIP_TOC_IDS = /^(guide-faq-title|related-guides|keep-exploring-title|help-card-title|source-box-title|pass-cta-title|cta-.+|agoda-.+-title)$/;
 const slug = (s) => s.toLowerCase().normalize("NFKD").replace(/[^\x00-\x7f]/g, "").replace(/&[a-z]+;/g, " ").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60);
 
 export function pageQuality(html, url, loc) {
