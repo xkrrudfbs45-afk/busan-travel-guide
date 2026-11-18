@@ -1,56 +1,50 @@
 # Go2Busan — current verified status
 
-_Last checked: 2026-11-18 (ChatGPT content / operations pass)_
+_Last checked: 2026-11-18 10:36 KST_
 
 ## Repository and production
-
 - Repository: `xkrrudfbs45-afk/busan-travel-guide`; default branch: `main`.
-- Latest verified main SHA: `d2457ae3c2972c11082622abee6a72291fcd0846` (merge of PR #525 at 2026-11-18 00:40:22 UTC).
-- Last independently confirmed Render production SHA remains `af35154405aecc6e520ce6a7d38877d829067f86`, from deploy workflow #44003912824. No later Render deployment or fresh public `/version.txt` response was verified in this pass. The public domain could not be fetched by the current web runtime. Do not assume current main is live; no deployment was initiated.
-- No Render workspace was selected for this pass, so no Render service/deploy API check was performed.
+- Latest verified main SHA: `2a16aa811e577592e8a558174dcdbe7ed6369472` (merge commit for PR #527, 2026-11-18 00:55:57 UTC).
+- PRs #516, #518, #519, #522, #523, #524, #525 and #527 are merged into main.
+- Last independently documented Render production SHA remains `af35154405aecc6e520ce6a7d38877d829067f86` from deploy workflow #44003912824. This pass did not verify a newer Render deployment or fresh public `/version.txt` response. Do not assume current main is live.
+- The repository has no root `version.txt` file on main (GitHub contents lookup returned 404); public runtime verification is separate.
 
-## Merged into main since the previous status snapshot
+## Open pull requests
+- **#472 Draft** — BTS in Busan title / description CTR experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03`). Re-evaluate against fresh Search Console data and current main before rebasing; do not merge automatically.
+- No other open PR was returned by the current repository open-PR search.
 
-- #516 — citywide luggage-storage guidance and Humetro locker fact corrections.
+## Recently merged content
+- #516 — localized luggage-storage options and Humetro locker fact corrections.
 - #518 — large-family / group planning advice in EN / JA / zh-TW.
 - #519 — Seomyeon and Millak winter-light event coverage and event radar.
 - #522 — 15-day SNS audit and draft Gwangbok-ro artwork corrections; no approved/live post or publishing schedule was changed.
 - #523 — report-only image/social-metadata audit.
 - #524 — practical restaurant queue guidance in EN / JA / zh-TW.
 - #525 — Huinnyeoul stairs, slopes, luggage and stroller access warning in EN / JA / zh-TW.
-- Earlier merged #511–#514 remain in main.
+- #527 — optional lower-strain / older-family-member planning, late-arrival guidance and corrected 2026–27 New Year status in EN / JA / zh-TW.
 
-## Open pull requests
-
-- **#527 Draft** — older-traveller planning, late-arrival guidance and New Year status in EN / JA / zh-TW. Branch `content/senior-friendly-new-year-20261118-rebased`, based on main `d2457ae3c2972c11082622abee6a72291fcd0846`. Updated to reflect the current organizer listing for the Busan Citizen’s Bell-tolling Ceremony. Exact-head Technical SEO CI #1784 passed on PR head `0355f43fc721abe25621fa784f27cf86bf045886`: 245 HTML pages, 7,007 local links / 0 broken, 244 sitemap URLs, 892 hreflang links, 0 canonical pages missing from sitemap, and strict image audit 49 in use / 57 registered / 9 warnings / 0 errors. Check the newest run again after any later documentation-only commit. Responsive browser QA at 360 / 390 / 768 / 1280 has not been performed. Keep Draft.
-- **#472 Draft** — old BTS title / description experiment. Its base is stale (`ed3681a96ffab3d49e9e78e89fdbd1e0cb7cde03)); hold and re-evaluate against fresh GSC data before any rebase or merge.
-
-## Current open work / technical follow-ups
-
-- #528 — dedicated Busan New Year 2026–27 guide in EN / JA / zh-TW; content / localization and technical SEO are pending. Target first useful version by 2026-11-19 if quality gates allow.
-
+## Current follow-up work
+- #528 — dedicated Busan New Year 2026–27 guide in EN / JA / zh-TW. Confirmed listing: Busan Citizen’s Bell-tolling Ceremony, 2026-12-31 to 2027-01-01, Yongdusan Park. Exact times, detailed running order, crowd controls, extended transit and a special Gwangalli New Year drone show remain unconfirmed. Do not recycle 2025 programme details.
 - #517 — localized metadata for expanded luggage-storage guides.
 - #520 — winter-events hub metadata for Seomyeon / Millak.
 - #521 — EN / JA / zh-TW winter-guide metadata for Seomyeon / Millak.
-- #474 — main branch protection / required-check enforcement remains a separate owner/admin verification.
+- #474 — main branch protection / required-check enforcement; owner/admin verification required.
 - #365 — historic sitemap / reciprocal hreflang warnings; recheck against current main before acting.
 
-## New Year 2026–27 fact status
+## Audience and editorial direction
+- Primary audience remains independent international visitors planning their own Busan trip, with young adults and 20–40s travellers an important creative focus. Do not reposition the whole site as a senior-travel service.
+- Lead with visually compelling, practical Busan experiences: coast, night views, cafes, food, shopping, neighborhoods, events and easy-to-follow itineraries.
+- Accessibility, stairs, slopes, elevators, luggage and rest-stop information should appear where relevant as useful trip-planning detail for any visitor.
+- Taiwan Traditional Chinese remains a priority market, alongside English and Japanese. Validate market prioritization with GA4 / Search Console / social performance rather than assumptions alone.
 
-- Busan Festivals Organization lists the Busan Citizen’s Bell-tolling Ceremony for **2026-12-31 to 2027-01-01 at Yongdusan Park**, hosted by Busan Metropolitan City. The listed programme categories are a year-end music festival and countdown, bell-ringing ceremony and New Year’s address: https://bfo.or.kr/event/57.
-- Exact start times, detailed running order, crowd-control / entry arrangements, extended transit and a special Gwangalli New Year drone performance remain unconfirmed in the 2026–27 notices reviewed.
-- The organizer's detailed programme posts currently show a 2025-12-30 publication date; do not reuse those prior-edition images or last year's transport-extension notices as current-year details.
-- PR #527 and `EVENT-RADAR.md` now distinguish confirmed event date / venue / programme categories from unconfirmed operational details.
+## Image and homepage baseline
+- Main homepage hero uses a Wikimedia Commons Busan skyline photograph (Gwangan Bridge / Marine City / LCT) with a dark overlay. The homepage also has a six-item quick navigation and four-card visual picks area.
+- Homepage styling is layered across `assets/homepage-editorial.css` and `assets/homepage-showcase.css`; inspect cascade order and mobile overrides before changing design.
+- Last documented strict image baseline on PR #527 exact-head audit: 49 images in use, 57 registered, 9 warnings, 0 strict errors. This is not a new image audit in this pass.
+- Next homepage visual pass should prioritize real, place-matched photography, image rights / credit verification, mobile crops, loading priority and visual consistency. Do not use generated images to misrepresent actual Busan locations.
 
-## Image and technical baseline
-
-- Last passing strict image audit on exact PR #525 head #1767: 49 images in use, 57 registered, 9 warnings, 0 strict errors. This is a recent repository baseline, not a fresh audit of the current #527 head.
-- PR #527 adds no new image and does not change image credits.
-- No browser screenshots or visual verification at 360 / 390 / 1280 were captured in this pass. Static CI, when available, must not be described as visual QA.
-
-## Analytics, SNS and release controls
-
-- No GA4 / GSC query in this content pass; the separate daily operations automation owns those metrics.
-- No Instagram / Threads post, schedule, LIVE setting, token, analytics consent or measurement configuration was changed.
-- Affiliate clicks are not bookings or revenue; partner conversion / commission remains unverified unless owner-side partner data is available.
-- PR merge, main changes and Render deployment require the owner's explicit approval. No merge or deployment was performed in this pass.
+## Release, analytics and SNS controls
+- No Render deployment was initiated or verified in this pass.
+- No GA4 / Search Console query was run in this pass.
+- No Instagram / Threads post, schedule, LIVE setting, token, consent or measurement configuration was changed.
+- PR merge and production deployment are separate actions; do not claim a merge is live without deployment evidence.
