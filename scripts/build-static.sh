@@ -35,7 +35,7 @@ for path in public/docs public/marketing public/render.yaml public/README.md; do
 done
 
 # Smoke-check the primary entry points and shared assets before deployment.
-for path in public/index.html public/ja/index.html public/zh-tw/index.html public/zh-cn/index.html public/zh-cn/guides/index.html public/zh-cn/guides/first-trip/index.html public/zh-cn/guides/gimhae-airport-to-city/index.html public/zh-cn/guides/where-to-stay-busan/index.html public/sitemap.xml public/assets/styles.css public/assets/js/analytics.js; do
+for path in public/index.html public/ja/index.html public/zh-tw/index.html public/zh-cn/index.html public/zh-cn/guides/index.html public/zh-cn/guides/first-trip/index.html public/zh-cn/guides/gimhae-airport-to-city/index.html public/zh-cn/guides/where-to-stay-busan/index.html public/zh-cn/guides/local-food-by-neighborhood/index.html public/sitemap.xml public/assets/styles.css public/assets/js/analytics.js; do
   if [ ! -f "$path" ]; then
     echo "Required built file missing: $path" >&2
     exit 1
