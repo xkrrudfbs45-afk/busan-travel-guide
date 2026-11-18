@@ -68,7 +68,7 @@ The English winter-lights page already covers the seasonal intent. Rather than c
 ## Current sitewide image and social-metadata baseline
 
 - Baseline main SHA 5e57f2c266a79a9ba72fe8ad38b7adf65ab6ccb0 passed Technical SEO audit run #44315016608: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44315016608. It reported 89 social-image warnings (EN 31, JA 26, zh-TW 32), including three missing og:image:alt fields.
-- This PR adds localized og:image:alt and twitter:image:alt to the JA and zh-TW guide directories. The exact-head PR audit run #44394476630 passed: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44394476630. The social-image warning count is now 87 (EN 31, JA 25, zh-TW 31); only zh-tw/guides/busan-newspaper-food-picks/index.html remains missing og:image:alt.
+- This PR adds localized og:image:alt and twitter:image:alt to the JA and zh-TW guide directories. The final content head 8f9e9538bef4fb81d5c021147a02e8ab5e419da2 passed Technical SEO audit run #44394950196: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44394950196. The social-image warning count is now 87 (EN 31, JA 25, zh-TW 31); only zh-tw/guides/busan-newspaper-food-picks/index.html remains missing og:image:alt.
 - The exact-head audit reports 105 total warnings: 87 social-image warnings, 13 title-length warnings and 5 meta-description-length warnings. The separate social-meta check reports 0 gaps but has a different scope; do not treat it as a clean bill of health.
 - Strict image-credit audit: 51 images in use, 59 registered, 8 warnings, 0 errors. The 8 warnings are unused registry entries, including a malformed unsplash:undefined key; verify each registry reference before removing or reusing anything.
 - Positive checks: 29 cover entries passed; homepage food-card audit passed at 10 cards / 10 distinct image URLs; 705 language-switch links checked with 0 findings; affiliate CTA, Agoda CTA and place-map checks passed.
@@ -80,8 +80,8 @@ Search intent is seasonal and action-oriented: date, free vs paid, operating day
 
 ## Validation and remaining risk
 
-- Source-level checks in this PR verify all three canonical URLs, reciprocal hreflang, sitemap entries, localized internal links, official ticket links and image-credit wording.
-- Exact-head Technical SEO CI and the live sitemap/HTTP smoke test have not run for this branch yet.
+- Source-level checks in this PR verify all three canonical URLs, reciprocal hreflang, sitemap entries, localized internal links, official ticket links, visible FAQ/FAQPage parity and image-credit wording.
+- Exact-head Technical SEO CI passed on the final content head (run #44394950196). No live sitemap/HTTP smoke test was run for this branch because it remains unmerged and undeployed.
 - Browser screenshots and visual checks at 360 / 390 / 1280 px have not been performed. Do not treat source-level checks as visual proof.
 - Ticket inventory, event operations, weather cancellations and the Gwangbok-ro visitor programme can change. Recheck the organizer and district notices near the travel date.
 - No analytics IDs, consent settings, affiliate CTAs, SNS content/schedules, external posts, redirects, URLs, prices or payment flows were changed. No merge or production deployment is included.
