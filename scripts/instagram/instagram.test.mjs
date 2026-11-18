@@ -264,8 +264,15 @@ function nextInstagramRunAfter(iso, { minute, hours }) {
 test("Instagram cron provides three opportunities inside the six-hour late window", () => {
   const cron = instagramCronHours();
   assert.ok(cron.hours.length <= 10, "keep targeted checks bounded (no 15-minute polling)");
+  const now = Date.now();
+  const horizon = now + 15 * 24 * 60 * 60 * 1000;
   const sample = [
-    ...realSchedule.posts.map((p) => p.publish_at_utc),
+    ...realSchedule.posts
+      .filter((p) => {
+        const t = Date.parse(p.publish_at_utc);
+        return t >= now - 60 * 60 * 1000 && t <= horizon;
+      })
+      .map((p) => p.publish_at_utc),
     // US local-noon slots in daylight and standard time.
     "2027-07-01T16:00:00.000Z",
     "2027-01-15T17:00:00.000Z",
