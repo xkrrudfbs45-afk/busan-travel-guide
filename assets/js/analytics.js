@@ -1,12 +1,15 @@
 /**
  * Go2Busan privacy-first analytics.
- * GA4 loads only after a visitor explicitly opts in.
+ * Visitors in Europe (EU/EEA, UK, Switzerland; detected from the browser time zone) must opt in before GA4 loads.
+ * Elsewhere GA4 loads by default with a visible notice and a one-click "turn off" choice that is remembered.
+ * Advertising signals stay off everywhere. Owner/staff devices can mark themselves as internal with ?g2b_internal=1.
  */
 (() => {
   'use strict';
 
   const GA4_MEASUREMENT_ID = 'G-JCYV49BXQZ';
   const CONSENT_KEY = 'go2busan_analytics_consent';
+  const INTERNAL_KEY = 'go2busan_internal_traffic';
   const validMeasurementId = /^G-[A-Z0-9]{6,}$/i.test(GA4_MEASUREMENT_ID);
   if (!validMeasurementId) return;
 
@@ -27,8 +30,26 @@
         reject: '許可しない',
         privacy: 'プライバシーポリシー',
         choices: '解析設定を変更',
-        disclosure: '提携リンクについて'
+        disclosure: '提携リンクについて',
+        noticeTitle: 'アクセス解析について',
+        noticeBody: 'どのガイドが旅行者の役に立っているかを知るため、Google アナリティクスを利用しています。広告目的には使いません。いつでもオフにでき、オフにしてもサイトは通常どおり使えます。',
+        noticeOk: 'OK',
+        noticeOff: '解析をオフにする'
       }
+    : (language.includes('zh-cn') || language.includes('zh-hans')
+      ? {
+          title: '隐私设置',
+          body: '您可以选择允许网站分析，帮助我们改进本站。拒绝后仍可正常使用本站。',
+          accept: '允许分析',
+          reject: '拒绝',
+          privacy: '隐私政策（英文）',
+          choices: '更改分析设置',
+          disclosure: '联盟链接说明（英文）',
+          noticeTitle: '关于网站分析',
+          noticeBody: '我们使用 Google Analytics 了解哪些指南对旅客有帮助，不用于广告。您可以随时关闭，关闭后仍可正常使用本站。',
+          noticeOk: '好',
+          noticeOff: '关闭分析'
+        }
     : (language.includes('zh-tw') || language.includes('zh-hant')
       ? {
           title: '隱私設定',
@@ -37,7 +58,11 @@
           reject: '拒絕',
           privacy: '隱私權政策',
           choices: '變更分析設定',
-          disclosure: '聯盟行銷揭露'
+          disclosure: '聯盟行銷揭露',
+          noticeTitle: '關於網站分析',
+          noticeBody: '我們使用 Google Analytics 了解哪些指南對旅客有幫助，不用於廣告。您可以隨時關閉，關閉後仍可正常使用本站。',
+          noticeOk: '好',
+          noticeOff: '關閉分析'
         }
       : {
           title: 'Your privacy choices',
@@ -46,8 +71,38 @@
           reject: 'Reject',
           privacy: 'Privacy policy',
           choices: 'Change analytics choices',
-          disclosure: 'Affiliate disclosure'
-        });
+          disclosure: 'Affiliate disclosure',
+          noticeTitle: 'About analytics',
+          noticeBody: 'We use Google Analytics to see which guides help travelers. It is not used for advertising. You can turn it off at any time and the site works the same.',
+          noticeOk: 'OK',
+          noticeOff: 'Turn off analytics'
+        }));
+
+  // Opt-in is required where the browser time zone is in Europe (EU/EEA, UK, Switzerland and neighbours).
+  // If the time zone cannot be read, fall back to opt-in.
+  function requiresOptIn() {
+    let zone = '';
+    try {
+      zone = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    } catch (_) {
+      zone = '';
+    }
+    if (!zone) return true;
+    return zone.startsWith('Europe/') || /^(Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe)|Arctic\/Longyearbyen)$/.test(zone);
+  }
+  const optInRegion = requiresOptIn();
+
+  // Owner/staff devices: visit any page once with ?g2b_internal=1 (or =0 to undo).
+  // GA4 then tags this browser's hits as traffic_type=internal so the Internal Traffic filter can exclude them.
+  let internalTraffic = false;
+  try {
+    const flag = new URLSearchParams(window.location.search).get('g2b_internal');
+    if (flag === '1') window.localStorage.setItem(INTERNAL_KEY, '1');
+    if (flag === '0') window.localStorage.removeItem(INTERNAL_KEY);
+    internalTraffic = window.localStorage.getItem(INTERNAL_KEY) === '1';
+  } catch (_) {
+    internalTraffic = false;
+  }
 
   function saveChoice(value) {
     try {
@@ -262,11 +317,13 @@
     document.head.appendChild(gaScript);
 
     window.gtag('js', new Date());
-    window.gtag('config', GA4_MEASUREMENT_ID, {
+    const config = {
       anonymize_ip: true,
       allow_google_signals: false,
       allow_ad_personalization_signals: false
-    });
+    };
+    if (internalTraffic) config.traffic_type = 'internal';
+    window.gtag('config', GA4_MEASUREMENT_ID, config);
     registerTrackingHandlers();
   }
 
@@ -311,6 +368,55 @@
       const granted = button.dataset.analyticsChoice === 'accept';
       saveChoice(granted ? 'granted' : 'denied');
       if (granted) loadAnalytics();
+      else updateConsent(false);
+      banner.remove();
+    });
+
+    document.body.appendChild(banner);
+  }
+
+  // Outside opt-in regions: analytics is already on; show a one-time notice with a clear way to turn it off.
+  function showAnalyticsNotice() {
+    const existing = document.getElementById('analytics-consent-banner');
+    if (existing) existing.remove();
+
+    const banner = document.createElement('section');
+    banner.id = 'analytics-consent-banner';
+    banner.className = 'analytics-consent';
+    banner.setAttribute('role', 'region');
+    banner.setAttribute('aria-label', copy.noticeTitle);
+
+    const copyWrap = document.createElement('div');
+    copyWrap.className = 'analytics-consent__copy';
+    const title = document.createElement('strong');
+    title.textContent = copy.noticeTitle;
+    const body = document.createElement('p');
+    body.textContent = copy.noticeBody;
+    const privacy = document.createElement('a');
+    privacy.href = privacyPath;
+    privacy.textContent = copy.privacy;
+    copyWrap.append(title, body, privacy);
+
+    const actions = document.createElement('div');
+    actions.className = 'analytics-consent__actions';
+    const off = document.createElement('button');
+    off.type = 'button';
+    off.dataset.analyticsChoice = 'reject';
+    off.textContent = copy.noticeOff;
+    const ok = document.createElement('button');
+    ok.type = 'button';
+    ok.dataset.analyticsChoice = 'accept';
+    ok.textContent = copy.noticeOk;
+    actions.append(off, ok);
+    banner.append(copyWrap, actions);
+
+    banner.addEventListener('click', (event) => {
+      const target = event.target;
+      const button = target && target.closest ? target.closest('button[data-analytics-choice]') : null;
+      if (!button) return;
+      const keepOn = button.dataset.analyticsChoice === 'accept';
+      saveChoice(keepOn ? 'granted' : 'denied');
+      if (keepOn) loadAnalytics();
       else updateConsent(false);
       banner.remove();
     });
@@ -375,13 +481,24 @@
     savedChoice = null;
   }
 
+  const whenReady = (fn) => {
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', fn, { once: true });
+    else fn();
+  };
+
   if (savedChoice === 'granted') {
     loadAnalytics();
   } else if (savedChoice === 'denied') {
     updateConsent(false);
-  } else if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', showConsentBanner, { once: true });
+  } else if (savedChoice === 'notice' && !optInRegion) {
+    // Notice already shown and not turned off: keep the default.
+    loadAnalytics();
+  } else if (optInRegion) {
+    whenReady(showConsentBanner);
   } else {
-    showConsentBanner();
+    // Default-on outside opt-in regions, with a one-time notice. Ignoring the notice keeps analytics on.
+    loadAnalytics();
+    saveChoice('notice');
+    whenReady(showAnalyticsNotice);
   }
 })();
