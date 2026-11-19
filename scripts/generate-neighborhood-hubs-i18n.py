@@ -4,7 +4,7 @@ import json, html, os
 B = 'https://go2busan.com'
 e = lambda s: html.escape(s, quote=True)
 OG_SEOMYEON = 'https://commons.wikimedia.org/wiki/Special:FilePath/Busanhang_Bridge_taken_from_Yeongdo.jpg?width=1600'
-HAEUNDAE_IMG = 'https://commons.wikimedia.org/wiki/Special:FilePath/Haeundae_District_and_Beach.jpg?width=1600'
+HAEUNDAE_IMG = 'https://commons.wikimedia.org/wiki/Special:FilePath/Haeundae_Busan_South_Korea_01.jpg?width=1600'
 IMAGES = {'haeundae': HAEUNDAE_IMG,
           'nampo': 'https://commons.wikimedia.org/wiki/Special:FilePath/Nampo-dong_Busy_Street.JPG?width=1600',
           'gwangalli': 'https://commons.wikimedia.org/wiki/Special:FilePath/Gwangan_Bridge1.jpg?width=1600'}
@@ -25,7 +25,7 @@ H[('ja', 'haeundae')] = dict(
  desc='釜山・海雲台を地元目線で整理。金海空港や釜山駅からの行き方、宿の選び方、食事、周辺スポット、冬のイベントまで、詳しいガイドへの入口をまとめました。',
  eyebrow='エリアガイド・釜山東部', h1='海雲台エリアガイド：ビーチ、グルメ、宿泊、行き方',
  deck='海雲台は釜山でいちばん知られたビーチエリアです。このページでエリア全体を把握し、各テーマの詳しいガイドへ進んでください。',
- img_alt='海雲台海水浴場と背後の高層ビル群', credit=f'写真：Masterhatch / Wikimedia Commons、{LICENSE}',
+ img_alt='海雲台海水浴場と背後の高層ビル群', credit='<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener" target="_blank">写真：Hankook12 / Wikimedia Commons、CC0 1.0</a>',
  summary=['ビーチ、海沿いの散歩、カフェ、のんびりした海辺ステイに向いています。', '海雲台駅は地下鉄2号線。釜山駅からは1号線で西面へ行き、2号線に乗り換えます。', '釜山の西側・中心部からは遠いので、日ごとにエリアをまとめて回るのがおすすめです。'],
  body='''<h2 id="who-is-it-for">海雲台を拠点にするべき？</h2>
 <p>ビーチや海沿いの散歩、夜の海辺の時間を旅の中心にしたいなら海雲台が向いています。釜山の東側でリゾートのように過ごしたい人に合うエリアです。</p>
@@ -91,7 +91,7 @@ H[('zh-tw', 'haeundae')] = dict(
  desc='用在地視角整理釜山海雲台：從金海機場與釜山站怎麼去、住宿怎麼選、吃什麼、周邊景點與冬季活動，並連到各主題的詳細指南。',
  eyebrow='區域指南・釜山東部', h1='海雲台區域指南：海灘、美食、住宿與交通',
  deck='海雲台是釜山最知名的海灘區。先用這一頁掌握整個區域，再依需求打開各主題的詳細指南。',
- img_alt='海雲台海水浴場與後方的高樓群', credit=f'照片：Masterhatch / Wikimedia Commons，{LICENSE}',
+ img_alt='海雲台海水浴場與後方的高樓群', credit='<a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noopener" target="_blank">照片：Hankook12 / Wikimedia Commons，CC0 1.0</a>',
  summary=['適合以海灘、海岸散步、咖啡廳和悠閒海邊住宿為主的旅程。', '海雲台站在地鐵 2 號線；從釜山站搭 1 號線到西面，再轉 2 號線。', '缺點是離釜山西部與市中心較遠，建議每天集中走同一區。'],
  body='''<h2 id="who-is-it-for">適合住海雲台嗎？</h2>
 <p>如果海灘、海岸步道和傍晚的海邊時光是旅程重點，海雲台很適合。想在釜山東邊輕鬆度假的人，可以把這裡當據點。</p>
@@ -295,6 +295,7 @@ for (loc, area), h in H.items():
     slug = f'{area}-neighborhood-guide'
     url = f'{B}/{loc}/guides/{slug}/'
     img = IMAGES.get(area)
+    img_w, img_h = (1931, 1600) if area == 'haeundae' else (1600, 1067)
     og = img or OG_SEOMYEON
     ogalt = h['img_alt'] or ('影島から見た釜山港大橋' if loc == 'ja' else '從影島看釜山港大橋')
     art = {"@context": "https://schema.org", "@type": "Article", "@id": url + "#article", "headline": h['h1'], "description": h['desc'], "image": og,
@@ -304,7 +305,7 @@ for (loc, area), h in H.items():
         {"@type": "ListItem", "position": 1, "name": u['home'], "item": f'{B}/{loc}/'},
         {"@type": "ListItem", "position": 2, "name": u['guides'], "item": f'{B}/{loc}/guides/'},
         {"@type": "ListItem", "position": 3, "name": h['crumb'], "item": url}]}
-    cover = (f'<figure class="article-cover shell"><img src="{img}" alt="{e(h["img_alt"])}" width="1600" height="1067" fetchpriority="high" decoding="async">'
+    cover = (f'<figure class="article-cover shell"><img src="{img}" alt="{e(h["img_alt"])}" width="{img_w}" height="{img_h}" fetchpriority="high" decoding="async">'
              f'<figcaption>{e(h["img_alt"])}。{h["credit"]}</figcaption></figure>') if img else ''
     faq = ''.join(f'<details><summary>{e(q)}</summary><p>{e(a)}</p></details>' for q, a in h['faq'])
     rel = ''.join(f'<li><a href="{x}">{e(t)}</a></li>' for x, t in h['related'])

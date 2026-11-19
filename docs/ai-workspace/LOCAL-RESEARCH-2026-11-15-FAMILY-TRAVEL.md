@@ -152,3 +152,10 @@ Target URL: `/ja/guides/busan-with-kids/`
 - Site-wide follow-up is still needed: sitemap audit reports 226 URL entries for 241 canonical pages, 14 missing zh-TW pages and 6 non-reciprocal hreflang pairs. Source SEO audit reports 117 WARN / 31 INFO, including 98 pages without explicit social-image metadata in source HTML (build enhancements fill many generated tags). These are recorded in issue #365; image follow-up is in #384.
 - The current production deployment remains main SHA `f64a1220ea3dea65c3dcdcd8393173ca7bf87de4`; Deploy run #269 confirmed `version.txt` matched that SHA and smoke-tested core routes at HTTP 200. PR #459 remains Draft and is not deployed.
 - Real-browser checks at 360px, 390px and 1280px, image focal crop, caption legibility, keyboard focus and Lighthouse metrics were **not performed**. Do not report them as complete.
+
+
+## 2026-11-20 rights follow-up
+
+- A fresh Commons review confirmed the South Korea panorama warning on `Haeundae_District_and_Beach.jpg`. Although this file had been rejected in the original research, the registry and several page / generator references still treated it as verified.
+- PR #580 removes those active references, marks the file `do_not_use` / non-commercial in `image-credits.json`, and retains `Haeundae_Busan_South_Korea_01.jpg` (Hankook12, CC0 1.0) as the rights-cleared coastal replacement.
+- The CC0 image remains a general Haeundae beach / skyline scene only; it is not presented as a child facility or a hotel-room view. Mobile crop QA remains pending.

@@ -218,12 +218,12 @@
       "author": "Masterhatch",
       "license": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "commercial_use": true,
+      "commercial_use": false,
       "attribution_required": true,
       "modified": "resized/cropped by CSS or Special:FilePath only",
-      "checked_on": "2026-11-04",
-      "status": "verified",
-      "note": "Beach and skyline; do not use as a hotel room view."
+      "checked_on": "2026-11-20",
+      "status": "do_not_use",
+      "note": "Commons file page rechecked 2026-11-20: the file carries a South Korea freedom-of-panorama copyright warning for architectural/artistic works; the non-commercial exception does not support this commercial site use. Remove from all page and generator references; do not reuse."
     },
     {
       "source": "wikimedia",
@@ -693,9 +693,9 @@
       "commercial_use": true,
       "attribution_required": false,
       "modified": "resized/cropped by CSS or Special:FilePath only",
-      "checked_on": "2026-11-15",
+      "checked_on": "2026-11-20",
       "status": "verified",
-      "note": "Haeundae beach and coastal skyline, photographed 2024-02-09. CC0; Commons file page checked 2026-11-15 and no South Korea panorama warning was shown. Used as a general coastal scene, not as a family or child-facility photograph."
+      "note": "Haeundae beach and coastal skyline, photographed 2024-02-09. Commons file page rechecked 2026-11-20: CC0 1.0, commercial reuse permitted, no South Korea panorama warning shown. Use only as a general coastal scene, not as a hotel-room view or a photograph of child facilities."
     },
     {
       "source": "wikimedia",
