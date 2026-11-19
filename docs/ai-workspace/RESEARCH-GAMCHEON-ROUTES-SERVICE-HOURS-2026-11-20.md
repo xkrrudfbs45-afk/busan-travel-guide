@@ -23,7 +23,7 @@
 - [Reddit: Winter itinerary help](https://www.reddit.com/r/koreatravel/comments/1xtbrwu/winter_itinerary_help/), 2026-11-11: a family with two children staying in Haeundae asks how to combine east- and west-Busan sights. A Korean reply recommends splitting the city by area and using the Jagalchi/Chungmu Market village-bus connection to Gamcheon. This is a single reply, not a consensus estimate.
 
 ### Korean public sources
-- Searches of Naver, DC Inside, TheQoo, Clien and Ppomppu did not surface a recent independent thread that warranted a new guide. The most useful practical confirmation came from the village association's own directions page and Visit Busan's official service listing.
+- Searches of Naver, DC Inside, TheQoo, Clien and Ppomppu did not surface a recent independent discussion thread that warranted a new guide. A public Korean local guide, [Busan Local Note](https://n-killo.github.io/ko/posts/gamcheon-culture-village-guide/), dated 2026-11-08, independently summarizes the two official service-hour listings, Jagalchi Exit 1 / Chungmu Market route, parking limits and residential etiquette. It is a secondary local guide, not an official source or a forum consensus; official facts were checked against the village association and Visit Busan.
 - [Metro Seoul report on the special-management designation](https://www.metroseoul.co.kr/article/20260731500039), 2026-07-31, provides local-policy context; the separate visitor-rules guide already covers the 2027 restrictions.
 
 ## Official verification — 2026-11-20
