@@ -237,6 +237,26 @@
       "creation_id": "18136687492745304",
       "last_error": "IG POST /17841422359116355/media_publish 403: Application request limit reached",
       "missed_at": "2026-11-18T23:26:18.935Z"
+    },
+    "ig-fresh15-1119-jp": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-19T07:41:52.006Z",
+      "creation_id": "18158700814516320",
+      "media_id": "18103329293537351",
+      "permalink": "https://www.instagram.com/p/Df6kbkaFTWl/",
+      "published_at": "2026-11-19T07:41:52.006Z",
+      "last_error": null
+    },
+    "ig-fresh15-1119-tw": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-19T07:41:52.006Z",
+      "creation_id": "18115398874946342",
+      "media_id": "18121365229793320",
+      "permalink": "https://www.instagram.com/p/Df6kfHwFR5K/",
+      "published_at": "2026-11-19T07:41:52.006Z",
+      "last_error": null
     }
   }
 }
