@@ -1,3 +1,15 @@
+## 2026-11-20 05:32 KST — next contributor handoff
+
+- Keep main at `13c1182cb60065673a9ea1bd6ccd4f7fab2888b6`; no production change is authorized by this checkpoint.
+- Review [PR #577](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/577) for the Gamcheon Jagalchi / Chungmu Market village-bus route and winter guide / luggage-service cutoff. Its exact-head Technical SEO run #44570555825 passed; still require responsive browser QA at 360 / 390 / 1280 and a live route / phone confirmation before owner approval.
+- Review [PR #576](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/576) for the subject-matched Gamcheon rules-page photo. Its exact-head Technical SEO run #44570038978 passed; still require actual 1200×630 crop review, browser review at 360 / 390 / 1280, and image-byte / LCP verification. Keep the CC BY-SA 4.0 attribution and share-alike notice.
+- [PR #578](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/578) fixes exactly two stale zh-TW internal food-guide labels after the 28-item metadata/image correction in #564. No exact-head workflow run is visible yet. Run `sh scripts/build-static.sh` and the complete `.github/workflows/seo-audit.yml` suite on the exact head before treating it as review-ready; visual QA was not performed.
+- Direct public-site checks for `/`, `/version.txt`, `/sitemap.xml` and the sampled Gamcheon pages could not be completed in this pass because the web fetch failed and runtime DNS resolution was unavailable. The last verified deployment record is #44515311750 on main SHA `13c1182cb60065673a9ea1bd6ccd4f7fab2888b6`; do not convert that into a fresh HTTP assertion.
+- PR #472 remains on hold until the planned GSC recheck around 2026-11-28; do not merge or reset its title test early.
+- Keep all PRs Draft / unmerged pending the owner’s per-PR approval. No GA4 / GSC query, SNS schedule change, publication, affiliate destination change or deployment was performed in this pass.
+
+---
+
 ## 2026-11-19 21:31 KST — current production checkpoint
 
 - Current GitHub main: `13c1182cb60065673a9ea1bd6ccd4f7fab2888b6`.
