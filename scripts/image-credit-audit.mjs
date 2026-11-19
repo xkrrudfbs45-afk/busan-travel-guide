@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Image rights audit. Every external photo used by the site must be listed in assets/data/image-credits.json.
+// Image rights audit. Every third-party photo, remote or locally stored, must be listed in assets/data/image-credits.json.
 //   node scripts/image-credit-audit.mjs            -> fails on unregistered images, incomplete verified entries,
 //                                                     broken registry; reports do_not_use / needs_review usage as WARN
 //   node scripts/image-credit-audit.mjs --strict   -> also fails when a do_not_use image is still in use
