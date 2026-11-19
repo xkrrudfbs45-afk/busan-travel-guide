@@ -15,6 +15,7 @@ const norm = (s) => decodeURIComponent(s).replace(/ /g, "_").replace(/^File:/i, 
 const keyOf = {
   commons: (m) => "wikimedia:" + norm(m),
   unsplash: (m) => "unsplash:" + m,
+  officialArchive: (m) => "official_busantourism_archive:" + norm(m),
 };
 
 function walk(dir, out = []) {
@@ -30,6 +31,7 @@ const PATTERNS = [
   [/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/[0-9a-f]\/[0-9a-f]{2}\/([^/"'\s]+)\//g, keyOf.commons],
   [/upload\.wikimedia\.org\/wikipedia\/commons\/[0-9a-f]\/[0-9a-f]{2}\/([^/"'\s?]+)/g, keyOf.commons],
   [/images\.unsplash\.com\/(photo-[0-9a-f-]+)/g, keyOf.unsplash],
+  [/\/assets\/images\/events\/([^"'?\s]+)/g, keyOf.officialArchive],
 ];
 
 const errors = [];
@@ -40,7 +42,10 @@ catch (e) { console.error("ERROR: cannot read assets/data/image-credits.json: " 
 
 const byKey = new Map();
 for (const e of registry.images) {
-  const key = e.source === "wikimedia" ? "wikimedia:" + norm(e.file) : "unsplash:" + e.id;
+  const key = e.source === "wikimedia" ? "wikimedia:" + norm(e.file)
+    : e.source === "unsplash" ? "unsplash:" + e.id
+    : e.source === "official_busantourism_archive" ? keyOf.officialArchive(e.file)
+    : "unknown:" + e.source + ":" + (e.file || e.id || "undefined");
   if (byKey.has(key)) errors.push(`duplicate registry entry ${key}`);
   byKey.set(key, e);
   if (!["verified", "needs_review", "do_not_use"].includes(e.status)) errors.push(`${key}: invalid status "${e.status}"`);
@@ -48,7 +53,7 @@ for (const e of registry.images) {
     for (const f of ["source_url", "author", "license", "license_url", "checked_on"])
       if (!e[f]) errors.push(`${key}: verified entry missing "${f}"`);
     if (e.commercial_use !== true) errors.push(`${key}: verified entry must have commercial_use true`);
-    if (e.source !== "wikimedia") errors.push(`${key}: only Wikimedia entries can be verified without owner sign-off`);
+    if (!["wikimedia", "official_busantourism_archive"].includes(e.source)) errors.push(`${key}: verified entry uses an unsupported source type`);
   }
 }
 
@@ -101,7 +106,7 @@ for (const rule of css.matchAll(/([^{}]+)\{([^{}]*)\}/g)) {
   const key = PATTERNS.map(([re, mk]) => { re.lastIndex = 0; const m = re.exec(u[1]); return m ? mk(m[1]) : null; }).find(Boolean);
   if (!key) continue;
   for (const sel of rule[1].split(",")) {
-    const c = (sel.trim().split(/\s+/).pop() || "").match(/^\.((?:trend|thumb)-[a-z0-9-]+)$/);
+    const c = (sel.trim().split(/\s+/).pop() || "").match(/^\.((?:trend|thumb|seasonal-event)-[a-z0-9-]+)$/);
     if (c) effective.set(c[1], key);
   }
 }
@@ -113,9 +118,19 @@ for (const home of ["index.html", "ja/index.html", "zh-tw/index.html"]) {
     const e = byKey.get(effective.get(cls));
     const credit = (card[2].match(/<span class="trend-credit">([^<]*)<\/span>/) || [])[1];
     if (!e) continue;
-    if (e.source !== "wikimedia") { if (credit) errors.push(`${home}: card ${cls} shows a credit ("${credit}") but its photo is not a Wikimedia photo`); continue; }
     if (e.attribution_required && !(credit && credit.includes(e.author.split(" (")[0]) && credit.includes(shortLic(e))))
       errors.push(`${home}: card ${cls} needs credit "${e.author} / ${shortLic(e)}" (has: ${credit || "none"})`);
+  }
+
+  const seasonalCreditHtml = (html.match(/<p class="home-experience-credits seasonal-event-credit">([\s\S]*?)<\/p>/i) || [])[1] || "";
+  const seasonalCredit = seasonalCreditHtml.replace(/<[^>]+>/g, " ");
+  for (const card of html.matchAll(/<div class="seasonal-event-photo ([^"]*)"/g)) {
+    const cls = card[1].split(/\s+/).filter((c) => effective.has(c)).pop();
+    if (!cls) continue;
+    const e = byKey.get(effective.get(cls));
+    if (!e) continue;
+    if (e.attribution_required && !(seasonalCredit.includes(e.author.split(" (")[0]) && seasonalCredit.includes(shortLic(e))))
+      errors.push(`${home}: seasonal event card ${cls} needs credit "${e.author} / ${shortLic(e)}"`);
   }
 }
 
