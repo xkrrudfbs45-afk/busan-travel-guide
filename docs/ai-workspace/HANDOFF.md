@@ -1,3 +1,15 @@
+## 2026-11-19 21:31 KST — current production checkpoint
+
+- Current GitHub main: `13c1182cb60065673a9ea1bd6ccd4f7fab2888b6`.
+- Exact-main Technical SEO run [#44515255541](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44515255541) passed: 258 sitemap URLs, 259 canonical HTML pages, 966 hreflang links, zero canonical pages missing from sitemap, zero social-meta gaps, and 32 verified cover entries. Strict image-credit audit: 52 images in use / 60 registered / 8 unused-entry warnings / 0 errors. Homepage food-card audit: 10 cards / 10 distinct image URLs.
+- Production deploy [#44515311750](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44515311750) succeeded. Its deployment log confirms `/version.txt` matched the main SHA, the EN/JA/zh-TW/home guide-directory caches were fresh, core smoke-test URLs returned HTTP 200, and all 258 sitemap URLs passed the deployment smoke test.
+- Main now includes the November 19 G-STAR EN/JA/zh-TW update, KTX sold-out/cancellation guidance, seasonal winter-event image/metadata work, and the three-language Tagless pilot clarification (PRs #571–#574). No new content URL was justified in this checkpoint.
+- Open PR #472 remains Draft / open / unmerged and is not mergeable against its old base. Keep it on hold until the planned post-change GSC review around 2026-11-28; do not merge or reset the title test early.
+- Image follow-up #384 was updated with comment [#7009354711](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/384#issuecomment-7009354711). Remaining gates are real browser crop review at 360/390/1280, external image response checks, and current Lighthouse/LCP/CLS measurement.
+- No GA4/GSC query was run in this recurring growth pass. No SNS schedule/publication, affiliate destination, analytics configuration, production setting, or deployment was changed by this pass.
+
+---
+
 ## 2026-11-18 — KTX booking-window correction / PR #550
 
 - Review PR #550: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/550
