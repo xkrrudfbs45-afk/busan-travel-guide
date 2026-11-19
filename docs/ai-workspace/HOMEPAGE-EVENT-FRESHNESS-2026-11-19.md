@@ -19,12 +19,12 @@ The old event card used a Gwangalli Beach photo for a book fair that had ended. 
 - CSS uses the Wikimedia thumbnail endpoint at width=1000; no image bytes were copied or edited.
 
 The shared seasonal-event credit line now visibly credits all four images used in the card group:
-- Haeundae Light Festival image — Lee Jeong-il / Busan Metropolitan City, KOGL Type 1.
+- Haeundae Light Festival image — Lee Jeong-il (selected entry) / Busan Metropolitan City, KOGL Type 1. The official Visit Busan Archive record identifies the image as a 2020 production, so the visible alt text and credit now call it a 2020 archive photo, not the 2026 installation design: https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA003506
 - Nampo-dong street — Ken Eckert, CC BY-SA 4.0.
 - Gwangalli Beach — Masterhatch, CC BY-SA 4.0.
 - BEXCO — M.M.Minderhoud, CC BY-SA 3.0.
 
-The image registry entry for Nampo-dong Busy Street.JPG now records the homepage use and the 2026-11-19 license review. No unverified image was introduced.
+The image registry entries for Nampo-dong Busy Street.JPG and haeundae-light-festival-800.jpg now record their homepage use, source, license and 2026-11-19 review. The Haeundae image is a verified KOGL Type 1 archive image from 2020; it is not presented as a current 2026 photograph. No unverified image was introduced.
 
 ## Localisation
 - EN: Gwangbok-ro Balcony Music Show; final JAZZ IN BUSAN programme, Nov 28, 19:00–21:00.
