@@ -60,4 +60,4 @@ The page contains **28 H3 restaurant/food entries**. The visible H1 and opening 
 - Confirmed OG/Twitter image and localized alt fields are present.
 - Confirmed JSON-LD image points to the same registered Commons file.
 - Confirmed the new figure contains a visible photographer and CC BY-SA 4.0 credit.
-- No browser rendering, mobile screenshot, production check, merge or deployment was performed in this run.
+- Technical SEO audit passed on the content head (run #1952). No browser rendering, mobile screenshot, production check, merge or deployment was performed in this run.
