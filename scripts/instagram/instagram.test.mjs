@@ -243,3 +243,45 @@ test("render planner: failed QA with a current hash is retried for approved post
   assert.equal(needsRender({ ...post, status: "approved" }, dir), true, "approved: retry failed QA");
   assert.equal(needsRender({ ...post, status: "draft" }, dir), false, "draft: hold until spec changes");
 });
+
+
+// ---- schedule coverage of the Instagram publisher cron ----
+function instagramCronHours() {
+  const yml = readFileSync(".github/workflows/instagram-publisher.yml", "utf8");
+  const matches = [...yml.matchAll(/cron:\s*"23 ([\d,]+) \* \* \*"/g)];
+  assert.ok(matches.length >= 2, "Instagram publisher must define targeted UTC cron checks");
+  const hours = [...new Set(matches.flatMap((m) => m[1].split(",").map(Number)))].sort((a, b) => a - b);
+  return { minute: 23, hours };
+}
+function nextInstagramRunAfter(iso, { minute, hours }) {
+  const t = new Date(iso);
+  for (let i = 0; i < 48 * 60; i++) {
+    const candidate = new Date(t.getTime() + i * 60000);
+    if (candidate.getUTCMinutes() === minute && hours.includes(candidate.getUTCHours())) return candidate;
+  }
+  return null;
+}
+test("Instagram cron provides three opportunities inside the six-hour late window", () => {
+  const cron = instagramCronHours();
+  assert.ok(cron.hours.length <= 10, "keep targeted checks bounded (no 15-minute polling)");
+  const now = Date.now();
+  const horizon = now + 15 * 24 * 60 * 60 * 1000;
+  const sample = [
+    ...realSchedule.posts
+      .filter((p) => {
+        const t = Date.parse(p.publish_at_utc);
+        return t >= now - 60 * 60 * 1000 && t <= horizon;
+      })
+      .map((p) => p.publish_at_utc),
+    // US local-noon slots in daylight and standard time.
+    "2027-07-01T16:00:00.000Z",
+    "2027-01-15T17:00:00.000Z",
+  ];
+  for (const iso of sample) {
+    const first = nextInstagramRunAfter(iso, cron);
+    const second = nextInstagramRunAfter(new Date(first.getTime() + 60000).toISOString(), cron);
+    const third = nextInstagramRunAfter(new Date(second.getTime() + 60000).toISOString(), cron);
+    const lateMin = (third - new Date(iso)) / 60000;
+    assert.ok(lateMin <= 360, `${iso}: third opportunity only after ${lateMin} min`);
+  }
+});

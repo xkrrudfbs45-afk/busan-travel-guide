@@ -265,7 +265,7 @@ const nextRunAfter = (iso, { minute, hours }) => {
 // The 60-minute bound leaves room for one extra slot hour being added later without hiding a missing hour.
 test("publisher cron reaches every scheduled post within 60 minutes of its slot (both US DST states)", () => {
   const cron = cronHours();
-  assert.ok(cron.hours.length <= 8, "keep scheduled runs low (no 15-minute polling)");
+  assert.ok(cron.hours.length <= 10, "keep targeted checks bounded (no 15-minute polling)");
   const sched = JSON.parse(readFileSync("content/social/threads-30day/schedule.json", "utf8"));
   const sample = [...sched.posts.map((p) => p.publish_at_utc)];
   // Also check each market slot on a date in US daylight time and in US standard time.
@@ -279,7 +279,7 @@ test("publisher cron reaches every scheduled post within 60 minutes of its slot 
   }
 });
 
-test("every scheduled post gets a backup run inside the late window if one scheduled run is skipped", () => {
+test("every scheduled post gets three publisher opportunities inside the late window", () => {
   const cron = cronHours();
   const sched = JSON.parse(readFileSync("content/social/threads-30day/schedule.json", "utf8"));
   const sample = [...sched.posts.map((p) => p.publish_at_utc)];
@@ -288,8 +288,9 @@ test("every scheduled post gets a backup run inside the late window if one sched
   for (const iso of sample) {
     const first = nextRunAfter(iso, cron);
     const second = nextRunAfter(new Date(first.getTime() + 60000).toISOString(), cron);
-    const lateMin = (second - new Date(iso)) / 60000;
-    assert.ok(lateMin < LATE_WINDOW_MIN, `${iso}: second chance only after ${lateMin} min`);
+    const third = nextRunAfter(new Date(second.getTime() + 60000).toISOString(), cron);
+    const lateMin = (third - new Date(iso)) / 60000;
+    assert.ok(lateMin < LATE_WINDOW_MIN, `${iso}: third opportunity only after ${lateMin} min`);
   }
 });
 
