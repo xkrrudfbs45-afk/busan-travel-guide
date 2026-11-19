@@ -189,11 +189,15 @@ if (!dates) bump("7 git dates skipped (no full history)");
 else {
   const sm = join(PUB, "sitemap.xml");
   if (existsSync(sm)) {
-    const xml = readFileSync(sm, "utf8").replace(/<url>\s*<loc>https:\/\/go2busan\.com([^<]*)<\/loc>(?!\s*<lastmod>)/g, (m, p) => {
-      const d = dates.last[srcOf(p)];
-      if (!d) return m;
+    // Look at the whole <url> block: a hand-written <lastmod> may sit after the hreflang links, and adding a
+    // second one right after <loc> produced duplicate <lastmod> entries (16 URLs on 2026-11-19).
+    const xml = readFileSync(sm, "utf8").replace(/<url>[\s\S]*?<\/url>/g, (block) => {
+      if (block.includes("<lastmod>")) return block;
+      const m = block.match(/<loc>https:\/\/go2busan\.com([^<]*)<\/loc>/);
+      const d = m && dates.last[srcOf(m[1])];
+      if (!d) return block;
       bump("7 sitemap lastmod added");
-      return `${m}<lastmod>${d}</lastmod>`;
+      return block.replace(m[0], `${m[0]}<lastmod>${d}</lastmod>`);
     });
     writeFileSync(sm, xml);
   }
