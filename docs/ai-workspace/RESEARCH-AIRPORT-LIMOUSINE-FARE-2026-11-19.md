@@ -26,7 +26,7 @@ This is an accuracy correction to existing high-intent pages, not a new content 
 
 - Both limousine routes board at Platform 3, first floor, at the international and domestic terminals.
 - Line 2: KRW 6,000 adult fare; airport departures listed 07:20–21:30; about 70 minutes between services.
-- Line 1: KRW 9,500 adult fare; airport departures listed 07:10–21:40. The page separates Jangsan-bound and Gijang-bound departures and warns that some time slots do not operate to Gijang.
+- Line 1: KRW 9,500 adult fare. Busan City's notice gives branch-specific airport first/last times: Jangsan-bound 07:10 / 16:50 and Gijang-bound 10:10 / 21:40; the Jangsan branch runs every 20–60 minutes and the Gijang branch is less frequent. The airport page's summary shows the overall 07:10 / 21:40 window but warns that some time slots do not operate to Gijang.
 - The airport page currently labels payment as credit-card only and warns that timetables and fares may change. Do not promise that every overseas-issued card or every Bustago checkout will work.
 
 ## Community demand signals — public sources only
