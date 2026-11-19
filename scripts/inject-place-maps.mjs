@@ -32,7 +32,8 @@ for (const p of data.pages) {
   if (count !== 1) { problems.push(`${where}: anchor found ${count} times (need exactly 1)`); continue; }
   if (html.includes(`data-place-map="${p.id}"`)) { problems.push(`${where}: block already present`); continue; }
   if (CHECK) continue;
-  const block = `<p class="place-map-action" data-place-map="${esc(p.id)}">${links.join(" · ")}</p>\n`;
+  // Flex row with a gap instead of " · " separators, which showed up as stray dots between stacked buttons on phones.
+  const block = `<p class="place-map-action" data-place-map="${esc(p.id)}" style="display:flex;flex-wrap:wrap;gap:8px">${links.join("")}</p>\n`;
   writeFileSync(file, html.replace(p.before, block + p.before));
 }
 if (problems.length) { for (const m of problems) console.error("place-maps: " + m); process.exit(1); }
