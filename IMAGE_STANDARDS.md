@@ -37,7 +37,7 @@ Choose the image for the exact subject of the page, not merely a generic image t
 - Do not label every general information article as a Local Pick. The label is a trust signal, not decoration.
 
 ## Image registry
-- Every third-party photo, whether remotely hosted or stored locally, is listed in `assets/data/image-credits.json` with source URL, author, license, license link, commercial-use flag, checked date and status (`verified`, `needs_review`, `do_not_use`).
+- Every third-party photo used on the site is listed in `assets/data/image-credits.json` with source URL, author, license, license link, commercial-use flag, checked date and status (`verified`, `needs_review`, `do_not_use`). The current local-file audit pattern covers official Busan Tourism Archive images under `/assets/images/events/`; extend the pattern before introducing other local third-party image sources.
 - Supported verified source types include `wikimedia` and item-specific `official_busantourism_archive` records with clear commercial-use terms. Unsplash images remain unapproved without owner sign-off.
 - `node scripts/image-credit-audit.mjs` runs in CI. It fails on unregistered images, incomplete `verified` entries, missing visible credits on article and homepage cards, and (with `--strict`) `do_not_use` images still in use. It also checks local official-archive assets in seasonal-event cards.
 - Add the registry entry in the same change that introduces a new image.
