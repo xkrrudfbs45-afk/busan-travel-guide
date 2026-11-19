@@ -16,6 +16,7 @@ Choose the image for the exact subject of the page, not merely a generic image t
 
 ## Image rights and attribution
 - Prefer original Go2Busan artwork, appropriately licensed Wikimedia Commons photos, official tourism-archive assets whose reuse terms are clear, or stock images with clear commercial-use permission.
+- For Busan Tourism Archive assets, verify the item-specific record allows commercial reuse (for example, KOGL Type 1) and record the creator, publisher, production year and exact license. Do not assume every archive item has identical terms.
 - Before using a third-party image, check its source, license, attribution requirements, and any share-alike obligations. Keep a source link and visible credit where the license requires it.
 - Do not copy images from Naver blogs, Instagram, booking sites, or other publishers simply because they appear in search results.
 - Do not remove required photographer names, license links, or credit captions.
@@ -36,7 +37,8 @@ Choose the image for the exact subject of the page, not merely a generic image t
 - Do not label every general information article as a Local Pick. The label is a trust signal, not decoration.
 
 ## Image registry
-- Every external photo is listed in `assets/data/image-credits.json` with source URL, author, license, license link, commercial-use flag, checked date and status (`verified`, `needs_review`, `do_not_use`).
-- `node scripts/image-credit-audit.mjs` runs in CI. It fails on any image that is not registered, on incomplete `verified` entries, and (with `--strict`) on `do_not_use` images still in use. It warns about `needs_review` images and pages that show a credit-required photo without naming the author.
-- Add the registry entry in the same change that introduces a new image. Unsplash images are not approved for this site without owner sign-off.
+- Every third-party photo, whether remotely hosted or stored locally, is listed in `assets/data/image-credits.json` with source URL, author, license, license link, commercial-use flag, checked date and status (`verified`, `needs_review`, `do_not_use`).
+- Supported verified source types include `wikimedia` and item-specific `official_busantourism_archive` records with clear commercial-use terms. Unsplash images remain unapproved without owner sign-off.
+- `node scripts/image-credit-audit.mjs` runs in CI. It fails on unregistered images, incomplete `verified` entries, missing visible credits on article and homepage cards, and (with `--strict`) `do_not_use` images still in use. It also checks local official-archive assets in seasonal-event cards.
+- Add the registry entry in the same change that introduces a new image.
 
