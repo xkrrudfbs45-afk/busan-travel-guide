@@ -153,6 +153,8 @@ These are source/build counters, not proof of real-device LCP improvement.
 
 Not verified in this run:
 - HTTP response/download status for every external image URL
+- The EN/JA/zh-TW Taejongdae guides place the same 480×854 Wikimedia train photo immediately after the article hero and mark it `loading="lazy"`. It is a first article image and an LCP candidate, but whether it enters the initial mobile viewport is unmeasured. Check at 360/390 px before deciding whether eager loading and `fetchpriority="high"` are appropriate; no loading-priority change is made here.
+- The Wikimedia `Special:FilePath` URL did not return a verifiable image response in this crawler run; treat its HTTP/download status as unverified, not healthy or broken.
 - visual crop and focal-point behavior at 360 / 390 / 1280 px
 - image byte savings and current mobile Lighthouse LCP/CLS
 - actual social-platform OG preview rendering
