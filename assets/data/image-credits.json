@@ -441,9 +441,9 @@
       "commercial_use": true,
       "attribution_required": true,
       "modified": "resized/cropped by CSS or Special:FilePath only",
-      "checked_on": "2026-11-05",
+      "checked_on": "2026-11-19",
       "status": "verified",
-      "note": "Main street in Nampo-dong, Busan, photographed 9 May 2010. Used as a real Busan street-life visual for the dialect/local language card, not as a claim about a specific market."
+      "note": "Main street in Nampo-dong, Busan, photographed 9 May 2010. Used as a real Busan street-life visual for the dialect/local language card and the homepage Gwangbok-ro event listing. The image is an illustrative nearby-street scene, not a photo of the 2026 performance or a current shop."
     },
     {
       "source": "wikimedia",
@@ -822,6 +822,20 @@
       "checked_on": "2026-11-18",
       "status": "verified",
       "note": "Actual Citizens' Bell at Yongdusan Park, Busan, photographed 2022-10-02. Wikimedia Commons file page confirms CC0 1.0 and Quality image status. Use as a photograph of the bell, not as a photograph of the 2026–27 ceremony."
+    },
+    {
+      "source": "official_busantourism_archive",
+      "file": "haeundae-light-festival-800.jpg",
+      "source_url": "https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA003506",
+      "author": "Lee Jeong-il (selected entry)",
+      "license": "KOGL Type 1",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "local 800px-wide derivative of the official archive JPG; no other edits",
+      "checked_on": "2026-11-19",
+      "status": "verified",
+      "note": "Visit Busan Archive record: Haeundae Light Festival, creator credit '입선 이정일', publisher Busan Metropolitan City, production year 2020. Used as archival festival imagery in the homepage seasonal card; alt text and visible credit identify it as a 2020 archive photo, not the 2026 installation design."
     }
   ]
 }
