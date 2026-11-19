@@ -34,8 +34,8 @@ This is an accuracy correction to existing high-intent pages, not a new content 
 ### Taiwan
 
 - [Dcard: 2026 Busan four days / three nights](https://www.dcard.tw/f/korea_travel/p/262264413), trip in early October 2026. A group trip describes a Seomyeon hotel, restaurant choices and Uber use; this is one report, not a market-wide measure.
-- [PTT: first Busan trip, 7 adults + school-age children](https://www.ptt.cc/bbs/Korea_Travel/M.1769864293.A.ABB.html), posted 2026-01-31. The poster asks about a hotel base, arranging a group meal and whether private transport is needed.
-- [PTT: Seoul + Busan transport planning](https://www.ptt.cc/bbs/Korea_Travel/M.1784801459.A.532.html), posted 2026-07-23. The poster specifically asks about two 28-inch suitcases, KTX versus express bus and avoiding repeated hotel moves.
+- [PTT: first Busan trip, 7 adults + school-age children](https://www.ptt.cc/bbs/Korea_Travel/M.1769864293.A.ABB.html), dated 2026-01-31 in the search result. The visible search snippet mentions a hotel base, a group meal and transport. Direct page access returned HTTP 403, so the full post and comments were not reviewed.
+- [PTT: Seoul + Busan transport planning](https://www.ptt.cc/bbs/Korea_Travel/M.1784801459.A.532.html), dated 2026-07-23 in the search result. The visible snippet mentions two 28-inch suitcases and KTX versus express bus. Direct page access returned HTTP 403; treat this as a search-snippet signal only.
 
 ### Japan
 
@@ -46,12 +46,12 @@ This is an accuracy correction to existing high-intent pages, not a new content 
 
 ### English-language communities
 
-- [Reddit: Gimhae Airport limousine status](https://www.reddit.com/r/koreatravel/comments/1jdc914/airport_limousine_gimhae_international_airport/), started 2025-03-17 with later replies in March 2026. The thread contains old suspension information and a later report that the service was operating, with ticket machines at the airport. It demonstrates why old answers should not be copied forward.
+- [Reddit: Gimhae Airport limousine status](https://www.reddit.com/r/koreatravel/comments/1jdc914/airport_limousine_gimhae_international_airport/), started 2025-03-17. Older replies say the service was suspended; a later reply marked about seven months later reports the bus operating and ticket machines at the airport. The exact later-comment date is not displayed, so this is a qualitative signal only. It demonstrates why old answers should not be copied forward.
 - [Reddit: Gimhae Airport to Seomyeon with luggage](https://www.reddit.com/r/koreatravel/comments/1s983gd/best-way-from-busan-airport-to-seomeyon/), 2026-04-01. The question compares the direct limousine with light rail plus a metro transfer when carrying luggage.
 
 ### Korean public discussion and limits
 
-- [Clien: Busan sea-taxi trial](https://www.clien.net/service/board/park/19290927), posted 2026-11-11. A small local discussion questions whether a short coastal route is more useful as an attraction than as transport, and mentions the potential value of a longer Busan Station–Haeundae link. This is not evidence of broad airport-limousine demand.
+- [Clien: Busan sea-taxi trial](https://www.clien.net/service/board/park/19290927), posted 2026-11-11 (2,222 views, 5 comments at capture). Replies question whether a short coastal route is more useful as an attraction than as transport, and mention the potential value of a longer Busan Station–Haeundae link. This is a small local discussion, not evidence of broad airport-limousine demand.
 - Public DC Inside search surfaced only historical 2024 context about the previous airport-limousine route's declining ridership and suspension; no current passenger discussion was used as evidence for the 2026 fare or timetable.
 - A local winter-trip blog [discusses crowd timing and quieter areas](https://youearth.tistory.com/319), posted 2026-01-14. It is a single local perspective, not a demand survey.
 - Public searches of Naver Blog were blocked by robots.txt; no login or access-control bypass was attempted. Recent Busan-specific airport-fare threads were not reliably surfaced on TheQoo or Ppomppu. Official sources, not isolated comments, determine the fare and route facts.
