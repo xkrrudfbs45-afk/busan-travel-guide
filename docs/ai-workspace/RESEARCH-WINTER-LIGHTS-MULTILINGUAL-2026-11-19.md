@@ -1,0 +1,87 @@
+# Winter lights multilingual guide — research and implementation log
+
+**Checked:** 2026-11-19 (KST)  
+**Repository baseline:** 5e57f2c266a79a9ba72fe8ad38b7adf65ab6ccb0  
+**Scope:** Extend the existing English winter-lights guide into Japanese and Traditional Chinese; correct a date contradiction; no new topic or image asset.
+
+## Decision
+
+The English winter-lights page already covers the seasonal intent. Rather than create another topic or duplicate the winter-travel guide, this batch adds Japanese and Traditional Chinese equivalents for the existing event hub and links them from the matching guide directories and winter guides. Taiwan remains the first localization priority. The pages distinguish confirmed event listings from a procurement-specified lighting window and from separate street performances.
+
+## Public community evidence
+
+### Taiwan
+- **PTT Korea_Travel — [2026 Busan independent-trip itinerary](https://www.ptt.cc/bbs/Korea_Travel/M.1784120556.A.8B2.html), 2026-07-15.** Search-index metadata/snippet surfaced a five-day/four-night itinerary grouping Seomyeon, Haeundae, Nampo/BIFF, Songdo and Yeongdo into separate area days. Direct page fetch returned 403, so this is weak discovery evidence only; it is not treated as a fully reviewed post or as evidence of winter-event demand.
+- Targeted Dcard searches in this pass did not surface a sufficiently current, independent Busan winter-lights question. No market-wide demand claim is made.
+
+### Japan
+- **4travel — [Summer Busan family trip](https://4travel.jp/travelogue/12075350), 2026-08-12 to 08-16.** The writer split four nights between Nampo-dong and Haeundae and noted preparing Uber and T-money before departure. This supports area-based planning and transport-preparation context, not winter-event demand.
+- **4travel — [Summer trip with two children](https://4travel.jp/travelogue/12070971), 2026-08-24 to 08-27.** A family with a four-year-old and an infant centered the trip on Haeundae; useful context for family pacing, not a winter-event signal.
+- Targeted Yahoo!知恵袋 searches did not surface a sufficiently current Busan winter-lights Q&A in this pass.
+
+### English-language communities
+- **Reddit r/koreatravel — [Busan before Christmas](https://www.reddit.com/r/koreatravel/comments/1xi0w09/busan_before_christmas/), 2026-10-28.** Search result metadata/snippet surfaced a five-day December itinerary question and a downtown-market lodging preference. Direct Reddit page fetch was disabled in this run; comment-level details are not treated as verified. One question is not a demand estimate.
+- **Reddit r/koreatravel — [Seoul and Busan in December](https://www.reddit.com/r/koreatravel/comments/1xv5q7e/seoul_and_busan_in_december/), 2026-11-13.** Search result metadata/snippet surfaced a December itinerary question. Direct Reddit page fetch was disabled in this run, so no comment consensus or storage guarantee is claimed.
+- **Reddit r/koreatravel — [November 2026 events and festivals](https://www.reddit.com/r/koreatravel/comments/1xkcc44/november_2026_events_and_festivals/), 2026-10-31.** A monthly community events thread lists Busan Christmas Village for Nov 26–Dec 25. This is a discovery signal, not ticket authority.
+
+### Korean public communities and local intelligence
+- **Clien — [Busan marine tourism taxi trial](https://www.clien.net/service/board/park/19290927), 2026-11-11 22:34 KST.** The public post had 2,222 views, 0 likes and 5 comments when checked. Commenters disagree: one says the Suyeong River–Gwangalli leg is walkable in about 30 minutes and the river–Haeundae leg is two subway stops; another argues that traffic congestion could make a water route useful. These are individual opinions, not measured journey times or a consensus.
+- **Official cross-check:** [Busan City press release, 2026-11-11](https://www.busan.go.kr/nbtnewsBU/1763204) says the 45-minute route ran twice for local media before full operation; infrastructure completion is targeted for the second half of 2027. Other reporting mentions a later 2028 full-service target. The official release does not provide public fares, booking, passenger eligibility or a start date. **Decision: do not present the marine taxi as an available visitor service or create a booking guide yet.** Recheck launch date, fares, route stops, public ticketing and pier access when the city/operator issues a visitor notice.
+- Naver Blog returned a robots.txt access block in this pass. No login or access-control bypass was attempted. Targeted searches of DCInside, TheQoo, Ppomppu and public Instagram/YouTube results did not produce a stronger, independently verifiable winter-event travel discussion in this run.
+
+## Official facts checked
+
+- **Haeundae Light Festival:** Busan City lists 2026-11-28 to 2027-01-10, daily 18:00–23:00, free admission: https://www.busan.go.kr/eng/bsevents/1762645
+- **Millak Luce Festa:** Busan City lists 2026-11-14 to 2027-01-10, daily 18:00–23:30, free admission: https://www.busan.go.kr/eng/bsevents/1762643
+- **Gwangalli M Drone Light Show:** the official overview lists winter Saturdays at 19:00 and 21:00, with first/third-week laser-show pattern; weather and technical cancellation notices can change the schedule: https://www.gwangallimdrone.co.kr/en/overview
+- **Christmas Village Busan:** YES24's 2026 ticket notice lists Nov 26–Dec 25, 21 operating days (every Thu–Sun from Nov 26 through Dec 25, plus Dec 21–23), weekday 16:00–22:00, weekends and Dec 24–25 11:00–22:00, standard prices ₩5,900 / ₩7,900 / ₩14,900, and free entry under 36 months with proof: https://m.ticket.yes24.com/Notice/18701
+- **Seomyeon Light Festival 2026:** Busan City's event calendar lists 2026-10-29 to 2027-02-14; the current listing does not establish daily lighting hours or admission conditions, so the localized pages do not claim a free-entry status: https://www.busan.go.kr/eng/bsevents/
+- **Gwangbok-ro Winter Light Tree Festival:** Jung-gu's 2026-09-08 re-notice specifies a planned lighting-installation period of 2026-12-04 to 2027-01-31, 17:30–22:30. It is a procurement/operations schedule, not a final visitor programme: https://eminwon.bsjunggu.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?context=NTIS&homepage_pbs_yn=Y&jndinm=OfrNotAncmtEJB&method=selectOfrNotAncmt&methodnm=selectOfrNotAncmtRegst&not_ancmt_mgt_no=30073&subCheck=Y
+- **Gwangbok-ro Street Festa:** Busan City lists a separate event on 2026-12-05, 16:00–20:00: https://www.busan.go.kr/eng/bsevents/1762987
+
+## Competitor benchmark
+
+- **Busan.net** published English, Japanese and Traditional Chinese winter-lights pages on Nov 13 and updated them Nov 16:
+  - EN: https://busan.net/en/guide/busan-winter-lights/
+  - JA: https://busan.net/ja/guide/busan-winter-lights/
+  - zh-TW: https://busan.net/zh-tw/guide/busan-winter-lights/
+- Structural strengths worth learning from: at-a-glance comparison, station/map references, a one-evening route, ticket detail and FAQ.
+- Our editorial differentiation: include Millak Luce Festa and the Gwangbok-ro procurement caveat; separate Street Festa from the light-tree installation; state the official Haeundae 18:00–23:00 hours; avoid the competitor's “two stops” description between Centum City and Haeundae (the stations are not adjacent); do not copy its text or images.
+
+## Image and rights review
+
+- Reuse the existing /assets/images/events/haeundae-light-festival-800.jpg only. The current English page captions it as a 2020 archive image by Lee Jeong-il / Busan Metropolitan City, sourced from Busan Tourism Archive and licensed KOGL Type 1.
+- Localized alt text and captions explicitly say it is an archive image, not a photograph of the 2026 installation.
+- No image file, crop, credit record, OG image or external asset was added or replaced.
+- The Japanese and Traditional Chinese guide directories already used a shared Busanhang Bridge photograph. Its Commons file page identifies the subject as the bridge photographed from Yeongdo and licenses it CC0; this PR adds localized og:image:alt and twitter:image:alt text to both directory pages. Source: https://commons.wikimedia.org/wiki/File:Busanhang_Bridge_taken_from_Yeongdo.jpg
+- The zh-TW newspaper-food-picks guide still uses that bridge image as its social preview despite being a food guide and having no in-body food photograph. No replacement was made because a subject-matched, commercially usable cover was not verified; this remains a focused follow-up under issue #384.
+
+## Files in this Draft PR
+
+- guides/busan-winter-lights-christmas-2026/index.html — corrected Gwangbok-ro contradiction; added current YES24 operating-day, time and price details; updated reciprocal hreflang.
+- ja/guides/busan-winter-lights-christmas-2026/index.html — Japanese localized event hub.
+- zh-tw/guides/busan-winter-lights-christmas-2026/index.html — Taiwan Traditional Chinese localized event hub.
+- ja/guides/index.html, zh-tw/guides/index.html — directory discovery links.
+- ja/guides/busan-winter-travel-guide/index.html, zh-tw/guides/busan-winter-travel-guide/index.html — internal links; Traditional Chinese copy corrects the outdated statement that the Gwangbok-ro planned window is unconfirmed.
+- sitemap.xml — three-way reciprocal EN / JA / zh-TW / x-default cluster and lastmod 2026-11-19.
+
+## Current sitewide image and social-metadata baseline
+
+- Baseline main SHA 5e57f2c266a79a9ba72fe8ad38b7adf65ab6ccb0 passed Technical SEO audit run #44315016608: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44315016608. It reported 89 social-image warnings (EN 31, JA 26, zh-TW 32), including three missing og:image:alt fields.
+- This PR adds localized og:image:alt and twitter:image:alt to the JA and zh-TW guide directories. The final content head 8f9e9538bef4fb81d5c021147a02e8ab5e419da2 passed Technical SEO audit run #44394950196: https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44394950196. The social-image warning count is now 87 (EN 31, JA 25, zh-TW 31); only zh-tw/guides/busan-newspaper-food-picks/index.html remains missing og:image:alt.
+- The exact-head audit reports 105 total warnings: 87 social-image warnings, 13 title-length warnings and 5 meta-description-length warnings. The separate social-meta check reports 0 gaps but has a different scope; do not treat it as a clean bill of health.
+- Strict image-credit audit: 51 images in use, 59 registered, 8 warnings, 0 errors. The 8 warnings are unused registry entries, including a malformed unsplash:undefined key; verify each registry reference before removing or reusing anything.
+- Positive checks: 29 cover entries passed; homepage food-card audit passed at 10 cards / 10 distinct image URLs; 705 language-switch links checked with 0 findings; affiliate CTA, Agoda CTA and place-map checks passed.
+- The broader metadata backlog remains tracked in existing issue #384. This seasonal PR resolves only two directory alt-text gaps; it does not attempt a bulk OG-image fix or add a generic or mismatched image.
+
+## SEO and user-value hypothesis
+
+Search intent is seasonal and action-oriented: date, free vs paid, operating days, ticket prices, station/area and whether events fit into one evening. The new pages give Japanese and Taiwan readers native-language titles, event names, ticket caveats and neighborhood-based route planning. The update should reduce wrong-date and missed-ticket decisions and improve language-appropriate discovery; traffic or ranking impact has not been measured.
+
+## Validation and remaining risk
+
+- Source-level checks in this PR verify all three canonical URLs, reciprocal hreflang, sitemap entries, localized internal links, official ticket links, visible FAQ/FAQPage parity and image-credit wording.
+- Exact-head Technical SEO CI passed on the final content head (run #44394950196). No live sitemap/HTTP smoke test was run for this branch because it remains unmerged and undeployed.
+- Browser screenshots and visual checks at 360 / 390 / 1280 px have not been performed. Do not treat source-level checks as visual proof.
+- Ticket inventory, event operations, weather cancellations and the Gwangbok-ro visitor programme can change. Recheck the organizer and district notices near the travel date.
+- No analytics IDs, consent settings, affiliate CTAs, SNS content/schedules, external posts, redirects, URLs, prices or payment flows were changed. No merge or production deployment is included.
