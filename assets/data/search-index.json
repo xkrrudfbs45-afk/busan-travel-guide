@@ -512,7 +512,7 @@
   {
     "title": "KTX Booking Guide",
     "url": "/guides/ktx-booking-guide/",
-    "summary": "Plan intercity train travel and understand the KTX booking process. Includes KTX luggage rules, where large suitcases go, seat-map checks and Busan Station storage options.",
+    "summary": "Plan Seoul–Busan KTX tickets, sold-out options and large-suitcase storage on board, then compare luggage storage at Busan Station.",
     "tags": [
       "train",
       "seoul",
@@ -528,12 +528,11 @@
       "Korea train luggage",
       "Seoul to Busan with luggage",
       "large suitcase KTX",
-      "釜山 KTX 行李",
-      "KTX 大型行李箱",
-      "韓國高鐵 行李",
-      "KTX 大型スーツケース",
-      "KTX 荷物置き場",
-      "韓国 KTX 荷物"
+      "KTX luggage",
+      "KTX large suitcase",
+      "Korea train luggage",
+      "Seoul to Busan with luggage",
+      "large suitcase KTX"
     ]
   },
   {
@@ -1021,7 +1020,7 @@
   {
     "title": "ソウルから釜山へKTX予約ガイド｜外国人旅行者向け",
     "url": "/ja/guides/ktx-booking/",
-    "summary": "外国人旅行者向けにソウルから釜山へのKTX予約方法を紹介。公式予約サイト、乗車駅、チケット確認、荷物の注意点をまとめました。 Includes KTX luggage rules, where large suitcases go, seat-map checks and Busan Station storage options.",
+    "summary": "ソウルから釜山へのKTX予約、満席時の対処法、大型スーツケースの置き場、釜山駅の荷物預かりを紹介。",
     "tags": [
       "ソウルから釜山へKTX予約ガイド｜外国人旅行者向け",
       "外国人旅行者向けにソウルから釜山へのKTX予約方法を紹介。公式予約サイト、乗車駅、チケット確認、荷物の注意点をまとめました。",
@@ -1030,17 +1029,11 @@
       "韓国 鉄道",
       "KTX チケット",
       "釜山 行き方",
-      "KTX luggage",
-      "KTX large suitcase",
-      "Korea train luggage",
-      "Seoul to Busan with luggage",
-      "large suitcase KTX",
-      "釜山 KTX 行李",
-      "KTX 大型行李箱",
-      "韓國高鐵 行李",
+      "KTX 荷物",
       "KTX 大型スーツケース",
-      "KTX 荷物置き場",
-      "韓国 KTX 荷物"
+      "韓国 KTX 荷物置き場",
+      "ソウル 釜山 KTX 荷物",
+      "釜山駅 荷物預かり"
     ]
   },
   {
@@ -1253,7 +1246,7 @@
   {
     "title": "首爾到釜山 KTX 訂票指南｜海外旅客適用",
     "url": "/zh-tw/guides/ktx-booking/",
-    "summary": "提供海外旅客首爾到釜山 KTX 訂票指南，整理官方訂票網站、出發車站、車票確認與行李注意事項。 Includes KTX luggage rules, where large suitcases go, seat-map checks and Busan Station storage options.",
+    "summary": "整理首爾到釜山 KTX 訂票、售完候補、大型行李箱車廂置放方式，以及抵達釜山站後的寄物選項。",
     "tags": [
       "首爾到釜山 KTX 訂票指南｜海外旅客適用",
       "提供海外旅客首爾到釜山 KTX 訂票指南，整理官方訂票網站、出發車站、車票確認與行李注意事項。",
@@ -1262,17 +1255,11 @@
       "韓國火車",
       "KTX車票",
       "釜山交通",
-      "KTX luggage",
-      "KTX large suitcase",
-      "Korea train luggage",
-      "Seoul to Busan with luggage",
-      "large suitcase KTX",
       "釜山 KTX 行李",
       "KTX 大型行李箱",
-      "韓國高鐵 行李",
-      "KTX 大型スーツケース",
-      "KTX 荷物置き場",
-      "韓国 KTX 荷物"
+      "韓國高鐵行李",
+      "首爾到釜山 KTX 行李",
+      "釜山站行李寄放"
     ]
   },
   {
