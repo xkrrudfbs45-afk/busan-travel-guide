@@ -52,7 +52,7 @@ This is an accuracy correction to existing high-intent pages, not a new content 
 ### Korean public discussion and limits
 
 - [Clien: Busan sea-taxi trial](https://www.clien.net/service/board/park/19290927), posted 2026-11-11. A small local discussion questions whether a short coastal route is more useful as an attraction than as transport, and mentions the potential value of a longer Busan Station–Haeundae link. This is not evidence of broad airport-limousine demand.
-- [DC Inside transit gallery: Gimhae Airport limousine closure discussion](https://gall.dcinside.com/mgallery/board/view/?id=transit&no=907813), 2026-03-13. This is a bus-model / livery discussion, not a passenger timetable source; it was not used for current route claims.
+- Public DC Inside search surfaced only historical 2024 context about the previous airport-limousine route's declining ridership and suspension; no current passenger discussion was used as evidence for the 2026 fare or timetable.
 - A local winter-trip blog [discusses crowd timing and quieter areas](https://youearth.tistory.com/319), posted 2026-01-14. It is a single local perspective, not a demand survey.
 - Public searches of Naver Blog were blocked by robots.txt; no login or access-control bypass was attempted. Recent Busan-specific airport-fare threads were not reliably surfaced on TheQoo or Ppomppu. Official sources, not isolated comments, determine the fare and route facts.
 
