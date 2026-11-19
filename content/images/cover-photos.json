@@ -233,6 +233,27 @@
       "file": "Busan_Milmyeon_20200522_001.jpg",
       "alt": "一碗釜山特色小麦冷面（밀면）",
       "caption": "釜山代表性料理：小麦冷面（밀면）"
+    },
+    {
+      "path": "guides/busan-cash-card-payment-guide/index.html",
+      "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg",
+      "alt": "Inside Jagalchi Market, with fresh seafood displayed at a fish stall in Busan",
+      "caption": "Inside Jagalchi Market, where individual seafood shops set their own payment methods",
+      "og": true
+    },
+    {
+      "path": "ja/guides/busan-cash-card-payment-guide/index.html",
+      "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg",
+      "alt": "釜山・チャガルチ市場の店内に並ぶ鮮魚店",
+      "caption": "チャガルチ市場の店内。支払い方法は店舗ごとに異なります",
+      "og": true
+    },
+    {
+      "path": "zh-tw/guides/busan-cash-card-payment-guide/index.html",
+      "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg",
+      "alt": "釜山札嘎其市場內展示新鮮海產的攤位",
+      "caption": "札嘎其市場內部，各海鮮店的付款方式可能不同",
+      "og": true
     }
   ]
 }
