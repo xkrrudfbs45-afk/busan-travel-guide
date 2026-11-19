@@ -1,3 +1,15 @@
+## 2026-11-20 05:32 KST — current growth-pass checkpoint
+
+- GitHub main remains `13c1182cb60065673a9ea1bd6ccd4f7fab2888b6`; no new main commit was created in this pass.
+- Last verified production deployment remains [#44515311750](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44515311750), which confirmed `/version.txt` matched that main SHA. A fresh direct check of `go2busan.com`, `/version.txt` and `/sitemap.xml` was unavailable in this pass (web access failed and runtime DNS resolution was unavailable); do not claim a new live HTTP check.
+- [PR #577](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/577) is Draft / open / unmerged, head `9a83d9bfe534c17e873d49f2fa10debff6fb4834`; exact-head Technical SEO run [#44570555825](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44570555825) completed successfully. Real-browser 360 / 390 / 1280 review and live route / phone confirmation remain outstanding.
+- [PR #576](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/576) is Draft / open / unmerged, head `db9741ae1af0207b038b0c4816a1aed603813396`; exact-head Technical SEO run [#44570038978](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44570038978) completed successfully. Real-browser crop review, image-byte / LCP measurement and live custom-domain verification remain outstanding.
+- [PR #578](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/578) is Draft / open / unmerged, head `0b75e4d7fef4c9636f41f8402f54c363e54c32bd`; it corrects two stale zh-TW internal-link labels from 25 to 28 after #564. No exact-head workflow run is visible yet; keep Draft pending the repository audit.
+- PR #575 is the documentation-only status/handoff PR being updated in this branch. PR #472 remains Draft / open / unmergeable and on hold until its planned post-change GSC review around 2026-11-28.
+- No GA4 / GSC query was run in this recurring growth pass. No merge, production deployment, affiliate, analytics, privacy, SNS schedule or external publication change was made.
+
+---
+
 ## 2026-11-19 21:31 KST — current production checkpoint
 
 - Current GitHub main: `13c1182cb60065673a9ea1bd6ccd4f7fab2888b6`.
