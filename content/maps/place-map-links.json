@@ -11,7 +11,12 @@
     "blueline-songjeong": { "q": "해운대블루라인파크 송정정거장", "en": "Songjeong Station (Blueline Park)", "ja": "ブルーラインパーク松亭駅", "zh-tw": "藍線公園松亭站" },
     "busan-station": { "q": "부산역", "en": "Busan Station", "ja": "釜山駅", "zh-tw": "釜山站" },
     "biff-square": { "q": "BIFF광장", "en": "BIFF Square", "ja": "BIFF広場", "zh-tw": "BIFF廣場" },
-    "gukje-market": { "q": "국제시장", "en": "Gukje Market", "ja": "国際市場", "zh-tw": "國際市場" }
+    "gukje-market": { "q": "국제시장", "en": "Gukje Market", "ja": "国際市場", "zh-tw": "國際市場" },
+    "haeundae-beach": { "q": "해운대해수욕장", "en": "Haeundae Beach", "ja": "海雲台海水浴場", "zh-tw": "海雲台海水浴場" },
+    "haeundae-station": { "q": "해운대역", "en": "Haeundae Station", "ja": "海雲台駅", "zh-tw": "海雲台站" },
+    "dongbaek-island": { "q": "동백섬", "en": "Dongbaek Island", "ja": "冬柏島", "zh-tw": "冬柏島" },
+    "seomyeon-station": { "q": "서면역 1호선", "en": "Seomyeon Station", "ja": "西面駅", "zh-tw": "西面站" },
+    "geumnyeonsan-station": { "q": "금련산역", "en": "Geumnyeonsan Station", "ja": "金蓮山駅", "zh-tw": "金蓮山站" }
   },
   "pages": [
     { "id": "jagalchi", "path": "guides/jagalchi-market-no-surprise-bill/index.html", "locale": "en", "before": "<h2 id=\"how-it-works\">", "places": ["jagalchi"] },
@@ -28,6 +33,15 @@
     { "id": "blueline", "path": "zh-tw/guides/haeundae-blueline-park-sold-out/index.html", "locale": "zh-tw", "before": "<h2 id=\"alternatives\">", "places": ["blueline-mipo", "blueline-cheongsapo", "blueline-songjeong"] },
     { "id": "station-walk", "path": "guides/busan-station-local-walk/index.html", "locale": "en", "before": "<h2>Step-free access", "places": ["busan-station", "biff-square", "gukje-market", "jagalchi"] },
     { "id": "station-walk", "path": "ja/guides/busan-station-local-walk/index.html", "locale": "ja", "before": "<h2>KTX釜山駅から地下鉄1号線へ", "places": ["busan-station", "biff-square", "gukje-market", "jagalchi"] },
-    { "id": "station-walk", "path": "zh-tw/guides/busan-station-local-walk/index.html", "locale": "zh-tw", "before": "<h2>KTX 釜山站轉乘地鐵 1 號線", "places": ["busan-station", "biff-square", "gukje-market", "jagalchi"] }
+    { "id": "station-walk", "path": "zh-tw/guides/busan-station-local-walk/index.html", "locale": "zh-tw", "before": "<h2>KTX 釜山站轉乘地鐵 1 號線", "places": ["busan-station", "biff-square", "gukje-market", "jagalchi"] },
+    { "id": "haeundae-area", "path": "guides/haeundae-neighborhood-guide/index.html", "locale": "en", "before": "<h2 id=\"where-to-stay\">", "places": ["haeundae-beach", "haeundae-station", "dongbaek-island"] },
+    { "id": "haeundae-area", "path": "ja/guides/haeundae-neighborhood-guide/index.html", "locale": "ja", "before": "<h2 id=\"where-to-stay\">", "places": ["haeundae-beach", "haeundae-station", "dongbaek-island"] },
+    { "id": "haeundae-area", "path": "zh-tw/guides/haeundae-neighborhood-guide/index.html", "locale": "zh-tw", "before": "<h2 id=\"where-to-stay\">", "places": ["haeundae-beach", "haeundae-station", "dongbaek-island"] },
+    { "id": "seomyeon-area", "path": "guides/seomyeon-neighborhood-guide/index.html", "locale": "en", "before": "<h2 id=\"where-to-stay\">", "places": ["seomyeon-station"] },
+    { "id": "seomyeon-area", "path": "ja/guides/seomyeon-neighborhood-guide/index.html", "locale": "ja", "before": "<h2 id=\"where-to-stay\">", "places": ["seomyeon-station"] },
+    { "id": "seomyeon-area", "path": "zh-tw/guides/seomyeon-neighborhood-guide/index.html", "locale": "zh-tw", "before": "<h2 id=\"where-to-stay\">", "places": ["seomyeon-station"] },
+    { "id": "gwangalli-area", "path": "guides/gwangalli-neighborhood-guide/index.html", "locale": "en", "before": "<h2 id=\"where-to-stay\">", "places": ["gwangalli-beach", "geumnyeonsan-station"] },
+    { "id": "gwangalli-area", "path": "ja/guides/gwangalli-neighborhood-guide/index.html", "locale": "ja", "before": "<h2 id=\"where-to-stay\">", "places": ["gwangalli-beach", "geumnyeonsan-station"] },
+    { "id": "gwangalli-area", "path": "zh-tw/guides/gwangalli-neighborhood-guide/index.html", "locale": "zh-tw", "before": "<h2 id=\"where-to-stay\">", "places": ["gwangalli-beach", "geumnyeonsan-station"] }
   ]
 }
