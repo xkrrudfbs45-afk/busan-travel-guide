@@ -94,7 +94,7 @@ This is an accuracy correction to existing high-intent pages, not a new content 
 
 ## QA still pending
 
-- Exact-head CI / technical SEO and content checks.
+- Technical SEO audit passed on the content head (run #1951).
 - Rendered browser review at 360 / 390 / 1280 px.
 - Live-page link and mobile checks. The public go2busan.com fetch was not available during this run; Render's latest live deploy is recorded separately in the run report.
 - No merge or production deployment was performed.
