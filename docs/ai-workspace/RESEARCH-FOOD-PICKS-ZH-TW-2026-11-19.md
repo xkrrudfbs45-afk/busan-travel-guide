@@ -50,7 +50,7 @@ The page contains **28 H3 restaurant/food entries**. The visible H1 and opening 
 - [Wikimedia Commons file page](https://commons.wikimedia.org/wiki/File:Food_vendor_at_the_Bupyeong_Kkangtong_Night_Market.jpg)
 - Photographer: Christophe95
 - License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- Commons record and existing image registry entry checked 2026-11-19. The page caption preserves author, source and license links.
+- Wikimedia Commons file page rechecked 2026-11-19: 4,032 × 3,024 px original, 666 KB, own work by Christophe95, photographed 27 September 2018; CC BY-SA 4.0 is explicitly shown on the file page. The existing registry entry was refreshed to `checked_on: 2026-11-19`. The page caption preserves author, source and license links; only Wikimedia thumbnail resizing is used, with no derivative crop.
 - The original image is portrait-ish 4:3; social-platform 1200×630 cropping and responsive 360 / 390 / 1280 rendering still require visual browser review. Do not treat that review as complete from the source edit alone.
 
 ## Static checks performed
