@@ -20,8 +20,8 @@ The page contains **28 H3 restaurant/food entries**. The visible H1 and opening 
 ### Taiwan
 
 - [Dcard: 2026 Busan four days / three nights](https://www.dcard.tw/f/korea_travel/p/262264413), trip in early October 2026. The poster describes a group trip, a Seomyeon hotel, restaurant choices and Uber use. One trip report, not a market-wide demand measure.
-- [PTT: first Busan trip, 7 adults + 4 school-age children](https://www.ptt.cc/bbs/Korea_Travel/M.1769864293.A.ABB.html), posted 2026-01-31. The questions focus on a workable base, arranging a group meal and whether private transport is needed.
-- [PTT: Seoul + Busan transport planning](https://www.ptt.cc/bbs/Korea_Travel/M.1784801459.A.532.html), posted 2026-07-23. The poster specifically asks about two 28-inch suitcases and avoiding repeated hotel moves.
+- [PTT: first Busan trip, 7 adults + school-age children](https://www.ptt.cc/bbs/Korea_Travel/M.1769864293.A.ABB.html), dated 2026-01-31 in the search result. The visible snippet mentions a workable base, group dining and transport. Direct page access returned HTTP 403, so the full post and comments were not reviewed.
+- [PTT: Seoul + Busan transport planning](https://www.ptt.cc/bbs/Korea_Travel/M.1784801459.A.532.html), dated 2026-07-23 in the search result. The visible snippet mentions two 28-inch suitcases and hotel moves. Direct page access returned HTTP 403; treat this as a search-snippet signal only.
 
 ### Japan
 
