@@ -47,3 +47,11 @@ The image registry entries for Nampo-dong Busy Street.JPG and haeundae-light-fes
 ## Additional date-language correction — 2026-11-19
 - The winter introduction previously said Millak Luce Festa “starts November 14” even though it was already running on the review date. EN / JA / zh-TW now describe it as currently running through January 10, 2027, while retaining the upcoming Nov 26 Christmas Village and Nov 28 Haeundae Light Festival dates.
 - Official Busan Metropolitan City event page confirms Millak Luce Festa runs 2026-11-14 to 2027-01-10, daily lighting 18:00–23:30, free admission at Millak Waterside Park: https://www.busan.go.kr/eng/bsevents/1762643
+
+
+## Image-audit compatibility correction — 2026-11-19
+- The first exact-head CI run built the site successfully but failed the strict image-credit audit because the existing audit only recognized Wikimedia and Unsplash registry keys. It treated the new official Busan Tourism Archive source as an unsupported non-Wikimedia source.
+- The audit now recognizes the explicit source type official_busantourism_archive for local files under /assets/images/events/, allows verified entries only for Wikimedia or that approved official archive source, and checks visible credits on seasonal-event cards as well as existing homepage trend cards.
+- IMAGE_STANDARDS.md now documents item-specific commercial-use verification for Busan Tourism Archive assets and the audit's local archive / seasonal-card checks.
+- The Haeundae archive entry uses the exact displayed credit label KOGL Type 1, and the image registry records the source, creator, publisher, production year and item-specific license.
+- The site build passed on the first CI run; the image audit failed for the unsupported source type. A new exact-head run is required after this audit-script correction; no pass is claimed until it completes.
