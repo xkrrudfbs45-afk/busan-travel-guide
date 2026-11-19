@@ -257,6 +257,13 @@
       "permalink": "https://www.instagram.com/p/Df6kfHwFR5K/",
       "published_at": "2026-11-19T07:41:52.006Z",
       "last_error": null
+    },
+    "ig-fresh15-1119-us": {
+      "status": "retry_pending",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-19T20:51:19.278Z",
+      "creation_id": "18136889311745304",
+      "last_error": "IG POST /17841422359116355/media_publish 403: Application request limit reached"
     }
   }
 }
