@@ -42,3 +42,8 @@ The image registry entries for Nampo-dong Busy Street.JPG and haeundae-light-fes
 - Live Render preview was inspected in text mode before changes; current deployed main SHA at review was f036e199967c395736538e3fea385cfbe24b74e8. The custom domain and browser-rendered screenshots were not independently inspected in this pass.
 - Responsive screenshot QA at 360 / 390 / 1280 remains required. Do not claim visual completion until actual browser screenshots are reviewed.
 - This change is a Draft PR only. No merge, Render deployment, DNS or production configuration change was made.
+
+
+## Additional date-language correction — 2026-11-19
+- The winter introduction previously said Millak Luce Festa “starts November 14” even though it was already running on the review date. EN / JA / zh-TW now describe it as currently running through January 10, 2027, while retaining the upcoming Nov 26 Christmas Village and Nov 28 Haeundae Light Festival dates.
+- Official Busan Metropolitan City event page confirms Millak Luce Festa runs 2026-11-14 to 2027-01-10, daily lighting 18:00–23:30, free admission at Millak Waterside Park: https://www.busan.go.kr/eng/bsevents/1762643
