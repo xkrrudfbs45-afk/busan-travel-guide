@@ -1,10 +1,6 @@
 {
   "_note": "Build-time cover photos for guides that have no in-page photo (docs/IMAGE_QUALITY_STANDARD.md). Injected into public/ by scripts/enhance-images.mjs; page HTML is not edited. Every file must be status=verified in assets/data/image-credits.json. `og: true` also replaces a mismatched og:image/twitter:image. Width/height are the original Commons dimensions (checked 2026-11-12 via the Commons API).",
   "files": {
-    "Haeundae_District_and_Beach.jpg": {
-      "w": 4431,
-      "h": 3215
-    },
     "Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg": {
       "w": 4032,
       "h": 2268
@@ -60,15 +56,17 @@
     },
     {
       "path": "zh-tw/guides/where-to-stay-busan/index.html",
-      "file": "Haeundae_District_and_Beach.jpg",
+      "file": "Haeundae_Busan_South_Korea_01.jpg",
       "alt": "海雲台海水浴場與後方的高樓群",
-      "caption": "海雲台海灘與市區，本文比較的住宿區域之一"
+      "caption": "海雲台海灘與市區，本文比較的住宿區域之一",
+      "og": true
     },
     {
       "path": "ja/guides/where-to-stay-busan/index.html",
-      "file": "Haeundae_District_and_Beach.jpg",
+      "file": "Haeundae_Busan_South_Korea_01.jpg",
       "alt": "海雲台海水浴場と背後の高層ビル群",
-      "caption": "比較エリアのひとつ、海雲台のビーチと街並み"
+      "caption": "比較エリアのひとつ、海雲台のビーチと街並み",
+      "og": true
     },
     {
       "path": "zh-tw/guides/airport-to-haeundae/index.html",
@@ -253,6 +251,13 @@
       "file": "Inside_Jagalchi_Fish_Market,_Busan.jpg",
       "alt": "釜山札嘎其市場內展示新鮮海產的攤位",
       "caption": "札嘎其市場內部，各海鮮店的付款方式可能不同",
+      "og": true
+    },
+    {
+      "path": "zh-tw/guides/busan-with-kids/index.html",
+      "file": "Haeundae_Busan_South_Korea_01.jpg",
+      "alt": "釜山海雲台海灘與沿海街景",
+      "caption": "海雲台海灘與沿海街景，作為釜山親子行程的城市景觀參考",
       "og": true
     }
   ]
