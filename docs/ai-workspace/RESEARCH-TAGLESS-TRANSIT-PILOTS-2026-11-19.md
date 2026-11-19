@@ -61,6 +61,7 @@ Update the existing EN / JA / zh-TW public-transport guides only. Do not create 
 - JA: `ja/guides/transit-card/index.html`
 - zh-TW: `zh-tw/guides/transit-card/index.html`
 - Added a localized warning explaining the two separate Tagless projects, their different scope/timing, Android app requirements and the fact that Gimhae Airport Station is not one of the two initial Busan–Gimhae Light Rail trial stations.
+- Removed an identical duplicated one-day / three-day metro-pass exclusion callout that appeared twice in the zh-TW transit guide; the first copy remains in its original position.
 - No title, meta description, canonical, hreflang, sitemap, JSON-LD, affiliate link, analytics event, image, crop or SNS content was changed.
 
 ## Image and technical review
