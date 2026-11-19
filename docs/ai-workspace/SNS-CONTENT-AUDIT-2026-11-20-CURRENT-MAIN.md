@@ -62,8 +62,8 @@
   - JP: https://www.threads.com/@go2busan.jp/post/Df7AcvKEQp4
   - TW: https://www.threads.com/@go2busan.tw/post/Df5zG3LlgT9
   - US: https://www.threads.com/@go2busan.us/post/Df5sac8jhXh
-- Missed 31개는 attempts=0, permalink 없음, API 오류 없음. 20개는 11/15 이전의 과거 슬롯, 11개는 11/16~11/19 슬롯이다. 이는 API 거절이 아니라 publisher가 허용 시간 안에 게시 시도를 하지 못한 실행 공백이다. 정확한 Actions run 원인은 publish-log만으로 특정할 수 없다.
-- 11/20 08:00 JP/TW 슬롯은 점검 시각 기준 약 22분 경과로 3시간 late window 안에 있다. 아직 missed로 기록되지 않았으며 발행 여부를 추정하지 않는다.
+- Missed 31개는 attempts=0, permalink 없음, API 오류 없음. 20개는 11/07~11/11의 과거 슬롯, 11개는 11/16~11/19 슬롯이다. 이는 API 거절이 아니라 publisher가 허용 시간 안에 게시 시도를 하지 못한 실행 공백이다. 정확한 Actions run 원인은 publish-log만으로 특정할 수 없다.
+- 11/20 08:00 JP 슬롯은 점검 시각 기준 약 22분 경과해 3시간 late window 안에 있다. TW 08:00 슬롯은 한국시간 09:00에 도래하고, US 08:00 슬롯은 더 늦게 도래한다. 세 슬롯 모두 점검 시점에는 missed로 기록되지 않았으며 발행 여부를 추정하지 않는다.
 
 계정별 LIVE 설정과 토큰은 읽거나 변경하지 않았다. 과거 발행 여부는 publish-log와 permalink로만 판단했다.
 
