@@ -38,6 +38,7 @@ try { JSON.parse(readFileSync(join(PUB, "manifest.webmanifest"), "utf8")); } cat
 const sm = readFileSync(join(PUB, "sitemap.xml"), "utf8");
 if (!/^<\?xml/.test(sm.trim()) || !sm.includes("</urlset>")) f.push("sitemap.xml: not a urlset");
 for (const m of sm.matchAll(/<lastmod>([^<]*)<\/lastmod>/g)) if (!/^\d{4}-\d{2}-\d{2}$/.test(m[1])) f.push(`sitemap.xml: bad lastmod ${m[1]}`);
+for (const u of sm.match(/<url>[\s\S]*?<\/url>/g) || []) if ((u.match(/<lastmod>/g) || []).length > 1) f.push(`sitemap.xml: more than one <lastmod> in ${(u.match(/<loc>([^<]*)<\/loc>/) || [])[1]}`);
 console.log(`Built pages checked: ${pages.length}`);
 console.log(`Findings: ${f.length}`);
 for (const x of f) console.log(`[ERROR] ${x}`);
