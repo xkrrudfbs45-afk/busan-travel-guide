@@ -51,7 +51,7 @@ The page contains **28 H3 restaurant/food entries**. The visible H1 and opening 
 - Photographer: Christophe95
 - License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - Wikimedia Commons file page rechecked 2026-11-19: 4,032 × 3,024 px original, 666 KB, own work by Christophe95, photographed 27 September 2018; CC BY-SA 4.0 is explicitly shown on the file page. The existing registry entry was refreshed to `checked_on: 2026-11-19`. The page caption preserves author, source and license links; only Wikimedia thumbnail resizing is used, with no derivative crop.
-- The original image is portrait-ish 4:3; social-platform 1200×630 cropping and responsive 360 / 390 / 1280 rendering still require visual browser review. Do not treat that review as complete from the source edit alone.
+- The original is 4:3 (4,032 × 3,024). The inline figure now preserves the full natural aspect ratio (max-width 900px; no object-fit crop) so the vendor's head and food trays are not cut off on desktop. The OG thumbnail is 1,600 × 1,200; a platform-specific 1200×630 crop and responsive 360 / 390 / 1280 rendering still require visual browser review. Do not treat that review as complete from the source edit alone.
 
 ## Static checks performed
 
