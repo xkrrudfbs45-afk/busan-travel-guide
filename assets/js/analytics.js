@@ -289,6 +289,10 @@
   }
 
   function loadAnalytics() {
+    // Keep preview and deployment hosts out of the production GA4 property.
+    // Only the canonical public site (and its www alias) should send analytics.
+    const host = window.location.hostname.toLowerCase();
+    if (host !== 'go2busan.com' && host !== 'www.go2busan.com') return;
     if (!validMeasurementId) return;
     if (analyticsLoaded) {
       updateConsent(true);
