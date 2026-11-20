@@ -60,9 +60,9 @@ Owner-priority issue [#589](https://github.com/xkrrudfbs45-afk/busan-travel-guid
 
 | Locale | Previous title | New title | Previous description | New description |
 |---|---|---|---|---|
-| EN | Where to Eat in Haeundae, Busan: Local Food | Go2Busan | Haeundae Food: Markets, Seafood & Local Eats | Go2Busan | Find where to eat in Haeundae, Busan, from market snacks and seaside seafood to bokguk, local gukbap and Korean barbecue. | Haeundae Market snacks, seaside seafood, Haeridan-gil cafés, bokguk and Korean BBQ. Includes addresses, area-by-area tips and Korean ordering phrases. |
-| JA | 海雲台グルメ：ポックク・クッパ・市場・海鮮 | Go2Busan | 釜山・海雲台グルメ｜市場・海鮮・フグ料理 | Go2Busan | 海雲台でポックク（フグスープ）やローカルクッパを。市場グルメ、海鮮、カフェ、韓国焼肉もエリア別に紹介。 | 海雲台市場の食べ歩き、海辺の海鮮、海理団通りのカフェ、フグスープやクッパをエリア別に紹介。住所と注文に使える韓国語も掲載。 |
-| zh-TW | 海雲台美食：河豚湯、在地湯飯、市場與海鮮 | Go2Busan | 釜山海雲台美食攻略：市場小吃、海鮮與河豚湯 | Go2Busan | 海雲台美食指南：河豚湯、在地牛肉湯飯、市場小吃、海鮮與韓式烤牛腸，附店家地址與交通提醒。 | 從海雲台傳統市場小吃、海邊海鮮攤到海理團路咖啡店，整理河豚湯、牛肉湯飯、店家地址與點餐韓文。 |
+| EN | Where to Eat in Haeundae, Busan: Local Food \| Go2Busan | Haeundae Food: Markets, Seafood & Local Eats \| Go2Busan | Find where to eat in Haeundae, Busan, from market snacks and seaside seafood to bokguk, local gukbap and Korean barbecue. | Haeundae Market snacks, seaside seafood, Haeridan-gil cafés, bokguk and Korean BBQ. Includes addresses, area-by-area tips and Korean ordering phrases. |
+| JA | 海雲台グルメ：ポックク・クッパ・市場・海鮮 \| Go2Busan | 釜山・海雲台グルメ｜市場・海鮮・フグ料理 \| Go2Busan | 海雲台でポックク（フグスープ）やローカルクッパを。市場グルメ、海鮮、カフェ、韓国焼肉もエリア別に紹介。 | 海雲台市場の食べ歩き、海辺の海鮮、海理団通りのカフェ、フグスープやクッパをエリア別に紹介。住所と注文に使える韓国語も掲載。 |
+| zh-TW | 海雲台美食：河豚湯、在地湯飯、市場與海鮮 \| Go2Busan | 釜山海雲台美食攻略：市場小吃、海鮮與河豚湯 \| Go2Busan | 海雲台美食指南：河豚湯、在地牛肉湯飯、市場小吃、海鮮與韓式烤牛腸，附店家地址與交通提醒。 | 從海雲台傳統市場小吃、海邊海鮮攤到海理團路咖啡店，整理河豚湯、牛肉湯飯、店家地址與點餐韓文。 |
 
 Description lengths: EN 150 characters; JA 61 characters; zh-TW 46 characters. The English title is 55 characters. Localized wording is not a literal translation: the Taiwan copy leads with 「釜山海雲台美食攻略」 and market snacks; Japanese leads with 「釜山・海雲台グルメ」 and food-area choices.
 
