@@ -1,4 +1,4 @@
-> **최신 정정 — 2026-11-21:** 이 문서의 2026-11-20 기준 편성 수치와 Missed 수치는 당시 스냅샷이다. 최신 15일 창(2026-11-21~2026-12-05)은 `SNS-CONTENT-AUDIT-2026-11-21-CURRENT-MAIN.md`를 기준으로 한다. 태종대 무료 순환버스의 운영일은 BTA 공지(화~일)와 현재 Go2Busan 태종대 가이드(수~일)가 서로 달라졌다. BTO 운영 페이지를 직접 재확인하기 전 요일·승차권 배부 시작 시각을 게시하지 않는다.
+> **최신 정정 — 2026-11-21:** 이 문서의 편성 수치와 Missed 수치는 11/20 당시 스냅샷이다. 최신 15일 창은 `SNS-CONTENT-AUDIT-2026-11-21-CURRENT-MAIN.md`를 기준으로 한다. 태종대는 11/21 BTO 운영사 페이지를 직접 확인했다. 다누비열차는 안전점검으로 운행하지 않고 무료 순환버스가 대체한다. 현재 운영사 페이지는 수~일 09:30~17:30, 매표 09:10~17:30, 월·화 휴무, 악천후 중단으로 안내한다. BTA 7/10 공지의 화~일 표기는 운영사 현재 페이지보다 오래된 공지이므로 사용하지 않는다.
 
 # Go2Busan SNS 전수 점검 — 2026-11-20 (current main)
 
@@ -77,12 +77,13 @@
 - Instagram publisher는 qa.ok 외에도 현재 spec_hash 일치, card_count, .hash 일치, 정확히 5개의 JPEG 파일을 확인한다. 따라서 legacy 16개와 실패 1개는 재렌더·QA 전 발행 차단 대상이다. 8개도 최종 .hash/JPEG 일치 검증 전에는 완전한 게시 승인으로 간주하지 않는다.
 - 11/25 일본어 음식 에티켓 카드 5: qa.ok=false, 본문 가로 넘침. 제안 문구 「辛さ控えめでお願いします」로 줄인 뒤 재렌더한다.
 - 11/24 준비물 카드: EN Type C/F, JA C type (SE type), TW C/F형 표기가 서로 다르다. 한국관광공사 공식 안내는 220V·60Hz와 둥근 구멍 2개를 설명한다. 세 언어 모두 타입 분류를 제거하고 같은 사실로 통일한다.
-- 11/26 태종대: 카드 문안과 art prompts가 다누비열차 이용을 암시한다. 부산광역시관광협회 2026-07-10 공지는 열차 운행 중단(7/3부터 긴급 안전점검 종료 시까지), 무료 순환버스(7/4부터), 화~일 09:30~17:30, 회차별 무료 승차권 선착순 발권으로 안내한다. 이전 11/19 문서의 수~일·월화 휴무·09:10 발권은 잘못된 세부사항이며 별도 문서에서 정정한다.
+- 11/26 태종대: 카드 문안과 art prompts가 다누비열차 이용을 암시한다. BTO 운영사 현재 페이지는 열차 안전점검 중단과 무료 순환버스 대체, 수~일 09:30~17:30, 매표 09:10~17:30, 월·화 휴무, 악천후 중단, 회차별 무료권 선착순을 안내한다. 이 운영사 정보가 BTA 7/10 공지의 화~일 표기보다 우선한다.
 - 11/28 광복로 발코니 뮤직쇼: Visit Busan 공식 일정은 11/28(토) 19:00~21:00, Sunny Moon Jazz Band 19:30~20:00, Modern Sounds Jazz Big Band 20:00~20:30. 게시물은 draft / needs_check 유지.
 - 24개 게시물의 art metadata는 AI 삽화와 언어별 크레딧을 기록한다. 이번 회차는 art prompts와 QA manifest를 확인했으나 GitHub connector가 JPEG 바이너리 원본을 제공하지 않아 120장 전체의 픽셀·모바일 크롭을 직접 검수하지 않았다. 실제 이미지의 장소·음식·계절·행사 일치 여부는 별도 이미지 개봉 검수 필요.
 
 공식 참고:
-- 태종대 운행 중단·무료 순환버스: https://bta.or.kr/noticeDetail?no=1637&page=1
+- 태종대 운영사 현재 안내: https://bto.or.kr/kor/CMS/Contents/Contents.do?mCode=MN030
+- BTA 2026-07-10 과거 공지: https://bta.or.kr/noticeDetail?no=1637&page=1
 - 한국 전압·콘센트(일본어): https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140048
 - 한국 전압·콘센트(번체): https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140059
 - 광복로 11/28 공식 일정: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=6437&menuCd=DOM_000000204012000000
