@@ -24,11 +24,13 @@ Owner-priority issue [#589](https://github.com/xkrrudfbs45-afk/busan-travel-guid
 
 ## Public community signals
 
-### Taiwan — priority market
+### Taiwan — priority market (Dcard + PTT)
 
 1. [Dcard: 2026 Busan 4D3N trip report](https://www.dcard.tw/f/korea_travel/p/262264413), trip in early October 2026; page showed 40K+ views when checked 2026-11-20. The author discusses Haeundae Market, the Haeundae signature hotteok stall, salt bread near Mipo, and crowd/queue friction at the coastal train and capsule train. This is one detailed trip report, not a representative survey.
 2. [Dcard: Busan itinerary review and trip report](https://www.dcard.tw/f/korea_travel/p/259077103), thread dated 2025-05-07; the page showed 84 likes and 5 comments at crawl. The traveler describes a first Korea trip with a parent, a Haeundae stay, late-night food near Haeundae Station, market browsing and a Blue Line Park day. It demonstrates itinerary-plus-food planning, not current restaurant operating data.
 3. [Dcard: 8D7N Busan itinerary planning](https://www.dcard.tw/f/korea_travel/p/261405972), public thread showing 10K+ views at crawl. The proposed Haeundae days combine 31cm seafood kalguksu, Haeundae Market snacks, cafés and attractions. The parsed page did not expose a reliable post date; none is inferred.
+4. [PTT: 4D3N Busan family itinerary check](https://www.ptt.cc/bbs/Korea_Travel/M.1742121816.A.CC0.html), posted 2025-03-16 with multiple replies visible through 2025-03-18. The route includes Haeundae Market and 31cm seafood kalguksu; replies add a hotteok recommendation and discuss whether Jagalchi is worthwhile as a sightseeing-only stop.
+5. [PTT: Haeundae 31cm seafood kalguksu food review](https://www.ptt.cc/bbs/Korea_Travel/M.1720094460.A.800.html), posted 2024-07-04 and based on a June 2024 visit. It describes shared serving, using table scissors for side dishes and a pre-12:30 arrival without a queue. Treat as historical ordering context only; its 2024 price / hours are not reused.
 
 ### Japan
 
@@ -51,8 +53,8 @@ Owner-priority issue [#589](https://github.com/xkrrudfbs45-afk/busan-travel-guid
 
 - Public searches were run for Dcard/PTT, 4travel/Yahoo!知恵袋, Reddit, Korean Naver/blog, DCInside, Theqoo, Clien, Ppomppu and public YouTube results.
 - No directly relevant recent Theqoo, Clien or Ppomppu first-person thread surfaced in the public indexed results. The DCInside result surfaced was a syndicated editorial item, not a forum discussion.
-- Direct Naver Blog and Naver Cafe access was blocked by robots policy in the search environment. No login or access-control bypass was attempted. No relevant public Instagram post was surfaced in the indexed search results. YouTube comment retrieval was not reliable, so no comment sentiment or engagement trend is inferred. YouTube comment retrieval was not reliable, so no comment sentiment or engagement trend is inferred.
-- Older PTT posts (including 2023-03-25 and 2024-07-04 reports about Haeundae 31cm seafood kalguksu) were used only as historical examples of portion-sharing / scissors / queue questions. Their prices and hours are not reused.
+- Direct Naver Blog and Naver Cafe access was blocked by robots policy in the search environment. No login or access-control bypass was attempted. No relevant public Instagram post was surfaced in the indexed search results. YouTube comment retrieval was not reliable, so no comment sentiment or engagement trend is inferred.
+- The 2024-07-04 PTT food review is used only as historical context for portion-sharing, scissors and queue expectations. Its prices and hours are not reused.
 
 ## Official fact cross-check
 
