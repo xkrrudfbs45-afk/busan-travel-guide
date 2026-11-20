@@ -7,6 +7,13 @@
 - No body copy, image asset, OG/Twitter tag, JSON-LD, canonical, hreflang, sitemap, affiliate destination, analytics ID/event, or SNS schedule was changed.
 - Base: `main` SHA `41e7468434750a8b22b0568028dafec360249e0f`. Work is isolated on `content/haeundae-food-snippet-ctr-20261120`; no direct push to main.
 
+## Public page snapshot and deployment boundary
+
+- The public Render-hosted EN, JA and zh-TW Haeundae food pages were crawled on 2026-11-20. Their currently served title tags are still the pre-PR titles, as expected; PR #594 is not merged or deployed.
+- The Render-hosted pages show the current body guide and locale-specific copy. The JA and zh-TW HTML source has no equivalent in-body hero figure; the English page does.
+- The custom domain `https://go2busan.com/` and its `/version.txt` endpoint were not accessible through the web fetch in this run. This is an access limitation, not evidence that the site is down. No custom-domain HTTP status or live version claim is made.
+- GitHub's `Deploy to Render` workflow completed successfully on 2026-11-20 for main SHA `41e7468434750a8b22b0568028dafec360249e0f` (workflow run [#44669441389](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44669441389)). The deploy workflow result is recorded, but the custom-domain version was not independently fetched.
+
 ## Search Console signal
 
 Owner-priority issue [#589](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/589) records the 28-day GSC window ending 2026-11-17:
@@ -34,15 +41,15 @@ Owner-priority issue [#589](https://github.com/xkrrudfbs45-afk/busan-travel-guid
 
 ### Korea — local source discovery
 
-1. [Public Korean travel vlog: Haeridan-gil and Haeundae food](https://www.youtube.com/watch?v=7sB7IOJnq5s), published 2026-05-10 (917-follower channel; 278 views and 11 likes at crawl). Its 3N4D route mentions Haeridan-gil parking, Dim Tao and Haeundae-area food stops. Low-volume single-creator signal only.
-2. [Korean local food blog: Haeridan-gil tonkatsu](https://borameet.tistory.com/36), dated 2025-04-23. It gives a station-to-alley walking description and a personal meal account; this is not treated as verified current business-hours data.
+1. [Public Korean travel vlog: 3N4D Busan trip with Haeridan-gil and Haeundae food](https://www.youtube.com/watch?v=mpWkjIcumB4), published 2025-01-30 (168-follower channel; 267 views and 8 likes at crawl). Its itinerary mentions Haeundae-area meals, Haeridan-gil cafés and an ocean-view hotel. This is a low-volume single-creator signal, not a representative sample.
+2. [Korean local food blog: Haeridan-gil tonkatsu](https://borameet.tistory.com/36), dated 2025-04-23. It documents a personal Haeundae Haeridan-gil tonkatsu visit, the address, kiosk prepayment and no-wait entry at that time. It is one dated visit and is not treated as current business-hours or queue data.
 3. [Busan.net Haeundae Top 10](https://busan.net/food/rank/haeundae/), checked 2026-11-10, is a local editorial/aggregation benchmark rather than a community post. It displays dish, price, distance, source count, review themes and queue notes. Some entries explicitly say the publisher has not personally visited; rankings and prices were not copied.
 
 ### Coverage and access limits
 
 - Public searches were run for Dcard/PTT, 4travel/Yahoo!知恵袋, Reddit, Korean Naver/blog, DCInside, Theqoo, Clien, Ppomppu and public YouTube results.
 - No directly relevant recent Theqoo, Clien or Ppomppu first-person thread surfaced in the public indexed results. The DCInside result surfaced was a syndicated editorial item, not a forum discussion.
-- Direct Naver Blog access was blocked by robots policy in the search environment. No login or access-control bypass was attempted.
+- Direct Naver Blog access was blocked by robots policy in the search environment. No login or access-control bypass was attempted. YouTube comment retrieval was not reliable, so no comment sentiment or engagement trend is inferred.
 - Older PTT posts (including 2023-03-25 and 2024-07-04 reports about Haeundae 31cm seafood kalguksu) were used only as historical examples of portion-sharing / scissors / queue questions. Their prices and hours are not reused.
 
 ## Official fact cross-check
@@ -68,9 +75,9 @@ Description lengths: EN 150 characters; JA 61 characters; zh-TW 46 characters. T
 
 ## Image audit — no asset changes
 
-- EN hero: [Pojangmacha in Haeundae, Busan](https://commons.wikimedia.org/wiki/File:Pojangmacha_in_Haeundae,_Busan.jpg), Busan Metropolitan City, Korea Open Government License Type 1 (KOGL Type 1). The image registry marks commercial use permitted with attribution; last checked 2026-11-05. The image subject matches the Haeundae food-stall guide. The page uses a 1200×545 intrinsic box, `fetchpriority="high"`, `decoding="async"` and CSS `object-fit:cover`.
+- EN hero: [Pojangmacha in Haeundae, Busan](https://commons.wikimedia.org/wiki/File:Pojangmacha_in_Haeundae,_Busan.jpg), Busan Metropolitan City, Korea Open Government License Type 1 (KOGL Type 1). The image registry marks commercial use permitted with attribution; registry checked 2026-11-05; the Commons license page was rechecked 2026-11-20. Commons confirms the original is 1200×545 (129 KB). The image subject matches the Haeundae food-stall guide. The page uses a 1200×545 intrinsic box, `fetchpriority="high"`, `decoding="async"` and CSS `object-fit:cover`.
 - JA and zh-TW currently have no equivalent in-body hero figure; both retain the same Haeundae OG/Twitter image and a correctly labelled bokguk illustration photo.
-- Bokguk image: [Korea-Busan-Bokguk-Pufferfish soup-01.jpg](https://commons.wikimedia.org/wiki/File:Korea-Busan-Bokguk-Pufferfish_soup-01.jpg), Junho Jung, CC BY-SA 3.0. Registry checked 2026-11-16; commercial use allowed with attribution. Existing captions identify it as illustrative dish imagery, not a photo of either named restaurant.
+- Bokguk image: [Korea-Busan-Bokguk-Pufferfish soup-01.jpg](https://commons.wikimedia.org/wiki/File:Korea-Busan-Bokguk-Pufferfish_soup-01.jpg), Junho Jung, CC BY-SA 3.0. Registry checked 2026-11-16; the Commons page was rechecked 2026-11-20; commercial use is allowed with attribution and ShareAlike terms. Existing captions identify it as illustrative dish imagery, not a photo of either named restaurant.
 - No image was downloaded, generated, replaced or re-cropped. No local WebP/AVIF conversion or responsive srcset is present on the inspected figures; byte transfer, mobile crop, LCP and CLS were not measured. The JA/zh-TW in-body hero parity gap is recorded for the existing image-quality follow-up [#384](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/384).
 
 ## Validation and remaining risks
