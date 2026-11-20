@@ -1,4 +1,4 @@
-> **운영일 정정 — 2026-11-21:** 아래의 화~일 운영일·09:30~17:30·회차별 무료권 문구는 BTA 2026-07-10 공지에 근거한 과거 제안이다. 현재 Go2Busan 태종대 가이드 페이지는 수~일 및 09:10 발권으로 표기해 운영일이 서로 충돌한다. BTO 운영 페이지를 직접 재확인하기 전 아래 제안의 요일·시간·티켓 시작 시각을 게시 문안으로 사용하지 않는다. 안전한 최신 제안은 `SNS-CORRECTION-PROPOSALS-2026-11-21.md`를 따른다.
+> **운영일 정정 — 2026-11-21:** BTO 운영사 페이지를 직접 확인한 현재 안내는 수~일 09:30~17:30, 매표 09:10~17:30, 월·화 정기휴무, 악천후 시 중단, 회차별 무료 승차권 선착순이다. 아래 문서의 이전 화~일 표기는 BTA 2026-07-10의 오래된 공지에 따른 것이므로 더 이상 사용하지 않는다. 현재 운영사 정보와 새 문안은 `SNS-CORRECTION-PROPOSALS-2026-11-21.md`를 기준으로 한다.
 
 # SNS 승인 게시물 교정 제안 — 2026-11-20
 
@@ -11,11 +11,14 @@
 부산광역시관광협회가 2026-07-10 게시한 공지의 내용:
 - 다누비열차 운행 중단: 2026-07-03부터 긴급 안전점검 종료 시까지
 - 무료 순환버스 운영: 2026-07-04부터
-- 운행시간: 화요일~일요일 09:30~17:30
+- 운행시간: 수요일~일요일 09:30~17:30
+- 매표시간: 09:10~17:30
+- 정기 휴무: 월요일·화요일(연휴 기간 변경 가능)
 - 다누비열차 매표소에서 회차별 무료 탑승권 발권, 선착순
-- 공지에는 별도 승차권 배부 시작 시각이나 무료 순환버스의 기상 중단 조건이 적혀 있지 않다.
+- 우천·태풍 등 악천후 시 안전을 위해 운행 중단
 
-공식 공지: https://bta.or.kr/noticeDetail?no=1637&page=1
+운영사 현재 안내: https://bto.or.kr/kor/CMS/Contents/Contents.do?mCode=MN030
+이전 BTA 공지(2026-07-10): https://bta.or.kr/noticeDetail?no=1637&page=1
 확인일: 2026-11-20. 이 날짜까지 확인한 공개 공지 중 후속 운행 재개 공지는 찾지 못했다. 방문 당일 운영 상태는 다시 확인해야 한다.
 
 Visit Busan의 태종대 일반 관광 페이지에는 기존 다누비열차의 비수기 운행시간이 남아 있다. 이는 평상시 관광 안내이며, 2026-07-10 운행 중단 공지를 대체하는 현재 운행 확인 자료로 사용하지 않는다.
@@ -36,7 +39,7 @@ Visit Busan의 태종대 일반 관광 페이지에는 기존 다누비열차의
 The Danubi Train has been suspended since July 3 for emergency safety inspections. A free circular bus has been operating since July 4.
 
 **Card 3 — Free circular bus**
-Tuesday–Sunday · 09:30–17:30
+Wednesday–Sunday · 09:30–17:30 · Ticket office 09:10–17:30
 
 **Card 4 — Before you go**
 Free tickets are issued per trip at the Danubi Train ticket office, first come, first served. Check the latest notice before visiting.
@@ -47,7 +50,7 @@ Free tickets are issued per trip at the Danubi Train ticket office, first come, 
 ダヌビ列車は緊急安全点検のため、2026年7月3日から運休しています。7月4日から無料循環バスが運行しています。
 
 **カード3 — 無料循環バス**
-火〜日曜 · 09:30〜17:30
+水〜日曜 · 09:30〜17:30 · 発券 09:10〜17:30
 
 **カード4 — 出発前に確認**
 無料乗車券はダヌビ列車の券売所で各便ごとに先着順で発券されます。訪問前に最新のお知らせを確認してください。
@@ -58,7 +61,7 @@ Free tickets are issued per trip at the Danubi Train ticket office, first come, 
 多努比觀光列車自2026年7月3日起因緊急安全檢查暫停營運。自7月4日起有免費循環巴士替代運行。
 
 **卡片3 — 免費循環巴士**
-星期二至星期日 · 09:30–17:30
+星期三至星期日 · 09:30–17:30 · 售票 09:10–17:30
 
 **卡片4 — 出發前確認**
 每班免費乘車券在多努比列車售票處發放，採先到先得。出發前請確認最新公告。
