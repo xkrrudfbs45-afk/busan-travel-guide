@@ -43,13 +43,15 @@ Owner-priority issue [#589](https://github.com/xkrrudfbs45-afk/busan-travel-guid
 
 1. [Public Korean travel vlog: 3N4D Busan trip with Haeridan-gil and Haeundae food](https://www.youtube.com/watch?v=mpWkjIcumB4), published 2025-01-30 (168-follower channel; 267 views and 8 likes at crawl). Its itinerary mentions Haeundae-area meals, Haeridan-gil cafés and an ocean-view hotel. This is a low-volume single-creator signal, not a representative sample.
 2. [Korean local food blog: Haeridan-gil tonkatsu](https://borameet.tistory.com/36), dated 2025-04-23. It documents a personal Haeundae Haeridan-gil tonkatsu visit, the address, kiosk prepayment and no-wait entry at that time. It is one dated visit and is not treated as current business-hours or queue data.
-3. [Busan.net Haeundae Top 10](https://busan.net/food/rank/haeundae/), checked 2026-11-10, is a local editorial/aggregation benchmark rather than a community post. It displays dish, price, distance, source count, review themes and queue notes. Some entries explicitly say the publisher has not personally visited; rankings and prices were not copied.
+3. [YouTube: Haeundae Haeridan-gil flat udon how-to](https://www.youtube.com/watch?v=PmfLzdJx3TY), published 2025-09-20 (48,954 views, 75 likes at crawl). The title frames the video as practical menu / eating guidance; transcript and comments were not reviewed, so no sentiment claim is made.
+4. [YouTube: Haeundae Haeridan-gil food picks](https://www.youtube.com/watch?v=W1RwB0TgGEY), published 2025-05-28 (3,987 views, 25 likes at crawl). This is a single creator's food recommendation, not evidence of a general ranking.
+5. [Busan.net Haeundae Top 10](https://busan.net/food/rank/haeundae/), checked 2026-11-10, is a local editorial/aggregation benchmark rather than a community post. It displays dish, price, distance, source count, review themes and queue notes. Some entries explicitly say the publisher has not personally visited; rankings and prices were not copied.
 
 ### Coverage and access limits
 
 - Public searches were run for Dcard/PTT, 4travel/Yahoo!知恵袋, Reddit, Korean Naver/blog, DCInside, Theqoo, Clien, Ppomppu and public YouTube results.
 - No directly relevant recent Theqoo, Clien or Ppomppu first-person thread surfaced in the public indexed results. The DCInside result surfaced was a syndicated editorial item, not a forum discussion.
-- Direct Naver Blog access was blocked by robots policy in the search environment. No login or access-control bypass was attempted. YouTube comment retrieval was not reliable, so no comment sentiment or engagement trend is inferred.
+- Direct Naver Blog and Naver Cafe access was blocked by robots policy in the search environment. No login or access-control bypass was attempted. No relevant public Instagram post was surfaced in the indexed search results. YouTube comment retrieval was not reliable, so no comment sentiment or engagement trend is inferred. YouTube comment retrieval was not reliable, so no comment sentiment or engagement trend is inferred.
 - Older PTT posts (including 2023-03-25 and 2024-07-04 reports about Haeundae 31cm seafood kalguksu) were used only as historical examples of portion-sharing / scissors / queue questions. Their prices and hours are not reused.
 
 ## Official fact cross-check
