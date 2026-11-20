@@ -9,7 +9,7 @@
 
 ### Taiwan — Dcard and PTT
 - [Dcard: 釜山新手攻略｜金海機場到市區怎麼走？](https://www.dcard.tw/f/korea_travel/p/262169005), captured 2026-11-20: 6K+ views, 15 likes and no comments on the accessible page. It compares light rail, limousine and taxi for Seomyeon, Nampo and Haeundae; distinguishes light luggage from large luggage; and warns about the Sasang transfer and station stairs. Publication date was not exposed, so this is a single-post signal, not a demand estimate.
-- [Dcard: late arrival / Haeundae discussion](https://www.dcard.tw/f/korea_travel/p/259077103), 2025-06-14 (trip context: 2025-06-09): one report describes an evening arrival and using Uber to Haeundae. Older anecdotal context only.
+- [Dcard: late arrival / Haeundae discussion](https://www.dcard.tw/f/korea_travel/p/259077103), thread started 2025-05-07; a later reply describes a 2025-06-09 trip: the traveler landed around 8 p.m., cleared baggage around 9 p.m. and took Uber to Haeundae, arriving about 10 p.m. This is one older travel report, not current taxi-price or availability evidence.
 - [PTT: family Busan itinerary](https://www.ptt.cc/bbs/Korea_Travel/M.1778233368.A.6EF.html), 2026-05-08: public search excerpt describes a five-day trip with parents, taxi-based movement and two accommodation bases. Direct retrieval returned 403; low-confidence planning signal only. No access-control bypass was attempted.
 
 ### Japan — 4travel / Yahoo!知恵袋
@@ -24,7 +24,7 @@
 
 ### Korea — public local discussion and source limits
 - [Clien: Busan–Gimhae Light Rail Tagless plan](https://www.clien.net/service/board/news/19294275), 2026-11-17 22:27: 740 views, one like, zero comments when checked. It republishes T-money's announcement rather than independent travel experience. The existing EN / JA / zh-TW transit-card pages already explain the two trial stations, 21-station installation target and March 2027 launch target; no duplicate edit.
-- [Clien: Busan sea-taxi trial](https://www.clien.net/service/board/park/19290927), 2026-11-11 22:34: two comments. Local coastal-mobility interest is not evidence for airport transfer demand.
+- [Clien: Busan sea-taxi trial](https://www.clien.net/service/board/park/19290927), 2026-11-11 22:34: 2,222 views, zero likes and five comments when checked. One commenter saw the boat ride as a possible tourist experience but questioned whether the short Suyeong River–Gwangalli leg is faster than Metro Line 2, and suggested a future Busan Station–Haeundae route. This is one opinion, not proof of demand.
 - Older TheQoo itinerary posts are historical context only. No current, independently verifiable airport-specific post surfaced from DCInside or Ppomppu. Naver / Instagram / YouTube public search did not produce a dated item strong enough to support a new claim; no login or access-control bypass was attempted.
 
 ## Official fact check
