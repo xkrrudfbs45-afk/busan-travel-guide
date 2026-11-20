@@ -27,17 +27,17 @@ Owner-priority issue [#589](https://github.com/xkrrudfbs45-afk/busan-travel-guid
 ### Taiwan — priority market
 
 1. [Dcard: 2026 Busan 4D3N trip report](https://www.dcard.tw/f/korea_travel/p/262264413), trip in early October 2026; page showed 40K+ views when checked 2026-11-20. The author discusses Haeundae Market, the Haeundae signature hotteok stall, salt bread near Mipo, and crowd/queue friction at the coastal train and capsule train. This is one detailed trip report, not a representative survey.
-2. [Dcard: Busan itinerary review and trip report](https://www.dcard.tw/f/korea_travel/p/259077103), thread dated 2025-05-07. The traveler describes a first Korea trip with a parent, a Haeundae stay, late-night food near Haeundae Station, market browsing and a Blue Line Park day. It demonstrates itinerary-plus-food planning, not current restaurant operating data.
+2. [Dcard: Busan itinerary review and trip report](https://www.dcard.tw/f/korea_travel/p/259077103), thread dated 2025-05-07; the page showed 84 likes and 5 comments at crawl. The traveler describes a first Korea trip with a parent, a Haeundae stay, late-night food near Haeundae Station, market browsing and a Blue Line Park day. It demonstrates itinerary-plus-food planning, not current restaurant operating data.
 3. [Dcard: 8D7N Busan itinerary planning](https://www.dcard.tw/f/korea_travel/p/261405972), public thread showing 10K+ views at crawl. The proposed Haeundae days combine 31cm seafood kalguksu, Haeundae Market snacks, cafés and attractions. The parsed page did not expose a reliable post date; none is inferred.
 
 ### Japan
 
-1. [4travel: Haeundae walk and Gwangalli drone show](https://4travel.jp/travelogue/12075164), trip dated 2026-09-18 to 2026-09-21. The diary includes Haeundae Beach, Busan-style mulmil-myeon and a Korean BBQ stop. It is a recent itinerary example, not a restaurant review sample.
-2. [Yahoo!知恵袋: Blue Line Park ticket / stopover question](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14321839749), posted 2025-11-11, answered 2025-11-12. This is adjacent Haeundae itinerary friction rather than a food-demand signal; it reinforces the need to separate food areas from attraction stops and not assume every stop is one short walk.
+1. [4travel: Haeundae walk and Gwangalli drone show](https://4travel.jp/travelogue/12075164), trip dated 2026-09-18 to 2026-09-21; the page showed 31 likes at crawl. The diary includes Haeundae Beach, Busan-style mulmil-myeon and a Korean BBQ stop. It is a recent itinerary example, not a restaurant review sample.
+2. [Yahoo!知恵袋: Blue Line Park ticket / stopover question](https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14321839749), posted 2025-11-11, answered 2025-11-12; 624 views and one answer were shown at crawl. This is adjacent Haeundae itinerary friction rather than a food-demand signal; it reinforces the need to separate food areas from attraction stops and not assume every stop is one short walk.
 
 ### English-speaking visitors
 
-- [Reddit: “decent food in Busan”](https://www.reddit.com/r/koreatravel/comments/1kcucat), posted 2025-05-02. One visitor near Haeundae asks how to avoid low-quality / tourist-oriented meals; replies mention a gukbap option and Haeridan-gil. This is a single thread and is not generalized to all visitors.
+- [Reddit: “decent food in Busan”](https://www.reddit.com/r/koreatravel/comments/1kcucat), posted 2025-05-02. One visitor near Haeundae asks how to avoid low-quality / tourist-oriented meals; the search result snippet mentions replies about a gukbap option and Haeridan-gil. Direct page fetch was disabled, so the full comment thread and engagement counts were not reviewed. This is a single thread and is not generalized to all visitors.
 
 ### Korea — local source discovery
 
