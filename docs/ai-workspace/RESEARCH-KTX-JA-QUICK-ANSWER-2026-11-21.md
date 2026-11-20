@@ -46,6 +46,6 @@ Improve the existing Japanese KTX booking guide only. Do not create a new URL. T
 
 ## Validation and release boundary
 - Source-level exact-string checks confirm the opening answer replacement and removal of the duplicated anchor.
-- The exact-head GitHub Actions result is pending after PR creation; do not call CI passed until a run for this head completes.
+- The first exact-head Technical SEO workflow passed on PR head `cbdd63dee48ad0a22d5ba59db0ca9483322a899f` (run https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44774820212). This note-only correction records that result; the new documentation commit will receive its own workflow run.
 - Public go2busan.com, /version.txt, sitemap.xml and robots.txt could not be independently fetched by the browser in this run. Main SHA is not proof of live deployment.
 - Draft PR only. No merge, production deployment, re-index request, affiliate change or SNS post / schedule change.
