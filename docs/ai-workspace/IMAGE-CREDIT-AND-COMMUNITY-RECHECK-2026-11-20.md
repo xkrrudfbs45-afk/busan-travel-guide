@@ -32,6 +32,12 @@
 - The late-arrival page distinguishes published operator figures from live departures and tells travelers to account for immigration, baggage and every transfer leg.
 - The Tagless update is already documented in the transit-card guide from [T-money's November 17 notice](https://www.tmoney.co.kr/aeb/cmnctn/news/readNewsView.dev?bdSeqNo=4450); no airport-page edit was needed.
 
+### Local press / emerging transport watchlist
+
+- [Busan Metropolitan City: Sea-tourism taxi trial](https://www.busan.go.kr/nbtnewsBU/1763204), 2026-11-11: the official notice describes two press-only test voyages on the Suyeong River–Gwangalli–Haeundae 45-minute loop. It targets infrastructure completion in the second half of 2027; it does not publish public fares, booking, headways or a passenger start date.
+- [The Fact](https://news.tf.co.kr/read/national/2387422.htm), 2026-11-11, reports the same route and says fares, headways and the number of vessels at launch have not yet been disclosed. [Yonhap](https://www.yna.co.kr/view/AKR20261111020700051), 2026-11-11, reports six vessels / three boarding points, facility completion targeted for 2027 H2 and the operator's vessel acquisition schedule through January 2028. The launch timing is therefore not settled across public reports.
+- Editorial decision: keep this on a watchlist as a potentially distinctive coastal-experience guide for Taiwan / Japan / English markets, but do not publish it as an available transport option until public passenger service, fares, stops, booking, operating hours and weather-cancellation rules are confirmed. This is not an airport-transfer substitute.
+
 ## Image-rights finding and change set
 - Asset: [Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg](https://commons.wikimedia.org/wiki/File:Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg), author LERK, photographed 2018-04-03, original 4,032 × 2,268 px (2.81 MB), CC BY-SA 4.0.
 - The [Commons file page](https://commons.wikimedia.org/wiki/File:Gimhae_international_airport_International_terminal_Departure_hall_20180403_121439.jpg) explicitly asks external reusers to credit the exact file name, author, Wikimedia Commons and license. Ten airport-guide language variants use this asset: eight source pages with an in-page figure and two Haeundae pages whose build-time cover manifest injects the figure.
