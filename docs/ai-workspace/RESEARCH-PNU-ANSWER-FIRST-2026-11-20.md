@@ -21,9 +21,9 @@ The Japanese page consistently described six options. The Taiwan Traditional Chi
 ## Community research
 
 ### Taiwan — priority market
-- [Dcard: 分享釜山必吃美食](https://www.dcard.tw/f/korea_travel/p/256753260), dated 2024-09-24. A general Busan food-sharing post, not a Pusan National University-specific question or review. It supports broad food-planning interest only; no PNU demand is inferred.
-- [PTT: 釜山美食分享](https://www.ptt.cc/bbs/Korea_Travel/M.1681704287.A.641.html), posted 2023-04-17. A general Busan food report, not a PNU-area food signal.
-- No recent, direct PNU-specific Dcard / PTT discussion surfaced in public indexed searches.
+- [Dcard: 分享釜山必吃美食](https://www.dcard.tw/f/korea_travel/p/256753260), dated 2024-09-24. A general Busan food-sharing post with 235 likes and 13 comments visible at crawl; it covers several districts, not PNU. It supports broad food-planning interest only; no PNU demand is inferred.
+- [Dcard: 釜山米其林美食攻略｜57間餐廳依地區整理](https://www.dcard.tw/f/korea_travel/p/262363414). The original post date was not exposed in the page text; a comment dated 10/28 was visible, with four likes and one comment at crawl. It groups restaurants by neighborhood, keeps Korean business names for Naver Map searches, and advises checking reservations / closing days. This is a useful Taiwan-market signal for neighborhood-first planning and Korean map-search names, not a PNU-specific demand signal.
+- PTT public indexed searches did not surface a recent PNU-specific food thread. No direct PTT link is cited because no matching post was verified.
 
 ### Japan
 - [4travel: local cuisine around Pusan National University](https://4travel.jp/overseas/area/asia/korea/pusan/pusan_national_university_pus/local-cuisines) currently surfaces only two regional listings, including a Bokguk restaurant near Oncheonjang; it is not a recent first-person PNU campus food report.
