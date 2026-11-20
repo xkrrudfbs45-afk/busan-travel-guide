@@ -103,8 +103,8 @@
 
 한국관광공사 공식 안내는 220V·60Hz와 둥근 구멍 2개를 설명한다. 카드 3개 언어 모두 60Hz가 빠졌거나 플러그 타입 표현이 서로 다르다. 세 언어를 같은 사실로 통일한다.
 
-- JA: https://japanese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140048
-- TW: https://japanese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140059
+- JA: https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140048
+- TW: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140059
 
 ### P1 — 11/25 일본어 음식 에티켓 카드 5
 
