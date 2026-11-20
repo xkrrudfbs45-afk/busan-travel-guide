@@ -25,7 +25,7 @@ Improve the existing Japanese KTX booking guide only. Do not create a new URL. T
 
 ## Official verification
 - KORAIL press release, 2026-10-08: [Foreign-traveller booking window expanded to two months](https://info.korail.com/info/selectBbsNttView.do?bbsNo=199&key=911&nttNo=27403), especially the “승차권 예매 2개월 전부터” section. This is the primary source for the two-month rule.
-- KORAIL's public foreign booking page currently has a crawlable legacy notice that still says “one month” while showing 07:00. This conflicts with the dated 2026-10-08 announcement on the advance window. Keep the existing page's explicit warning that old one-month wording can remain on some English screens; tell visitors to enter their exact travel date and follow the live booking form and latest notice. The 07:00 time is retained as a usual reference, not a guarantee for special holiday schedules.
+- The latest indexed crawl available in this pass (not a fresh live-page confirmation) of KORAIL's public foreign booking page shows a legacy notice that says “one month” while showing 07:00. This conflicts with the dated 2026-10-08 announcement on the advance window. Direct retrieval of the live booking page was not available, so do not claim that the current screen is unchanged. Keep the article's cautious wording that some English screens may retain old one-month text; tell visitors to enter their exact travel date and follow the live booking form and latest notice. The 07:00 time is retained as a usual reference, not a guarantee for special holiday schedules.
 - KORAIL booking FAQ retrieval timed out in this pass. No new waitlist, payment-deadline or standing-ticket rule was added.
 
 ## Competitor structure benchmark
