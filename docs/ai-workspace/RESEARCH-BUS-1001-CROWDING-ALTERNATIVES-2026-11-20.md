@@ -42,7 +42,7 @@ Public search did not surface a recent, independently corroborated 1001 crowding
 - Corrected the EN title/meta so it no longer asserts that Bus 1001 is “often crowded”; the page now describes the conditional case when a traveler cannot board.
 - Added the licensed station-sign image, localized OG/Twitter image metadata, a route schematic, event-day community context, destination-specific FAQs, corrected TOC anchors, and reciprocal internal links from the three transit-card guides.
 - Rebuilt the three sitemap entries from current main and added the EN/JA/zh-TW hreflang set.
-- Existing exact-head Technical SEO audit for the prior PR head `aa60bb06aba49b57cbaf4f9d2b756809e94def70` passed in workflow run [#44669293610](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44669293610). A new exact-head run is required after this update.
+- The current site-code head `85a47bdb618776f410c8ca60582e35fb1c06b93d` passed the exact-head Technical SEO audit in workflow [#44708900872](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44708900872) (run 2052), including the static build and dependency-free audit. This replaces the earlier pre-update run reference. The latest follow-up after that validation was documentation-only; no page HTML, sitemap, styles, scripts or image assets changed.
 - Not performed: real browser screenshot review at 360 / 390 / 1,280 px, social-platform preview fetch, LCP/CLS measurement, image byte-transfer measurement or live seat-occupancy test.
 - No GA4/GSC query, SNS schedule change, post, merge or production deployment was made.
 
