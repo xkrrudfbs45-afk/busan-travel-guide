@@ -82,7 +82,7 @@ The cross-market practical question is consistent: can a visitor use Spa Land be
 
 - **EN title:** `Busan Spa Land Tickets, Price & Hours | Go2Busan` → `Busan Spa Land: ₩26,000, 4-Hour Limit & Hours | Go2Busan`
 - **EN description:** generic ticket / hours / luggage summary → explicit adult price, four-hour allowance, overtime rate, 09:00–22:00 hours and 21:00 last entry.
-- **JA title:** `釜山スパランドの料金・営業時間・行き方｜チムジルバン入門 | Go2Busan` → `釜山スパランド｜大人26,000ウォン・4時間制・最終入場21時 | Go2Busan`
+- **JA title:** `釜山スパランドの料金・営業時間・行き方｜チムジルバン入門 | Go2Busan` → `釜山チムジルバン「スパランド」｜大人26,000ウォン・4時間制 | Go2Busan`
 - **JA description:** general first-visit explanation → adult price, standard four hours, overtime, opening hours and final entry.
 - **zh-TW title:** `釜山汗蒸幕推薦｜Spa Land 門票、交通與行李寄放攻略 | Go2Busan` → `釜山汗蒸幕推薦：Spa Land 門票26,000韓元、4小時限制 | Go2Busan`
 - **zh-TW description:** general itinerary / luggage overview → adult price, four-hour limit, overtime, opening hours, last entry, luggage storage and metro access.
