@@ -51,7 +51,7 @@ The Japanese page consistently described six options. The Taiwan Traditional Chi
 - The PNU gate image is an archival photo dated **15 December 2008**, 3264×2448, by Hansol Jeong, released into the public domain. All three localized captions / alt descriptions now identify it as an archival 2008 image rather than implying it shows today's entrance.
 - Tonkatsu image: Shene81, 5 January 2014, 5184×3456, CC BY 3.0. Chicken image: Real rism, 9 November 2024, 6000×4000, CC BY-SA 4.0. Both remain explicitly labelled as illustrative dish images, not photos of named restaurants.
 - The EN OG/Twitter image now uses the PNU campus landmark rather than an unrelated milmyeon dish image. No new image was generated, downloaded into the repository, cropped or converted. The existing remote Wikimedia `Special:FilePath` width parameter is retained.
-- The image-rights registry was rechecked on 2026-11-20 for the PNU gate, tonkatsu, chicken and milmyeon files. No WebP/AVIF conversion, responsive srcset, social-platform crop test, image-byte measurement or LCP/CLS measurement was performed.
+- Commons file pages and licenses were rechecked on 2026-11-20 for the PNU gate, tonkatsu, chicken and milmyeon files. The shared `assets/data/image-credits.json` was deliberately not changed because open Draft PRs [#588](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/588) and [#586](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/586) also edit that registry; apply these four `checked_on` updates after those branches are reconciled. No WebP/AVIF conversion, responsive srcset, social-platform crop test, image-byte measurement or LCP/CLS measurement was performed.
 
 ## Changes in this branch
 
@@ -60,7 +60,7 @@ The Japanese page consistently described six options. The Taiwan Traditional Chi
 3. Align EN title, meta, OG, Twitter and Article JSON-LD to six picks; fix the visible and structured FAQ to say six and include Gaya Park Dwaeji Gukbap.
 4. Add a licensed, attributed PNU image section to EN and align its OG/Twitter image with the page subject.
 5. Clarify the 2008 archival date and correct the campus photo's intrinsic dimensions in JA / zh-TW.
-6. Refresh the four related image-credit registry checks.
+6. Record image rights and attribution in this research note; defer the shared registry edit to avoid overlap with open PRs #588 and #586.
 
 No prices, opening hours, wait estimates, restaurant branches, URLs, affiliate links, analytics events, SNS schedules or booking claims were changed.
 
@@ -74,4 +74,5 @@ The existing zh-TW page already ranks around position 4.6 for the owner-reported
 - Local build / audit execution was unavailable because the working environment could not resolve GitHub for a repository checkout. The draft PR's exact-head GitHub CI must be used as the automated validation gate.
 - No real browser screenshot QA was performed at 360 / 390 / 1280 px. No Lighthouse, LCP / CLS, image transfer, mobile crop, social preview or custom-domain live-version test was performed.
 - The public custom domain and `/version.txt` endpoint were not independently fetchable in this run. Render API reports the current production deploy as live on the current main SHA; that does not substitute for a direct custom-domain version fetch.
+- `assets/data/image-credits.json`, `STATUS.md` and `HANDOFF.md` are intentionally not changed in this PR because other open Draft PRs overlap those shared files; reconcile those branches before updating them.
 - Do not merge or deploy until exact-head CI and responsive visual review pass and the owner gives per-PR approval.
