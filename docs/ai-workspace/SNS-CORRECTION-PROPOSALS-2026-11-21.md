@@ -31,8 +31,8 @@ EN “Check the Danubi train”, JA 「ダヌビ列車を確認」, TW 「先確
 - TW: 韓國電壓為220V、60Hz，插座是兩個圓孔。請先確認電器的電壓支援範圍，並準備合適的轉接頭。
 
 공식 자료:
-- JA: https://japanese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140048
-- TW: https://japanese.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140059
+- JA: https://japanese.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140048
+- TW: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140059
 
 ## P1 — 11/25 일본어 카드 5
 
