@@ -8,18 +8,19 @@
 
 EN “Check the Danubi train”, JA 「ダヌビ列車を確認」, TW 「先確認觀光小火車」는 운행 중단된 다누비열차를 현재 이용 가능한 것처럼 보이게 한다. 카드 이미지에도 열차가 등장한다.
 
-부산광역시관광협회 2026-07-10 공지는 다누비열차가 2026-07-03부터 긴급 안전점검 종료 시까지 중단됐고, 2026-07-04부터 무료 순환버스가 대체 운영된다고 안내한다. BTA 공지는 화~일 09:30~17:30이라고 적지만, 현재 Go2Busan의 태종대 가이드 페이지는 수~일 및 09:10 승차권 배부로 표기한다. BTO 운영 페이지를 이번 회차에 직접 재확인할 수 없어 운영일·티켓 시작 시각을 확정하지 않는다.
+부산관광공사(BTO) 운영사 페이지를 2026-11-21 직접 확인했다. 다누비열차는 안전점검으로 현재 운행하지 않고, 무료 순환버스가 대체 운행 중이다. 운영사 현재 안내는 수~일 09:30~17:30 운행, 매표 09:10~17:30, 월·화 정기휴무, 우천·태풍 등 악천후 시 중단, 회차별 무료 승차권 선착순 발권이다. BTA 2026-07-10 공지에는 화~일로 적혀 있으나 현재 운영사 페이지와 다르므로, 운영사 BTO 페이지를 우선한다.
 
-- BTA: https://bta.or.kr/noticeDetail?no=1637&page=1
+- BTO 운영사 공식 안내: https://bto.or.kr/kor/CMS/Contents/Contents.do?mCode=MN030
+- BTA 2026-07-10 과거 공지: https://bta.or.kr/noticeDetail?no=1637&page=1
 - 현재 EN 가이드: https://go2busan.com/guides/taejongdae-danubi-train-tips/
 
-### 안전한 제안 문구
+### 제안 문구
 
-- EN: “The Danubi Train is suspended for safety inspections. A free circular shuttle has been announced as the replacement. Check the operator’s latest notice for service days, hours and ticket availability before visiting.”
-- JA: 「ダヌビ列車は安全点検のため運休中です。代替の無料循環バスについて、運行日・時間・乗車券の最新情報を訪問前に運営元のお知らせで確認してください。」
-- TW: 「多努比觀光列車目前因安全檢查暫停營運。免費循環巴士為替代交通方式；出發前請先確認營運單位公告中的運行日期、時間與乘車券資訊。」
+- EN: “The Danubi Train is suspended for safety inspections. A free circular shuttle runs Wednesday–Sunday, 09:30–17:30. Pick up a free ticket for each ride at the Danubi ticket office (09:10–17:30). The shuttle is closed Monday and Tuesday and may stop in bad weather. Check the operator’s notice before visiting.”
+- JA: 「ダヌビ列車は安全点検のため運休中です。代わりに無料の循環バスが水〜日曜の9:30〜17:30に運行します。乗車ごとの無料券はダヌビ乗車券売り場で9:10〜17:30に先着順で受け取ります。月・火曜は運休し、悪天候時も運行を中止する場合があります。訪問前に運営元のお知らせを確認してください。」
+- TW: 「多努比觀光列車因安全檢查暫停營運。免費循環巴士改於週三至週日9:30–17:30行駛；請於多努比售票處9:10–17:30領取每趟免費乘車券，採先到先得。週一、週二停駛，天候不佳時也可能停駛。出發前請確認營運單位最新公告。」
 
-요일·운행시간·승차권 배부 시작 시각은 BTO의 현재 공지를 직접 확인하기 전 카드에 넣지 않는다. 새 이미지에는 다누비열차가 아니라 실제 운행 여부가 확인된 무료 순환버스를 삽화로 표현한다. 절벽·소나무 숲·영도등대를 배경으로 하고 광안대교·마린시티·벚꽃·일반 버스정류장은 제외한다. 새 art-set ID를 사용한다.
+운행일·운행시간·매표시간은 BTO 운영사 페이지를 게시 직전 다시 확인한 뒤 카드에 넣는다. 새 이미지에는 다누비열차가 아니라 실제 운행 여부가 확인된 무료 순환버스를 삽화로 표현한다. 절벽·소나무 숲·영도등대를 배경으로 하고 광안대교·마린시티·벚꽃·일반 버스정류장은 제외한다. 새 art-set ID를 사용한다.
 
 ## P1 — 11/24 전압·플러그
 
