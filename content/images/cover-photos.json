@@ -44,6 +44,10 @@
     "Bell_of_the_Citizens.jpg": {
       "w": 3701,
       "h": 2237
+    },
+    "Cliffs of Taejongdae 1.jpg": {
+      "w": 3941,
+      "h": 2955
     }
   },
   "pages": [
@@ -258,6 +262,27 @@
       "file": "Haeundae_Busan_South_Korea_01.jpg",
       "alt": "釜山海雲台海灘與沿海街景",
       "caption": "海雲台海灘與沿海街景，作為釜山親子行程的城市景觀參考",
+      "og": true
+    },
+    {
+      "path": "guides/taejongdae-danubi-train-tips/index.html",
+      "file": "Cliffs of Taejongdae 1.jpg",
+      "alt": "Layered coastal cliffs and open sea at Taejongdae on Yeongdo Island, Busan.",
+      "caption": "Taejongdae's coastal cliffs, photographed 28 September 2018. This landscape image shows the park, not the currently suspended Danubi train.",
+      "og": true
+    },
+    {
+      "path": "ja/guides/taejongdae/index.html",
+      "file": "Cliffs of Taejongdae 1.jpg",
+      "alt": "釜山・影島の太宗台に広がる層状の海岸断崖と外海。",
+      "caption": "太宗台の海岸断崖。2018年9月28日撮影。園内の景観写真であり、現在運休中のダヌビ列車を写したものではありません。",
+      "og": true
+    },
+    {
+      "path": "zh-tw/guides/taejongdae/index.html",
+      "file": "Cliffs of Taejongdae 1.jpg",
+      "alt": "釜山影島太宗臺的層狀海岸峭壁與外海景色。",
+      "caption": "太宗臺海岸峭壁，攝於2018年9月28日。此為園區景觀照片，並非目前停駛中的 Danubi 列車。",
       "og": true
     }
   ]
