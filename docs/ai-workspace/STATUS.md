@@ -1,14 +1,3 @@
-## 2026-11-20 21:39 KST — PNU answer-first content checkpoint
-
-- Current GitHub main is `41e7468434750a8b22b0568028dafec360249e0f`.
-- Render static service `srv-dbjk4lo473hc73a3d7ag` remains on `main` with auto-deploy disabled. Latest deploy `dep-dbvs33ff3r2c73fv6e90` is `live` on the same SHA; Deploy to Render workflow [#44669441389](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44669441389) succeeded. The custom-domain `/version.txt` endpoint was not independently fetched in this pass, so do not claim a direct custom-domain version check.
-- [PR #596](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/596) is Draft / open / unmerged / undeployed. It improves the existing PNU guide in EN / JA / zh-TW, fixes the EN six-pick metadata/FAQ mismatch, adds an answer-first Exit 3 route summary, adds licensed EN imagery, and labels the 2008 campus photo as archival. Research is recorded in [RESEARCH-PNU-ANSWER-FIRST-2026-11-20.md](RESEARCH-PNU-ANSWER-FIRST-2026-11-20.md).
-- Exact-head Technical SEO run [#44739823551](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44739823551) passed on PR head `6c7f659a764dba0a3e8ef988a0ad43a38e370cd8`, including the localized content, image-credit registry, research note and workspace checkpoint. This line records that result and creates a documentation-only head; verify the automatically triggered final-head run before any merge.
-- Local repository build was unavailable because this environment could not resolve GitHub for a checkout. Browser QA at 360 / 390 / 1280, image crop / byte checks, Lighthouse / LCP / CLS and social preview QA were not performed. Keep PR #596 Draft until the latest exact-head CI and real browser QA pass, then seek owner approval.
-- No new GA4 / GSC query, PR merge, production deploy, SNS publication / schedule change, affiliate change, analytics configuration or commercial action was performed in this pass.
-
----
-
 ## 2026-11-20 05:32 KST — current growth-pass checkpoint
 
 - GitHub main remains `13c1182cb60065673a9ea1bd6ccd4f7fab2888b6`; no new main commit was created in this pass.
