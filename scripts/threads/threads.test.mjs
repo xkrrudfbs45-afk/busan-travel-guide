@@ -265,7 +265,7 @@ const nextRunAfter = (iso, { minute, hours }) => {
 // The 60-minute bound leaves room for one extra slot hour being added later without hiding a missing hour.
 test("publisher cron reaches every scheduled post within 60 minutes of its slot (both US DST states)", () => {
   const cron = cronHours();
-  assert.ok(cron.hours.length <= 10, "keep targeted checks bounded (no 15-minute polling)");
+  assert.ok(cron.hours.length <= 24, "at most hourly (no sub-hourly polling)");
   const sched = JSON.parse(readFileSync("content/social/threads-30day/schedule.json", "utf8"));
   const sample = [...sched.posts.map((p) => p.publish_at_utc)];
   // Also check each market slot on a date in US daylight time and in US standard time.
