@@ -191,6 +191,33 @@
       "title": "想安排海雲台美食行程，正在找住宿嗎？",
       "body": "此連結會開啟釜山市區的住宿搜尋，並非只顯示海雲台。請先將目的地設為海雲台，再比較到地鐵站、海灘與餐廳的實際步行距離、含稅總價和取消規定。",
       "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/busan-three-days/index.html",
+      "before": "<h2 id=\"official-sources\">Official sources</h2>",
+      "id": "agoda-stay-itinerary",
+      "locale": "en",
+      "title": "Choose a hotel that fits your three-day route",
+      "body": "This link opens Agoda's Busan-wide hotel search, not a neighborhood-specific result. Set your preferred base—such as Seomyeon, Nampo or Haeundae—then compare the actual walk to the station, luggage access, total price and cancellation terms for your dates.",
+      "button": "Compare Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/three-days/index.html",
+      "before": "<h2>関連ガイド</h2>",
+      "id": "agoda-stay-itinerary",
+      "locale": "ja",
+      "title": "3日間の旅程に合うホテルを探す",
+      "body": "このリンクは釜山市内全体の宿泊検索を開き、エリア限定の検索結果ではありません。西面・南浦・海雲台など希望する宿泊エリアを設定してから、駅までの実際の徒歩ルート、荷物の運びやすさ、合計料金、キャンセル条件を比較してください。",
+      "button": "Agodaで釜山のホテルを比較"
+    },
+    {
+      "path": "zh-tw/guides/three-days/index.html",
+      "before": "<h2>延伸閱讀</h2>",
+      "id": "agoda-stay-itinerary",
+      "locale": "zh-tw",
+      "title": "依照三天行程選擇住宿區域",
+      "body": "此連結會開啟釜山市區住宿搜尋，並非特定區域的搜尋結果。請先設定西面、南浦或海雲台等住宿區域，再比較到地鐵站的實際步行路線、行李移動是否方便、含稅總價與取消規定。",
+      "button": "前往 Agoda 比較釜山住宿"
     }
   ]
 }
