@@ -25,6 +25,16 @@ Across Taiwan, Japan and English-language travel discussions, visitors commonly 
 - **Korea Tourism Organization — BIFF Square:** describes a 428-metre-long street and identifies film-related handprints/sculptures on the pavement. The page also notes that shop hours vary. The exact length was deliberately not added to the visitor copy because it is unnecessary for the orientation fix. https://english.visitkorea.or.kr/svc/whereToGo/locIntrdn/rgnContentsView.do?menuSn=351&vcontsId=95411
 - The official evidence supports calling BIFF Square a street and a walkable link between nearby markets. It does **not** establish a blanket vehicle-exclusion rule, so the copy does not call it a “pedestrian-only street.”
 
+## Additional Korean/local signals — deferred, not added to visitor copy
+
+- **YouTube public walk, 2026-03-15:** the channel 산책 가자 published a 17:00 walk through Nampo-dong, Gukje Market, Bupyeong Kkangtong Market and Jagalchi Market (8,894 views / 76 likes in the indexed result). This is one public video and supports the recurring walkable-area pattern; it is not a representative demand sample: https://www.youtube.com/watch?v=Vtjc_Xm6QAg.
+- **Busan local reporting, 2026-08-23:** a Financial News report described repeated stoppages of the Gwangbok Underground Shopping Center escalator at Exit 7 over the prior year; it reported that the escalator had restarted on 2026-08-21. This is historical status, not a current operating check: https://www.fnnews.com/news/202608231913482119.
+- **Procurement lead, opened 2026-11-18:** public procurement indexes list Busan Facilities Corporation's design service for replacement of four escalators at Gwangbok Underground Shopping Center Exit 7 (notice R26BK01826522-000). The indexed scope also mentions waterproofing, drainage, canopy and finishes. The original G2B notice was not directly retrieved in this pass; these are secondary index records, not sufficient proof of a construction date or present outage: https://bid.scpark.org/award/R26BK01826522/000 and https://work.00data.kr/projects/R26BK01826522.
+- **Local editorial, 2026-06-04:** an editorial reported waste-collection and litter concerns around Nampo-dong / BIFF Square / Gwangbok-dong during increased visitor traffic. It is a dated local observation, not a current cleanliness claim: https://v.daum.net/v/20260604000740206.
+- Instagram search did not surface a reliable, publicly retrievable post for this specific orientation question. No comments or private account material were accessed.
+
+**Deferred content opportunity:** verify the current Exit 7 escalator status, alternative step-free access and any construction timetable with Busan Facilities Corporation before publishing accessibility or route warnings. Do not infer a current outage from the August article or the November design-service tender. This is tracked separately from the BIFF Square wording fix.
+
 ## Content change
 
 Added a concise, localized orientation callout immediately after the BIFF snack item in the existing EN, JA and zh-TW Nampo guides:
