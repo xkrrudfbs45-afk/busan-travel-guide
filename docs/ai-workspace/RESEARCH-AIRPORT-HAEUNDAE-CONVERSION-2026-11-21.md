@@ -24,7 +24,8 @@ Deepen the existing English, Japanese and Taiwan Traditional Chinese airport-to-
 ### Korean local context
 - [Busan Ilbo: a reporter's Route 307 suitcase test ride](https://v.daum.net/v/20260826200007633), 2026-08-26. The article reports about 90 minutes from Haeundae to Gimhae Airport on that test and no dedicated suitcase restraint on the bus. This is one dated ride, not a current timetable or a guarantee of future journey time.
 - The official Route 307 large-suitcase pilot notice lists 1 July–30 September 2026. No later extension notice was found in the official notice checked on 2026-11-21. The temporary 30-inch exception must not be presented as current.
-- Public Naver Blog search was blocked by robots.txt. Targeted open searches of TheQoo, Clien, DCInside and Ppomppu did not surface a recent independent airport-to-Haeundae experience with enough detail to justify a new claim. No login or access-control bypass was attempted.
+- [YouTube: Busan airport limousine Haeundae route](https://www.youtube.com/watch?v=AqK13jC9bSM), published 2025-11-06 (257 views, 1 like at search capture). It shows a Haeundae departure and a road segment, but predates the 2026 route/fare changes and is not used for current timetable claims.
+- Public Naver Blog search was blocked by robots.txt. Targeted open searches of TheQoo, Clien, DCInside and Ppomppu did not surface a recent independent airport-to-Haeundae experience with enough detail to justify a new claim. Public Instagram search did not surface a dated, verifiable post. No login or access-control bypass was attempted.
 
 ## Official verification — checked 2026-11-21
 
