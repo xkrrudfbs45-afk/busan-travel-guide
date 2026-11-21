@@ -63,7 +63,7 @@ Deepen the existing English, Japanese and Taiwan Traditional Chinese airport-to-
 ## Validation and remaining risks
 
 - Source-level checks before commit: each of the three Agoda insertion anchors was found exactly once; the new placement ID was absent before adding; all three locale copies are separate; existing CID, city ID, URL builder and disclosure logic are unchanged.
-- Build-time injection, static build and Technical SEO CI still need to run on the exact PR head.
+- GitHub Actions [run 44886005236](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44886005236) passed on the exact PR head. It built the public site with the same script Render runs; the Agoda CTA check passed all 24 placements, the image-credit audit reported 0 strict errors, and the dependency-free audit completed. The sitemap/hreflang audit emitted five unrelated warnings: the EN solo-dining canonical URL is missing from sitemap.xml and JA/zh-TW hreflang targets point to it. This was recorded in [issue #611](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/611); it is not changed in this PR.
 - Real browser QA at 360 / 390 / 1,280 px, social preview retrieval, mobile crop, LCP / CLS, image HTTP response and the Agoda final result UI were not tested in this pass.
 - The Agoda link opens a Busan-wide search and requires the visitor to select Haeundae. No hotel booking, partner conversion, commission or revenue is claimed.
 - No GA4 / GSC query, SNS post / schedule change, merge, Render deployment or production setting change was made.
