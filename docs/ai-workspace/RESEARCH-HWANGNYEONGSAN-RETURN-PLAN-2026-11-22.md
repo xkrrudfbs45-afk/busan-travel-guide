@@ -70,5 +70,5 @@
 
 - Draft PR #622: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/622
 - Branch: `content/hwangnyeongsan-return-plan-20261122`; content/research commit before status handoff: `3f67e921bd8a461b8b9159aba2be0c9ffe027667`.
-- PR is open, Draft, mergeable, not merged. No GitHub Actions run or commit status was visible on the PR head at the time of this record; CI is not claimed as passed.
+- PR is open, Draft, mergeable, not merged. GitHub Actions Technical SEO audit #44948480993 (run #2154) passed on head `f384bec534fefb177a36afc5bf741df5ce41f218`: localized checklist, deterministic map generation, static build and dependency-free audit all passed.
 - No merge, production deploy, SNS change, or GA4/GSC query.
