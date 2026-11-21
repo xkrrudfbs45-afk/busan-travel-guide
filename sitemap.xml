@@ -1760,4 +1760,18 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-1001-bus-crowded-alternatives/" />
     <lastmod>2026-11-20</lastmod>
   </url>
+<url>
+    <loc>https://go2busan.com/ja/guides/solo-dining-busan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/solo-dining-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/solo-dining-busan/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/solo-dining-busan/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/solo-dining-busan/" />
+  </url>
+<url>
+    <loc>https://go2busan.com/zh-tw/guides/solo-dining-busan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/solo-dining-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/solo-dining-busan/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/solo-dining-busan/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/solo-dining-busan/" />
+  </url>
 </urlset>
