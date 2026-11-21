@@ -35,6 +35,15 @@ Across Taiwan, Japan and English-language travel discussions, visitors commonly 
 
 **Deferred content opportunity:** verify the current Exit 7 escalator status, alternative step-free access and any construction timetable with Busan Facilities Corporation before publishing accessibility or route warnings. Do not infer a current outage from the August article or the November design-service tender. This is tracked separately from the BIFF Square wording fix.
 
+## Competitive benchmark and market-day planning gap
+
+- **Korea Travel List**, published 2026-07-31 and updated 2026-10-08, groups five Nampo stops into a timed day route, makes Sunday / 1st-3rd-5th Tuesday closure days visible, and offers weather/day-of-week alternatives. Its value is the itinerary structure; Go2Busan uses its own copy and official source links: https://koreatravellist.com/ko/travel/busan/nampo-dong-busan-attractions.
+- **Korea Scene Guide**, 2026-09-24, treats BIFF Square as a transition between markets, advises sharing one or two snacks rather than ordering a full portion at every stop, and cautions that a queue is not proof of authenticity: https://koreasceneguide.com/nampo-dong-busan-food-old-downtown-walk/.
+- **Away Edition**, 2026-09-18, compares Nampo lodging by whether the traveler prioritizes Jagalchi Market or BIFF Square access, using different Jagalchi Station exits. Its hotel-specific distances are not adopted because they were not independently verified in this pass: https://www.awayedition.com/ko/guides/nampo-stays-for-early-jagalchi-market-visits.
+- **Official Visit Busan — Gukje Market**, checked 2026-11-21: Sunday closing day; 09:00–20:00 listed hours, varying by store; the page also marks elevator and accessible facilities: https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000301003001000&uc_seq=399.
+- **Official Visit Busan — Jagalchi Market**, checked 2026-11-21: closes on the 1st, 3rd and 5th Tuesdays; 05:00–22:00 on open days; store service fees differ: https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000303011001000&uc_seq=412.
+- The existing Nampo guide already explains the morning Jagalchi / evening Kkangtong sequence, but did not surface Gukje’s Sunday closure or Jagalchi’s monthly closing days near the itinerary. Added one concise, localized note in EN / JA / zh-TW with the official links. No exact market schedule was copied from third-party pages.
+
 ## Content change
 
 Added a concise, localized orientation callout immediately after the BIFF snack item in the existing EN, JA and zh-TW Nampo guides:
