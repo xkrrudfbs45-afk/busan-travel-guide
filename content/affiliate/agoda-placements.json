@@ -166,6 +166,33 @@
       "button": "在 Agoda 搜尋釜山住宿"
     },
     {
+      "path": "guides/things-to-do-in-busan/index.html",
+      "before": "<h2>2. Haeundae: beaches and coastal experiences</h2>",
+      "id": "agoda-stay-things-to-do",
+      "locale": "en",
+      "title": "Ready to choose your Busan base?",
+      "body": "This link opens Agoda's Busan-wide hotel search, not results for a specific neighborhood. Set Seomyeon, Nampo, Haeundae or Gwangalli as your destination, then compare the actual walk from the property to the nearest station, luggage access, total price and cancellation terms for your dates.",
+      "button": "Compare Busan stays on Agoda"
+    },
+    {
+      "path": "ja/guides/things-to-do-in-busan/index.html",
+      "before": "<h2>1. 海雲台：ビーチと東側の海岸を楽しむ</h2>",
+      "id": "agoda-stay-things-to-do",
+      "locale": "ja",
+      "title": "旅程に合う釜山の宿を比較する",
+      "body": "このリンクは釜山市内全体の宿泊検索を開き、特定エリアだけの検索結果ではありません。西面・南浦洞・海雲台・広安里など希望するエリアを目的地に設定してから、最寄り駅までの実際の徒歩ルート、荷物の運びやすさ、合計料金、キャンセル条件を同じ日程で比較してください。",
+      "button": "Agodaで釜山の宿を比較"
+    },
+    {
+      "path": "zh-tw/guides/things-to-do-in-busan/index.html",
+      "before": "<h2>1. 海雲台：海灘與東部海岸</h2>",
+      "id": "agoda-stay-things-to-do",
+      "locale": "zh-tw",
+      "title": "依照行程比較釜山住宿",
+      "body": "此連結會開啟釜山市區的住宿搜尋，並非特定區域的結果。請先將目的地設為西面、南浦、海雲台或廣安里，再依相同日期比較住宿到最近地鐵出口的實際步行路線、行李移動是否方便、含稅總價與取消規定。",
+      "button": "前往 Agoda 比較釜山住宿"
+    },
+    {
       "path": "guides/haeundae-food-guide/index.html",
       "before": "<h2 id=\"plan\">",
       "id": "agoda-stay-haeundae-food",
