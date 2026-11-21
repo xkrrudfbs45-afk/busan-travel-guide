@@ -56,7 +56,7 @@ No title, meta description, canonical, hreflang, URL, sitemap, search-index, int
 
 - Source replacement checks: one exact insertion point found in each of the three locale files.
 - Local `sh scripts/build-static.sh` and the full `AGENTS.md` audit suite were not run before PR creation because this session has no repository checkout/runtime.
-- GitHub PR CI is expected to run after opening the Draft PR; report its exact result separately. No CI pass is claimed yet.
+- The public-page code passed the exact-head Technical SEO audit on `8e6fdfb3c075c9cf78f9f67b98ecab7f4f297b503` (run [#44845280681](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44845280681)): `sh scripts/build-static.sh` and the full `seo-audit.yml` audit sequence completed successfully. This research-note update is documentation-only; the new PR head will receive its own CI run.
 - Real browser checks at 360 / 390 / 1,280 px were not performed.
 - No merge, production deployment, DNS/redirect change, analytics change, SNS edit or external post was made.
 - `STATUS.md` and `HANDOFF.md` were not edited: open image-rights work already touches shared status/handoff context, and the current Render production SHA could not be independently verified in this session.
