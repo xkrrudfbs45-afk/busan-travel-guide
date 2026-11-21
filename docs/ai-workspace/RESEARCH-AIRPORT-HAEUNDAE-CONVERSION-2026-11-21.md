@@ -36,7 +36,7 @@ Deepen the existing English, Japanese and Taiwan Traditional Chinese airport-to-
   - Cash is not accepted; the notice lists Bustago QR booking, a first-floor Gate 4 ticket machine and boarding by transit / credit card if seats remain. No free transfer. Up to two bags per passenger, combined weight below 30 kg.
 - [Gimhae Airport current bus information](https://www.airport.co.kr/gimhaeeng/cms/frCon/index.do?CONTENTS_NO=1&MENU_ID=110): use the live airport/operator information for the actual boarding stop and date. Busan City and the airport page should be checked together because their summary labels and branch details are not identical.
 - [Busan City Route 307 luggage-trial notice](https://www.busan.go.kr/eng/bsnews01/1739074): Route 307 trial ran 2026-07-01 through 2026-09-30. It is a city bus, not Airport Limousine 1.
-- The page does not promise that the 21:40 Gijang-bound departure serves every Haeundae-area stop. Travelers must check the actual stop and branch.
+- The 21:40 airport departure is the Gijang-bound branch; the Jangsan branch ends at 16:50. The guide tells readers to verify the exact hotel stop against the Gijang route rather than treat 21:40 as a generic Haeundae last-bus time.
 
 ## Competitive structure notes
 
