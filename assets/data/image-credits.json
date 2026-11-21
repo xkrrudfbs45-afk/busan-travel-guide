@@ -531,20 +531,6 @@
     },
     {
       "source": "wikimedia",
-      "file": "Seomyeon_Street.jpg",
-      "source_url": "https://commons.wikimedia.org/wiki/File:Seomyeon_Street.jpg",
-      "author": "Minseong Kim",
-      "license": "CC BY-SA 4.0",
-      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-      "commercial_use": true,
-      "attribution_required": true,
-      "modified": "resized/cropped by CSS or Special:FilePath only",
-      "checked_on": "2026-11-12",
-      "status": "verified",
-      "note": "Commons API extmetadata checked 2026-11-12: own work by Minseong Kim, taken 7 Jan 2015, 'Seomyeon Street' (shopping street, Busanjin-gu). Replaces the unrelated Busanhang Bridge share image on the Seomyeon hubs. Street scene from 2015: shop signs may have changed; caption must not name current shops."
-    },
-    {
-      "source": "wikimedia",
       "file": "Huinnyeoul_culture_village,_Busan_on_October_25th,_2019.jpg",
       "source_url": "https://commons.wikimedia.org/wiki/File:Huinnyeoul_culture_village,_Busan_on_October_25th,_2019.jpg",
       "author": "Choi2451",
@@ -850,6 +836,20 @@
       "checked_on": "2026-11-20",
       "status": "verified",
       "note": "Commons file page rechecked 2026-11-20: own work by Christophe95, photographed 2018-09-28 at 35.056356, 129.080261; original 3941×2955. CC BY-SA 4.0 permits commercial reuse with attribution and a license link. Use as an uncropped landscape of Taejongdae's cliffs; do not imply it depicts the suspended Danubi train or the current shuttle."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Seomyeon.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Seomyeon.jpg",
+      "author": "Christophe95",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized by Wikimedia Special:FilePath only",
+      "checked_on": "2026-11-21",
+      "status": "verified",
+      "note": "Commons file page rechecked 2026-11-21: photograph of Seomyeon, Busan, taken 28 September 2018; 4,032 × 3,024 px; CC BY-SA 4.0. Use with visible author, Wikimedia Commons and license credit."
     }
   ]
 }
