@@ -1,4 +1,4 @@
-## 2026-11-22 05:38 KST — current contributor handoff
+## 2026-11-22 05:50 KST — current contributor handoff
 
 - Current main / Render Live SHA: `2fda035673815077525d366c136e1174097f8427`; Live deploy `dep-dc0ph1ek1f9s739sprag`. Render auto-deploy is off.
 - Review [PR #622](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/622), branch `content/hwangnyeongsan-return-plan-20261122`. Draft, mergeable, not merged or deployed. It updates existing EN / zh-TW night-view pages and the JA winter guide; no new URL.
