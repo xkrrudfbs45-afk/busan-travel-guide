@@ -37,8 +37,28 @@
 - Visit Busan describes Gwangalli as a beach, restaurant and café district with Gwangan Bridge views: https://www.visitbusan.net/en/index.do?lang_cd=en&menuCd=DOM_000000202012001000&uc_seq=1876
 
 ## Competitor / information-architecture benchmark
-- Public Korean travel guides updated 2026-08-02, 2026-09-17, 2026-10-23 and 2026-11-16 commonly lead with a neighborhood comparison, match each area to a trip purpose, and call out last-return routes, luggage and total-price checks. Examples: https://korea.modelter.com/articles/busan-where-to-stay/ · https://budslog.com/ko/guides/busan-2n3d-where-to-stay-haeundae-seomyeon-nampo · https://rankthree.com/ko/busan-where-to-stay-haeundae-seomyeon-nampo · https://asiaseat.com/stay/busan/
-- Adopted the structural lesson only: answer the base-choice question before listing attractions, state that no neighborhood is best for every trip, and direct readers to compare the actual hotel address and final return route. No competitor wording, images, prices or unverified travel times were copied.
+
+### Taiwan
+- Mimi韓, updated 2026-10-30, compares 13 hotels across Seomyeon, Nampo and Haeundae, and explicitly brings station distance and luggage routes into the accommodation decision: https://mimigo.tw/busan-hotels/
+- The Frequent Traveler Taiwan, updated 2026-11-11, uses a four-area comparison including Busan Station and distinguishes airport-bus corridors for Haeundae/Gijang and Seomyeon/Bujeon: https://the-frequent-traveler.com.tw/seoul-hotel-area-guide/
+- Klook Taiwan, updated 2026-03-17, combines Seomyeon hotel options with Line 1/2 access and transport-card context: https://www.klook.com/zh-TW/blog/seomyeon-accommodation/
+- KBW Taiwan Desk, updated 2026-11-04, starts with a quick neighborhood decision and compares station, trip type and caveats; its price and journey-time claims were not reused: https://kbeautywallet.com/zh-tw/blog/busan-stay-guide
+
+### Japan
+- KBW Japan Desk, updated 2026-11-10, distinguishes Haeundae, Seomyeon, Nampo and Busan Station by travel purpose and family needs: https://kbeautywallet.com/ja/blog/busan-hotel-guide
+- Trip.com Japan, 2026-04-04, structures hotel options by trip purpose and neighborhood rather than one undifferentiated city list: https://jp.trip.com/guide/hotels/recommended-busan-hotels.html
+- Klook Japan's Busan hotel page surfaces district-level average price ranges from its 2025-08 to 2026-07 booking data. This is a market/OTA comparison, not a property quote or a current user-specific price: https://www.klook.com/ja/destination/c46-busan/3-hotel/
+- No direct Yahoo!知恵袋 question was found in this pass; 4travel trip reports above were used as individual travel contexts, not survey evidence.
+
+### English
+- Korea Almanac's current neighborhood guide opens with a short answer for Haeundae, Gwangalli, Seomyeon and Nampo, then explains each area's fit and trade-offs: https://koreaalmanac.com/guides/where-to-stay-in-busan/
+- Busan Stays separates beach-focused, central-hub and harbor/market decisions and adds FAQs for first visits and families: https://busanstays.com/guides/where-to-stay-in-busan
+- Busan Bible's 2026-11-14 guide uses a 30-second answer and a neighborhood comparison table. Its prices and airport times were not copied: https://busanbible.com/en/events/busan-where-to-stay-guide
+
+### Shared structural lesson
+- Strong pages answer the neighborhood choice before listing properties: trip purpose, evening/last-return location, exact hotel-to-station walk, luggage/terrain, room details, total price and cancellation terms.
+- Some competitor pages publish exact prices, average rates or journey times. Those figures can become stale or be specific to a date/property, so this PR does not repeat them. It keeps the Go2Busan answer at the level of neighborhood fit and asks visitors to verify the actual hotel address and current return route.
+- No competitor wording, photography, pricing or unverified transport time was copied. The change adopts only the decision-first structure and localizes it for EN / JA / zh-TW.
 
 ## Page and conversion changes
 - EN: added one concise paragraph after the existing route-by-area explanation and before the Haeundae section.
