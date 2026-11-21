@@ -2,7 +2,7 @@
 
 - Current main / Render Live SHA: `2fda035673815077525d366c136e1174097f8427`; Live deploy `dep-dc0ph1ek1f9s739sprag`. Render auto-deploy is off.
 - Review [PR #622](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/622), branch `content/hwangnyeongsan-return-plan-20261122`. Draft, mergeable, not merged or deployed. It updates existing EN / zh-TW night-view pages and the JA winter guide; no new URL.
-- PR #622 has no workflow run or commit status visible yet. Do not call CI passed. The separate PR #621 head previously passed run #44926452861; that result does not apply to #622.
+- PR #622 head `f384bec534fefb177a36afc5bf741df5ce41f218` passed Technical SEO audit #44948480993 (run #2154): localized checklist, deterministic map generation, static build and dependency-free audit all passed. The separate PR #621 run #44926452861 is unrelated.
 - PR #621 currently modifies `ja/guides/things-to-do-in-busan/index.html`; this change deliberately uses `ja/guides/busan-winter-travel-guide/index.html` to avoid a file conflict. After #621 is merged, consider aligning the Japanese attraction page with the same return guidance.
 - Community / official verification and source URLs are in `docs/ai-workspace/RESEARCH-HWANGNYEONGSAN-RETURN-PLAN-2026-11-22.md`. The page text avoids exact bus headways / last-bus times because they were not verified.
 - Image follow-up: METADATA005703 is an official KOGL Type 1 sunset image candidate, but preview fetch failed; obtain and inspect the original, confirm dimensions and 360/390/1280 crops before adding. Do not use METADATA005702 (KOGL Type 4). No photo or OG image was changed in #622.
