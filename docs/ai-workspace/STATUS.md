@@ -1,4 +1,4 @@
-## 2026-11-22 05:38 KST — current verified checkpoint (supersedes 11/21 snapshot)
+## 2026-11-22 05:50 KST — current verified checkpoint (supersedes 11/21 snapshot)
 
 - GitHub main is `2fda035673815077525d366c136e1174097f8427`. Render service `busan-travel-guide` has auto-deploy off; latest Live deployment `dep-dc0ph1ek1f9s739sprag` runs the same SHA. No production deployment was triggered.
 - PR #615 was merged on 2026-11-21 10:33 UTC; the 11/21 entry below that still says Draft is historical and no longer current.
