@@ -65,3 +65,10 @@
 - Render 서비스의 최신 배포는 main SHA `2fda035673815077525d366c136e1174097f8427`와 일치하는 Live 배포 `dep-dc0ph1ek1f9s739sprag`로 확인했다. 자동 배포는 꺼져 있다. 이번 작업은 배포하지 않았다.
 - go2busan.com 직접 HTTP/브라우저 확인은 웹·컨테이너 환경에서 응답을 가져오지 못해 미완료다. Render 배포 상태와 사용자 브라우저 응답을 혼동하지 않는다.
 - GA4/GSC 통계는 반복 자동화 원칙에 따라 조회하지 않았다. SNS 게시·예약 변경, PR 병합, 운영 배포, 결제·계약 변경 없음.
+
+## PR 기록
+
+- Draft PR #622: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/622
+- Branch: `content/hwangnyeongsan-return-plan-20261122`; content/research commit before status handoff: `3f67e921bd8a461b8b9159aba2be0c9ffe027667`.
+- PR is open, Draft, mergeable, not merged. No GitHub Actions run or commit status was visible on the PR head at the time of this record; CI is not claimed as passed.
+- No merge, production deploy, SNS change, or GA4/GSC query.
