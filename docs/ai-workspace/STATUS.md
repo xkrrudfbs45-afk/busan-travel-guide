@@ -1,3 +1,29 @@
+## 2026-11-21 17:50 KST — verified airport-guide growth checkpoint
+
+- GitHub main: `f000cbcaf0fea9653d04fbc66fe6457d88bee318`. Render static service `busan-travel-guide` remains auto-deploy off; latest live deployment `dep-dc0l16bm8hqs73ertcgg` is on the same SHA. No production deploy was triggered.
+- Draft PR [#615](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/615) deepens the existing EN / JA / zh-TW airport-to-Haeundae guides; no new URL. The latest content head before this status-only update, `e54d0547633303d3792f8851fb5af45c3ed8e068`, passed [CI run #44886546254](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44886546254): public static build and dependency-free audit succeeded; Agoda CTA check 24 placements; external target links missing safe rel 0; strict image-credit errors 0.
+- Exact route distinction: Airport Limousine 1's Jangsan-bound airport departures end at 16:50; 21:40 is the Gijang-bound branch. The three language pages tell readers to verify their hotel stop against that branch. Route 307's large-suitcase pilot ended 2026-09-30.
+- The same audit found five separate sitemap/hreflang warnings for the EN solo-dining canonical URL missing from sitemap.xml and JA / zh-TW hreflang references to that missing target. This was recorded in [issue #611](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/611); it is not changed in PR #615.
+- PR #615 remains Draft / open / mergeable / unmerged. This status-only update is included in the PR; verify its exact-head CI before any review decision. Browser QA at 360 / 390 / 1,280 px and Agoda final-result UI verification remain outstanding.
+- Community / official-source record: `docs/ai-workspace/RESEARCH-AIRPORT-HAEUNDAE-CONVERSION-2026-11-21.md`. It records Taiwan Dcard/PTT, Japan Yahoo!知恵袋/4travel, English Reddit, Korean local press, Busan City and Gimhae Airport verification, competitor structure notes and image rights.
+- Existing airport cover remains the LERK / Wikimedia Commons departure-hall photo, CC BY-SA 4.0, with filename / author / license credit. EN Pinterest media matches the article / OG image and includes the credit. No image asset was replaced or generated.
+- Existing PR #472 remains Draft / open / unmerged; no change was made. No GA4 / GSC query, SNS post / schedule change, merge, production deployment, analytics or partner setting change occurred.
+
+---
+
+## 2026-11-21 17:32 KST — verified airport-guide growth checkpoint
+
+- GitHub main: `f000cbcaf0fea9653d04fbc66fe6457d88bee318`. Render static service `busan-travel-guide` remains auto-deploy off; latest live deployment `dep-dc0l16bm8hqs73ertcgg` is on the same SHA. No production deploy was triggered.
+- Draft PR [#615](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/615) deepens the existing EN / JA / zh-TW airport-to-Haeundae guides; no new URL. The content head before this status-only update, `4a28261f5eefb816ee14bb33e64e61b986842246`, passed [CI run #44886148892](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44886148892): public static build and dependency-free audit succeeded; Agoda CTA check 24 placements; external target links missing safe rel 0; strict image-credit errors 0.
+- The same audit found five separate sitemap/hreflang warnings for the EN solo-dining canonical URL missing from sitemap.xml and JA / zh-TW hreflang references to that missing target. This was recorded in [issue #611](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/611); it is not changed in PR #615.
+- PR #615 remains Draft / open / mergeable / unmerged. The status/handoff update is documentation-only and will receive its own exact-head CI run. Browser QA at 360 / 390 / 1,280 px and Agoda final-result UI verification remain outstanding.
+- Community / official-source record: `docs/ai-workspace/RESEARCH-AIRPORT-HAEUNDAE-CONVERSION-2026-11-21.md`. It records Taiwan Dcard/PTT, Japan Yahoo!知恵袋/4travel, English Reddit, Korean local press, Busan City and Gimhae Airport verification, competitor structure notes and image rights.
+- Airport facts rechecked 2026-11-21: Line 1 Jangsan airport departures end 16:50; Gijang branch runs to 21:40; Line 2 adult fare KRW 6,000; Route 307 large-suitcase pilot ended 2026-09-30. The 307 test ride is described as one dated local report, not a timetable.
+- Existing airport cover remains the LERK / Wikimedia Commons departure-hall photo, CC BY-SA 4.0, with filename / author / license credit. EN Pinterest media now matches the article / OG image and includes the credit. No image asset was replaced or generated.
+- Existing PR #472 remains Draft / open / unmerged; no change was made. No GA4 / GSC query, SNS post / schedule change, merge, production deployment, analytics or partner setting change occurred.
+
+---
+
 ## 2026-11-20 09:40 KST — verified growth-pass checkpoint
 
 - GitHub `main`: `a9c727517f5d3bf8937fb52e55a3f0e3884a2006` (merged PR #580, Haeundae image-rights cleanup).

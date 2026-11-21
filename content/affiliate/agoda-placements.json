@@ -191,6 +191,33 @@
       "title": "想安排海雲台美食行程，正在找住宿嗎？",
       "body": "此連結會開啟釜山市區的住宿搜尋，並非只顯示海雲台。請先將目的地設為海雲台，再比較到地鐵站、海灘與餐廳的實際步行距離、含稅總價和取消規定。",
       "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/gimhae-airport-to-haeundae/index.html",
+      "before": "<section class=\"guide-map-cta\"",
+      "id": "agoda-stay-airport-haeundae",
+      "locale": "en",
+      "title": "Need a place to stay in Haeundae?",
+      "body": "This link opens Agoda's Busan-wide hotel search, not Haeundae-only results. Set Haeundae as your destination, then compare the actual walk to your nearest station or beach, room details, total price and cancellation terms.",
+      "button": "Compare Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/airport-to-haeundae/index.html",
+      "before": "<h2 id=\"section-1\">1. ライトレールと地下鉄</h2>",
+      "id": "agoda-stay-airport-haeundae",
+      "locale": "ja",
+      "title": "海雲台に泊まる予定ですか？",
+      "body": "このリンクは海雲台限定ではなく、釜山市内全体の宿泊検索を開きます。目的地を海雲台に設定し、ホテルから最寄り駅やビーチまでの実際の徒歩距離、部屋の条件、合計料金、キャンセル条件を比較してください。",
+      "button": "Agodaで釜山のホテルを比較"
+    },
+    {
+      "path": "zh-tw/guides/airport-to-haeundae/index.html",
+      "before": "<h2 id=\"section-1\">1. 輕軌與地鐵</h2>",
+      "id": "agoda-stay-airport-haeundae",
+      "locale": "zh-tw",
+      "title": "打算住在海雲台嗎？",
+      "body": "此連結會開啟釜山市區住宿搜尋，並非只顯示海雲台。請先將目的地設為海雲台，再比較住宿到最近地鐵站或海灘的實際步行距離、房型、含稅總價與取消規定。",
+      "button": "前往 Agoda 比較釜山住宿"
     }
   ]
 }
