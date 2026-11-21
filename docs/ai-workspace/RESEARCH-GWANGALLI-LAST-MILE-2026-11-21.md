@@ -14,7 +14,7 @@
 - Naver Blog 搜尋遭 robots.txt 阻擋；未嘗試繞過。此輪在 DCInside、Clien、Ppomppu 未找到可獨立驗證且直接支持本次步行時間修改的近期公開資料。
 
 ## 官方交叉查核
-- Visit Busan 官方旅遊頁列出：廣安站 5 號出口到廣安里海水浴場步行約 13 分鐘，並列出公車 41、42 路。查核日期：2026-11-21。https://www.visitbusan.net/index.do?menuCd=DOM_000000202002001000&uc_seq=1200
+- Visit Busan 官方旅遊頁列出：廣安站 5 號出口到廣安里海水浴場步行約 13 分鐘，並列出公車 41、42 路。查核日期：2026-11-21。https://www.visitbusan.net/index.do?contentsSid=22&lang_cd=en&uc_seq=377
 - 廣安里 M 無人機燈光秀官方交通指南列出：金蓮山站 3 號出口步行約 5 分鐘；廣安站 3 號出口約 10 分鐘。該頁面為較早的官方交通指南，僅引用站口步行估計，不用於判斷 2026 年表演時刻。https://www.gwangallimdrone.co.kr/notice-en/2024-05-31
 - 釜山市官方廣安里交通頁列出海灘、公車站及廣安站／金蓮山站的公車服務，但沒有提供所有飯店的步行距離。https://www.busan.go.kr/depart/ahgwanganri
 
