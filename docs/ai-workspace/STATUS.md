@@ -1,3 +1,16 @@
+## 2026-11-22 05:38 KST — current verified checkpoint (supersedes 11/21 snapshot)
+
+- GitHub main is `2fda035673815077525d366c136e1174097f8427`. Render service `busan-travel-guide` has auto-deploy off; latest Live deployment `dep-dc0ph1ek1f9s739sprag` runs the same SHA. No production deployment was triggered.
+- PR #615 was merged on 2026-11-21 10:33 UTC; the 11/21 entry below that still says Draft is historical and no longer current.
+- Current open Draft PRs: [#622 Hwangnyeongsan access / return](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/622), [#621 stay-area / localized CTA](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/621), [#619 Gwangalli station walk](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/619), [#618 itinerary booking choices](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/618), and [#472 BTS title experiment](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/472). #621 and #619 are mergeable; #618 and #472 currently report not mergeable.
+- PR #622 is Draft / open / mergeable / unmerged. Branch: `content/hwangnyeongsan-return-plan-20261122`. It updates only the existing EN and zh-TW night-view guides plus the existing JA winter guide and a research record; no new URL.
+- PR #622 head has no GitHub Actions run and no commit status visible as of this checkpoint. Do not describe CI as passed. PR #621's separate earlier CI run #44926452861 passed; it does not validate PR #622.
+- Research record: `docs/ai-workspace/RESEARCH-HWANGNYEONGSAN-RETURN-PLAN-2026-11-22.md`. Hwangnyeongsan archive image candidate METADATA005703 is KOGL Type 1, but its preview could not be fetched and was not added. METADATA005702 is Type 4 and not usable for commercial publication.
+- go2busan.com custom-domain HTTP/browser verification and actual 360/390/1280 browser QA remain incomplete. Render API deployment state is not proof of public-domain browser health.
+- No GA4/GSC query, SNS publishing/schedule change, PR merge, production deploy, URL change, payment, contract, or data-collection change was made.
+
+---
+
 ## 2026-11-21 17:50 KST — verified airport-guide growth checkpoint
 
 - GitHub main: `f000cbcaf0fea9653d04fbc66fe6457d88bee318`. Render static service `busan-travel-guide` remains auto-deploy off; latest live deployment `dep-dc0l16bm8hqs73ertcgg` is on the same SHA. No production deploy was triggered.
