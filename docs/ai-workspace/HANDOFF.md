@@ -1,3 +1,15 @@
+## 2026-11-21 17:50 KST — next contributor handoff
+
+- Current main / Render live SHA: `f000cbcaf0fea9653d04fbc66fe6457d88bee318`; live deploy `dep-dc0l16bm8hqs73ertcgg`. Render auto-deploy is disabled. Do not infer custom-domain browser health from the Render API status.
+- Review [PR #615](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/615), branch `growth/airport-haeundae-conversion-20261121`. It changes only the existing airport-to-Haeundae page group in EN / JA / zh-TW, the Agoda placement registry and research/status docs. Draft, mergeable, not merged or deployed.
+- Content head `e54d0547633303d3792f8851fb5af45c3ed8e068` passed [CI #44886546254](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44886546254), including the same public build script Render uses, dependency-free audit, Agoda CTA validation (24 placements), image-credit audit (0 strict errors), and safe external-link rel audit (0 missing). This handoff update is documentation-only; verify its exact-head CI before review.
+- Do not merge or deploy without owner approval. Real browser QA at 360 / 390 / 1,280 px, actual mobile crops / LCP / CLS, custom-domain HTTP, social preview fetch and the Agoda result UI remain unverified. The Agoda search is Busan-wide; the copy tells users to set Haeundae manually.
+- [Issue #611](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/611) records the separate solo-dining sitemap / hreflang defect: EN canonical missing from sitemap.xml; JA and zh-TW hreflang point to that missing EN URL. The five audit warnings are not caused by PR #615. Fix through the existing technical SEO handoff; preserve all URLs.
+- Community and official verification details are in `docs/ai-workspace/RESEARCH-AIRPORT-HAEUNDAE-CONVERSION-2026-11-21.md`. Do not repeat the Route 307 temporary 30-inch luggage exception as current; official pilot period ended 2026-09-30.
+- Existing PR #472 remains Draft / open / unmerged; keep its separate review hold. No GA4 / GSC query or SNS publishing/schedule change was made in this run.
+
+---
+
 ## 2026-11-21 17:32 KST — next contributor handoff
 
 - Current main / Render live SHA: `f000cbcaf0fea9653d04fbc66fe6457d88bee318`; live deploy `dep-dc0l16bm8hqs73ertcgg`. Render auto-deploy is disabled. Do not infer custom-domain browser health from the Render API status.
