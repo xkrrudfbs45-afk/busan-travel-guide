@@ -1,3 +1,14 @@
+## 2026-11-21 21:35 KST — next contributor handoff
+
+- Current verified main / production SHA before PR #619: `8afd2a3913ca1f72eedbc86f3670d55abe7ec353`. Deploy run [#44895090808](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44895090808) confirmed live `/version.txt` matched that SHA; deploy hook HTTP 200 and production smoke test passed.
+- Review Draft [PR #619](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/619), branch `content/gwangalli-last-mile-20261121`. It modifies only existing Gwangalli neighborhood pages in EN / JA / zh-TW plus `docs/ai-workspace/RESEARCH-GWANGALLI-LAST-MILE-2026-11-21.md`. No new URL, image or affiliate CTA.
+- Official route distinction: Visit Busan lists about 13 minutes from Gwangan Station Exit 5; the official Gwangalli Drone Show guide lists about 5 minutes from Geumnyeonsan Station Exit 3. These are exit-specific estimates; keep the exact-address caveat.
+- The first exact-head Technical SEO audit started on the initial PR head. Because this handoff/status update adds documentation commits, verify the latest exact-head run before review.
+- Do not merge or deploy without owner approval. Browser QA at 360 / 390 / 1,280 px, live image response/MIME, social preview, mobile crop and LCP/CLS remain pending.
+- No GA4 / GSC query or SNS schedule / LIVE / publication change was made. Existing PR #618 and #472 remain separate review items.
+
+---
+
 ## 2026-11-21 17:50 KST — next contributor handoff
 
 - Current main / Render live SHA: `f000cbcaf0fea9653d04fbc66fe6457d88bee318`; live deploy `dep-dc0l16bm8hqs73ertcgg`. Render auto-deploy is disabled. Do not infer custom-domain browser health from the Render API status.
