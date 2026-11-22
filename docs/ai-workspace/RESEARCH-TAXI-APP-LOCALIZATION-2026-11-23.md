@@ -28,7 +28,7 @@ No relevant, independently verifiable current post was surfaced in the accessibl
 
 - EN and zh-TW already have the existing taxi-vs-subway guide. No JA equivalent exists; new guide URLs remain paused.
 - The EN, JA and zh-TW late-arrival pages previously named GrabPay as a supported k.ride payment option. The current k.ride service page displays an Alipay+ logo but does not explicitly list GrabPay; VisitKorea's 2026-05-18 guide independently marks foreign-issued credit cards accepted for k.ride. All three late-arrival pages now remove the unsupported GrabPay claim, link the official VisitKorea source and distinguish app payment options from phone-number verification. The privacy policy does not state which foreign country codes pass verification.
-- The JA first-trip guide previously linked only to the taxi-fare section of the JA transit-card guide. This change adds a short pre-trip reminder and a contextual link to the existing JA late-arrival section `#published-last-services`.
+- The JA first-trip guide previously linked only to the taxi-fare section of the JA transit-card guide. This change adds a short pre-trip reminder and a contextual link to the existing JA late-arrival section `#taxi-app`.
 - No new URL, page metadata, image, affiliate CTA, analytics event, SNS copy or publishing schedule was changed.
 
 ## Korean local development watchlist — Busan sea taxi
