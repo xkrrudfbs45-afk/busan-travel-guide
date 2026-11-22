@@ -24,12 +24,24 @@ Choose the image for the exact subject of the page, not merely a generic image t
 
 ## Required implementation for each article
 1. Add a topic-matched cover image near the article hero.
-2. Write descriptive alt text that identifies the real subject; do not stuff keywords.
-3. Set `og:image` and `twitter:image` to the correct cover image, and keep `og:image:alt` accurate.
-4. Add a visible caption/credit when the source license requires it.
-5. Check the rendered crop on desktop and mobile. Avoid cutting off the main subject.
-6. Verify that the image URL resolves and that it is not a duplicate of unrelated articles.
-7. Keep the image source and license information available in the code review notes.
+2. Add a purposeful in-article photo sequence, normally 2–4 supporting images for standard guides. Use more only when each image explains a different place, step, dish, route or seasonal detail.
+3. Match the layout to the story: one wide 16:9 image for a key scene, a 2-up 4:3 pair for comparison, or a lead image plus two supporting images for a visual editorial grid. Avoid repeating the same image in hero and body unless the crop and editorial purpose differ.
+4. Write descriptive alt text that identifies the real subject; do not stuff keywords.
+5. Set `og:image` and `twitter:image` to the correct cover image, and keep `og:image:alt` accurate.
+6. Add a visible caption/credit when the source license requires it; identify archival or illustrative imagery honestly.
+7. Check rendered crops at 360px, 390px and desktop. Keep the subject visible, avoid horizontal overflow, and ensure captions remain readable.
+8. Verify image URLs resolve, dimensions are suitable, loading is lazy below the fold, and the same image is not repeated across unrelated articles.
+9. Keep image source, license and subject-match rationale available in the code review notes.
+
+## Editorial image density by article type
+- Neighborhood / attraction / day trip: 4–7 images where verified, including a cover, one context/location view, and 1–3 detail or route views.
+- Food / market / restaurant culture: 4–6 images where verified, including the relevant dish, market or street context. Never imply an illustrative dish photo belongs to a named restaurant.
+- Transport / how-to / ticketing: 3–5 images, prioritizing the actual station, vehicle, machine, sign or step being explained.
+- Itinerary / comparison: 4–7 images, with each image tied to a stop or decision point.
+- Event / seasonal: 4–6 images; clearly label archival imagery and never imply an old image shows the current installation.
+- Short utility / FAQ pages: 2–3 images only when they materially improve understanding.
+
+These are editorial targets, not quotas. If only one or two properly licensed and accurately matched images exist, use fewer and explain the limitation rather than padding with unrelated or generic imagery.
 
 ## Editorial labels
 - Use **LOCAL PICK** only for a clearly identified local restaurant, shop, experience, or editorial recommendation with a short reason for recommending it.
