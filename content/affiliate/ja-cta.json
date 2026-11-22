@@ -123,6 +123,18 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/ja/activity/109354-south-korea-esim-high-speed-internet-qr-code-voucher/",
       "button": "Klookで韓国eSIMプランを確認 ↗"
+    },
+    {
+      "path": "ja/guides/taejongdae/index.html",
+      "before": "<h2 id=\"nearby\">4. 近くのスポットは1か所だけ組み合わせる</h2>",
+      "id": "cta-taejongdae-daytour",
+      "kicker": "日帰りツアー・太宗台",
+      "title": "循環バスや坂道の移動を自分で組むのが大変なら",
+      "body": "無料循環バスの待ち時間や徒歩、乗り換えが一日の負担になりそうなら、太宗台に立ち寄る釜山ハイライト日帰りツアーという選択肢もあります。太宗台は複数の立ち寄り先のひとつで、灯台・展望エリア中心です。予約前に行程、集合場所、言語、キャンセル条件を確認してください。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/activity/3298-east-coast-cultural-day-tour-busan/",
+      "button": "Klookで釜山ハイライト日帰りツアーを見る ↗",
+      "product": "tour"
     }
   ]
 }

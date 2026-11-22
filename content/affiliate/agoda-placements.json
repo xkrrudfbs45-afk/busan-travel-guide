@@ -272,6 +272,33 @@
       "title": "依照三天行程選擇住宿區域",
       "body": "此連結會開啟釜山市區住宿搜尋，並非特定區域的搜尋結果。請先設定西面、南浦或海雲台等住宿區域，再比較到地鐵站的實際步行路線、行李移動是否方便、含稅總價與取消規定。",
       "button": "前往 Agoda 比較釜山住宿"
+    },
+    {
+      "path": "guides/gwangalli-drone-show-viewing-tips/index.html",
+      "before": "<h2 id=\"return\">Plan your journey home before the 9 p.m. show</h2>",
+      "id": "agoda-stay-drone-show",
+      "locale": "en",
+      "title": "Staying for the 9 p.m. show?",
+      "body": "If you plan to watch the later show, staying within walking distance of Gwangalli Beach removes the crowded late journey back. This link opens a Busan hotel search, not a Gwangalli-only list: set the area to Gwangalli, then compare the walk to the beach, the room type, the total price with taxes and the cancellation terms.",
+      "button": "Search Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/gwangalli-drone-show-viewing-tips/index.html",
+      "before": "<h2 id=\"return\">5. 終演後の帰り道を先に決める</h2>",
+      "id": "agoda-stay-drone-show",
+      "locale": "ja",
+      "title": "21時の回まで見るなら",
+      "body": "遅い回まで見る予定なら、広安里ビーチまで歩ける宿にすると、混雑した夜の帰り道を避けられます。このリンクは釜山全体のホテル検索です。エリアを広安里に絞り、ビーチまでの徒歩距離、部屋タイプ、税込総額、キャンセル条件を比べてください。",
+      "button": "Agodaで釜山のホテルを探す"
+    },
+    {
+      "path": "zh-tw/guides/gwangalli-drone-show-viewing-tips/index.html",
+      "before": "<h2 id=\"return\">先安排 21:00 場次後的返程</h2>",
+      "id": "agoda-stay-drone-show",
+      "locale": "zh-tw",
+      "title": "想看完 21:00 場次再回住宿？",
+      "body": "如果打算看較晚的場次，住在步行可到廣安里海灘的地方，就能避開散場後擁擠的返程。此連結會開啟釜山市區住宿搜尋，並非只顯示廣安里；請先把區域設為廣安里，再比較到海灘的步行距離、房型、含稅總價與取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
     }
   ]
 }

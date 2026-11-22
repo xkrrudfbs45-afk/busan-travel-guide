@@ -63,6 +63,18 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/en-US/activity/109354-south-korea-esim-high-speed-internet-qr-code-voucher/",
       "button": "Compare Korea eSIM plans on Klook ↗"
+    },
+    {
+      "path": "guides/taejongdae-danubi-train-tips/index.html",
+      "before": "<h2 id=\"nearby\">4. Pair Taejongdae with one nearby stop</h2>",
+      "id": "cta-taejongdae-daytour",
+      "kicker": "DAY TOUR · TAEJONGDAE",
+      "title": "Would you rather not manage the shuttle and hills yourself?",
+      "body": "If the free shuttle queue, the walking and the transfers feel like too much for one day, a guided Busan highlights day tour that stops at Taejongdae is an alternative. It covers the lighthouse and observation area as one stop among several, not a full Taejongdae visit. Check the itinerary, meeting point, language and cancellation terms before booking.",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/en-US/activity/3298-east-coast-cultural-day-tour-busan/",
+      "button": "See the Busan highlights day tour on Klook ↗",
+      "product": "tour"
     }
   ]
 }
