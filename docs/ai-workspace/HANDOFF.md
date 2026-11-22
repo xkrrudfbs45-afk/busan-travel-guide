@@ -1,3 +1,13 @@
+## 2026-11-22 — next contributor handoff (verified-state refresh)
+
+- Current verified main / production SHA: `47b70a4678ea42a8aabfca2f35fe3f17f49d2d25`. Deploy run [#45000633004](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45000633004) confirmed `/version.txt` match, deploy hook HTTP 200 and 269/269 sitemap URLs HTTP 200; exact-main Technical SEO [#45000602136](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45000602136) passed. Older SHAs in entries below are historical.
+- Review order is the owner's call; four Draft PRs are open, mergeable and unmerged: #644 (image layouts), #645 (This Week in Busan 23–29 Nov), #646 (airport departures), #647 (Yeongdo / Busan Station buses). Heads and CI run IDs are in STATUS.md. Bring each up to date with main before any merge and keep merges sequential.
+- Technical follow-ups for the lane: (1) KTX cover images use `loading="lazy"` without preload / `fetchpriority="high"` in EN/JA/zh-TW — measure LCP before changing; (2) JA / zh-TW where-to-stay and three-day pages lack article images vs. EN — editorial decision with image-rights registration first.
+- Do not add a separate SRT booking guide (integrated Korail+ flow since 2026-09-01). Busan Sea Taxi is watchlist only (not bookable; full service targeted H2 2027). Keep the 03:20 cancellation-seat report anecdotal. Details: `RESEARCH-KTX-COMMUNITY-VERIFICATION-2026-11-22.md`.
+- Unverified: browser QA at 360 / 390 / 1,280 px, LCP/CLS, GA4/GSC. No SNS, analytics, affiliate, merge or deploy action was taken. Do not merge or deploy without owner approval.
+
+---
+
 ## 2026-11-21 21:35 KST — next contributor handoff
 
 - Current verified main / production SHA before PR #619: `8afd2a3913ca1f72eedbc86f3670d55abe7ec353`. Deploy run [#44895090808](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44895090808) confirmed live `/version.txt` matched that SHA; deploy hook HTTP 200 and production smoke test passed.

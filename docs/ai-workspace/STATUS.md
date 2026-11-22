@@ -1,3 +1,19 @@
+## 2026-11-22 — verified-state refresh (docs-only, issue #365)
+
+- Verified main SHA: `47b70a4678ea42a8aabfca2f35fe3f17f49d2d25` (supersedes the 2026-11-21 `8afd2a39…` entries below, which are now stale).
+- Deploy run [#45000633004](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45000633004) succeeded on that SHA: deploy hook HTTP 200, live `/version.txt` matched the commit, and all 269 sitemap URLs returned HTTP 200. This is workflow evidence only; no separate manual browser visual inspection is claimed.
+- Exact-main Technical SEO run [#45000602136](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45000602136) passed.
+- Open Draft PRs (all open / mergeable / unmerged / undeployed; owner-reported exact-head CI passed):
+  - [#644](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/644) image editorial layouts — head `6efb339aff6991c6b4ddbe9c3b4d11cca3507ef6`, CI #45005525110.
+  - [#645](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/645) This Week in Busan 23–29 Nov — head `a4956c914c14897b9eeec26e7628bf98d317a9e3`, CI #45002811021.
+  - [#646](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/646) airport departures / transit clarification — head `052a1645242d3b46c9ca2220515154795805eed3`, CI #45005177708.
+  - [#647](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/647) Yeongdo coastal access / Busan Station buses — head `408e5ab95708bf87836ff32d3de780b90c54c0ac`, CI #45008710560.
+- Image review on PR #644 (comment `7077510526`, source-level only): JA / zh-TW where-to-stay and three-day itinerary pages have no article images while EN does; KTX covers (EN/JA/zh-TW, CC0, captioned) use `loading="lazy"` with no preload / `fetchpriority="high"` — an LCP risk to verify, not a measured regression. No image was replaced; no crop, LCP/CLS or transfer-size measurement was made.
+- Community / official verification (no page edit required) is recorded in `docs/ai-workspace/RESEARCH-KTX-COMMUNITY-VERIFICATION-2026-11-22.md`.
+- Not done: GA4 / GSC query (no analytics conclusions here), browser QA at 360 / 390 / 1,280 px, SNS change, merge, deploy.
+
+---
+
 ## 2026-11-21 21:35 KST — Gwangalli last-mile localization PR #619
 
 - Verified main SHA: `8afd2a3913ca1f72eedbc86f3670d55abe7ec353`. Production `/version.txt` reported the same SHA in successful Deploy main after CI run [#44895090808](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44895090808); the Render deploy hook returned HTTP 200 and the production smoke test passed. This is the pre-PR production state.
