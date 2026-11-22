@@ -27,7 +27,8 @@ for (const name of readdirSync(DIR).filter((f) => f.endsWith("-cta.json")).sort(
     ids.add(p.id);
     if (!/^cta-[a-z0-9-]+$/.test(p.id)) problems.push(`${where}: id must match cta-* (TOC skip rule)`);
     if (!/^\d{7}$/.test(p.aff_adid)) problems.push(`${where}: bad aff_adid`);
-    if (!p.dest.startsWith(`https://www.klook.com${lp}`) || /[?#]/.test(p.dest)) problems.push(`${where}: dest must be a plain klook.com${lp} URL`);
+    const supportedKlookPath = p.dest.startsWith(`https://www.klook.com${lp}`) && (/\/activity\/\d+-[^?#]+$/.test(p.dest) || /\/airport-transfers\/service\/pus-gimhae-international-airport\/?$/.test(p.dest));
+    if (!supportedKlookPath || /[?#]/.test(p.dest)) problems.push(`${where}: dest must be a supported Klook activity or Gimhae airport-transfer URL for ${lp}`);
     if (p.en_counterpart) {
       const en = existsSync(p.en_counterpart) ? readFileSync(p.en_counterpart, "utf8") : "";
       const want = `aff_adid=${p.aff_adid}&amp;k_site=${encodeURIComponent(p.dest.replace(lp, "/en-US/"))}`;
@@ -41,7 +42,8 @@ for (const name of readdirSync(DIR).filter((f) => f.endsWith("-cta.json")).sort(
     if (n !== 1) { problems.push(`${where}: anchor found ${n} times (need exactly 1)`); continue; }
     if (CHECK) continue;
     const href = `https://affiliate.klook.com/redirect?aid=${data.aid}&amp;aff_adid=${p.aff_adid}&amp;k_site=${encodeURIComponent(p.dest)}`;
-    const block = `<section class="pass-conversion-cta" aria-labelledby="${p.id}"><div class="pass-cta-copy"><p class="pass-cta-kicker">${esc(p.kicker)}</p><h2 id="${p.id}">${esc(p.title)}</h2><p>${esc(p.body)}</p><p class="pass-cta-disclosure">${data.disclosure}</p></div><div class="pass-cta-actions"><a class="pass-cta-primary" href="${href}" target="_blank" rel="sponsored nofollow noopener noreferrer">${esc(p.button)}</a></div></section>\n`;
+    const productAttrs = p.product ? ` data-affiliate-product="${esc(p.product)}"` : "";
+    const block = `<section class="pass-conversion-cta" data-cta-id="${esc(p.id)}"${productAttrs} aria-labelledby="${p.id}"><div class="pass-cta-copy"><p class="pass-cta-kicker">${esc(p.kicker)}</p><h2 id="${p.id}">${esc(p.title)}</h2><p>${esc(p.body)}</p><p class="pass-cta-disclosure">${data.disclosure}</p></div><div class="pass-cta-actions"><a class="pass-cta-primary" href="${href}" target="_blank" rel="sponsored nofollow noopener noreferrer">${esc(p.button)}</a></div></section>\n`;
     writeFileSync(file, h.replace(p.before, block + p.before));
     injected++;
   }
