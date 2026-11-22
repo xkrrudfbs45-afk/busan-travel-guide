@@ -47,6 +47,8 @@ node scripts/enhance-public.mjs public
 node scripts/enhance-public-extras.mjs public
 # Data-driven zh-TW affiliate CTAs (content/affiliate/zh-tw-cta.json); runs before UX so TOC/skip rules apply.
 node scripts/inject-affiliate-cta.mjs public
+# Data-driven airport transfer comparison for Haeundae and Seomyeon pages (EN / JA / zh-TW).
+node scripts/inject-transfer-compare.mjs public
 # Data-driven Agoda hotel search CTAs for EN / JA / zh-TW accommodation decision pages.
 node scripts/inject-agoda-cta.mjs public
 # Data-driven "Open in Google Maps" buttons for places a guide names (content/maps/place-map-links.json).
