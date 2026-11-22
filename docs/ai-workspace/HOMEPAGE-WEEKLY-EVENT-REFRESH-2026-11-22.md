@@ -57,6 +57,6 @@ A visitor arriving after 22 November should no longer encounter a finished event
 - Localized weekly-guide destinations were confirmed to exist on the same Draft PR branch.
 - Official multilingual event dates and showtimes were checked on 22 November 2026.
 - The existing homepage image is registered and its commercial-use license is recorded; no unverified image was introduced.
-- CI for the new homepage commits is pending.
+- Exact-head Technical SEO audit [run #2245](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45023302826) passed on SHA `621f8cbaf5be6baf3088cbbd117d30d12074c7af`; the static build and dependency-free audit steps both succeeded.
 - Browser visual review at 360 / 390 / 1280 px, image crop review and live-page verification of this new branch have not been performed. Do not report them as passed.
 - PR #645 remains Draft. No merge, Render deployment, GA4/GSC query, affiliate-link change, SNS post or scheduling change was made.
