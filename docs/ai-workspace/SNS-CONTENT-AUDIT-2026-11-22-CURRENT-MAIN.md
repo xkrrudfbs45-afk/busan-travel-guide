@@ -109,7 +109,7 @@
 - 로그: https://github.com/xkrrudfbs45-afk/busan-travel-guide/blob/instagram-state/publish-log.json
 
 ### Threads state branch
-- **73 published / 32 missed / 0 failed**.
+- **76 published / 32 missed / 0 failed**.
 - 최근 실제 게시 URL:
   - JP: https://www.threads.com/@go2busan.jp/post/DgASHSuEQOo
   - TW: https://www.threads.com/@go2busan.tw/post/DgASUFYEcRy
@@ -148,12 +148,12 @@
 
 ### Threads schedule run
 - UTC hourly :23 cron의 06:23, 07:23, 08:23 KST 해당 실행 기록은 없었다.
-- 09:23 KST tick은 09:25 KST에 [run #44966505219](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44966505219)로 시작했다. 사전 테스트와 schedule validation은 통과했지만, 09:29 KST 현재 `Publish due posts` 단계가 여전히 `in_progress`이고 publish-log 저장 전이다.
-- 아래 3개 게시물은 모두 approved + evergreen이고, run 시작 전 log 항목이 없었다. 실행이 끝날 때까지 수동 재실행하지 않는다.
-  - `d18-us-2`: US 현지 11/21 18:00 → 11/22 08:00 KST
-  - `d19-jp-1`: JP 현지 11/22 08:00 → 08:00 KST
-  - `d18-tw-1`: TW 현지 11/22 08:00 → 09:00 KST
-- run이 완료되면 실제 계정 게시 여부와 permalink, state-branch log를 대조한다. 실패/timeout 시 account recent-posts 확인과 publisher idempotency 확인 전에는 재발행하지 않는다.
+- 09:23 KST tick은 09:25 KST에 [run #44966505219](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44966505219)로 시작했고, 09:31 KST까지 success로 완료됐다. 사전 테스트·schedule validation 통과.
+- 아래 3개 게시물은 모두 approved + evergreen였고, 09:25:12Z에 각각 1회 발행됐다. 링크 답글도 3건 모두 완료됐고 API 오류는 없었다.
+  - `d18-us-2`: US 현지 11/21 18:00 → 11/22 08:00 KST, [게시물](https://www.threads.com/@go2busan.us/post/DgBhANfDs7X)
+  - `d19-jp-1`: JP 현지 11/22 08:00 → 08:00 KST, [게시물](https://www.threads.com/@go2busan.jp/post/DgBgzsGjvK7)
+  - `d18-tw-1`: TW 현지 11/22 08:00 → 09:00 KST, [게시물](https://www.threads.com/@go2busan.tw/post/DgBhNOzDocL)
+- 이번 tick은 예정 시각보다 2분 늦게 시작했지만 3개 시장 게시와 링크 답글까지 성공했다. 앞선 3개 hourly tick 누락 원인은 아직 확정되지 않았다.
 
 ### Queue ↔ publish-log 불일치
 - Threads: 32개 `missed`가 log에 있지만 활성 schedule에는 모두 `approved`로 남아 있다. 32개 모두 attempts=0, permalink 없음, API 오류 없음.
