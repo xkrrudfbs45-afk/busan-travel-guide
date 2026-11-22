@@ -252,6 +252,7 @@
                   : (link.closest('.article-hero')
                     ? 'article_hero'
                     : 'inline_content'))))));
+      const ctaPanel = link.closest("[data-cta-id]");
       const eventParams = {
         affiliate_partner: affiliatePartner,
         affiliate_placement_context: affiliatePlacementContext,
@@ -259,6 +260,8 @@
         link_text: (link.innerText || link.getAttribute('aria-label') || '').trim().slice(0, 100),
         page_location: window.location.href
       };
+      if (ctaPanel?.dataset.ctaId) eventParams.affiliate_cta_id = ctaPanel.dataset.ctaId;
+      if (ctaPanel?.dataset.affiliateProduct) eventParams.affiliate_product = ctaPanel.dataset.affiliateProduct;
 
       // Partner links without a commission-tracking ID (e.g. a plain agoda.com city page) cannot earn a referral.
       // They are reported separately so affiliate_click keeps meaning "commission-attributable click".

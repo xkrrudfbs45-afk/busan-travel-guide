@@ -15,6 +15,54 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/en-US/activity/44779-busan-gamcheon-cultural-village-hanbok-rental/",
       "button": "See Gamcheon hanbok rental on Klook ↗"
+    },
+    {
+      "path": "guides/gimhae-airport-to-haeundae/index.html",
+      "before": "<h2 id=\"choose\">Which option should you choose?</h2>",
+      "id": "cta-airport-haeundae-shuttle",
+      "product": "pickup",
+      "kicker": "HAEUNDAE · SHARED SHUTTLE",
+      "title": "Staying in Haeundae or Suyeong?",
+      "body": "This shared shuttle serves eligible hotels whose English address lists Haeundae-gu or Suyeong-gu. Choose a pickup at least 2 hours after your flight arrival, and check the hotel list and luggage limit (one 26-inch suitcase plus one small carry-on per passenger) before booking.",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/en-US/activity/192772-gimhae-international-airport-pus-busan-city-shuttle-bus/",
+      "button": "Check the Haeundae airport shuttle on Klook ↗"
+    },
+    {
+      "path": "guides/gimhae-airport-to-seomyeon/index.html",
+      "before": "<h2 id=\"choose\">Which option fits your arrival?</h2>",
+      "id": "cta-airport-seomyeon-pickup",
+      "product": "pickup",
+      "kicker": "SEOMYEON · AIRPORT TRANSFER",
+      "title": "Prefer a direct ride to your Seomyeon hotel?",
+      "body": "Compare available airport-transfer vehicles for your party and luggage. Check the exact hotel address, passenger and suitcase capacity, pickup instructions, final price and any late-hour surcharge on the booking page.",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/en-US/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "Compare airport transfer options on Klook ↗"
+    },
+    {
+      "path": "guides/late-arrival-gimhae-airport/index.html",
+      "before": "<h2 id=\"decision-guide\">Which option fits your arrival?</h2>",
+      "id": "cta-late-arrival-pickup",
+      "product": "pickup",
+      "kicker": "LATE ARRIVAL · PRE-BOOKED TRANSFER",
+      "title": "Landing late or travelling with several bags?",
+      "body": "Check whether a pre-booked vehicle is available for your arrival time. Compare passenger and luggage capacity, the exact pickup arrangement, the final quote and any late-hour surcharge before paying; availability is not guaranteed for every time.",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/en-US/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "Check private airport transfer options ↗"
+    },
+    {
+      "path": "guides/busan-first-time-guide/index.html",
+      "before": "<h2 id=\"before-you-go-checklist\">Before you go: quick checklist</h2>",
+      "id": "cta-first-trip-esim",
+      "product": "esim",
+      "kicker": "BEFORE YOU FLY · MOBILE DATA",
+      "title": "Want mobile data as soon as you arrive?",
+      "body": "This Klook Korea eSIM is data-only and does not include a Korean phone number. Check that your phone supports eSIM and is not carrier-locked before buying. Review the available data plan and activation terms for your travel dates.",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/en-US/activity/109354-south-korea-esim-high-speed-internet-qr-code-voucher/",
+      "button": "Compare Korea eSIM plans on Klook ↗"
     }
   ]
 }

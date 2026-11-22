@@ -182,6 +182,66 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/zh-TW/activity/44779-busan-gamcheon-cultural-village-hanbok-rental/",
       "button": "在 Klook 查看甘川韓服租借 ↗"
+    },
+    {
+      "path": "zh-tw/guides/airport-to-haeundae/index.html",
+      "before": "<h2 id=\"arrival-decisions\">抵達後不慌張：先確認三件事</h2>",
+      "id": "cta-airport-haeundae-shuttle",
+      "product": "pickup",
+      "kicker": "海雲台・共乘接駁",
+      "title": "住宿地點在海雲台或水營區嗎？",
+      "body": "這項共乘接駁僅服務英文地址列有 Haeundae-gu 或 Suyeong-gu 的指定飯店。請選擇航班抵達至少 2 小時後的接駁時段，並在預訂前確認飯店是否符合資格，以及行李限制（每人 1 件 26 吋行李箱，另可帶 1 件小型隨身行李）。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/192772-gimhae-international-airport-pus-busan-city-shuttle-bus/",
+      "button": "在 Klook 查看海雲台機場接駁 ↗"
+    },
+    {
+      "path": "zh-tw/guides/airport-to-seomyeon/index.html",
+      "before": "<h2 id=\"choose\">依抵達情況選擇</h2>",
+      "id": "cta-airport-seomyeon-pickup",
+      "product": "pickup",
+      "kicker": "西面・機場接送",
+      "title": "想直接前往西面飯店嗎？",
+      "body": "可依同行人數與行李比較機場接送車型。預訂前請確認飯店完整地址、乘客與行李容量、接送集合方式、最終報價，以及深夜時段是否加價。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "在 Klook 比較機場接送方案 ↗"
+    },
+    {
+      "path": "zh-tw/guides/late-arrival/index.html",
+      "before": "<h2 id=\"decision-guide\">依抵達情況選擇</h2>",
+      "id": "cta-late-arrival-pickup",
+      "product": "pickup",
+      "kicker": "深夜抵達・預約接送",
+      "title": "班機較晚抵達，或同行行李較多嗎？",
+      "body": "請先確認預計抵達時間是否有可預約車輛，再比較乘客與行李容量、接送方式、最終報價及深夜附加費。付款前請以預訂頁面顯示的條件為準，並非所有時段都保證有車。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "在 Klook 查看機場預約接送 ↗"
+    },
+    {
+      "path": "zh-tw/guides/taiwan-travelers-busan/index.html",
+      "before": "<h2>出發前快速檢查</h2>",
+      "id": "cta-taiwan-travelers-esim",
+      "product": "esim",
+      "kicker": "出發前・手機上網",
+      "title": "想一下飛機就能使用行動網路嗎？",
+      "body": "這款 Klook 韓國 eSIM 僅提供行動數據，不含韓國電話號碼。購買前請確認手機支援 eSIM，且沒有電信商鎖定；也請依旅行日期確認可選流量方案與啟用條件。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/109354-south-korea-esim-high-speed-internet-qr-code-voucher/",
+      "button": "在 Klook 查看韓國 eSIM 方案 ↗"
+    },
+    {
+      "path": "zh-tw/guides/first-trip/index.html",
+      "before": "<h2 id=\"before-you-go-checklist\">出發前檢查清單</h2>",
+      "id": "cta-first-trip-esim",
+      "product": "esim",
+      "kicker": "出發前・手機上網",
+      "title": "想抵達後立即使用行動網路嗎？",
+      "body": "Klook 韓國 eSIM 僅提供數據流量，不含韓國電話號碼。購買前請確認手機支援 eSIM，且沒有電信商鎖定；並依旅行日期查看可用方案與啟用條件。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/109354-south-korea-esim-high-speed-internet-qr-code-voucher/",
+      "button": "在 Klook 查看韓國 eSIM 方案 ↗"
     }
   ]
 }
