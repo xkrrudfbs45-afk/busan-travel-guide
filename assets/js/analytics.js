@@ -252,7 +252,7 @@
                   : (link.closest('.article-hero')
                     ? 'article_hero'
                     : 'inline_content'))))));
-      const ctaPanel = link.closest(".pass-conversion-cta");
+      const ctaPanel = link.closest("[data-cta-id]");
       const eventParams = {
         affiliate_partner: affiliatePartner,
         affiliate_placement_context: affiliatePlacementContext,
