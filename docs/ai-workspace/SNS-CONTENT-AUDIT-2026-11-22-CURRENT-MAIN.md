@@ -169,3 +169,9 @@
 - 11/26 태종대: 현재 공식 Visit Busan 안내는 다누비열차의 월요일 휴무 및 기상악화 시 중단, 비수기 09:20~17:30을 표시한다. 과거 사고 보도를 현재 운행 중단으로 단정하지 않는다. 이미지 QA는 별도 통과가 필요하다.
 
 후속 점검도 문서만 갱신했다. 활성 schedule, publish-log, workflow, 계정, LIVE 설정, 외부 게시, 토큰·시크릿은 변경하지 않았다.
+
+
+### Instagram schedule tick follow-up — 09:33 KST
+- Latest completed Instagram scheduled run remains [#44955739219](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44955739219), created 07:14 KST. It ran with LIVE=true but had no due post to publish; failed/missed/waiting were empty for that run.
+- The 09:23 KST scheduled tick is not present in Actions history as of 09:33 KST. This is a schedule-trigger gap, not yet a missed Instagram post: the next 12:00 local slots have not arrived.
+- Do not dispatch a live publisher manually. Check the next 12:23 KST scheduled run and confirm the 12:00 local posts are either published or still within the normal late window.
