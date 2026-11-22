@@ -345,6 +345,16 @@
       "permalink": "https://www.instagram.com/p/DgCPS6nFiMI/",
       "published_at": "2026-11-22T07:10:34.878Z",
       "last_error": null
+    },
+    "ig-fresh15-1122-us": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-22T19:53:35.136Z",
+      "creation_id": "18137490538745304",
+      "media_id": "18133241215745614",
+      "permalink": "https://www.instagram.com/p/DgDmjrJCYwt/",
+      "published_at": "2026-11-22T19:53:35.136Z",
+      "last_error": null
     }
   }
 }
