@@ -242,6 +242,18 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/zh-TW/activity/109354-south-korea-esim-high-speed-internet-qr-code-voucher/",
       "button": "在 Klook 查看韓國 eSIM 方案 ↗"
+    },
+    {
+      "path": "zh-tw/guides/taejongdae/index.html",
+      "before": "<h2 id=\"nearby\">4. 只搭配一個附近景點</h2>",
+      "id": "cta-taejongdae-daytour",
+      "kicker": "一日遊・太宗臺",
+      "title": "不想自己排接駁車和上下坡路線？",
+      "body": "如果覺得排隊等免費接駁車、步行與轉乘會讓一天太累，也可以考慮行程中包含太宗臺的釜山精華一日遊。太宗臺只是行程中的其中一站，以燈塔與觀景區為主，並非完整深度遊覽。預訂前請確認行程、集合地點、導覽語言與取消規定。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/3298-east-coast-cultural-day-tour-busan/",
+      "button": "在 Klook 查看釜山精華一日遊 ↗",
+      "product": "tour"
     }
   ]
 }
