@@ -19,8 +19,9 @@ No relevant, independently verifiable current post was surfaced in the accessibl
 ## Official K.Ride fact check — checked 2026-11-23
 
 - [K.Ride's current English service page](https://utility.kride.kakaomobility.com/?lang=en) lists English, Japanese, Simplified Chinese and Traditional Chinese UI; 133-language destination search and driver chat; estimated fares before booking; and credit/debit-card plus mobile payment. It currently describes service across 34 countries.
-- [Kakao Mobility's K.Ride page](https://www.kakaomobility.com/k-ride) describes Google, Apple or email sign-up and overseas-issued cards. Its public wording differs on the translation count (“100+” rather than 133), so use the current K.Ride service page for the 133 figure.
-- [K.Ride privacy policy](https://kride.kakaomobility.com/webview/terms/22?lang=en), effective 2025-04-15, lists a mobile phone number among collected information for email and social sign-up. It does not state whether a Korean number is required or which foreign country codes will pass verification.
+- [VisitKorea / Korea Tourism Organization's international-visitor transportation guide](https://english.visitkorea.or.kr/public/contents/travel/KoreaTransportationGuide_enu.pdf), published 2026-05-18, lists k.ride as a taxi-hailing platform and marks foreign-issued credit cards as accepted.
+- [Kakao Mobility's K.Ride page](https://www.kakaomobility.com/k-ride) uses “30+ countries” and “100+ languages”; the current [K.Ride service page](https://utility.kride.kakaomobility.com/?lang=en) uses 34 countries and 133 languages. Keep the counts tied to the exact page and its wording rather than mixing them.
+- [K.Ride privacy policy](https://kride.kakaomobility.com/webview/terms/22?lang=en), effective 2025-04-15, lists a mobile phone number and nationality for email sign-up, and a mobile phone number, nationality and Google/Apple account for SNS sign-up. It does not state which foreign country codes will pass verification.
 - Editorial rule: never promise that a Korean number is unnecessary or that every foreign number will work. Advise visitors to test their own number and payment method before travel. Keep K.Ride features distinct from Kakao T features.
 
 ## Existing coverage and change
