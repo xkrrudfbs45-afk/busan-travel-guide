@@ -1826,3 +1826,30 @@ body:not(.home-refresh) .site-footer .footer-disclosure{
 
 .airport-transfer-summary{display:grid;gap:5px;padding:12px 14px;margin:0 0 14px;border-left:3px solid var(--teal);background:#f1f5f0}
 .airport-transfer-summary p{font-size:11px;line-height:1.5;margin:0;color:var(--ink)}
+
+
+/* Article photography system — editorial, responsive, and subject-led */
+.article-body figure{margin:30px 0 36px;min-width:0}
+.article-body figure img{display:block;width:100%;height:auto;max-height:620px;object-fit:cover;border-radius:4px}
+.article-body figure figcaption{margin-top:9px;color:var(--muted);font-size:11px;line-height:1.55}
+.article-photo-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:28px 0 38px}
+.article-photo-grid figure{margin:0;min-width:0}
+.article-photo-grid figure:first-child{grid-column:1/-1}
+.article-photo-grid figure:first-child img{aspect-ratio:16/9;max-height:520px}
+.article-photo-grid figure:not(:first-child) img{aspect-ratio:4/3;max-height:320px}
+.article-photo-grid img{width:100%;height:auto;object-fit:cover;border-radius:4px}
+.article-photo-grid figcaption{font-size:11px;line-height:1.55;color:var(--muted);margin-top:8px}
+.article-photo-wide{margin:34px 0 42px}
+.article-photo-wide img{aspect-ratio:16/9}
+.article-photo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:30px 0 38px}
+.article-photo-pair figure{margin:0;min-width:0}
+.article-photo-pair img{aspect-ratio:4/3;object-fit:cover}
+.article-photo-note{font-size:11px;color:var(--muted);line-height:1.6;margin-top:8px}
+@media(max-width:600px){
+ .article-photo-grid,.article-photo-pair{grid-template-columns:1fr;gap:18px;margin:22px 0 30px}
+ .article-photo-grid figure:first-child{grid-column:auto}
+ .article-photo-grid figure:first-child img,.article-photo-grid figure:not(:first-child) img{aspect-ratio:4/3;max-height:none}
+ .article-photo-pair img{aspect-ratio:16/10}
+ .article-body figure img{border-radius:3px}
+ .article-photo-grid figcaption,.article-photo-pair figcaption{font-size:10px}
+}
