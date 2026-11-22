@@ -26,7 +26,8 @@ No relevant, independently verifiable current post was surfaced in the accessibl
 
 ## Existing coverage and change
 
-- EN and zh-TW already have the existing taxi-vs-subway guide. No JA equivalent exists, but the JA late-arrival guide already explains K.Ride registration, payment and phone-verification caveats.
+- EN and zh-TW already have the existing taxi-vs-subway guide. No JA equivalent exists; new guide URLs remain paused.
+- The EN, JA and zh-TW late-arrival pages previously named GrabPay as a supported k.ride payment option. The current k.ride service page displays an Alipay+ logo but does not explicitly list GrabPay; VisitKorea's 2026-05-18 guide independently marks foreign-issued credit cards accepted for k.ride. All three late-arrival pages now remove the unsupported GrabPay claim, link the official VisitKorea source and distinguish app payment options from phone-number verification. The privacy policy does not state which foreign country codes pass verification.
 - The JA first-trip guide previously linked only to the taxi-fare section of the JA transit-card guide. This change adds a short pre-trip reminder and a contextual link to the existing JA late-arrival section `#published-last-services`.
 - No new URL, page metadata, image, affiliate CTA, analytics event, SNS copy or publishing schedule was changed.
 
@@ -45,7 +46,7 @@ No relevant, independently verifiable current post was surfaced in the accessibl
 
 ## PR scope and QA boundary
 
-- Files changed: `ja/guides/first-trip/index.html` and this research note only.
+- Files changed: `guides/late-arrival-gimhae-airport/index.html`, `ja/guides/late-arrival/index.html`, `zh-tw/guides/late-arrival/index.html`, `ja/guides/first-trip/index.html`, and this research note.
 - User-value hypothesis: Japanese first-time visitors who reach the 1330 / taxi-help section can discover the existing Japanese guide that explains app setup and phone/payment caveats, without creating a competing URL.
 - Exact-head GitHub CI passed: [run #45045880907](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45045880907). The public static build and all dependency-free audit steps completed successfully.
 - Existing warnings remain outside this PR's scope: 269 sitemap entries with the EN solo-dining canonical missing (plus four hreflang-target warnings); the source audit lists 83 pages without explicit `og:image` or `twitter:image` tags (26 EN, 24 JA, 29 zh-TW, 4 other), but the build enhancer injects defaults and the generated-output social-meta check passes with 0 gaps. These source metadata warnings do not prove that article photos are missing. Strict image-credit audit: 53 active / 61 registered / 8 unused-entry warnings / 0 errors. Homepage food cards pass at 10 / 10 distinct URLs; external target links missing safe `rel`: 0.
