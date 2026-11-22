@@ -1774,4 +1774,52 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/solo-dining-busan/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/solo-dining-busan/" />
   </url>
+  <url>
+    <loc>https://go2busan.com/guides/busan-arrival-kit/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-arrival-kit/" />
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/arrival-kit/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-arrival-kit/" />
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/arrival-kit/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/arrival-kit/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-arrival-kit/" />
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://go2busan.com/guides/korea-esim-busan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/korea-esim-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/korea-esim/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/korea-esim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/korea-esim-busan/" />
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/korea-esim/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/korea-esim-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/korea-esim/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/korea-esim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/korea-esim-busan/" />
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/korea-esim/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/korea-esim-busan/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/korea-esim/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/korea-esim/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/korea-esim-busan/" />
+    <lastmod>2026-11-22</lastmod>
+  </url>
 </urlset>
