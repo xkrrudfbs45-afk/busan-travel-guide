@@ -127,7 +127,7 @@
 - 43건의 이미지 재사용 안내가 발생했다. 일부는 언어별 동일 페이지의 공통 이미지처럼 합리적일 수 있으므로 일괄 교체하지 않는다.
 - 사이트 공통 로고의 광범위한 재사용은 본문 대표 이미지·OG 이미지 재사용과 구분해 평가한다.
 - City Tour Bus 이슈 #591은 아직 open이지만, 대체 사진을 복원한 [PR #592](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/592)는 이미 merge됐다. 현재 빌드 로그는 Wikimedia Commons의 archival bus photo를 3개 언어 페이지에서 사용한다고 기록한다. #591의 종료 여부와 visible attribution을 재확인해 추적 상태를 맞춘다.
-- Spa Land 대표 이미지의 `loading="lazy"` 및 LCP 우선순위 검토는 [issue #598](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/598)에 남아 있다.
+- [Spa Land 대표 이미지](https://github.com/xkrrudfbs45-afk/busan-travel-guide/blob/main/guides/busan-spa-land-guide/index.html)는 `<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Shinsegye_Dept_store_Centum_city.JPG?width=1600" width="1200" height="900" loading="lazy">`로 현재 main에 있다. 이미지 주제와 alt는 Spa Land가 있는 신세계 센텀시티 외관으로 일치한다. 본문 hero 텍스트 다음에 위치해 실제 LCP 후보인지는 브라우저 측정 전 단정하지 않는다. 360/390px 모바일과 데스크톱에서 LCP를 측정하고, LCP 후보로 확인되면 `loading="eager"` 및 적절한 `fetchpriority="high"` 적용을 검토한다. 이후 본문 이미지는 lazy loading을 유지한다. 기존 추적: [issue #598](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/598).
 - 기존 다국어 이미지 재감사 추적: [issue #384](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/384).
 
 ## 4. 추가 SEO 정합성
