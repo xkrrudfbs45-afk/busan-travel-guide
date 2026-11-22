@@ -10,7 +10,12 @@
     ja:{eyebrow:"空港アクセス比較",title:"空港からの移動手段を比較",intro:"到着時刻、人数、荷物に合わせて料金と利用条件を確認できます。",loading:"運賃データを読み込んでいます…",noscript:"比較ツールにはJavaScriptが必要です。下の交通案内はそのままご利用いただけます。",arrival:"フライト到着時刻",buffer:"入国・手荷物の所要時間",people:"人数",bags:"大型スーツケース",terminal:"到着ターミナル",international:"国際線",domestic:"国内線",minutes:"分",calculate:"交通手段を比較",exit:"ターミナルを出る予想時刻",transit:"軽電鉄＋地下鉄",limo:"空港リムジンバス",taxi:"一般タクシーの目安",shuttle:"相乗り空港シャトル",private:"事前予約の送迎車",from:"目安",perPerson:"1人あたり",perVehicle:"車両1台あたり",available:"公表されている運行時間",notAvailable:"ターミナルを出る予想時刻以降の便はありません",checkLive:"空港駅の出発時刻と沙上駅での地下鉄接続を当日に確認してください。現在の最終電車時刻を固定値として確認できませんでした。",branch:"海雲台方面は長山行き／機張行きの系統とホテル最寄り停留所を確認してください。",taxiNote:"空港公表の概算で、確定料金ではありません。メーター、渋滞、通行料、深夜割増で変わります。",twoTaxis:"5〜6人の場合、一般タクシーは2台を想定してください。",luggageNote:"大型荷物が複数ある場合は、一般タクシーのトランク容量を事前に確認してください。",shuttleRule:"フライト到着から2時間以上後の便を選択してください。対象は海雲台区／水営区のホテルのみ。26インチのスーツケース1個と小型手荷物1個までです。",noShuttle:"到着から2時間後の条件を満たすシャトル便がありません。別の日程または他の交通手段をご確認ください。",terminalNote:"シャトルの集合場所は国際線ターミナル1階です。国内線到着の場合はターミナル間の移動方法を予約前に確認してください。",privateNote:"Klookでは5〜13人乗りの車両が表示されます。人数・荷物に合う車両、見積もり、集合条件を確認してください。利用可能とは限りません。",cheapest:"表示料金が最も安い選択肢",convenient:"乗り換えが少なく便利な選択肢",unavailable:"選択した時刻では利用できない便",dataDate:"運賃確認日",sources:"公式運賃・時刻表の出典",open:"Klookで空き状況を確認 ↗",live:"公式時刻表を確認 ↗",warning:"計画用の目安です。利用日当日の運行状況と最終料金を再確認してください。"},
     "zh-TW":{eyebrow:"機場交通比較",title:"比較從機場前往飯店的方式",intro:"依抵達時間、同行人數與行李，估算費用並確認搭乘條件。",loading:"正在載入最新票價資料…",noscript:"比較工具需要啟用 JavaScript。下方交通指南仍可正常閱讀。",arrival:"航班抵達時間",buffer:"入境與領取行李預留時間",people:"同行人數",bags:"大型行李箱",terminal:"抵達航廈",international:"國際線",domestic:"國內線",minutes:"分鐘",calculate:"比較交通方式",exit:"預計離開航廈時間",transit:"輕軌＋地鐵",limo:"機場利木津巴士",taxi:"一般計程車估價",shuttle:"機場共乘接駁",private:"預約接送車",from:"起",perPerson:"每人",perVehicle:"每輛車",available:"官方列出的服務時段",notAvailable:"預計離開航廈時間後已無列出的班次",checkLive:"請在搭乘當日確認機場站末班車，以及沙上站轉乘地鐵的時間；目前無法可靠確認固定末班車時間。",branch:"前往海雲台請確認長山／機張路線分支，以及飯店附近的停靠站。",taxiNote:"此為機場公布的估算金額，並非固定報價。實際費用會受跳表、路況、通行費與深夜加成影響。",twoTaxis:"5 至 6 人同行時，請預留搭乘兩輛一般計程車。",luggageNote:"大型行李較多時，請先確認一般計程車的後車廂空間。",shuttleRule:"請選擇航班抵達至少 2 小時後的接駁班次。僅適用英文地址列有海雲台區／水營區的飯店；每人限 1 件 26 吋行李箱及 1 件小型隨身行李。",noShuttle:"沒有符合抵達 2 小時後條件的接駁班次，請改選其他日期或交通方式。",terminalNote:"接駁集合地點在國際航廈 1 樓。若從國內線抵達，預訂前請先確認航廈間的移動方式。",privateNote:"Klook 顯示 5 至 13 人座車型。請依人數與行李確認車型、即時報價及集合方式；不保證所有時段都有車。",cheapest:"目前可比較的最低韓元票價",convenient:"轉乘較少、較方便的選擇",unavailable:"依所選時間無法搭乘的班次",dataDate:"票價確認日期",sources:"官方票價與時刻表來源",open:"在 Klook 查看可預約時段 ↗",live:"查看官方時刻表 ↗",warning:"僅供行前估算。請於搭乘日再次確認營運狀況與最終價格。"}
   };
-  const t=copy[locale]||copy.en;
+  const extra={
+    en:{railLate:"Late arrival: the last published light-rail departure toward Sasang is around 00:09–00:10, and the onward metro may already have stopped. Do not rely on this route after about 23:00 without checking both legs.",railClosed:"No published light-rail departure at this time. Use a taxi or a pre-booked vehicle.",estimateRange:"estimate"},
+    ja:{railLate:"深夜到着：沙上方面の軽電鉄の最終は公表上00:09〜00:10頃で、乗り継ぐ地下鉄は先に終わっている場合があります。23時頃以降は両方の区間を確認せずに頼らないでください。",railClosed:"この時間帯に公表されている軽電鉄の便はありません。タクシーか事前予約の送迎車を利用してください。",estimateRange:"目安"},
+    "zh-TW":{railLate:"深夜抵達：輕軌往沙上方向的末班車公布時間約為 00:09–00:10，轉乘的地鐵可能已經收班。約 23:00 以後，請先確認兩段路線再決定，不要直接依賴這條路線。",railClosed:"此時段沒有公布的輕軌班次。請改搭計程車或預約接送車。",estimateRange:"估算"}
+  };
+  const t=Object.assign({},copy[locale]||copy.en,extra[locale]||extra.en);
   const money=(n)=>"₩"+Math.round(n).toLocaleString(locale==="en"?"en-US":locale==="ja"?"ja-JP":"zh-TW");
   const esc=(s)=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const timeToMin=(s)=>{const [h,m]=s.split(":").map(Number);return h*60+m;};
@@ -56,17 +61,22 @@
       const slots=d.shuttle?d.shuttle.airport_slots.filter(s=>timeToMin(s)>=timeToMin(arrival)+d.shuttle.min_hours_after_flight*60):[];
       const slot=slots[0]||null;
       const transitFare=fare*people;
+      const rail=data.rail||{};
+      const norm=(m)=>((m-300)%1440+1440)%1440;
+      const railCaution=timeToMin(rail.late_caution_from||"23:00");
+      const railLast=timeToMin(rail.last_departure_published||"00:09");
+      const railState=norm(exitClockMin)>norm(railLast)?"closed":(norm(exitClockMin)>=norm(railCaution)?"late":"ok");
       const limoFare=limo.fare_krw*people;
       const results=[];
-      results.push({name:t.transit,price:money(transitFare),sub:t.checkLive,note:bags>people?t.luggageNote:"",kind:"transit",rank:transitFare});
-      results.push({name:t.limo,price:limoOk?money(limoFare):t.notAvailable,sub:limoOk?`${t.available}: ${limo.first_departure}–${limo.last_departure}`:t.branch,note:destination==="haeundae"?t.branch:"",kind:"limo",rank:limoOk?limoFare:null});
-      results.push({name:t.taxi,price:`${money(taxiBase*(1+surcharge))} × ${taxiCount}`,sub:t.taxiNote,note:people>4?t.twoTaxis:"",extra:bags>=3?t.luggageNote:"",kind:"taxi",rank:taxiFare});
+      results.push({name:t.transit,price:railState==="closed"?t.notAvailable:money(transitFare),sub:railState==="ok"?t.checkLive:(railState==="late"?t.railLate:t.railClosed),note:bags>people?t.luggageNote:"",kind:"transit",rank:railState==="ok"?transitFare:null});
+      results.push({name:t.limo,price:limoOk?money(limoFare):t.notAvailable,sub:limoOk?`${t.available}: ${limo.first_departure}–${limo.last_departure}`:t.branch,note:destination==="haeundae"&&limoOk?t.branch:"",kind:"limo",rank:limoOk?limoFare:null});
+      results.push({name:t.taxi,price:`${money(taxiBase*(1+surcharge)*0.9)}–${money(taxiBase*(1+surcharge)*1.2)} × ${taxiCount} (${t.estimateRange})`,sub:t.taxiNote,note:people>4?t.twoTaxis:"",extra:bags>=3?t.luggageNote:"",kind:"taxi",rank:taxiFare});
       if(d.shuttle) results.push({name:t.shuttle,price:slot?`from US$${d.shuttle.fare_from_usd.toFixed(2)} ${t.perPerson}`:t.noShuttle,sub:t.shuttleRule,note:terminal==="domestic"?t.terminalNote:"",kind:"shuttle",rank:null,slot});
       results.push({name:t.private,price:t.privateNote,sub:t.private_transfer_note||"",kind:"private",rank:null});
       const ranked=results.filter(x=>x.rank!==null).sort((a,b)=>a.rank-b.rank);
       const cheapest=ranked[0]?.kind;
       const cards=results.map(x=>`<article class="airport-transfer-option ${x.kind===cheapest?"is-cheapest":""}"><div class="airport-transfer-option-head"><h3>${esc(x.name)}</h3><strong>${esc(x.price)}</strong></div><p>${esc(x.sub||"")}</p>${x.note?`<p class="airport-transfer-note">${esc(x.note)}</p>`:""}${x.extra?`<p class="airport-transfer-note">${esc(x.extra)}</p>`:""}${x.slot?`<p class="airport-transfer-note">${esc(t.available)}: ${x.slot}</p>`:""}${x.kind==="transit"?`<a href="https://work.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=10060108" target="_blank" rel="noopener noreferrer">${t.live}</a>`:x.kind==="private"||x.kind==="shuttle"?`<a class="pass-cta-primary pass-conversion-cta" data-cta-id="airport-compare-${x.kind}" data-affiliate-product="pickup" href="${affiliate(x.kind==="private"?privateUrl:shuttle)}" target="_blank" rel="sponsored nofollow noopener noreferrer">${t.open}</a>`:""}</article>`).join("");
-      const unavailable=results.filter(x=>(x.kind==="limo"&&!limoOk)||(x.kind==="shuttle"&&!slot));
+      const unavailable=results.filter(x=>(x.kind==="limo"&&!limoOk)||(x.kind==="shuttle"&&!slot)||(x.kind==="transit"&&railState==="closed"));
       const cheapestLabel=ranked.length?`${t.cheapest}: ${ranked[0].name} (${money(ranked[0].rank)})`:t.cheapest;
       const unavailableLabel=unavailable.length?`${t.unavailable}: ${unavailable.map(x=>x.name).join(", ")}`:"";
       document.getElementById("at-results").innerHTML=`<p class="airport-transfer-exit">${t.exit}: <strong>${exitTime}</strong></p><div class="airport-transfer-summary"><p><strong>${esc(cheapestLabel)}</strong></p><p><strong>${esc(t.convenient)}:</strong> ${esc(t.private)}</p>${unavailableLabel?`<p><strong>${esc(unavailableLabel)}</strong></p>`:""}</div><div class="airport-transfer-option-grid">${cards}</div><p class="airport-transfer-note">${t.warning}</p>`;
