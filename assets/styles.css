@@ -1796,3 +1796,30 @@ body:not(.home-refresh) .site-footer .footer-disclosure{
 .kculture-recommendation__links span{flex:none;color:#8a7655}
 @media(max-width:680px){.kculture-recommendation{grid-template-columns:1fr;gap:14px;margin:23px 0;padding:17px 16px;border-radius:10px}.kculture-recommendation__links{min-width:0}.kculture-recommendation__links a{min-height:46px;font-size:13px}}
 @media(max-width:360px){.kculture-recommendation{padding:15px 13px}.kculture-recommendation h2{font-size:19px}}
+
+/* Airport transfer comparison — editorial, mobile-first */
+.airport-transfer-tool{margin:34px auto 42px;padding:clamp(20px,3vw,32px);background:#fff;border:1px solid var(--line);border-radius:5px;box-shadow:0 12px 32px #172e310a}
+.airport-transfer-tool>h2{font-family:var(--serif);font-size:clamp(25px,3vw,34px);font-weight:500;line-height:1.15;letter-spacing:-.035em;margin:0 0 10px}
+.airport-transfer-intro{color:var(--muted);font-size:13px;margin:0 0 22px}
+.airport-transfer-fields{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.airport-transfer-fields label{display:flex;flex-direction:column;gap:7px;font-size:11px;font-weight:700;color:var(--ink)}
+.airport-transfer-fields input,.airport-transfer-fields select{width:100%;min-height:44px;border:1px solid var(--line);border-radius:3px;background:#fff;color:var(--ink);padding:9px 10px;font:inherit;font-size:13px}
+.airport-transfer-actions{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:17px 0 20px}
+.airport-transfer-actions .button{border:0;cursor:pointer}
+.airport-transfer-actions .microcopy{margin:0;max-width:430px}
+.airport-transfer-exit{font-size:12px;color:var(--muted);margin:0 0 12px}
+.airport-transfer-option-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.airport-transfer-option{border:1px solid var(--line);border-radius:4px;padding:15px;background:#fbfbf8;min-width:0}
+.airport-transfer-option.is-cheapest{border-color:#176b65;background:#f3f8f5}
+.airport-transfer-option-head{display:flex;justify-content:space-between;align-items:start;gap:10px}
+.airport-transfer-option h3{font-size:13px;line-height:1.35;margin:0;font-weight:750}
+.airport-transfer-option strong{font-size:14px;line-height:1.35;text-align:right}
+.airport-transfer-option p{font-size:11px;line-height:1.55;color:var(--muted);margin:9px 0 0}
+.airport-transfer-option .airport-transfer-note{color:#725b3e}
+.airport-transfer-option>a{display:inline-flex;margin-top:12px;color:var(--teal);font-size:11px;font-weight:750;text-decoration:underline;text-underline-offset:3px}
+.airport-transfer-sources{margin-top:18px;border-top:1px solid var(--line);padding-top:12px;font-size:11px;color:var(--muted)}
+.airport-transfer-sources summary{cursor:pointer;font-weight:750;color:var(--ink)}
+.airport-transfer-sources ul{padding-left:18px}
+.airport-transfer-sources li{margin:5px 0}
+@media(max-width:760px){.airport-transfer-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.airport-transfer-fields label:last-child{grid-column:1/-1}.airport-transfer-option-grid{grid-template-columns:1fr}.airport-transfer-option-head{align-items:center}}
+@media(max-width:360px){.airport-transfer-tool{padding:16px}.airport-transfer-fields{gap:9px}.airport-transfer-fields input,.airport-transfer-fields select{padding:8px;font-size:12px}}
