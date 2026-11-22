@@ -1823,3 +1823,6 @@ body:not(.home-refresh) .site-footer .footer-disclosure{
 .airport-transfer-sources li{margin:5px 0}
 @media(max-width:760px){.airport-transfer-fields{grid-template-columns:repeat(2,minmax(0,1fr))}.airport-transfer-fields label:last-child{grid-column:1/-1}.airport-transfer-option-grid{grid-template-columns:1fr}.airport-transfer-option-head{align-items:center}}
 @media(max-width:360px){.airport-transfer-tool{padding:16px}.airport-transfer-fields{gap:9px}.airport-transfer-fields input,.airport-transfer-fields select{padding:8px;font-size:12px}}
+
+.airport-transfer-summary{display:grid;gap:5px;padding:12px 14px;margin:0 0 14px;border-left:3px solid var(--teal);background:#f1f5f0}
+.airport-transfer-summary p{font-size:11px;line-height:1.5;margin:0;color:var(--ink)}
