@@ -3,6 +3,10 @@
 - Verified main SHA: `47b70a4678ea42a8aabfca2f35fe3f17f49d2d25` (supersedes the 2026-11-21 `8afd2a39…` entries below, which are now stale).
 - Deploy run [#45000633004](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45000633004) succeeded on that SHA: deploy hook HTTP 200, live `/version.txt` matched the commit, and all 269 sitemap URLs returned HTTP 200. This is workflow evidence only; no separate manual browser visual inspection is claimed.
 - Exact-main Technical SEO run [#45000602136](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45000602136) passed.
+- Exact-main audit warnings (run #45000602136 on `47b70a4`; owner-reported, warnings only, 0 errors):
+  - 271 canonical HTML pages / 269 sitemap entries. `/guides/solo-dining-busan/` is the only canonical page missing from the sitemap; the four hreflang-target warnings all point to that same EN URL from JA / zh-TW pages. Keep the URL stable; tracked in the technical lane / issue #611.
+  - 19 zh-TW guide pages lack `og:image` or `twitter:image`; zh-TW `korea-esim` lacks `og:image:alt`; the zh-TW privacy page lacks OG/Twitter image metadata. These are metadata warnings, not proof that article photos are absent. Coordinate with image issue #384 and PR #644; do not fill with generic or unlicensed imagery.
+  - Strict image-credit audit: 53 active / 61 registered / 8 warnings / 0 errors. Homepage food-card audit: 10 distinct images; external target links missing safe `rel`: 0.
 - Open Draft PRs (all open / mergeable / unmerged / undeployed; owner-reported exact-head CI passed):
   - [#644](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/644) image editorial layouts — head `6efb339aff6991c6b4ddbe9c3b4d11cca3507ef6`, CI #45005525110.
   - [#645](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/645) This Week in Busan 23–29 Nov — head `a4956c914c14897b9eeec26e7628bf98d317a9e3`, CI #45002811021.
