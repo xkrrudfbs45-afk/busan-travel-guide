@@ -97,6 +97,8 @@ jobs:
           node scripts/language-switch-audit.mjs
           node scripts/guide-directory-hreflang-audit.mjs
           node scripts/inject-affiliate-cta.mjs --check
+          node scripts/inject-transfer-compare.mjs --check
+          node --check assets/js/airport-transfer-compare.js
           node scripts/inject-agoda-cta.mjs --check
           node scripts/inject-place-maps.mjs --check
           node scripts/enhance-images.mjs --check
