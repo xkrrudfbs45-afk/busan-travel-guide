@@ -51,7 +51,8 @@
       else if(timeToMin(exitTime)>=120&&timeToMin(exitTime)<240)surcharge=.2;
       const taxiCount=Math.ceil(people/data.taxi.standard_capacity_passengers);
       const taxiFare=taxiBase*(1+surcharge)*taxiCount;
-      const limoOk=exitMin<=timeToMin(limo.last_departure);
+      const exitClockMin=exitMin%1440;
+      const limoOk=exitClockMin>=timeToMin(limo.first_departure)&&exitClockMin<=timeToMin(limo.last_departure);
       const slots=d.shuttle?d.shuttle.airport_slots.filter(s=>timeToMin(s)>=timeToMin(arrival)+d.shuttle.min_hours_after_flight*60):[];
       const slot=slots[0]||null;
       const transitFare=fare*people;
@@ -65,8 +66,10 @@
       const ranked=results.filter(x=>x.rank!==null).sort((a,b)=>a.rank-b.rank);
       const cheapest=ranked[0]?.kind;
       const cards=results.map(x=>`<article class="airport-transfer-option ${x.kind===cheapest?"is-cheapest":""}"><div class="airport-transfer-option-head"><h3>${esc(x.name)}</h3><strong>${esc(x.price)}</strong></div><p>${esc(x.sub||"")}</p>${x.note?`<p class="airport-transfer-note">${esc(x.note)}</p>`:""}${x.extra?`<p class="airport-transfer-note">${esc(x.extra)}</p>`:""}${x.slot?`<p class="airport-transfer-note">${esc(t.available)}: ${x.slot}</p>`:""}${x.kind==="transit"?`<a href="https://work.humetro.busan.kr/homepage/english/page/subLocation.do?menu_no=10060108" target="_blank" rel="noopener noreferrer">${t.live}</a>`:x.kind==="private"||x.kind==="shuttle"?`<a class="pass-cta-primary" data-cta-id="airport-compare-${x.kind}" data-affiliate-product="pickup" href="${affiliate(x.kind==="private"?privateUrl:shuttle)}" target="_blank" rel="sponsored nofollow noopener noreferrer">${t.open}</a>`:""}</article>`).join("");
-      const unavailable=results.filter(x=>x.kind==="limo"&&!limoOk||x.kind==="shuttle"&&!slot);
-      document.getElementById("at-results").innerHTML=`<p class="airport-transfer-exit">${t.exit}: <strong>${exitTime}</strong></p><div class="airport-transfer-option-grid">${cards}</div><p class="airport-transfer-note">${t.warning}</p>`;
+      const unavailable=results.filter(x=>(x.kind==="limo"&&!limoOk)||(x.kind==="shuttle"&&!slot));
+      const cheapestLabel=ranked.length?`${t.cheapest}: ${ranked[0].name} (${money(ranked[0].rank)})`:t.cheapest;
+      const unavailableLabel=unavailable.length?`${t.unavailable}: ${unavailable.map(x=>x.name).join(", ")}`:"";
+      document.getElementById("at-results").innerHTML=`<p class="airport-transfer-exit">${t.exit}: <strong>${exitTime}</strong></p><div class="airport-transfer-summary"><p><strong>${esc(cheapestLabel)}</strong></p><p><strong>${esc(t.convenient)}:</strong> ${esc(t.private)}</p>${unavailableLabel?`<p><strong>${esc(unavailableLabel)}</strong></p>`:""}</div><div class="airport-transfer-option-grid">${cards}</div><p class="airport-transfer-note">${t.warning}</p>`;
     };
     document.getElementById("at-calculate").addEventListener("click",calculate);
     ["at-arrival","at-buffer","at-people","at-bags","at-terminal"].forEach(id=>document.getElementById(id).addEventListener("change",calculate));
