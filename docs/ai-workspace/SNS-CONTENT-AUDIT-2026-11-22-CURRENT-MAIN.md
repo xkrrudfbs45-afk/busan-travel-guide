@@ -40,13 +40,14 @@
 - 11/28 세트 3개는 current QA와 .hash가 일치하고 5장 JPEG가 존재하지만, 시각적 장소 일치 검수는 실패했다.
 
 ### 현지화·사실 확인 우선 수정
-1. **P0 — 11/26 태종대 다누비열차**
-   - EN “Check the Danubi train”, JA 「ダヌビ列車を確認」, TW 「先確認觀光小火車」는 열차를 현재 탈 수 있는 것처럼 보이게 한다.
-   - 부산광역시관광협회 2026-07-10 공지는 다누비열차가 2026-07-03부터 긴급 안전점검 종료 시까지 운행 중단이고, 무료 순환버스가 대체 운행한다고 안내한다. 뉴시스 2026-08-18 보도도 운행 중단과 무료 셔틀 운행을 확인한다.
-   - 협회 공지와 운영사 페이지의 셔틀 운행 요일 표기가 일치하지 않는 자료가 있어, 이번 문안에서는 요일·시간을 확정하지 않는다. “다누비열차 운행 중단 / 무료 순환버스 대체 운행 / 방문 전 운영사 최신 공지 확인”으로 교정한다.
-   - 현재 카드 2는 열차를 확인하라는 문구와 기관차형 차량 삽화, 카드 5는 해안도로·일반 버스정류장·벚꽃을 보여준다. 실제 대체 셔틀과 태종대 절벽·소나무 숲·영도등대 중심의 새 art-set이 필요하다.
-   - 공식 자료: https://bta.or.kr/noticeDetail?no=1637&page=1
-   - 보도: https://www.newsis.com/view/NISX20260818_0003752817
+1. **P1 — 11/26 태종대 다누비열차 운영정보 재확인**
+   - 기존 점검은 2026-07-03 사고 당시의 운행 중단 보도와 7월 공지를 현재 상태로 연장해 해석했다. 이를 현재 운행 중단으로 단정하지 않는다.
+   - 2026-11-22 확인한 부산시 공식 Visit Busan 페이지는 다누비열차를 매주 월요일 정기휴무, 우천·기상악화 시 운행중단으로 안내하고 비수기 운행시간을 09:20~17:30으로 표시한다. 7월 3일 사고 보도는 당시의 잠정 중단을 설명하는 과거 자료다.
+   - 운영사 BISCO 페이지는 이번 점검에서 접속 시간 초과로 직접 재확인하지 못했다. 따라서 카드에서 현재 운행 중단이나 무료 셔틀 대체를 단정하지 말고, “방문 당일 운행 여부·운행시간을 확인”하는 표현을 유지한다. 요일·시간을 넣을 경우 공식 페이지와 당일 공지를 함께 확인한다.
+   - “Check the Danubi train” / 「ダヌビ列車を確認」 / 「先確認觀光小火車」 자체는 운행 여부 확인을 권하는 문구로 볼 수 있어 사실 오류로 확정하지 않는다.
+   - 다만 기존 state-branch artwork는 새 렌더와 통과한 image QA가 필요하다는 검증 메모가 있다. 이미지 QA가 끝날 때까지 발행 gate를 유지한다.
+   - 공식 Visit Busan: https://www.visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201013001000&uc_seq=542
+   - 2026-07-03 사고 당시 보도: https://www.yna.co.kr/view/AKR20260703085601051
 
 2. **P1 — 11/25 대만 번체 음식 표현**
    - 한국어 “덜 맵게 해 주세요”를 TW 카드에서 “請做小辣一點”으로 옮겼다. 이는 ‘조금 맵게’라는 뜻으로 원문의 ‘덜 맵게’와 반대 방향이다.
@@ -127,7 +128,7 @@
 
 ## 5. 개선 제안 — 활성 schedule 변경 없음
 
-1. 11/26 태종대: 다누비열차 운행 중단과 무료 순환버스 대체 안내로 문안·이미지 교정. 운영 요일·시간은 최신 운영사 공지 충돌을 해소하기 전 카드에 넣지 않는다.
+1. 11/26 태종대: 과거 사고 당시의 운행 중단을 현재 상태로 단정하지 않는다. Visit Busan 최신 안내를 기준으로 당일 운행 여부 확인 문구를 유지하고, 이미지 재렌더·QA를 통과시킨다.
 2. 11/24 전압: 세 언어를 220V·60Hz·둥근 구멍 2개로 통일한다.
 3. 11/25 음식 에티켓: TW의 “덜 맵게” 번역 수정, JA 카드 5 축약·재렌더·QA 통과.
 4. 11/28 광복로: 텍스트는 공식 일정과 맞지만 이미지 15장 전부 장소 불일치. 새 art-set으로 교체하고 draft 유지.
@@ -141,3 +142,30 @@
 - 활성 schedule, 승인된 게시물·이미지, publish-log, state branch, workflow, credentials, LIVE 설정 변경 없음.
 - 외부 Instagram/Threads 게시, 예약 변경, missed 재발행 없음.
 - CI는 PR 생성 후 확인한다. PR 병합 전이며 Production 배포는 없다.
+
+
+## 7. 후속 확인 — 2026-11-22 09:29 KST
+
+### Threads schedule run
+- UTC hourly :23 cron의 06:23, 07:23, 08:23 KST 해당 실행 기록은 없었다.
+- 09:23 KST tick은 09:25 KST에 [run #44966505219](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44966505219)로 시작했다. 사전 테스트와 schedule validation은 통과했지만, 09:29 KST 현재 `Publish due posts` 단계가 여전히 `in_progress`이고 publish-log 저장 전이다.
+- 아래 3개 게시물은 모두 approved + evergreen이고, run 시작 전 log 항목이 없었다. 실행이 끝날 때까지 수동 재실행하지 않는다.
+  - `d18-us-2`: US 현지 11/21 18:00 → 11/22 08:00 KST
+  - `d19-jp-1`: JP 현지 11/22 08:00 → 08:00 KST
+  - `d18-tw-1`: TW 현지 11/22 08:00 → 09:00 KST
+- run이 완료되면 실제 계정 게시 여부와 permalink, state-branch log를 대조한다. 실패/timeout 시 account recent-posts 확인과 publisher idempotency 확인 전에는 재발행하지 않는다.
+
+### Queue ↔ publish-log 불일치
+- Threads: 32개 `missed`가 log에 있지만 활성 schedule에는 모두 `approved`로 남아 있다. 32개 모두 attempts=0, permalink 없음, API 오류 없음.
+- Instagram: 2개 `missed`가 log에 있지만 활성 schedule에는 모두 `approved`로 남아 있다. 두 건 모두 HTTP 403 `Application request limit reached`, 각 1회 시도, permalink 없음.
+- 누락 게시물을 재발행하지 않는다. 로그는 보존하고, 각 ID를 확인한 뒤 schedule 상태를 `cancelled/expired` 등 허용된 terminal state로 정합화하는 것이 안전하다. 현재 schedule과 log는 변경하지 않았다.
+
+### 다음 콘텐츠 gate
+- `d28-us-1`: 12/01 US 08:00, schedule은 approved이나 verification.status=needs_check. 검증 상태를 해소하기 전 publisher gate에서 차단돼야 한다.
+- 11/25 JP 카드 5: 기존 QA의 가로 넘침을 해결하고 fresh render 후 `qa.json ok=true` 확인.
+- 11/25 TW: `請做小辣一點`은 ‘조금 맵게’에 가까워 ‘덜 맵게’의 의미와 반대다. `請做得不要太辣` 등으로 수정.
+- 11/24 JA: `C type (SE type)` 표기는 EN/TW와 불일치. 220V·60Hz·둥근 구멍 2개로 세 언어를 통일.
+- 11/28 광복로: 19:00~21:00 야간 공연 일정은 공식 Visit Busan과 일치하지만, 현재 art prompt는 주간 분위기·광안리 배경을 포함한다. 세 언어 모두 Draft 유지 후 광복로·남포동 야간 무대로 교체.
+- 11/26 태종대: 현재 공식 Visit Busan 안내는 다누비열차의 월요일 휴무 및 기상악화 시 중단, 비수기 09:20~17:30을 표시한다. 과거 사고 보도를 현재 운행 중단으로 단정하지 않는다. 이미지 QA는 별도 통과가 필요하다.
+
+후속 점검도 문서만 갱신했다. 활성 schedule, publish-log, workflow, 계정, LIVE 설정, 외부 게시, 토큰·시크릿은 변경하지 않았다.
