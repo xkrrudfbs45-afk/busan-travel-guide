@@ -44,6 +44,7 @@ The linked weekly guide contains the full six-item list, localized detail, offic
   - `/ja/guides/this-week-in-busan/`
   - `/zh-tw/guides/this-week-in-busan/`
 - The seasonal section's checked date changes from 19 to 22 November 2026.
+- The Japanese and Traditional Chinese homepage calendar links now point to Busan City's matching `/jpn/bsevents` and `/zht/bsevents` calendars instead of sending those audiences to the English calendar.
 - The BEXCO image reference is removed from this homepage card and its visible credit line. The card uses the existing registered Gwangalli Beach and Gwangan Bridge photograph by Masterhatch (CC BY-SA 4.0, commercial use verified). Its alt text explicitly says it is a location image, not a photograph of the drone show. No image file or image-credit registry entry changed.
 
 ## SEO and user-value hypothesis
