@@ -12,6 +12,9 @@ const pages = [
   {path:"zh-tw/guides/airport-to-seomyeon/index.html",locale:"zh-TW",destination:"seomyeon",before:'<h2 id="choose">依抵達情況選擇</h2>'}
 ];
 const errors=[];
+const checked = new Date(config.checked_on + "T00:00:00Z");
+const ageDays = Math.floor((Date.now() - checked.getTime()) / 86400000);
+if (!Number.isFinite(checked.getTime()) || ageDays > 120) console.warn(`transfer-compare: fare data is ${ageDays} days old; refresh official sources`);
 for (const p of pages) {
   const file=`${ROOT}/${p.path}`;
   if (!existsSync(file)) { errors.push(`${p.path}: page missing`); continue; }
