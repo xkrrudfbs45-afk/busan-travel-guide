@@ -77,6 +77,9 @@
   },
   "rail": {
     "last_train": "not_published_as_a_current_reliable_fixed_time",
+    "last_departure_published": "00:09",
+    "late_caution_from": "23:00",
+    "last_departure_note": "Airport Station toward Sasang: station page shows 00:09, network table shows 00:10 (pages updated 2016/2020). Treated as the latest possible departure; onward metro may end earlier.",
     "note": "The operator's public Airport Station timetable pages have differing update dates. Check the Airport Station departure and the onward Sasang Metro connection on the travel date."
   },
   "private_transfer": {
