@@ -1,3 +1,15 @@
+## 2026-11-21 21:35 KST — Gwangalli last-mile localization PR #619
+
+- Verified main SHA: `8afd2a3913ca1f72eedbc86f3670d55abe7ec353`. Production `/version.txt` reported the same SHA in successful Deploy main after CI run [#44895090808](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44895090808); the Render deploy hook returned HTTP 200 and the production smoke test passed. This is the pre-PR production state.
+- Draft PR [#619](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/619), branch `content/gwangalli-last-mile-20261121`, deepens only the existing EN / JA / zh-TW Gwangalli neighborhood pages and adds one research note. No new URL.
+- The localized pages now distinguish Gwangan Station Exit 5 (Visit Busan: about 13 minutes on foot) from Geumnyeonsan Station Exit 3 (official Gwangalli Drone Show directions: about 5 minutes). Copy warns that these are exit-specific estimates and directs readers to check the exact accommodation address.
+- Research note records the 2026-11-18 TheQoo local discussion, Taiwan Dcard / PTT, Japan 4travel / Yahoo!知恵袋, English Reddit, official route sources and access limitations. The ambiguous Dcard elevator observation was not published.
+- Existing Gwangalli cover image remains unchanged: Glabb / Wikimedia Commons, Public Domain; no new image or asset.
+- Exact-head Technical SEO CI was triggered for the initial PR head; recheck after this documentation-only update. Real browser QA at 360 / 390 / 1,280 px, live image HTTP/MIME, crop and LCP/CLS remain unverified.
+- No GA4 / GSC query, SNS publication or schedule change, affiliate change, merge, or production deployment was made in this run.
+
+---
+
 ## 2026-11-21 17:50 KST — verified airport-guide growth checkpoint
 
 - GitHub main: `f000cbcaf0fea9653d04fbc66fe6457d88bee318`. Render static service `busan-travel-guide` remains auto-deploy off; latest live deployment `dep-dc0l16bm8hqs73ertcgg` is on the same SHA. No production deploy was triggered.
