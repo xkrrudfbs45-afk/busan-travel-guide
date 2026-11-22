@@ -46,5 +46,7 @@ No relevant, independently verifiable current post was surfaced in the accessibl
 
 - Files changed: `ja/guides/first-trip/index.html` and this research note only.
 - User-value hypothesis: Japanese first-time visitors who reach the 1330 / taxi-help section can discover the existing Japanese guide that explains app setup and phone/payment caveats, without creating a competing URL.
-- No browser screenshot or visual test was performed. 360px / 390px / 1280px visual review, live link response, and exact-head CI remain to be verified after the Draft PR is opened.
+- Exact-head GitHub CI passed: [run #45045880907](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45045880907). The public static build and all dependency-free audit steps completed successfully.
+- Existing warnings remain outside this PR's scope: 269 sitemap entries with the EN solo-dining canonical missing (plus four hreflang-target warnings); 83 pages missing `og:image` or `twitter:image` (26 EN, 24 JA, 29 zh-TW, 4 other); strict image-credit audit 53 active / 61 registered / 8 unused-entry warnings / 0 errors. Homepage food cards pass at 10 / 10 distinct URLs; external target links missing safe `rel`: 0.
+- No browser screenshot or visual test was performed. 360px / 390px / 1280px visual review and live link response remain unverified; do not treat CI as visual QA.
 - No GA4 / GSC query was made. No SNS content or schedule was inspected for changes or modified in this task.
