@@ -75,6 +75,54 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/ja/activity/44779-busan-gamcheon-cultural-village-hanbok-rental/",
       "button": "Klookで甘川の韓服レンタルを見る ↗"
+    },
+    {
+      "path": "ja/guides/airport-to-haeundae/index.html",
+      "before": "<h2 id=\"arrival-decisions\">到着後に迷わないための3つの確認</h2>",
+      "id": "cta-airport-haeundae-shuttle",
+      "product": "pickup",
+      "kicker": "海雲台・相乗りシャトル",
+      "title": "海雲台または水営区のホテルに泊まりますか？",
+      "body": "この相乗りシャトルは、英語住所に「Haeundae-gu」または「Suyeong-gu」と記載された対象ホテルが利用範囲です。フライト到着時刻から2時間以上後の便を選び、対象ホテルと荷物制限（1人につき26インチのスーツケース1個と小型手荷物1個）を予約前に確認してください。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/activity/192772-gimhae-international-airport-pus-busan-city-shuttle-bus/",
+      "button": "Klookで海雲台空港シャトルを確認 ↗"
+    },
+    {
+      "path": "ja/guides/airport-to-seomyeon/index.html",
+      "before": "<h2 id=\"choose\">到着状況別の選び方</h2>",
+      "id": "cta-airport-seomyeon-pickup",
+      "product": "pickup",
+      "kicker": "西面・空港送迎",
+      "title": "西面のホテルまで直接移動したいですか？",
+      "body": "人数と荷物に合う空港送迎車両を比較できます。予約前にホテルの正確な住所、乗車人数と荷物の上限、集合場所、最終料金、深夜料金の有無を確認してください。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "Klookで空港送迎を比較する ↗"
+    },
+    {
+      "path": "ja/guides/late-arrival/index.html",
+      "before": "<h2 id=\"decision-guide\">到着状況別の選び方</h2>",
+      "id": "cta-late-arrival-pickup",
+      "product": "pickup",
+      "kicker": "深夜到着・事前予約送迎",
+      "title": "夜遅い到着や大きな荷物がある場合は？",
+      "body": "到着予定時刻に利用できる事前予約車両があるか確認しましょう。乗車人数と荷物の容量、集合方法、最終見積もり、深夜料金を支払い前に確認してください。すべての時間帯で利用できるとは限りません。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "Klookで空港送迎の空き状況を確認 ↗"
+    },
+    {
+      "path": "ja/guides/first-trip/index.html",
+      "before": "<h2 id=\"before-you-go-checklist\">出発前のチェックリスト</h2>",
+      "id": "cta-first-trip-esim",
+      "product": "esim",
+      "kicker": "出発前・モバイルデータ",
+      "title": "到着後すぐにネットを使いたいですか？",
+      "body": "Klookの韓国eSIMはデータ通信専用で、韓国の電話番号は含まれません。購入前に、お使いのスマートフォンがeSIMに対応し、SIMロックされていないことを確認してください。旅行日に利用できるプランと開通条件も確認しましょう。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/activity/109354-south-korea-esim-high-speed-internet-qr-code-voucher/",
+      "button": "Klookで韓国eSIMプランを確認 ↗"
     }
   ]
 }
