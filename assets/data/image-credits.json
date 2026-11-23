@@ -510,10 +510,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "commercial_use": true,
       "attribution_required": true,
-      "modified": "resized/cropped by CSS or Special:FilePath only",
-      "checked_on": "2026-11-11",
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
       "status": "verified",
-      "note": "Photo depicts Gwangalli Beach and Gwangan Bridge; used for the Gwangalli Beach Book Fair event card."
+      "note": "Commons confirms photograph of Gwangalli Beach and Gwangan Bridge in Busan, taken 4 July 2022 by Masterhatch; CC BY-SA 4.0. Used as beach-area context, not as a parking-lot photograph."
     },
     {
       "source": "wikimedia",
@@ -1253,6 +1253,20 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Commons confirms the photograph depicts Gupo Bridge over the Nakdong River in Busan; own work by 102orion, photographed 12 January 2006, CC BY-SA 3.0. Used as geographic context for Gupo's river trade history, not as a noodle or market photograph."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan Gwangalli Night.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Gwangalli_Night.jpg",
+      "author": "Carey Ciuro",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Commons confirms night photograph of Gwangalli Beach, Busan, taken 19 October 2011 by Carey Ciuro; CC BY 2.0. Used as beach-area context; parking facilities, availability and rules are not inferred from this photo."
     }
   ]
 }
