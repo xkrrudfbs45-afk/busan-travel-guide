@@ -1113,6 +1113,20 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Official Busan Tourism Archive aerial photograph of Busan Citizens Park. Record lists creator Hyphen Group, publisher Busan Tourism Organization Global Marketing Team, and KOGL Type 1. Production date is not stated in the record."
+    },
+    {
+      "source": "official_busantourism_archive",
+      "file": "20250220134657639542_m.png",
+      "source_url": "https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA003495",
+      "author": "Lee Soo-bo; publisher: Busan Metropolitan City",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "original archive image served directly; no crop or compositing",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Official Busan Tourism Archive photograph of the Busan Fireworks Festival, production year 2020. Record lists creator Lee Soo-bo, publisher Busan Metropolitan City and KOGL Type 1. Captions identify it as a historical 2020 event image, not a depiction of the 2026 show."
     }
   ]
 }
