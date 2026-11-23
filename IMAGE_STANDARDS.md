@@ -12,6 +12,7 @@ Choose the image for the exact subject of the page, not merely a generic image t
 - **Weather pages:** Use an image that clearly communicates the weather or indoor activity.
 - **Avoid repetition:** Do not reuse one Haeundae/LCT photo across unrelated guides. Reuse an image only when it is genuinely relevant and the repetition serves the page.
 - **No false implication:** Illustrations must be identified as illustrations; do not present AI-generated or generic stock imagery as a real photograph of a named place or restaurant.
+- **Context vs. subject:** When a photo shows a nearby landmark, river, station or restaurant exterior rather than the dish or experience discussed, say exactly what it depicts and why it is included. Do not let proximity imply that a geographic-context photo is the featured food, venue interior or current operating condition.
 - **Homepage cards:** Every card must use a subject-matched image. Do not inherit a default background that silently makes unrelated cards show the same photo.
 
 ## Image rights and attribution
