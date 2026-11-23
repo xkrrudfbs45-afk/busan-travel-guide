@@ -1454,6 +1454,17 @@
       "reply_container_created_at": "2026-11-23T12:00:43.303Z",
       "reply_id": "18124785671067113",
       "reply_error": null
+    },
+    "d20-us-1": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-23T13:00:45.076Z",
+      "creation_id": "18048773471656190",
+      "container_created_at": "2026-11-23T13:00:45.076Z",
+      "thread_id": "18115590956231509",
+      "permalink": "https://www.threads.com/@go2busan.us/post/DgFcEV4EZrH",
+      "published_at": "2026-11-23T13:00:45.076Z",
+      "last_error": null
     }
   }
 }
