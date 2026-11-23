@@ -864,6 +864,45 @@
       "checked_on": "2026-11-22",
       "status": "verified",
       "note": "Commons file page rechecked 2026-11-22: own work by Mobius6, photographed 22 May 2020, 6000×4000, CC BY-SA 4.0. Shows a red-sauce Busan milmyeon bowl; used as a second dish-variation image, not a named restaurant."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Bus stop Busan Station.JPG",
+      "author": "hyolee2",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bus_stop_Busan_Station.JPG",
+      "status": "verified",
+      "commercial_use": true,
+      "attribution_required": true,
+      "checked_on": "2026-11-23",
+      "note": "Bus stop outside Busan Station, photographed 2012-05-28. Relevant to Busan Station transit and bus-stop wayfinding; archival street scene, not a current route or timetable."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan eomuk.jpg",
+      "author": "seul5167",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_eomuk.jpg",
+      "status": "verified",
+      "commercial_use": true,
+      "attribution_required": false,
+      "checked_on": "2026-11-23",
+      "note": "Busan eomuk street-food photograph, 2012. Pixabay archive confirms CC0 1.0 release; use as generic dish imagery, not a current shop or named vendor."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan Central Bus Terminal, express bus ticket office.jpg",
+      "author": "이강철",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Central_Bus_Terminal,_express_bus_ticket_office.jpg",
+      "status": "verified",
+      "commercial_use": true,
+      "attribution_required": true,
+      "checked_on": "2026-11-23",
+      "note": "Express-bus ticket office at Busan Central Bus Terminal, photographed 2018-11-14. Use only for intercity/express bus ticketing context; do not imply current counter layout or hours."
     }
   ]
 }
