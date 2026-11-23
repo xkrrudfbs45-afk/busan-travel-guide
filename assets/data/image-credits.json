@@ -1253,6 +1253,21 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Commons confirms the photograph depicts Gupo Bridge over the Nakdong River in Busan; own work by 102orion, photographed 12 January 2006, CC BY-SA 3.0. Used as geographic context for Gupo's river trade history, not as a noodle or market photograph."
+    },
+    {
+      "source": "kto",
+      "file": "Busan City Tour 2022-04 Design Geulggol",
+      "source_url": "https://english1.visitkorea.or.kr/enu/nphotogallery/photo.kto?func_name=photo_view&newphotoDTO.photo_code=2218001202204004k&newphotoDTO.searchWord=&newphotoDTO.sub_menu=contest",
+      "author": "Design Geulggol",
+      "publisher": "Korea Tourism Organization",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "original KTO image asset; no crop or edit",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "KTO Photo Gallery record 2218001202204004k: Busan City Tour, Busan, April 2022, photographer Design Geulggol. The record explicitly states KOGL Type 1; used with the required Korea Tourism Organization-photographer credit. Caption avoids implying the photo shows the 2026 fleet."
     }
   ]
 }
