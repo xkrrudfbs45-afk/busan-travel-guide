@@ -16,6 +16,7 @@ const keyOf = {
   commons: (m) => "wikimedia:" + norm(m),
   unsplash: (m) => "unsplash:" + m,
   officialArchive: (m) => "official_busantourism_archive:" + norm(m),
+  kto: (m) => "kto:" + norm(m),
 };
 
 function walk(dir, out = []) {
@@ -32,6 +33,7 @@ const PATTERNS = [
   [/upload\.wikimedia\.org\/wikipedia\/commons\/[0-9a-f]\/[0-9a-f]{2}\/([^/"'\s?]+)/g, keyOf.commons],
   [/images\.unsplash\.com\/(photo-[0-9a-f-]+)/g, keyOf.unsplash],
   [/(?:www\.)?visitbusan\.net\/archive\/upload\/[^"'\s?]*\/([^/"'\s?]+)/g, keyOf.officialArchive],
+  [/tong\.visitkorea\.or\.kr\/cms\/resource_photo\/[^"'\s?]*\/([^/"'\s?]+)/g, keyOf.kto],
   [/\/assets\/images\/events\/([^"'?\s]+)/g, keyOf.officialArchive],
 ];
 
@@ -46,6 +48,7 @@ for (const e of registry.images) {
   const key = e.source === "wikimedia" ? "wikimedia:" + norm(e.file)
     : e.source === "unsplash" ? "unsplash:" + e.id
     : e.source === "official_busantourism_archive" ? keyOf.officialArchive(e.file)
+    : e.source === "kto" ? keyOf.kto(e.file)
     : "unknown:" + e.source + ":" + (e.file || e.id || "undefined");
   if (byKey.has(key)) errors.push(`duplicate registry entry ${key}`);
   byKey.set(key, e);
@@ -54,7 +57,7 @@ for (const e of registry.images) {
     for (const f of ["source_url", "author", "license", "license_url", "checked_on"])
       if (!e[f]) errors.push(`${key}: verified entry missing "${f}"`);
     if (e.commercial_use !== true) errors.push(`${key}: verified entry must have commercial_use true`);
-    if (!["wikimedia", "official_busantourism_archive"].includes(e.source)) errors.push(`${key}: verified entry uses an unsupported source type`);
+    if (!["wikimedia", "official_busantourism_archive", "kto"].includes(e.source)) errors.push(`${key}: verified entry uses an unsupported source type`);
   }
 }
 
