@@ -31,7 +31,7 @@ const PATTERNS = [
   [/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/[0-9a-f]\/[0-9a-f]{2}\/([^/"'\s]+)\//g, keyOf.commons],
   [/upload\.wikimedia\.org\/wikipedia\/commons\/[0-9a-f]\/[0-9a-f]{2}\/([^/"'\s?]+)/g, keyOf.commons],
   [/images\.unsplash\.com\/(photo-[0-9a-f-]+)/g, keyOf.unsplash],
-  [/(?:www\.)?visitbusan\.net\/archive\/upload\/[^/"\'\?\s]+\/([^/"\'\?\s]+)/g, keyOf.officialArchive],
+  [/(?:www\.)?visitbusan\.net\/archive\/upload\/.*\/([^/"'?\s]+)/g, keyOf.officialArchive],
   [/\/assets\/images\/events\/([^"'?\s]+)/g, keyOf.officialArchive],
 ];
 
