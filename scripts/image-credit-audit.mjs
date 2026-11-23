@@ -81,7 +81,7 @@ for (const [key, files] of usage) {
 
 // 1) Article pages: a photo that is actually displayed (<img src>) must name its author and license.
 //    Photos used only in og:image / JSON-LD metadata are not displayed on the page and are not checked here.
-const shortLic = (e) => e.source === "official_busantourism_archive" ? "KOGL Type 1" : e.license.replace(/ 1\.0$/, "");
+const shortLic = (e) => /KOGL Type 1/i.test(e.license) ? "KOGL Type 1" : e.license.replace(/ 1\.0$/, "");
 for (const file of walk(root).filter((f) => f.endsWith(".html"))) {
   const html = fs.readFileSync(file, "utf8");
   const rel = path.relative(root, file).split(path.sep).join("/");
