@@ -1211,6 +1211,34 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Official Busan Tourism Archive photograph of a cafe dessert in Jeonpo Cafe Street. Record lists creator Park Young-eun, publisher Busan Metropolitan City, and KOGL Type 1. Production date is not stated."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Jaecheop-guk.png",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Jaecheop-guk.png",
+      "author": "EBS",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "EBS photograph of jaecheop-guk (marsh clam soup), dated 31 December 2015. Commons confirms KOGL Type 1 commercial reuse with source attribution. Used as an illustrative dish image, not attributed to a specific Busan restaurant."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Korean_pan_cake-Dongnae_pajeon-01.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korean_pan_cake-Dongnae_pajeon-01.jpg",
+      "author": "Jinho Jung",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Wikimedia Commons photograph of a Dongnae-style pajeon. Commons description identifies the photographed restaurant as being in Gyeongju, not Busan; captions on Go2Busan explicitly disclose this and use the image only as an illustrative example of the dish, not as a Busan restaurant photograph."
     }
   ]
 }
