@@ -1296,6 +1296,35 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Gimhae International Airport departure hall, photographed 15 November 2015 by Minseong Kim. CC BY-SA 4.0. Used as archival airport-context imagery, not as a current eSIM counter or activation instruction."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Dwaeji-gogi-suyuk.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dwaeji-gogi-suyuk.jpg",
+      "author": "lazy fri13th",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Photograph of dwaeji-gogi-suyuk (boiled pork slices), taken in Busan on 15 November 2018; Commons file page gives GPS coordinates in Busan and author lazy fri13th. CC BY 2.0. Used to illustrate the separate pork component, not a complete restaurant meal."
+    },
+    {
+      "source": "kto",
+      "file": "2826998_image2_1.jpg",
+      "source_url": "https://korean1.visitkorea.or.kr/enu/nphotogallery/photo.kto?func_name=photo_view&newphotoDTO.photo_code=2620164202111003k&newphotoDTO.searchWord=&newphotoDTO.sub_menu=plan&newphotoDTO.sub_menu_detail=49735",
+      "author": "DNA Studio",
+      "publisher": "Korea Tourism Organization",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "original KTO image asset; no crop or edit",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "KTO Photo Gallery record 2620164202111003k: Busan dwaeji gukbap, photographed in Busan in November 2021 by DNA Studio. Record lists KOGL Type 1 and keywords include Suyuk Baekban. Used only to illustrate the soup component; captions explicitly state it is not a complete set meal."
     }
   ]
 }
