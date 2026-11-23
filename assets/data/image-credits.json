@@ -832,10 +832,10 @@
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
       "commercial_use": true,
       "attribution_required": true,
-      "modified": "resized by Wikimedia Commons Special:FilePath only",
-      "checked_on": "2026-11-20",
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
       "status": "verified",
-      "note": "Commons file page rechecked 2026-11-20: own work by Christophe95, photographed 2018-09-28 at 35.056356, 129.080261; original 3941×2955. CC BY-SA 4.0 permits commercial reuse with attribution and a license link. Use as an uncropped landscape of Taejongdae's cliffs; do not imply it depicts the suspended Danubi train or the current shuttle."
+      "note": "Taejongdae coastal cliffs, photographed 28 September 2018. Commons file page confirms own work by Christophe95 and CC BY-SA 4.0. Used to show natural landscape, not current shuttle or Danubi train operations."
     },
     {
       "source": "wikimedia",
@@ -1141,6 +1141,34 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Official Busan Tourism Archive photograph of Songdo Marine Cable Car, production year 2020. Archive record confirms KOGL Type 1 but does not state creator or publisher; captions therefore credit the Busan Tourism Archive and do not invent an individual photographer."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Seomyeon Street.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Seomyeon_Street.jpg",
+      "author": "Minseong Kim",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Seomyeon Street, photographed 7 January 2015. Commons file page confirms own work by Minseong Kim and CC BY-SA 4.0. Caption dates the photo and does not imply current shop occupancy."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Busan Station 20200523 001.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Busan_Station_20200523_001.jpg",
+      "author": "Mobius6",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Busan Station subway station, photographed 23 May 2020. Commons file page confirms own work by Mobius6 and CC BY-SA 4.0. Caption explicitly distinguishes the subway station from the KTX station concourse and says it does not show locker locations."
     }
   ]
 }
