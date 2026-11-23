@@ -53,7 +53,7 @@ Searchers arriving on red-eye flights need to decide what to do between airport 
 - Source HTML check: one new early-arrival H2 and links to existing localized guides per language; image alt/caption attribution updated.
 - Official sources checked 2026-11-23; prices are not duplicated in Arrival Kit.
 - Draft PR: [#654](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/654), open / unmerged.
-- Exact-head Technical SEO audit CI: passed on the initial PR head, [run #45141422219](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45141422219). A docs-only follow-up will trigger another exact-head run.
+- Exact-head Technical SEO audit CI passed on the initial content head, [run #45141422219](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45141422219), and on the first docs-only follow-up head, [run #45141941016](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45141941016). This final research-note update may trigger one more run; use the latest PR check as the final CI state.
 - Real browser visual QA at 360 / 390 / 1,280 px: not performed in this run.
 - Live mobile crop, image HTTP/MIME, file size, LCP/CLS and lazy/preload behavior: not browser-tested.
 - Public onrender.com homepage and EN / JA / zh-TW Arrival Kit pages were reachable in the current check. Render's latest live deploy matches main SHA `46e19b25a88b0e519830c5dfea208a7de9ff9406`; custom-domain access through the web reader was not available in this check.
