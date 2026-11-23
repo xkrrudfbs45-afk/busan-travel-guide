@@ -34,6 +34,14 @@ Choose the image for the exact subject of the page, not merely a generic image t
 8. Verify image URLs resolve, dimensions are suitable, loading is lazy below the fold, and the same image is not repeated across unrelated articles.
 9. Keep image source, license and subject-match rationale available in the code review notes.
 
+## When not to force additional photography
+Image counts are editorial targets, not a requirement to add filler.
+- **Map-first guides:** an interactive route map can be the primary visual. Add photos only when they help identify a stop, entrance, transfer or landmark; do not add a generic skyline just to increase the count.
+- **Original-illustration stories:** a purpose-made Go2Busan illustration may be the correct lead visual. Do not add unrelated stock photography that weakens the story's identity.
+- **Venue pages with limited image rights:** use the best verified, subject-matched image available (for example, a licensed exterior) and state what it depicts. Do not scrape brochures, booking pages or social posts to simulate an interior photo.
+- **Utility, legal and policy pages:** prioritize clear navigation and readable information. Social-preview artwork may be used when it improves sharing, but in-article photography is not necessary.
+- **Stop when evidence runs out:** a smaller set of accurate, licensed images is better than a larger set of repetitive or misleading images.
+
 ## Editorial image density by article type
 - Neighborhood / attraction / day trip: 4–7 images where verified, including a cover, one context/location view, and 1–3 detail or route views.
 - Food / market / restaurant culture: 4–6 images where verified, including the relevant dish, market or street context. Never imply an illustrative dish photo belongs to a named restaurant.
