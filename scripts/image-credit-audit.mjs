@@ -93,7 +93,7 @@ for (const file of walk(root).filter((f) => f.endsWith(".html"))) {
     if (!img) continue;
     const key = PATTERNS.map(([re, mk]) => { re.lastIndex = 0; const m = re.exec(img[1]); return m ? mk(m[1]) : null; }).find(Boolean);
     const e = key && byKey.get(key);
-    if (!e || !["wikimedia", "official_busantourism_archive"].includes(e.source)) continue;
+    if (!e || !["wikimedia", "official_busantourism_archive", "kto"].includes(e.source)) continue;
     const cap = ((fig[1].match(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/i) || [])[1] || "").replace(/<[^>]+>/g, "");
     const creditedAuthor = e.source === "official_busantourism_archive" ? e.author.split(";")[0].split(" (")[0] : e.author.split(" (")[0];
     const licenseOk = e.source === "official_busantourism_archive"
