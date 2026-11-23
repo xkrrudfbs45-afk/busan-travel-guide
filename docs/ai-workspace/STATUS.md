@@ -1,3 +1,16 @@
+## 2026-11-24 05:37 KST — Metro locker source alignment Draft PR #658
+
+- Verified main SHA: `f1a0266d0c8a192f3862e951dc2ab9cfc60f6594`. Render static service `busan-travel-guide` has auto-deploy disabled; latest live deployment `dep-dc2475jm8hqs739bcfdg` is on the same SHA and reports `live`.
+- Draft PR [#658](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/658), branch `content/metro-locker-source-alignment-20261124`, changes six existing EN / JA / zh-TW pages plus one research note. No new URL.
+- Current operator source (Busan Transportation Corporation, checked 2026-11-24) is used for locker fit and first-three-hour base prices. Busan City's directory remains for listed locations; its summary table differs on dimensions and some prices. The duplicate City price table was removed from the dedicated luggage guide; KTX guides now use the same operator figures.
+- Community evidence: Dcard 2026 reports one traveller finding Busan Station lockers full and using Zimcarry; a separate early-arrival report shows the 06:05 arrival / 09:00 Spa Land gap. PTT family-trip and 4travel Zimcarry reports are recorded with single-experience caveats. Reddit's free-storage list included Haeundae Platform, but Yonhap confirmed that service was temporary (2026-08-04–08-30), so it is not listed as year-round.
+- Research and source record: `docs/ai-workspace/RESEARCH-METRO-LOCKER-PRICE-RECONCILIATION-2026-11-24.md`.
+- Content head `0f755d71418d89df8026029bd004d6e569abf0b6` passed Technical SEO audit [run #45262279946](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45262279946): public-site build and dependency-free audit succeeded. This status/handoff update advances the PR head; verify exact-head CI again before review.
+- Main `sitemap.xml` remains a separate P1 issue: source has 273 `<loc>` entries and three literal backslash-`n` sequences; one malformed entry is at line 1719 (zh-CN Gimhae Airport to City). [Issue #657](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/657) remains separate and untouched; no fix PR was found in the open-PR list.
+- Real browser QA at 360 / 390 / 1,280 px, live image HTTP/MIME/crop and LCP/CLS remain unverified. No merge, main change, production deployment, GA4/GSC query, affiliate change, or SNS publication/schedule change.
+
+---
+
 ## 2026-11-21 21:35 KST — Gwangalli last-mile localization PR #619
 
 - Verified main SHA: `8afd2a3913ca1f72eedbc86f3670d55abe7ec353`. Production `/version.txt` reported the same SHA in successful Deploy main after CI run [#44895090808](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44895090808); the Render deploy hook returned HTTP 200 and the production smoke test passed. This is the pre-PR production state.
