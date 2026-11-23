@@ -93,8 +93,11 @@ for (const file of walk(root).filter((f) => f.endsWith(".html"))) {
     if (!e || !["wikimedia", "official_busantourism_archive"].includes(e.source)) continue;
     const cap = ((fig[1].match(/<figcaption\b[^>]*>([\s\S]*?)<\/figcaption>/i) || [])[1] || "").replace(/<[^>]+>/g, "");
     const creditedAuthor = e.source === "official_busantourism_archive" ? e.author.split(";")[0].split(" (")[0] : e.author.split(" (")[0];
-    if (e.attribution_required && (!cap.includes(creditedAuthor) || !cap.includes(shortLic(e))))
-      errors.push(`${rel}: caption for ${key} must name "${creditedAuthor}" and "${shortLic(e)}"`);
+    const licenseOk = e.source === "official_busantourism_archive"
+      ? /KOGL\\s*(?:Type\\s*1|第\\s*1\\s*類型|第1類型|제\\s*1\\s*유형)/i.test(cap)
+      : cap.includes(shortLic(e));
+    if (e.attribution_required && (!cap.includes(creditedAuthor) || !licenseOk))
+      errors.push(`${rel}: caption for ${key} must name "${creditedAuthor}" and the applicable license`);
   }
 }
 
