@@ -1444,15 +1444,16 @@
       "source": "official_busantourism_archive",
       "file": "20250306172224539219_m.png",
       "source_url": "https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA007613",
-      "author": "SummerTree; Lim Seong-hwan; publisher: Busan Metropolitan City Tourism Policy Division",
-      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "author": "SummerTree; Lim Seong-hwan",
+      "publisher": "Busan Metropolitan City Tourism Policy Division",
+      "license": "KOGL Type 1",
       "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
       "commercial_use": true,
       "attribution_required": true,
       "modified": "original archive image served directly; no crop or compositing",
       "checked_on": "2026-11-23",
       "status": "verified",
-      "note": "Official Busan Tourism Archive photograph of the Osiria coastal walkway in Gijang, production date 11 November 2024. Record lists creators SummerTree and Lim Seong-hwan, publisher Busan Metropolitan City Tourism Policy Division, and KOGL Type 1."
+      "note": "Official Busan Tourism Archive record METADATA007613: Osiria coastal walkway in Gijang, photographed 11 November 2024. Creators SummerTree and Lim Seong-hwan; publisher Busan Metropolitan City Tourism Policy Division; KOGL Type 1. Used as a geographically relevant coastal-walk image in the Songjeong/Gijang lodging guide."
     }
   ]
 }
