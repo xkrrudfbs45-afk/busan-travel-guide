@@ -1,3 +1,15 @@
+## 2026-11-24 05:37 KST — next contributor handoff
+
+- Current verified main / Render live SHA: `f1a0266d0c8a192f3862e951dc2ab9cfc60f6594`; latest live deploy `dep-dc2475jm8hqs739bcfdg`. Render auto-deploy is disabled. Do not trigger a deploy without owner approval.
+- Review Draft [PR #658](https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/658), branch `content/metro-locker-source-alignment-20261124`. It changes existing EN / JA / zh-TW luggage-storage and KTX-booking pages plus the 2026-11-24 research note; no new URL, image, affiliate CTA or tracking change.
+- Operator table is the source of truth for locker dimensions and first-three-hour base prices. Busan City directory remains the source for listed locations. Current operator data: Line 1 XL 37 × 87 × 55 cm / ₩6,000; Line 2 XL 42 × 90 × 55 cm / ₩6,000 weekdays / ₩6,600 weekends; Lines 3–4 XL 42 × 90 × 55 cm / ₩6,000. Verify on-site locker labels and kiosk before paying.
+- Content head `0f755d71418d89df8026029bd004d6e569abf0b6` passed CI run [#45262279946](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45262279946), including the public build script and dependency-free audit. The docs-only status/handoff update changes the PR head; verify the newest exact-head CI before any review decision.
+- Keep PR #658 Draft until browser QA at 360 / 390 / 1,280 px and content/link review are complete. No merge or production deployment without owner approval.
+- Separate P1 technical issue [#657](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/657): main `sitemap.xml` contains three literal backslash-`n` sequences, including the malformed zh-CN Gimhae Airport URL entry at line 1719. Claude should fix the generator and add a real XML parser validation; preserve all URLs and avoid touching the six content files in PR #658.
+- No GA4 / GSC query, SNS LIVE / schedule / publication change, affiliate setting change or image replacement was made in this run.
+
+---
+
 ## 2026-11-21 21:35 KST — next contributor handoff
 
 - Current verified main / production SHA before PR #619: `8afd2a3913ca1f72eedbc86f3670d55abe7ec353`. Deploy run [#44895090808](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44895090808) confirmed live `/version.txt` matched that SHA; deploy hook HTTP 200 and production smoke test passed.
