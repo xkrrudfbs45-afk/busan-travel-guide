@@ -917,6 +917,34 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Commons file page rechecked 2026-11-23: own work by Basile Morin, photographed 13 June 2024 at Beomeosa, Busan; original 6162×3616; CC BY-SA 4.0 permits commercial reuse with attribution and license link. Used as temple-setting context, not a restaurant or dining-condition image."
+    },
+    {
+      "source": "wikimedia",
+      "file": "KTX-Seoul Station.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:KTX-Seoul_Station.jpg",
+      "author": "Chinmayamahapatra",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "KTX train standing at Seoul Station, photographed 5 July 2017. Commons file page confirms own work by Chinmayamahapatra and CC BY-SA 4.0; used as a rail-service illustration, not a claim about current train models."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Korea-Busan Station, exterior to west-07.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Busan_Station,_exterior_to_west-07.jpg",
+      "author": "Steve46814",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Archival view looking west from Busan Station main entrance, photographed 22 November 2007. Commons file page confirms author and CC BY-SA 3.0. Captions explicitly date it and warn that it is not a current station-layout guide."
     }
   ]
 }
