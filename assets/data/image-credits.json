@@ -1454,6 +1454,34 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Official Busan Tourism Archive record METADATA007613: Osiria coastal walkway in Gijang, photographed 11 November 2024. Creators SummerTree and Lim Seong-hwan; publisher Busan Metropolitan City Tourism Policy Division; KOGL Type 1. Used as a geographically relevant coastal-walk image in the Songjeong/Gijang lodging guide."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Dongnae Hot Spring 01.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dongnae_Hot_Spring_01.JPG",
+      "author": "Abasaa",
+      "license": "Public domain (author dedication)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Dongnae_Hot_Spring_01.JPG",
+      "commercial_use": true,
+      "attribution_required": false,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Photograph of Dongnae Hot Spring street area, Busan, taken 10 November 2018. Commons confirms the author released the image into the public domain worldwide. Used as an archival neighborhood-context image, not a current facility or operating-hours reference."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Hurshimchung 01.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hurshimchung_01.JPG",
+      "author": "Abasaa",
+      "license": "Public domain (author dedication)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Hurshimchung_01.JPG",
+      "commercial_use": true,
+      "attribution_required": false,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Photograph of Hurshimchung in Dongnae, Busan, taken 10 November 2018. Commons confirms the author released the image into the public domain worldwide. Used as an archival exterior/context image, not a current entrance or operating-hours reference."
     }
   ]
 }
