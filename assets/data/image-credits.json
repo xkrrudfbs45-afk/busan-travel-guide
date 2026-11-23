@@ -1127,6 +1127,20 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Official Busan Tourism Archive photograph of the Busan Fireworks Festival, production year 2020. Record lists creator Lee Soo-bo, publisher Busan Metropolitan City and KOGL Type 1. Captions identify it as a historical 2020 event image, not a depiction of the 2026 show."
+    },
+    {
+      "source": "official_busantourism_archive",
+      "file": "20250220153350426481_m.png",
+      "source_url": "https://visitbusan.net/archive/eng/dataSearchEng/view.nm?dataSid=METADATA004037&menuCd=37",
+      "author": "Not stated in archive record; publisher not stated",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "original archive image served directly; no crop or compositing",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Official Busan Tourism Archive photograph of Songdo Marine Cable Car, production year 2020. Archive record confirms KOGL Type 1 but does not state creator or publisher; captions therefore credit the Busan Tourism Archive and do not invent an individual photographer."
     }
   ]
 }
