@@ -1071,6 +1071,34 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Official Busan Tourism Archive nakgopsae dish photograph, production year 2020. Archive record lists creator SummerTree Co., Ltd., publishers Busan Metropolitan City and Busan Tourism Organization, and KOGL Type 1. Captions identify it as a generic dish example, not a specific restaurant’s food."
+    },
+    {
+      "source": "official_busantourism_archive",
+      "file": "20250219170715007342_m.png",
+      "source_url": "https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA000754",
+      "author": "SummerTree Co., Ltd.; publisher: Busan Metropolitan City and Busan Tourism Organization",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "original archive image served directly; no crop or compositing",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Official Busan Tourism Archive photograph of the OCHORYANG garden courtyard. Record lists creator SummerTree Co., Ltd., publishers Busan Metropolitan City and Busan Tourism Organization, and KOGL Type 1. Production date is not stated in the record."
+    },
+    {
+      "source": "official_busantourism_archive",
+      "file": "20250219170715004918_m.png",
+      "source_url": "https://visitbusan.net/archive/dataSearch/view.nm?dataSid=METADATA000748",
+      "author": "SummerTree Co., Ltd.; publisher: Busan Metropolitan City and Busan Tourism Organization",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "original archive image served directly; no crop or compositing",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Official Busan Tourism Archive photograph of an interior room at OCHORYANG. Record lists creator SummerTree Co., Ltd., publishers Busan Metropolitan City and Busan Tourism Organization, and KOGL Type 1. Production date is not stated in the record."
     }
   ]
 }
