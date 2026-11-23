@@ -1268,6 +1268,34 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "KTO Photo Gallery record 2218001202204004k: Busan City Tour, Busan, April 2022, photographer Design Geulggol. The record explicitly states KOGL Type 1; used with the required Korea Tourism Organization-photographer credit. Caption avoids implying the photo shows the 2026 fleet."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Gimhae international airport International terminal building 20180403 120807.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gimhae_international_airport_International_terminal_building_20180403_120807.jpg",
+      "author": "LERK",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "International terminal exterior at Gimhae International Airport, photographed 3 April 2018 by LERK. Commons record requires the exact filename and author attribution; caption includes both. Used as archival airport context, not current wayfinding."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Gimhae International Airport Departure Hall.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gimhae_International_Airport_Departure_Hall.jpg",
+      "author": "Minseong Kim",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Gimhae International Airport departure hall, photographed 15 November 2015 by Minseong Kim. CC BY-SA 4.0. Used as archival airport-context imagery, not as a current eSIM counter or activation instruction."
     }
   ]
 }
