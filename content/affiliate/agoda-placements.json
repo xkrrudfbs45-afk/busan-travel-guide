@@ -299,6 +299,33 @@
       "title": "想看完 21:00 場次再回住宿？",
       "body": "如果打算看較晚的場次，住在步行可到廣安里海灘的地方，就能避開散場後擁擠的返程。此連結會開啟釜山市區住宿搜尋，並非只顯示廣安里；請先把區域設為廣安里，再比較到海灘的步行距離、房型、含稅總價與取消規定。",
       "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/this-week-in-busan/index.html",
+      "before": "<h2 id=\"how-we-choose\">",
+      "id": "agoda-stay-this-week",
+      "locale": "en",
+      "title": "Staying near this week's events?",
+      "body": "This link opens a Busan hotel search, not a list for one area. Set the area you want (Haeundae, Gwangalli or Seomyeon), then compare the walk to the metro, the total price with taxes and the cancellation terms.",
+      "button": "Search Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/this-week-in-busan/index.html",
+      "before": "<h2 id=\"how-we-choose\">",
+      "id": "agoda-stay-this-week",
+      "locale": "ja",
+      "title": "今週のイベントの近くに泊まるなら",
+      "body": "このリンクは釜山全体のホテル検索です。海雲台・広安里・西面など希望のエリアを設定し、地下鉄までの徒歩距離、税込総額、キャンセル条件を比べてください。",
+      "button": "Agodaで釜山のホテルを探す"
+    },
+    {
+      "path": "zh-tw/guides/this-week-in-busan/index.html",
+      "before": "<h2 id=\"how-we-choose\">",
+      "id": "agoda-stay-this-week",
+      "locale": "zh-tw",
+      "title": "想住在本週活動附近？",
+      "body": "此連結會開啟釜山市區住宿搜尋，並非只顯示單一區域。請先設定想住的區域（海雲台、廣安里或西面），再比較到地鐵站的步行距離、含稅總價與取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
     }
   ]
 }
