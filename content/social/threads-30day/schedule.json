@@ -2908,7 +2908,7 @@
     {
       "id": "d23-jp-2",
       "day": 23,
-      "theme": "Coastal photo walk",
+      "theme": "Seasonal: Christmas Village opens",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -2916,29 +2916,32 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-26T11:00:00.000Z",
-      "text": "撮影スポットの間も、少しゆっくり歩いてみましょう。安全な公共の場所から撮影し、通路をふさがず、住宅の近くでは住民への配慮を忘れずに。",
+      "text": "釜山のクリスマスビレッジが11月26日から始まりました（〜12月25日、映画の殿堂）。有料・時間指定制で、開催は期間中の一部の日だけ。行く前に公式チケットページで日程を確認するのがおすすめです。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
-        "verified_at": "2026-11-12T00:51:31.000Z",
-        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-12)",
-        "approved_at": "2026-11-12T00:51:31.000Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
       "status": "approved",
       "replacement": {
-        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
-        "at": "2026-11-12T00:51:31.000Z",
-        "reason": "15-day campaign: replaced by draft fresh15-1126-jp-2 (theme: Coastal photo walk)",
-        "original_text": "旅の保存リスト、増えすぎていませんか？ まずは地図に置いて、近い場所をまとめるだけでも実際に回れる計画に近づきます。保存した情報を旅程に変えていきましょう。"
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Coastal photo walk)",
+        "original_text": "撮影スポットの間も、少しゆっくり歩いてみましょう。安全な公共の場所から撮影し、通路をふさがず、住宅の近くでは住民への配慮を忘れずに。",
+        "calendar_text": "旅の保存リスト、増えすぎていませんか？ まずは地図に置いて、近い場所をまとめるだけでも実際に回れる計画に近づきます。保存した情報を旅程に変えていきましょう。"
       },
       "link_reply": {
-        "url": "https://go2busan.com/ja/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_2",
-        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_jp&utm_content=20261126_2"
+        "url": "https://go2busan.com/ja/guides/christmas-village-busan-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261126_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/christmas-village-busan-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261126_2"
       }
     },
     {
@@ -2980,7 +2983,7 @@
     {
       "id": "d23-us-2",
       "day": 23,
-      "theme": "Coastal photo walk",
+      "theme": "Seasonal: Christmas Village opens",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -2988,29 +2991,32 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-26T23:00:00.000Z",
-      "text": "Try slowing down between photo spots. Look for safe public viewpoints, keep paths clear and be mindful of residents when photographing near homes.",
+      "text": "Christmas Village Busan is now open at Busan Cinema Center through December 25. It's paid, timed entry and only runs on selected days, so check the official ticket page for dates before you go.",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
-        "verified_at": "2026-11-12T00:51:31.000Z",
-        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-12)",
-        "approved_at": "2026-11-12T00:51:31.000Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
       "status": "approved",
       "replacement": {
-        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
-        "at": "2026-11-12T00:51:31.000Z",
-        "reason": "15-day campaign: replaced by draft fresh15-1126-us-2 (theme: Coastal photo walk)",
-        "original_text": "Turn your saved places into a map. Group nearby stops, then choose what fits each day. Inspiration is great—but a useful shortlist is what gets you out exploring."
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Coastal photo walk)",
+        "original_text": "Try slowing down between photo spots. Look for safe public viewpoints, keep paths clear and be mindful of residents when photographing near homes.",
+        "calendar_text": "Turn your saved places into a map. Group nearby stops, then choose what fits each day. Inspiration is great—but a useful shortlist is what gets you out exploring."
       },
       "link_reply": {
-        "url": "https://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_2",
-        "text": "More details in our Busan guide 👇\nhttps://go2busan.com/guides/taejongdae-danubi-train-tips/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_us&utm_content=20261126_2"
+        "url": "https://go2busan.com/guides/christmas-village-busan-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261126_2",
+        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/christmas-village-busan-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261126_2"
       }
     },
     {
@@ -3041,7 +3047,7 @@
     {
       "id": "d24-jp-2",
       "day": 24,
-      "theme": "Ask a useful question",
+      "theme": "Seasonal: Haeundae lights + drone show (Nov 28)",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -3049,19 +3055,32 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-27T11:00:00.000Z",
-      "text": "初めて釜山へ行く友人に、ひとつだけアドバイスするとしたら何を伝えますか？ 現地で役立ったことや、事前に知っておきたかったことを聞いてみたいです。",
+      "text": "明日11月28日（土）、海雲台光祭りが18:00の点灯でスタート。入場無料、毎日18:00〜23:00、来年1月10日まで。同じ夜は広安里ドローンショー（19:00・21:00）も。会場は別エリアなので、移動時間を見込んで計画を。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Ask a useful question)",
+        "original_text": "初めて釜山へ行く友人に、ひとつだけアドバイスするとしたら何を伝えますか？ 現地で役立ったことや、事前に知っておきたかったことを聞いてみたいです。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261127_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261127_2"
+      }
     },
     {
       "id": "d24-us-1",
@@ -3091,7 +3110,7 @@
     {
       "id": "d24-us-2",
       "day": 24,
-      "theme": "Ask a useful question",
+      "theme": "Seasonal: Haeundae lights + drone show (Nov 28)",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -3099,19 +3118,32 @@
       "local_time": "18:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-27T23:00:00.000Z",
-      "text": "If a friend were visiting Busan for the first time, what’s one planning tip you’d give them? Share the advice you wish you’d known before your own trip.",
+      "text": "Tonight in Busan (Sat, Nov 28): the Haeundae Light Festival switches on at 6 p.m. Free, lit 6–11 p.m. through January 10. Gwangalli's drone show runs at 7 and 9 p.m. the same night. They're in different districts, so leave time to travel between them.",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Ask a useful question)",
+        "original_text": "If a friend were visiting Busan for the first time, what’s one planning tip you’d give them? Share the advice you wish you’d known before your own trip."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261127_2",
+        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261127_2"
+      }
     },
     {
       "id": "d25-jp-1",
@@ -3245,7 +3277,7 @@
     {
       "id": "d26-jp-2",
       "day": 26,
-      "theme": "Language and preparation",
+      "theme": "Seasonal: getting to Haeundae Light Festival",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -3253,24 +3285,37 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-11-29T11:00:00.000Z",
-      "text": "旅先では、完璧に話せることより、必要な情報を見せられる準備が役立つ場面もあります。ホテル名、住所、行きたい場所をメモして、移動に備えておきましょう。",
+      "text": "海雲台光祭りへは、地下鉄2号線・海雲台駅の3番か5番出口から九南路を歩いて海辺へ向かうのが分かりやすいルートです。点灯は23:00までですが、帰りの終電時刻は自分の行き先に合わせて先に確認を。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Language and preparation)",
+        "original_text": "旅先では、完璧に話せることより、必要な情報を見せられる準備が役立つ場面もあります。ホテル名、住所、行きたい場所をメモして、移動に備えておきましょう。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261129_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261129_2"
+      }
     },
     {
       "id": "d26-us-1",
       "day": 26,
-      "theme": "Language and preparation",
+      "theme": "Seasonal: getting to Haeundae Light Festival",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -3278,19 +3323,32 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-11-29T13:00:00.000Z",
-      "text": "Before arriving in Busan, save your accommodation address and key destinations on your phone. Having names and addresses ready can make navigation and asking for help less stressful.",
+      "text": "Heading to the Haeundae Light Festival? Take Metro Line 2 to Haeundae Station, use Exit 3 or 5, and walk down Gunam-ro to the beach. Lights stay on until 11 p.m., but check the last train to your own stop before you set out.",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Language and preparation)",
+        "original_text": "Before arriving in Busan, save your accommodation address and key destinations on your phone. Having names and addresses ready can make navigation and asking for help less stressful."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261129_1",
+        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261129_1"
+      }
     },
     {
       "id": "d26-us-2",
@@ -3548,7 +3606,7 @@
     {
       "id": "d29-jp-2",
       "day": 29,
-      "theme": "Invite community stories",
+      "theme": "Seasonal: winter lights round-up",
       "market": "JP",
       "account": "go2busan.jp",
       "language": "ja",
@@ -3556,24 +3614,37 @@
       "local_time": "20:00",
       "tz": "Asia/Tokyo",
       "publish_at_utc": "2026-12-02T11:00:00.000Z",
-      "text": "釜山旅行で「これは準備しておいてよかった」と思ったことはありますか？ 交通、宿泊、食事、持ち物など、経験からのヒントをぜひ共有してください。",
+      "text": "この冬の釜山・光のイベント：西面光祭り（〜2/14）、民楽ルーチェフェスタ（〜1/10、18:00〜23:30、無料）、海雲台光祭り（〜1/10、18:00〜23:00、無料）。光復路のツリー点灯は12月4日からの予定です。エリアごとに一晩ずつ回るのがおすすめ。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.227Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Invite community stories)",
+        "original_text": "釜山旅行で「これは準備しておいてよかった」と思ったことはありますか？ 交通、宿泊、食事、持ち物など、経験からのヒントをぜひ共有してください。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/ja/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261202_2",
+        "text": "詳しくは釜山ガイドで👇\nhttps://go2busan.com/ja/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_jp&utm_content=20261202_2"
+      }
     },
     {
       "id": "d29-us-1",
       "day": 29,
-      "theme": "Invite community stories",
+      "theme": "Seasonal: winter lights round-up",
       "market": "US",
       "account": "go2busan.us",
       "language": "en",
@@ -3581,19 +3652,32 @@
       "local_time": "08:00",
       "tz": "America/New_York",
       "publish_at_utc": "2026-12-02T13:00:00.000Z",
-      "text": "Been to Busan before? What neighborhood or moment would you want to experience again? If you’re planning your first visit, tell us which part of the city you’re most curious about.",
+      "text": "Busan's winter lights this season: Seomyeon Light Festival (to Feb 14), Millak Luce Festa (to Jan 10, 6–11:30 p.m., free), Haeundae Light Festival (to Jan 10, 6–11 p.m., free). Gwangbok-ro's tree lighting is planned from Dec 4. Pick one area per evening.",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-03)",
-        "approved_at": "2026-11-03T14:58:02.285Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Invite community stories)",
+        "original_text": "Been to Busan before? What neighborhood or moment would you want to experience again? If you’re planning your first visit, tell us which part of the city you’re most curious about."
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261202_1",
+        "text": "More detail in our local Busan guide 👇\nhttps://go2busan.com/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_us&utm_content=20261202_1"
+      }
     },
     {
       "id": "d29-us-2",
@@ -5112,7 +5196,7 @@
     {
       "id": "d22-tw-2",
       "day": 22,
-      "theme": "Coastal photo walk",
+      "theme": "Seasonal: Christmas Village opens",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -5120,29 +5204,32 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-26T12:00:00.000Z",
-      "text": "拍照景點之間不妨放慢腳步。選擇安全的公共位置取景，不阻擋通道，在住宅附近拍攝時也要留意居民感受。",
+      "text": "釜山聖誕村 11/26 開幕，展期到 12/25，在電影殿堂舉辦。採付費、指定時段入場，而且不是每天都開放，出發前記得先到官方售票頁確認日期。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": "Claude (owner-approved replacement, 2026-11-12)",
-        "verified_at": "2026-11-12T00:51:31.000Z",
-        "note": "Copy reviewed: no prices, hours, dates, durations or superlatives; link page exists in repo and matches the market language."
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak (chat approval 2026-11-12)",
-        "approved_at": "2026-11-12T00:51:31.000Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
       "status": "approved",
       "replacement": {
-        "by": "Tak (chat approval 2026-11-12; replacement plan in PR #348)",
-        "at": "2026-11-12T00:51:31.000Z",
-        "reason": "15-day campaign: replaced by draft fresh15-1126-tw-2 (theme: Coastal photo walk)",
-        "original_text": "出發前不只看氣溫，也想想會不會下雨、天黑的時間，還有景點之間的移動時間。幾個小小的確認，就能讓一天輕鬆不少。"
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Coastal photo walk)",
+        "original_text": "拍照景點之間不妨放慢腳步。選擇安全的公共位置取景，不阻擋通道，在住宅附近拍攝時也要留意居民感受。",
+        "calendar_text": "出發前不只看氣溫，也想想會不會下雨、天黑的時間，還有景點之間的移動時間。幾個小小的確認，就能讓一天輕鬆不少。"
       },
       "link_reply": {
-        "url": "https://go2busan.com/zh-tw/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_2",
-        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/taejongdae/?utm_source=threads&utm_medium=social&utm_campaign=nov12_26_tw&utm_content=20261126_2"
+        "url": "https://go2busan.com/zh-tw/guides/christmas-village-busan-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261126_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/christmas-village-busan-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261126_2"
       }
     },
     {
@@ -5173,7 +5260,7 @@
     {
       "id": "d23-tw-2",
       "day": 23,
-      "theme": "Build a personal shortlist",
+      "theme": "Seasonal: Haeundae lights + drone show (Nov 28)",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -5181,19 +5268,32 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-27T12:00:00.000Z",
-      "text": "把收藏的地點放進地圖，把距離近的排在一起，再決定每天適合去哪些。靈感很重要，但真正帶你出門的，是一份實用的口袋名單。",
+      "text": "明天 11/28（六）海雲台燈光節 18:00 點燈開幕，免費入場，每天 18:00–23:00，展期到明年 1/10。同一晚廣安里無人機秀也有 19:00、21:00 兩場，兩地不在同一區，記得預留移動時間。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Build a personal shortlist)",
+        "original_text": "把收藏的地點放進地圖，把距離近的排在一起，再決定每天適合去哪些。靈感很重要，但真正帶你出門的，是一份實用的口袋名單。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261127_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261127_2"
+      }
     },
     {
       "id": "d24-tw-1",
@@ -5273,7 +5373,7 @@
     {
       "id": "d25-tw-2",
       "day": 25,
-      "theme": "Travel budget habits",
+      "theme": "Seasonal: getting to Haeundae Light Festival",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -5281,19 +5381,32 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-11-29T12:00:00.000Z",
-      "text": "安排旅行預算時，你會先決定哪一塊？住宿、美食、體驗，還是購物？先想清楚自己重視什麼，取捨時就容易多了。",
+      "text": "去海雲台燈光節，最簡單的走法是搭地鐵 2 號線到海雲台站，從 3 號或 5 號出口沿九南路走到海邊。燈光亮到 23:00，但回程請先查好自己目的地的末班車時間。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Travel budget habits)",
+        "original_text": "安排旅行預算時，你會先決定哪一塊？住宿、美食、體驗，還是購物？先想清楚自己重視什麼，取捨時就容易多了。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261129_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261129_2"
+      }
     },
     {
       "id": "d26-tw-1",
@@ -5423,7 +5536,7 @@
     {
       "id": "d28-tw-2",
       "day": 28,
-      "theme": "Revisit the plan",
+      "theme": "Seasonal: winter lights round-up",
       "market": "TW",
       "account": "go2busan.tw",
       "language": "zh-TW",
@@ -5431,19 +5544,32 @@
       "local_time": "20:00",
       "tz": "Asia/Taipei",
       "publish_at_utc": "2026-12-02T12:00:00.000Z",
-      "text": "行程最後檢查：如果下雨或累了怎麼辦？在附近準備一個備案，也允許自己臨時改變計畫。保持彈性，本身就是準備的一部分。",
+      "text": "今年冬天釜山的燈光活動：西面燈光節（～2/14）、民樂 Luce Festa（～1/10，18:00–23:30，免費）、海雲台燈光節（～1/10，18:00–23:00，免費）。光復路聖誕樹點燈預計 12/4 開始。建議一個區域安排一個晚上。",
       "verification": {
-        "status": "evergreen",
+        "status": "needs_check",
         "issues": [],
-        "flags": [],
-        "verified_by": null,
-        "verified_at": null
+        "flags": [
+          "dated facts: event dates/hours"
+        ],
+        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
+        "verified_at": "2026-11-23T14:30:00.000Z",
+        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
       },
       "approval": {
-        "approved_by": "Tak",
-        "approved_at": "2026-11-03T23:43:44.952Z"
+        "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "approved_at": "2026-11-23T14:30:00.000Z"
       },
-      "status": "approved"
+      "status": "approved",
+      "replacement": {
+        "by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
+        "at": "2026-11-23T14:30:00.000Z",
+        "reason": "Seasonal timely post replaces evergreen slot (previous theme: Revisit the plan)",
+        "original_text": "行程最後檢查：如果下雨或累了怎麼辦？在附近準備一個備案，也允許自己臨時改變計畫。保持彈性，本身就是準備的一部分。"
+      },
+      "link_reply": {
+        "url": "https://go2busan.com/zh-tw/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261202_2",
+        "text": "更多資訊請看釜山旅遊指南👇\nhttps://go2busan.com/zh-tw/guides/busan-winter-lights-christmas-2026/?utm_source=threads&utm_medium=social&utm_campaign=winter26_tw&utm_content=20261202_2"
+      }
     },
     {
       "id": "d29-tw-1",
