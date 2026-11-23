@@ -1410,6 +1410,35 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "KTO Photo Gallery record 2718019201810010k: Jeonpo Cafe Street, Busanjin-gu, Busan, photographed October 2018 by Live Studio. The record states KOGL Type 1 and permits commercial reuse with attribution. Caption identifies the date because individual businesses and the street have changed since then."
+    },
+    {
+      "source": "kto",
+      "file": "2939531_image2_1.jpg",
+      "source_url": "https://english1.visitkorea.or.kr/enu/nphotogallery/photo.kto?func_name=photo_view&newphotoDTO.photo_code=1517015202211008k&newphotoDTO.searchWord=&newphotoDTO.sub_menu=contest",
+      "author": "Kim Jiho",
+      "publisher": "Korea Tourism Organization",
+      "license": "Korea Open Government License Type 1 (KOGL Type 1)",
+      "license_url": "https://www.kogl.or.kr/info/licenseType1.do",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "original KTO image asset; no crop or edit",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "KTO Photo Gallery record 1517015202211008k: Homigot Sunrise Square, Pohang, photographed November 2022 by Kim Jiho. The record states KOGL Type 1 and permits commercial use with attribution. Used as venue context, not as a photograph of the 2026–27 festival programme."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Homigot_20240113_005.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Homigot_20240113_005.jpg",
+      "author": "Mobius6",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Homigot, Pohang, photographed 13 January 2024 by Mobius6; CC BY 4.0. Used as destination context, not as a festival crowd or sunrise guarantee."
     }
   ]
 }
