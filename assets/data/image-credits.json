@@ -1239,6 +1239,20 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Wikimedia Commons photograph of a Dongnae-style pajeon. Commons description identifies the photographed restaurant as being in Gyeongju, not Busan; captions on Go2Busan explicitly disclose this and use the image only as an illustrative example of the dish, not as a Busan restaurant photograph."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Gupo_Bridge_in_Busan_under_view_closer.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gupo_Bridge_in_Busan_under_view_closer.jpg",
+      "author": "102orion",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized via Wikimedia Commons Special:FilePath only",
+      "checked_on": "2026-11-23",
+      "status": "verified",
+      "note": "Commons confirms the photograph depicts Gupo Bridge over the Nakdong River in Busan; own work by 102orion, photographed 12 January 2006, CC BY-SA 3.0. Used as geographic context for Gupo's river trade history, not as a noodle or market photograph."
     }
   ]
 }
