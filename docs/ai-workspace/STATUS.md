@@ -1,3 +1,15 @@
+## 2026-11-25 05:36 KST — KTX integration cleanup
+
+- Verified GitHub main SHA: 5eeb3c94f335274ef401e67d0b967bf8f4eecf74. Render static service busan-travel-guide is on branch main, auto-deploy disabled; latest deploy dep-dc2oppt9fdbs738aj4jg is live on the same SHA. The Render-hosted EN / JA / zh-TW KTX pages were readable; the custom-domain /version.txt endpoint was not verified in this pass.
+- Content branch: content/ktx-integration-cleanup-20261125. It updates only the existing EN / JA / zh-TW KTX booking pages and one dated research note. No new URL, image, affiliate, analytics or SNS change.
+- Content decision: remove the ambiguous suggestion that the former SRT app / website may be a current non-member booking route. SR's 2026-08-07 Q&A says SRT tickets were sold only for trains running through 2026-08-31; from 2026-09-01 former SRT routes are booked as KTX through Korail+ or Korail's website. The 2026-08-21 notice describes the temporary transition exception. The zh-TW guide now surfaces the two-month foreign-traveller booking window in its opening callout and removes a duplicated paragraph.
+- Community / competitor evidence and caveats are recorded in RESEARCH-KTX-INTEGRATION-CURRENT-2026-11-25.md: Taiwan PTT 2026-09-30, Japan 4travel 2026-10-14, English Reddit, Korean DCInside transport / monorail, TheQoo and Clien; no recent Yahoo question; Naver Blog search was blocked by robots.txt; Ppomppu / Instagram / YouTube produced no relevant public result. No broad-demand claim is made.
+- Main technical checks: robots.txt allows crawling and references the sitemap. The three KTX pages retain self-canonical, reciprocal EN / JA / zh-TW hreflang, OG / Twitter images and are in the sitemap. The current sitemap still has 273 <loc> entries and three literal backslash-n sequences around the zh-CN Gimhae Airport block; separate P1 issue #657 remains open. Keep sitemap / lastmod work in that technical lane; update the three KTX URL lastmod values after this content branch merges.
+- PR #658 has merged. Draft PRs #667 and #668 remain open. Docs-only PR #648 is stale (base 47b70a4) and GitHub reports it non-mergeable; do not merge that historical STATUS / HANDOFF snapshot as-is.
+- Build / SEO CI on this exact branch head is pending. Local build could not be run without a repository checkout. Browser QA at 360 / 390 / 1,280 px, live image HTTP / MIME, crop, LCP / CLS and custom-domain version verification remain unverified. No GA4 / GSC query, SNS change, merge or production deploy.
+- No merge or deployment has been performed. Keep the content PR Draft until exact-head CI and browser review are complete.
+
+---
 ## 2026-11-24 05:37 KST — Metro locker source alignment Draft PR #658
 
 - Verified main SHA: `f1a0266d0c8a192f3862e951dc2ab9cfc60f6594`. Render static service `busan-travel-guide` has auto-deploy disabled; latest live deployment `dep-dc2475jm8hqs739bcfdg` is on the same SHA and reports `live`.
