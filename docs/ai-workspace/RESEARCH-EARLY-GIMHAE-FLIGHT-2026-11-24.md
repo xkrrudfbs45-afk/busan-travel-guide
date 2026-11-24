@@ -51,6 +51,6 @@ Expected value: reduce uncertainty about hotel relocation, prevent readers from 
 
 - No image asset or image markup changed. Existing image source, license, caption, alt text and crop remain untouched.
 - Source-level checks: each localized insertion marker matched exactly once; each page contains exactly one `early-gimhae-flight` section; Busan Station table/description clarified; official links and internal Haeundae route link included.
-- Build / CI: pending PR workflow.
+- Build / CI: passed on exact PR head `35faeb48afde1d548fd9888c18d67d8fc1de8850` in GitHub Actions run [45396873636](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45396873636). The `Crawl local SEO hygiene` job passed the localized first-trip checklist, deterministic EN/JA/zh-TW map generation, the public-site build script used by Render, and the dependency-free audit.
 - Browser visual QA at 360 / 390 / 1280 px: not performed in this run. Do not mark mobile visual review complete.
 - Remaining risks: Busan City timetables may change; the 90-minute duration is a published route estimate, not a guarantee; the airport taxi table is an estimate for the Haeundae destination and not a fixed outbound quote; airline check-in requirements vary; hotel taxi arrangement is not guaranteed. Readers are told to confirm the exact stop, flight check-in deadline, pickup and fare with the relevant provider.
