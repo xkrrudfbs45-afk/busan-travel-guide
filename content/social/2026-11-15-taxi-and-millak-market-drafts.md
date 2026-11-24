@@ -220,12 +220,12 @@ At Millak Hoe Center, ask the stall for the fish type, weight, unit price and ex
 Link reply:
 https://go2busan.com/guides/gwangalli-neighborhood-guide/?utm_source=threads&utm_medium=social&utm_campaign=nov15_millak_winter&utm_content=20261129_en
 
-## 5. Fact sources and limits (checked 2026-11-17)
+## 5. Fact sources and limits (checked 2026-11-24)
 
 - K.Ride official website: https://utility.kride.kakaomobility.com/
   - Lists four app-interface languages (English, Japanese, Traditional Chinese and Simplified Chinese), 133 languages for destination search and driver chat, estimated fares before booking, and credit/debit card plus mobile-payment options.
 - Kakao Mobility K.Ride service page: https://www.kakaomobility.com/k-ride
-  - Lists Google, Apple or email sign-up, overseas-issued cards and selected mobile payments.
+  - Lists Google, Apple or email sign-up, overseas-issued cards, Alipay and GrabPay.
 - Phone-number limitation: accessible official service and App Store pages do not specify whether a Korean number is required or which foreign country codes are accepted.
   - Do not promise Korean-number-free registration or acceptance of every overseas number.
 - K.Ride App Store listing: https://apps.apple.com/kr/app/k-ride-taxi-cab-travel/id6474654222
