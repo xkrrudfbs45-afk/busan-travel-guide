@@ -56,7 +56,7 @@ Do not:
 
 ## 5. Image and technical scope
 
-The existing Citizens' Bell image is registered in `content/images/cover-photos.json` for all three localized pages, with captions stating it is a 2022 photograph of the bell and not a 2026–27 event scene. No image, credit, alt text, OG image, crop or asset was changed in this content update. Recheck the image-credit registry before any future image replacement.
+The existing Citizens' Bell image is registered in `content/images/cover-photos.json` for all three localized pages, with captions stating it is a 2022 photograph of the bell and not a 2026–27 event scene. On 2026-11-25, the Commons file pages were rechecked: the bell image remains CC0 1.0 (Bernard Gagnon) and the Gwangalli night context photo remains CC BY 2.0 (Carey Ciuro), with visible attribution. No image bytes, license terms, alt text, caption, OG image, crop or image URL changed. The image-credit registry's checked dates were refreshed for these two existing files, and the Gwangalli record now notes its use in this countdown guide as general night-area context, not an event photograph.
 
 Canonical, hreflang, OG / Twitter metadata, Article / FAQ / Breadcrumb JSON-LD, sitemap and search-index metadata are intentionally unchanged and remain in the developer / technical SEO lane. Public browser QA at 360 / 390 / 768 / 1280 px and live performance checks remain pending.
 
