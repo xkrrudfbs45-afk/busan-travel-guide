@@ -154,3 +154,22 @@
 5. solo-dining sitemap/hreflang과 1001번 breadcrumb 문제는 별도 SEO PR로 처리한다.
 
 운영 배포·main 병합·SNS 게시 변경은 별도 승인 전 금지한다.
+
+
+---
+
+## Addendum — latest main recheck (2026-11-22, after PR #633)
+
+The original table above is a historical audit snapshot at `2fda035673815077525d366c136e1174097f8427`. It must not be read as the current state. A fresh audit and deployment verification were completed after subsequent main changes.
+
+- **Audited main SHA:** `d35dd2e8438f6d2482372481a058e56cb901c811`
+- **Technical SEO audit:** [run #2191](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44974415861), completed successfully on the exact SHA above.
+- **Production deploy:** [run #44907613711](https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/44907613711). The job's live `version.txt` check matched the same SHA; the directory-cache checks for `/`, `/ja/`, `/zh-tw/` and `/guides/` passed. The smoke test returned HTTP 200 for all 263 sitemap URLs and for `robots.txt`, `sitemap.xml` and the checked public assets.
+- **Social metadata:** `enhance-social-meta --check public` reports **0 gaps**. This supersedes the historical 83-page OG/Twitter warning above; [issue #628](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/628) was closed based on this exact-main evidence.
+- **Sitemap / hreflang:** 265 canonical HTML pages were scanned against 263 sitemap entries. One canonical URL remains absent: `https://go2busan.com/guides/solo-dining-busan/`. JA and zh-TW alternates point to that same missing sitemap target, producing four hreflang-target warnings. Track the cluster in [issue #365](https://github.com/xkrrudfbs45-afk/busan-travel-guide/issues/365). Do not change canonical URLs or add replacement routes without owner approval.
+- **Image credits:** 53 images in use / 61 registered / 8 unused registry-entry warnings / 0 strict errors. The eight warnings are unused registrations, not missing credits; inspect references before removing any entry.
+- **Image coverage:** `enhance-images --check` passed 33 cover entries. The homepage food-card audit passed 10 cards with 10 distinct image URLs. The strict audit logged 14 repeated CSS background URL cases; these include intentional reuse across related cards/selectors and are review signals, not 14 confirmed defects.
+- **Outbound safety:** 0 external `target="_blank"` links missing safe `rel` attributes.
+- **Browser visual review:** no real-browser crop/LCP/CLS inspection at 360 / 390 / 1280 px was performed in this follow-up. Do not mark visual QA as passed on the basis of static checks or deployment smoke tests.
+
+No HTML, image asset, licence record, canonical, hreflang, sitemap route, analytics, affiliate setting or SNS schedule was changed by this addendum. It records the newer verified state so the historical 83-gap inventory is not mistaken for a current defect list.
