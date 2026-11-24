@@ -46,7 +46,7 @@ https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/?utm_sour
 ### ja — six cards
 
 1. **登録と電話番号を事前に確認**  
-   k.ride は Google・Apple・メールでの登録を案内しています。公式サービスページではGoogle・Apple・メールでの登録を案内し、App Storeには端末認証またはSNS連携も記載されています。ただし、韓国の番号が必要か、どの海外番号が使えるかは明記されていません。出発前に自分の番号で確認しましょう。
+   公式サービスページではGoogle・Apple・メールでの登録を案内し、App Storeには端末認証またはSNS連携も記載されています。ただし、韓国の番号が必要か、どの海外番号が使えるかは明記されていません。出発前に自分の番号で登録できるか確認しましょう。
 
 2. **海外カードと多言語機能**  
    公式案内では海外発行カードと一部のモバイル決済に対応。アプリ表示は英語・日本語・中国語（繁体字／簡体字）、目的地検索とドライバーとのチャットは133言語に対応し、予約前に予想料金も確認できます。
@@ -112,7 +112,7 @@ Link reply:
 https://go2busan.com/zh-tw/guides/busan-taxi-vs-subway-motion-sickness/?utm_source=threads&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_tw
 
 ### ja
-釜山でタクシーを使う前に、海外カードだけでなく電話番号の認証も確認しておきたいところ。k.ride の現行プライバシーポリシーでは登録時に携帯電話番号が必須ですが、韓国の番号が必要か、どの海外番号が使えるかは明記されていません。出発前にどこまで確認しますか？
+釜山でタクシーを使う前に、海外カードだけでなく登録方法も確認しておきたいところ。公式サービスページではGoogle・Apple・メール登録、App Storeでは端末認証またはSNS連携が案内されていますが、韓国の番号が必要か、どの海外番号が使えるかは明記されていません。出発前にどこまで確認しますか？
 
 Link reply:
 https://go2busan.com/ja/guides/airport-to-seomyeon/?utm_source=threads&utm_medium=social&utm_campaign=nov15_taxi_guide&utm_content=20261127_ja
