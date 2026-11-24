@@ -28,6 +28,7 @@
 - 12개 모두 현지 정오 게시 시각으로 변환됨. US는 America/New_York, JP는 Asia/Tokyo, TW는 Asia/Taipei 기준.
 - 국가별 guide path와 bio-link UTM 12/12 정상. 5장 카드와 마지막 카드 CTA 12/12 구성.
 - 11/28 공연 3개는 Draft 상태이며 승인 게시물로 간주하지 않음.
+- 15일 활성 스케줄에서 과거 행사·만료 날짜의 재발행은 발견하지 못함.
 
 ### Threads
 
@@ -63,7 +64,7 @@ Source: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=1
 
 현재 Instagram 카드 2는 세 언어 모두 다누비열차를 확인하라고 안내하고, 기존 렌더 이미지에는 증기기관차처럼 보이는 차량이 등장함. 카드 3~5에도 광안대교·마린시티·봄꽃·일반 버스정류장 등 태종대의 늦가을 현장과 맞지 않는 요소가 반복됨.
 
-2026-07-10 부산광역시관광협회 공지는 다누비열차가 7/3부터 긴급 안전점검으로 운행 중단되고 7/4부터 무료 순환버스를 대체 운행한다고 안내함. 공지상 운행일은 화~일, 시간은 09:30~17:30, 무료권은 다누비열차 매표소에서 회차별 선착순 배부. 다만 이 공지보다 최신인 운영사 재개 공지는 이번 점검에서 확인하지 못했으므로 게시 직전 운영사 공지와 기상 상황을 재확인해야 함. 현재 운행을 보장하거나 과거 2023년 시간·요금을 재사용하지 말 것.
+2026-07-10 부산광역시관광협회 공지는 다누비열차가 7/3부터 긴급 안전점검으로 운행 중단되고 7/4부터 무료 순환버스를 대체 운행한다고 안내함. 공지상 운행일은 화~일, 시간은 09:30~17:30, 무료권은 다누비열차 매표소에서 회차별 선착순 배부. 다만 이 공지보다 최신인 운영사 재개 공지는 이번 점검에서 확인하지 못했으므로 게시 직전 운영사 공지와 기상 상황을 재확인해야 함. 현재 운행을 보장하거나 과거 2023년 시간·요금을 재사용하지 말 것. 현재 Instagram schedule은 이 게시물을 approved/verified로 표시하지만, 카드와 연결 가이드에 운영정보 불일치가 확인됐으므로 기존 verified 플래그를 최신 사실 확인으로 간주하지 말 것. 소유자 승인 없이 상태를 변경하지 않음.
 Source: https://bta.or.kr/noticeDetail?no=1637&page=1
 
 - 카드 제목 권고: “Check today’s park shuttle update” / “園内シャトルの最新案内を確認” / “先確認園區接駁最新公告”
@@ -183,9 +184,11 @@ Source: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=8
 - 현재 main: f54b134e9543f44c65aae18d2c9dc0fe391cb238 (PR #658 merge 이후).
 - docs/ai-workspace/STATUS.md는 이전 SHA f1a0266을 계속 표시하므로 stale. 이번 PR에서는 STATUS.md를 수정하지 않음.
 - 관련 PR #659는 Open / Draft, base f54b134, head cf2a924. Technical SEO audit 1/1 success. PR은 미병합이며 Production 배포 없음. 로컬 빌드 보고는 CI 결과와 구분.
-- 이번 PR은 감사 보고서 추가와 미승인 K.Ride 초안의 휴대전화 검증 표현 교정만 포함. 활성 Instagram/Threads schedule, publish-log, 승인 이미지, 예약 시간, 외부 계정에는 변경 없음.
-- 이번 PR CI는 생성 후 별도 확인. 미병합·미배포 상태 유지.
-- Production 배포 SHA는 이 점검에서 독립적으로 재확인하지 않음.
+- PR #660: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/660 — Draft, 2개 파일(감사 보고서 + 미승인 K.Ride 초안 교정), base f54b134, 최신 head 3a7a45a. Compare는 ahead 8 / behind 0이지만 GitHub PR snapshot의 mergeable 필드는 현재 false로 표시됨. 충돌 원인은 응답에서 확인되지 않아 병합하지 않음.
+- PR #660 최신 head의 workflow run 및 combined status는 아직 없음. CI 통과로 표시하지 않음.
+- 관련 PR #659는 Open / Draft, head cf2a924의 Technical SEO audit 1/1 success. 미병합·미배포.
+- PR #660은 미병합이며 이 PR로 인한 Production 배포 없음. 기존 Production 배포 SHA는 이 점검에서 독립적으로 재확인하지 않음.
+- PR #660은 감사 보고서 추가와 미승인 K.Ride 초안의 휴대전화 검증 표현 교정만 포함. 활성 Instagram/Threads schedule, publish-log, 승인 이미지, 예약 시간, 외부 계정에는 변경 없음.
 
 ## 9. 다음 수정 우선순위
 
