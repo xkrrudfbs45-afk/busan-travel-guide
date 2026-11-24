@@ -200,3 +200,12 @@ Source: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=8
 6. Instagram 빈 슬롯 33개, Threads 빈 슬롯 28개는 대만 번체 우선으로 신규 초안 제안. 우선 후보: K.Ride 7장, 민락 겨울 방어, 부산역 짐 보관 대안, KTX/SRT 매진·취소표 팁, 버스 QR 결제 지원 범위, 부산 음식 메뉴 해설.
 7. 12/5 광복로 Street Festa는 Visit Busan 16:00~22:00, Busan City English 16:00~20:00 상충. 주최 측 최종 확인 전 종료시간을 게시하지 않음.
 
+
+
+## Correction — Taejongdae official source conflict (24 November 2026)
+
+A follow-up source check found that the 10 July 2026 Busan Tourism Organization notice still states that the Danubi train was suspended from 3 July until an emergency safety inspection ends. It lists a temporary free shuttle Tuesday–Sunday, 09:30–17:30, with free per-departure tickets, but gives no restart date: https://bta.or.kr/noticeDetail?no=1637&page=1
+
+Visit Busan's general Taejongdae listing displays a regular seasonal timetable and Monday closure, but does not explicitly confirm that the July suspension ended: https://www.visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201013001000&uc_seq=542
+
+Therefore, do not describe the train as currently operating based only on the generic timetable. Treat the specific BTA suspension notice as the latest explicit status found, state that no restart date was located, and ask readers to verify the same-day notice. The dedicated EN/JA/zh-TW content and archival-image correction is tracked in Draft PR #661.
