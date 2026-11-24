@@ -100,7 +100,7 @@ Source: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000009&dataSid=
 - Seomyeon Light Festival: https://www.busan.go.kr/eng/bsevents/ — 10/29~2027-02-14. 현재 소셜 문안은 운영시간을 추가하지 않음.
 - Gwangalli M Drone Light Show: https://www.busan.go.kr/eng/bsnews01/1763224 — 11/28 19:00·21:00, 약 12분, 무료. 비·강풍·태풍·기술 문제로 취소·지연 가능.
 - Christmas Village Busan: https://m.ticket.yes24.com/Notice/18701 — 11/26~12/25 중 21일 운영, 선택일·시간 지정·유료 입장. 현재 문안은 선택일 운영을 명시.
-- Gwangbok-ro Street Festa 12/5: Visit Busan 페이지는 16:00~22:00, Busan City English 일정은 16:00~20:00으로 서로 다름. 현재 15일 소셜 스케줄에는 게시물이 없음. 주최 측 최종 확인 전 종료시간을 넣은 게시물은 보류.
+- Gwangbok-ro Street Festa 12/5: Visit Busan 페이지는 16:00~22:00, Busan City English 일정은 16:00~20:00으로 서로 다름. 현재 15일 소셜 스케줄에는 게시물이 없음. Visit Busan: https://www.visitbusan.net/v/7xYD ; Busan City English: https://www.busan.go.kr/eng/bsevents/1762987 . 주최 측 최종 확인 전 종료시간을 넣은 게시물은 보류.
 - Gwangbok-ro Winter Light Tree Festival: 중구 재공고는 조명 설치 예정 기간을 12/4~2027-01-31, 17:30~22:30으로 안내. 이는 전체 행사 프로그램 확정과 구분.
   Official notice: https://eminwon.bsjunggu.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?not_ancmt_mgt_no=30073&jndinm=OfrNotAncmtEJB&context=NTIS&subCheck=Y&initValue=Y&countYn=Y
 
