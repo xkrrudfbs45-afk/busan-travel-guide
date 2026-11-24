@@ -1,3 +1,13 @@
+## 2026-11-25 05:36 KST — next contributor handoff
+
+- Main / Render live SHA: 5eeb3c94f335274ef401e67d0b967bf8f4eecf74; latest Render deploy dep-dc2oppt9fdbs738aj4jg is live. Render auto-deploy is disabled. Do not deploy without owner approval. The custom-domain /version.txt endpoint was not verified; only the Render-hosted pages were fetched.
+- Review the content branch content/ktx-integration-cleanup-20261125. It updates the existing KTX booking guides in EN / JA / zh-TW and a dated research note; no new URL or image. Exact-head CI and browser QA are required before review.
+- Key editorial correction: for journeys from 2026-09-01, former SRT routes are booked as KTX via Korail+ or Korail's website. SR's official 2026-08-07 Q&A says SRT ticket sales were only for trains through 2026-08-31; the old app / website's temporary non-member exception was a transition-only arrangement, not a separate current booking route. The zh-TW page now exposes the 2-month foreign-traveller booking window in its first callout and removes the duplicate paragraph.
+- Keep issue #657 with Claude's technical SEO lane. Current main sitemap has 273 <loc> entries and three literal backslash-n sequences around /zh-cn/guides/gimhae-airport-to-city/. Fix the generator and add real XML validation; preserve every URL and hreflang. After this content branch merges, update <lastmod> for /guides/ktx-booking-guide/, /ja/guides/ktx-booking/ and /zh-tw/guides/ktx-booking/ as well as the six URLs from merged PR #658.
+- PR #658 is merged. #667 and #668 remain Draft / open / unmerged. PR #648 is a stale docs-only snapshot on base 47b70a4 and is non-mergeable; do not merge it as-is. Refresh any state docs from current main before further action.
+- Do not claim browser QA at 360 / 390 / 1,280 px, live image crop / MIME, LCP / CLS or custom-domain version verification until actually performed. No GA4 / GSC query, affiliate change, SNS publication / schedule change, merge or production deployment in this pass.
+
+---
 ## 2026-11-24 05:37 KST — next contributor handoff
 
 - Current verified main / Render live SHA: `f1a0266d0c8a192f3862e951dc2ab9cfc60f6594`; latest live deploy `dep-dc2475jm8hqs739bcfdg`. Render auto-deploy is disabled. Do not trigger a deploy without owner approval.
