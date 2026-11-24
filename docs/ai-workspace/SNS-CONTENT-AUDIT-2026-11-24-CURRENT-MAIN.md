@@ -184,7 +184,7 @@ Source: https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=8
 - 현재 main: f54b134e9543f44c65aae18d2c9dc0fe391cb238 (PR #658 merge 이후).
 - docs/ai-workspace/STATUS.md는 이전 SHA f1a0266을 계속 표시하므로 stale. 이번 PR에서는 STATUS.md를 수정하지 않음.
 - 관련 PR #659는 Open / Draft, base f54b134, head cf2a924. Technical SEO audit 1/1 success. PR은 미병합이며 Production 배포 없음. 로컬 빌드 보고는 CI 결과와 구분.
-- PR #660: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/660 — Draft, 2개 파일(감사 보고서 + 미승인 K.Ride 초안 교정), base f54b134, 최신 head 3a7a45a. Compare는 ahead 8 / behind 0이지만 GitHub PR snapshot의 mergeable 필드는 현재 false로 표시됨. 충돌 원인은 응답에서 확인되지 않아 병합하지 않음.
+- PR #660: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/660 — Draft, 2개 파일(감사 보고서 + 미승인 K.Ride 초안 교정), base f54b134. GitHub PR snapshot의 mergeable 필드는 현재 false로 표시됨. Compare는 base 대비 ahead, behind 0이지만 병합 가능 여부가 확정되지 않아 병합하지 않음.
 - PR #660 최신 head의 workflow run 및 combined status는 아직 없음. CI 통과로 표시하지 않음.
 - 관련 PR #659는 Open / Draft, head cf2a924의 Technical SEO audit 1/1 success. 미병합·미배포.
 - PR #660은 미병합이며 이 PR로 인한 Production 배포 없음. 기존 Production 배포 SHA는 이 점검에서 독립적으로 재확인하지 않음.
