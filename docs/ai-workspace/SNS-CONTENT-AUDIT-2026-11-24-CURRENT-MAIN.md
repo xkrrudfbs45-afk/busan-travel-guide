@@ -209,3 +209,8 @@ A follow-up source check found that the 10 July 2026 Busan Tourism Organization 
 Visit Busan's general Taejongdae listing displays a regular seasonal timetable and Monday closure, but does not explicitly confirm that the July suspension ended: https://www.visitbusan.net/index.do?lang_cd=ko&menuCd=DOM_000000201013001000&uc_seq=542
 
 Therefore, do not describe the train as currently operating based only on the generic timetable. Treat the specific BTA suspension notice as the latest explicit status found, state that no restart date was located, and ask readers to verify the same-day notice. The dedicated EN/JA/zh-TW content and archival-image correction is tracked in Draft PR #661.
+
+
+### Additional correction — temporary shuttle schedule is also inconsistent
+
+The 10 July 2026 BTA notice lists the temporary shuttle Tuesday–Sunday, 09:30–17:30. Later secondary reporting cites a 9 September BISCO notice and describes a different operating-day pattern (Wednesday–Sunday). The primary BISCO notice could not be retrieved during this audit, so the current shuttle days and hours must not be presented as confirmed. Direct visitors to the BISCO notice and same-day confirmation (051-405-8745). Draft PR #661 now reflects this uncertainty in EN/JA/zh-TW.
