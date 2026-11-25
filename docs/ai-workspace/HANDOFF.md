@@ -1,3 +1,11 @@
+## 2026-11-26 05:32 KST — next contributor handoff
+
+- Review Draft PR #681: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/681 (branch content/ktx-foreign-card-booking-20261126). It adds foreign-card checkout and ticket-record checks to the existing EN / JA / zh-TW KTX booking pages, plus a dated research note. No new URL or image.
+- Main baseline is 6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5. Source-level sitemap check found 276 unique entries, no escaped-newline text, and one zh-CN Gimhae Airport URL. This does not replace XML-parser or live validation.
+- Technical SEO workflow #2642 was running at the checkpoint; check the final result on the latest PR head. Local build and browser QA at 360 / 390 / 1280, image HTTP/MIME, payment UI, LCP/CLS and live site remain unverified.
+- PR #680 remains Draft / open / unmerged. Issue #663 remains open pending official Gwangbok-ro vehicle-control verification. Issue #657 is closed; the source-level sitemap defect is no longer present on main.
+- Do not merge or deploy without owner approval. No GA4/GSC, analytics, affiliate or SNS changes.
+
 ## 2026-11-25 21:39 KST — next contributor handoff
 
 - Review Draft PR #679: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/679 (branch `content/winter-lights-image-cleanup-20261125`). It removes a redundant second Haeundae archive-photo figure from the existing EN / JA / zh-TW winter-lights hub and adds linked archive / KOGL Type 1 attribution to the retained photo. No new asset or URL.
