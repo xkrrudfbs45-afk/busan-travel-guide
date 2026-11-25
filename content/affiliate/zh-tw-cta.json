@@ -277,6 +277,28 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
       "button": "在 Klook 查看 Visit Busan Pass ↗"
+    },
+    {
+      "path": "zh-tw/guides/travel-mistakes/index.html",
+      "before": "<h2 id=\"sources\"",
+      "id": "cta-mistakes-pass",
+      "kicker": "景點通票・比較",
+      "title": "打算去好幾個付費景點？",
+      "body": "如果會去多個適用設施，Visit Busan Pass 可能派得上用場。划不划算取決於行程，請先列出要去的地方，再確認適用設施、有效期限，以及實體卡與手機版的差異。",
+      "button": "在 Klook 查看 Visit Busan Pass ↗",
+      "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
+      "aff_adid": "1546323"
+    },
+    {
+      "path": "zh-tw/guides/songdo-beach-local-breakfast/index.html",
+      "before": "<h2 id=\"transport\"",
+      "id": "cta-songdo-cablecar",
+      "kicker": "松島・海上纜車",
+      "title": "想搭松島海上纜車嗎？",
+      "body": "松島海上纜車可以從空中看海灘與海岸線。請先比較車廂種類（一般或透明底）、營業時間與取消條款；強風或天候不佳時可能暫停運行，出發前請確認當天公告。",
+      "button": "在 Klook 查看松島海上纜車 ↗",
+      "dest": "https://www.klook.com/zh-TW/activity/29068-busan-air-cruise-cable-car-ticket/",
+      "aff_adid": "1546323"
     }
   ]
 }

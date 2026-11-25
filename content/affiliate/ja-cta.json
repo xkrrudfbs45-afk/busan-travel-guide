@@ -147,6 +147,50 @@
       "aff_adid": "1546323",
       "dest": "https://www.klook.com/ja/airport-transfers/service/pus-gimhae-international-airport/",
       "button": "金海空港の送迎プランを見る ↗"
+    },
+    {
+      "path": "ja/guides/transit-card/index.html",
+      "before": "<h2>出発前チェックリスト",
+      "id": "cta-transit-pass",
+      "kicker": "交通カード・パス比較",
+      "title": "釜山パスと交通カード、どちらが合う？",
+      "body": "Visit Busan Passは主に観光施設のパスです。実物カードは別途チャージして交通カードとして使えますが、モバイル版には交通カード機能がありません。行きたい施設を先に書き出し、対象施設・有効期間・利用条件を確認してから比べてください。",
+      "button": "KlookでVisit Busan Passを見る ↗",
+      "dest": "https://www.klook.com/ja/activity/81576-visit-busan-pass/",
+      "aff_adid": "1546323"
+    },
+    {
+      "path": "ja/guides/haeundae-blueline-park-sold-out/index.html",
+      "before": "<h2 id=\"faq-title\"",
+      "id": "cta-blueline-ticket",
+      "kicker": "ブルーラインパーク・チケット",
+      "title": "日付と時間帯は決まりましたか？",
+      "body": "スカイカプセルは1便あたりの座席が限られ、人気の時間帯は早く埋まることがあります。ビーチトレインは別サービスで、チケットも別売りです。出発日ごとに券種・時間帯・料金・キャンセル条件を比べてから予約してください。",
+      "button": "Klookでブルーラインパークのチケットを見る ↗",
+      "dest": "https://www.klook.com/ja/activity/133293-haeundae-blueline-park-ticket-in-busan/",
+      "aff_adid": "1546323"
+    },
+    {
+      "path": "ja/guides/rainy-day/index.html",
+      "before": "<h2 id=\"area-based-options\"",
+      "id": "cta-rainy-spaland",
+      "kicker": "雨の日・屋内スポット",
+      "title": "雨の日にスパランドへ行くなら",
+      "body": "新世界百貨店センタムシティ店のスパランドは、雨の日の定番の屋内スポットです。購入前に券種、利用時間、休館日、キャンセル条件を確認してください。現地のルールは施設の案内が優先されます。",
+      "button": "Klookでスパランドのチケットを見る ↗",
+      "dest": "https://www.klook.com/ja/activity/33180-spa-land-centum-city-ticket-busan/",
+      "aff_adid": "1546323"
+    },
+    {
+      "path": "ja/guides/travel-mistakes/index.html",
+      "before": "<h2 id=\"sources\"",
+      "id": "cta-mistakes-pass",
+      "kicker": "観光パス・比較",
+      "title": "有料スポットを何か所か回る予定なら",
+      "body": "Visit Busan Passは、対象施設を複数回るときに役立つことがあります。得になるかは旅程次第なので、行き先を書き出してから対象施設、有効期間、実物カードとモバイル版の違いを確認してください。",
+      "button": "KlookでVisit Busan Passを見る ↗",
+      "dest": "https://www.klook.com/ja/activity/81576-visit-busan-pass/",
+      "aff_adid": "1546323"
     }
   ]
 }
