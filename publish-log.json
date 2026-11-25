@@ -415,6 +415,26 @@
       "permalink": "https://www.instagram.com/p/DgIifmpIKXw/",
       "published_at": "2026-11-24T17:54:14.737Z",
       "last_error": null
+    },
+    "ig-fresh15-1125-jp": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-25T04:17:16.933Z",
+      "creation_id": "18159916942516320",
+      "media_id": "18236325139325421",
+      "permalink": "https://www.instagram.com/p/DgJpx_UlD1j/",
+      "published_at": "2026-11-25T04:17:16.933Z",
+      "last_error": null
+    },
+    "ig-fresh15-1125-tw": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-25T04:17:16.933Z",
+      "creation_id": "18117075295946342",
+      "media_id": "17887784988691270",
+      "permalink": "https://www.instagram.com/p/DgJp1AulMMT/",
+      "published_at": "2026-11-25T04:17:16.933Z",
+      "last_error": null
     }
   }
 }
