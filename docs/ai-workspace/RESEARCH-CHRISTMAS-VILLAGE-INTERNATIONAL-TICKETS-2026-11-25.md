@@ -72,7 +72,6 @@ The existing pages linked only to domestic YES24 tickets, then told internationa
 - The 2024 Yeongdo venue warning was added to all three languages.
 - Visible article-meta update dates and source verification dates updated to 2026-11-25 in all three languages.
 - Technical SEO audit run #45520006792 passed on the PR head `15538b08b52d9c75e727334f05e3785a8349139c`; localized checklist, deterministic map generation, public-site build and dependency-free audit all succeeded. This research-note update changes the branch head, so the exact final head must be rechecked by GitHub Actions.
-- Technical SEO audit #45520006792 passed on head `15538b08b52d9c75e727334f05e3785a8349139c`; localized checklist, deterministic map generation, public-site build and dependency-free audit all succeeded.
-- After that run, the three localized HTML pages were updated to add Busan City's official Centum City Station exit 6/12 guidance and its source link. The final content head `8d4b9edcc17bb2dcfc36efcd6adfc7cfc7e7fb78` has not been rerun by GitHub Actions; later research-note-only commits also have no new run.
+- Technical SEO audit #45520299750 passed on final PR head `193c6258246d5fe1e85ed0f495fe8db20dc679a2`; localized checklist, deterministic map generation, public-site build and dependency-free audit all succeeded. This run includes the international booking links, venue-change warning, 2026-11-25 update dates, Busan City's official Centum City Station Exit 6/12 directions, and the research record.
 - Actual mobile browser QA at 360 / 390 / 1,280 px, live checkout testing, image HTTP/MIME, LCP and CLS remain pending.
 - No merge, main change, Render deployment, GA4/GSC query, affiliate tracking change or SNS publication/scheduling change.
