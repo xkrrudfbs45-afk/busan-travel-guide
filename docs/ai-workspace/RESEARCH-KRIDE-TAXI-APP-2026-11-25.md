@@ -32,7 +32,8 @@ The existing taxi safety page already answers metered fare, surcharge, warning s
 - No image bytes, alt text, crop, OG image, image credit or file path changed.
 - No new URL, canonical, hreflang, sitemap, JSON-LD or social metadata change.
 - Source-level insertion was checked to occur once before the receipt section in each of the three files.
-- Build, CI, live image HTTP/MIME, rendered crop, mobile/browser QA (360 / 390 / 1280 px), LCP/CLS and custom-domain browser verification remain pending. Do not claim these passed.
+- Exact-head Technical SEO CI run #45578774735 passed on code head `d19a8e4a46005bb7abc005c8b7a6b877ff22f95f` (build-static and full dependency-free audit). The documentation-only status update below will require a new exact-head run.
+- Live image HTTP/MIME, rendered crop, mobile/browser QA (360 / 390 / 1280 px), LCP/CLS and custom-domain browser verification remain pending. Do not claim these passed.
 
 ## Release boundary
 Draft PR only. No merge, Render deployment, SNS post/schedule change, affiliate/analytics change or production configuration change.
