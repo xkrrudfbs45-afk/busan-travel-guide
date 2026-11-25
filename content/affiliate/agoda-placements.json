@@ -326,6 +326,60 @@
       "title": "想住在本週活動附近？",
       "body": "此連結會開啟釜山市區住宿搜尋，並非只顯示單一區域。請先設定想住的區域（海雲台、廣安里或西面），再比較到地鐵站的步行距離、含稅總價與取消規定。",
       "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/busan-winter-lights-christmas-2026/index.html",
+      "before": "<h2 id=\"practical\">",
+      "id": "agoda-stay-winter-lights",
+      "locale": "en",
+      "title": "Staying near the lights?",
+      "body": "Haeundae stays lit until 23:00, so a hotel near Haeundae or Gwangalli means a short walk back instead of watching the last-train clock. This link opens a general Busan hotel search: set your area first, then compare walking time to the metro, the total price with tax and the cancellation terms.",
+      "button": "Search Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/busan-winter-lights-christmas-2026/index.html",
+      "before": "<h2 id=\"practical\">",
+      "id": "agoda-stay-winter-lights",
+      "locale": "ja",
+      "title": "光イベントの近くに泊まるなら",
+      "body": "海雲台の点灯は23:00まで。海雲台や広安里の近くに泊まれば、終電を気にせず歩いて帰れます。このリンクは釜山全体のホテル検索が開きます。先にエリアを設定し、駅までの徒歩時間、税込総額、キャンセル条件を比べてください。",
+      "button": "Agodaで釜山のホテルを探す"
+    },
+    {
+      "path": "zh-tw/guides/busan-winter-lights-christmas-2026/index.html",
+      "before": "<h2 id=\"practical\">",
+      "id": "agoda-stay-winter-lights",
+      "locale": "zh-tw",
+      "title": "想住在燈光活動附近？",
+      "body": "海雲台燈光亮到 23:00，住在海雲台或廣安里一帶，看完走回飯店就好，不必趕末班地鐵。此連結會開啟釜山市區住宿搜尋，請先設定想住的區域，再比較到地鐵站的步行距離、含稅總價與取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/christmas-village-busan-2026/index.html",
+      "before": "<h2 id=\"planning\">",
+      "id": "agoda-stay-christmas-village",
+      "locale": "en",
+      "title": "Making a night of it in Centum City?",
+      "body": "Busan Cinema Center is in Centum City, close to Haeundae. If you plan an evening slot and then the Haeundae lights, staying in Centum City or Haeundae keeps the trip home short. This link opens a general Busan hotel search, so set your area and compare total price and cancellation terms.",
+      "button": "Search Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/christmas-village-busan-2026/index.html",
+      "before": "<h2 id=\"planning\">",
+      "id": "agoda-stay-christmas-village",
+      "locale": "ja",
+      "title": "センタムシティ周辺に泊まるなら",
+      "body": "映画の殿堂はセンタムシティにあり、海雲台からも近い場所です。夜の入場枠のあとに海雲台の光イベントも回るなら、センタムシティか海雲台に泊まると帰りが楽です。このリンクは釜山全体のホテル検索なので、エリアを設定してから税込総額とキャンセル条件を比べてください。",
+      "button": "Agodaで釜山のホテルを探す"
+    },
+    {
+      "path": "zh-tw/guides/christmas-village-busan-2026/index.html",
+      "before": "<h2 id=\"planning\">",
+      "id": "agoda-stay-christmas-village",
+      "locale": "zh-tw",
+      "title": "想住在 Centum City 附近？",
+      "body": "電影殿堂位於 Centum City，離海雲台不遠。如果晚上逛完聖誕村還想去看海雲台燈光，住在 Centum City 或海雲台一帶回程最輕鬆。此連結會開啟釜山市區住宿搜尋，請先設定區域，再比較含稅總價與取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
     }
   ]
 }
