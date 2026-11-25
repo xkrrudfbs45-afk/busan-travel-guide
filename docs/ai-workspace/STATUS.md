@@ -1,3 +1,12 @@
+## 2026-11-25 21:39 KST — winter-lights image cleanup Draft PR #679
+
+- Verified current main baseline: `402b6b058ddbb2c3d603551a0cf6b628d8697e0b`, merged PR #678. Recent main changes include #676 / #677 CTA parity and #678 localized k.ride safety guidance; those are merged, not this draft.
+- Draft PR #679, branch `content/winter-lights-image-cleanup-20261125`, removes the redundant second copy of the 2020 Haeundae archive photo from the existing EN / JA / zh-TW winter-lights hub pages. The retained image remains in the opening photo pair, with direct source and KOGL Type 1 links in the caption. No image asset, URL, affiliate CTA, analytics, SNS, sitemap, canonical or hreflang change.
+- Research note: `docs/ai-workspace/RESEARCH-WINTER-LIGHTS-IMAGE-CLEANUP-2026-11-25.md`. Taiwan Dcard, PTT, Japan 4travel/Yahoo, Reddit and Korean public-source searches were reviewed; only small qualitative signals were found. No new page or demand claim.
+- Gwangbok-ro vehicle-control notice #30307 remains unverified against the official original/attachment (the official page returns 400 in this environment; only a public republication is readable). No traffic-control wording was added; issue #663 remains open.
+- GitHub Technical SEO workflow #2636 passed on initial PR head `c3f76567dcdd1995b125c92526e46532a49190c9`; its public build, dependency-free audit, localized checklist and deterministic map checks succeeded. The latest head now differs from that tested head only in the research note, STATUS and HANDOFF documentation; no new run was associated with those docs-only updates. Browser QA and a full live-image audit remain pending. Local build was not run; 360 / 390 / 1280 browser QA, image HTTP/MIME and crop checks remain pending. The custom domain cannot be fetched by this runtime and Render workspace selection is not available without owner confirmation.
+- No GA4 / GSC query, affiliate change, SNS publication/schedule change, merge or production deployment.
+
 ## 2026-11-25 05:36 KST — KTX integration cleanup
 
 - Verified GitHub main SHA: 5eeb3c94f335274ef401e67d0b967bf8f4eecf74. Render static service busan-travel-guide is on branch main, auto-deploy disabled; latest deploy dep-dc2oppt9fdbs738aj4jg is live on the same SHA. The Render-hosted EN / JA / zh-TW KTX pages were readable; the custom-domain /version.txt endpoint was not verified in this pass.
