@@ -3282,5 +3282,45 @@
       "指定乗車時間",
       "釜山旅行"
     ]
+  },
+  {
+    "title": "Busan Taxi Tips: How to Avoid Overcharging",
+    "url": "/guides/busan-taxi-overcharge-guide/",
+    "summary": "Check Busan's standard taxi fare, late-night surcharge bands and meter rules. Learn what to keep on a receipt and how to report a taxi problem through Korea's 1330 Tourist Complaint Center.",
+    "tags": [
+      "Busan taxi fare",
+      "Busan taxi surcharge",
+      "Busan taxi meter",
+      "Busan taxi overcharging",
+      "Busan taxi receipt",
+      "1330 tourist complaint",
+      "Korea taxi tips"
+    ]
+  },
+  {
+    "title": "釜山のタクシー料金トラブルを防ぐには",
+    "url": "/ja/guides/busan-taxi-overcharge-guide/",
+    "summary": "釜山の一般タクシー料金と深夜割増、メーターの確認方法を解説。領収書や車両情報の残し方、料金トラブル時に相談できる1330観光苦情窓口も紹介します。",
+    "tags": [
+      "釜山 タクシー 料金",
+      "釜山 タクシー 深夜割増",
+      "釜山 タクシー メーター",
+      "釜山 タクシー ぼったくり",
+      "釜山 タクシー 領収書",
+      "韓国 1330 観光苦情"
+    ]
+  },
+  {
+    "title": "釜山搭計程車，如何避免被多收車資？",
+    "url": "/zh-tw/guides/busan-taxi-overcharge-guide/",
+    "summary": "整理釜山一般計程車費率、深夜加成與跳表確認方式，並說明收據和車輛資訊如何保存，以及遇到收費爭議時如何透過 1330 旅遊申訴中心反映。",
+    "tags": [
+      "釜山計程車",
+      "釜山計程車費率",
+      "釜山計程車深夜加成",
+      "釜山計程車跳表",
+      "釜山計程車多收車資",
+      "韓國旅遊申訴 1330"
+    ]
   }
 ]
