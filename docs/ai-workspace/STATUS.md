@@ -1,3 +1,11 @@
+## 2026-11-26 05:32 KST — KTX foreign-card checkout Draft PR #681
+
+- Verified current main SHA: 6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5. PRs #669 (KTX integration cleanup), #674 (transit/taxi/winter refresh), #678 (K.Ride guidance) and #679 (winter-lights image cleanup) are merged. PR #680 remains open / Draft / unmerged.
+- Main sitemap source read-only check: 276 <loc> entries, 276 unique URLs, 276 <url> open/close pairs, no literal escaped-newline text; the zh-CN Gimhae Airport guide is represented once. This is source-level inspection, not XML parser validation or a live sitemap check.
+- Draft PR #681: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/681 (branch content/ktx-foreign-card-booking-20261126). It deepens the three existing KTX pages with foreign-card checkout and ticket-record checks. Research: docs/ai-workspace/RESEARCH-KTX-FOREIGN-CARD-BOOKING-2026-11-26.md. No new URL, image, affiliate, analytics, SNS or production setting.
+- Technical SEO workflow #2642 was observed running on the PR head at the checkpoint; exact final result must be checked after the latest commit. Local build / Node audits were not run; browser QA at 360 / 390 / 1280, live payment UI, live site, image HTTP/MIME, LCP and CLS remain unverified. Custom-domain access is unavailable in this runtime; Render workspace selection is not available without owner confirmation.
+- No GA4 / GSC query, merge or production deployment.
+
 ## 2026-11-25 21:39 KST — winter-lights image cleanup Draft PR #679
 
 - Verified current main baseline: `402b6b058ddbb2c3d603551a0cf6b628d8697e0b`, merged PR #678. Recent main changes include #676 / #677 CTA parity and #678 localized k.ride safety guidance; those are merged, not this draft.
