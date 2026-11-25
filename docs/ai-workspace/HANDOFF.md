@@ -2,7 +2,7 @@
 
 - Review Draft PR #679: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/679 (branch `content/winter-lights-image-cleanup-20261125`). It removes a redundant second Haeundae archive-photo figure from the existing EN / JA / zh-TW winter-lights hub and adds linked archive / KOGL Type 1 attribution to the retained photo. No new asset or URL.
 - Research is recorded in `docs/ai-workspace/RESEARCH-WINTER-LIGHTS-IMAGE-CLEANUP-2026-11-25.md`; no community signal was treated as representative. Issue #663 remains open because the original Jung-gu vehicle-control notice and attachment could not be verified; no copy was changed for that notice.
-- GitHub Technical SEO workflow #2636 passed on initial PR head `c3f76567dcdd1995b125c92526e46532a49190c9` (public build, dependency-free audit, localized checklist and deterministic map checks). This is not browser QA or a full live-image audit. Local build was not run; 360 / 390 / 1280 browser QA, image HTTP/MIME and crop checks remain pending. The docs-only follow-up head still needs its exact-head rerun.
+- GitHub Technical SEO workflow #2636 passed on initial PR head `c3f76567dcdd1995b125c92526e46532a49190c9` (public build, dependency-free audit, localized checklist and deterministic map checks). The latest head now differs only in the research note, STATUS and HANDOFF documentation; no new run was associated with those docs-only updates. This is not browser QA or a full live-image audit. Local build was not run; 360 / 390 / 1280 browser QA, image HTTP/MIME and crop checks remain pending.
 - Main baseline is `402b6b058ddbb2c3d603551a0cf6b628d8697e0b`. Do not merge or deploy without owner approval. No analytics or SNS changes.
 
 ## 2026-11-25 05:36 KST — next contributor handoff
