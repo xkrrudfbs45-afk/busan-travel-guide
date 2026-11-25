@@ -75,6 +75,18 @@
       "dest": "https://www.klook.com/en-US/activity/3298-east-coast-cultural-day-tour-busan/",
       "button": "See the Busan highlights day tour on Klook ↗",
       "product": "tour"
+    },
+    {
+      "path": "guides/busan-taxi-overcharge-guide/index.html",
+      "before": "<h2>Official sources",
+      "id": "cta-taxi-airport-transfer",
+      "product": "pickup",
+      "kicker": "AIRPORT · PRE-BOOKED TRANSFER",
+      "title": "Arriving late or with heavy bags?",
+      "body": "A pre-booked airport transfer fixes the price before you land, so there is no meter or late-night surcharge to watch. Compare the vehicle size, luggage allowance, pickup point and final quote; availability depends on your arrival time.",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/en-US/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "Check Gimhae airport transfer options ↗"
     }
   ]
 }

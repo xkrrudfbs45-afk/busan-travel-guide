@@ -135,6 +135,18 @@
       "dest": "https://www.klook.com/ja/activity/3298-east-coast-cultural-day-tour-busan/",
       "button": "Klookで釜山ハイライト日帰りツアーを見る ↗",
       "product": "tour"
+    },
+    {
+      "path": "ja/guides/busan-taxi-overcharge-guide/index.html",
+      "before": "<h2>公式情報",
+      "id": "cta-taxi-airport-transfer",
+      "product": "pickup",
+      "kicker": "空港・事前予約送迎",
+      "title": "夜遅い到着や大きな荷物があるなら",
+      "body": "空港送迎を事前に予約すれば料金が先に決まるので、メーターや深夜割増を気にせずに済みます。車のサイズ、荷物の量、待ち合わせ場所、最終料金を比べてください。到着時刻によっては予約できない場合があります。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/ja/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "金海空港の送迎プランを見る ↗"
     }
   ]
 }
