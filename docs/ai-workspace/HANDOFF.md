@@ -2,7 +2,7 @@
 
 - Review Draft PR #681: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/681 (branch content/ktx-foreign-card-booking-20261126). It adds foreign-card checkout and ticket-record checks to the existing EN / JA / zh-TW KTX booking pages, plus a dated research note. No new URL or image.
 - Main baseline is 6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5. Source-level sitemap check found 276 unique entries, no escaped-newline text, and one zh-CN Gimhae Airport URL. This does not replace XML-parser or live validation.
-- Technical SEO workflow #2642 was running at the checkpoint; check the final result on the latest PR head. Local build and browser QA at 360 / 390 / 1280, image HTTP/MIME, payment UI, LCP/CLS and live site remain unverified.
+- Technical SEO workflow #2642 passed on head efcb8a90cec0e1b61bd423ee033fcb7497123a98 (run https://github.com/xkrrudfbs45-afk/busan-travel-guide/actions/runs/45696843242). Local build and browser QA at 360 / 390 / 1280, image HTTP/MIME, payment UI, LCP/CLS and live site remain unverified.
 - PR #680 remains Draft / open / unmerged. Issue #663 remains open pending official Gwangbok-ro vehicle-control verification. Issue #657 is closed; the source-level sitemap defect is no longer present on main.
 - Do not merge or deploy without owner approval. No GA4/GSC, analytics, affiliate or SNS changes.
 
