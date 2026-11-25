@@ -22,6 +22,7 @@ The existing pages linked only to domestic YES24 tickets, then told internationa
 - Klook English: https://www.klook.com/en-US/activity/249277-christmas-village-busan-2026-admission-ticket/
 - Klook Traditional Chinese: https://www.klook.com/zh-TW/activity/249277-christmas-village-busan-2026-admission-ticket/
 - Trip.com link listed by organizer: https://www.trip.com/travel-guide/trip-events/158559016 (the product page returned no readable detail in this check; no platform-specific claims are made).
+- Busan City official directions: Metro Line 2, Centum City Station Exit 12 or 6, about a 5-minute walk: https://www.busan.go.kr/eng/bsfacility01/795651
 
 ### Current terms displayed by the checked platforms
 
