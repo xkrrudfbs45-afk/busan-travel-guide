@@ -23,6 +23,7 @@ The existing pages linked only to domestic YES24 tickets, then told internationa
 - Klook Traditional Chinese: https://www.klook.com/zh-TW/activity/249277-christmas-village-busan-2026-admission-ticket/
 - Trip.com link listed by organizer: https://www.trip.com/travel-guide/trip-events/158559016 (the product page returned no readable detail in this check; no platform-specific claims are made).
 - Busan City official directions: Metro Line 2, Centum City Station Exit 12 or 6, about a 5-minute walk: https://www.busan.go.kr/eng/bsfacility01/795651
+- Yonhap News, 2026-11-25 08:11 KST, confirms the event opens 2026-11-26 at Busan Cinema Center, is paid this year and uses YES24 for ticket sales. The report does not mention the separate international booking links listed by the organizer: https://www.yna.co.kr/amp/view/AKR20261125022000051
 
 ### Current terms displayed by the checked platforms
 
@@ -36,7 +37,7 @@ The existing pages linked only to domestic YES24 tickets, then told internationa
 - English Reddit, 2026-10-19: one traveller asked whether to visit Busan for one December weekend or four days in February. A reply pointed out that Christmas Village is a December-only reason and recommended keeping a one-night trip on Busan's east side. This is one low-engagement discussion, used as qualitative context only: https://www.reddit.com/r/koreatravel/comments/1xa8w28/busan_1_weekend_in_december_or_4_days_in_february/
 - English Reddit, 2026-11-14: a traveller planning 2026-12-10 to 2026-12-24 asked for Korea itinerary ideas; a reply suggested combining the Christmas Village with nearby Centum City / Haeundae activities. This is a single thread, not a demand estimate: https://www.reddit.com/r/KoreaTravelAdvice/comments/1xwgq3j/traveling_to_south_korea_12101224_looking_for/
 - Japan 4travel, 2024-12-18 to 2024-12-19: a first-hand travelogue describes a previous Christmas Village visit at Space Wonji in Yeongdo and taxi directions via Homeplus. This is not the 2026 venue; it is used only to flag that old directions can mislead: https://4travel.jp/travelogue/11948823
-- Targeted public searches on Dcard, PTT, Yahoo!知恵袋 and TheQoo did not surface a directly relevant, current 2026 international-ticket question in this pass. No market-wide demand claim is made.
+- Targeted public searches on Dcard, PTT, Yahoo!知恵袋, TheQoo, DCInside, Clien, Ppomppu, Instagram and YouTube did not surface a directly relevant, current 2026 international-ticket question in this pass. TheQoo results were unrelated cinema-program posts. Naver Blog search was blocked by robots.txt; no access control was bypassed. No market-wide demand claim is made.
 
 ## Competitor structure
 
@@ -71,5 +72,7 @@ The existing pages linked only to domestic YES24 tickets, then told internationa
 - The 2024 Yeongdo venue warning was added to all three languages.
 - Visible article-meta update dates and source verification dates updated to 2026-11-25 in all three languages.
 - Technical SEO audit run #45520006792 passed on the PR head `15538b08b52d9c75e727334f05e3785a8349139c`; localized checklist, deterministic map generation, public-site build and dependency-free audit all succeeded. This research-note update changes the branch head, so the exact final head must be rechecked by GitHub Actions.
+- Technical SEO audit #45520006792 passed on head `15538b08b52d9c75e727334f05e3785a8349139c`; localized checklist, deterministic map generation, public-site build and dependency-free audit all succeeded.
+- After that run, the three localized HTML pages were updated to add Busan City's official Centum City Station exit 6/12 guidance and its source link. The final content head `8d4b9edcc17bb2dcfc36efcd6adfc7cfc7e7fb78` has not been rerun by GitHub Actions; later research-note-only commits also have no new run.
 - Actual mobile browser QA at 360 / 390 / 1,280 px, live checkout testing, image HTTP/MIME, LCP and CLS remain pending.
 - No merge, main change, Render deployment, GA4/GSC query, affiliate tracking change or SNS publication/scheduling change.
