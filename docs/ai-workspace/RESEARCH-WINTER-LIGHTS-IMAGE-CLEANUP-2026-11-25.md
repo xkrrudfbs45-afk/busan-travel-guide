@@ -22,7 +22,7 @@
 ## Competitor benchmark
 
 - [Busan.net's winter-lights guide](https://busan.net/en/guide/busan-winter-lights/) (updated 2026-11-24 in its page metadata) uses a concise event comparison, station references, route pairing and FAQ.
-- [Hantabi's Jagalchi / winter-event guide](https://hantabi.org/en/korea/articles/busan-jagalchi-market) and other winter-event pages illustrate the same FAQ and date-comparison format. Some secondary listings disagree on Gwangbok-ro details; use primary sources and keep procurement schedules separate from visitor-programme confirmation.
+- [Hantabi's Busan Christmas Tree Festival guide](https://hantabi.org/en/korea/articles/busan-christmas-tree-festival) (published 2026-11-14) and other winter-event pages illustrate the same FAQ and date-comparison format. Some secondary listings disagree on Gwangbok-ro details; use primary sources and keep procurement schedules separate from visitor-programme confirmation.
 - Go2Busan already has the EN / JA / zh-TW winter-event hub with event dates, confirmed schedules, booking windows and area-planning context. No new URL or competing page is justified.
 
 ## Gwangbok-ro vehicle-control issue #663
