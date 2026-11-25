@@ -69,5 +69,6 @@ The existing pages linked only to domestic YES24 tickets, then told internationa
 - Each language now links to the official organizer page and its available localized KKday/Klook pages; Trip.com is linked because the organizer lists it, but its product details were not independently readable in this check.
 - The 2024 Yeongdo venue warning was added to all three languages.
 - Visible article-meta update dates and source verification dates updated to 2026-11-25 in all three languages.
-- GitHub Actions, public-site build, actual mobile browser QA at 360 / 390 / 1,280 px, live checkout testing, image HTTP/MIME, LCP and CLS remain pending.
+- Technical SEO audit run #45520006792 passed on the PR head `15538b08b52d9c75e727334f05e3785a8349139c`; localized checklist, deterministic map generation, public-site build and dependency-free audit all succeeded. This research-note update changes the branch head, so the exact final head must be rechecked by GitHub Actions.
+- Actual mobile browser QA at 360 / 390 / 1,280 px, live checkout testing, image HTTP/MIME, LCP and CLS remain pending.
 - No merge, main change, Render deployment, GA4/GSC query, affiliate tracking change or SNS publication/scheduling change.
