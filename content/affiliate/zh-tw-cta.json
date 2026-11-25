@@ -254,6 +254,29 @@
       "dest": "https://www.klook.com/zh-TW/activity/3298-east-coast-cultural-day-tour-busan/",
       "button": "在 Klook 查看釜山精華一日遊 ↗",
       "product": "tour"
+    },
+    {
+      "path": "zh-tw/guides/busan-taxi-overcharge-guide/index.html",
+      "before": "<h2>官方資訊",
+      "id": "cta-taxi-airport-transfer",
+      "product": "pickup",
+      "kicker": "機場・預約接送",
+      "title": "深夜抵達或行李很多？",
+      "body": "事先預約機場接送，費用在出發前就確定，不必擔心跳表或深夜加成。請比較車型、行李容量、集合地點與最終報價；能否預約依抵達時間而定。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/airport-transfers/service/pus-gimhae-international-airport/",
+      "button": "查看金海機場接送方案 ↗"
+    },
+    {
+      "path": "zh-tw/guides/visit-busan-pass-guide/index.html",
+      "before": "<h2 id=\"official\">",
+      "id": "cta-vbp-guide-pass",
+      "kicker": "票券・比較價格",
+      "title": "排好景點後，也比較 Klook 的售價",
+      "body": "Visit Busan Pass 也可以在 Klook 購買。先用上面的試算確認自己會用到的景點，再比較 Klook 頁面上的方案、台幣價格、取得方式與取消規定；內容與官方網站可能不同，付款前請以頁面顯示為準。",
+      "aff_adid": "1546323",
+      "dest": "https://www.klook.com/zh-TW/activity/81576-visit-busan-pass/",
+      "button": "在 Klook 查看 Visit Busan Pass ↗"
     }
   ]
 }

@@ -380,6 +380,60 @@
       "title": "想住在 Centum City 附近？",
       "body": "電影殿堂位於 Centum City，離海雲台不遠。如果晚上逛完聖誕村還想去看海雲台燈光，住在 Centum City 或海雲台一帶回程最輕鬆。此連結會開啟釜山市區住宿搜尋，請先設定區域，再比較含稅總價與取消規定。",
       "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/busan-winter-travel-guide/index.html",
+      "before": "<h2 id=\"sample-plan\">",
+      "id": "agoda-stay-winter-travel",
+      "locale": "en",
+      "title": "Choosing a base for a winter trip?",
+      "body": "In winter, a short walk back to the hotel matters more than usual. Pick an area near the metro and the places you will visit in the evening, such as Haeundae for the light festival or Seomyeon for easy transfers. This link opens a general Busan hotel search; set your area and compare total price and cancellation terms.",
+      "button": "Search Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/busan-winter-travel-guide/index.html",
+      "before": "<h2 id=\"three-days\">",
+      "id": "agoda-stay-winter-travel",
+      "locale": "ja",
+      "title": "冬の旅は宿の場所選びが大切",
+      "body": "寒い季節は、夜にホテルまで歩いて帰れるかどうかが快適さを左右します。光祭りなら海雲台、移動のしやすさなら西面など、駅と夜の予定に近いエリアを選びましょう。このリンクは釜山全体のホテル検索です。エリアを設定し、税込総額とキャンセル条件を比べてください。",
+      "button": "Agodaで釜山のホテルを探す"
+    },
+    {
+      "path": "zh-tw/guides/busan-winter-travel-guide/index.html",
+      "before": "<h2 id=\"three-days\">",
+      "id": "agoda-stay-winter-travel",
+      "locale": "zh-tw",
+      "title": "冬天旅行，住宿地點更重要",
+      "body": "天冷時，晚上能不能走回飯店差很多。想看燈光節可以住海雲台，重視轉乘方便可以住西面，選離地鐵站和晚上行程近的區域。此連結會開啟釜山市區住宿搜尋，請先設定區域，再比較含稅總價與取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/busan-new-year-countdown-2027/index.html",
+      "before": "<h2 id=\"getting-home\">",
+      "id": "agoda-stay-new-year",
+      "locale": "en",
+      "title": "Booking a room for New Year’s Eve?",
+      "body": "Rooms near the countdown venue tend to go first, and a short walk back avoids crowded late-night transport. This link opens a general Busan hotel search: set the area you chose above, then compare walking time, total price with tax and cancellation terms before you pay.",
+      "button": "Search Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/busan-new-year-countdown-2027/index.html",
+      "before": "<h2 id=\"getting-home\">",
+      "id": "agoda-stay-new-year",
+      "locale": "ja",
+      "title": "年越しの宿を探すなら",
+      "body": "会場の近くは早めに埋まりやすく、歩いて帰れる距離なら混雑した深夜の交通を避けられます。このリンクは釜山全体のホテル検索です。上で選んだエリアを設定し、徒歩時間、税込総額、キャンセル条件を比べてから予約してください。",
+      "button": "Agodaで釜山のホテルを探す"
+    },
+    {
+      "path": "zh-tw/guides/busan-new-year-countdown-2027/index.html",
+      "before": "<h2 id=\"getting-home\">",
+      "id": "agoda-stay-new-year",
+      "locale": "zh-tw",
+      "title": "要訂跨年夜的住宿嗎？",
+      "body": "會場附近的房間通常較早訂滿，住在步行可到的地方也能避開深夜擁擠的交通。此連結會開啟釜山市區住宿搜尋，請設定上面選好的區域，再比較步行時間、含稅總價與取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
     }
   ]
 }
