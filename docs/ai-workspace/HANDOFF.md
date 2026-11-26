@@ -1,3 +1,7 @@
+## 2026-11-26 20:30 KST — next contributor
+
+- Cherry blossom guide PR (EN/JA/zh-TW) opened by Claude. When the 2027 KMA bloom forecast or Busan district festival notices appear (usually Feb–Mar), update the "When" and "Festival dates" sections and the FAQ in all three languages together.
+
 ## 2026-11-26 13:35 KST — next contributor
 
 - Review Draft PR #686: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/686, branch `content/ja-winter-lights-copy-qa-20261126`. It corrects one repeated Japanese Seomyeon lighting-hours caveat in the existing winter-lights hub and adds a dated research note. Issue #601.
