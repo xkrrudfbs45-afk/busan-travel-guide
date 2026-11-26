@@ -100,7 +100,7 @@ test("v2 series posts are drafts, valid, share backgrounds per topic and have re
   }
   const gwangbok = v2.filter((p) => p.verification.register === "ig-fresh15-16");
   assert.equal(gwangbok.length, 3);
-  assert.ok(gwangbok.every((p) => p.status === "draft" && p.verification.status === "needs_check"));
+  assert.ok(gwangbok.every((p) => p.status === "draft" && p.verification.status === "verified"));
   assert.ok(gwangbok.every((p) => p.publish_at_utc.startsWith("2026-11-28T")));
   const bySet = {};
   for (const p of v2) (bySet[p.art.set] ??= []).push(p);
