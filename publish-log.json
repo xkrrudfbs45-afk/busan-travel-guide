@@ -1695,6 +1695,23 @@
       "reply_container_created_at": "2026-11-25T23:00:46.040Z",
       "reply_id": "17912998788657565",
       "reply_error": null
+    },
+    "d22-tw-1": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-26T00:00:45.960Z",
+      "creation_id": "18079352990504979",
+      "container_created_at": "2026-11-26T00:00:45.960Z",
+      "thread_id": "17948740209367560",
+      "permalink": "https://www.threads.com/@go2busan.tw/post/DgLxMKOjvWt",
+      "published_at": "2026-11-26T00:00:45.960Z",
+      "last_error": null,
+      "reply_attempts": 1,
+      "reply_status": "done",
+      "reply_creation_id": "18079353407504979",
+      "reply_container_created_at": "2026-11-26T00:00:45.960Z",
+      "reply_id": "18016664951760622",
+      "reply_error": null
     }
   }
 }
