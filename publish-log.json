@@ -1712,6 +1712,23 @@
       "reply_container_created_at": "2026-11-26T00:00:45.960Z",
       "reply_id": "18016664951760622",
       "reply_error": null
+    },
+    "d23-jp-2": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-26T11:00:44.452Z",
+      "creation_id": "18015567872796884",
+      "container_created_at": "2026-11-26T11:00:44.452Z",
+      "thread_id": "17920414947470211",
+      "permalink": "https://www.threads.com/@go2busan.jp/post/DgM8t6LlhE7",
+      "published_at": "2026-11-26T11:00:44.452Z",
+      "last_error": null,
+      "reply_attempts": 1,
+      "reply_status": "done",
+      "reply_creation_id": "18015567995796884",
+      "reply_container_created_at": "2026-11-26T11:00:44.452Z",
+      "reply_id": "18137537809781415",
+      "reply_error": null
     }
   }
 }
