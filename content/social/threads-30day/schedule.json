@@ -2918,14 +2918,12 @@
       "publish_at_utc": "2026-11-26T11:00:00.000Z",
       "text": "釜山のクリスマスビレッジが11月26日から始まりました（〜12月25日、映画の殿堂）。有料・時間指定制で、開催は期間中の一部の日だけ。行く前に公式チケットページで日程を確認するのがおすすめです。",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "issues": [],
-        "flags": [
-          "dated facts: event dates/hours"
-        ],
-        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
-        "verified_at": "2026-11-23T14:30:00.000Z",
-        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (official Busan City sources, 2026-11-26)",
+        "verified_at": "2026-11-26T00:15:00.000Z",
+        "note": "Confirmed against Busan City official Christmas Village Busan 2026 calendar (https://www.busan.go.kr/eng/bsevents/1762667) and its official ticket link. Dates 2026-11-26 to 2026-12-25, paid/timed entry and selected operating dates are correct."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
@@ -2993,14 +2991,12 @@
       "publish_at_utc": "2026-11-26T23:00:00.000Z",
       "text": "Christmas Village Busan is now open at Busan Cinema Center through December 25. It's paid, timed entry and only runs on selected days, so check the official ticket page for dates before you go.",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "issues": [],
-        "flags": [
-          "dated facts: event dates/hours"
-        ],
-        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
-        "verified_at": "2026-11-23T14:30:00.000Z",
-        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (official Busan City sources, 2026-11-26)",
+        "verified_at": "2026-11-26T00:15:00.000Z",
+        "note": "Confirmed against Busan City official Christmas Village Busan 2026 calendar (https://www.busan.go.kr/eng/bsevents/1762667) and its official ticket link. Dates 2026-11-26 to 2026-12-25, paid/timed entry and selected operating dates are correct."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
@@ -3057,14 +3053,12 @@
       "publish_at_utc": "2026-11-27T11:00:00.000Z",
       "text": "明日11月28日（土）、海雲台光祭りが18:00の点灯でスタート。入場無料、毎日18:00〜23:00、来年1月10日まで。同じ夜は広安里ドローンショー（19:00・21:00）も。会場は別エリアなので、移動時間を見込んで計画を。",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "issues": [],
-        "flags": [
-          "dated facts: event dates/hours"
-        ],
-        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
-        "verified_at": "2026-11-23T14:30:00.000Z",
-        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (official Busan City sources, 2026-11-26)",
+        "verified_at": "2026-11-26T00:15:00.000Z",
+        "note": "Confirmed against Busan City official Haeundae Light Festival calendar (https://www.busan.go.kr/eng/bsevents/1762645) and Gwangalli M Drone Light Show November notice (https://www.busan.go.kr/eng/bsnews01/1763224). Haeundae lights run 2026-11-28 to 2027-01-10, 18:00-23:00, free; Nov 28 drone shows are scheduled 19:00 and 21:00."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
@@ -3120,14 +3114,12 @@
       "publish_at_utc": "2026-11-27T23:00:00.000Z",
       "text": "Tonight in Busan (Sat, Nov 28): the Haeundae Light Festival switches on at 6 p.m. Free, lit 6–11 p.m. through January 10. Gwangalli's drone show runs at 7 and 9 p.m. the same night. They're in different districts, so leave time to travel between them.",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "issues": [],
-        "flags": [
-          "dated facts: event dates/hours"
-        ],
-        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
-        "verified_at": "2026-11-23T14:30:00.000Z",
-        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (official Busan City sources, 2026-11-26)",
+        "verified_at": "2026-11-26T00:15:00.000Z",
+        "note": "Confirmed against Busan City official Haeundae Light Festival calendar (https://www.busan.go.kr/eng/bsevents/1762645) and Gwangalli M Drone Light Show November notice (https://www.busan.go.kr/eng/bsnews01/1763224). Haeundae lights run 2026-11-28 to 2027-01-10, 18:00-23:00, free; Nov 28 drone shows are scheduled 19:00 and 21:00."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
@@ -5206,14 +5198,12 @@
       "publish_at_utc": "2026-11-26T12:00:00.000Z",
       "text": "釜山聖誕村 11/26 開幕，展期到 12/25，在電影殿堂舉辦。採付費、指定時段入場，而且不是每天都開放，出發前記得先到官方售票頁確認日期。",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "issues": [],
-        "flags": [
-          "dated facts: event dates/hours"
-        ],
-        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
-        "verified_at": "2026-11-23T14:30:00.000Z",
-        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (official Busan City sources, 2026-11-26)",
+        "verified_at": "2026-11-26T00:15:00.000Z",
+        "note": "Confirmed against Busan City official Christmas Village Busan 2026 calendar (https://www.busan.go.kr/eng/bsevents/1762667) and its official ticket link. Dates 2026-11-26 to 2026-12-25, paid/timed entry and selected operating dates are correct."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
@@ -5270,14 +5260,12 @@
       "publish_at_utc": "2026-11-27T12:00:00.000Z",
       "text": "明天 11/28（六）海雲台燈光節 18:00 點燈開幕，免費入場，每天 18:00–23:00，展期到明年 1/10。同一晚廣安里無人機秀也有 19:00、21:00 兩場，兩地不在同一區，記得預留移動時間。",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "issues": [],
-        "flags": [
-          "dated facts: event dates/hours"
-        ],
-        "verified_by": "Claude (checked against go2busan winter-lights page sources: Busan City event listings, YES24 notice, Jung-gu re-notice, Busan City drone schedule), 2026-11-23",
-        "verified_at": "2026-11-23T14:30:00.000Z",
-        "note": "No prices. Dates/hours copied from the live winter-lights guide, which cites the official notices."
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (official Busan City sources, 2026-11-26)",
+        "verified_at": "2026-11-26T00:15:00.000Z",
+        "note": "Confirmed against Busan City official Haeundae Light Festival calendar (https://www.busan.go.kr/eng/bsevents/1762645) and Gwangalli M Drone Light Show November notice (https://www.busan.go.kr/eng/bsnews01/1763224). Haeundae lights run 2026-11-28 to 2027-01-10, 18:00-23:00, free; Nov 28 drone shows are scheduled 19:00 and 21:00."
       },
       "approval": {
         "approved_by": "Tak (chat approval 2026-11-23; seasonal winter-lights set)",
