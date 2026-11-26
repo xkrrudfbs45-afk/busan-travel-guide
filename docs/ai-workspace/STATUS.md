@@ -1,3 +1,12 @@
+## 2026-11-26 21:41 KST — Hwangnyeongsan crosslink Draft PR #689
+
+- Verified main SHA: `a11d92bfcde5515be4d73f493559608b3a11a2f1` (PR #687, Japanese winter-lights copy fix, merged).
+- Draft PR #689: https://github.com/xkrrudfns45-afk/busan-travel-guide/pull/689 (branch `hwangnyeongsan-crosslinks-20261126`). Adds contextual links from the EN and zh-TW Things-to-Do hubs to the existing night-view return guides; JA hub labels the English fallback and links the existing JA taxi guide; EN/zh-TW detailed guides link to their taxi guides. No new URL.
+- Research note: `docs/ai-workspace/RESEARCH-HWANGNYEONGSAN-NIGHTVIEW-CROSSLINKS-2026-11-26.md`. Community signal is bounded: Dcard and small Reddit threads; official Visit Busan route plus KNN (10/19, 10/28) and Yonhap (11/15). 4travel/Yahoo current relevant discussion not found. No representative-demand claim.
+- Image registry entries for existing Commons assets checked; no image change. Browser crop/visual QA remains unverified.
+- Local build/full audits unavailable from this environment; exact-head CI, 360/390/1280 browser QA, custom-domain response and live `version.txt` SHA are not verified. No GA4/GSC, SNS, affiliate, merge or deployment.
+- New Japanese night-view page is deferred under owner direction #613 (new URL pause); PR #688 remains separate / Draft.
+
 ## 2026-11-26 13:35 KST — Japanese winter-lights copy QA Draft PR #686
 
 - Verified main SHA: `6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5`.
