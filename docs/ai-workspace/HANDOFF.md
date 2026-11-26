@@ -1,3 +1,10 @@
+## 2026-11-26 21:41 KST — next contributor
+
+- Review Draft PR #689: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/689, branch `hwangnyeongsan-crosslinks-20261126`. It links the existing EN/JA/zh-TW Things-to-Do night-view sections to detailed guidance/fallbacks and adds EN/zh-TW taxi-guide crosslinks. No new URL or image.
+- Research: `docs/ai-workspace/RESEARCH-HWANGNYEONGSAN-NIGHTVIEW-CROSSLINKS-2026-11-26.md`. Main baseline `a11d92bfcde5515be4d73f493559608b3a11a2f1`; #687 is merged. The JA detailed night-view counterpart is deferred while the new-guide pause (#613) is active.
+- Source-level exact replacements were checked. Local build/full audits, browser QA at 360/390/1280, image HTTP/MIME/crop checks, custom-domain response and live `version.txt` SHA were not performed. Observe exact-head CI before review.
+- PR #688 (cherry blossom guide) remains separate / Draft. No merge, deployment, analytics, affiliate or SNS changes.
+
 ## 2026-11-26 13:35 KST — next contributor
 
 - Review Draft PR #686: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/686, branch `content/ja-winter-lights-copy-qa-20261126`. It corrects one repeated Japanese Seomyeon lighting-hours caveat in the existing winter-lights hub and adds a dated research note. Issue #601.
