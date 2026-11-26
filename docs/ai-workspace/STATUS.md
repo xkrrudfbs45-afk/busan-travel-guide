@@ -1,3 +1,13 @@
+## 2026-11-26 13:35 KST — Japanese winter-lights copy QA Draft PR #686
+
+- Verified main SHA: `6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5`.
+- Draft PR #686: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/686, branch `content/ja-winter-lights-copy-qa-20261126`, base `main`. Fixes the duplicated Seomyeon daily-lighting-hours caveat in the existing Japanese winter-lights guide only; the replacement preserves the uncertainty and does not add dates or hours.
+- Existing issue #601 is addressed in this draft. Research note: `docs/ai-workspace/RESEARCH-JA-WINTER-LIGHTS-COPY-QA-2026-11-26.md`.
+- Current head SHA at initial PR creation: `a83a2903f3a614a484b4b08b59fdb96317ab75a9`. GitHub Actions `Crawl local SEO hygiene` was observed in progress at 13:35 KST; no completed CI result yet. Docs updates on the branch will change the head and require exact-head checks.
+- Community research is qualitative and bounded: Dcard clothing/wind threads, one 4travel early-winter diary, one Reddit December itinerary, Korean MBC cold-weather coverage, and a secondary weather explainer. PTT/Yahoo!知恵袋 current relevance was not established. No demand or trend claim.
+- No image, URL, title/meta, canonical, hreflang, sitemap, affiliate, GA4/GSC, SNS, merge or deployment change. Browser QA 360/390/1280, local build, live custom-domain and image HTTP/MIME/crop checks were not performed.
+- PR #681 (KTX), #682 (SNS audit), #683 (Threads fact verification), #684 (Instagram fact verification), and #685 (homepage neighborhood heading) remain separate open work; no overlap or schedule change was made here.
+
 ## 2026-11-26 05:32 KST — KTX foreign-card checkout Draft PR #681
 
 - Verified current main SHA: 6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5. PRs #669 (KTX integration cleanup), #674 (transit/taxi/winter refresh), #678 (K.Ride guidance) and #679 (winter-lights image cleanup) are merged. PR #680 remains open / Draft / unmerged.
