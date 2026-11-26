@@ -1,3 +1,10 @@
+## 2026-11-26 13:35 KST — next contributor
+
+- Review Draft PR #686: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/686, branch `content/ja-winter-lights-copy-qa-20261126`. It corrects one repeated Japanese Seomyeon lighting-hours caveat in the existing winter-lights hub and adds a dated research note. Issue #601.
+- Verified base SHA: `6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5`. Initial head `a83a2903f3a614a484b4b08b59fdb96317ab75a9`; its `Crawl local SEO hygiene` check was in progress at initial observation. Re-check the latest head and exact-head CI before review.
+- No local build, mobile/desktop browser QA, custom-domain verification, or image HTTP/crop check was performed. Do not report these as complete.
+- Keep #681 KTX and #682–#685 independent; no merge, deploy, affiliate, analytics, SNS posting or schedule changes in this pass.
+
 ## 2026-11-26 05:32 KST — next contributor handoff
 
 - Review Draft PR #681: https://github.com/xkrrudfbs45-afk/busan-travel-guide/pull/681 (branch content/ktx-foreign-card-booking-20261126). It adds foreign-card checkout and ticket-record checks to the existing EN / JA / zh-TW KTX booking pages, plus a dated research note. No new URL or image.
