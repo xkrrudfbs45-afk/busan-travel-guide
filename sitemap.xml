@@ -1880,4 +1880,25 @@
     <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-taxi-overcharge-guide/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-taxi-overcharge-guide/" />
   </url>
+  <url>
+    <loc>https://go2busan.com/guides/busan-cherry-blossoms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-cherry-blossoms/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/ja/guides/busan-cherry-blossoms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-cherry-blossoms/" />
+  </url>
+  <url>
+    <loc>https://go2busan.com/zh-tw/guides/busan-cherry-blossoms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://go2busan.com/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://go2busan.com/ja/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="zh-TW" href="https://go2busan.com/zh-tw/guides/busan-cherry-blossoms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://go2busan.com/guides/busan-cherry-blossoms/" />
+  </url>
 </urlset>
