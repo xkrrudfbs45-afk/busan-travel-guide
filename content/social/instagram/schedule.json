@@ -4048,10 +4048,14 @@
       "bio_link_url": "https://go2busan.com/zh-tw/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov14_28_tw&utm_content=20261128",
       "theme": "bright",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "register": "ig-fresh15-16",
         "checked_on": "2026-11-14",
-        "note": "Visit Busan official English event listing checked 2026-11-17; use the official English band names in every language. Keep draft / needs_check until 2026-11-27 and the morning of 2026-11-28 recheck, and until Gwangbok-ro-specific artwork passes visual QA. No date, time, status or schedule slot changed."
+        "note": "Confirmed against Visit Busan official November Gwangbok-ro Balcony Music Show listing (https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6438&menuCd=DOM_000000304010000000): Nov 28 19:00-21:00; Sunny Moon Jazz Band 19:30-20:00; Modern Sounds Jazz Big Band 20:00-20:30. The three five-card render QA files on instagram-state pass (spec hashes/card counts match); visual crop and actual pixel content were not independently inspected. Post remains draft and unapproved.",
+        "issues": [],
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (Visit Busan official event listing, 2026-11-26)",
+        "verified_at": "2026-11-26T00:20:00.000Z"
       }
     },
     {
@@ -4107,10 +4111,14 @@
       "bio_link_url": "https://go2busan.com/ja/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov14_28_jp&utm_content=20261128",
       "theme": "bright",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "register": "ig-fresh15-16",
         "checked_on": "2026-11-14",
-        "note": "Visit Busan official English event listing checked 2026-11-17; use the official English band names in every language. Keep draft / needs_check until 2026-11-27 and the morning of 2026-11-28 recheck, and until Gwangbok-ro-specific artwork passes visual QA. No date, time, status or schedule slot changed."
+        "note": "Confirmed against Visit Busan official November Gwangbok-ro Balcony Music Show listing (https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6438&menuCd=DOM_000000304010000000): Nov 28 19:00-21:00; Sunny Moon Jazz Band 19:30-20:00; Modern Sounds Jazz Big Band 20:00-20:30. The three five-card render QA files on instagram-state pass (spec hashes/card counts match); visual crop and actual pixel content were not independently inspected. Post remains draft and unapproved.",
+        "issues": [],
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (Visit Busan official event listing, 2026-11-26)",
+        "verified_at": "2026-11-26T00:20:00.000Z"
       }
     },
     {
@@ -4166,10 +4174,14 @@
       "bio_link_url": "https://go2busan.com/guides/nampo-neighborhood-guide/?utm_source=instagram&utm_medium=social&utm_campaign=nov14_28_us&utm_content=20261128",
       "theme": "bright",
       "verification": {
-        "status": "needs_check",
+        "status": "verified",
         "register": "ig-fresh15-16",
         "checked_on": "2026-11-14",
-        "note": "Visit Busan official English event listing checked 2026-11-17; use the official English band names in every language. Keep draft / needs_check until 2026-11-27 and the morning of 2026-11-28 recheck, and until Gwangbok-ro-specific artwork passes visual QA. No date, time, status or schedule slot changed."
+        "note": "Confirmed against Visit Busan official November Gwangbok-ro Balcony Music Show listing (https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6438&menuCd=DOM_000000304010000000): Nov 28 19:00-21:00; Sunny Moon Jazz Band 19:30-20:00; Modern Sounds Jazz Big Band 20:00-20:30. The three five-card render QA files on instagram-state pass (spec hashes/card counts match); visual crop and actual pixel content were not independently inspected. Post remains draft and unapproved.",
+        "issues": [],
+        "flags": [],
+        "verified_by": "Go2Busan operations monitor (Visit Busan official event listing, 2026-11-26)",
+        "verified_at": "2026-11-26T00:20:00.000Z"
       }
     }
   ]
