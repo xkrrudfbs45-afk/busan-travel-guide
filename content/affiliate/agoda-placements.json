@@ -434,6 +434,33 @@
       "title": "要訂跨年夜的住宿嗎？",
       "body": "會場附近的房間通常較早訂滿，住在步行可到的地方也能避開深夜擁擠的交通。此連結會開啟釜山市區住宿搜尋，請設定上面選好的區域，再比較步行時間、含稅總價與取消規定。",
       "button": "在 Agoda 搜尋釜山住宿"
+    },
+    {
+      "path": "guides/busan-cherry-blossoms/index.html",
+      "before": "<h2 id=\"tips\">",
+      "id": "agoda-stay-cherry-blossoms",
+      "locale": "en",
+      "title": "Planning a blossom trip?",
+      "body": "Blossom week is short, so a base near the subway gives you room to switch areas if rain moves your plans. Haeundae suits Dalmaji-gil, Gwangalli suits Namcheon-dong and Seomyeon is central for Oncheoncheon and the river parks. This link opens a general Busan hotel search; set your area and compare total price and cancellation terms.",
+      "button": "Search Busan hotels on Agoda"
+    },
+    {
+      "path": "ja/guides/busan-cherry-blossoms/index.html",
+      "before": "<h2 id=\"tips\">",
+      "id": "agoda-stay-cherry-blossoms",
+      "locale": "ja",
+      "title": "お花見の宿を探すなら",
+      "body": "桜の時期は短いので、天気で予定を変えられるよう地下鉄に近い宿が便利です。タルマジキルなら海雲台、南川洞なら広安里、温泉川や川沿いの公園には中心部の西面が便利です。このリンクは釜山全体のホテル検索なので、エリアを設定してから税込総額とキャンセル条件を比べてください。",
+      "button": "Agodaで釜山のホテルを探す"
+    },
+    {
+      "path": "zh-tw/guides/busan-cherry-blossoms/index.html",
+      "before": "<h2 id=\"tips\">",
+      "id": "agoda-stay-cherry-blossoms",
+      "locale": "zh-tw",
+      "title": "正在安排賞櫻住宿？",
+      "body": "櫻花期很短，住在地鐵站附近，遇到下雨也比較好調整行程。去迎月路可以住海雲台，去南川洞可以住廣安里，溫泉川與河岸公園則從市中心西面出發較方便。此連結會開啟釜山市區住宿搜尋，請先設定區域，再比較含稅總價與取消規定。",
+      "button": "在 Agoda 搜尋釜山住宿"
     }
   ]
 }
