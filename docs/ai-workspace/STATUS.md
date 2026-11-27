@@ -1,3 +1,10 @@
+## 2026-11-27 23:00 KST — Consolidate December events pages into winter-lights hub (Claude)
+
+- PR #726 (merged earlier today) added `/guides/busan-december-winter-events/` + `/ja/` + `/zh-tw/`, which duplicate the intent of the existing `/…/busan-winter-lights-christmas-2026/` hub and conflict with the new-URL pause (#613). The hub already covers all five events in more depth (21 operating days for Christmas Village, conflicting Street Festa end times), so no facts were moved.
+- Owner chose consolidation: the three new pages now carry a canonical to the matching hub, `noindex,follow`, no hreflang alternates, and a top notice linking to the hub. They are not added to the sitemap, search index or guide directories. No URL removed or redirected.
+- PR #727 (merged): zh-TW newspaper food picks now 37 places; owner-verified closing days for 남타이 누들 (Mon), 제대로 술한상 (Sun), 뫼밀집 (none); title/H1/meta reframed as local favourites, "many featured in media" (the 3 Go2Busan add-ons were not in 부산일보).
+- Local `sh scripts/build-static.sh` and every seo-audit.yml audit: exit 0. No analytics, affiliate, SNS or image change.
+
 ## 2026-11-26 20:30 KST — Busan cherry blossom guide (EN/JA/zh-TW) PR by Claude
 
 - New guide `/guides/busan-cherry-blossoms/` + `/ja/` + `/zh-tw/` (no existing page served "when/where to see cherry blossoms in Busan"; three-days only mentions Oncheoncheon in passing).

@@ -1,0 +1,34 @@
+/* Haeundae food guide — editorial pilot. Scoped to this page only. */
+.haeundae-food-hero{max-width:1180px;padding-top:42px;padding-bottom:28px}
+.haeundae-food-hero .breadcrumbs{font-size:12px;color:#718096;margin-bottom:24px}
+.haeundae-food-hero .eyebrow{color:#1769e0;font-size:10px;font-weight:800;letter-spacing:.16em}
+.haeundae-food-hero h1{max-width:900px;margin:0;color:#0a192f;font-family:Georgia,"Times New Roman",serif;font-size:clamp(38px,6vw,68px);font-weight:500;letter-spacing:-.045em;line-height:1.04}
+.haeundae-food-hero .article-deck{max-width:760px;margin:20px 0;color:#526174;font-size:clamp(16px,1.7vw,19px);line-height:1.75}
+.haeundae-food-hero .article-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.haeundae-food-hero .article-meta span{padding:7px 11px;border:1px solid #e2e8f0;border-radius:999px;color:#526174;font-size:11px}
+.haeundae-food-cover{max-width:1180px!important;margin-bottom:28px!important}
+.haeundae-food-cover img{max-height:500px!important;border-radius:20px!important;object-fit:cover}
+.haeundae-food-cover figcaption{max-width:850px;margin:10px auto 0!important;color:#718096!important;font-size:11px!important;line-height:1.6}
+.haeundae-food-jumps{position:sticky;top:0;z-index:20;display:flex;gap:8px;overflow-x:auto;padding:12px 0;background:rgba(255,255,255,.96);border-top:1px solid #edf0f4;border-bottom:1px solid #edf0f4;scrollbar-width:thin}
+.haeundae-food-jumps a{flex:0 0 auto;padding:8px 12px;border:1px solid #e2e8f0;border-radius:999px;color:#26384d;font-size:12px;font-weight:700;text-decoration:none}
+.haeundae-food-jumps a:hover,.haeundae-food-jumps a:focus-visible{border-color:#1769e0;color:#1769e0}
+.haeundae-food-layout{max-width:1180px;grid-template-columns:minmax(0, min(760px, 1fr)) minmax(210px,260px);gap:clamp(28px,5vw,64px);padding-top:24px}
+.haeundae-food-article{font-size:16px;line-height:1.85;color:#344256}
+.haeundae-food-article h2{margin:2.25em 0 .65em;padding-top:18px;border-top:1px solid #e7ebf0;color:#0a192f;font-family:Georgia,"Times New Roman",serif;font-size:clamp(26px,3vw,34px);font-weight:500;letter-spacing:-.025em;line-height:1.2}
+.haeundae-food-article h2:first-of-type{margin-top:1.4em}
+.haeundae-food-article p{max-width:72ch}
+.haeundae-food-article ul{padding-left:1.25em}
+.haeundae-food-article li{padding-left:3px;margin:.45em 0}
+.haeundae-food-article a{color:#145bc5;text-underline-offset:3px}
+.haeundae-food-article .callout{margin:24px 0;padding:18px 20px;border:1px solid #e1e8f0;border-left:4px solid #1769e0;border-radius:12px;background:#f8fafc}
+.haeundae-food-article .guide-faq{margin-top:42px;padding:24px;border:1px solid #e2e8f0;border-radius:16px;background:#fff}
+.haeundae-food-article .guide-faq h2{margin-top:0;border:0;padding-top:0}
+.haeundae-food-article details{padding:14px 0;border-top:1px solid #edf0f4}
+.haeundae-food-article summary{color:#0a192f;font-weight:750;cursor:pointer}
+.haeundae-food-sidebar{position:sticky;top:82px}
+.haeundae-food-sidebar .sidebar-card{padding:22px;border:1px solid #e2e8f0;border-radius:16px;background:#fff;box-shadow:0 12px 32px rgba(10,25,47,.06)}
+.haeundae-food-sidebar h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:500;line-height:1.2}
+.haeundae-food-sidebar li{margin:9px 0;color:#526174;font-size:13px}
+@media(max-width:820px){.haeundae-food-layout{display:block}.haeundae-food-sidebar{position:static;margin-top:28px}.haeundae-food-hero{padding-top:28px}.haeundae-food-cover img{max-height:340px!important}.haeundae-food-jumps{margin-inline:0;padding-inline:20px}}
+@media(max-width:480px){.haeundae-food-hero h1{font-size:40px}.haeundae-food-cover{padding-inline:0!important}.haeundae-food-cover img{border-radius:0!important}.haeundae-food-article{font-size:15px}.haeundae-food-article .guide-faq{padding:18px}}
+@media(prefers-reduced-motion:reduce){.haeundae-food-jumps{scroll-behavior:auto}}
