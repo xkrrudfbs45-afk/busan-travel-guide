@@ -1,3 +1,11 @@
+## 2026-11-27 23:30 KST — Food wording, neighborhood picks, December drone programme (Claude, owner-requested)
+
+- PR #729: zh-TW food-picks title/H1/meta use 道地美食 / 在地人常去 instead of 真・在地美食 (native-phrasing review).
+- PR #730: EN/JA/zh-TW neighborhood food guides add the media-featured picks from PR #727 (Haeundae, Dongnae, Nampo; EN also Namcheon). zh-TW stale "28家" anchors updated.
+- This PR: winter-lights hub (EN/JA/zh-TW) now lists the official December Gwangalli drone programme (gwangallimdrone.co.kr notice 2026-11-26): Dec 5 Secrets of the Deep, Dec 12 Frozen Kingdom: The Lost Sun, Dec 19 Anpanman's Winter Vacation in Gwangalli, Dec 26 Santa & Friends: Mission Complete!, Dec 31 (Thu) 2027 Countdown (time not stated). A Gemini summary had these titles shifted by a week; use the official notice only.
+- Archive inventory of the 부슐랭 board: `RESEARCH-NEWSPAPER-FOOD-ARCHIVE-2026-11-27.md` (34 bylined posts, on-site status, next candidates).
+- Each branch: local build + every seo-audit.yml audit pass.
+
 ## 2026-11-27 23:00 KST — Consolidate December events pages into winter-lights hub (Claude)
 
 - PR #726 (merged earlier today) added `/guides/busan-december-winter-events/` + `/ja/` + `/zh-tw/`, which duplicate the intent of the existing `/…/busan-winter-lights-christmas-2026/` hub and conflict with the new-URL pause (#613). The hub already covers all five events in more depth (21 operating days for Christmas Village, conflicting Street Festa end times), so no facts were moved.
