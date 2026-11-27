@@ -1791,6 +1791,17 @@
       "reply_container_created_at": "2026-11-26T23:00:47.841Z",
       "reply_id": "18157967368489129",
       "reply_error": null
+    },
+    "d23-tw-1": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-27T00:00:45.403Z",
+      "creation_id": "18079605185504979",
+      "container_created_at": "2026-11-27T00:00:45.403Z",
+      "thread_id": "18351863188249583",
+      "permalink": "https://www.threads.com/@go2busan.tw/post/DgOV-7zm6ln",
+      "published_at": "2026-11-27T00:00:45.403Z",
+      "last_error": null
     }
   }
 }
