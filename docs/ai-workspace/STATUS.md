@@ -1,3 +1,12 @@
+## 2026-11-26 20:30 KST — Busan cherry blossom guide (EN/JA/zh-TW) PR by Claude
+
+- New guide `/guides/busan-cherry-blossoms/` + `/ja/` + `/zh-tw/` (no existing page served "when/where to see cherry blossoms in Busan"; three-days only mentions Oncheoncheon in passing).
+- Facts only from Busan City sources: 2023 spring blossom map (spots, bloom ~24 March) and the 2026 Nakdonggang Riverside Cherry Blossom Festival listing (3–5 April 2026, Daejeo Ecological Park, Line 3 Gangseo-gu Office Exit 1). 2027 bloom/festival dates stated as not yet announced; no prices, hours or visit claims.
+- Image: Commons `Cherry_Blossoms_Path_on_Hwangnyeongsan_Mountain_(황령산).jpg` (Dionitius Jonathan, CC BY-SA 3.0, 2017-04-08) registered in image-credits.json.
+- Added search-index (3), sitemap (3 with reciprocal hreflang), guides index links (3), Agoda stay CTA `agoda-stay-cherry-blossoms` (3).
+- Local build + all seo-audit.yml audits fail=0, social-content --self-test OK; overflow 360/390/1280 OK on all 3 pages.
+- Follow-up: add 2027 KMA forecast and district festival dates when published (Feb–Mar 2027).
+
 ## 2026-11-26 13:35 KST — Japanese winter-lights copy QA Draft PR #686
 
 - Verified main SHA: `6fbc38d98d8d39fd7dbf59270c9c2d28d6a37bd5`.

@@ -1496,6 +1496,20 @@
       "checked_on": "2026-11-23",
       "status": "verified",
       "note": "Wikimedia Commons record confirms a photograph titled Busan's capsule train, taken 18 May 2024 by WANGYIFAN2024 and released under CC0 1.0. Used as a second Haeundae Sky Capsule visual; distinct from the 29 April 2026 photo by VN.NguyenDucDuy."
+    },
+    {
+      "source": "wikimedia",
+      "file": "Cherry_Blossoms_Path_on_Hwangnyeongsan_Mountain_(황령산).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cherry_Blossoms_Path_on_Hwangnyeongsan_Mountain_(%ED%99%A9%EB%A0%B9%EC%82%B0).jpg",
+      "author": "Dionitius Jonathan",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "commercial_use": true,
+      "attribution_required": true,
+      "modified": "resized by Wikimedia Special:FilePath (?width=1400/1600)",
+      "checked_on": "2026-11-26",
+      "status": "verified",
+      "note": "Commons (checked via API 2026-11-26): cherry blossom path on Hwangnyeongsan Mountain, Busan, taken 8 April 2017 by Dionitius Jonathan; CC BY-SA 3.0; 3992x2992. Used on the Busan cherry blossom guide (EN/JA/zh-TW) as a past-season reference photo, not a 2027 forecast."
     }
   ]
 }
