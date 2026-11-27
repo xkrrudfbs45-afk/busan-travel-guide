@@ -1836,6 +1836,17 @@
       "reply_container_created_at": "2026-11-27T12:00:42.427Z",
       "reply_id": "18145831123717752",
       "reply_error": null
+    },
+    "d24-us-1": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-27T13:00:43.979Z",
+      "creation_id": "18049896257656190",
+      "container_created_at": "2026-11-27T13:00:43.979Z",
+      "thread_id": "18105274382179064",
+      "permalink": "https://www.threads.com/@go2busan.us/post/DgPvPobFCls",
+      "published_at": "2026-11-27T13:00:43.979Z",
+      "last_error": null
     }
   }
 }
