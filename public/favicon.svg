@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
-<title id="title">Go2Busan</title>
-<rect width="64" height="64" rx="16" fill="#f8fbff"/>
-<path d="M8 37 Q20 29 32 37 T56 37" fill="none" stroke="#1684e8" stroke-width="5" stroke-linecap="round"/>
-<path d="M8 47 Q20 39 32 47 T56 47" fill="none" stroke="#80c9f5" stroke-width="4" stroke-linecap="round"/>
-<path d="M10 30 Q32 8 54 30" fill="none" stroke="#f97362" stroke-width="4" stroke-linecap="round"/>
-<path d="M10 30V36 M54 30V36 M18 25H46" fill="none" stroke="#f97362" stroke-width="3" stroke-linecap="round"/>
-<path d="M19 15 Q25 8 31 15 Q37 8 43 15" fill="none" stroke="#123f87" stroke-width="3.5" stroke-linecap="round"/>
-</svg>
