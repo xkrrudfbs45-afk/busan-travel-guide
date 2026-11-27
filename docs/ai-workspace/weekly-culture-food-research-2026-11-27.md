@@ -42,21 +42,22 @@
 ## Restaurant archive restoration and verification
 
 ### Historical sources
-- `부산을 맛보다` (2011): public book listing and contents describe broad regional and dish categories; discovery source only, not a current recommendation list.
-- `부산을 맛보다 두 번째 이야기` (2016): publicly indexed contents provide candidate leads. The exact earlier 43-candidate list and prior 44-row tracker were not recovered from accessible repo/library search. The CSV in this PR is a **new reconstruction**, not a claim to recover the exact original list.
+- `부산을 맛보다` (2011): broad regional/dish categories, discovery source only. Book listing: https://m.yes24.com/goods/detail/5252555
+- `부산을 맛보다 두 번째 이야기` (2016): publicly indexed contents provide candidate leads. Book listing: https://www.yes24.com/product/goods/33173689. The exact earlier 43-candidate list and prior 44-row tracker were not recovered from accessible repo/library search. The CSV in this PR is a **new reconstruction**, not a claim to recover the exact original list.
 - `음식만사` columns/articles were searched; only publicly accessible titles/snippets were used. No article text was copied.
 
 ### Current verification wave — 2026-11-27
 | Candidate | Current listing / address / menu / price | Status |
 |---|---|---|
-| Mipo Kkeutjip | 77 Dalmaji-gil 62beon-gil, Haeundae-gu; 10:00–01:00 (last order 00:00); Mipo Special/Kkeutjip Special, grilled clams, eel; online price snapshot ₩60,000/₩80,000 per person | Listing found; price snapshot is not official. Hold until venue/menu and image license are checked. |
-| Yeije | 29 Haeundaehaebyeon-ro 298beon-gil; lunch ₩39,000–49,000; courses ₩69,000–150,000; 12:00–15:00 / 17:30–21:20 | Official Visit Busan listing found. Not a firsthand visit. Image reuse license unverified. |
-| Kukje Milmyeon | 23-6 Jungang-daero 1235beon-gil, Yeonje-gu; mul/bibim; online price snapshot ₩10,000/₩11,000; listing hours 10:00–20:00 | Listing found; price snapshot not official. Hold pending menu/photo rights. |
-| Original Gaegeum Milmyeon | 88-8 Gayagongwon-ro 14beon-gil, Busanjin-gu; mul/bibim and mandu; online price snapshot ₩10,000/₩11,000 and mandu about ₩5,000 | Listing found; price snapshot not official. Hold pending menu/photo rights. |
+| Mipo Kkeutjip | 77 Dalmaji-gil 62beon-gil, Haeundae-gu; 10:00–01:00 (last order 00:00); Mipo Special/Kkeutjip Special, grilled clams, eel; online price snapshot ₩60,000/₩80,000 per person | Listing/search source: https://www.google.com/maps/search/?api=1&query=Mipo+Kkeutjip+Busan. Price snapshot is not official. Hold until venue/menu and image license are checked. |
+| Yeije | 29 Haeundaehaebyeon-ro 298beon-gil; lunch ₩39,000–49,000; courses ₩69,000–150,000; 12:00–15:00 / 17:30–21:20 | Official Visit Busan listing found; secondary listing: https://www.busantaste.com/en/r/yeije. Not a firsthand visit. Image reuse license unverified. |
+| Kukje Milmyeon | 23-6 Jungang-daero 1235beon-gil, Yeonje-gu; mul/bibim; online price snapshot ₩10,000/₩11,000; listing hours 10:00–20:00 | Secondary listing: https://www.busantaste.com/en/r/gukje-milmyeon-main-branch. Price snapshot not official. Hold pending menu/photo rights. |
+| Original Gaegeum Milmyeon | 88-8 Gayagongwon-ro 14beon-gil, Busanjin-gu; mul/bibim and mandu; online price snapshot ₩10,000/₩11,000 and mandu about ₩5,000 | Secondary listing: https://www.busantaste.com/en/r/original-gaegeum-milmyeon. Price snapshot not official. Hold pending menu/photo rights. |
 
 - **Closed/ambiguous leads:** Kitchen Dongbaek appears closed in a current listing and is excluded. Exact branch match for Seogojip Andong Galbi is unresolved.
 - **Supplemental leads:** Dongrae Milmyeon, Yeongdong Milmyeon, Anmok, Hapcheon Illyu Dwaeji Gukbap, Jeongjitgan, 18 Beon Wandangjip, Nampo Jjukkumi, Miso Odeng, Baekgwang Sanghoe, Gijang Kkeutjip, Hwangong Fishcake, Bujeon Market and Gijang Market.
-- The 44-row CSV is an archival working tracker. Forty rows remain current-status unverified. They are not recommendations and must not be published until address, menu, price, hours and image rights are checked.
+- The 44-row CSV now includes source URLs (historical book listing for unverified leads; current listing/map sources for the four leads with data). Forty rows remain current-status unverified. They are not recommendations and must not be published until address, menu, price, hours and image rights are checked.
+- The 2016 source link is a historical table-of-contents lead only; the 2011 listing is broader category discovery. The four current source links are Google Maps search (Mipo), Busantaste/Google Maps (Yeije, Kukje and Gaegeum). Busantaste is an independent guide, not an official city source.
 
 ### Existing food-page audit
 - `zh-tw/guides/busan-newspaper-food-picks/` has 28 entries, map links, area-based route notes and source/disclaimer language. Its restaurant information was last checked 2026-11-11, now stale for current price/hours/operation.
