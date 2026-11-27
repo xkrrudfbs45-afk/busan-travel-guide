@@ -12,7 +12,7 @@
 | Haeundae Light Festival | Nov 28 2026–Jan 10 2027; 18:00–23:00; free; opening Nov 28 18:00 | https://www.busan.go.kr/eng/bsevents/1762645 ; https://www.busan.go.kr/eng/bsnews01/1765134 |
 | Millak Luce Festa | Nov 14 2026–Jan 10 2027; daily 18:00–23:30; free | https://www.busan.go.kr/eng/bsevents/1762643 |
 | Seomyeon Light Festival | Oct 29 2026–Feb 14 2027; 18:00–24:00; ticket price not listed | https://www.busan.go.kr/eng/bsevents/1762644 |
-| Christmas Village Busan | Nov 26–Dec 25; Thu–Sun through Dec 20, daily Dec 21–25; weekday 16:00–22:00, weekend 11:00–22:00; regular ticket snapshot ₩5,900 weekday/weekend daytime, ₩7,900 weekend evening, ₩14,900 Dec 24–25; under 36 months free | https://www.busan.go.kr/eng/bsevents/1762667 ; https://www.marketchango.com/CHRISTMAS_VILLAGE_BUSAN_2026 |
+| Christmas Village Busan | Nov 26–Dec 25; Thu–Sun through Dec 20, daily Dec 21–25; weekday 16:00–22:00, weekend 11:00–22:00; ticket range ₩5,900–₩14,900; under 36 months free; weekend entry slots at 11:00 and 16:00; city notice confirms date pattern and ticket range | https://www.busan.go.kr/eng/bsevents/1762667 ; https://www.marketchango.com/CHRISTMAS_VILLAGE_BUSAN_2026 ; https://www.busan.go.kr/eng/index/bsnews01/1763769 |
 | BICBF | Dec 3–6, BEXCO Hall 2; Dec 3–5 10:00–18:00, Dec 6 10:00–17:00; last entry 30 min before closing; free with marketing consent, otherwise ₩10,000; under-14 free; stage-program/accessibility inquiries by email | https://bicbf.or.kr/en/page/61 ; https://bicbf.or.kr/en/page/33 |
 | Gwangbok-ro Street Festa | Dec 5, 16:00–22:00; Gwangbok-ro; live music, parade-style party and craft market; ticketing not listed | https://www.busan.go.kr/eng/index/bsnews01/1763224 |
 | The Gardens of Joseon | Oct 13–Dec 13; Busan Museum; 09:00–18:00, Mondays closed; free; English audio guide | https://www.busan.go.kr/eng/bsevents/1758965 |
@@ -26,7 +26,7 @@
 - Haeundae: light festival as an evening walk after an earlier meal.
 - Suyeong: Millak Luce Festa and F1963 are separate stops; check transfers.
 - Seomyeon: lights after dinner, subway onward.
-- Balcony Music Show Dec 12 and 19 (18:00–21:00) is just beyond this edition; teaser only, verify in the next weekly update.
+- Balcony Music Show Dec 12 and 19 (18:00–21:00) is just beyond this edition; official Visit Busan schedule: https://www.visitbusan.net/schedule/view.do?boardId=BBS_0000010&dataSid=6483&menuCd=DOM_000000304010000000; teaser only, verify in the next weekly update.
 
 ## Public community research — search only
 - **Taiwan / Dcard:** Public search surfaced recent multi-day itinerary posts, including 4-day/3-night and longer Busan planning. The limited sample discusses food stops, markets, transit and neighborhood sequencing; anecdotal, not a demand estimate.
