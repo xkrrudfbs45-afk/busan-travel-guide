@@ -1,3 +1,8 @@
+## 2026-11-27 23:30 KST — next contributor
+
+- Next food additions: start from the "Next candidates" list in `RESEARCH-NEWSPAPER-FOOD-ARCHIVE-2026-11-27.md`; verify current status first. Add to existing pages only (#613).
+- Dec 31 drone "2027 Countdown" showtime is not in the December notice; update the winter-lights hub when the special notice appears.
+
 ## 2026-11-27 23:00 KST — next contributor
 
 - Do not link `/…/busan-december-winter-events/` from directories, sitemap or search index; they canonicalize to `/…/busan-winter-lights-christmas-2026/`. Put any new December event facts into the hub instead.
