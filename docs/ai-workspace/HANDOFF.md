@@ -1,3 +1,8 @@
+## 2026-11-27 23:00 KST — next contributor
+
+- Do not link `/…/busan-december-winter-events/` from directories, sitemap or search index; they canonicalize to `/…/busan-winter-lights-christmas-2026/`. Put any new December event facts into the hub instead.
+- ChatGPT's GitHub calls failed with 404 because it used owner `xkrrudfks45-afk`; the correct owner is `xkrrudfbs45-afk`.
+
 ## 2026-11-26 20:30 KST — next contributor
 
 - Cherry blossom guide PR (EN/JA/zh-TW) opened by Claude. When the 2027 KMA bloom forecast or Busan district festival notices appear (usually Feb–Mar), update the "When" and "Festival dates" sections and the FAQ in all three languages together.
