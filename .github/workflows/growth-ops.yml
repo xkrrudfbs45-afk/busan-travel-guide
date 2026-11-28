@@ -3,7 +3,7 @@ name: Growth ops (4-hourly scan)
 # Every 4 hours (UTC 00,04,08,12,16,20 = KST 09,13,17,21,01,05):
 #   scan   - build the site, run the audit suite, technical SEO + affiliate + coverage scan,
 #            live-site checks, social publish logs (read-only, no Meta API calls),
-#            Search Console / GA4 when credentials exist. Posts the report to the
+#            community/official-source research via optional autopilot; GA4/GSC are handled by the daily analytics task. Posts the report to the
 #            open issue labelled "growth-log".
 #   autopilot (optional, off by default) - when repository variable GROWTH_AUTOPILOT == 'true'
 #            and secret CLAUDE_CODE_OAUTH_TOKEN exist, Claude picks ONE item from the report and
@@ -61,10 +61,7 @@ jobs:
         id: scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
-          GSC_PROPERTY: ${{ vars.GSC_PROPERTY }}
-          GA4_PROPERTY_ID: ${{ vars.GA4_PROPERTY_ID }}
-        run: |
+                  run: |
           node scripts/growth/scan.mjs --public public --out growth-report
           cat growth-report/report.md >> "$GITHUB_STEP_SUMMARY"
           echo "priorities=$(node -e 'console.log(require("./growth-report/report.json").priorities.length)')" >> "$GITHUB_OUTPUT"
@@ -148,7 +145,9 @@ jobs:
             docs/ai-workspace/WORK-DIVISION-CHATGPT-CLAUDE.md, docs/ai-workspace/STATUS.md and growth-report/report.md.
             Run `gh pr list --state open` and skip anything an open PR already covers.
             Pick exactly ONE item from "Next priorities" with the best evidence and smallest risk, and make the edit with
-            the Edit/Write tools. Technical items (metadata, schema, internal links, affiliate CTA data in
+            the Edit/Write tools. Prioritize community discussion and official Busan/municipal/museum/operator notices
+            to identify demand, then verify facts with primary sources. Do not query, read, or use GA4 or Search Console;
+            those are handled by the daily analytics automation. Technical items (metadata, schema, internal links, affiliate CTA data in
             content/affiliate/*.json, CSS/JS, build scripts) are your lane. Content items (new page or body text): write a
             draft only if every fact can be cited to an official or primary source you actually opened; never claim a visit.
             Do NOT run git commands that change state, the build, or create PRs: the workflow builds, runs every audit,
