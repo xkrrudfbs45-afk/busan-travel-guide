@@ -72,7 +72,7 @@ All localized candidate copy remains conditional and is not posted to the public
 The existing weekly guide already covers Nov 28–Dec 11, including the Dec 3–6 BICBF, Dec 5 Gwangbok-ro Street Festa, Dec 6 marathon travel impact, winter lights, exhibitions and Dec 11 MoCA reopening/concert. The same page now includes a Dec 12 supplement, not a new URL:
 - Balcony Music Show: Gwangbok-ro, 18:00–21:00, free (Visit Busan).
 - Gwangalli M Drone Light Show: 19:00/21:00, about 12 minutes, free; second-Saturday drone-only format expected; theme unconfirmed; weather/technical cancellations possible.
-- Cho Yong-pil & Great Birth: Dec 12 18:00 / Dec 13 17:00, BEXCO Exhibition Center 1, KRW 110,000–176,000, ages 7+, 130 min; YES24 notice.
+- Cho Yong-pil & Great Birth: Dec 12 18:00 / Dec 13 17:00, BEXCO Exhibition Center 1, KRW 110,000–176,000, ages 8+, 130 min; YES24 notice.
 - Dynamic Duo: Dec 12 18:00, KBS Busan Hall, KRW 143,000, ages 7+; NOL World.
 - Baek Ji-young: Dec 12 18:00, Busan Citizens Hall Grand Theater, KRW 121,000–165,000, ages 8+, 120 min; NOL World.
 - Kim Na-young: Dec 12 18:00, Sohyang Theater Woori Bank Hall, KRW 132,000–154,000, ages 7+, 120 min; YES24 notice.
