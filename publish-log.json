@@ -1886,6 +1886,17 @@
       "permalink": "https://www.threads.com/@go2busan.tw/post/DgQ6xaSFDEr",
       "published_at": "2026-11-28T00:00:42.181Z",
       "last_error": null
+    },
+    "d25-jp-2": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-28T11:00:45.960Z",
+      "creation_id": "18015971483796884",
+      "container_created_at": "2026-11-28T11:00:45.960Z",
+      "thread_id": "18131663902857345",
+      "permalink": "https://www.threads.com/@go2busan.jp/post/DgSGT3uFSHj",
+      "published_at": "2026-11-28T11:00:45.960Z",
+      "last_error": null
     }
   }
 }
