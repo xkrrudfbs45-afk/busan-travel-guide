@@ -36,7 +36,7 @@ Checked: 2026-11-28 KST. Docs-only research package; no restaurant images, publi
 - **Korean public sources:** current listing pages were accessible for several candidates; no independent multi-post/comment cluster for the exact candidate set was verified. Naver Blog access was blocked by robots; no bypass attempted. Candidate-specific social popularity is not inferred.
 
 ### 6. Editorial framing
-Use the label **Go2Busan editorial research shortlist**. Do not use 박종호 기자, 부산일보 official recommendation, firsthand review, personal visit, rank, or endorsement wording on the public page. Historical media mentions/books are discovery sources only. Current business status, menu/prices and photos must be separately verified.
+Use the label **Go2Busan editorial research shortlist**. Do not use any reporter name, 부산일보 official recommendation, firsthand review, personal visit, rank, or endorsement wording on the public page. Historical media mentions/books are discovery sources only. Current business status, menu/prices and photos must be separately verified.
 
 ### 7. Conditional localized copy
 **zh-TW headline draft:** 釜山在地美食候選｜市場小吃、烤牛雜與季節海鮮
