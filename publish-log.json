@@ -1897,6 +1897,17 @@
       "permalink": "https://www.threads.com/@go2busan.jp/post/DgSGT3uFSHj",
       "published_at": "2026-11-28T11:00:45.960Z",
       "last_error": null
+    },
+    "d24-tw-2": {
+      "status": "published",
+      "attempts": 1,
+      "last_attempt_at": "2026-11-28T12:00:45.120Z",
+      "creation_id": "18080020547504979",
+      "container_created_at": "2026-11-28T12:00:45.120Z",
+      "thread_id": "18456288949123576",
+      "permalink": "https://www.threads.com/@go2busan.tw/post/DgSNLPpIC--",
+      "published_at": "2026-11-28T12:00:45.120Z",
+      "last_error": null
     }
   }
 }
