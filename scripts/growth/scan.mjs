@@ -3,10 +3,9 @@
 // Usage: node scripts/growth/scan.mjs [--public public] [--out growth-report] [--offline]
 // Writes <out>/report.md and <out>/report.json. Never prints secret values.
 // Social: reads only the state branches already fetched by the workflow (no Instagram/Threads API calls).
-// Search Console / GA4: queried only when GSC_SERVICE_ACCOUNT_JSON (+ GA4_PROPERTY_ID) are set; otherwise reported as "no access".
+// Analytics: intentionally skipped; daily analytics automation owns GSC/GA4.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, statSync } from "node:fs";
 import { execFileSync, spawnSync } from "node:child_process";
-import { createSign } from "node:crypto";
 import { join, relative } from "node:path";
 
 const arg = (k, d) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : d; };
@@ -209,52 +208,9 @@ await asec("Live site", async () => {
   md.push("\n### Live site", ...out);
 });
 
-// ---------- 7. Search Console + GA4 (optional) ----------
-async function googleToken(scope) {
-  const sa = JSON.parse(process.env.GSC_SERVICE_ACCOUNT_JSON);
-  const now = Math.floor(Date.now() / 1000);
-  const b64 = (o) => Buffer.from(JSON.stringify(o)).toString("base64url");
-  const unsigned = `${b64({ alg: "RS256", typ: "JWT" })}.${b64({ iss: sa.client_email, scope, aud: "https://oauth2.googleapis.com/token", iat: now, exp: now + 3600 })}`;
-  const sig = createSign("RSA-SHA256").update(unsigned).sign(sa.private_key, "base64url");
-  const r = await fetch("https://oauth2.googleapis.com/token", { method: "POST", headers: { "content-type": "application/x-www-form-urlencoded" }, body: `grant_type=urn:ietf:params:oauth:grant-type:jwt-bearer&assertion=${unsigned}.${sig}` });
-  const j = await r.json(); if (!j.access_token) throw new Error(`token request failed (${r.status})`); return j.access_token;
-}
-const day = (n) => new Date(Date.now() - n * 864e5).toISOString().slice(0, 10);
-await asec("Search Console", async () => {
-  if (!process.env.GSC_SERVICE_ACCOUNT_JSON) { md.push("\n### Search Console", "- No access: secret `GSC_SERVICE_ACCOUNT_JSON` is not set. Numbers are not estimated."); report.sections.gsc = "no-access"; return; }
-  const tok = await googleToken("https://www.googleapis.com/auth/webmasters.readonly");
-  const prop = encodeURIComponent(process.env.GSC_PROPERTY || "sc-domain:go2busan.com");
-  const q = async (startDate, endDate, dimensions, rowLimit = 25) => {
-    const r = await fetch(`https://www.googleapis.com/webmasters/v3/sites/${prop}/searchAnalytics/query`, { method: "POST", headers: { authorization: `Bearer ${tok}`, "content-type": "application/json" }, body: JSON.stringify({ startDate, endDate, dimensions, rowLimit }) });
-    if (!r.ok) throw new Error(`GSC ${r.status}`); return (await r.json()).rows || [];
-  };
-  // GSC data lags ~2-3 days: compare the latest 7 complete days with the 7 before.
-  const cur = await q(day(9), day(3), ["country"], 250), prev = await q(day(16), day(10), ["country"], 250);
-  cur.sort((a, b) => b.impressions - a.impressions);
-  const pm = Object.fromEntries(prev.map((r) => [r.keys[0], r]));
-  const tot = (rows) => rows.reduce((a, r) => ({ c: a.c + r.clicks, i: a.i + r.impressions }), { c: 0, i: 0 });
-  const T = tot(cur), P = tot(prev);
-  const row = (r) => `${r.keys[0]}: ${r.clicks} clicks / ${r.impressions} impr / CTR ${(r.ctr * 100).toFixed(1)}% / pos ${r.position.toFixed(1)} (prev ${pm[r.keys[0]]?.impressions ?? 0} impr, ${pm[r.keys[0]]?.clicks ?? 0} clicks)`;
-  const MKT = { twn: "Taiwan", usa: "US", jpn: "Japan" };
-  const market = Object.entries(MKT).map(([k, n]) => { const r = cur.find((x) => x.keys[0] === k); const p = pm[k]; return `${n} ${r ? `${r.clicks} clicks / ${r.impressions} impr / pos ${r.position.toFixed(1)}` : "0 impr"} (prev ${p ? `${p.clicks} / ${p.impressions}` : "0 / 0"})`; });
-  const pagesRows = await q(day(9), day(3), ["page"], 200);
-  const lowCtr = pagesRows.filter((r) => r.impressions >= 30 && r.ctr < 0.02).sort((a, b) => b.impressions - a.impressions).slice(0, 5);
-  md.push("\n### Search Console", `- Window ${day(9)}..${day(3)} vs ${day(16)}..${day(10)} · total ${T.c} clicks / ${T.i} impr (prev ${P.c} / ${P.i})`, `- Target markets: ${market.join(" · ")}`, ...cur.slice(0, 6).map((r) => `- ${row(r)}`), lowCtr.length ? `- High impressions, CTR < 2%: ${lowCtr.map((r) => `${r.keys[0].replace(SITE, "")} (${r.impressions})`).join(", ")}` : "- No page with ≥30 impressions and CTR < 2%");
-  for (const r of lowCtr.slice(0, 2)) report.priorities.push(`P1 CTR: title/description test for ${r.keys[0].replace(SITE, "")} (${r.impressions} impr, CTR ${(r.ctr * 100).toFixed(1)}%)`);
-  report.sections.gsc = { total: T, prev_total: P, countries: cur.slice(0, 20).map((r) => ({ c: r.keys[0], clicks: r.clicks, impressions: r.impressions })) };
-});
-await asec("GA4", async () => {
-  if (!process.env.GSC_SERVICE_ACCOUNT_JSON || !process.env.GA4_PROPERTY_ID) { md.push("\n### GA4", "- No access: `GSC_SERVICE_ACCOUNT_JSON` secret and `GA4_PROPERTY_ID` variable are required. Numbers are not estimated."); report.sections.ga4 = "no-access"; return; }
-  const tok = await googleToken("https://www.googleapis.com/auth/analytics.readonly");
-  const run = async (body) => { const r = await fetch(`https://analyticsdata.googleapis.com/v1beta/properties/${process.env.GA4_PROPERTY_ID}:runReport`, { method: "POST", headers: { authorization: `Bearer ${tok}`, "content-type": "application/json" }, body: JSON.stringify(body) }); if (!r.ok) throw new Error(`GA4 ${r.status}`); return (await r.json()).rows || []; };
-  const range = [{ startDate: "7daysAgo", endDate: "yesterday" }];
-  const byCountry = await run({ dateRanges: range, dimensions: [{ name: "country" }], metrics: [{ name: "sessions" }, { name: "totalUsers" }, { name: "newUsers" }, { name: "engagedSessions" }], orderBys: [{ metric: { metricName: "sessions" }, desc: true }], limit: 8 });
-  const bySource = await run({ dateRanges: range, dimensions: [{ name: "sessionSourceMedium" }], metrics: [{ name: "sessions" }], orderBys: [{ metric: { metricName: "sessions" }, desc: true }], limit: 6 });
-  const aff = await run({ dateRanges: range, dimensions: [{ name: "eventName" }, { name: "country" }], metrics: [{ name: "eventCount" }], dimensionFilter: { filter: { fieldName: "eventName", inListFilter: { values: ["affiliate_click", "affiliate_cta_view", "partner_outbound_click"] } } }, limit: 20 });
-  const v = (r, i) => r.metricValues[i].value;
-  md.push("\n### GA4 (last 7 days; consented visitors only — the opt-in banner means most foreign visits are not counted, and owner/QA test visits are included)", ...byCountry.map((r) => `- ${r.dimensionValues[0].value}: ${v(r, 0)} sessions / ${v(r, 1)} users / ${v(r, 2)} new / ${v(r, 3)} engaged`), bySource.length ? `- Sources: ${bySource.map((r) => `${r.dimensionValues[0].value} ${v(r, 0)}`).join(" · ")}` : "- Sources: none", aff.length ? `- Affiliate events: ${aff.map((r) => `${r.dimensionValues[0].value} ${r.dimensionValues[1].value} ${v(r, 0)}`).join(" · ")}` : "- Affiliate events: none recorded", "- Clicks are not bookings; partner bookings/commission need the Klook/Agoda partner dashboards.");
-  report.sections.ga4 = { countries: byCountry.length, affiliate_rows: aff.length };
-});
+// ---------- 7. Analytics role separation ----------
+report.sections.analytics = "skipped-by-design";
+md.push("\\n### Analytics", "- Skipped by design: GA4/GSC are handled by the daily analytics task. This 4-hour scan does not read analytics credentials or query those APIs.");
 
 // ---------- 8. GitHub queue ----------
 await asec("GitHub queue", async () => {
