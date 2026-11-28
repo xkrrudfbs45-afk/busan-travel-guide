@@ -85,7 +85,7 @@ Ticket inventory, foreign-card/ID requirements, delivery/pickup and cancellation
 - **Japan 4travel:** Nov 13–16, 2026 trip report is a food-walk/B-grade food trip around Nampo and Yeonsan; another Sep 28–30 report notes seafood, missed milmyeon/pork soup and food itinerary. Neither validates this candidate batch.
 - **Yahoo!知恵袋, Reddit, Naver, TheQoo, Clien and DCInside:** no fresh candidate-specific indexed source with enough context to corroborate these names in this pass. This is a search limitation, not proof of no demand. Earlier Reddit public threads from wave 9 remain separately recorded.
 - **Competitor benchmark:** Busan.net's current monthly event page combines event dates, exhibition listings and a transport-impact guide. The Go2Busan weekly page keeps route-by-area planning, ticket prices, foreign-access caveats and official links; wording/content was not copied.
-- **QA:** source URLs and status snapshots are recorded; no image rights were cleared. The static edits are in a Draft PR. Local build, browser QA at 360/390/1280, visual image/LCP/CLS checks and custom-domain verification were not performed. CI status will be checked after PR creation.
+- **QA:** source URLs and status snapshots are recorded; no image rights were cleared. GitHub Actions Technical SEO audit #2732 passed on the latest verified head (build + dependency-free audit). The separate Growth Ops run #89 failed with zero jobs listed; the existing `.github/workflows/growth-ops.yml` has a misindented `run` under `env` and was not changed in this PR. Browser QA at 360/390/1280, visual image/LCP/CLS checks and custom-domain verification were not performed.
 
 ## Source links
 - KTO-derived Jinpum listing: https://festival.ttpk.co.kr/places/2844643
