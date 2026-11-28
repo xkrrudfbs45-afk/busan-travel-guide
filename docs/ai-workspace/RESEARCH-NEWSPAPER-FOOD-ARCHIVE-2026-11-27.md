@@ -1,6 +1,6 @@
 # 부슐랭 archive inventory (onna.busan.com board 68) — 2026-11-27
 
-Source: `https://onna.busan.com/html/board/?board_idx=68` (73 posts, read 2026-11-27 KST). 34 posts carry the 박종호 byline; the rest are by other reporters (김수빈, 김동우 등) and are out of scope.
+Source: `https://onna.busan.com/html/board/?board_idx=68` (73 posts, read 2026-11-27 KST). 34 posts from the in-scope series were reviewed; posts from other series are out of scope. Do not record reporter names.
 Do **not** name the reporter on public pages; describe these as "featured in local media" and keep the article link as the source.
 
 "On site" = already a card on `/zh-tw/guides/busan-newspaper-food-picks/` (37 places after PR #727).
